@@ -1,0 +1,402 @@
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> . 
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/2002/07/owl#versionInfo> "1.2.0"^^<http://www.w3.org/2001/XMLSchema#string> . 
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/2002/07/owl#ontologyIRI> <http://id.loc.gov/ontologies/bflc/> . 
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/2002/07/owl#versionIRI> <http://id.loc.gov/ontologies/bflc-1-2-0/> . 
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/2002/07/owl#priorVersion> <http://id.loc.gov/ontologies/bflc-1-1-0/> . 
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/2000/01/rdf-schema#label> "BIBFRAME vocabulary with LC extensions" . 
+<http://id.loc.gov/ontologies/bflc/> <http://purl.org/dc/terms/modified> "2019-05-14T15:21:35.917-04:00" . 
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/2002/07/owl#imports> <http://id.loc.gov/vocabulary/relators> . 
+<http://id.loc.gov/ontologies/bflc/> <http://www.w3.org/2002/07/owl#imports> <http://id.loc.gov/ontologies/bibframe> . 
+
+<http://id.loc.gov/ontologies/bflc/PrimaryContribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/PrimaryContribution> <http://www.w3.org/2000/01/rdf-schema#label> "Primary contribution" . 
+<http://id.loc.gov/ontologies/bflc/PrimaryContribution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/Contribution> . 
+<http://id.loc.gov/ontologies/bflc/PrimaryContribution> <http://www.w3.org/2004/02/skos/core#definition> "Contribution for which the agent is the name chosen as the name part of the name and title access point." . 
+<http://id.loc.gov/ontologies/bflc/PrimaryContribution> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/Relationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/Relationship> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship" . 
+<http://id.loc.gov/ontologies/bflc/Relationship> <http://www.w3.org/2004/02/skos/core#definition> "Resource and its connection to another resource." . 
+<http://id.loc.gov/ontologies/bflc/Relationship> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/TransliteratedTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/TransliteratedTitle> <http://www.w3.org/2000/01/rdf-schema#label> "Transliterated title" . 
+<http://id.loc.gov/ontologies/bflc/TransliteratedTitle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/VariantTitle> . 
+<http://id.loc.gov/ontologies/bflc/TransliteratedTitle> <http://www.w3.org/2004/02/skos/core#definition> "Title transliterated from one script to another." . 
+<http://id.loc.gov/ontologies/bflc/TransliteratedTitle> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/DemographicGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/DemographicGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Demographic group" . 
+<http://id.loc.gov/ontologies/bflc/DemographicGroup> <http://www.w3.org/2004/02/skos/core#definition> "Characteristics of a group of agents." . 
+<http://id.loc.gov/ontologies/bflc/DemographicGroup> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/CreatorCharacteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/CreatorCharacteristic> <http://www.w3.org/2000/01/rdf-schema#label> "Creator characteristic" . 
+<http://id.loc.gov/ontologies/bflc/CreatorCharacteristic> <http://www.w3.org/2004/02/skos/core#definition> "Category to which the creators of the resource belong." . 
+<http://id.loc.gov/ontologies/bflc/CreatorCharacteristic> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "Series treatment" . 
+<http://id.loc.gov/ontologies/bflc/SeriesTreatment> <http://www.w3.org/2004/02/skos/core#definition> "Technical specification relating to the encoding of series data in a resource" . 
+<http://id.loc.gov/ontologies/bflc/SeriesTreatment> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesSequentialDesignation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesSequentialDesignation> <http://www.w3.org/2000/01/rdf-schema#label> "Series sequential designation" . 
+<http://id.loc.gov/ontologies/bflc/SeriesSequentialDesignation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/SeriesSequentialDesignation> <http://www.w3.org/2004/02/skos/core#definition> "Beginning/ending date(s) of publication and/or sequential designations used in the bf:title field for a work. May also include a citation for the source of information." . 
+<http://id.loc.gov/ontologies/bflc/SeriesSequentialDesignation> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesNumberingPeculiarities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumberingPeculiarities> <http://www.w3.org/2000/01/rdf-schema#label> "Series numbering peculiarities" . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumberingPeculiarities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumberingPeculiarities> <http://www.w3.org/2004/02/skos/core#definition> "Listing of irregularities in the report year coverage and/or numbering used in the bf:title field for a work. May also include a citation for the source of information." . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumberingPeculiarities> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesNumbering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumbering> <http://www.w3.org/2000/01/rdf-schema#label> "Series numbering" . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumbering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumbering> <http://www.w3.org/2004/02/skos/core#definition> "Sequential designation or numbering used in the bf:title field for a work." . 
+<http://id.loc.gov/ontologies/bflc/SeriesNumbering> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesProvider> <http://www.w3.org/2000/01/rdf-schema#label> "Series provider" . 
+<http://id.loc.gov/ontologies/bflc/SeriesProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/SeriesProvider> <http://www.w3.org/2004/02/skos/core#definition> "Place of publication and the name of the publisher/issuing body used in the bf:title field for a work." . 
+<http://id.loc.gov/ontologies/bflc/SeriesProvider> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesAnalysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesAnalysis> <http://www.w3.org/2000/01/rdf-schema#label> "Series analysis" . 
+<http://id.loc.gov/ontologies/bflc/SeriesAnalysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/SeriesAnalysis> <http://www.w3.org/2004/02/skos/core#definition> "A specific organization's analysis practice for a series named in the bf:title field for a work. May also contain the volumes/dates and/or the institution/copy identification to which the practice applies." . 
+<http://id.loc.gov/ontologies/bflc/SeriesAnalysis> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesTracing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesTracing> <http://www.w3.org/2000/01/rdf-schema#label> "Series tracing" . 
+<http://id.loc.gov/ontologies/bflc/SeriesTracing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/SeriesTracing> <http://www.w3.org/2004/02/skos/core#definition> "A specific organization's tracing practice for a series named in the bf:title field for a work. May also contain the volumes/dates and/or the institution/copy identification to which the practice applies." . 
+<http://id.loc.gov/ontologies/bflc/SeriesTracing> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/SeriesClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/SeriesClassification> <http://www.w3.org/2000/01/rdf-schema#label> "Series classification" . 
+<http://id.loc.gov/ontologies/bflc/SeriesClassification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/SeriesClassification> <http://www.w3.org/2004/02/skos/core#definition> "A specific organization's classification practice for a series named in the bf:title field for a work. May also contain the volumes/dates and/or the institution/copy identification to which the practice applies." . 
+<http://id.loc.gov/ontologies/bflc/SeriesClassification> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/Relief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/Relief> <http://www.w3.org/2000/01/rdf-schema#label> "Relief" . 
+<http://id.loc.gov/ontologies/bflc/Relief> <http://www.w3.org/2004/02/skos/core#definition> "Relief term specified on a cartographic resource" . 
+<http://id.loc.gov/ontologies/bflc/Relief> <http://purl.org/dc/terms/modified> "2019-05-07 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/MachineModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/MachineModel> <http://www.w3.org/2000/01/rdf-schema#label> "Model" . 
+<http://id.loc.gov/ontologies/bflc/MachineModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/SystemRequirement> . 
+<http://id.loc.gov/ontologies/bflc/MachineModel> <http://www.w3.org/2004/02/skos/core#definition> "Model of the computing device on which the resource operates." . 
+<http://id.loc.gov/ontologies/bflc/MachineModel> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/ProgrammingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/ProgrammingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Programming language" . 
+<http://id.loc.gov/ontologies/bflc/ProgrammingLanguage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/SystemRequirement> . 
+<http://id.loc.gov/ontologies/bflc/ProgrammingLanguage> <http://www.w3.org/2004/02/skos/core#definition> "Name of the programming language associated with the data comprising the resource." . 
+<http://id.loc.gov/ontologies/bflc/ProgrammingLanguage> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/OperatingSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/OperatingSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Operating system" . 
+<http://id.loc.gov/ontologies/bflc/OperatingSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/SystemRequirement> . 
+<http://id.loc.gov/ontologies/bflc/OperatingSystem> <http://www.w3.org/2004/02/skos/core#definition> "Software that directly operates a system's hardware and serves as a platform for applications." . 
+<http://id.loc.gov/ontologies/bflc/OperatingSystem> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/ImageBitDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/ImageBitDepth> <http://www.w3.org/2000/01/rdf-schema#label> "Image bit depth" . 
+<http://id.loc.gov/ontologies/bflc/ImageBitDepth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/DigitalCharacteristic> . 
+<http://id.loc.gov/ontologies/bflc/ImageBitDepth> <http://www.w3.org/2004/02/skos/core#definition> "The number of bits used to represent each pixel in an image." . 
+<http://id.loc.gov/ontologies/bflc/ImageBitDepth> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/GrooveCutting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/GrooveCutting> <http://www.w3.org/2000/01/rdf-schema#label> "Groove cutting" . 
+<http://id.loc.gov/ontologies/bflc/GrooveCutting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/SoundCharacteristic> . 
+<http://id.loc.gov/ontologies/bflc/GrooveCutting> <http://www.w3.org/2004/02/skos/core#definition> "Kind of cutting of the grooves used on a disc whose sound reproduction process involves a cutting head inscribing a modulated groove into the surface of a rotating cylinder or disc." . 
+<http://id.loc.gov/ontologies/bflc/GrooveCutting> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/Eidr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/Eidr> <http://www.w3.org/2000/01/rdf-schema#label> "Entertainment Identifier Registry Association ID" . 
+<http://id.loc.gov/ontologies/bflc/Eidr> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/Identifier> . 
+<http://id.loc.gov/ontologies/bflc/Eidr> <http://www.w3.org/2004/02/skos/core#definition> "Universal unique identifier system for movie and television assets." . 
+<http://id.loc.gov/ontologies/bflc/Eidr> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/MetadataLicensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/MetadataLicensor> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata licensor" . 
+<http://id.loc.gov/ontologies/bflc/MetadataLicensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://id.loc.gov/ontologies/bibframe/Agent> . 
+<http://id.loc.gov/ontologies/bflc/MetadataLicensor> <http://www.w3.org/2004/02/skos/core#definition> "Organization that licenses the intellectual property rights to the data contained in the description." . 
+<http://id.loc.gov/ontologies/bflc/MetadataLicensor> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/EncodingLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/EncodingLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Encoding level" . 
+<http://id.loc.gov/ontologies/bflc/EncodingLevel> <http://www.w3.org/2004/02/skos/core#definition> "Designation of the fullness of the bibliographic description." . 
+<http://id.loc.gov/ontologies/bflc/EncodingLevel> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/Relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/Relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation" . 
+<http://id.loc.gov/ontologies/bflc/Relation> <http://www.w3.org/2004/02/skos/core#definition> "Connection between resources." . 
+<http://id.loc.gov/ontologies/bflc/Relation> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/AppliesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> . 
+<http://id.loc.gov/ontologies/bflc/AppliesTo> <http://www.w3.org/2000/01/rdf-schema#label> "Applies to" . 
+<http://id.loc.gov/ontologies/bflc/AppliesTo> <http://www.w3.org/2004/02/skos/core#definition> "The component of a resource to which a characteristic applies." . 
+<http://id.loc.gov/ontologies/bflc/AppliesTo> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/demographicGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/demographicGroup> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/DemographicGroup> . 
+<http://id.loc.gov/ontologies/bflc/demographicGroup> <http://www.w3.org/2004/02/skos/core#definition> "Characteristics of a group of agents." . 
+<http://id.loc.gov/ontologies/bflc/demographicGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/demographicGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Demographic group" . 
+<http://id.loc.gov/ontologies/bflc/demographicGroup> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/creatorCharacteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/creatorCharacteristic> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/CreatorCharacteristic> . 
+<http://id.loc.gov/ontologies/bflc/creatorCharacteristic> <http://www.w3.org/2004/02/skos/core#definition> "Category to which the creators of the resource belong." . 
+<http://id.loc.gov/ontologies/bflc/creatorCharacteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/creatorCharacteristic> <http://www.w3.org/2000/01/rdf-schema#label> "Creator characteristic" . 
+<http://id.loc.gov/ontologies/bflc/creatorCharacteristic> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/alternateMediumOfPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/alternateMediumOfPerformance> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/pmo:DeclaredMedium> . 
+<http://id.loc.gov/ontologies/bflc/alternateMediumOfPerformance> <http://www.w3.org/2004/02/skos/core#definition> "Alternative to the primary declared medium of performance." . 
+<http://id.loc.gov/ontologies/bflc/alternateMediumOfPerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/alternateMediumOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "Alternate declared medium" . 
+<http://id.loc.gov/ontologies/bflc/alternateMediumOfPerformance> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/seriesTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/seriesTreatment> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/SeriesTreatment> . 
+<http://id.loc.gov/ontologies/bflc/seriesTreatment> <http://www.w3.org/2004/02/skos/core#definition> "Information concerning the treatment of a series in a resource" . 
+<http://id.loc.gov/ontologies/bflc/seriesTreatment> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/seriesTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "Series treatment" . 
+<http://id.loc.gov/ontologies/bflc/seriesTreatment> <http://purl.org/dc/terms/modified> "2018-10-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/projectedProvisionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/projectedProvisionDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/date> . 
+<http://id.loc.gov/ontologies/bflc/projectedProvisionDate> <http://www.w3.org/2004/02/skos/core#definition> "Projected date of publication of the resource." . 
+<http://id.loc.gov/ontologies/bflc/projectedProvisionDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/projectedProvisionDate> <http://www.w3.org/2000/01/rdf-schema#label> "Projected publication date" . 
+<http://id.loc.gov/ontologies/bflc/projectedProvisionDate> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/relief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/relief> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/Relief> . 
+<http://id.loc.gov/ontologies/bflc/relief> <http://www.w3.org/2004/02/skos/core#definition> "Relief term specified on a cartographic resource" . 
+<http://id.loc.gov/ontologies/bflc/relief> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/relief> <http://www.w3.org/2000/01/rdf-schema#label> "Relief" . 
+<http://id.loc.gov/ontologies/bflc/relief> <http://purl.org/dc/terms/modified> "2019-05-07 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/indexedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/indexedIn> <http://www.w3.org/2004/02/skos/core#definition> "Citation to the resource where the material being described is indexed." . 
+<http://id.loc.gov/ontologies/bflc/indexedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/indexedIn> <http://www.w3.org/2000/01/rdf-schema#label> "Indexed in" . 
+<http://id.loc.gov/ontologies/bflc/indexedIn> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/metadataLicensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/metadataLicensor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://id.loc.gov/ontologies/bflc/AdminMetadata> . 
+<http://id.loc.gov/ontologies/bflc/metadataLicensor> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/MetadataLicensor> . 
+<http://id.loc.gov/ontologies/bflc/metadataLicensor> <http://www.w3.org/2004/02/skos/core#definition> "Organization that licenses the intellectual property rights to the data contained in the description." . 
+<http://id.loc.gov/ontologies/bflc/metadataLicensor> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata licensor" . 
+<http://id.loc.gov/ontologies/bflc/metadataLicensor> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/encodingLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/encodingLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://id.loc.gov/ontologies/bflc/AdminMetadata> . 
+<http://id.loc.gov/ontologies/bflc/encodingLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/EncodingLevel> . 
+<http://id.loc.gov/ontologies/bflc/encodingLevel> <http://www.w3.org/2004/02/skos/core#definition> "Designation of the fullness of the bibliographic description." . 
+<http://id.loc.gov/ontologies/bflc/encodingLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Encoding level" . 
+<http://id.loc.gov/ontologies/bflc/encodingLevel> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/catalogerId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/catalogerId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://id.loc.gov/ontologies/bflc/AdminMetadata> . 
+<http://id.loc.gov/ontologies/bflc/catalogerId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/catalogerId> <http://www.w3.org/2004/02/skos/core#definition> "ID of the cataloger who created or edited the description." . 
+<http://id.loc.gov/ontologies/bflc/catalogerId> <http://www.w3.org/2000/01/rdf-schema#label> "Cataloger ID" . 
+<http://id.loc.gov/ontologies/bflc/catalogerId> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/profile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://id.loc.gov/ontologies/bflc/AdminMetadata> . 
+<http://id.loc.gov/ontologies/bflc/profile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/profile> <http://www.w3.org/2004/02/skos/core#definition> "Name of the BIBFRAME editor profile used to create or edit the description." . 
+<http://id.loc.gov/ontologies/bflc/profile> <http://www.w3.org/2000/01/rdf-schema#label> "LC Editor profile" . 
+<http://id.loc.gov/ontologies/bflc/profile> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/procInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/procInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://id.loc.gov/ontologies/bflc/AdminMetadata> . 
+<http://id.loc.gov/ontologies/bflc/procInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/procInfo> <http://www.w3.org/2004/02/skos/core#definition> "System-supplied processing information for the BIBFRAME description (e.g. \"ibc update\")." . 
+<http://id.loc.gov/ontologies/bflc/procInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Info" . 
+<http://id.loc.gov/ontologies/bflc/procInfo> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/appliesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/appliesTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/AppliesTo> . 
+<http://id.loc.gov/ontologies/bflc/appliesTo> <http://www.w3.org/2004/02/skos/core#definition> "The component of a resource to which a characteristic applies." . 
+<http://id.loc.gov/ontologies/bflc/appliesTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/appliesTo> <http://www.w3.org/2000/01/rdf-schema#label> "Applies to" . 
+<http://id.loc.gov/ontologies/bflc/appliesTo> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/applicableInstitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/applicableInstitution> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bibframe/Agent> . 
+<http://id.loc.gov/ontologies/bflc/applicableInstitution> <http://www.w3.org/2004/02/skos/core#definition> "Institutional location of a resource to which a particular piece of description applies." . 
+<http://id.loc.gov/ontologies/bflc/applicableInstitution> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/applicableInstitution> <http://www.w3.org/2000/01/rdf-schema#label> "Applicable institution" . 
+<http://id.loc.gov/ontologies/bflc/applicableInstitution> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/relationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/relationship> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/Relationship> . 
+<http://id.loc.gov/ontologies/bflc/relationship> <http://www.w3.org/2004/02/skos/core#definition> "Resource and its connection to another resource." . 
+<http://id.loc.gov/ontologies/bflc/relationship> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/relationship> <http://www.w3.org/2000/01/rdf-schema#label> "Related resource and relationship" . 
+<http://id.loc.gov/ontologies/bflc/relationship> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/relation> <http://www.w3.org/2000/01/rdf-schema#range> <http://id.loc.gov/ontologies/bflc/Relation> . 
+<http://id.loc.gov/ontologies/bflc/relation> <http://www.w3.org/2004/02/skos/core#definition> "Connection between resources." . 
+<http://id.loc.gov/ontologies/bflc/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Specific relationship" . 
+<http://id.loc.gov/ontologies/bflc/relation> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> . 
+<http://id.loc.gov/ontologies/bflc/target> <http://www.w3.org/2004/02/skos/core#definition> "End resource of a BIBFRAME structure." . 
+<http://id.loc.gov/ontologies/bflc/target> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/target> <http://www.w3.org/2000/01/rdf-schema#label> "Target resource" . 
+<http://id.loc.gov/ontologies/bflc/target> <http://purl.org/dc/terms/modified> "2018-07-12 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/name00MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/name00MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/name00MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for name matching." . 
+<http://id.loc.gov/ontologies/bflc/name00MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/name00MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Match key for X00 Name" . 
+<http://id.loc.gov/ontologies/bflc/name00MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/name10MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/name10MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/name10MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for name matching." . 
+<http://id.loc.gov/ontologies/bflc/name10MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/name10MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Match key for X10 Name" . 
+<http://id.loc.gov/ontologies/bflc/name10MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/name11MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/name11MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/name11MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for name matching." . 
+<http://id.loc.gov/ontologies/bflc/name11MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/name11MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Match key for X11 Name" . 
+<http://id.loc.gov/ontologies/bflc/name11MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/name00MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/name00MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/name00MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for personal name matching." . 
+<http://id.loc.gov/ontologies/bflc/name00MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/name00MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "MARC key for X00 Names" . 
+<http://id.loc.gov/ontologies/bflc/name00MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/name10MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/name10MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/name10MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for name matching." . 
+<http://id.loc.gov/ontologies/bflc/name10MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/name10MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "MARC key for X10 Names" . 
+<http://id.loc.gov/ontologies/bflc/name10MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/name11MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/name11MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/name11MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for name matching." . 
+<http://id.loc.gov/ontologies/bflc/name11MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/name11MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "MARC key for X11 Names" . 
+<http://id.loc.gov/ontologies/bflc/name11MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/primaryContributorName00MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName00MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName00MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for entry name matching." . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName00MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName00MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Primary X00 Name Match key" . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName00MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/primaryContributorName10MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName10MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName10MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for entry name matching." . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName10MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName10MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Primary X10 Name Match key" . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName10MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/primaryContributorName11MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName11MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName11MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for entry name matching." . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName11MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName11MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Primary X11 Name Match key" . 
+<http://id.loc.gov/ontologies/bflc/primaryContributorName11MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title00MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title00MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title00MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title00MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title00MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Match key for Title X00" . 
+<http://id.loc.gov/ontologies/bflc/title00MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title10MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title10MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title10MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title10MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title10MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Match key for Title X10" . 
+<http://id.loc.gov/ontologies/bflc/title10MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title11MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title11MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title11MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title11MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title11MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "Match key for Title X11" . 
+<http://id.loc.gov/ontologies/bflc/title11MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title30MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title30MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title30MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title30MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title30MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "title30MatchKey" . 
+<http://id.loc.gov/ontologies/bflc/title30MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title40MatchKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title40MatchKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title40MatchKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title40MatchKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title40MatchKey> <http://www.w3.org/2000/01/rdf-schema#label> "title40MatchKey" . 
+<http://id.loc.gov/ontologies/bflc/title40MatchKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title00MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title00MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title00MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title00MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title00MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "title00MarcKey" . 
+<http://id.loc.gov/ontologies/bflc/title00MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title10MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title10MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title10MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title10MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title10MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "title10MarcKey" . 
+<http://id.loc.gov/ontologies/bflc/title10MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title11MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title11MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title11MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title11MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title11MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "title11MarcKey" . 
+<http://id.loc.gov/ontologies/bflc/title11MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title30MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title30MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title30MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title30MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title30MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "title30MarcKey" . 
+<http://id.loc.gov/ontologies/bflc/title30MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/title40MarcKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/title40MarcKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/title40MarcKey> <http://www.w3.org/2004/02/skos/core#definition> "String for title matching." . 
+<http://id.loc.gov/ontologies/bflc/title40MarcKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/title40MarcKey> <http://www.w3.org/2000/01/rdf-schema#label> "title40MarcKey" . 
+<http://id.loc.gov/ontologies/bflc/title40MarcKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 
+
+<http://id.loc.gov/ontologies/bflc/titleSortKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> . 
+<http://id.loc.gov/ontologies/bflc/titleSortKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/ontologies/bflc/titleSortKey> <http://www.w3.org/2004/02/skos/core#definition> "String for sorting." . 
+<http://id.loc.gov/ontologies/bflc/titleSortKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Used with Work, Instance or Item" . 
+<http://id.loc.gov/ontologies/bflc/titleSortKey> <http://www.w3.org/2000/01/rdf-schema#label> "titleSortKey" . 
+<http://id.loc.gov/ontologies/bflc/titleSortKey> <http://purl.org/dc/terms/modified> "2017-02-02 (New)" . 

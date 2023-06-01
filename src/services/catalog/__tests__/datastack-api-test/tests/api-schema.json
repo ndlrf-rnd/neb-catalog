@@ -1,0 +1,212 @@
+{
+  "properties": {
+    "metadata": {
+      "required": [
+        "identifier",
+        "title",
+        "modified",
+        "materialExtent"
+      ],
+      "properties": {
+        "@type": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "@type"
+        },
+        "title": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "Title"
+        },
+        "identifier": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "Identifier"
+        },
+        "modified": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "Modified"
+        },
+        "marc:type": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "Marc:type"
+        },
+        "content": {
+          "properties": {
+            "en": {
+              "type": "string",
+              "logicalType": "String",
+              "indexable": false,
+              "title": "En"
+            },
+            "ru": {
+              "type": "string",
+              "logicalType": "String",
+              "indexable": false,
+              "title": "Ru"
+            }
+          },
+          "type": "object",
+          "title": "Content"
+        },
+        "language": {
+          "oneOf": [
+            {
+              "properties": {
+                "code": {
+                  "type": "string",
+                  "logicalType": "String",
+                  "indexable": false,
+                  "title": "Code"
+                }
+              },
+              "type": "object",
+              "title": "Language"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "nameOfWorkPart": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "NameOfWorkPart"
+        },
+        "numberOfPages": {
+          "type": "number",
+          "logicalType": "Number",
+          "indexable": false,
+          "title": "NumberOfPages"
+        },
+        "materialExtent": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "MaterialExtent"
+        },
+        "publisher": {
+          "properties": {
+            "name": {
+              "type": "string",
+              "logicalType": "String",
+              "indexable": false,
+              "title": "Name"
+            },
+            "addressLocality": {
+              "type": "string",
+              "logicalType": "String",
+              "indexable": false,
+              "title": "AddressLocality"
+            },
+            "addressCountry": {
+              "type": "string",
+              "logicalType": "String",
+              "indexable": false,
+              "title": "AddressCountry"
+            }
+          },
+          "type": "object",
+          "title": "Publisher"
+        },
+        "published": {
+          "type": "string",
+          "logicalType": "String",
+          "indexable": false,
+          "title": "Published"
+        }
+      },
+      "type": "object",
+      "title": "Metadata"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "rel": {
+            "type": "string",
+            "logicalType": "String",
+            "indexable": false,
+            "title": "Rel"
+          },
+          "modified": {
+            "type": "string",
+            "logicalType": "String",
+            "indexable": false,
+            "title": "Modified"
+          },
+          "title": {
+            "type": "string",
+            "logicalType": "String",
+            "indexable": false,
+            "title": "Title"
+          },
+          "properties": {
+            "properties": {
+              "md5": {
+                "type": "string",
+                "logicalType": "String",
+                "indexable": false,
+                "title": "Md5"
+              },
+              "size": {
+                "type": "string",
+                "logicalType": "String",
+                "indexable": false,
+                "title": "Size"
+              },
+              "sha256": {
+                "type": "string",
+                "logicalType": "String",
+                "indexable": false,
+                "title": "Sha256"
+              }
+            },
+            "type": "object"
+          },
+          "href": {
+            "type": "string",
+            "logicalType": "String",
+            "indexable": false,
+            "title": "Href"
+          },
+          "type": {
+            "type": "string",
+            "logicalType": "String",
+            "indexable": false,
+            "title": "Type"
+          }
+        },
+        "required": [
+          "rel",
+          "href"
+        ]
+      },
+      "minItems": 1,
+      "title": "Links"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "properties": {}
+      },
+      "title": "Images"
+    }
+  },
+  "type": "object",
+  "description": ""
+}

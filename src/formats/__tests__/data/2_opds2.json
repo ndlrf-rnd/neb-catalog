@@ -1,0 +1,171 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01002000000/rsl01002986000/rsl01002986648/rsl01002986648.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "alternateName": "Библия Н. З.",
+      "author": [],
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "17720-64",
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "marc:legalDeposit": "10119-15",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "marc:legalDeposit": "57535-О",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/XIX-1800/MK XIX/8°Б-",
+            "name": "MK",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "MK XIX/8°Б-",
+            "stockNumber": "XIX-1800"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/XIX-4471/MK XIX/8°-Б",
+            "name": "MK",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "MK XIX/8°-Б",
+            "stockNumber": "XIX-4471"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/XIX-2817/MK XIX/8°-Б",
+            "name": "MK",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "MK XIX/8°-Б",
+            "stockNumber": "XIX-2817"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/F 71/757",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "F 71/757"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/20 48/33",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "20 48/33"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/20 48/190",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "20 48/190"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "locationWithinSource": "615",
+          "name": "Сводный каталог русской книги 1801-1825 гг."
+        }
+      ],
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1782",
+          "deathDate": "1867",
+          "name": "Филарет митрополит Московский и Коломенский",
+          "relCode": "com",
+          "relTerm": "сост.",
+          "role": "com"
+        },
+        {
+          "birthDate": "1757",
+          "deathDate": "1843",
+          "name": "Серафим митр. Новгородский, Санкт-Петербургский, Эстляндский и Финляндский",
+          "relTerm": "сост."
+        },
+        {
+          "birthDate": "1761",
+          "deathDate": "1821",
+          "name": "Михаил митр. Санкт-Петербургский, Эстляндский, Финляндский и Новгородский",
+          "relTerm": "сост."
+        },
+        {
+          "name": "Ренни, Э.",
+          "relCode": "cns",
+          "relTerm": "цензор",
+          "role": "cns"
+        }
+      ],
+      "dc:issued": "1822",
+      "description": [
+        "На с. III - VI предисл.: Возглашение к христолюбивым читателям, напечатанное при первом издании Евангелия на руском наречии. В конце предисл. подписи митр. Михаила, Серафима и архиеп. Филарета.",
+        "На об. тит. л. изд. марка Рос. библ. о-ва.",
+        "Экз. РГБ в изд. кож. подпис. пер. с суперэкслибрисом Рос. библ. о-ва работы Э. Ренни.",
+        "Цена: в пер. 4 р.",
+        "Тираж 10 тыс. экз.",
+        "Напеч. со стереотипов.",
+        "Имеется электронная копия",
+        "VI, [2], 818 с.",
+        "8° (23 см)"
+      ],
+      "dimensions": "8° (23 см)",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/002986648",
+      "keyTitle": "Библия",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "VI, [2], 818 с.",
+      "modified": "2019-05-28T15:16:48.0Z",
+      "nameOfWorkPart": "Н. З.",
+      "numberOfPages": 818,
+      "published": "1822",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Санктпетербург",
+        "name": "В типографии Российскаго библейскаго общества"
+      },
+      "responsibilityNotes": "Иждивением Российскаго библейскаго общества",
+      "restrictionAndAccessNote": "Третием тиснением",
+      "sortAs": "Библия",
+      "subtitle": "На славянском и руском языке.",
+      "title": "Господа нашего Иисуса Христа Новый Завет,"
+    }
+  }
+]

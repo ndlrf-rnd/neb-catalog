@@ -1,0 +1,261 @@
+<fb-updates>
+  <updated-book id="173327" created="2013-10-18 15:33:33" last_release="2019-08-13 13:49:58"
+                updated="2019-08-13 13:49:58" valid_till="2999-12-31" valid_from="2008-01-01" size="9294498"
+                sent_by_name="loktionova@litres.ru" sent_by_id="9353553" must_import="0" options="6" price="249.00"
+                you_can_sell="0" allow_read="0" allow_sell="2" has_trial="4" allow_full_free="0" public_domain="0"
+                show_card="0" contract_author="9357223" contract_title="ЛитРес Паблишинг" subject_id="47318"
+                file_id="22361078" external_id="ef36130d-077d-102c-99a2-0288a49f2f10" cover="jpg" type="1"
+                litres_isbn="978-5-457-57384-0" first_time_sale="2008-12-27 15:38:33" adult="12" file_parts="0"
+                available="1" available_date="2013-04-09 01:00:00" copyright_read_online="0" contract_ends="2999-12-31"
+                art_cover="jpg" lvl="3" sell_open="2" can_preorder="0" litex="0" chars="62756" drm="0" publisher=""
+                date_written_s="1895" date_written_d="1895-01-01" lang="ru" src_lang="en" cover_h="496" cover_w="550"
+                art_cover_w="550" art_cover_h="496" lang3="rus" src_lang3="eng" status="approved" rating="15269"
+                url="brem-stoker/drakula-inscenirovka-173327/" inapp_price="ru.litres.app.refill_299_alt.XXL">
+    <files>
+      <group value="Ознакомительный фрагмент. MP3" group_id="1">
+        <file id="22361078" size="9294498" filename="Sample_Brem_Stoker_-_Drakula.mp3" seconds="62756"
+              mime_type="audio/mpeg" file_description="MP3"/>
+      </group>
+      <group value="Стандартное качество. MP3" group_id="5">
+        <file id="51175899" size="20931908" filename="01.mp3" seconds="2614" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175755" size="19259145" filename="02.mp3" seconds="2409" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175923" size="20720758" filename="03.mp3" seconds="2634" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175739" size="19550465" filename="04.mp3" seconds="2405" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175771" size="16252716" filename="05.mp3" seconds="1432" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175843" size="13659664" filename="06.mp3" seconds="1668" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175883" size="21224501" filename="07.mp3" seconds="2425" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175763" size="19808019" filename="08.mp3" seconds="2477" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175731" size="29439628" filename="09.mp3" seconds="2579" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175811" size="19698639" filename="10.mp3" seconds="2454" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175867" size="24470040" filename="11.mp3" seconds="2081" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175827" size="36481587" filename="12.mp3" seconds="2952" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175907" size="31234883" filename="13.mp3" seconds="2650" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175747" size="28255481" filename="14.mp3" seconds="2458" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175859" size="25687301" filename="15.mp3" seconds="2195" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175819" size="14084534" filename="16.mp3" seconds="1662" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175779" size="25391965" filename="17.mp3" seconds="2129" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175955" size="28399705" filename="18.mp3" seconds="2403" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175931" size="15880802" filename="19.mp3" seconds="2105" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175947" size="16113925" filename="20.mp3" seconds="2031" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175795" size="20185453" filename="21.mp3" seconds="2394" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175875" size="24928584" filename="22.mp3" seconds="2127" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175787" size="17661472" filename="23.mp3" seconds="2293" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175915" size="28560423" filename="24.mp3" seconds="2355" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175803" size="18068527" filename="25.mp3" seconds="2333" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175939" size="19235921" filename="26.mp3" seconds="2394" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="51175891" size="25792287" filename="27.mp3" seconds="3097" mime_type="audio/mpeg"
+              file_description="MP3"/>
+      </group>
+      <group value="Мобильная версия. MP4" group_id="19">
+        <file id="51183694" size="513784480" filename="01.m4b" seconds="62756" mime_type="audio/m4b"
+              file_description="M4B-файл"/>
+      </group>
+      <group value="MP3 файлы в zip архиве" group_id="20">
+        <file id="51183454" size="575653132" filename="173327.mp3.zip" mime_type="application/zip"
+              file_description="ZIP - файл"/>
+      </group>
+    </files>
+    <title-info>
+      <genre>sf_horror</genre>
+      <genre>prose_classic</genre>
+      <genre>foreign_prose</genre>
+      <genre>foreign_fantasy</genre>
+      <author>
+        <first-name>Брэм</first-name>
+        <last-name>Стокер</last-name>
+        <full-name>Брэм Стокер</full-name>
+        <id>ba0bda53-2a81-102a-9ae1-2dfe723fe7c7</id>
+        <hub-id>47318</hub-id>
+      </author>
+      <reader>
+        <nickname>Степан Старчиков</nickname>
+        <id>69008fb0-0b60-102c-96f3-af3a14b75ca4</id>
+        <hub-id>63067</hub-id>
+      </reader>
+      <reader>
+        <nickname>Сергей Кирсанов</nickname>
+        <id>a785b42d-39c2-102c-b1cf-18f68bd48621</id>
+        <hub-id>63961</hub-id>
+      </reader>
+      <reader>
+        <nickname>Евгений Терновский</nickname>
+        <id>e6ff2f9b-39c2-102c-b1cf-18f68bd48621</id>
+        <hub-id>63962</hub-id>
+      </reader>
+      <reader>
+        <nickname>Елена Морозова</nickname>
+        <id>3bd11373-2fae-102d-93f9-060d30c95e7d</id>
+        <hub-id>96792</hub-id>
+      </reader>
+      <reader>
+        <nickname>Е. Афанасьева</nickname>
+        <id>9abc1cbb-d497-11e0-9959-47117d41cf4b</id>
+        <hub-id>300255</hub-id>
+      </reader>
+      <book-title>Дракула (инсценировка)</book-title>
+      <annotation>
+        <p>Роман Брэма Стокера – общеизвестная классика вампирского жанра, а его граф Дракула – поистине бессмертное
+          существо, пережившее множество экранизаций и ставшее воплощением всего самого коварного и таинственного, на
+          что только способна человеческая фантазия.
+        </p>
+        <p>Вам предстоит услышать пять голосов, повествующих о пережитых ими кошмарных встречах с Дракулой. Девушка
+          Люси, получившая смертельный укус и постепенно становящаяся вампиром, ее возлюбленный, не находящий себе места
+          от отчаянья, мужественный врач, распознающий зловещие симптомы… Отрывки из их дневников и писем шаг за шагом
+          будут приближать вас к разгадке зловещей тайны.
+        </p>
+      </annotation>
+      <date value="1895-01-01">1895</date>
+      <lang>ru</lang>
+      <src-lang>en</src-lang>
+      <translator>
+        <first-name>Н.</first-name>
+        <last-name>Сандрова</last-name>
+        <full-name>Н.Сандрова</full-name>
+        <id>e4a14228-0779-102c-99a2-0288a49f2f10</id>
+        <hub-id>62985</hub-id>
+      </translator>
+      <keywords>вампиры,некромантия,мистическая проза,английская классика,инсценировки,иные миры</keywords>
+    </title-info>
+    <document-info>
+      <author>
+        <nickname>palek</nickname>
+      </author>
+      <date value="2008-11-19">2008-11-19</date>
+      <src-ocr>en</src-ocr>
+      <id>ef36130d-077d-102c-99a2-0288a49f2f10</id>
+      <version>1.0</version>
+      <publisher>
+        <nickname>Аудиоагент ЛитресПаб (Сидиком)</nickname>
+        <id>9e01ff52-8fc7-11e2-98af-002590591ed2</id>
+        <hub-id>3211171</hub-id>
+      </publisher>
+    </document-info>
+    <book-title title="Дракула (инсценировка)"/>
+    <annotation>
+      <p>Роман Брэма Стокера – общеизвестная классика вампирского жанра, а его граф Дракула – поистине бессмертное
+        существо, пережившее множество экранизаций и ставшее воплощением всего самого коварного и таинственного, на что
+        только способна человеческая фантазия.
+      </p>
+      <p>Вам предстоит услышать пять голосов, повествующих о пережитых ими кошмарных встречах с Дракулой. Девушка Люси,
+        получившая смертельный укус и постепенно становящаяся вампиром, ее возлюбленный, не находящий себе места от
+        отчаянья, мужественный врач, распознающий зловещие симптомы… Отрывки из их дневников и писем шаг за шагом будут
+        приближать вас к разгадке зловещей тайны.
+      </p>
+    </annotation>
+    <authors>
+      <author id="ba0bda53-2a81-102a-9ae1-2dfe723fe7c7">
+        <subject_id>47318</subject_id>
+        <url>brem-stoker/</url>
+        <first-name>Брэм</first-name>
+        <middle-name></middle-name>
+        <last-name>Стокер</last-name>
+        <full-name-rodit>Брэма Стокер</full-name-rodit>
+        <lvl>3</lvl>
+        <relation>0</relation>
+      </author>
+      <author id="e4a14228-0779-102c-99a2-0288a49f2f10">
+        <subject_id>62985</subject_id>
+        <url>n-sandrova/</url>
+        <first-name>Н.</first-name>
+        <middle-name></middle-name>
+        <last-name>Сандрова</last-name>
+        <full-name-rodit>Н. Сандровой</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>1</relation>
+      </author>
+      <author id="69008fb0-0b60-102c-96f3-af3a14b75ca4">
+        <subject_id>63067</subject_id>
+        <url>s-starchikov/</url>
+        <first-name>Степан</first-name>
+        <middle-name></middle-name>
+        <last-name>Старчиков</last-name>
+        <full-name-rodit>Степана Старчикова</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="a785b42d-39c2-102c-b1cf-18f68bd48621">
+        <subject_id>63961</subject_id>
+        <url>sergey-kirsanov/</url>
+        <first-name>Сергей</first-name>
+        <middle-name></middle-name>
+        <last-name>Кирсанов</last-name>
+        <full-name-rodit>Сергея Кирсанова</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="e6ff2f9b-39c2-102c-b1cf-18f68bd48621">
+        <subject_id>63962</subject_id>
+        <url>evgeniy-ternovskiy/</url>
+        <first-name>Евгений</first-name>
+        <middle-name></middle-name>
+        <last-name>Терновский</last-name>
+        <full-name-rodit>Евгения Терновского</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="3bd11373-2fae-102d-93f9-060d30c95e7d">
+        <subject_id>96792</subject_id>
+        <url>elena-morozova-2/</url>
+        <first-name>Елена</first-name>
+        <middle-name></middle-name>
+        <last-name>Морозова</last-name>
+        <full-name-rodit>Елены Морозовой</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="9abc1cbb-d497-11e0-9959-47117d41cf4b">
+        <subject_id>300255</subject_id>
+        <url>e-afanaseva/</url>
+        <first-name>Е.</first-name>
+        <middle-name></middle-name>
+        <last-name>Афанасьева</last-name>
+        <full-name-rodit>Е. Афанасьева</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="9e01ff52-8fc7-11e2-98af-002590591ed2">
+        <subject_id>3211171</subject_id>
+        <url>audioagent-sidikom/</url>
+        <first-name>Аудиоагент</first-name>
+        <middle-name></middle-name>
+        <last-name>Сидиком</last-name>
+        <full-name-rodit></full-name-rodit>
+        <lvl>1</lvl>
+        <relation>2</relation>
+      </author>
+    </authors>
+    <genres>
+      <genre title="зарубежное фэнтези" id="5218" bisac="FIC009000"/>
+      <genre title="мистика" id="5223" bisac="FIC022000" master="1"/>
+    </genres>
+    <copyrights>
+      <copyright id="9357223" title="Литрес Паблишинг" percent="100.00"/>
+    </copyrights>
+  </updated-book>
+</fb-updates>

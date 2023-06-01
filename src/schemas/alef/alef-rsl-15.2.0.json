@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://catalo.rusneb.ru/schemas/alef-rsl-15.2.0.json",
+  "version": "1.0.0",
+  "title": "ALEF MARC Json schema from Russian State Library",
+  "type": "object",
+  "attributes": {
+    "LEADER": {
+      "type": "string"
+    },
+    "OWN": {"type": "string"},
+    "GLOBAL": {"type": "string"},
+    "LKR": {"type": "string"},
+    "ITM": {"type": "string"},
+    "UP": {"type": "string"},
+    "DN": {"type": "string"},
+    "PAR": {"type": "string"}
+  }
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003562000/rsl01003562717/rsl01003562717.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Добровольский, Семен Михайлович",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "8374-45",
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/U 308/193",
+            "name": "FB ALII",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "U 308/193"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/U 408/317",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "U 408/317"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/W 233/2",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "W 233/2"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/ВО 13/70",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "ВО 13/70"
+          }
+        ],
+        "series": [
+          {
+            "href": "RuMoRGB/003562717",
+            "title": "Учебные руководства для военно-учебных заведений",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "dc:issued": "1853",
+      "description": [
+        "Имеется электронная копия",
+        "[2], 426, XXII с.",
+        "26"
+      ],
+      "dimensions": "26",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/003562717",
+      "language":["rus"],
+      "marc:type": "a",
+      "materialExtent": "[2], 426, XXII с.",
+      "modified": "2019-07-30T10:49:40.0Z",
+      "numberOfPages": 426,
+      "published": "1853",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Санкт-Петербург",
+        "name": "тип. Штаба воен.-учеб. заведений"
+      },
+      "subtitle": "Курс 1 спец. кл. : Сост., на основании наставления для образования воспитанников воен.-учеб. заведений, утв. 24 дек. 1848 г., Добровольским",
+      "title": "Руководство законоведения"
+    }
+  }
+]

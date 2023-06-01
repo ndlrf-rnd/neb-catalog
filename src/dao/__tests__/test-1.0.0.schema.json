@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://catalog.rusneb.ru/schemas/test-1.0.0.schema.json",
+  "$version": "1.0.0",
+  "title": "Test Json schema",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

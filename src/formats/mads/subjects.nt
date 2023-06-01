@@ -1,0 +1,27 @@
+<http://id.loc.gov/authorities/subjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#MADSScheme> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_LCSH_General> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_LCSH_Childrens> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_SubdivideGeographicalIndirect> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_SubdivideGeographicalDirect> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_Subdivisions> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_TopicSubdivisions> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_GenreFormSubdivisions> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_TemporalSubdivisions> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_GeographicSubdivisions> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#hasMADSSchemeMember> <http://id.loc.gov/authorities/subjects/collection_LanguageSubdivisions> . 
+<http://id.loc.gov/authorities/subjects> <http://www.w3.org/2000/01/rdf-schema#label> "Library of             Congress Subject Headings"@en . 
+<http://id.loc.gov/authorities/subjects> <http://www.w3.org/2000/01/rdf-schema#comment> "Library of Congress Subject Headings (LCSH) has been actively maintained since 1898 to catalog materials held at the Library of Congress. By virtue of cooperative cataloging other libraries around the United States also use LCSH to provide subject access to their collections. In addition LCSH is used internationally, often in translation. LCSH in this service includes all Library of Congress Subject Headings, free-floating subdivisions (topical and form), Genre/Form headings, Children's (AC) headings, and validation strings* for which authority records have been created. The content includes a few name headings (personal and corporate), such as William Shakespeare, Jesus Christ, and Harvard University, and geographic headings that are added to LCSH as they are needed to establish subdivisions, provide a pattern for subdivision practice, or provide reference structure for other terms. This content is expanded beyond the print issue of LCSH (the \"red books\") with inclusion of validation strings. *Validation strings: Some authority records are for headings that have been built by adding subdivisions. These records are the result of an ongoing project to programmatically create authority records for valid subject strings from subject heading strings found in bibliographic records. The authority records for these subject strings were created so the entire string could be machine-validated. The strings do not have broader, narrower, or related terms."^^<http://www.w3.org/2000/01/rdf-schema#Literal> . 
+<http://id.loc.gov/authorities/subjects> <http://www.w3.org/2002/07/owl#sameAs> <http://id.loc.gov/authorities#conceptscheme> . 
+<http://id.loc.gov/authorities/subjects> <http://www.loc.gov/mads/rdf/v1#adminMetadata> _:bnode21authoritiessubjects . 
+_:bnode21authoritiessubjects <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/RecordInfo#RecordInfo> . 
+_:bnode21authoritiessubjects <http://id.loc.gov/ontologies/RecordInfo#recordStatus> "modified"^^<http://www.w3.org/2001/XMLSchema#string> . 
+_:bnode21authoritiessubjects <http://id.loc.gov/ontologies/RecordInfo#recordChangeDate> "2011-04-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> . 
+_:bnode21authoritiessubjects <http://id.loc.gov/ontologies/RecordInfo#recordContentSource> <http://id.loc.gov/vocabulary/organizations/dlc> . 
+<http://id.loc.gov/authorities/subjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> . 
+<http://id.loc.gov/authorities/subjects> <http://www.w3.org/2004/02/skos/core#changeNote> _:bnode34authoritiessubjects . 
+_:bnode34authoritiessubjects <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/changeset/schema#ChangeSet> . 
+_:bnode34authoritiessubjects <http://purl.org/vocab/changeset/schema#subjectOfChange> <http://id.loc.gov/authorities/subjects> . 
+_:bnode34authoritiessubjects <http://purl.org/vocab/changeset/schema#creatorName> <http://id.loc.gov/vocabulary/organizations/dlc> . 
+_:bnode34authoritiessubjects <http://purl.org/vocab/changeset/schema#createdDate> "2011-04-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> . 
+_:bnode34authoritiessubjects <http://purl.org/vocab/changeset/schema#changeReason> "modified"^^<http://www.w3.org/2001/XMLSchema#string> . 

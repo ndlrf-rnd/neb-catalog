@@ -1,0 +1,47 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres:11.5
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: rslpwd
+      POSTGRES_USER: postgres
+      POSTGRES_DB: rsl
+    volumes:
+      - /work/data/catalog/pg/:/var/lib/postgresql/data
+
+  catalog-service:
+    entrypoint: ["node", "src/index.js", "--migrate", "--force", "catalog"]
+    restart: always
+    image: $CI_REGISTRY_IMAGE/app:$TAG
+    build:
+      context: .
+      dockerfile: './Dockerfile'
+      args:
+        BASE_CONTAINER: 'centos:7.8.2003'
+    environment:
+      POSTGRES_HOST: 'postgres'
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: rslpwd
+      POSTGRES_DB: rsl
+    ports:
+      - 8080:8080
+
+  worker-service:
+    restart: always
+    entrypoint: ["node", "src/index.js", "--migrate", "--force", "worker"]
+    image: $CI_REGISTRY_IMAGE/app:$TAG
+    build:
+      context: .
+      dockerfile: './Dockerfile'
+      args:
+        BASE_CONTAINER: 'centos:7.8.2003'
+    environment:
+      POSTGRES_HOST: 'postgres'
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: rslpwd
+      POSTGRES_DB: rsl
+

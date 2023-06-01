@@ -1,0 +1,976 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "metadata": {
+    "@type": "http://schema.org/Audiobook",
+    "identifier": "https://librivox.org/flatland-a-romance-of-many-dimensions-by-edwin-abbott-abbott/",
+    "title": "Flatland: A Romance of Many Dimensions",
+    "author": {
+      "name": "Edwin Abbott Abbott",
+      "sortAs": "Abbott, Abbott Edwin"
+    },
+    "narrator": "Ruth Golding",
+    "language": "en",
+    "description": "Flatland: A Romance of Many Dimensions is an 1884 science fiction novella by the English schoolmaster Edwin Abbott Abbott. As a satire, Flatland offered pointed observations on the social hierarchy of Victorian culture. However, the novella's more enduring contribution is its examination of dimensions; in a foreword to one of the many publications of the novella, noted science writer Isaac Asimov described Flatland as \"The best introduction one can find into the manner of perceiving dimensions.\" As such, the novella is still popular amongst mathematics, -cs and computer science students. (Summary by Wikipedia)",
+    "publisher": "Librivox",
+    "subject": [
+      "General Fiction",
+      "Satire",
+      "Science Fiction"
+    ],
+    "modified": "2016-08-11T19:32:18Z",
+    "published": "2008-10-12",
+    "duration": 15153,
+    "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "@graph": [
+    {
+      "@id": "_:b0",
+      "@type": "bf:Source",
+      "rdfs:label": "OCoLC"
+    },
+    {
+      "@id": "_:b1",
+      "@type": "bf:TableOfContents",
+      "rdfs:label": "On Nineteen Eighty-Four / Thomas Horan -- Biography of George Orwell / Thomas Horan -- Orwell and Extremist Politics in Britain, 1930-49 / Bradley W. Hart -- Orwell's Nineteen Eighty-Four and the Concept of a Critical Dystopia / Tony Burns -- State and Corporate Dystopianism in Nineteen Eighty-Four and Dave Eggers's The Circle / Regina Martin -- Orwell's \"Notes on Nationalism\" and Nineteen Eighty-Four / Gregory Claeys -- Winston as \"Sentimental Archaism\": Nostalgia in Orwell's Nineteen Eighty-Four / Jill Belli -- Not Death, but Annihilation: Orwell's Nineteen Eighty-Four and the Catastrophe of Englishness / Erik Jaccard -- From \"The Splitting-Up of the World into Three Great Superstates\" to \"A Bare, Hungry, Dilapidated Place\": 1949 in Nineteen Eighty-Four / Rafeeq O. McGiveron -- \"We are Different from All the Oligarchies of the Past\": Orwell's Critique of Power and the Primal Family in Nineteen Eighty-Four / Clifford T. Manlove -- Beyond the Love of Big Brother: Paranoid Reading, Non-Fascist Ethics, and Nineteen Eighty-Four / Sean A. Witters -- Nineteen Eighty-Four Today: The Impossible Desire to Archive as the Secret Core of Ideology / Dario Altobelli -- Writing Against Dystopia / Charles Tedder -- Nineteen Eighty-Four in 1984 / Jackson Ayres -- Nineteen Eighty-Four, Surveillance, and After: From Telescreens to the NSA / Andrew Byers -- Privacy and Control in Orwell's Nineteen Eighty-Four / Donald Morris -- Chronology of George Orwell's Life -- Major Works by George Orwell."
+    },
+    {
+      "@id": "_:b10",
+      "@type": "bf:Contribution",
+      "bf:agent": {
+        "@id": "http://id.loc.gov/authorities/names/n79058639"
+      },
+      "bf:role": {
+        "@id": "http://id.loc.gov/vocabulary/relators/ctb"
+      }
+    },
+    {
+      "@id": "_:b11",
+      "@type": "bf:Source",
+      "bf:code": "lcsh"
+    },
+    {
+      "@id": "_:b12",
+      "@type": "bf:AdminMetadata",
+      "bflc:encodingLevel": {
+        "@id": "http://id.loc.gov/vocabulary/menclvl/f"
+      },
+      "bflc:procInfo": "external marc",
+      "bflc:profile": "lc:RT:bf2:RareMat:Work",
+      "bf:changeDate": "2018-07-30T19:49:54",
+      "bf:creationDate": "2017-08-05",
+      "bf:descriptionAuthentication": {
+        "@id": "http://id.loc.gov/vocabulary/marcauthen/pcc"
+      },
+      "bf:descriptionConventions": [
+        {
+          "@id": "http://id.loc.gov/vocabulary/descriptionConventions/isbd"
+        },
+        {
+          "@id": "http://id.loc.gov/vocabulary/descriptionConventions/rda"
+        }
+      ],
+      "bf:descriptionLanguage": {
+        "@id": "http://id.loc.gov/vocabulary/languages/eng"
+      },
+      "bf:descriptionModifier": [
+        {
+          "@id": "http://id.loc.gov/vocabulary/organizations/nnf"
+        },
+        {
+          "@id": "_:b2"
+        },
+        {
+          "@id": "_:b13"
+        },
+        {
+          "@id": "http://id.loc.gov/vocabulary/organizations/txm"
+        },
+        {
+          "@id": "_:b4"
+        },
+        {
+          "@id": "_:b15"
+        },
+        {
+          "@id": "_:b16"
+        },
+        {
+          "@id": "_:b20"
+        },
+        {
+          "@id": "http://id.loc.gov/vocabulary/organizations/oclco"
+        },
+        {
+          "@id": "_:b21"
+        },
+        {
+          "@id": "_:b22"
+        },
+        {
+          "@id": "http://id.loc.gov/vocabulary/organizations/dlc"
+        }
+      ],
+      "bf:generationProcess": {
+        "@id": "_:b14"
+      },
+      "bf:identifiedBy": {
+        "@id": "_:b19"
+      },
+      "bf:source": [
+        {
+          "@id": "_:b17"
+        },
+        {
+          "@id": "_:b6"
+        }
+      ],
+      "bf:status": {
+        "@id": "_:b18"
+      }
+    },
+    {
+      "@id": "_:b13",
+      "@type": "bf:Agent",
+      "rdfs:label": "R2A"
+    },
+    {
+      "@id": "_:b14",
+      "@type": "bf:GenerationProcess",
+      "rdfs:label": "DLC marc2bibframe2 v1.5.1: 2019-10-22T21:35:45-04:00"
+    },
+    {
+      "@id": "_:b15",
+      "@type": "bf:Agent",
+      "rdfs:label": "BTCTA"
+    },
+    {
+      "@id": "_:b16",
+      "@type": "bf:Agent",
+      "rdfs:label": "OCLCF"
+    },
+    {
+      "@id": "_:b17",
+      "@type": [
+        "bf:Agent",
+        "bf:Source"
+      ],
+      "rdfs:label": "DON"
+    },
+    {
+      "@id": "_:b18",
+      "@type": "bf:Status",
+      "bf:code": "c",
+      "rdfs:label": "corrected or revised"
+    },
+    {
+      "@id": "_:b19",
+      "@type": "bf:Local",
+      "bf:assigner": {
+        "@id": "http://id.loc.gov/vocabulary/organizations/dlc"
+      },
+      "rdf:value": "19866030"
+    },
+    {
+      "@id": "_:b2",
+      "@type": "bf:Agent",
+      "rdfs:label": "NUI"
+    },
+    {
+      "@id": "_:b20",
+      "@type": "bf:Agent",
+      "rdfs:label": "BER"
+    },
+    {
+      "@id": "_:b21",
+      "@type": "bf:Agent",
+      "rdfs:label": "A7U"
+    },
+    {
+      "@id": "_:b22",
+      "@type": "bf:Agent",
+      "rdfs:label": "OCLCQ"
+    },
+    {
+      "@id": "_:b23",
+      "@type": "bf:SupplementaryContent",
+      "rdfs:label": "Includes bibliographical references (pages 237-239) and index."
+    },
+    {
+      "@id": "_:b24",
+      "@type": "bf:Identifier",
+      "bf:source": {
+        "@id": "_:b25"
+      },
+      "rdf:value": "fst01356950"
+    },
+    {
+      "@id": "_:b25",
+      "@type": "bf:Source",
+      "rdfs:label": "OCoLC"
+    },
+    {
+      "@id": "_:b26",
+      "@type": "bf:ClassificationLcc",
+      "bf:classificationPortion": "PR6029.R8",
+      "bf:itemPortion": "N49 2016",
+      "bf:source": {
+        "@id": "http://id.loc.gov/vocabulary/organizations/dlc"
+      }
+    },
+    {
+      "@id": "_:b27",
+      "@type": "bf:Title",
+      "bflc:titleSortKey": "Nineteen eighty-four",
+      "bf:mainTitle": "Nineteen eighty-four",
+      "rdfs:label": "Nineteen eighty-four"
+    },
+    {
+      "@id": "_:b28",
+      "@type": "bf:Lccn",
+      "rdf:value": "  2017295935"
+    },
+    {
+      "@id": "_:b29",
+      "@type": "bf:Source",
+      "rdfs:label": "OCoLC"
+    },
+    {
+      "@id": "_:b3",
+      "@type": "bf:Place",
+      "rdfs:label": "Ipswich, Massachusetts"
+    },
+    {
+      "@id": "_:b30",
+      "@type": "bf:Title",
+      "bflc:titleSortKey": "Nineteen eighty-four /",
+      "bf:mainTitle": "Nineteen eighty-four",
+      "rdfs:label": "Nineteen eighty-four /"
+    },
+    {
+      "@id": "_:b31",
+      "@type": [
+        "bf:Publication",
+        "bf:ProvisionActivity"
+      ],
+      "bf:agent": [
+        {
+          "@id": "_:b32"
+        },
+        {
+          "@id": "_:b33"
+        }
+      ],
+      "bf:date": "2016",
+      "bf:place": [
+        {
+          "@id": "_:b34"
+        },
+        {
+          "@id": "_:b3"
+        }
+      ]
+    },
+    {
+      "@id": "_:b32",
+      "@type": "bf:Agent",
+      "rdfs:label": "Grey House Publishing"
+    },
+    {
+      "@id": "_:b33",
+      "@type": "bf:Agent",
+      "rdfs:label": "Salem Press, a division of EBSCO Information Services, Inc."
+    },
+    {
+      "@id": "_:b34",
+      "@type": "bf:Place",
+      "rdfs:label": "Amenia, NY"
+    },
+    {
+      "@id": "_:b35",
+      "@type": "rdfs:Resource",
+      "bflc:target": {
+        "@id": "http://0-online.salempress.com.sslopac.bergen.edu/doi/book/10.3331/ci1984"
+      },
+      "bf:note": {
+        "@id": "_:b57"
+      }
+    },
+    {
+      "@id": "_:b36",
+      "@type": "bf:Source",
+      "bf:code": "fast"
+    },
+    {
+      "@id": "_:b37",
+      "@type": "bf:Title",
+      "bflc:title30MarcKey": "63007$aNineteen eighty-four (Orwell, George)$2fast$0(OCoLC)fst01356950",
+      "bflc:title30MatchKey": "Nineteen eighty-four (Orwell, George)",
+      "bflc:titleSortKey": "Nineteen eighty-four (Orwell, George)",
+      "bf:mainTitle": "Nineteen eighty-four (Orwell, George)",
+      "rdfs:label": "Nineteen eighty-four (Orwell, George)"
+    },
+    {
+      "@id": "_:b38",
+      "@type": "bf:Source",
+      "bf:code": "fast"
+    },
+    {
+      "@id": "_:b39",
+      "@type": "bf:Source",
+      "bf:code": "fast"
+    },
+    {
+      "@id": "_:b4",
+      "@type": "bf:Agent",
+      "rdfs:label": "UAB"
+    },
+    {
+      "@id": "_:b40",
+      "@type": "bf:ShelfMarkLcc",
+      "bf:source": {
+        "@id": "http://id.loc.gov/vocabulary/organizations/dlc"
+      },
+      "rdfs:label": "PR6029.R8 N49 2016"
+    },
+    {
+      "@id": "_:b41",
+      "@type": "bf:Source",
+      "bf:code": "lcsh"
+    },
+    {
+      "@id": "_:b42",
+      "@type": "bf:Identifier",
+      "bf:source": {
+        "@id": "_:b47"
+      },
+      "rdf:value": "fst01411635"
+    },
+    {
+      "@id": "_:b43",
+      "@type": "bf:Source",
+      "bf:code": "fast"
+    },
+    {
+      "@id": "_:b46",
+      "@type": "bf:Source",
+      "bf:code": "lcsh"
+    },
+    {
+      "@id": "_:b47",
+      "@type": "bf:Source",
+      "rdfs:label": "OCoLC"
+    },
+    {
+      "@id": "_:b48",
+      "@type": "bf:Source",
+      "rdfs:label": "OCoLC"
+    },
+    {
+      "@id": "_:b49",
+      "@type": "bf:Isbn",
+      "bf:qualifier": "hardcover",
+      "rdf:value": "1682171183"
+    },
+    {
+      "@id": "_:b5",
+      "@type": "bf:Contribution",
+      "bf:agent": {
+        "@id": "http://id.loc.gov/authorities/names/no2016156643"
+      },
+      "bf:role": {
+        "@id": "http://id.loc.gov/vocabulary/relators/edt"
+      }
+    },
+    {
+      "@id": "_:b50",
+      "@type": "bf:Extent",
+      "rdfs:label": "xi, 253 pages"
+    },
+    {
+      "@id": "_:b51",
+      "@type": "bf:Source",
+      "bf:code": "lcsh"
+    },
+    {
+      "@id": "_:b52",
+      "@type": "bf:Local",
+      "bf:source": {
+        "@id": "_:b0"
+      },
+      "rdf:value": "ocn957675913"
+    },
+    {
+      "@id": "_:b53",
+      "@type": [
+        "bf:Publication",
+        "bf:ProvisionActivity"
+      ],
+      "bf:date": "2016",
+      "bf:place": {
+        "@id": "http://id.loc.gov/vocabulary/countries/mau"
+      }
+    },
+    {
+      "@id": "_:b54",
+      "@type": "bf:Isbn",
+      "bf:qualifier": "hardcover",
+      "rdf:value": "9781682171189"
+    },
+    {
+      "@id": "_:b55",
+      "@type": "bf:Lccn",
+      "rdf:value": "  2017295935"
+    },
+    {
+      "@id": "_:b56",
+      "@type": "bf:Title",
+      "bflc:titleSortKey": "Nineteen eighty-four",
+      "bf:mainTitle": "Nineteen eighty-four",
+      "rdfs:label": "Nineteen eighty-four"
+    },
+    {
+      "@id": "_:b57",
+      "@type": "bf:Note",
+      "rdfs:label": "e-book"
+    },
+    {
+      "@id": "_:b58",
+      "@type": "bf:Source",
+      "rdfs:label": "fast"
+    },
+    {
+      "@id": "_:b59",
+      "@type": "bf:Identifier",
+      "bf:source": {
+        "@id": "_:b60"
+      },
+      "rdf:value": "fst01904956"
+    },
+    {
+      "@id": "_:b6",
+      "@type": [
+        "bf:Agent",
+        "bf:Source"
+      ],
+      "rdfs:label": "DON"
+    },
+    {
+      "@id": "_:b60",
+      "@type": "bf:Source",
+      "rdfs:label": "OCoLC"
+    },
+    {
+      "@id": "_:b61",
+      "@type": "bf:Source",
+      "bf:code": "lcsh"
+    },
+    {
+      "@id": "_:b62",
+      "@type": "bf:Source",
+      "bf:code": "fast"
+    },
+    {
+      "@id": "_:b63",
+      "@type": "bf:Identifier",
+      "bf:source": {
+        "@id": "_:b29"
+      },
+      "rdf:value": "fst00036162"
+    },
+    {
+      "@id": "_:b64",
+      "@type": "bf:Identifier",
+      "bf:source": {
+        "@id": "_:b48"
+      },
+      "rdf:value": "fst00900374"
+    },
+    {
+      "@id": "_:b7",
+      "@type": "bf:Source",
+      "rdfs:label": "fast"
+    },
+    {
+      "@id": "_:b8",
+      "@type": "bf:Title",
+      "bflc:title30MarcKey": "830 0$aCritical insights.",
+      "bf:mainTitle": "Critical insights"
+    },
+    {
+      "@id": "_:b9",
+      "@type": "bf:Title",
+      "bflc:title00MarcKey": "60010$aOrwell, George,$d1903-1950.$tNineteen eighty-four.",
+      "bflc:title00MatchKey": "Nineteen eighty-four.",
+      "bflc:titleSortKey": "Nineteen eighty-four",
+      "bf: ": "Nineteen eighty-four",
+      "rdfs:label": "Nineteen eighty-four"
+    },
+    {
+      "@id": "http://bibframe.example.org/19866030#GenreForm655-32",
+      "@type": [
+        "madsrdf:Topic",
+        "bf:GenreForm"
+      ],
+      "bf:identifiedBy": {
+        "@id": "_:b42"
+      },
+      "bf:source": {
+        "@id": "_:b43"
+      },
+      "madsrdf:authoritativeLabel": "Criticism, interpretation, etc.",
+      "rdfs:label": "Criticism, interpretation, etc."
+    },
+    {
+      "@id": "http://id.loc.gov/resources/instances/c0198660300001",
+      "@type": [
+        "bf:Print",
+        "bf:Instance",
+        "bf:electronic",
+        "bf:Instance"
+      ],
+      "bf:carrier": {
+        "@id": "http://id.loc.gov/vocabulary/carriers/nc"
+      },
+      "bf:dimensions": "24 cm.",
+      "bf:extent": {
+        "@id": "_:b50"
+      },
+      "item": [
+        {
+          "@id": "http://id.loc.gov/resources/items/c0198660300001"
+        },
+        {
+          "@id": "http://id.loc.gov/resources/items/c0198660300001"
+        }
+      ],
+      "bf:identifiedBy": [
+        {
+          "@id": "_:b52"
+        },
+        {
+          "@id": "_:b49"
+        },
+        {
+          "@id": "_:b54"
+        },
+        {
+          "@id": "_:b55"
+        }
+      ],
+      "bf:instanceOf": [
+        {
+          "@id": "http://id.loc.gov/resources/works/c019866030"
+        },
+        {
+          "@id": "http://id.loc.gov/resources/works/c019866030"
+        }
+      ],
+      "bf:issuance": {
+        "@id": "http://id.loc.gov/vocabulary/issuance/mono"
+      },
+      "bf:media": {
+        "@id": "http://id.loc.gov/vocabulary/mediaTypes/n"
+      },
+      "bf:provisionActivity": [
+        {
+          "@id": "_:b53"
+        },
+        {
+          "@id": "_:b31"
+        }
+      ],
+      "bf:provisionActivityStatement": "Ipswich, Massachusetts : Salem Press, a division of EBSCO Information Services, Inc. ; Amenia, NY : Grey House Publishing, [2016]",
+      "bf:responsibilityStatement": "editor, Thomas Horan, the Citadel, South Carolina",
+      "bf:seriesStatement": "Critical insights",
+      "bf:title": [
+        {
+          "@id": "_:b56"
+        },
+        {
+          "@id": "_:b30"
+        }
+      ],
+      "rdfs:label": "Nineteen eighty-four"
+    },
+    {
+      "@id": "http://id.loc.gov/resources/items/c0198660300001",
+      "@type": "bf:Item",
+      "bf:electronicLocator": {
+        "@id": "_:b35"
+      },
+      "bf:itemOf": {
+        "@id": "http://id.loc.gov/resources/instances/c0198660300001"
+      },
+      "bf:shelfMark": {
+        "@id": "_:b40"
+      }
+    },
+    {
+      "@id": "http://bibframe.example.org/19866030#Topic600-25",
+      "@type": "bf:Topic",
+      "bf:source": {
+        "@id": "_:b41"
+      },
+      "madsrdf:authoritativeLabel": "Orwell, George, 1903-1950--Criticism and interpretation.",
+      "madsrdf:componentList": {
+        "@list": [
+          {
+            "@id": "http://id.loc.gov/authorities/names/n79058639"
+          },
+          {
+            "@id": "http://id.loc.gov/authorities/subjects/sh99005576"
+          }
+        ]
+      },
+      "madsrdf:isMemberOfMADSScheme": {
+        "@id": "http://id.loc.gov/authorities/subjects"
+      }
+    },
+    {
+      "@id": "http://bibframe.example.org/19866030#Topic650-30",
+      "@type": "bf:Topic",
+      "bf:identifiedBy": {
+        "@id": "_:b64"
+      },
+      "bf:source": {
+        "@id": "_:b36"
+      },
+      "madsrdf:authoritativeLabel": "Dystopias in literature.",
+      "rdfs:label": "Dystopias in literature."
+    },
+    {
+      "@id": "http://bibframe.example.org/19866030#Topic650-31",
+      "@type": "bf:Topic",
+      "bf:identifiedBy": {
+        "@id": "_:b59"
+      },
+      "bf:source": {
+        "@id": "_:b62"
+      },
+      "madsrdf:authoritativeLabel": "Totalitarianism in literature.",
+      "rdfs:label": "Totalitarianism in literature."
+    },
+    {
+      "@id": "http://id.loc.gov/resources/works/c019866030",
+      "@type": [
+        "bf:Work",
+        "madsrdf:NameTitle",
+        "madsrdf"
+      ],
+      "bf:adminMetadata": {
+        "@id": "_:b12"
+      },
+      "bf:classification": {
+        "@id": "_:b26"
+      },
+      "bf:content": {
+        "@id": "http://id.loc.gov/vocabulary/contentTypes/txt"
+      },
+      "bf:contribution": [
+        {
+          "@id": "_:b5"
+        },
+        {
+          "@id": "_:b10"
+        }
+      ],
+      "bf:genreForm": [
+        {
+          "@id": "http://bibframe.example.org/19866030#GenreForm655-32"
+        },
+        {
+          "@id": "http://id.loc.gov/authorities/genreForms/gf2014026049"
+        }
+      ],
+      "bf:hasInstance": {
+        "@id": "http://id.loc.gov/resources/instances/c0198660300001"
+      },
+      "bf:hasSeries": {
+        "@id": "http://id.loc.gov/resources/works/c019866030"
+      },
+      "bf:identifiedBy": [
+        {
+          "@id": "_:b28"
+        },
+        {
+          "@id": "_:b24"
+        }
+      ],
+      "bf:language": {
+        "@id": "http://id.loc.gov/vocabulary/languages/eng"
+      },
+      "bf:source": [
+        {
+          "@id": "_:b11"
+        },
+        {
+          "@id": "_:b7"
+        },
+        {
+          "@id": "_:b38"
+        }
+      ],
+      "bf:subject": [
+        {
+          "@id": "http://id.loc.gov/resources/works/c019866030"
+        },
+        {
+          "@id": "http://bibframe.example.org/19866030#Topic650-31"
+        },
+        {
+          "@id": "http://id.loc.gov/authorities/names/n79058639"
+        },
+        {
+          "@id": "http://bibframe.example.org/19866030#Topic650-30"
+        },
+        {
+          "@id": "http://id.loc.gov/authorities/subjects/sh96002302"
+        },
+        {
+          "@id": "http://bibframe.example.org/19866030#Topic600-25"
+        },
+        {
+          "@id": "http://id.loc.gov/authorities/subjects/sh2008005040"
+        }
+      ],
+      "bf:supplementaryContent": [
+        {
+          "@id": "_:b23"
+        },
+        {
+          "@id": "http://id.loc.gov/vocabulary/msupplcont/index"
+        },
+        {
+          "@id": "http://id.loc.gov/authorities/genreForms/gf2014026048"
+        }
+      ],
+      "bf:tableOfContents": {
+        "@id": "_:b1"
+      },
+      "bf:title": [
+        {
+          "@id": "_:b27"
+        },
+        {
+          "@id": "_:b9"
+        },
+        {
+          "@id": "_:b37"
+        },
+        {
+          "@id": "_:b8"
+        }
+      ],
+      "madsrdf:authoritativeLabel": [
+        "Orwell, George, 1903-1950. Nineteen eighty-four.",
+        "Nineteen eighty-four (Orwell, George)"
+      ],
+      "madsrdf:isMemberOfMADSScheme": {
+        "@id": "http://id.loc.gov/authorities/subjects"
+      },
+      "rdfs:label": [
+        "Critical insights",
+        "Nineteen eighty-four.",
+        "Nineteen eighty-four (Orwell, George)",
+        "Critical insights."
+      ]
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/genreForms/gf2014026048",
+      "@type": "bf:SupplementaryContent",
+      "rdfs:label": "bibliographies"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/genreForms/gf2014026049",
+      "@type": "bf:GenreForm",
+      "rdfs:label": "biographies"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/names/n79058639",
+      "@type": [
+        "madsrdf:PersonalName",
+        "bf:Agent"
+      ],
+      "bflc:name00MarcKey": [
+        "60010$aOrwell, George,$d1903-1950.$tNineteen eighty-four.",
+        "60017$aOrwell, George,$d1903-1950.$2fast$0(OCoLC)fst00036162",
+        "60010$aOrwell, George,$d1903-1950$xCriticism and interpretation."
+      ],
+      "bflc:name00MatchKey": [
+        "Orwell, George, 1903-1950.",
+        "Orwell, George, 1903-1950"
+      ],
+      "bf:identifiedBy": {
+        "@id": "_:b63"
+      },
+      "bf:source": [
+        {
+          "@id": "_:b39"
+        },
+        {
+          "@id": "_:b58"
+        },
+        {
+          "@id": "_:b61"
+        }
+      ],
+      "madsrdf:authoritativeLabel": [
+        "Orwell, George, 1903-1950.",
+        "Orwell, George, 1903-1950"
+      ],
+      "madsrdf:isMemberOfMADSScheme": {
+        "@id": "http://id.loc.gov/authorities/subjects"
+      },
+      "rdfs:label": [
+        "Orwell, George, 1903-1950.",
+        "Orwell, George, 1903-1950"
+      ]
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/names/no2016156643",
+      "@type": [
+        "madsrdf:PersonalName",
+        "bf:Agent"
+      ],
+      "bflc:name00MarcKey": "7001 $aHoran, Thomas,$d1974-$eeditor.",
+      "bflc:name00MatchKey": "Horan, Thomas, 1974-",
+      "rdfs:label": "Horan, Thomas, 1974-"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/subjects/sh2008005040",
+      "@type": "bf:Topic",
+      "bf:source": {
+        "@id": "_:b51"
+      },
+      "madsrdf:authoritativeLabel": "Totalitarianism in literature.",
+      "madsrdf:isMemberOfMADSScheme": {
+        "@id": "http://id.loc.gov/authorities/subjects"
+      },
+      "rdfs:label": "Totalitarianism in literature."
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/subjects/sh96002302",
+      "@type": "bf:Topic",
+      "bf:source": {
+        "@id": "_:b46"
+      },
+      "madsrdf:authoritativeLabel": "Dystopias in literature.",
+      "madsrdf:isMemberOfMADSScheme": {
+        "@id": "http://id.loc.gov/authorities/subjects"
+      },
+      "rdfs:label": "Dystopias in literature."
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/subjects/sh99005576",
+      "@type": "madsrdf:Topic",
+      "madsrdf:authoritativeLabel": "Criticism and interpretation"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/carriers/nc",
+      "@type": "bf:Carrier",
+      "bf:source": {
+        "@id": "http://id.loc.gov/vocabulary/genreFormSchemes/rdacarrier"
+      },
+      "rdfs:label": "volume"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/contentTypes/txt",
+      "@type": "bf:Content",
+      "bf:source": {
+        "@id": "http://id.loc.gov/vocabulary/genreFormSchemes/rdacontent"
+      },
+      "rdfs:label": "text"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/countries/mau",
+      "@type": "bf:Place"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/descriptionConventions/isbd",
+      "@type": "bf:DescriptionConventions",
+      "rdfs:label": "isbd"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/descriptionConventions/rda",
+      "@type": "bf:DescriptionConventions",
+      "rdfs:label": "rda"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/genreFormSchemes/rdacarrier",
+      "@type": "bf:Source"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/genreFormSchemes/rdacontent",
+      "@type": "bf:Source"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/genreFormSchemes/rdamedia",
+      "@type": "bf:Source"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/issuance/mono",
+      "@type": "bf:Issuance"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/languages/eng",
+      "@type": "bf:Language",
+      "bf:code": "eng"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/marcauthen/pcc",
+      "@type": "bf:DescriptionAuthentication",
+      "rdf:value": "pcc"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/mediaTypes/n",
+      "@type": "bf:Media",
+      "bf:source": {
+        "@id": "http://id.loc.gov/vocabulary/genreFormSchemes/rdamedia"
+      },
+      "rdfs:label": "unmediated"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/menclvl/f",
+      "@type": "bflc:EncodingLevel",
+      "rdfs:label": "full"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/msupplcont/index",
+      "@type": "bf:SupplementaryContent",
+      "rdfs:label": "Index present"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/organizations/dlc",
+      "@type": [
+        "bf:Source",
+        "bf:Agent"
+      ],
+      "rdfs:label": "DLC"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/organizations/nnf",
+      "@type": "bf:Agent",
+      "rdfs:label": "NNF"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/organizations/oclco",
+      "@type": "bf:Agent",
+      "rdfs:label": "OCLCO"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/organizations/txm",
+      "@type": "bf:Agent",
+      "rdfs:label": "TXM"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/relators/ctb",
+      "@type": "bf:Role"
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/relators/edt",
+      "@type": "bf:Role",
+      "bflc:relatorMatchKey": "editor",
+      "rdfs:label": "editor."
+    }
+  ]
+}

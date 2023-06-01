@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "catalog-1",
+    "append": true,
+    "script": "./src/index.js",
+    "args": [
+      "--migrate", "--force", "catalog"
+    ]
+  },
+  {
+    "uid": "worker-1",
+    "append": true,
+    "script": "./src/index.js",
+    "args": [
+      "--migrate", "--force", "worker"
+    ]
+  }
+]

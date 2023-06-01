@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns="http://www.loc.gov/MARC21/slim" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <leader>00000am a22000004  4500</leader>
+    <controlfield tag="001">799</controlfield>
+    <controlfield tag="003">XX-XxUND</controlfield>
+    <controlfield tag="007">ta</controlfield>
+    <controlfield tag="008">      s2003    xx |||||||||||| ||||und d</controlfield>
+    <datafield xmlns="" tag="040" ind1="1" ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">XX-XxUND</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">XX-XxUND</subfield>
+    </datafield>
+    <datafield xmlns="" tag="100" ind1="1" ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">Северный, Александр Александрович</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="e">author</subfield>
+    </datafield>
+    <datafield xmlns="" tag="245" ind1="0" ind2="0">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">МОЛОДОЕ ПОКОЛЕНИЕ ХХI ВЕКА: АКТУАЛЬНЫЕ ПРОБЛЕМЫ СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКОГО ЗДОРОВЬЯ</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="b"/>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">by А.А. Северный</subfield>
+    </datafield>
+    <datafield xmlns="" tag="260" ind1=" " ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">Минск</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="b">[s.n.]</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">2003</subfield>
+    </datafield>
+    <datafield xmlns="" tag="300" ind1=" " ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">400 p.</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">28 grams.</subfield>
+    </datafield>
+    <datafield xmlns="" tag="520" ind1="2" ind2="#">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">Материалы II Международного Конгресса «Молодое поколение ХХI века: актуальные проблемы социально-психологического здоровья». Под редакцией А.А. Северного, Ю. С. Шевченко. Минск, 3-6 ноября 2003 г. - 277 с. Спонсоры: Международный центр «Счастливые семьи» АО. «Гедеон Рихтер» в РБ</subfield>
+    </datafield>
+    <datafield xmlns="" tag="856" ind1="4" ind2="2">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="3">Front cover thumbnail</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="u">http://f.letmeprint.ru/6-e84a6efa/preview_799_200x0.jpg</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="x">size: 200x? pixels</subfield>
+    </datafield>
+    <datafield xmlns="" tag="856" ind1="4" ind2="2">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="3">Front cover thumbnail</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="u">http://f.letmeprint.ru/5-53bca468/preview_799_150x0.jpg</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="x">size: 150x? pixels</subfield>
+    </datafield>
+    <datafield xmlns="" tag="856" ind1="4" ind2="2">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="3">Front cover thumbnail</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="u">http://f.letmeprint.ru/4-c3036e6b/pview_799_75x0.jpg</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="x">size: 75x? pixels</subfield>
+    </datafield>
+    <datafield xmlns="" tag="856" ind1="4" ind2="2">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="3">Front cover thumbnail</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="u">http://f.letmeprint.ru/3-9a75921d/preview_799_60x0.jpg</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="x">size: 60x? pixels</subfield>
+    </datafield>
+    <datafield xmlns="" tag="856" ind1="4" ind2="2">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="3">Front cover thumbnail</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="u">http://f.letmeprint.ru/2-7d72d546/preview_799_40x0.jpg</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="x">size: 40x? pixels</subfield>
+    </datafield>
+    <datafield xmlns="" tag="856" ind1="4" ind2="2">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="3"/>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="u">http://f.letmeprint.ru/8-e59a5d23/fragment_799.pdf</subfield>
+    </datafield>
+  </record>
+</collection>

@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema#",
+  "$id": "fields.json#",
+  "$defs": {
+    "after": {
+      "title": "Cursor pointer to the start of page",
+      "description": "Have form of alphanumeric string",
+      "type": "string",
+      "pattern": "[a-zA-Z0-9]{,32}"
+    },
+    "before": {
+      "title": "Cursor pointer to the end of page",
+      "description": "Have form of alphanumeric string",
+      "type": "string",
+      "pattern": "[a-zA-Z0-9]{,32}"
+    },
+    "extended": {
+      "title": "Show extended metadata",
+      "description": "Show extended etadata including SEED fields",
+      "type": "boolean"
+    },
+    "raw": {
+      "title": "Download original record with no conversion applied",
+      "description": "Show extended metadata including SEED fields",
+      "type": "boolean"
+    },
+    "until": {
+      "title": "End of time range (UNIX TimeStamp in seconds)",
+      "type": "integer",
+      "minimum": 0,
+      "description": "UNIX TimeStamp in seconds where 0 is 1 jan 1970 00:00 in UTC0 time zone"
+    },
+    "since": {
+      "title": "Start of time range (UNIX TimeStamp in seconds)",
+      "type": "integer",
+      "minimum": 0,
+      "description": "UNIX TimeStamp in seconds where 0 is 1 jan 1970 00:00 in UTC0 time zone"
+    },
+    "limit": {
+      "title": "Page Size",
+      "type": "integer",
+      "minimum": 1,
+      "default": 100,
+      "maximum": 1000
+    },
+    "secret": {
+      "title": "Data provider secret",
+      "type": "string",
+      "regex": "[a-fA-F0-9]{32}",
+      "minLength": 32,
+      "maxLength": 32
+    },
+    "account": {
+      "title": "Data provider account",
+      "description": "Data provider account (usually e-mail or url-like, case-insensitive)",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024
+    },
+    "provider": {
+      "title": "Data provider code",
+      "description": "Data provider ID (usually url-like, case-insensitive)",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024
+    },
+    "count": {
+      "title": "Count",
+      "description": "Quantitative measure (positive integer)",
+      "type": "integer",
+      "minimum": 0
+    },
+    "statCountThreshold": {
+      "title": "Minimum records for source to include it in detailed statistics",
+      "description": "Minimal value of the quantitative measure (positive integer)",
+      "type": "integer",
+      "minimum": 0
+    },
+    "query": {
+      "title": "Query",
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 4096
+    },
+    "kind": {
+      "title": "Entity kind",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024
+    },
+    "source": {
+      "title": "Data source",
+      "$ref": "source.json#/$defs/code",
+      "type": "string",
+      "pattern": "[^<>:\"\/\\|?* ]{1,256}",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "key": {
+      "title": "Record key",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024
+    },
+    "extension": {
+      "title": "File extension",
+      "type": "string",
+      "$ref": "/schemas/extensions.json#",
+      "minLength": 1,
+      "maxLength": 1024
+    },
+    "export": {
+      "title": "Export format",
+      "type": "string",
+      "enum": [
+        "raw",
+        "application/ld+json",
+        "application/opds+json",
+        "application/json",
+        "application/marc",
+        "text/tab-separated-values",
+        "application/xml",
+        "application/marcxml+xml",
+        "application/marc"
+      ],
+      "minLength": 1,
+      "maxLength": 1024
+    }
+  }
+}

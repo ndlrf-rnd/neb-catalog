@@ -1,0 +1,159 @@
+{
+  "links": [
+    {
+      "href": "http://localhost:18080/resources/collection",
+      "rel": "self",
+      "title": "Все записи типа Collection",
+      "type": "application/opds+json"
+    }
+  ],
+  "metadata": {
+    "@id": "http://localhost:18080/resources/collection",
+    "@type": "https://schema.org/Collection",
+    "cursors": {
+      "after": "collection-11",
+      "before": "collection-5"
+    },
+    "identifier": "http://localhost:18080/resources/collection",
+    "name": {
+      "en": "All Collection records",
+      "ru": "Все записи типа Collection"
+    },
+    "numberOfItems": 18,
+    "numberOfPageItems": 7,
+    "order": "desc",
+    "processingTimeSec": 0.01,
+    "title": "Все записи типа Collection",
+    "type": "application/opds+json"
+  },
+  "navigation": [
+    {
+      "href": "http://localhost:18080/resources/collection?extended=1&limit=7&after=collection-5",
+      "rel": "next",
+      "title": "Следующая страница",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/collection?extended=1&limit=7",
+      "rel": "first",
+      "title": "Первая страница",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Географические карты России XVII – первой половины XIX вв.",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-11",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1600-01-01 12:00:00",
+        "1849-12-31 12:00:00"
+      ],
+      "title": "Географические карты России XVII – первой половины XIX вв.",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmanus",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmanus",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Славяно-русские рукописные книги",
+      "numberOfItems": 10,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-10",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1450-01-01 12:00:00",
+        "1899-12-31 12:00:00"
+      ],
+      "title": "Славяно-русские рукописные книги",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplubok",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplubok",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Русский лубок (народная картинка) XVIII – начала XX вв.",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-9",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1700-00-01 12:00:00",
+        "1924-12-31 12:00:00"
+      ],
+      "title": "Русский лубок (народная картинка) XVIII – начала XX вв.",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplen",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplen",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Ленинград в Великой Отечественной войне.",
+      "numberOfItems": 10,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-8",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1941-01-01 12:00:00",
+        "1945-12-31 12:00:00"
+      ],
+      "title": "Ленинград в Великой Отечественной войне.",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Инкунабулы",
+      "numberOfItems": 20,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-7",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1450-01-01 12:00:00",
+        "1500-01-01 11:59:59"
+      ],
+      "title": "Инкунабулы",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Кириллические книги конца XV – первой трети XIX вв.",
+      "numberOfItems": 10,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-6",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1475-01-01 12:00:00",
+        "1833-12-31 12:00:00"
+      ],
+      "title": "Кириллические книги конца XV – первой трети XIX вв.",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcivil",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcivil",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Книги гражданского шрифта, изданные в России в XVIII – первой трети XIX вв.",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-5",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1700-01-01 12:00:00",
+        "1833-12-31 12:00:00"
+      ],
+      "title": "Книги гражданского шрифта, изданные в России в XVIII – первой трети XIX вв.",
+      "type": "application/opds+json"
+    }
+  ]
+}

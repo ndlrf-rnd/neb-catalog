@@ -1,0 +1,4992 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1854",
+        "deathDate": "",
+        "name": "Aurand, Samuel Herbert,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Homeopathic formulae.",
+        "406 p., 24 cm."
+      ],
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000002",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "406 p.",
+      "modified": "2004-05-05T16:51:05.0Z",
+      "numberOfPages": 406,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago,",
+        "name": "P. H. Mallen Company,"
+      },
+      "responsibilityNotes": "By S. H. Aurand.",
+      "subject": {
+        "topic": [
+          "Botany, Medical.",
+          "Homeopathy"
+        ]
+      },
+      "subtitle": "drugs considered from a botanical, pharmaceutical, physiological, therapeutical and toxicological standpoint.",
+      "title": "Botanical materia medica and pharmacology;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1873",
+        "deathDate": "",
+        "name": "Chadman, Charles E.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xi, 186 p. ;, 18 cm.",
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000004",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xi, 186 p. ;",
+      "modified": "2013-05-31T08:03:54.0Z",
+      "numberOfPages": 186,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Conneaut, OH :",
+        "name": "Home Study Pub. Co.,"
+      },
+      "responsibilityNotes": "by Charles E. Chadman.",
+      "subject": {
+        "topic": [
+          "Persons (Law)",
+          "Domestic relations"
+        ]
+      },
+      "title": "Personal rights and the domestic relations"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1860",
+        "deathDate": "1937.",
+        "name": "Connor, Ralph,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "300 p., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000006",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "300 p.",
+      "modified": "2004-08-11T14:02:31.0Z",
+      "numberOfPages": 300,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York etc",
+        "name": "F. H. Revell company,"
+      },
+      "responsibilityNotes": "by Ralph Connor [pseud.]",
+      "subtitle": "a tale of the foothills,",
+      "title": "The sky pilot;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1861",
+        "deathDate": "1920.",
+        "name": "Guiney, Louise Imogen,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "vi, 81, [1] p., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000007",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vi, 81, [1] p.",
+      "modified": "2005-07-23T21:24:58.0Z",
+      "numberOfPages": 81,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Houghton, Mifflin and Company,"
+      },
+      "responsibilityNotes": "by Louise Imogen Guiney.",
+      "subtitle": "and shorter poems,",
+      "title": "The martyrs' idyl,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1837",
+        "deathDate": "1920.",
+        "name": "Howells, William Dean,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "2 v. :, ill. ;, 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000009",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 v. :",
+      "modified": "1998-02-20T14:40:26.9Z",
+      "numberOfPages": 2,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York :",
+        "name": "Harper,"
+      },
+      "responsibilityNotes": "by W.D. Howells.",
+      "title": "Their silver wedding journey"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001625614"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1845",
+        "deathDate": "1909.",
+        "name": "Tabb, John B.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "78 p., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000017",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "78 p.",
+      "modified": "2011-06-30T08:02:25.0Z",
+      "numberOfPages": 78,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "Small, Maynard,"
+      },
+      "responsibilityNotes": "by John B. Tabb.",
+      "subject": {
+        "topic": "Children's poetr"
+      },
+      "subtitle": "poems grave and gay,",
+      "title": "Child verse;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1838",
+        "deathDate": "1904.",
+        "name": "Tarbell, H. S.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000018",
+            "title": "Tarbells? geographical series",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "name": "Tarbell, Martha,",
+          "relTerm": "joint author."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "152 p., illus., fol.",
+      "dimensions": "fol.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000018",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "152 p.",
+      "modified": "2005-09-09T16:28:40.0Z",
+      "numberOfPages": 152,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago etc.",
+        "name": "Werner School Book Co."
+      },
+      "subject": {
+        "topic": "Geography."
+      },
+      "title": "Tarbells? geographical series\nThe complete geography."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001616585"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1835",
+        "deathDate": "1894.",
+        "name": "Thaxter, Celia,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xiii, 272 p., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000019",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xiii, 272 p.",
+      "modified": "2010-02-03T08:07:49.0Z",
+      "numberOfPages": 272,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Houghton, Mifflin and company,"
+      },
+      "restrictionAndAccessNote": "Appledore edition.",
+      "title": "The poems of Celia Thaxter."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1865",
+        "deathDate": "",
+        "name": "Wood, Benjamin,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ports.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "208 p., ports., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000027",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "208 p.",
+      "modified": "2005-07-23T21:25:00.0Z",
+      "numberOfPages": 208,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Brentano,"
+      },
+      "responsibilityNotes": "by Benjamin Wood; illustrations by Richard F. George.",
+      "restrictionAndAccessNote": "2d ed., rev. and enl.",
+      "subject": {
+        "topic": [
+          "Success.",
+          "Businessmen."
+        ]
+      },
+      "title": "The successful man of business,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1835",
+        "deathDate": "1903.",
+        "name": "Bryant, Edwin E.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xi, 1049 p., 24 cm.",
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000033",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xi, 1049 p.",
+      "modified": "2005-06-05T16:35:13.0Z",
+      "numberOfPages": 1049,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago,",
+        "name": "Callaghan & Co.,"
+      },
+      "restrictionAndAccessNote": "6th ed.,; adapted to the legislation of 1899. By Edwin E. Bryant.",
+      "subject": {
+        "topic": "Justices of the peace"
+      },
+      "subtitle": "and the powers and duties of constables in executing process in the state of Wisconsin.",
+      "title": "A treatise on the civil and criminal jurisdiction of justices of the peace,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Burrows Brothers Company, Cleveland.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front., plates.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Also issued for distribution by other firms with corresponding substitution of imprint and copyright but with omission of plates, preface, and p. 337-341, \" a partial list of books published by the Burrows brothers company.\"",
+        "x, 406 p., front., plates., 23 cm."
+      ],
+      "dimensions": "23 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000034",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "x, 406 p.",
+      "modified": "2009-03-14T08:08:49.0Z",
+      "numberOfPages": 406,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Cleveland,",
+        "name": "The Burrows brothers company"
+      },
+      "subject": {
+        "topic": "Booksellers' catalogs"
+      },
+      "subtitle": "with complete author, subject, and title index.",
+      "title": "A catalogue of the best books in every department of literature;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001608899"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1855",
+        "deathDate": "1930.",
+        "name": "Connelley, William Elsey,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000043",
+            "title": "The Twentieth century classics and school readings. [v. 1 no. 2]",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Series title also at head of t.-p.",
+        "126 p., 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000043",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "126 p.",
+      "modified": "2009-08-29T08:05:13.0Z",
+      "numberOfPages": 126,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Topeka, Kan.,",
+        "name": "Crane,"
+      },
+      "responsibilityNotes": "by  William E. Connelley.",
+      "subject": {
+        "agent": "Lane, James Henry, 1814-186",
+        "place": [
+          "Lane, James Henry,",
+          "Kansas"
+        ]
+      },
+      "subtitle": "the \"Grim chieftain\" of Kansas,",
+      "title": "The Twentieth century classics and school readings. [v. 1 no. 2]\nJames Henry Lane,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1842",
+        "deathDate": "1901.",
+        "name": "Fiske, John,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "vii p., i l., 477, [1] p., 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000048",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vii p., i l., 477, [1] p.",
+      "modified": "2013-11-22T07:32:46.0Z",
+      "numberOfPages": 477,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Houghton Mifflin co.,"
+      },
+      "responsibilityNotes": "by John Fiske ...",
+      "subject": {
+        "agent": [
+          "Youmans, Edward Livingston, 1821-1887",
+          "Vane, Henry, Sir, 1613-1662.",
+          "Parkman, Francis, 1823-1893.",
+          "Freeman, Edward Augustus, 1823-1892",
+          "Shakespeare, William, 1564-1616.",
+          "Cook, Joseph, 1838-1901."
+        ],
+        "place": [
+          "Youmans, Edward Livingston,",
+          "Vane, Henry,",
+          "Parkman, Francis,",
+          "Freeman, Edward Augustus,",
+          "Shakespeare, William,",
+          "Cook, Joseph,",
+          "Cambridge (Mass.)"
+        ],
+        "topic": [
+          "Science",
+          "Evolution.",
+          "Arbitration (International law)",
+          "Folklore"
+        ]
+      },
+      "title": "A century of science and other essays,",
+      "toc": [
+        {
+          "title": "Century of science.--Doctrine of evolution; its scope and purport.--Edward Livingston Youmans.--Part played by infancy in the evolution of man.--Origins of liberal thought in America.--Sir Harry Vane.--Arbitration treaty.--Francis Parkman.--Edward Augustus Freeman.--Cambridge as village and city.--Harvest of Irish folk-lore.--Guessing at half and multiplying by two.--Forty years of Bacon Shakespearefully.--Some cranks and their crochets."
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Gallaher, Grace Margaret.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900",
+      "description": [
+        "Imperfect: 2 plates wanting.",
+        "6 p. l., 3-269 p., 1 l. front., 7 pl., 19 cm."
+      ],
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000049",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "6 p. l., 3-269 p., 1 l. front., 7 pl.",
+      "modified": "2005-02-01T10:03:57.0Z",
+      "numberOfPages": 269,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "R. G. Badger & co.,"
+      },
+      "responsibilityNotes": "by Grace Margaret Gallaher...",
+      "subject": {
+        "agent": "Vassar College",
+        "place": "Poughkeepsie (N.Y.)",
+        "topic": [
+          "Women college students",
+          "College stories, American."
+        ]
+      },
+      "title": "Vassar stories,",
+      "toc": [
+        {
+          "title": "--In the matter of room-mates.--The moulders of public opinion.--Her position.--A sense of obligation.--Neither a lender nor a borrower be.--The clan.--At the first game.--On baccalaureate Sunday."
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1861",
+        "deathDate": "1930.",
+        "name": "Harper, William,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill. (col.)",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Title on cover: Mulhall-Harper comparative statistical tables and charts of the commerce of the world.",
+        "[103] p. :, ill. (col.) ;, 24 cm."
+      ],
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000050",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "[103] p. :",
+      "modified": "2005-06-11T16:26:17.0Z",
+      "numberOfPages": 103,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Philadelphia :",
+        "name": "Commercial Museum,"
+      },
+      "responsibilityNotes": "compiled by William Harper.",
+      "subject": {
+        "topic": [
+          "Commercial statistics.",
+          "Commerce"
+        ]
+      },
+      "title": "Comparative statistical tables and charts of the commerce of the world"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001590776"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Horn, Louise McCloy.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "4 p. l., 85 p., illus., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000053",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "4 p. l., 85 p.",
+      "modified": "2011-06-07T08:33:27.0Z",
+      "numberOfPages": 85,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Cincinnati,",
+        "name": "The Editor publishing co.,"
+      },
+      "responsibilityNotes": "By Louise McCloy Horn.",
+      "title": "Songs of the Lakes and other poems."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://nrs.harvard.edu/urn-3:FHCL:4526"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1819",
+        "deathDate": "1910.",
+        "name": "Howe, Julia Ward,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front., plates, ports., 2 fold. facsim.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1859",
+          "deathDate": "1947,",
+          "name": "Catt, Carrie Chapman,",
+          "relTerm": "former owner."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "Contains facsim. of first draft of Battle Hymn of the Republic.",
+        "2 p.l., 465, [1] p., front., plates, ports., 2 fold. facsim., 21 cm."
+      ],
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000054",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 p.l., 465, [1] p.",
+      "modified": "2005-06-22T11:35:45.0Z",
+      "numberOfPages": 465,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston and New York,",
+        "name": "Houghton, Mifflin, and company,"
+      },
+      "responsibilityNotes": "by Julia Ward Howe ...",
+      "title": "Reminiscences, 1819-1899,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "International Correspondence Schools",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus., fold. plates. diagrs.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Library has, v.1-4, 6,7.",
+        "7 v., illus., fold. plates. diagrs., 24, 29 x 37 cm."
+      ],
+      "dimensions": "24, 29 x 37 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000056",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "7 v.",
+      "modified": "2005-07-01T18:03:27.0Z",
+      "numberOfPages": 7,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Scranton,",
+        "name": "The Colliery Engineer Co.,"
+      },
+      "subject": {
+        "topic": [
+          "Mining engineering.",
+          "Mines and mineral resources."
+        ]
+      },
+      "subtitle": "prepared for students of the International Correspondence Schools, Scranton, Pa. ...",
+      "title": "The treatise on metal mining,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1849",
+        "deathDate": "1909.",
+        "name": "Jewett, Sarah Orne,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "3 p. l., 232 p., 1 l., 18 cm.",
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000057",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "3 p. l., 232 p., 1 l.",
+      "modified": "2005-04-29T11:30:37.0Z",
+      "numberOfPages": 232,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Houghton, Mifflin and Company,"
+      },
+      "responsibilityNotes": "by Sarah Orne Jewett.",
+      "subtitle": "and other stories,",
+      "title": "The queen's twin,",
+      "toc": [
+        {
+          "title": "The queen's twin.--A Dunnet shepherdess.--Where's Nora?--Bold words at the bridge.--Martha's lady.--The coon dog.--Aunt Cynthy Dallett.--The night before Thanksgiving."
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1823",
+        "deathDate": "1904.",
+        "name": "Lesley, Susan I.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Reprint of the author's Memoir of the life of Mrs. Anne Jean Lyman.",
+        "Includes index.",
+        "vi, 505 p., [5] leaves of plates :, ill. ;, 21 cm."
+      ],
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000058",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vi, 505 p., [5] leaves of plates :",
+      "modified": "2005-09-09T16:28:45.0Z",
+      "numberOfPages": 505,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston :",
+        "name": "Houghton, Mifflin,"
+      },
+      "responsibilityNotes": "by Susan I. Lesley.",
+      "subject": {
+        "agent": "Lyman, Anne Jean, 1789-1867.",
+        "place": [
+          "Lyman, Anne Jean,",
+          "New England"
+        ]
+      },
+      "subtitle": "being a picture of domestic and social life in New England in the first half of the nineteenth century /",
+      "title": "Recollections of my mother, Mrs. Anne Jean Lyman, of Northampton"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1833",
+        "deathDate": "1902. [from old catalog]",
+        "name": "Martin, Alexander,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xxxii, 416 p., 24 cm.",
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000060",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xxxii, 416 p.",
+      "modified": "2004-08-31T08:41:42.0Z",
+      "numberOfPages": 416,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "The Boston book company,"
+      },
+      "subject": {
+        "topic": [
+          "Civil procedure",
+          "Pleading"
+        ]
+      },
+      "title": "Civil procedure at common law."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001074049"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1833",
+        "deathDate": "1922.",
+        "name": "Morris, Charles,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "incl. front. (map) illus., plates, ports. plates.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "711 (i.e. 647) p., incl. front. (map) illus., plates, ports. plates., 25 x 19 cm.",
+      "dimensions": "25 x 19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000064",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "711 (i.e. 647) p.",
+      "modified": "2009-08-29T08:05:15.0Z",
+      "numberOfPages": 711,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago etc.",
+        "name": "J. C. Winston & co.,"
+      },
+      "subject": {
+        "place": "United States"
+      },
+      "subtitle": "The greater republic;",
+      "title": "A new history of the United States."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001189967"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1832",
+        "deathDate": "1899.",
+        "name": "Powell, Aaron M.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xx, 279 p., illus., 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000068",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xx, 279 p.",
+      "modified": "2008-07-19T08:03:59.0Z",
+      "numberOfPages": 279,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Caulon press,"
+      },
+      "responsibilityNotes": "By Aaron M. Powell.",
+      "subject": {
+        "topic": "Antislavery movements"
+      },
+      "title": "Personal reminiscences of the anti-slavery and other reforms and reformers."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Reid, William Jameson.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front., 3 fold. maps.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Maps in pocket.",
+        "8 p. l., 11-499 p. incl. illus., plates., front., 3 fold. maps., 24 cm."
+      ],
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000070",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "8 p. l., 11-499 p. incl. illus., plates.",
+      "modified": "2011-05-10T08:03:00.0Z",
+      "numberOfPages": 499,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "D. Estes & Company"
+      },
+      "responsibilityNotes": "by William Jameson Reid. Illustrated by L.J. Bridgman.",
+      "subject": {
+        "place": [
+          "China",
+          "Tibet Autonomous Region (China)"
+        ]
+      },
+      "title": "Through unexplored Asia,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1874",
+        "deathDate": "1950.",
+        "name": "Stringer, Arthur,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Some of these stories were originally published in Ainslee's magazine.",
+        "5 p. l., 3-208 p., illus., 17 cm."
+      ],
+      "dimensions": "17 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000074",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "5 p. l., 3-208 p.",
+      "modified": "2005-09-01T07:31:16.0Z",
+      "numberOfPages": 208,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "Small, Maynard & Company,"
+      },
+      "responsibilityNotes": "[by] Arthur J. Stringer ...",
+      "title": "The loom of destiny",
+      "toc": [
+        {
+          "title": "Premonitions.--The undoing of Dinney Crockett.--The fly in the ointment.--The iron age.--The king who lost his crown.--Life's loaded die.--The crucible of character.--The essentials of aristocracy.--The honour of the house of Hummerley.--Thicker than water.--Instruments of Eros.--An essay in equality.--The heart's desire.--Not in utter nakedness."
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1864",
+        "deathDate": "1958.",
+        "name": "Tapper, Thomas,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "v p., 2 l., 11-185 p. ;, 18 cm.",
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000075",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "v p., 2 l., 11-185 p. ;",
+      "modified": "2010-10-19T08:01:52.0Z",
+      "numberOfPages": 185,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Philadelphia :",
+        "name": "T. Presser,"
+      },
+      "responsibilityNotes": "[by] Thomas Tapper.",
+      "subject": {
+        "topic": "Musicians."
+      },
+      "title": "Pictures from the lives of the great composers for children"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "American Institute of the City of New York. Photographical Section.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "8 pl.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Advertising matter included in paging.",
+        "Seven of the plates printed on both sides.",
+        "[32] p., 8 pl., 25 cm."
+      ],
+      "dimensions": "25 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000086",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "[32] p.",
+      "modified": "2005-07-01T18:03:28.0Z",
+      "numberOfPages": 32,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "The Goerck Art Press,"
+      },
+      "subject": {
+        "topic": "Photography"
+      },
+      "subtitle": "December fourth to twenty-third, MDCCCXCIX ...",
+      "title": "Catalogue of the American Institute Photographic Salon."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/lhbtn.",
+        "type": "s"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1856",
+        "deathDate": "1924.",
+        "name": "Archer, William,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "\"The letters and essays which make up this volume appeared in the London Pall Mall gazette and Pall Mall magazine, respectively.\"",
+        "electronic reproduction.",
+        "2 p.l., iii-v p., 1 l., 260 p., 19 cm."
+      ],
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000087",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 p.l., iii-v p., 1 l., 260 p.",
+      "modified": "2006-06-29T09:28:26.0Z",
+      "numberOfPages": 260,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "C. Scribner's sons,"
+      },
+      "responsibilityNotes": "by William Archer.",
+      "subject": {
+        "place": [
+          "United States",
+          "United States"
+        ]
+      },
+      "subtitle": "observations and reflections",
+      "title": "America to-day;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "6 p. l., [17]-203 p., 18 cm.",
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000092",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "6 p. l., [17]-203 p.",
+      "modified": "2005-04-29T20:25:21.0Z",
+      "numberOfPages": 203,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York city,",
+        "name": "Dau publishing co.,"
+      },
+      "subject": {
+        "place": "Baltimore (Md.)"
+      },
+      "subtitle": "1900.",
+      "title": "The Baltimore society address book ..."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002106262"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1860",
+        "deathDate": "1937.",
+        "name": "Bergey, D. H.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "3 p.l., 164 p., 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000095",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "3 p.l., 164 p.",
+      "modified": "2012-07-04T08:01:53.0Z",
+      "numberOfPages": 164,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Easton, Pa.,",
+        "name": "The Chemical publishing company,"
+      },
+      "subject": {
+        "topic": "Hygien"
+      },
+      "title": "Handbook of practical hygiene,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1843",
+        "deathDate": "1899.",
+        "name": "Booth, Henry M.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "163 p., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000097",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "163 p.",
+      "modified": "2002-12-13T13:24:42.0Z",
+      "numberOfPages": 163,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Fleming H. Revell Company"
+      },
+      "responsibilityNotes": "addresses by Henry M. Booth delivered before the students and alumni of the Theological Seminary, of Auburn, in the state of New York.",
+      "subject": {
+        "topic": "Pastoral theology."
+      },
+      "title": "The man and his message;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1848",
+        "deathDate": "1926.",
+        "name": "Bradford, Edward H.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill., port.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1859",
+          "deathDate": "1924,",
+          "name": "Lovett, Robert Williamson,",
+          "relTerm": "joint author."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "vi, 655 p. :, ill., port. ;, 25 cm.",
+      "dimensions": "25 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000101",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vi, 655 p. :",
+      "modified": "2005-07-30T16:28:09.0Z",
+      "numberOfPages": 655,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York :",
+        "name": "W. Wood,"
+      },
+      "responsibilityNotes": "by Edward H. Bradford and Robert W. Lovett.",
+      "restrictionAndAccessNote": "2nd rev ed.",
+      "subject": {
+        "topic": "Orthopedics."
+      },
+      "title": "Treatise on orthopedic surgery"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001464314"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1858?",
+        "deathDate": "1918.",
+        "name": "Campbell, Wilfred,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Poems.",
+        "vi, 137 p., 19 cm."
+      ],
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000109",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vi, 137 p.",
+      "modified": "2009-11-18T08:11:11.0Z",
+      "numberOfPages": 137,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "Houghton, Mifflin,"
+      },
+      "responsibilityNotes": "by W. Wilfred Campbell.",
+      "title": "Beyond the hills of dream,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1835",
+        "deathDate": "1896.",
+        "name": "Cerfberr, Anatole,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1840",
+          "deathDate": "",
+          "name": "Christophe, Jules Franc?ois,"
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "xv, [1], 583 p., 22 cm.",
+      "dimensions": "22 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000111",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xv, [1], 583 p.",
+      "modified": "2005-07-30T16:28:11.0Z",
+      "numberOfPages": 583,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Philadelphia,",
+        "name": "The Gebbie publishing co., ltd.,"
+      },
+      "responsibilityNotes": "by A. Cerfberr and J. Christophe; with an introduction by Paul Bourget. Translated and edited by Jno. Rudd, B. A.",
+      "subject": {
+        "agent": "Balzac, Honore? de, 1799-1850.",
+        "place": "Balzac, Honore? de,",
+        "work": "Come?die humaine."
+      },
+      "subtitle": "H. de Balzac's Come?die humaine,",
+      "title": "Compendium."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1872",
+        "deathDate": "1952.",
+        "name": "Dawson, A. J.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000118",
+            "title": "Half-title: Appleton's town and country library,",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "vi, 343 p., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000118",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vi, 343 p.",
+      "modified": "2005-09-09T16:28:47.0Z",
+      "numberOfPages": 343,
+      "numberOfWorkPart": "no. 277",
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "D. Appleton and company,"
+      },
+      "responsibilityNotes": "By A. J. Dawson...",
+      "title": "Half-title: Appleton's town and country library,\nThe story of Ronald Kestrel."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.20060523001ge",
+        "title": "PDF"
+      },
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.20060523001ge",
+        "rel": "http://opds-spec.org/acquisition",
+        "title": "Page view"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1831",
+        "deathDate": "1901,",
+        "name": "Delano, Joel Andrew,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "col. front., plates, fold. geneal. tab.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1869",
+          "deathDate": "1920,",
+          "name": "Delano de Lannoy, Mortimer,",
+          "relTerm": "e"
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "2 p. l., 561 p., col. front., plates, fold. geneal. tab., 27 cm.",
+      "dimensions": "27 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000119",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 p. l., 561 p.",
+      "modified": "2007-07-07T08:04:13.0Z",
+      "numberOfPages": 561,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,"
+      },
+      "responsibilityNotes": "Compiled by Major Joel Andrew Delano, with the history of heraldry of the maison de Franchimont and de Lannoy to Delano, 1096-1621, and the royal ancestry of Lannoy from Guelph, prince of the Scyrri, to Philippe de Lannoy, 476 A.D. to 1621, including other royal lines and a list of the Lannoy chevaliers de la toison d'or [golden fleece] arranged by Mortimer Delano de Lannoy.",
+      "subject": {
+        "agent": "Delano famil",
+        "place": "Delano famil"
+      },
+      "title": "The genealogy, history, and alliances of the American house of Delano, 1621 to 1899."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Dewey, Julia M.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "viii, 141 p., 17 cm.",
+      "dimensions": "17 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000120",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "viii, 141 p.",
+      "modified": "2005-06-11T16:26:19.0Z",
+      "numberOfPages": 141,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Hinds & Noble,"
+      },
+      "responsibilityNotes": "By Julia M. Dewey.",
+      "subject": {
+        "topic": "Etiquette."
+      },
+      "subtitle": "arranged for grammar schools, high schools, and academies.",
+      "title": "Lessons on manners;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002982235"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Dewey, Julia M.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "ix, 283 p., 17 cm.",
+      "dimensions": "17 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000121",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "ix, 283 p.",
+      "modified": "2012-01-27T08:01:58.0Z",
+      "numberOfPages": 283,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Hinds & Noble,"
+      },
+      "responsibilityNotes": "by Julia M. Dewey.",
+      "subject": {
+        "topic": "Ethic"
+      },
+      "subtitle": "arranged for grammar schools, high schools, and academies,",
+      "title": "Lessons on morals;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001590721"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1866",
+        "deathDate": "1934.",
+        "name": "Dooley, John Henry,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front. (port.)",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Poems.",
+        "2 p. l., [ii]-v., 200 p., front. (port.), 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000125",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 p. l., [ii]-v., 200 p.",
+      "modified": "2010-02-03T08:07:50.0Z",
+      "numberOfPages": 200,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "W. H. Young & company,"
+      },
+      "subtitle": "by Rev. John H. Dooley.",
+      "title": "Carmina sacerdotis,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1857",
+        "deathDate": "1942.",
+        "name": "Elmore, James B.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front. (port.) illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "vi, 164 p., front. (port.) illus., 18 cm.",
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000129",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vi, 164 p.",
+      "modified": "2005-08-11T18:22:08.0Z",
+      "numberOfPages": 164,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Alamo, Ind.,",
+        "name": "The author,"
+      },
+      "responsibilityNotes": "by James B. Elmore.",
+      "title": "Love among the mistletoe, and poems,"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001219311"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Foster, Eli Greenawalt.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus. (plans) double maps.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "286 p., illus. (plans) double maps., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000132",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "286 p.",
+      "modified": "2009-08-29T08:05:16.0Z",
+      "numberOfPages": 286,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Topeka, Kan.,",
+        "name": "Crane,"
+      },
+      "responsibilityNotes": "by Eli G. Foster.",
+      "subject": {
+        "place": "United States"
+      },
+      "title": "The Civil War by campaigns,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1865",
+        "deathDate": "",
+        "name": "Fuller, Hulbert,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900",
+      "description": [
+        "A novel.",
+        "3 p. l., 373 p., 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000133",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "3 p. l., 373 p.",
+      "modified": "2005-06-05T16:35:17.0Z",
+      "numberOfPages": 373,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "L. C. Page and company (inc.)"
+      },
+      "responsibilityNotes": "by Hulbert Fuller.",
+      "title": "God's rebel,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1850",
+        "deathDate": "1924.",
+        "name": "Good, James I.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "vii, 701 p., illus., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000137",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vii, 701 p.",
+      "modified": "2005-07-23T21:25:01.0Z",
+      "numberOfPages": 701,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Reading, Pa.,",
+        "name": "D. Miller,"
+      },
+      "subject": {
+        "agent": "Reformed Church in the United States"
+      },
+      "title": "History of the Reformed Church in the United States, 1725-1792."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1859",
+        "deathDate": "1932.",
+        "name": "Grahame, Kenneth,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus., plates,",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900-1899",
+      "description": [
+        "Illustrated t.p.",
+        "4 p. l., 252 p., illus., plates,, 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000138",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "4 p. l., 252 p.",
+      "modified": "2005-09-09T16:28:48.0Z",
+      "numberOfPages": 252,
+      "published": "1900-1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "J. Lane,"
+      },
+      "responsibilityNotes": "by Kenneth Grahame; illustrated by Maxfield Parrish.",
+      "subject": {
+        "genreForm": [
+          "gsafd: Pastoral fiction.",
+          "gsafd: Bildungsromans."
+        ],
+        "place": "England",
+        "topic": [
+          "Brothers and sisters",
+          "Country life"
+        ]
+      },
+      "title": "The golden age,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1845",
+        "deathDate": "1901.",
+        "name": "Gras, Fe?lix,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1841",
+          "deathDate": "1923,",
+          "name": "Janvier, Catharine A.",
+          "relTerm": "tr."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "Preceded by The terror.",
+        "iv, 437 p., 17 cm."
+      ],
+      "dimensions": "17 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000139",
+      "language": [
+          "eng",
+          "engpro",
+          "rus",
+        "Includes translation"
+      ],
+      "marc:type": "a",
+      "materialExtent": "iv, 437 p.",
+      "modified": "1999-10-12T16:50:44.0Z",
+      "numberOfPages": 437,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "D. Appleton and Company,"
+      },
+      "responsibilityNotes": "tr. from the Provenc?al of Fe?lix Gras ... by Catharine A. Janvier.",
+      "subject": {
+        "place": "France"
+      },
+      "subtitle": "a romance of the French Revolution and after;",
+      "title": "The white terror;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001611739"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1844",
+        "deathDate": "1910.",
+        "name": "Griggs, N. K.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus., pl.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "[58] p., illus., pl., 18 x 23 cm.",
+      "dimensions": "18 x 23 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000141",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "[58] p.",
+      "modified": "2010-11-24T14:09:32.0Z",
+      "numberOfPages": 58,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago,",
+        "name": "The Schulte Pub. Co."
+      },
+      "responsibilityNotes": "by N. K. Griggs. Illustrated by W. S. Phillips.",
+      "subtitle": "a poem of the camps,",
+      "title": "Hell's canyon;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1848",
+        "deathDate": "1925.",
+        "name": "Morris, Clara,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "vii p., 1 l., 226 p., front., 18 cm.",
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000143",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vii p., 1 l., 226 p.",
+      "modified": "2005-06-05T16:35:18.0Z",
+      "numberOfPages": 226,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Century,"
+      },
+      "responsibilityNotes": "by Clara Morris.",
+      "title": "Little \"Jim Crow\", and other stories of children,",
+      "toc": [
+        {
+          "title": "Little \"Jim Crow.\"--My pirate.--\"Shins.\"--\"My Mr. Edward.\"--The gallant Theophilus.--A pretty plan.--An amateur Santa Claus.--\"Marty Many-Things.\"--A little royal princess.--The princess Porcelain.--The hermits."
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1842",
+        "deathDate": "1921.",
+        "name": "Kropotkin, Petr Alekseevich, kni?a?z?,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front., ports.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1842",
+          "deathDate": "1927.",
+          "name": "Brandes, Georg,"
+        },
+        {
+          "birthDate": "1862",
+          "deathDate": "",
+          "name": "Agassiz, George R.",
+          "relTerm": "former owner."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "\"Published in the Atlantic monthly (September, 1898, to September, 1899), under the title, 'The autobiography of a revolutionist'.\"",
+        "Introduction signed: Georg Brandes.",
+        "Includes index.",
+        "xiv, 519 p. :, front., ports. ;, 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000154",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xiv, 519 p. :",
+      "modified": "2013-05-07T08:04:13.0Z",
+      "numberOfPages": 519,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston and New York :",
+        "name": "Houghton, Mifflin and Company,"
+      },
+      "responsibilityNotes": "by P. Kropotkin.",
+      "subject": {
+        "agent": "Kropotkin, Petr Alekseevich, kni?a?z?, 1842-1921.",
+        "place": "Kropotkin, Petr Alekseevich,",
+        "topic": "Anarchists"
+      },
+      "title": "Memoirs of a revolutionist"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1864",
+        "deathDate": "1927.",
+        "name": "Lloyd, Alfred H.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "250 p., 1 l., iv p., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000156",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "250 p., 1 l., iv p.",
+      "modified": "2005-07-01T18:03:29.0Z",
+      "numberOfPages": 250,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Ann Arbor,",
+        "name": "G. Wahr,"
+      },
+      "responsibilityNotes": "by Alfred H. Lloyd.",
+      "subject": {
+        "topic": [
+          "History",
+          "Social sciences."
+        ]
+      },
+      "subtitle": "an introduction to the philosophical study of politics,",
+      "title": "Philosophy of history;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002205463"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Malan, Alfred Henry,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "incl. illus., plates, facsims., fronts.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900",
+      "description": [
+        "Title page illustrated.",
+        "Frontispiece accompanied by guard sheet with descriptive letterpress",
+        "xvii, 393 p., incl. illus., plates, facsims., fronts., 29 cm."
+      ],
+      "dimensions": "29 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000163",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xvii, 393 p.",
+      "modified": "2011-05-05T08:02:34.0Z",
+      "numberOfPages": 393,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "London,",
+        "name": "The Pall Mall magazine,"
+      },
+      "responsibilityNotes": "edited by A. H. Malan...",
+      "subject": {
+        "topic": [
+          "Historic buildings",
+          "Country homes",
+          "Dwellings"
+        ]
+      },
+      "title": "Famous homes of Great Britain and their stories,",
+      "toc": [
+        {
+          "title": "Belvoir castle, by A. H. Malan.--Blenheim, by the Duke of Marlborough.--Hardwick hall, by A. H. Malan.--Charlecole, by Richard Davey.--Holland house, by the Hon. Caroline Roche.--Cawdo castle, by Viscount Etnklyn.--Battle abbey, by the Duchess of Cleveland.--Chatsworth, by A. H. Malan.--Lyme, by the dowager Lady Newton.--Peushurst, by Lady de L'lsle and Dudley.--Warwick castle, by the Countess of Warwick.--Ainwich castle, by A. H. Malan."
+        }
+      ]
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001452682"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1779",
+        "deathDate": "1852.",
+        "name": "Moore, Thomas,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus., plates.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xiii, 297 p. incl. front.,, illus., plates., 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000169",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xiii, 297 p. incl. front.,",
+      "modified": "2010-02-03T08:07:51.0Z",
+      "numberOfPages": 297,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "D. Estes,"
+      },
+      "responsibilityNotes": "by Thomas Moore.",
+      "subtitle": "an oriental romance,",
+      "title": "Lalla Rookh;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1863",
+        "deathDate": "1939.",
+        "name": "Park, William Hallock,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus., II col. pl.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1851",
+          "deathDate": "",
+          "name": "Guerard, Arthur Rose,"
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "Subsequently published under title: Pathogenic microo?rganisms.",
+        "ix, [17]-693 p., illus., II col. pl., 21 cm."
+      ],
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000173",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "ix, [17]-693 p.",
+      "modified": "2005-06-05T16:35:19.0Z",
+      "numberOfPages": 693,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York, Philadelphia,",
+        "name": "Lea Brothers & Co."
+      },
+      "responsibilityNotes": "By Wm. Hallock Park ... assisted by A. R. Guerard ...",
+      "subject": {
+        "topic": "Medical microbiology."
+      },
+      "subtitle": "A practical manual for physicians, health officers, and students.",
+      "title": "Bacteriology in medicine and surgery."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001376291"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1863",
+        "deathDate": "1950.",
+        "name": "Pattee, Fred Lewis,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Short lists of authorities and notes of \"Suggested readings\" accompany the chapters.",
+        "394 p., 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000175",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "394 p.",
+      "modified": "2013-07-26T07:32:16.0Z",
+      "numberOfPages": 394,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston,",
+        "name": "Silver, Burdett & co."
+      },
+      "responsibilityNotes": "by Fred Lewis Pattee.",
+      "subject": {
+        "topic": "English literature"
+      },
+      "subtitle": "a study of the development of English thought and expression from Beowulf to Milton,",
+      "title": "The foundations of English literature ;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1852",
+        "deathDate": "",
+        "name": "Powers, O. M.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "84 p., illus., 28 cm.",
+      "dimensions": "28 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000180",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "84 p.",
+      "modified": "2005-06-11T16:26:20.0Z",
+      "numberOfPages": 84,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago,"
+      },
+      "subject": {
+        "topic": [
+          "Letter-writing.",
+          "Commercial correspondence."
+        ]
+      },
+      "subtitle": "for schools and private study.",
+      "title": "Twenty lessons in letter writing and business forms;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1869",
+        "deathDate": "1935.",
+        "name": "Strang, Lewis Clinton,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000192",
+            "title": "Stage lovers series",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "ports.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "",
+          "deathDate": "approximately 1940,",
+          "name": "Corning, John Herbert,",
+          "relTerm": "former owner."
+        }
+      ],
+      "dc:issued": "1900",
+      "description": [
+        "Title in red and black.",
+        "Issued in light gray cloth binding with art nouveau botanical design with peacocks and perhaps doves stamped in gilt inside gilt borders on front cover and spine; top edge gilt.",
+        "Includes index.",
+        "354 p., [25] leaves of plates :, ports. ;, 18 cm."
+      ],
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000192",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "354 p., [25] leaves of plates :",
+      "modified": "2013-05-17T08:04:21.0Z",
+      "numberOfPages": 354,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston :",
+        "name": "L.C. Page and Company,"
+      },
+      "responsibilityNotes": "by Lewis C. Strang ; illustrated.",
+      "subject": {
+        "topic": "Actors"
+      },
+      "subtitle": "first series /",
+      "title": "Stage lovers series\nFamous actors of the day, in America"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Swan, Charles H.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "16 illus.,",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "name": "Horton, Theodore,",
+          "relTerm": "joint author."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "43 p.,, 16 illus.,, 24 cm.",
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000197",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "43 p.,",
+      "modified": "2005-07-23T21:25:02.0Z",
+      "numberOfPages": 43,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "The Engineering news publishing company,"
+      },
+      "responsibilityNotes": "by Charles H. Swan ... and Theodore Horton ... with a description of the diagrams and their use by Theodore Horton.",
+      "subject": {
+        "topic": [
+          "Hydraulics",
+          "Aqueducts."
+        ]
+      },
+      "subtitle": "based upon the formula of Ganguillet and Kutter,",
+      "title": "Hydraulic diagrams for the discharge of conduits and canals;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front., illus., fold. map.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "4 p. l., 13-60 p., front., illus., fold. map., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000200",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "4 p. l., 13-60 p.",
+      "modified": "2001-04-18T10:12:36.0Z",
+      "numberOfPages": 60,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Rand, McNally & company"
+      },
+      "subject": {
+        "place": "Transvaal (South Africa)"
+      },
+      "subtitle": "a condensed history of the South African republic ...",
+      "title": "The Transvaal;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1841",
+        "deathDate": "1918.",
+        "name": "Walsh, A. Stewart",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "60 plates(incl.front.)",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "At head of title: Art edition.",
+        "xxvii,626p. :, 60 plates(incl.front.) ;, 22cm."
+      ],
+      "dimensions": "22cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000203",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xxvii,626p. :",
+      "modified": "2001-02-13T15:20:24.0Z",
+      "numberOfPages": 626,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York :",
+        "name": "H. S. Allen,"
+      },
+      "responsibilityNotes": "by A. Stewart Walsh, with an introduction by T. De Witt Talmage.",
+      "subject": {
+        "agent": "Mary, Blessed Virgin, Saint",
+        "genreForm": [
+          "gsafd: Biographical fiction.",
+          "gsafd: Christian fiction."
+        ],
+        "place": "Mary,",
+        "topic": "Christian women saints"
+      },
+      "subtitle": "the story of her life /",
+      "title": "Mary: the queen of the house of David and mother of Jesus;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001982329"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "West, Jeannette Gregory.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Interleaved.",
+        "2 p. l., 56 p., illus., 27 cm."
+      ],
+      "dimensions": "27 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000208",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 p. l., 56 p.",
+      "modified": "2009-09-09T08:04:14.0Z",
+      "numberOfPages": 56,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "St Louis,",
+        "name": "Woodward & Tiernan Printing Co.,"
+      },
+      "responsibilityNotes": "illustrated with characteristic exercises. By Jeannette Gregory West ...",
+      "subject": {
+        "topic": "Kindergarten"
+      },
+      "title": "Practical studies in the gifts,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1826",
+        "deathDate": "1901.",
+        "name": "Woerner, J. G.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "plates.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "viii, [1], 775 p., plates., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000211",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "viii, [1], 775 p.",
+      "modified": "2003-09-21T19:33:52.0Z",
+      "numberOfPages": 775,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston, Mass.,",
+        "name": "Little, Brown & co.,"
+      },
+      "responsibilityNotes": "by J. G. Woerner; illustratred by E. G. Witter.",
+      "subject": {
+        "genreForm": "lcsh: Political fiction."
+      },
+      "subtitle": "a story of love, politics and war,",
+      "title": "The rebel's daughter;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1866",
+        "deathDate": "1936.",
+        "name": "Barnes, James,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "col. front., 7 pl.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xiii, 415 p., col. front., 7 pl., 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000224",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xiii, 415 p.",
+      "modified": "2005-09-01T07:31:22.0Z",
+      "numberOfPages": 415,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "London,",
+        "name": "Macmillan,"
+      },
+      "responsibilityNotes": "by James Barnes ... illustrated by Carlton T. Chapman.",
+      "subject": {
+        "agent": "Drake, Sir Francis, 1540?-1596",
+        "place": "Drake, Sir Francis,"
+      },
+      "subtitle": "a true accounting of the character and adventures of Sir Francis Drake as told by Sir Matthew Maunsell, his friend and follower ...",
+      "title": "Drake and his yeomen;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1852",
+        "deathDate": "1934.",
+        "name": "Bartlett, Albert Le Roy,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "forms",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Includes index.",
+        "318 p. :, forms ;, 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000226",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "318 p. :",
+      "modified": "2000-05-24T15:59:43.0Z",
+      "numberOfPages": 318,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York :",
+        "name": "Silver, Burdett and Company,"
+      },
+      "responsibilityNotes": "by Albert LeRoy Bartlett.",
+      "subject": {
+        "topic": "English language"
+      },
+      "title": "The essentials of language and grammar"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1861",
+        "deathDate": "1920.",
+        "name": "Brady, Cyrus Townsend,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front., plates.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xi, 339 p., front., plates., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000234",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xi, 339 p.",
+      "modified": "2005-07-05T11:48:09.0Z",
+      "numberOfPages": 339,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Charles Scribner's Sons,"
+      },
+      "responsibilityNotes": "by Cyrus Townsend Brady ...",
+      "subject": {
+        "genreForm": [
+          "gsafd: War stories.",
+          "gsafd: Sea stories."
+        ],
+        "place": "United States"
+      },
+      "subtitle": "a romance of the War of 1812,",
+      "title": "For the freedom of the sea;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002171685",
+        "rel": "alternate"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1856",
+        "deathDate": "1917.",
+        "name": "Brown, Neal,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "245 p., 23 cm.",
+      "dimensions": "23 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000238",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "245 p.",
+      "modified": "2013-09-12T07:32:25.0Z",
+      "numberOfPages": 245,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Wausau, Wis.,",
+        "name": "The Philosopher press"
+      },
+      "responsibilityNotes": "by Neal Brown.",
+      "subject": {
+        "agent": [
+          "Lang, Andrew, 1844-191",
+          "Balzac, Honore? de, 1799-185",
+          "Thackeray, William Makepeace, 1811-186",
+          "Smith, John, 1580-163"
+        ],
+        "place": [
+          "Lang, Andrew,",
+          "Balzac, Honore? de,",
+          "Thackeray, William Makepeace,",
+          "Smith, John,",
+          "United States"
+        ],
+        "topic": "American literature"
+      },
+      "title": "Critical confessions,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1858",
+        "deathDate": "1920.",
+        "name": "Castle, Egerton,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xx p., 1 l., 434 p., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000245",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xx p., 1 l., 434 p.",
+      "modified": "2005-06-23T12:36:04.0Z",
+      "numberOfPages": 434,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Fredrick A. Stokes company,"
+      },
+      "responsibilityNotes": "by Egerton Castle ...",
+      "subtitle": "a romance,",
+      "title": "The light of Scarthey;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000255",
+            "title": "Proceedings series, / Proceedings series (International Atomic Energy Agency)",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "ill. (some col.), maps (some col.)",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "2000",
+      "description": [
+        "\"Proceedings of an international symposium organized by the International Atomic Energy Agency and held in Arlington, Virginia, USA, 29 November-3 December 1999.\"",
+        "\"International Symposium on Restoration of Environments with Radioactive Residues\"--Foreword.",
+        "\"Record of the symposium, [which] includes the [contributed] papers, summaries of the discussions, session summaries, opening statements and symposium president's overall summary\"--Foreword.",
+        "\"STI/PUB/1092\"--T.p. verso.",
+        "697 p. :, ill. (some col.), maps (some col.) ;, 24 cm."
+      ],
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000255",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "697 p. :",
+      "modified": "2001-09-27T16:57:32.0Z",
+      "numberOfPages": 697,
+      "published": "2000",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Lanham, MD :",
+        "name": "Bernan Associates, distributor],"
+      },
+      "subject": {
+        "topic": [
+          "Radioactive waste sites",
+          "Radioactive waste sites",
+          "Radioactive waste sites",
+          "Radioactive waste sites"
+        ]
+      },
+      "subtitle": "papers and discussions.",
+      "title": "Proceedings series, / Proceedings series (International Atomic Energy Agency)\nRestoration of environments with radioactive residues",
+      "toc": [
+        {
+          "title": "Global overview -- Restoration principles and criteria -- Case studies : nuclear testing sites -- Case studies : legacy of discharges -- Case studies : accidents -- Case studies : mining and milling accidents -- Case studies : residues from the termination of practices -- Critical analysis of case studies -- Role of public participation."
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1851",
+        "deathDate": "1928.",
+        "name": "Coulter, John Merle,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Series title also at head of t.-p.",
+        "ix, 348 p., illus., 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000261",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "ix, 348 p.",
+      "modified": "2003-08-29T07:48:19.0Z",
+      "numberOfPages": 348,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "D. Appleton and company,"
+      },
+      "responsibilityNotes": "by John M. Coulter.",
+      "subject": {
+        "topic": [
+          "Botany.",
+          "Plant anatomy."
+        ]
+      },
+      "subtitle": "a text book of botany,",
+      "title": "Plant structures;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1866",
+        "deathDate": "",
+        "name": "Dresser, Horatio W.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "port.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "vii, 205 p., port., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000275",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "vii, 205 p.",
+      "modified": "2013-05-04T08:04:09.0Z",
+      "numberOfPages": 205,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "and London,",
+        "name": "G. P. Putnam,"
+      },
+      "responsibilityNotes": "by Horatio W. Dresser.",
+      "subject": {
+        "topic": [
+          "New Thought.",
+          "Individuality."
+        ]
+      },
+      "title": "Voices of freedom and studies in the philosophy of individuality,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1851",
+        "deathDate": "1945,",
+        "name": "Eddy, Sarah J.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "x, 231 p. :, ill. ;, 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000280",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "x, 231 p. :",
+      "modified": "2004-07-15T11:10:06.0Z",
+      "numberOfPages": 231,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston :",
+        "name": "Ginn & Company,"
+      },
+      "responsibilityNotes": "compiled by Sarah J. Eddy.",
+      "subject": {
+        "topic": [
+          "Animals",
+          "Animal welfare."
+        ]
+      },
+      "title": "Friends and helpers"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001868406"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Fletcher, Ella Adelia.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "front. (ports) illus., plates.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "xxix, 535 p., front. (ports) illus., plates., 22 cm.",
+      "dimensions": "22 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000288",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xxix, 535 p.",
+      "modified": "2012-05-23T08:02:14.0Z",
+      "numberOfPages": 535,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "W. M. Young & co."
+      },
+      "responsibilityNotes": "By Ella Adelia Fletcher.",
+      "subject": {
+        "topic": [
+          "Beauty, Persona",
+          "Toilet"
+        ]
+      },
+      "subtitle": "A practical treatise on the development and preservation of woman's health and beauty, and the principles of taste in dress.",
+      "title": "The woman beautiful."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1849",
+        "deathDate": "1917.",
+        "name": "Foster, Geo. E.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000289",
+            "title": "Cherokee history series",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "illus. (port.)",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "x, 89 p., illus. (port.), 17 cm.",
+      "dimensions": "17 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000289",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "x, 89 p.",
+      "modified": "2013-09-18T07:32:24.0Z",
+      "numberOfPages": 89,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Ithaca, N.Y.,",
+        "name": "Democrat Press,"
+      },
+      "responsibilityNotes": "By Geo. E. Foster.",
+      "restrictionAndAccessNote": "2d ed., enl.",
+      "subject": {
+        "topic": "Cherokee Indians."
+      },
+      "subtitle": "An address, with additional and explanatory notes, delivered before the meeting of the Ladies' Missionary Society of the First Congregational Church, Ithaca, N. Y., Feb. 5, 1897.",
+      "title": "Cherokee history series\nStory of the Cherokee Bible."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001590739"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1856",
+        "deathDate": "",
+        "name": "Furman, Alfred Antoine,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "port.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "121 p. :, port. ;, 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000291",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "121 p. :",
+      "modified": "2009-11-18T08:11:11.0Z",
+      "numberOfPages": 121,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York :",
+        "name": "Wynkoop Hallenbeck Crawford,"
+      },
+      "responsibilityNotes": "by Alfred Antoine Furman.",
+      "subtitle": "poems /",
+      "title": "In vales of Helikon"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1870",
+        "deathDate": "",
+        "name": "Gehring, Albert,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "3 p. l., 80 p., 16 cm.",
+      "dimensions": "16 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000293",
+      "language": [
+          "ger",
+          "rus"
+        ],
+      "marc:type": "a",
+      "materialExtent": "3 p. l., 80 p.",
+      "modified": "2005-06-05T16:35:20.0Z",
+      "numberOfPages": 80,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Cleveland, O.,"
+      },
+      "responsibilityNotes": "von Albert Gehring.",
+      "title": "Gedichte,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1907",
+      "description": [
+        "Title varies : v. l, General digest of the decisions of the principal courts in the United States, England and Canada; v. 2, General digest, American and English; v. 3-22, General digest, American and English, annotated. ",
+        "Subtitle varies.",
+        "No more published.",
+        "22 v., 25-27 cm."
+      ],
+      "dimensions": "25-27 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000294",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "22 v.",
+      "modified": "1988-09-07T00:00:00.0Z",
+      "numberOfPages": 22,
+      "published": "1907",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Rochester, N.Y.,",
+        "name": "The Lawyers' Co-operative publishing company,"
+      },
+      "restrictionAndAccessNote": "New series.",
+      "subject": {
+        "topic": [
+          "Law reports, digests, etc.",
+          "Law reports, digests, etc.",
+          "Law reports, digests, etc."
+        ]
+      },
+      "subtitle": "Includes all officially reported cases and all cases not to be officially reported which were first published between Sept. l, 1895, and [Oct.l, 1906] ... Refers to all reports, official and unofficial. v. 1-22.",
+      "title": "General digest of the decisions of the principal courts in the United States, England and Canada."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "col. front., illus. (incl. ports.) col. plates, maps.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1839",
+          "deathDate": "1925.",
+          "name": "Miles, Nelson Appleton,"
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "2 v., col. front., illus. (incl. ports.) col. plates, maps., 42 cm.",
+      "dimensions": "42 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000308",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 v.",
+      "modified": "2005-09-09T16:28:54.0Z",
+      "numberOfPages": 2,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "London,",
+        "name": "Harper & brothers,"
+      },
+      "responsibilityNotes": "with an introduction by Maj. Gen. Nelson A. Miles.",
+      "subject": {
+        "topic": "Spanish-American War, 1898."
+      },
+      "title": "Harper's pictorial history of the war with Spain;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001590578"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1866",
+        "deathDate": "1945.",
+        "name": "Hayes, John Russell,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "name": "Shaw, Rober"
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "Poems.",
+        "59 p. :, ill. ;, 22 cm."
+      ],
+      "dimensions": "22 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000309",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "59 p. :",
+      "modified": "2009-09-09T08:04:17.0Z",
+      "numberOfPages": 59,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Wilmington, Del. :",
+        "name": "John M. Rogers Press,"
+      },
+      "responsibilityNotes": "by John Russell Hayes ; with illustrations by Robert Shaw.",
+      "subject": {
+        "agent": "Swarthmore College",
+        "topic": "Quakers"
+      },
+      "title": "Swarthmore idylls"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001593803"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1863",
+        "deathDate": "1935.",
+        "name": "Herford, Oliver,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1869",
+          "deathDate": "192",
+          "name": "Goodhue, Bertram Grosvenor,"
+        },
+        {
+          "name": "Bird, Elisha Brow"
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "In verse.",
+        "\"Written & pictured by Oliver Herford with a border & initial letters by Bertram Grosvenor Goodhue and end papers & cover design by E.B. Bird\"--Colophon.",
+        "[58] p. :, ill. ;, 24 cm."
+      ],
+      "dimensions": "24 cm.",
+      "disambiguatingDescription": "LC copy the gift of Mrs. Peter Grant, May 22, 1952.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000311",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialDescription": "LC copy the gift of Mrs. Peter Grant, May 22, 1952.",
+      "materialExtent": "[58] p. :",
+      "modified": "2009-11-18T08:11:12.0Z",
+      "numberOfPages": 58,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston :",
+        "name": "Small, Maynard,"
+      },
+      "responsibilityNotes": "Oliver Herford.",
+      "subject": {
+        "topic": [
+          "Nonsense verse",
+          "Celebrities"
+        ]
+      },
+      "title": "An alphabet of celebrities"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.000363042"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1846",
+        "deathDate": "1914.",
+        "name": "Holden, Edward Singleton,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000312",
+            "title": "American science series, elementary course / American science series.",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "front., illus., maps (2 double) diagrs.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Series title also at head of t.-p.",
+        "xv, 446 p., front., illus., maps (2 double) diagrs., 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000312",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "xv, 446 p.",
+      "modified": "2012-01-27T08:02:01.0Z",
+      "numberOfPages": 446,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "H. Holt and company,"
+      },
+      "responsibilityNotes": "by Edward S. Holden ...",
+      "subject": {
+        "topic": "Astronom"
+      },
+      "subtitle": "a beginner's text-book,",
+      "title": "American science series, elementary course / American science series.\nElementary astronomy;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "International Correspondence Schools.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "2 v. :, ill. ;, 24 cm.",
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000322",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 v. :",
+      "modified": "2000-05-26T16:17:41.0Z",
+      "numberOfPages": 2,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Scranton :",
+        "name": "The Colliery engineer co.,"
+      },
+      "responsibilityNotes": "prepared for students of the International correspondence schools, Scranton, Pa . ...",
+      "restrictionAndAccessNote": "1 st ed.",
+      "subject": {
+        "topic": [
+          "Shorthand.",
+          "English language",
+          "English language",
+          "English language",
+          "English language",
+          "Penmanship.",
+          "Penmanship, Vertical.",
+          "Letter writing."
+        ]
+      },
+      "title": "A treatise on stenography",
+      "toc": [
+        {
+          "title": "v. 1. Spelling; penmanship; vertical penmanship; grammar; punctuation and capitalization; questions and exercises.--v. 2. Letter writing; stenography; questions and exercises."
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1856",
+        "deathDate": "1942.",
+        "name": "Jackson, Edward,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900-1899",
+      "description": [
+        "DNLM, Microfilmed for preservation",
+        "604 p., ill."
+      ],
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000324",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "604 p.",
+      "modified": "2004-09-27T18:04:29.0Z",
+      "numberOfPages": 604,
+      "published": "1900-1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Philadelphia,",
+        "name": "Saunders,"
+      },
+      "subject": {
+        "topic": "Eye"
+      },
+      "title": "A manual of the diagnosis and treatment of the diseases of the eye."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Jenkins, Walter L.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "297 p., 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000326",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "297 p.",
+      "modified": "2005-07-01T18:03:30.0Z",
+      "numberOfPages": 297,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Weymouth, Mass.,",
+        "name": "Weymouth and Braintree Pub. Co.,"
+      },
+      "responsibilityNotes": "by Maj. Walter Leigh [pseud.]",
+      "subtitle": "a romance,",
+      "title": "Madrine Doucet,"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002217579"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "port.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "name": "Kane, Alice "
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "Dedication signed: Alice L. Kane.",
+        "142 p. :, port. ;, 18 cm."
+      ],
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000327",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "142 p. :",
+      "modified": "2012-08-23T08:02:09.0Z",
+      "numberOfPages": 142,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Topeka, Kan. :",
+        "name": "Crane & Co.,"
+      },
+      "subject": {
+        "topic": "Spiritualis"
+      },
+      "title": "Echoes from the spirit world."
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001593958"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1871",
+        "deathDate": "1937.",
+        "name": "Keeler, Charles Augustus,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Verse.",
+        "43 p., illus., 25 cm."
+      ],
+      "dimensions": "25 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000328",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "43 p.",
+      "modified": "2009-09-30T08:04:11.0Z",
+      "numberOfPages": 43,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "San Francisco, Calif.,",
+        "name": "A.M. Robertson,"
+      },
+      "responsibilityNotes": "written by Charles Keeler and decorated by Louise Keeler.",
+      "title": "A season's sowing,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Ketcham, Orman Wesley.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "name": "Curtis, Henry Loomis."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "7 p. l., 53, [1] p., illus., 28 cm.",
+      "dimensions": "28 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000330",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "7 p. l., 53, [1] p.",
+      "modified": "2005-06-11T16:26:22.0Z",
+      "numberOfPages": 53,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Philadelphia,",
+        "name": "Printed by E. Stern and co., inc.,"
+      },
+      "responsibilityNotes": "[illustrated and arranged by Henry Loomis Curtis, with quotations culled from various sources.",
+      "subject": {
+        "topic": [
+          "Architecture, Domestic.",
+          "Bricks"
+        ]
+      },
+      "subtitle": "being some suggestions in brickwork from the catalogue of O. W. Ketcham ...",
+      "title": "The story of the house;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1853",
+        "deathDate": "1909,",
+        "name": "King, Moses,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "illus. (incl. ports.)",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "On half-title: \"... nine hundred and eighty views and portraits\".",
+        "1 p. l., 152 p., illus. (incl. ports.), 33 cm."
+      ],
+      "dimensions": "33 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000332",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "1 p. l., 152 p.",
+      "modified": "2005-04-29T20:25:23.0Z",
+      "numberOfPages": 152,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Chasmar-Winchell Press,"
+      },
+      "responsibilityNotes": "Compiled and published by Moses King.",
+      "subject": {
+        "agent": "Dewey, George, 1837-1917.",
+        "place": "Dewey, George,",
+        "topic": "Spanish-American War, 1898"
+      },
+      "subtitle": "an album of one thousand portraits, scenes, views, etc.",
+      "title": "The Dewey reception and committee of New York city;"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1839",
+        "deathDate": "",
+        "name": "Kotelmann, Ludwig Wilhelm Johannes,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000334",
+            "title": "School bulletin publications",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "front. (port.) illus.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "name": "Bergstro?m, John A.,",
+          "relTerm": "tr."
+        },
+        {
+          "name": "Conradi, Edward,",
+          "relTerm": "tr."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "\"A bibliography of English and American books and papers on school hygiene\": p. 353-382.",
+        "1 p. l., 399 p., front. (port.) illus., 18 cm."
+      ],
+      "dimensions": "18 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000334",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "1 p. l., 399 p.",
+      "modified": "2005-09-01T07:31:29.0Z",
+      "numberOfPages": 399,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Syracuse, N.Y.",
+        "name": "C.W. Bardeen,"
+      },
+      "responsibilityNotes": "by Ludwig Kotelmann ... translation from a copy rev. and enl. especially for this edition by the author by John A Bergstro?m ... and Edward Conradi.",
+      "subject": {
+        "topic": "School hygiene."
+      },
+      "title": "School bulletin publications\nSchool hygiene,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1870",
+        "deathDate": "",
+        "name": "Lawrence, Arthur,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "citation": [
+        {
+          "locationWithinSource": "228",
+          "name": "Kramer, S.  Stone and Kimball,"
+        },
+        {
+          "locationWithinSource": "709",
+          "name": "Stewart, J.M.  Kipling,"
+        }
+      ],
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900",
+      "description": [
+        "Facsimile of letter from Rudyard Kipling regarding musical setting of the poem \"Recessional\" on p. 199.",
+        "340 p. :, ill. ;, 23 cm."
+      ],
+      "dimensions": "23 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000338",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "340 p. :",
+      "modified": "2013-05-03T08:14:45.0Z",
+      "numberOfPages": 340,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago :",
+        "name": "H.S. Stone,"
+      },
+      "responsibilityNotes": "by Arthur Lawrence ; with critique by B.W. Findon, and bibliography by Wilfrid Bendall.",
+      "subject": {
+        "agent": "Sullivan, Arthur, 1842-1900.",
+        "place": "Sullivan, Arthur,"
+      },
+      "subtitle": "life story, letters, and reminiscences /",
+      "title": "Sir Arthur Sullivan"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Lee, Mary Urquhart.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1839",
+          "deathDate": "1902.",
+          "name": "Reed, Thomas B."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": "4 p. l., 7-59 p., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000339",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "4 p. l., 7-59 p.",
+      "modified": "2005-08-11T18:22:10.0Z",
+      "numberOfPages": 59,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Rand, McNally & co."
+      },
+      "responsibilityNotes": "[By] Urquhart Lee.",
+      "subject": {
+        "topic": "Parliamentary practice."
+      },
+      "subtitle": "based on \"Reed's Rules\", a handbook of common parliamentary law.",
+      "title": "Parliamentary lessons,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1866",
+        "deathDate": "1947.",
+        "name": "Le Gallienne, Richard,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "name": "MacKay, Robert."
+        }
+      ],
+      "dc:issued": "1900",
+      "description": "viii, 9-143 p., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000340",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "viii, 9-143 p.",
+      "modified": "2005-06-11T16:26:23.0Z",
+      "numberOfPages": 143,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "John Lane,"
+      },
+      "responsibilityNotes": "by Richard Le Gallienne.",
+      "title": "The worshipper of the image,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1823",
+        "deathDate": "1910",
+        "name": "Letchworth, William Pryor,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill., plates.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900",
+      "description": "3 p. l., v-xi, 246 p., ill., plates.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000343",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "3 p. l., v-xi, 246 p.",
+      "modified": "2005-06-05T16:35:20.0Z",
+      "numberOfPages": 246,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York and London,",
+        "name": "G. P. Putnam's sons,"
+      },
+      "responsibilityNotes": "by William Pryor Letchworth ...",
+      "subject": {
+        "topic": "Epilepsy."
+      },
+      "title": "Care and treatment of epileptics,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1840",
+        "deathDate": "1919.",
+        "name": "Lilly, William Samuel,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "lx p., 1l., 322 p., 22 cm.",
+      "dimensions": "22 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000345",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "lx p., 1l., 322 p.",
+      "modified": "2005-09-03T15:08:42.0Z",
+      "numberOfPages": 322,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "G.P.Putnam's Sons,"
+      },
+      "responsibilityNotes": "by William Samuel Lilly.",
+      "subject": {
+        "topic": "Political science"
+      },
+      "title": "First principles in politics,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1863",
+        "deathDate": "1930.",
+        "name": "Locke, William John,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1900",
+      "description": "391 p. ;, 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000347",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "391 p. ;",
+      "modified": "2003-09-25T13:12:55.0Z",
+      "numberOfPages": 391,
+      "published": "1900",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York :",
+        "name": "John Lane,"
+      },
+      "responsibilityNotes": "by William J. Locke.",
+      "title": "The white dove"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1849",
+        "deathDate": "1923.",
+        "name": "Mallock, W. H.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "1 p. l., 513 p., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000354",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "1 p. l., 513 p.",
+      "modified": "2005-09-01T07:31:36.0Z",
+      "numberOfPages": 513,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "Street & Smith"
+      },
+      "responsibilityNotes": "by W. H. Mallock.",
+      "title": "The old order changes,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1843",
+        "deathDate": "1914.",
+        "name": "Milne, William J.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ill.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1843",
+          "deathDate": "1914.",
+          "name": "Milne, William J."
+        }
+      ],
+      "dc:issued": "1899",
+      "description": [
+        "On cover: Key to Plane and solid geometry.",
+        "313 p. :, ill. ;, 20 cm."
+      ],
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000362",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "313 p. :",
+      "modified": "2005-04-29T20:25:24.0Z",
+      "numberOfPages": 313,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York :",
+        "name": "American Book Company,"
+      },
+      "relatedTo": "Plane and solid geometry.",
+      "subject": {
+        "topic": [
+          "Geometry.",
+          "Geometry, Solid."
+        ]
+      },
+      "title": "Key to Milne's plane and solid geometry."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1863",
+        "deathDate": "",
+        "name": "Neely, F. Tennyson",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [],
+        "series": [
+          {
+            "href": "DLC/00000373",
+            "title": "Neely's educational library.",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Cover-title: Neely's photographs.",
+        "[160] p. of illus., 14x21 cm."
+      ],
+      "dimensions": "14x21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000373",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "[160] p. of illus.",
+      "modified": "2013-05-15T08:04:17.0Z",
+      "numberOfPages": 160,
+      "numberOfWorkPart": "no. 5",
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Chicago etc.",
+        "name": "F. T. Neely,"
+      },
+      "subject": {
+        "place": "Philippines"
+      },
+      "subtitle": "authentic original photographs.",
+      "title": "Neely's educational library.\nFighting in the Philippines;"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002727",
+        "rel": "http://opds-spec.org/acquisition"
+      },
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002727",
+        "rel": "related"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1830",
+        "deathDate": "1901.",
+        "name": "Nordhoff, Charles,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "208 p., 19 cm.",
+      "dimensions": "19 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000374",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "208 p.",
+      "modified": "2012-05-02T08:02:08.0Z",
+      "numberOfPages": 208,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Cincinnati etc.",
+        "name": "American book company"
+      },
+      "responsibilityNotes": "by Charles Nordhoff ...",
+      "restrictionAndAccessNote": "A newly rev. ed. for schools and colleges.",
+      "subject": {
+        "place": "United States"
+      },
+      "title": "Politics for young Americans,"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1773",
+        "deathDate": "1857.",
+        "name": "Tappan, Benjamin,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": [
+        "Includes index.",
+        "iv, 321 p. ;, 24 cm."
+      ],
+      "dimensions": "24 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000376",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "iv, 321 p. ;",
+      "modified": "2005-07-01T18:03:31.0Z",
+      "numberOfPages": 321,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Norwalk, Ohio :",
+        "name": "Laning Print. Co.,"
+      },
+      "responsibilityNotes": "by Benjamin Tappan.",
+      "restrictionAndAccessNote": "Rev. ed.",
+      "subject": {
+        "topic": "Law reports, digests, etc."
+      },
+      "subtitle": "commencing with May term, 1816 : to which is added the opinion of Judge McLean in the case of Landerback vs. Moore /",
+      "title": "Cases decided in the courts of comon pleas in the fifth circuit of the state of Ohio"
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1854",
+        "deathDate": "1914.",
+        "name": "Peirce, B. O.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "incl. tables.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "134 p., incl. tables., 21 cm.",
+      "dimensions": "21 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000379",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "134 p.",
+      "modified": "2013-06-05T07:33:26.0Z",
+      "numberOfPages": 134,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Boston, U.S.A.,",
+        "name": "Ginn & Company,"
+      },
+      "responsibilityNotes": "by B.O. Peirce.",
+      "restrictionAndAccessNote": "Rev. ed.",
+      "subject": {
+        "topic": "Integrals."
+      },
+      "title": "A short table of integrals,"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.002122615"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1831",
+        "deathDate": "1929.",
+        "name": "Rice, Edwin Wilbur,",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "94 p. ;, 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000393",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "94 p. ;",
+      "modified": "2012-01-27T08:02:01.0Z",
+      "numberOfPages": 94,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Philadelphia :",
+        "name": "The Union Press,"
+      },
+      "responsibilityNotes": "edited by Edwin W. Rice.",
+      "subtitle": "Heaven: the way to it, its inhabitants,   employments, enjoyments, glories; and children and recognition of friends there /",
+      "title": "The heavenly city"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://hdl.loc.gov/loc.gdc/scd0001.001418113"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1842",
+        "deathDate": "1911.",
+        "name": "Richards, Ellen H.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1899",
+      "description": "2 p. l., 121 p., 20 cm.",
+      "dimensions": "20 cm.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/DLC/00000394",
+      "language": ["eng", "rus"],
+      "marc:type": "a",
+      "materialExtent": "2 p. l., 121 p.",
+      "modified": "2009-09-09T08:04:18.0Z",
+      "numberOfPages": 121,
+      "published": "1899",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "New York,",
+        "name": "J. Wiley & sons;"
+      },
+      "responsibilityNotes": "By Ellen H. Richards.",
+      "restrictionAndAccessNote": "1st ed. 1st thousand.",
+      "subject": {
+        "topic": [
+          "Home economic",
+          "Hygien"
+        ]
+      },
+      "title": "The cost of living as modified by sanitary science."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "identifier": "https://catalog.rusneb.ru/resources/instance",
+      "language": ["rus"],
+      "marc:type": "a",
+      "publisher": {
+        "addressCountry": "ru"
+      },
+      "title": ""
+    }
+  }
+]

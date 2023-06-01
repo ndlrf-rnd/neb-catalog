@@ -1,0 +1,26 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "identifier": "https://catalog.rusneb.ru/resources/instance/РГБ/000028728",
+      "language": ["rus"],
+      "marc:type": "a",
+      "modified": "2008-02-12T13:46:30.0Z",
+      "publisher": {
+        "addressCountry": "ru"
+      }
+    }
+  }
+]

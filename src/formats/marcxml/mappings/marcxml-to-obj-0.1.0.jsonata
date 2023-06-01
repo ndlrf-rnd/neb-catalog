@@ -1,0 +1,26 @@
+**.elements[$.name = 'record'].{
+  "leader": $.elements[$.name = 'leader'].elements.text,
+  'controlfield': $.elements[$.name = 'controlfield'].$merge(
+    [
+      $.attributes,
+      {
+        'value': $.elements.text
+      }
+    ]
+  ),
+  'datafield': $.elements[$.name = 'datafield'].$merge(
+    [
+      $.attributes,
+      {
+        'subfield': $.[
+          elements[$.name='subfield'].$merge(
+            [
+              $.attributes,
+              {'value': $.elements.text }
+            ]
+          )
+        ]
+      }
+    ]
+  )
+}

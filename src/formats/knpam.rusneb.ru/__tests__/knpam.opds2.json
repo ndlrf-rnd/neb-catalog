@@ -1,0 +1,673 @@
+[
+  {
+    "images": [
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/4/images/009987459_00.jpg",
+        "name": {
+          "en": "Image of item 009987459_00.jpg",
+          "ru": "Изображение экземпляра 009987459_00.jpg"
+        },
+        "title": "Изображение экземпляра 009987459_00.jpg"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/4/images/009987459_01.jpg",
+        "name": {
+          "en": "Image of item 009987459_01.jpg",
+          "ru": "Изображение экземпляра 009987459_01.jpg"
+        },
+        "title": "Изображение экземпляра 009987459_01.jpg"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/4/images/009987459_03.jpg",
+        "name": {
+          "en": "Image of item 009987459_03.jpg",
+          "ru": "Изображение экземпляра 009987459_03.jpg"
+        },
+        "title": "Изображение экземпляра 009987459_03.jpg"
+      }
+    ],
+    "links": [
+      {
+        "alternate": "https://knpam.rusneb.ru/copies/view?num=4",
+        "href": "https://knpam.rusneb.ru/item4.htm",
+        "name": {
+          "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+          "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+        },
+        "rel": "original archives",
+        "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+        "type": "text/html"
+      },
+      {
+        "href": "https://kp.rusneb.ru/item/material/5dd3ea4074d5af0dd4567be5",
+        "name": {
+          "en": "Item page on National electronic library (NEL)",
+          "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+        },
+        "properties": {
+          "indirectAcquisition": [
+            {
+              "type": "application/pdf"
+            }
+          ]
+        },
+        "rel": "http://opds-spec.org/acquisition/open-access",
+        "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+        "type": "text/html"
+      },
+      {
+        "href": "http://dlib.rsl.ru/rsl01009000000/rsl01009987000/rsl01009987459/rsl01009987459.pdf",
+        "name": {
+          "en": "Digital version on Russian state library (RSL) official site",
+          "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+        },
+        "properties": {
+          "indirectAcquisition": [
+            {
+              "type": "application/pdf"
+            }
+          ]
+        },
+        "rel": "http://opds-spec.org/acquisition/open-access",
+        "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+        "type": "text/html"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/4/conclusion/152.pdf",
+        "name": {
+          "en": "Heritage status assignment expertise conclusion",
+          "ru": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        "rel": "http://opds-spec.org/acquisition",
+        "title": "Экспертное заключение на отнесение к книжным памятникам"
+      }
+    ],
+    "metadata": {
+      "@id": "urn:nbn:ru:kp:4",
+      "@type": "https://schema.org/CreativeWork",
+      "author": {
+        "birthDate": "1792",
+        "deathDate": "1866",
+        "name": "Haxthausen, August von",
+        "relCode": "aut",
+        "relTerm": "Автор",
+        "sortAs": "Haxthausen, August von ,"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "@id": "/resources/groups/knpam.rusneb.ru/",
+            "identifier": "urn:nbn:ru:kp:group:book/text",
+            "name": "Текст"
+          },
+          {
+            "@id": "/resources/organization/knpam.rusneb.ru/26",
+            "@type": "https://schema.org/ArchiveOrganization",
+            "address": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва, г.",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "bf:shelfMark": "G 2/26",
+            "bf:stockNumber": "17522-И",
+            "email": "nbros@rsl.ru",
+            "identifier": "urn:nbn:ru:kp:org:26",
+            "knpam:copy_eid": "009987459",
+            "knpam:inn": "7704097560",
+            "knpam:opf": "Федеральное государственное бюджетное учреждение",
+            "knpam:storage_cypher": "G 2/26",
+            "knpam:system_number": "17522-И",
+            "location": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+            "telephone": "+7 (499) 557-04-70"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "ил., табл.",
+      "content": {
+        "en": "book/text",
+        "ru": "Текст"
+      },
+      "datePublished": "1847-1852",
+      "dc:format": "21 см",
+      "dc:issued": "1847-1852",
+      "dcterms:extent": "XX, 492 с.",
+      "description": "Отечественное издание",
+      "identifier": "urn:nbn:ru:kp:4",
+      "knpam:criteria_type": "Социально-значимый",
+      "kp:doc_type": 28,
+      "language": "ger",
+      "materialDescription": "Целостность: полный.",
+      "materialExtent": "XX, 492 с.",
+      "modified": "2019-12-25T12:36:12.000Z",
+      "nameOfWorkPart": "Th. 1",
+      "publisher": {
+        "addressLocality": "Hannover",
+        "description": "Отечественное издание",
+        "name": "in der Hahn'schen Volksbuchh."
+      },
+      "responsibilityNotes": "Haxthausen, August von ,\nvon August Freiherrn von Haxthausen",
+      "schema:temporal": "1847-1852",
+      "title": "Studien über die innern Zustände, das Volksleben und insbesondere die ländlichen Einrichtungen Russlands Th. 1"
+    }
+  },
+  {
+    "images": [
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/5/images/009987466_01.jpg",
+        "name": {
+          "en": "Image of item 009987466_01.jpg",
+          "ru": "Изображение экземпляра 009987466_01.jpg"
+        },
+        "title": "Изображение экземпляра 009987466_01.jpg"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/5/images/009987466_02.jpg",
+        "name": {
+          "en": "Image of item 009987466_02.jpg",
+          "ru": "Изображение экземпляра 009987466_02.jpg"
+        },
+        "title": "Изображение экземпляра 009987466_02.jpg"
+      }
+    ],
+    "links": [
+      {
+        "alternate": "https://knpam.rusneb.ru/copies/view?num=5",
+        "href": "https://knpam.rusneb.ru/item5.htm",
+        "name": {
+          "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+          "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+        },
+        "rel": "original archives",
+        "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+        "type": "text/html"
+      },
+      {
+        "href": "https://kp.rusneb.ru/item/material/5dd3ea4074d5af0dd4567be2",
+        "name": {
+          "en": "Item page on National electronic library (NEL)",
+          "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+        },
+        "properties": {
+          "indirectAcquisition": [
+            {
+              "type": "application/pdf"
+            }
+          ]
+        },
+        "rel": "http://opds-spec.org/acquisition/open-access",
+        "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+        "type": "text/html"
+      },
+      {
+        "href": "http://dlib.rsl.ru/rsl01009000000/rsl01009987000/rsl01009987466/rsl01009987466.pdf",
+        "name": {
+          "en": "Digital version on Russian state library (RSL) official site",
+          "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+        },
+        "properties": {
+          "indirectAcquisition": [
+            {
+              "type": "application/pdf"
+            }
+          ]
+        },
+        "rel": "http://opds-spec.org/acquisition/open-access",
+        "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+        "type": "text/html"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/5/conclusion/152.pdf",
+        "name": {
+          "en": "Heritage status assignment expertise conclusion",
+          "ru": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        "rel": "http://opds-spec.org/acquisition",
+        "title": "Экспертное заключение на отнесение к книжным памятникам"
+      }
+    ],
+    "metadata": {
+      "@id": "urn:nbn:ru:kp:5",
+      "@type": "https://schema.org/CreativeWork",
+      "author": {
+        "birthDate": "1792",
+        "deathDate": "1866",
+        "name": "Haxthausen, August von",
+        "relCode": "aut",
+        "relTerm": "Автор",
+        "sortAs": "Haxthausen, August von ,"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "@id": "/resources/groups/knpam.rusneb.ru/",
+            "identifier": "urn:nbn:ru:kp:group:book/text",
+            "name": "Текст"
+          },
+          {
+            "@id": "/resources/organization/knpam.rusneb.ru/26",
+            "@type": "https://schema.org/ArchiveOrganization",
+            "address": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва, г.",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "bf:shelfMark": "G 2/26",
+            "bf:stockNumber": "17523-И",
+            "email": "nbros@rsl.ru",
+            "identifier": "urn:nbn:ru:kp:org:26",
+            "knpam:copy_eid": "009987466",
+            "knpam:inn": "7704097560",
+            "knpam:opf": "Федеральное государственное бюджетное учреждение",
+            "knpam:storage_cypher": "G 2/26",
+            "knpam:system_number": "17523-И",
+            "location": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+            "telephone": "+7 (499) 557-04-70"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "табл.",
+      "content": {
+        "en": "book/text",
+        "ru": "Текст"
+      },
+      "datePublished": "1847-1852",
+      "dc:format": "21 см",
+      "dc:issued": "1847-1852",
+      "dcterms:extent": "VIII, 640 с.",
+      "description": "Отечественное издание",
+      "identifier": "urn:nbn:ru:kp:5",
+      "knpam:criteria_type": "Социально-значимый",
+      "kp:doc_type": 28,
+      "language": "ger",
+      "materialDescription": "Целостность: полный.",
+      "materialExtent": "VIII, 640 с.",
+      "modified": "2019-12-25T12:36:12.000Z",
+      "nameOfWorkPart": "Th. 3",
+      "publisher": {
+        "addressLocality": "Hannover",
+        "description": "Отечественное издание",
+        "name": "in der Hahn'schen Volksbuchh."
+      },
+      "responsibilityNotes": "Haxthausen, August von ,\nvon August Freiherrn von Haxthausen",
+      "schema:temporal": "1847-1852",
+      "title": "Studien über die innern Zustände, das Volksleben und insbesondere die ländlichen Einrichtungen Russlands Th. 3"
+    }
+  },
+  {
+    "images": [
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/6/images/003389562_00.jpg",
+        "name": {
+          "en": "Image of item 003389562_00.jpg",
+          "ru": "Изображение экземпляра 003389562_00.jpg"
+        },
+        "title": "Изображение экземпляра 003389562_00.jpg"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/6/images/003389562_01.jpg",
+        "name": {
+          "en": "Image of item 003389562_01.jpg",
+          "ru": "Изображение экземпляра 003389562_01.jpg"
+        },
+        "title": "Изображение экземпляра 003389562_01.jpg"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/6/images/003389562_03.jpg",
+        "name": {
+          "en": "Image of item 003389562_03.jpg",
+          "ru": "Изображение экземпляра 003389562_03.jpg"
+        },
+        "title": "Изображение экземпляра 003389562_03.jpg"
+      }
+    ],
+    "links": [
+      {
+        "alternate": "https://knpam.rusneb.ru/copies/view?num=6",
+        "href": "https://knpam.rusneb.ru/item6.htm",
+        "name": {
+          "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+          "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+        },
+        "rel": "original archives",
+        "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+        "type": "text/html"
+      },
+      {
+        "href": "https://kp.rusneb.ru/item/material/5dd3ea5274d5af0dd4568668",
+        "name": {
+          "en": "Item page on National electronic library (NEL)",
+          "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+        },
+        "properties": {
+          "indirectAcquisition": [
+            {
+              "type": "application/pdf"
+            }
+          ]
+        },
+        "rel": "http://opds-spec.org/acquisition/open-access",
+        "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+        "type": "text/html"
+      },
+      {
+        "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003389000/rsl01003389562/rsl01003389562.pdf",
+        "name": {
+          "en": "Digital version on Russian state library (RSL) official site",
+          "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+        },
+        "properties": {
+          "indirectAcquisition": [
+            {
+              "type": "application/pdf"
+            }
+          ]
+        },
+        "rel": "http://opds-spec.org/acquisition/open-access",
+        "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+        "type": "text/html"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/6/conclusion/152.pdf",
+        "name": {
+          "en": "Heritage status assignment expertise conclusion",
+          "ru": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        "rel": "http://opds-spec.org/acquisition",
+        "title": "Экспертное заключение на отнесение к книжным памятникам"
+      }
+    ],
+    "metadata": {
+      "@id": "urn:nbn:ru:kp:6",
+      "@type": "https://schema.org/CreativeWork",
+      "author": {
+        "birthDate": "1792",
+        "deathDate": "1866",
+        "name": "Haxthausen, August von",
+        "relCode": "aut",
+        "relTerm": "Автор",
+        "sortAs": "Haxthausen, August von ,"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "@id": "/resources/groups/knpam.rusneb.ru/",
+            "identifier": "urn:nbn:ru:kp:group:book/text",
+            "name": "Текст"
+          },
+          {
+            "@id": "/resources/organization/knpam.rusneb.ru/26",
+            "@type": "https://schema.org/ArchiveOrganization",
+            "address": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва, г.",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "bf:shelfMark": "G 2/26",
+            "bf:stockNumber": "17521-И",
+            "email": "nbros@rsl.ru",
+            "identifier": "urn:nbn:ru:kp:org:26",
+            "knpam:copy_eid": "003389562",
+            "knpam:inn": "7704097560",
+            "knpam:opf": "Федеральное государственное бюджетное учреждение",
+            "knpam:storage_cypher": "G 2/26",
+            "knpam:system_number": "17521-И",
+            "location": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+            "telephone": "+7 (499) 557-04-70"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "ил., нот. ил.",
+      "content": {
+        "en": "book/text",
+        "ru": "Текст"
+      },
+      "datePublished": "1847-1852",
+      "dc:format": "21 см",
+      "dc:issued": "1847-1852",
+      "dcterms:extent": "584 с.",
+      "description": "Отечественное издание",
+      "identifier": "urn:nbn:ru:kp:6",
+      "knpam:criteria_type": "Социально-значимый",
+      "kp:doc_type": 28,
+      "language": "ger",
+      "materialDescription": "Целостность: полный.",
+      "materialExtent": "584 с.",
+      "modified": "2019-12-25T12:36:12.000Z",
+      "nameOfWorkPart": "Th. 2",
+      "publisher": {
+        "addressLocality": "Hannover",
+        "description": "Отечественное издание",
+        "name": "in der Hahn'schen Volksbuchh."
+      },
+      "responsibilityNotes": "Haxthausen, August von ,\nvon August Freiherrn von Haxthausen",
+      "schema:temporal": "1847-1852",
+      "title": "Studien über die innern Zustände, das Volksleben und insbesondere die ländlichen Einrichtungen Russlands Th. 2"
+    }
+  },
+  {
+    "images": [
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/10666/images/lk000010519_0001.jpg",
+        "name": {
+          "en": "Image of item lk000010519_0001.jpg",
+          "ru": "Изображение экземпляра lk000010519_0001.jpg"
+        },
+        "title": "Изображение экземпляра lk000010519_0001.jpg"
+      }
+    ],
+    "links": [
+      {
+        "alternate": "https://knpam.rusneb.ru/copies/view?num=10662",
+        "href": "https://knpam.rusneb.ru/item10662.htm",
+        "name": {
+          "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+          "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+        },
+        "rel": "original archives",
+        "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+        "type": "text/html"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/10666/conclusion/%D0%9F%D1%80%D0%B8%D0%B7%D1%8B%D0%B2-10.pdf",
+        "name": {
+          "en": "Heritage status assignment expertise conclusion",
+          "ru": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        "rel": "http://opds-spec.org/acquisition",
+        "title": "Экспертное заключение на отнесение к книжным памятникам"
+      }
+    ],
+    "metadata": {
+      "@id": "urn:nbn:ru:kp:10662",
+      "@type": "https://schema.org/CreativeWork",
+      "belongsTo": {
+        "collection": [
+          {
+            "@id": "/resources/groups/knpam.rusneb.ru/",
+            "identifier": "urn:nbn:ru:kp:group:book/text",
+            "name": "Текст"
+          },
+          {
+            "@id": "/resources/organization/knpam.rusneb.ru/26",
+            "@type": "https://schema.org/ArchiveOrganization",
+            "address": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва, г.",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "bf:shelfMark": "II Л3-330пр./14/3-9",
+            "bf:stockNumber": "Лл 1799",
+            "email": "nbros@rsl.ru",
+            "identifier": "urn:nbn:ru:kp:org:26",
+            "knpam:copy_eid": "012128053",
+            "knpam:inn": "7704097560",
+            "knpam:opf": "Федеральное государственное бюджетное учреждение",
+            "knpam:storage_cypher": "II Л3-330пр./14/3-9",
+            "knpam:system_number": "Лл 1799",
+            "location": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+            "telephone": "+7 (499) 557-04-70"
+          }
+        ]
+      },
+      "comment": "[призыв]",
+      "content": {
+        "en": "book/text",
+        "ru": "Текст"
+      },
+      "datePublished": "1945",
+      "dc:format": "30х45 см",
+      "dc:issued": "1945",
+      "dcterms:extent": "1 л.",
+      "description": "Отечественное издание\nЗаказ 2899",
+      "identifier": "urn:nbn:ru:kp:10662",
+      "knpam:criteria_type": "Социально-значимый",
+      "kp:doc_type": 28,
+      "language": "русский",
+      "materialDescription": "Целостность: полный.",
+      "materialExtent": "1 л.",
+      "modified": "2020-08-21T12:28:33.000Z",
+      "publisher": {
+        "addressLocality": "Ленинград",
+        "description": "Отечественное издание",
+        "name": "Лениздат : ТЛ-1"
+      },
+      "title": "Рабочие и работницы, инженеры и техники предприятий, изготовляющих вооружение и боеприпасы! Своевременно обеспечивайте Красную Армию орудиями, минометами, пулеметами, автоматами, снарядами, боеприпасами! Улучшайте качество вооружения!"
+    }
+  },
+  {
+    "images": [
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/11771/images/010114734.jpg",
+        "name": {
+          "en": "Image of item 010114734.jpg",
+          "ru": "Изображение экземпляра 010114734.jpg"
+        },
+        "title": "Изображение экземпляра 010114734.jpg"
+      }
+    ],
+    "links": [
+      {
+        "alternate": "https://knpam.rusneb.ru/copies/view?num=11767",
+        "href": "https://knpam.rusneb.ru/item11767.htm",
+        "name": {
+          "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+          "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+        },
+        "rel": "original archives",
+        "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+        "type": "text/html"
+      },
+      {
+        "href": "https://knpam.rusneb.ru/uploads/copies/11771/conclusion/28-%D0%98%D0%97%D0%9E.pdf",
+        "name": {
+          "en": "Heritage status assignment expertise conclusion",
+          "ru": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        "rel": "http://opds-spec.org/acquisition",
+        "title": "Экспертное заключение на отнесение к книжным памятникам"
+      }
+    ],
+    "metadata": {
+      "@id": "urn:nbn:ru:kp:11767",
+      "@type": "https://schema.org/CreativeWork",
+      "belongsTo": {
+        "collection": [
+          {
+            "@id": "/resources/groups/knpam.rusneb.ru/",
+            "identifier": "urn:nbn:ru:kp:group:book/graphic",
+            "name": "Изоматериал"
+          },
+          {
+            "@id": "/resources/organization/knpam.rusneb.ru/26",
+            "@type": "https://schema.org/ArchiveOrganization",
+            "address": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва, г.",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "bf:shelfMark": "P0 I №14/4",
+            "bf:stockNumber": "258-38изо",
+            "email": "nbros@rsl.ru",
+            "identifier": "urn:nbn:ru:kp:org:26",
+            "knpam:copy_eid": "010114734",
+            "knpam:inn": "7704097560",
+            "knpam:opf": "Федеральное государственное бюджетное учреждение",
+            "knpam:storage_cypher": "P0 I №14/4",
+            "knpam:system_number": "258-38изо",
+            "location": {
+              "@type": "https://schema.org/PostalAddress",
+              "addressLocality": "Москва",
+              "addressRegion": 133,
+              "postalCode": "119019",
+              "streetAddress": "Воздвиженка, ул., 3/5"
+            },
+            "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+            "telephone": "+7 (499) 557-04-70"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "цинкогр.",
+      "comment": "[плакат]",
+      "content": {
+        "en": "book/graphic",
+        "ru": "Изоматериал"
+      },
+      "datePublished": "1904",
+      "dc:format": "72 х 105 см. ",
+      "dc:issued": "1904",
+      "dcterms:extent": "1 л.",
+      "description": "Отечественное издание",
+      "identifier": "urn:nbn:ru:kp:11767",
+      "knpam:criteria_type": "Социально-значимый",
+      "kp:doc_type": 29,
+      "language": "Русский",
+      "materialDescription": "Целостность: полный. Лист реставрирован\nНа обороте в правом нижнем углу: Российская государственная библиотека (\"P0\", \"Инв. МК\")\nНа обороте в левой части листа: Российская государственная библиотека (\"Листовые материалы\")\nНа обороте в правом нижнем углу имеются служебные пометы \nНа обороте в левом верхнем углу имеются служебные пометы ",
+      "materialExtent": "1 л.",
+      "modified": "2020-09-01T12:19:29.000Z",
+      "publisher": {
+        "addressLocality": "С.-Петербург",
+        "description": "Отечественное издание",
+        "name": "Художественная Типо-Литография А. К. Вейерман, иждивением Е.[мельяна] В.[ильковского]"
+      },
+      "title": "Открыта подписка на 1905 год на ежедневную политическую и литературную газету \"Сын Отечества\". Открыта подписка на ежедневную безцензурную газету \"Наши дни\"..."
+    }
+  }
+]

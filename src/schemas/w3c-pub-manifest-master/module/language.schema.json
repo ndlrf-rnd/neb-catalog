@@ -1,0 +1,16 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://w3c.github.io/pub-manifest/schema/module/language.schema.json",
+	"title": "Languages",
+	"oneOf": [
+		{
+			"$ref": "https://w3c.github.io/pub-manifest/schema/module/bcp.schema.json"
+		},
+		{
+			"type": "array",
+			"items": {
+				"$ref": "https://w3c.github.io/pub-manifest/schema/module/bcp.schema.json"
+			}		
+		}
+	]
+}

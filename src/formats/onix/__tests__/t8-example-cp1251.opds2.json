@@ -1,0 +1,57 @@
+[
+  {
+    "links": [
+      {
+        "href": "Cover4938.jpg",
+        "rel": "related",
+        "title": "Front cover image"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Пушкин, А.С.",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "2008",
+      "description": [
+        "\"Энциклопедия русской жизни\" назвал Белинский роман в стихах \"Евгений Онегин\". И действительно, это бессмертное произведение лучше любого учебника истории живописует русскую жизнь первой половины XIX века, быт и нравы от высшего света Петербурга до патриархальной деревни.",
+        "381 p.",
+        "18 grams."
+      ],
+      "dimensions": "18 grams.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/XX-XxUND/4938",
+      "language": [
+        "und",
+        "rus"
+      ],
+      "marc:type": "a",
+      "materialExtent": "381 p.",
+      "numberOfPages": 381,
+      "published": "2008",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "М.",
+        "name": "[s.n.]"
+      },
+      "responsibilityNotes": "by",
+      "subject": {
+        "summary": "\"Энциклопедия русской жизни\" назвал Белинский роман в стихах \"Евгений Онегин\". И действительно, это бессмертное произведение лучше любого учебника истории живописует русскую жизнь первой половины XIX века, быт и нравы от высшего света Петербурга до патриархальной деревни."
+      },
+      "subtitle": "Роман в стихах, критика",
+      "title": "Евгений Онегин"
+    }
+  }
+]

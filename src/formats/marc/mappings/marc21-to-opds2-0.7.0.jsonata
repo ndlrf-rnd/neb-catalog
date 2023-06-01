@@ -1,0 +1,824 @@
+(
+    $getIssued := function($ctx) {
+      ([$ctx."260".c, $ctx."260".g].$split($, "-").{
+        "day": $split($replace($, /[^0-9]+/, " "), " ").$match($, /^[0-3]?[0-9]$/).match.$pad($, -2, "0"),
+        "month": $split($, " ").$rusMonths($),
+        "year": $match($, /[0-9]{4}/).match
+      }.$join([$.year, $.month, $.month ? $.day : undefined], "-"))[-1]
+    };
+
+    $uniformTitle := function($str) {
+      (
+        $kt := [$."772" ? $."772".a : undefined, $."772" ? $."772".s : undefined, $."773" ? $."773".a : undefined, $."773" ? $."773".s : undefined, $."130".a, $."130".g, $."130".k];
+        $kt ? $join($distinct($kt), ", ") : undefined
+      )
+    };
+
+    $getSeries := function($ctx) {
+      $append(
+        $ctx."490"
+          ? $ctx.[
+             $ctx."490", $ctx."440",
+             $ctx."800", $ctx."810", $ctx."811", $ctx."830"
+          ][].{
+            "title": $join($distinct([$.a, $.t]), " / "),
+            "href": $ctx.[$ctx."003", $ctx."040".a][0] ? $ctx.[$ctx."003", $ctx."040".a][0] & "/" & $ctx."001".$trim($) : undefined,
+            "type": $ctx.[$ctx."003", $ctx."040".a][0] ? "application/opds+json" : undefined
+          }
+          : undefined,
+        $ctx."772" or $ctx."773" ? [$ctx."772", $ctx."773"].{
+          "title": $join($distinct([$.a, $.t]), " / "),
+          "subtitle": $.b,
+          "href": $.w ? $join(["/resources/instance/", [$ctx."003", $ctx."040".a][0], "/", $.w ? $.w[0] : undefined], '') : undefined
+         } : undefined
+      )
+    };
+    $rusRelTerm := function($str) {
+      [
+        $lookup(
+          {
+            "acp": "Копиист произведения изобразительного искусства",
+            "act": "Актер",
+            "adp": "Автор адаптации",
+            "aft": "Автор послесловия",
+            "anl": "Аналитик",
+            "anm": "Аниматор",
+            "ann": "Автор аннотации",
+            "ant": "Библиографический предшественник",
+            "app": "Проситель",
+            "aqt": "Автор цитат или выдержек из текста",
+            "arc": "Архитектор",
+            "ard": "Художественный руководитель",
+            "arr": "Аранжировщик",
+            "art": "Художник",
+            "asg": "Цессионарий",
+            "asn": "Ассоциированное имя",
+            "att": "Предполагаемый автор",
+            "auc": "Аукционист",
+            "aud": "Автор диалога",
+            "aui": "Автор предисловия и т. п.",
+            "aus": "Автор сценария и т. п.",
+            "aut": "Автор",
+            "bdd": "Оформитель переплета",
+            "bjd": "Оформитель суперобложки",
+            "bkd": "Оформитель книги",
+            "bkp": "Производитель книг",
+            "bnd": "Переплетчик",
+            "bpd": "Оформитель экслибриса",
+            "bsl": "Книготорговец",
+            "ccp": "Автор идеи",
+            "chr": "Хореограф",
+            "clb": "Сотрудник",
+            "cli": "Клиент",
+            "cll": "Каллиграф",
+            "clt": "Фототипист",
+            "cmm": "Комментатор",
+            "cmp": "Композитор",
+            "cmt": "Наборщик",
+            "cng": "Кинематографист",
+            "cnd": "Дирижер",
+            "cns": "Цензор",
+            "coe": "Противная сторона",
+            "col": "Коллекционер",
+            "com": "Составитель",
+            "cos": "Противная сторона",
+            "cot": "Ответчик",
+            "cov": "Оформитель обложки",
+            "cpc": "Претендент на авторское",
+            "cpe": "Истец-ответчик по апелляции в деле",
+            "cph": "Владелец авторского права",
+            "cpl": "Истец возмещения",
+            "cpt": "Истец-апеллянт по делу",
+            "cre": "Создатель",
+            "crp": "Корреспондент",
+            "crr": "Корректор рукописей",
+            "csl": "Консультант",
+            "csp": "Консультант проекта",
+            "cst": "Художник-костюмер",
+            "ctb": "Автор произведения",
+            "cte": "Противная сторона",
+            "ctg": "Картограф",
+            "ctr": "Подрядчик",
+            "cts": "Противная сторона",
+            "ctt": "Противная сторона",
+            "cur": "Куратор выставки",
+            "cwt": "Автор комментариев и примечаний к печатному тексту",
+            "dfd": "Ответчик",
+            "dfe": "Ответчик",
+            "dft": "Ответчик",
+            "dgg": "Организация",
+            "sgd": "Постановщик",
+            "sll": "Продавец/поставщик",
+            "dgs": "Degree supervisor",
+            "dis": "Соискатель",
+            "dln": "Чертёжник",
+            "dnc": "Танцор",
+            "dnr": "Даритель",
+            "dpc": "Предмет изображения",
+            "dpt": "Депозитор",
+            "drm": "Рисовальщик",
+            "drt": "Режиссер",
+            "dsr": "Оформитель",
+            "dst": "Распространитель",
+            "dtc": "Поставщик данных",
+            "dte": "Объект посвящения",
+            "dtm": "Администратор данных",
+            "dto": "Автор посвящения",
+            "dub": "Сомнительный автор",
+            "edt": "Редактор",
+            "egr": "Гравёр",
+            "elg": "Осветитель",
+            "elt": "Изготовитель гальваностереотипов",
+            "eng": "Инженер",
+            "etr": "Офортист",
+            "exp": "Эксперт",
+            "fac": "Факсимилист",
+            "fld": "Руководитель полевых работ",
+            "flm": "Режиссер монтажа",
+            "fmo": "Бывший владелец",
+            "fpy": "Первичный правообладатель",
+            "fnd": "Инвестор",
+            "frg": "Изготовитель подделки",
+            "gis": "Специалист по географической информационной системе",
+            "hnr": "Объект чествования",
+            "hst": "Гость",
+            "ill": "Иллюстратор",
+            "ilu": "Художник-иллюминатор рукописи",
+            "ins": "Автор дарственной надписи",
+            "inv": "Изобретатель",
+            "itr": "Инструменталист",
+            "ive": "Интервьюируемый",
+            "ivr": "Интервьюер",
+            "lbr": "Лаборатория",
+            "lbt": "Либреттист",
+            "ldr": "Руководитель лабораторных занятий",
+            "led": "Руководитель",
+            "lee": "Ответчик в морском и церковном судопроизводстве",
+            "lel": "Ответчик в морском и церковном судопроизводстве",
+            "len": "Дающий книгу в долг",
+            "let": "Ответчик в морском и церковном судопроизводстве",
+            "lgd": "Художник по свету",
+            "lie": "Истец в морском и церковном судопроизводстве",
+            "lil": "Истец в морском и церковном судопроизводстве",
+            "lit": "Истец в морском и церковном судопроизводстве",
+            "lsa": "Ландшафтный архитектор",
+            "lse": "Лицензедержатель",
+            "lso": "Лицензедатель",
+            "ltg": "Литограф",
+            "lyr": "Автор слов песни",
+            "mcp": "Переписчик нот",
+            "mfr": "Изготовитель",
+            "mdc": "Ответственный за метаданные",
+            "mod": "Ведущий",
+            "mon": "Наблюдатель",
+            "mrk": "Редактор файлов гипертекстовой разметки",
+            "msd": "Музыкальный директор",
+            "mte": "Гравёр по металлу",
+            "mus": "Музыкант",
+            "nrt": "Повествователь; актёр",
+            "opn": "Оппонент",
+            "org": "Инициатор",
+            "orm": "Организатор конференции",
+            "oth": "Прочее",
+            "own": "Владелец",
+            "pat": "Покровитель",
+            "pbd": "Ответственный",
+            "pbl": "Издатель",
+            "pdr": "Руководитель проекта",
+            "pfr": "Корректор печатных текстов",
+            "pht": "Фотограф",
+            "plt": "Изготовитель печатных форм",
+            "pma": "Разрешающее ведомство",
+            "pmn": "Руководитель производства",
+            "pop": "Печатник гравюр",
+            "ppm": "Изготовитель бумаги",
+            "ppt": "Кукловод",
+            "prc": "Ответственный за обработку данных",
+            "prd": "Персонал художественно-постановочной части",
+            "prf": "Исполнитель",
+            "prg": "Программист",
+            "prm": "Гравировщик",
+            "pro": "Продюсер",
+            "prt": "Типограф",
+            "pta": "Патентозаявитель",
+            "pte": "Истец",
+            "ptf": "Истец",
+            "pth": "Патентовладелец",
+            "ptt": "Истец",
+            "rbr": "Исполнитель заголовков и красных строк",
+            "rce": "Инженер звукозаписи",
+            "rcp": "Адресат",
+            "red": "Редактор-составитель",
+            "ren": "Создатель эскизов",
+            "res": "Исследователь",
+            "rev": "Рецензен",
+            "rps": "Репозитарий",
+            "rpt": "Репортёр",
+            "rpy": "Юридически ответственная сторона",
+            "rse": "Ответчик по делу",
+            "rsg": "Постановщик",
+            "rsp": "Ответчик по делу",
+            "rst": "Ответчик по делу",
+            "rth": "Руководитель исследовательского коллектива",
+            "rtm": "Участник исследовательского коллектива",
+            "sad": "Научный консультант",
+            "sce": "Сценарист",
+            "scl": "Скульптор",
+            "scr": "Писарь",
+            "sds": "Художник по звуку",
+            "sec": "Секретарь",
+            "sgn": "Автор подписи",
+            "sht": "Принимающая сторона",
+            "sng": "Певец",
+            "spk": "Диктор",
+            "spn": "Спонсор",
+            "spy": "Сторона-правопреемник",
+            "srv": "Землемер",
+            "std": "Художник-декоратор",
+            "stl": "Рассказчик",
+            "stm": "Ассистент режиссёра",
+            "stn": "Орган по стандартизации",
+            "str": "Изготовитель стереотипов",
+            "tcd": "Технический директор",
+            "tch": "Преподаватель",
+            "ths": "Научный руководитель",
+            "osp": "Телевизионный ведущий",
+            "trc": "Переписчик",
+            "trl": "Переводчик",
+            "tyd": "Разработчик шрифта",
+            "tyg": "Шрифтовой оформитель",
+            "vdg": "Оператор-видеопостановщик",
+            "voc": "Вокалист",
+            "wam": "Автор текста сопроводительного материала",
+            "wdc": "Гравёр по дереву в технике обрезной ксилографии",
+            "wde": "Гравёр по дереву в технике торцовой ксилографии",
+            "wit": "Свидетель"
+          },
+          $str ? $str : "aut"
+        ),
+        $str
+      ][0]
+    };
+    $rusMonths := function($str) {
+        $match($str, /^(янв|фев|мар|апр|ма[йя]|июн|июл|авг|сен|окт|ноя|дек)/i).groups.$lookup(
+          {
+            "янв": "01",
+            "фев": "02",
+            "мар": "03",
+            "апр": "04",
+            "май": "05",
+            "мая": "05",
+            "июн": "06",
+            "июл": "07",
+            "авг": "08",
+            "сен": "09",
+            "окт": "10",
+            "ноя": "11",
+            "дек": "12"
+          },
+          $
+        )
+    };
+    $marcCountry := function($someCode) {
+        [
+          $lookup(
+            {
+              "AD":"ad", "AE":"ae", "AF":"af", "AG":"ag", "AI":"ai", "AL":"al", "AM":"am", "AO":"ao", "AQ":"aq", "AR":"ar", "AS":"as", "AT":"at", "AU":"au", "AW":"aw", "AX":"ax", "AZ":"az", "BA":"ba", "BB":"bb", "BD":"bd", "BE":"be", "BF":"bf", "BG":"bg", "BH":"bh", "BI":"bi", "BJ":"bj", "BL":"bl", "BM":"bm", "BN":"bn", "BO":"bo", "BQ":"bq", "BR":"br", "BS":"bs", "BT":"bt", "BV":"bv", "BW":"bw", "BY":"by", "BZ":"bz", "CA":"ca", "CC":"cc", "CD":"cd", "CF":"cf", "CG":"cg", "CH":"ch", "CI":"ci", "CK":"ck", "CL":"cl", "CM":"cm", "CN":"cn", "CO":"co", "CR":"cr", "CU":"cu", "CV":"cv", "CW":"cw", "CX":"cx", "CY":"cy", "CZ":"cz", "DE":"de", "DJ":"dj", "DK":"dk", "DM":"dm", "DO":"do", "DZ":"dz", "EC":"ec", "EE":"ee", "EG":"eg", "EH":"eh", "ER":"er", "ES":"es", "ET":"et", "EU":"eu", "FI":"fi", "FJ":"fj", "FK":"fk", "FM":"fm", "FO":"fo", "FR":"fr", "GA":"ga", "GB":"gb", "GD":"gd", "GE":"ge", "GF":"gf", "GG":"gg", "GH":"gh", "GI":"gi", "GL":"gl", "GM":"gm", "GN":"gn", "GP":"gp", "GQ":"gq", "GR":"gr", "GS":"gs", "GT":"gt", "GU":"gu", "GW":"gw", "GY":"gy", "HK":"hk", "HM":"hm", "HN":"hn", "HR":"hr", "HT":"ht", "HU":"hu", "ID":"id", "IE":"ie", "IL":"il", "IM":"im", "IN":"in", "IO":"io", "IQ":"iq", "IR":"ir", "IS":"is", "IT":"it", "JE":"je", "JM":"jm", "JO":"jo", "JP":"jp", "KE":"ke", "KG":"kg", "KH":"kh", "KI":"ki", "KM":"km", "KN":"kn", "KP":"kp", "KR":"kr", "KW":"kw", "KY":"ky", "KZ":"kz", "LA":"la", "LB":"lb", "LC":"lc", "LI":"li", "LK":"lk", "LR":"lr", "LS":"ls", "LT":"lt", "LU":"lu", "LV":"lv", "LY":"ly", "MA":"ma", "MC":"mc", "MD":"md", "ME":"me", "MF":"mf", "MG":"mg", "MH":"mh", "MK":"mk", "ML":"ml", "MM":"mm", "MN":"mn", "MO":"mo", "MP":"mp", "MQ":"mq", "MR":"mr", "MS":"ms", "MT":"mt", "MU":"mu", "MV":"mv", "MW":"mw", "MX":"mx", "MY":"my", "MZ":"mz", "NA":"na", "NC":"nc", "NE":"ne", "NF":"nf", "NG":"ng", "NI":"ni", "NL":"nl", "NO":"no", "NP":"np", "NR":"nr", "NU":"nu", "NZ":"nz", "OM":"om", "PA":"pa", "PE":"pe", "PF":"pf", "PG":"pg", "PH":"ph", "PK":"pk", "PL":"pl", "PM":"pm", "PN":"pn", "PR":"pr", "PS":"ps", "PT":"pt", "PW":"pw", "PY":"py", "QA":"qa", "RE":"re", "RO":"ro", "RS":"rs", "RU":"ru", "RW":"rw", "SA":"sa", "SB":"sb", "SC":"sc", "SD":"sd", "SE":"se", "SG":"sg", "SH":"sh", "SI":"si", "SJ":"sj", "SK":"sk", "SL":"sl", "SM":"sm", "SN":"sn", "SO":"so", "SR":"sr", "SS":"ss", "ST":"st", "SV":"sv", "SX":"sx", "SY":"sy", "SZ":"sz", "TC":"tc", "TD":"td", "TF":"tf", "TG":"tg", "TH":"th", "TJ":"tj", "TK":"tk", "TL":"tl", "TM":"tm", "TN":"tn", "TO":"to", "TR":"tr", "TT":"tt", "TV":"tv", "TW":"tw", "TZ":"tz", "UA":"ua", "UG":"ug", "UM":"um", "US":"us", "UY":"uy", "UZ":"uz", "VA":"va", "VC":"vc", "VE":"ve", "VG":"vg", "VI":"vi", "VN":"vn", "VU":"vu", "WF":"wf", "WS":"ws", "YE":"ye", "YT":"yt", "ZA":"za", "ZM":"zm", "ZW":"zw",
+              "ABW":"aw", "AFG":"af", "AGO":"ao", "AIA":"ai", "ALA":"ax", "ALB":"al", "AND":"ad", "ARE":"ae", "ARG":"ar", "ARM":"am", "ASM":"as", "ATA":"aq", "ATF":"tf", "ATG":"ag", "AUS":"au", "AUT":"at", "AZE":"az", "BDI":"bi", "BEL":"be", "BEN":"bj", "BES":"bq", "BFA":"bf", "BGD":"bd", "BGR":"bg", "BHR":"bh", "BHS":"bs", "BIH":"ba", "BLM":"bl", "BLR":"by", "BLZ":"bz", "BMU":"bm", "BOL":"bo", "BRA":"br", "BRB":"bb", "BRN":"bn", "BTN":"bt", "BVT":"bv", "BWA":"bw", "CAF":"cf", "CAN":"ca", "CCK":"cc", "CHE":"ch", "CHL":"cl", "CHN":"cn", "CIV":"ci", "CMR":"cm", "COD":"cd", "COG":"cg", "COK":"ck", "COL":"co", "COM":"km", "CPV":"cv", "CRI":"cr", "CUB":"cu", "CUW":"cw", "CXR":"cx", "CYM":"ky", "CYP":"cy", "CZE":"cz", "DEU":"de", "DJI":"dj", "DMA":"dm", "DNK":"dk", "DOM":"do", "DZA":"dz", "ECU":"ec", "EGY":"eg", "ERI":"er", "ESH":"eh", "ESP":"es", "EST":"ee", "ETH":"et", "FIN":"fi", "FJI":"fj", "FLK":"fk", "FRA":"fr", "FRO":"fo", "FSM":"fm", "GAB":"ga", "GBR":"gb", "GEO":"ge", "GGY":"gg", "GHA":"gh", "GIB":"gi", "GIN":"gn", "GLP":"gp", "GMB":"gm", "GNB":"gw", "GNQ":"gq", "GRC":"gr", "GRD":"gd", "GRL":"gl", "GTM":"gt", "GUF":"gf", "GUM":"gu", "GUY":"gy", "HKG":"hk", "HMD":"hm", "HND":"hn", "HRV":"hr", "HTI":"ht", "HUN":"hu", "IDN":"id", "IMN":"im", "IND":"in", "IOT":"io", "IRL":"ie", "IRN":"ir", "IRQ":"iq", "ISL":"is", "ISR":"il", "ITA":"it", "JAM":"jm", "JEY":"je", "JOR":"jo", "JPN":"jp", "KAZ":"kz", "KEN":"ke", "KGZ":"kg", "KHM":"kh", "KIR":"ki", "KNA":"kn", "KOR":"kr", "KWT":"kw", "LAO":"la", "LBN":"lb", "LBR":"lr", "LBY":"ly", "LCA":"lc", "LIE":"li", "LKA":"lk", "LSO":"ls", "LTU":"lt", "LUX":"lu", "LVA":"lv", "MAC":"mo", "MAF":"mf", "MAR":"ma", "MCO":"mc", "MDA":"md", "MDG":"mg", "MDV":"mv", "MEX":"mx", "MHL":"mh", "MKD":"mk", "MLI":"ml", "MLT":"mt", "MMR":"mm", "MNE":"me", "MNG":"mn", "MNP":"mp", "MOZ":"mz", "MRT":"mr", "MSR":"ms", "MTQ":"mq", "MUS":"mu", "MWI":"mw", "MYS":"my", "MYT":"yt", "NAM":"na", "NCL":"nc", "NER":"ne", "NFK":"nf", "NGA":"ng", "NIC":"ni", "NIU":"nu", "NLD":"nl", "NOR":"no", "NPL":"np", "NRU":"nr", "NZL":"nz", "OMN":"om", "PAK":"pk", "PAN":"pa", "PCN":"pn", "PER":"pe", "PHL":"ph", "PLW":"pw", "PNG":"pg", "POL":"pl", "PRI":"pr", "PRK":"kp", "PRT":"pt", "PRY":"py", "PSE":"ps", "PYF":"pf", "QAT":"qa", "REU":"re", "ROU":"ro", "RUS":"ru", "RWA":"rw", "SAU":"sa", "SDN":"sd", "SEN":"sn", "SGP":"sg", "SGS":"gs", "SHN":"sh", "SJM":"sj", "SLB":"sb", "SLE":"sl", "SLV":"sv", "SMR":"sm", "SOM":"so", "SPM":"pm", "SRB":"rs", "SSD":"ss", "STP":"st", "SUR":"sr", "SVK":"sk", "SVN":"si", "SWE":"se", "SWZ":"sz", "SXM":"sx", "SYC":"sc", "SYR":"sy", "TCA":"tc", "TCD":"td", "TGO":"tg", "THA":"th", "TJK":"tj", "TKL":"tk", "TKM":"tm", "TLS":"tl", "TON":"to", "TTO":"tt", "TUN":"tn", "TUR":"tr", "TUV":"tv", "TWN":"tw", "TZA":"tz", "UGA":"ug", "UKR":"ua", "UMI":"um", "URY":"uy", "USA":"us", "UZB":"uz", "VAT":"va", "VCT":"vc", "VEN":"ve", "VGB":"vg", "VIR":"vi", "VNM":"vn", "VUT":"vu", "WLF":"wf", "WSM":"ws", "YEM":"ye", "ZAF":"za", "ZMB":"zm", "ZWE":"zw"
+            },
+            $uppercase($someCode)
+          ),
+          $someCode
+        ][0]
+    };
+    $marcLanguage := function($someCode) {
+        [
+          $lookup(
+            {
+              "AB":"abk","AV":"ava","AE":"ave","AZ":"aze","AY":"aym","AK":"aka","SQ":"sqi","AM":"amh","EN":"eng","AR":"ara","HY":"hye/axm/xcl","AS":"asm","AA":"aar","AF":"afr","BM":"bam","EU":"eus","BA":"bak","BE":"bel","BN":"ben","MY":"mya","BI":"bis","BG":"bul","BS":"bos","BR":"bre","CY":"cym","HU":"hun","VE":"ven","VO":"vol","WO":"wol","VI":"vie","GL":"glg","LG":"lug","HZ":"her","KL":"kal","EL":"ell","KA":"kat","GN":"grn","GU":"guj","GD":"gla","DA":"dan","DZ":"dzo","DV":"div","ZU":"zul","HE":"heb","IG":"ibo","YI":"yid","ID":"ind","IA":"ina","IE":"ile","IU":"iku","IK":"ipk","GA":"gle","IS":"isl","ES":"spa","IT":"ita","YO":"yor","KK":"kaz","KN":"kan","KR":"kau","CA":"cat","KS":"kas","QU":"que","KI":"kik","KJ":"kua","KY":"kir","ZH":"zho","KV":"kom","KG":"kon","KO":"kor","KW":"cor","CO":"cos","XH":"xho","KU":"kur","KM":"khm","LO":"lao","LA":"lat","LV":"lav","LN":"lin","LT":"lit","LU":"lub","LB":"ltz","MK":"mkd","MG":"mlg","MS":"msa","ML":"mal","MT":"mlt","MI":"mri","MR":"mar","MH":"mah","ME":"mer","MN":"mon","GV":"glv","NV":"nav","NA":"nau","ND":"nde","NR":"nbl","NG":"ndo","DE":"deu","NE":"nep","NL":"nld","NO":"nor","NY":"nya","NN":"nno","OJ":"oji","OC":"oci","OR":"ori","OM":"orm","OS":"oss","PI":"pli","PA":"pan","FA":"fas","PL":"pol","PT":"por","PS":"pus","RM":"roh","RW":"kin","RO":"ron","RN":"run","RU":"rus","SM":"smo","SG":"sag","SA":"san","SC":"srd","SS":"ssw","SR":"srp","SI":"sin","SD":"snd","SK":"slk","SL":"slv","SO":"som","ST":"sot","SW":"swa","SU":"sun","TL":"tgl","TG":"tgk","TH":"tha","TY":"tah","TA":"tam","TT":"tat","TW":"twi","TE":"tel","BO":"bod","TI":"tir","TO":"ton","TN":"tsn","TS":"tso","TR":"tur","TK":"tuk","UZ":"uzb","UG":"uig","UK":"ukr","UR":"urd","FO":"fao","FJ":"fij","FL":"fil","FI":"fin","FR":"fra","FY":"fry","FF":"ful","HA":"hau","HI":"hin","HO":"hmo","HR":"hrv","CU":"chu","CH":"cha","CE":"che","CS":"ces","ZA":"zha","CV":"chv","SV":"swe","SN":"sna","EE":"ewe","EO":"epo","ET":"est","JV":"jav","JA":"jpn",
+              "ABK":"abk","AWA":"awa","AVA":"ava","AVE":"ave","ADA":"ada","ADY":"ady","AZE":"aze","AYM":"aym","AIN":"ain","AKA":"aka","AKK":"akk","ALB/SQI":"sqi","ALE":"ale","ALT":"alt","AMH":"amh","ENG":"eng","ARA":"ara","ARW":"arw","ARC":"arc","ARP":"arp","ARN":"arn","ARM/HYE":"hye/axm/xcl","ASM":"asm","AAR":"aar","AFR":"afr","AFH":"afh","AKV":"akv","ACE":"ace","ACH":"ach","BAN":"ban","BAM":"bam","BAD":"bad","BAS":"bas","BAQ/EUS":"eus","BAK":"bak","BEJ":"bej","BEL":"bel","BAL":"bal","BEM":"bem","BEN":"ben","BIK/ BCL":"bik","BIN":"bin","BUR/MYA":"mya","BIS":"bis","BUL":"bul","BOS":"bos","BRE":"bre","BUG":"bug","BUA":"bua","BHO":"bho","VAI":"vai","CYM/WEL":"cym","WAR":"war","WAS":"was","HUN":"hun","VEN":"ven","WAL":"wal","VOL":"vol","WOL":"wol","VIE":"vie","GAA":"gaa","HAW":"haw","GAY":"gay","GLG":"glg","LUG":"lug","HER":"her","GEZ":"gez","GIL":"gil","GON":"gon","GOT":"got","GRB":"grb","KAL":"kal","ELL/GRE":"ell","GEO/KAT":"kat","GRN":"grn","GUJ":"guj","GLA":"gla","DAK":"dak","DAR":"dar","DAN":"dan","DEL":"del","DZO":"dzo","DIV":"div","DIN":"din","DYU":"dyu","DOI":"doi","GRC":"grc","EGY":"egy","DUA":"dua","JRB":"jrb","JPR":"jpr","ZEN":"zen","ZUL":"zul","ZUN":"zun","IBA":"iba","HEB":"heb","IBO":"ibo","YID":"yid","ILO":"ilo","INH":"inh","IND":"ind","INA":"ina","ILE":"ile","IKU":"iku","IPK":"ipk","GLE":"gle","ICE/ISL":"isl","ESL/SPA":"spa","ITA":"ita","YOR":"yor","KBD":"kbd","KAB":"kab","KAW":"kaw","CAD":"cad","KAZ":"kaz","XAL":"xal","KAM":"kam","KAN":"kan","KAU":"kau","KAA":"kaa","KRC":"krc","KRL":"krl","CAR":"car","CAT":"cat","KAC":"kac","KAS":"kas","QUE":"que","KIK":"kik","KUA":"kua","KIR":"kir","CHI/ZHO":"zho","KOM":"kom","KON":"kon","KOK":"kok","COP":"cop","KOR":"kor","COR":"cor","COS":"cos","XHO":"xho","KPE":"kpe","MUS":"mus","CRH":"crh","KUM":"kum","KUR":"kur","KRU":"kru","KOS":"kos","KUT":"kut","KHA":"kha","KHM":"khm","LAD":"lad","LAM":"lam","LAO":"lao","LAT":"lat","LAV":"lav","LAH":"lah","LEZ":"lez","LIN":"lin","LIT":"lit","LOZ":"loz","LUB":"lub","LUI":"lui","LUN":"lun","LUO":"luo","LTZ":"ltz","MAG":"mag","MAD":"mad","MAI":"mai","MAK":"mak","MAC/MKD":"mkd","MLG":"mlg","MAY/MSA":"msa","MAL":"mal","MLT":"mlt","MAN":"man","MNI":"mni","MAO/MRI":"mri","MAR":"mar","MWR":"mwr","CHM":"chm","MAH":"mah","MAS":"mas","MEN":"men","MER":"mer","MIC":"mic","MIN":"min","MDF":"mdf","LOL":"lol","MON":"mon","MOS":"mos","MOH":"moh","GLV":"glv","NAV":"nav","NAU":"nau","NDE":"nde","NBL":"nbl","NDO":"ndo","NEW":"new","UND":"und","DEU/GER":"deu","NEP":"nep","NZI":"nzi","DUT/NLD":"nld","DUM":"dum","NIU":"niu","NOG":"nog","NOR":"nor","NYO":"nyo","NYM":"nym","NYA":"nya","NYN":"nyn","NNO":"nno","OJI":"oji","OCI":"oci","ORI":"ori","ORM":"orm","OSA":"osa","OSS":"oss","PAU":"pau","PLI":"pli","PAM":"pam","PAG":"pag","PAN":"pan","PAP":"pap","FAS/PER":"fas","PAL":"pal","POL":"pol","PON":"pon","POR":"por","PUS":"pus","RAJ":"raj","MUL":"mul","RAR":"rar","ROH":"roh","KIN":"kin","RON/RUM":"ron","RUN":"run","RUS":"rus","SMI":"smi","SAM":"sam","SMO":"smo","SAG":"sag","SAD":"sad","SAN":"san","ZAP":"zap","SRD":"srd","SSW":"ssw","CEB":"ceb","SEL":"sel","SCC":"srp","SRR":"srr","SID":"sid","BLA":"bla","SIN":"sin","SND":"snd","SYR":"syr","SLK/SLO":"slk","SLV":"slv","SOG":"sog","SOM":"som","NSO":"nso","SOT":"sot","ENM":"enm","GMH":"gmh","MGA":"mga","FRM":"frm","ANG":"ang","GOH":"goh","SGA":"sga","NON":"non","PEO":"peo","PRO":"pro","OTA":"ota","FRO":"fro","SWA":"swa","SUK":"suk","SUN":"sun","SUS":"sus","TGL":"tgl","TGK":"tgk","THA":"tha","TAH":"tah","TMH":"tmh","TAM":"tam","TAT":"tat","TWI":"twi","TEL":"tel","TEM":"tem","TER":"ter","BOD/TIB":"bod","TIW":"tiw","TIG":"tig","TIR":"tir","TLI":"tli","TOG":"tog","TON":"ton","TSN":"tsn","TSO":"tso","TYV":"tyv","TUM":"tum","TUR":"tur","TUK":"tuk","UGA":"uga","UDM":"udm","UZB":"uzb","UIG":"uig","UKR":"ukr","UMB":"umb","URD":"urd","FAN":"fan","FAT":"fat","FAO":"fao","FIJ":"fij","FIL":"fil","PHN":"phn","FIN":"fin","FON":"fon","FRA/FRE":"fra","FRY":"fry","FUL":"ful","HAI":"hai","HAU":"hau","HIL":"hil","HIN":"hin","HMO":"hmo","HRV/SCR":"hrv","KHO":"kho","HUP":"hup","CHU":"chu","TSI":"tsi","ROM":"rom","CHG":"chg","CHA":"cha","CHY":"chy","CHR":"chr","CHE":"che","CES/CZE":"ces","ZHA":"zha","CHB":"chb","CHN":"chn","CHO":"cho","CHV":"chv","SHN":"shn","SVE/SWE":"swe","SNA":"sna","SCO":"sco","SUX":"sux","EWE":"ewe","EWO":"ewo","EKA":"eka","ELX":"elx","MYV":"myv","EPO":"epo","EST":"est","EFI":"efi","JAV/JAW":"jav","SAH":"sah","YAO":"yao","YAP":"yap","JPN":"jpn"
+            },
+            $uppercase($someCode)
+          ),
+          $lowercase($someCode)
+        ][0]
+    };
+    $marc21OrgCode := function($someCode) {
+      [
+        $someCode ? $someCode.$lookup(
+          {
+            "РГБ": {
+              "name": "ФГБУ \"Российская государственная библиотека\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html"
+            },
+            "RUMORGB": {
+              "name": "ФГБУ \"Российская государственная библиотека\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html"
+            },
+            "HTTPS://KP.RUSNEB.RU": {
+              "name": "Реестр книжных памятников РФ",
+              "identifier": "https://knpam.rusneb.ru"
+            },
+            "РНБ": {
+              "name": "ФГБУ \"Российская национальная библиотека\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html"
+            },
+            "RUSPRNB": {
+              "name": "ФГБУ \"Российская национальная библиотека\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html"
+            },
+            "NLR": {
+              "name": "ФГБУ \"Российская национальная библиотека\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html"
+            },
+            "07NLR": {
+              "name": "ФГБУ \"Российская национальная библиотека\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html"
+            },
+            "РКП": {
+              "name": "ФГБУ \"Российская книжная палата\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorkp.html"
+            },
+            "RUMORKP": {
+              "name": "ФГБУ \"Российская книжная палата\"",
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorkp.html"
+            }
+          },
+          $uppercase($)
+        ) : undefined,
+        $someCode
+      ][0]
+    };
+
+    $i18nContentLabelCompact := function($contentLabel) {
+      [
+        $lookup(
+          {
+            "book/album": "Книги",
+            "book/dissert": "Книги",
+            "book/graphic":  "Изобразительные издания",
+            "book/manuscript": "Рукописи",
+            "book/multivol": "Книги",
+            "book/music": "Ноты",
+            "book/outline": "Книги",
+            "book/rare": "Книги",
+            "book/science": "Книги",
+            "book/symposium": "Книги",
+            "book/tech": "Книги",
+            "book/text": "Книги",
+            "other/book": "Книги",
+            "other/exhibitions": "Изобразительные издания",
+            "other/images": "Изобразительные издания",
+            "other/text": "Книги",
+            "cartographic/atlas": "Карты",
+            "cartographic/map": "Карты",
+            "cartographic/plan": "Карты",
+            "cartographic/text": "Карты",
+            "leaflet/collection": "Афиши и листовки",
+            "leaflet/engrave": "Афиши и листовки",
+            "leaflet/leaflet": "Афиши и листовки",
+            "leaflet/manuscript": "Рукописи",
+            "leaflet/music": "Ноты",
+            "leaflet/photo": "Афиши и листовки",
+            "leaflet/picture": "Афиши и листовки",
+            "leaflet/placard": "Афиши и листовки",
+            "leaflet/plate": "Афиши и листовки",
+            "leaflet/postcard": "Афиши и листовки",
+            "periodic/article": "Периодика",
+            "periodic/magazine": "Периодика",
+            "periodic/newspaper": "Периодика"
+          },
+          $lowercase($contentLabel)
+        ),
+        $contentLabel
+      ][0]
+    };
+
+    $getContentLabel := function($ctx) {
+      [
+
+        $ctx."979".a ? $ctx."979".a.$lookup({
+          "kpposter": "leaflet/placard",
+          "kpmap": "cartographic/map",
+          "kpmanus": "book/manuscript",
+          "kpcyr": "book/rare",
+          "kpcivil": "book/rare",
+          "kproman": "book/rare",
+          "kplubok": "book/graphic"
+        }, $) : undefined,
+
+        $ctx."245".h ? $ctx."245".h.$lookup(
+          {
+            "карты": "cartographic/map",
+            "рукопись": "book/manuscript",
+            "изоматериал": "book/graphic",
+            "текст": "book/text",
+            "афиша": "leaflet/placard"
+          },
+          $replace($lowercase($), /[\[\]]/, "")
+        ) : undefined,
+
+        $ctx."245".k ? $ctx."245".k.$lookup(
+          {
+            "плакат": "leaflet/placard",
+            "лубок": "book/graphic"
+          },
+          $replace($lowercase($), /[\[\]]/, "")
+        ) : undefined,
+
+        $ctx."979".a ? $ctx."979".a.$lookup({
+          "autoref": "book/dissert",
+          "disser": "book/dissert",
+          "dluniv": "book/text",
+          "dledu": "book/science",
+          "dlrare": "book/rare",
+          "dlruk": "book/manuscript",
+          "dlmap": "cartographic/map",
+          "dlmusik": "book/notatedmusic",
+          "dlizo": "book/graphic"
+        }, $) : undefined,
+
+        $ctx."901".a ? $ctx."901".a.$lookup(
+          {
+            "bd": "book/dissert",
+            "be": "book/tech",
+            "br": "book/rare",
+            "ot": "other/text",
+            "oх": "other/exhibitions",
+            "ob": "other/book",
+            "bl": "book/album",
+            "bo": "book/outline",
+            "bv": "book/multivol",
+            "by": "book/symposium",
+            "bх": "book/text",
+            "bg": "book/graphic",
+            "bc": "book/manuscript",
+            "bn": "book/notatedmusic",
+            "pn": "periodic/newspaper",
+            "pm": "periodic/magazine",
+            "pa": "periodic/article",
+            "ln": "leaflet/music",
+            "lo": "leaflet/postcard",
+            "lk": "leaflet/collection",
+            "lp": "leaflet/picture",
+            "lh": "leaflet/photo",
+            "la": "leaflet/placard",
+            "le": "leaflet/engrave",
+            "oi": "other/images",
+            "ll": "leaflet/leaflet",
+            "lt": "leaflet/plate",
+            "lm": "leaflet/manuscript",
+            "сa": "cartographic/atlas",
+            "сm": "cartographic/map",
+            "сp": "cartographic/plan",
+            "сx": "cartographic/text"
+          },
+          $ ? $substring($, 0, 2) : ""
+        ) : undefined,
+        $lookup(
+          {
+            "a": "book/text",
+            "c": "book/notatedmusic",
+            "d": "book/notatedmusic",
+            "e": "cartographic/map",
+            "f": "cartographic/map",
+            "g": "other/images",
+            "i": "audio",
+            "j": "audio",
+            "k": "other/images",
+            "o": "other",
+            "p": "other",
+            "r": "other",
+            "t": "book/manuscript"
+          },
+          $substring($ctx.leader, 6, 1)
+        ),
+        "other"
+      ][0]
+    };
+    $nameOfWorkPart := $join($."773" ? $."773".g : $.["130".n, "130".p, "245".n, "245".p].*, " ");
+    $title := [
+      $."245".a ? $."245".a.$split($, / +[:\/] */)[0] : undefined,
+      $."130".a ? $."130".a.$split($, / +[:\/] */)[0] : undefined,
+      $.'773'
+        ? $join($.[
+          $."773".a.$,
+          $."773".b.$,
+          $."773".g.$,
+          $."773".t.$
+        ], ', ')
+        : undefined,
+      $getSeries($).title
+    ][$not($ = $nameOfWorkPart)][0];
+  {
+    /*
+    ArchiveComponent
+    Article
+    Atlas
+    Blog
+    Book
+    Chapter
+    Claim
+    Clip
+    Collection
+    ComicStory
+    Comment
+    Conversation
+    Course
+    CreativeWorkSeason
+    CreativeWorkSeries
+    DataCatalog
+    Dataset
+    DefinedTermSet
+    Diet
+    DigitalDocument
+    Drawing
+    EducationalOccupationalCredential
+    Episode
+    ExercisePlan
+    Game
+    Guide
+    HowTo
+    HowToDirection
+    HowToSection
+    HowToStep
+    HowToTip
+    LearningResource
+    Legislation
+    Manuscript
+    Map
+    MediaObject
+    Menu
+    MenuSection
+    Message
+    Movie
+    MusicComposition
+    MusicPlaylist
+    MusicRecording
+    Painting
+    Photograph
+    Play
+    Poster
+    PublicationIssue
+    PublicationVolume
+    Question
+    Quotation
+    Review
+    Sculpture
+    SheetMusic
+    ShortStory
+    SoftwareApplication
+    SoftwareSourceCode
+    SpecialAnnouncement
+    TVSeason
+    TVSeries
+    Thesis
+    VisualArtwork
+    WebContent
+    WebPage
+    WebPageElement
+    WebSite
+    */
+      "metadata": {
+        "@type": $.leader.$lookup({
+          "u": ["bf:Item", "https://schema.org/Book"],
+          "v": ["bf:Item", "https://schema.org/Book"],
+          "x": ["bf:Item", "https://schema.org/Book"],
+          "y": ["bf:Item", "https://schema.org/Book"],
+          "a": ["bf:Item", "https://schema.org/Book"],
+          "c": ["bf:NotatedMusic", "https://schema.org/SheetMusic"],
+          "d": ["bf:NotatedMusic", "https://schema.org/SheetMusic"],
+          "e": ["bf:Cartographic", "https://schema.org/Map"],
+          "f": ["bf:Cartographic", "https://schema.org/Map"],
+          "g": ["bf:MovingImage", "https://schema.org/Movie"],
+          "i": ["bf:Audio", "https://schema.org/AudioObject"],
+          "j": ["bf:Audio", "https://schema.org/AudioObject"],
+          "k": ["bf:Print", "https://schema.org/Poster"],
+          "m": ["bf:Instance", "bf:Electronic", "https://schema.org/CreativeWork"],
+          "o": ["bf:MixedMaterial", "https://schema.org/CreativeWork"],
+          "p": ["bf:MixedMaterial", "https://schema.org/CreativeWork"],
+          "r": ["bf:Object", "https://schema.org/Object"],
+          "w": ["https://schema.org/DefinedTerm", "https://schema.org/Class", "bf:Classification"],
+          "q": ["https://schema.org/CreativeWork", "marc:Community"],
+          "z": ["bf:Authority", "https://schema.org/Authority"],
+          "t": ["bf:Instance", "https://schema.org/Book"]
+        }, $substring($, 6, 1))[1],
+        "@context": [
+          "https://readium.org/webpub-manifest/context.jsonld",
+          "https://id.loc.gov/ontologies/bibframe.html"
+        ],
+
+        "title": $title,
+
+        "subtitle": $."773" or $."245".b or ($."245".a and $."245".a.$split($, / +[:\/] */)[1]) or ($."130".a and $."130".a.$split($, / +[:\/] */)[1]) or $."130".b ? $.[
+            $."773".b ? $."773".b.$trim($) : undefined,
+            $."245".a and $trim($."245".a.$split($, / +[:\/] */)[1]) ? $trim($."245".a.$split($, / +[:\/] */)[1]) : undefined,
+            $.'245'.b ? $.'245'.b.$trim($) : undefined,
+            $."130".a and $trim($."130".a.$split($, / +[:\/] */)[1]) ? $trim($."130".a.$split($, / +[:\/] */)[1]) : undefined,
+            $.'130'.b ? $.'130'.b.$trim($) : undefined
+        ].* : undefined,
+        "keyTitle": $uniformTitle($),
+        "sortAs": $uniformTitle($),
+
+         /* FIXME: locate and remove hardcode like below */
+        "identifier": $join([
+          "https://catalog.rusneb.ru",
+           "resources",
+           "instance",
+           [$."003".$, $."040".a.$][0],
+           $."001" ? $."001".$split($, '/').$reverse($)[0] : undefined
+        ], "/"),
+        "alternateName": $.[
+          $."130".$join($distinct([$.a, $.g, $.k, $.p]), " "),
+          $."210".$join($distinct([$.a, $.b]), " "),
+          $."246".$join($distinct([$.a, $.b]), " ")
+        ].*,
+        "modified": $."005"
+          ? $substring($."005", 0, 4) & "-" & $substring($."005", 4, 2) & "-" & $substring($."005", 6, 2) &
+            "T" &
+            $substring($."005", 8, 2) & ":" & $substring($."005", 10, 2) & ":" & $substring($."005", 12, 2) &
+            $substring($."005", 14) &
+            "Z"
+          : undefined,
+        "marc:type": $substring($.leader, 6, 1),
+        "content": $.{
+          "en": $getContentLabel($),
+          "ru": $i18nContentLabelCompact($getContentLabel($))
+        },
+        /*
+        "language": $.{
+          "code": $distinct([
+            $."008".$substring($, 35, 3),
+            $."041".a,
+            $."041".b,
+            $."041".d,
+            $."041".e,
+            $."041".f,
+            $."041".g,
+            $."041".h,
+            "rus"
+          ])[$trim($)].$marcLanguage($),
+          "note": $join($.[
+            $."041"."ind1" = "1"
+              ? (
+                $."041".h
+                  ? "Includes translation from: " & $join($."041".h, ", ")
+                  : "Includes translation"
+              )
+              : undefined,
+            $."546".a,
+            $."546".b,
+            $."130".l
+          ].*, "; ")
+        },
+        */
+        "language": $.[
+          $.$distinct([
+            $."008".$substring($, 35, 3),
+            $."041".a,
+            $."041".b,
+            $."041".d,
+            $."041".e,
+            $."041".f,
+            $."041".g,
+            $."041".h,
+            "rus"
+          ])[$trim($)].$marcLanguage($),
+          $.$join($.[
+            $."041"."ind1" = "1"
+              ? (
+                $."041".h
+                  ? "Includes translation from: " & $join($."041".h, ", ")
+                  : "Includes translation"
+              )
+              : undefined,
+            $."546".a,
+            $."546".b,
+            $."130".l
+          ].*, "; ")
+        ].$,
+        "nameOfWorkPart": $nameOfWorkPart,
+        "numberOfWorkPart": $."490".v.$,
+        "numberOfPages":  $max([$."300".a.$split($, /, ?/).$replace($, /([^0-9]+)/, " ")].$split($, " ")[$ != ""].$number($)),
+        "materialExtent": $join($."300".a, " "),
+        "dimensions": $."300".c or $."773".h ? $replace($join($.[$."300".c, $."773".h], " "), / *;$/, "") : undefined,
+        "author": [$."100", $."110"].{
+          "name": $join([$.a, $.b, $.c], " "),
+          "birthDate": $.d.$split($, "-")[0],
+          "deathDate": $.d.$split($, "-")[1],
+          "relCode": "aut",
+          "relTerm": $rusRelTerm("aut")
+        }.$,
+
+        "contributor": ($."700" or $."720") ? $.[$."700", $."720"][].*.{
+          "name": $join([$.a, $.b, $.c], " "),
+          "birthDate": $.d.$split($, "-")[0],
+          "deathDate": $.d.$split($, "-")[1],
+          "role": $."4".$,
+          "relCode": $."4".$,
+          "relTerm": $.e or $.g ? [$.e, $.g][0] : $."4".$rusRelTerm($)
+        } : undefined,
+
+        "publisher": {
+          "name": $.[
+            $."772".d ? $."772".d.$split($, / *: */)[1] : undefined,
+            $."773".d ? $."773".d.$split($, / *: */)[1] : undefined,
+            $."260".b
+          ][0].$replace($, /[, -]+[0-9]{4}/, ""),
+          "addressLocality": [
+            $."772".d ? $."772".d.$split($, / *: */)[0] : undefined,
+            $."773".d ? $."773".d.$split($, / *: */)[0] : undefined,
+            $."260".a.$trim($replace($, /[\[\] ]+/, ' '))
+          ][0],
+          "addressCountry": $marcCountry($.["044".a, "043".c, "044".c, "ru"][0])
+        },
+        "dc:issued": $."260".[$.c, $.g] ? $getIssued($) : undefined,
+        "published": $."260".[$.c, $.g] ? $getIssued($) : undefined,
+        "bf:scale": $."255"
+          ? $."255".$join($each($, function($v, $k) {($k = "ind1") or ($k = "ind2") or ($k = "tag") ?  undefined: $v}), ", ")
+          : undefined,
+        "subject": $.{
+           "occupation": $.[$."656"].*.$join([$."2", $.a], ": "),
+           "summary": $.[$."520"].*.$join([$."2", $.a], ": "),
+           "work": $.[$."600", $."610", $."611"].*.t,
+           "agent":  $.[$."600", $."610", $."611"].*.$join([$."4", $.a, $.b, $.c, $.d, $.e], " "),
+           "temporal": $.[$."648"].*.$join([$."2", $.a], ": "),
+           "place": $.[$."600", $."651", $."662"].*.$join([$."2", $.a], ": "),
+           "genreForm": $.[$."655"].*.$join([$."2", $.a], ": "),
+           "topic": $.[$."653", $."650"].*.$join([$."2", $.a], ": ")
+        }[$.*],
+        "toc": $."505"[].{"title": $join([$."a", $."t"], "\n"), "location": $."g".$},
+        "citation": $."510"[].{
+          "name": $.a,
+          "coverage": $.b,
+          "locationWithinSource": $.c,
+          "uri": $.u,
+          "issn": $.x
+        },
+        "description": $.[
+          $."500".$join($each($, function($v, $k) {($k = "ind1") or ($k = "ind2") or ($k = "tag") ?  undefined: $v}), ", "),
+          $."520".$join($each($, function($v, $k) {($k = "ind1") or ($k = "ind2") or ($k = "tag") ?  undefined: $v}), ", "),
+          $."505".$join([$.g, $.t], ", "),
+          /* bf:scale $."255".$join($each($, function($v, $k) {($k = "ind1") or ($k = "ind2") or ($k = "tag") ?  undefined: $v}), ", "), */
+          $."546".$join([$.a, $.b], ", "),
+          $."533".a.$,
+          $."555".a.$,
+          $."300".$each($, function($v, $k) {($k = "ind1") or ($k = "ind2") or ($k = "tag") ? undefined : $v})
+        ][$not($ = '')].$join($, '\n'),
+        "bf:illustrativeContent": $."300".b ? $join($."300".b.$replace($, / *;$/, ""), "; "): undefined,
+        "materialDescription": $join($.[
+          $."561".a,
+          $."563".a,
+          $."580".a,
+          $."581".a
+        ].*, "; "),
+        "disambiguatingDescription": $."561".a,
+        "responsibilityNotes": [$."245".c, $."505".r] ? $join([$."245".c, $."505".r], "; ") : undefined,
+        "restrictionAndAccessNote": [$."250".a, $."250".b] ? $join([$."250".a, $."250".b], "; ") : undefined,
+        "belongsTo": {
+          "series": $getSeries($),
+          "collection": [[
+            $."017".{
+              "title": "Legal Deposit Registry",
+              "marc:legalDeposit": $.a.$,
+              "organization": $marc21OrgCode($.b)
+            },
+            $."852".{
+              "organization": $.a ? $marc21OrgCode($.a) : undefined,
+              "name": $.b or $.c ? $join([$.b, $.c], " ") : undefined,
+              "stockNumber": $.p ? $.p : undefined,
+              "shelfMark": $.j ? $.j : undefined,
+              "identifier": $join(["/resources/instance", $.a, $.p, $.j], "/")
+            },
+            $."851".{
+              "organization": $.a ? $marc21OrgCode($.a) : undefined,
+              "name": $.b or $.c ? $join([$.b, $.c], " ") : undefined,
+              "stockNumber": $.p ? $.p : undefined,
+              "shelfMark": $.j ? $.j : undefined
+            }
+          ].$]
+        },
+        "with": $.[$."560", $."600"].a.*,
+        "relatedTo": $."700".t
+      },
+      "links": $."856" ? $.[(
+        $f856 := $."856"[($.ind2 = "0") or $not($.ind2)];
+        $forceAcquisition := $f856 and ($length("f856") = 1) ? false : true;
+        $."856"[].{
+          "href": $.u.$,
+          "type": $.q,
+          "title": ($."3" or $.x) ? $join([$."3", $.x], " - ") : undefined,
+          "rel": $forceAcquisition and $not($.u.$match($, /\.(png|jpg|jpeg|webp|gif|jp2)$/))
+            ? "http://opds-spec.org/acquisition"
+            : $lookup(
+              {
+                "0": "http://opds-spec.org/acquisition",
+                "1": $forceAcquisition ? "http://opds-spec.org/acquisition" : "alternate",
+                "2": "related"
+              },
+              $.ind2 ? $.ind2 : "0"
+            )
+        }
+      )].[$] : undefined
+    }
+)

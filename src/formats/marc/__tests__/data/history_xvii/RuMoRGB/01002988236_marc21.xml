@@ -1,0 +1,171 @@
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+  <record>
+    <leader>04181nam a2200493 ia4500</leader>
+    <controlfield tag="001">002988236</controlfield>
+    <controlfield tag="003">RuMoRGB</controlfield>
+    <controlfield tag="005">20101216144724.0</controlfield>
+    <controlfield tag="008">981217m18041807ru fr ||0 u|rus c</controlfield>
+    <datafield tag="017" ind1=" " ind2=" ">
+      <subfield code="a">5222-10</subfield>
+      <subfield code="b">РГБ</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(RuMoRGB)SK1825t2-0000277</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">RuMoRGB</subfield>
+      <subfield code="b">rus</subfield>
+      <subfield code="c">RuMoRGB</subfield>
+      <subfield code="e">rpk</subfield>
+    </datafield>
+    <datafield tag="041" ind1="0" ind2=" ">
+      <subfield code="a">rus</subfield>
+    </datafield>
+    <datafield tag="245" ind1="0" ind2="0">
+      <subfield code="a">История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных
+        перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и
+        достойных примечания мужей, в течении онаго живших
+      </subfield>
+      <subfield code="c">Перевод с немецкаго</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Москва</subfield>
+      <subfield code="b">В типографии С. Селивановскаго</subfield>
+      <subfield code="c">1804-1807</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="c">12° (19 см)</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Пер.: М.А. Паренаго, П.П. Озеров, Д.И. Дмитревский.</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Объявление издателя на с.[1] (ряд 2-й) ч. 9.</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">На с.327-367 ч.4 : "Прибавление к четвертой части Истории XVIII столетия. История о возшествии
+        на престол Екатерины II.
+      </subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Ценз.: Моск. ун-та ценз. ком.</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Предисл. авт. на с.III-X ч.1. Указывается, что книга предназначена для широкого круга
+        читателей.
+      </subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Имеются подстроч. примеч. Особо отмечены примеч. изд.</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Имеются вар. с. 200 - 206 и с. 275 - 276 ч. 3. Вар. 1 : 5-я строка снизу с.200 - "на то
+        повеление", последняя строка с. 200 - "что она", последняя строка с.206 - "сец Юпитеров!", 2-я строка с. 275 -
+        "составить щастие", 6-я строка снизу с. 276 - "1720 года, мог-". Вар. 2 с цензурной правкой : последняя строка
+        с.200 - "на то повеление", последняя строка с. 206 - "Юпитеров!", 2-я строка с. 275 - "составить начало", 6-я
+        строка снизу с.276 - "двадцатаго года, мог-".
+      </subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Имеются вар. оглавления на с.[6] ч. 4. Вар. 3 : 4-я строка - "V Убийственное предприятие про-",
+        последняя строка - "1771 года. 312". Вар. 4 дополненный : 4-я строка - "V Убийственное предприятие", последняя
+        строка - "стол Екатерины II. 328".
+      </subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Список подписчиков на с.[1 - 24] (ряд 2-й) ч. 11.</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Книгопродавческое объявление Московской Сенатской типографии на с.[2 - 3] (ряд 2 -й) ч. 10.
+      </subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Имеются ошибки в колонцифрах.</subfield>
+    </datafield>
+    <datafield tag="510" ind1="4" ind2=" ">
+      <subfield code="a">Сводный каталог русской книги 1801-1825 гг.</subfield>
+      <subfield code="c">3216</subfield>
+    </datafield>
+    <datafield tag="600" ind1="0" ind2="4">
+      <subfield code="a">Екатерина</subfield>
+      <subfield code="b">II</subfield>
+      <subfield code="c">имп.</subfield>
+      <subfield code="d">1729-1796</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="a">Озеров, Петр Петрович</subfield>
+      <subfield code="e">пер.</subfield>
+      <subfield code="4">trl</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="a">Паренаго, Михаил Алексеевич</subfield>
+      <subfield code="d">1780-1832</subfield>
+      <subfield code="e">пер.</subfield>
+      <subfield code="4">trl</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="a">Дмитревский, Дмитрий Иванович</subfield>
+      <subfield code="d">1758 или 1763-1848</subfield>
+      <subfield code="e">пер.</subfield>
+      <subfield code="4">trl</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч. 1</subfield>
+      <subfield code="d">1804</subfield>
+      <subfield code="h">[2], X, [2], 289, 300-322, 313-404 с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч. 2</subfield>
+      <subfield code="d">1805</subfield>
+      <subfield code="h">VI, 344 с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч. 3</subfield>
+      <subfield code="d">1805</subfield>
+      <subfield code="h">[6], 388 с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч. 4</subfield>
+      <subfield code="d">1806</subfield>
+      <subfield code="h">[6], 367, [1] с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч. 5</subfield>
+      <subfield code="d">1805</subfield>
+      <subfield code="h">X, 432 с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч.6</subfield>
+      <subfield code="d">1806</subfield>
+      <subfield code="h">XII, 216, 307-330, 241-408 с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч.7</subfield>
+      <subfield code="d">1806</subfield>
+      <subfield code="h">[6], 423, [1] с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч.8</subfield>
+      <subfield code="d">1806</subfield>
+      <subfield code="h">[6], 345, [1] с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч.9</subfield>
+      <subfield code="d">1807</subfield>
+      <subfield code="h">[4], IV, 364, [2] с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч.10</subfield>
+      <subfield code="d">1807</subfield>
+      <subfield code="h">[4], IV, 381, [3] с.</subfield>
+    </datafield>
+    <datafield tag="774" ind1="1" ind2="8">
+      <subfield code="g">Ч.11</subfield>
+      <subfield code="d">1807</subfield>
+      <subfield code="h">[12], 336, [24] с.</subfield>
+    </datafield>
+    <datafield tag="979" ind1=" " ind2=" ">
+      <subfield code="a">mk1q19v</subfield>
+    </datafield>
+  </record>
+</collection>

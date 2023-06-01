@@ -1,0 +1,244 @@
+<!--
+**************************************************
+*                                                *
+*               ONIX INTERNATIONAL               *
+*                                                *
+*             SUPPLY UPDATES XML DTD             *
+*                  Version 1.0                   *
+*                                                *
+*          Original author: Francis Cave         *
+*                                                *
+*               SHORT TAG VERSION                *
+*                                                *
+* For use with the corresponding version of the  *
+*   ONIX Book Product Information Message DTD    *
+*                  Release 2.1                   *
+*                                                *
+*                 Status: DRAFT                  *
+*            Release date: 2006-08-09            *
+*                                                *
+*               (c) 2006 EDItEUR                 *
+*            http://www.editeur.org/             *
+*                                                *
+**************************************************
+
+
+
+TERMS AND CONDITIONS OF USE OF THE ONIX PRODUCT INFORMATION XML DTD
+
+All ONIX standards and documentation are copyright materials, made available 
+free of charge for general use.  If you use the ONIX Product Information 
+Message DTD or the associated Supply Update Message DTD, you will be deemed 
+to have accepted these terms and conditions:
+
+1.  You agree that you will not add to, delete from, amend, or copy for use 
+outside of the ONIX Product Information Message or Supply Update Message DTDs, 
+or any part of the DTDs except for strictly internal use in your own organisation.
+
+2.  You agree that if you wish to add to, amend, or make extracts of the 
+DTDs for any purpose that is not strictly internal to your own organisation, 
+you will in the first instance notify EDItEUR and allow EDItEUR to review 
+and comment on your proposed use, in the interest of securing an orderly 
+development of the DTDs for the benefit of other users.
+
+If you do not accept these terms, you must not use the ONIX Product Information 
+Message or Supply Update Message DTDs.
+
+Full copies of the latest release of this DTD and all associated documentation 
+are available from the EDItEUR web site, where may also be found details of 
+how to contact EDItEUR for advice on the use of this DTD. The URL for the 
+EDItEUR web site is:
+
+http://www.editeur.org/
+
+
+
+MODULE REVISION HISTORY (IN REVERSE CHRONOLOGICAL ORDER)
+
+2006-08-09: Version 1.0 released
+
+-->
+<!-- FOR INFORMATION ON USE OF THE FOLLOWING TWO PARAMETER ENTITIES SEE THE DTD MODULE 'onix-international.dtd'. -->
+<!-- DO NOT DELETE THE FOLLOWING LINE! -->
+<!ENTITY % MainModule SYSTEM "short.elt">
+<!-- DO NOT DELETE THE FOLLOWING LINE! -->
+<!ENTITY % ExtendedProductModel "IGNORE">
+
+<!-- There is no provision for defining local names in this DTD. The following names are defined here in order that they can be used in content model definitions that are modified versions of those defined in the full Product Information Message DTD. -->
+
+<!ENTITY % ONIXBooksSupplyUpdateMessage     "ONIXbookssupplyupdatemessage">
+<!ENTITY % FromCompany                      "m174">
+<!ENTITY % FromPerson                       "m175">
+<!ENTITY % FromEmail                        "m283">
+<!ENTITY % ToCompany                        "m178">
+<!ENTITY % ToPerson                         "m179">
+<!ENTITY % SenderIdentifier                 "senderidentifier">
+<!ENTITY % AddresseeIdentifier              "addresseeidentifier">
+<!ENTITY % SenderIDType                     "m379">
+<!ENTITY % AddresseeIDType                  "m380">
+<!ENTITY % MessageNumber                    "m180">
+<!ENTITY % MessageRepeat                    "m181">
+<!ENTITY % SentDate                         "m182">
+<!ENTITY % MessageNote                      "m183">
+<!ENTITY % DefaultPriceTypeCode             "m185">
+<!ENTITY % DefaultCurrencyCode              "m186">
+<!ENTITY % DefaultClassOfTrade              "m193">
+<!ENTITY % Header                           "header">
+<!ENTITY % RecordReference                  "a001">
+<!ENTITY % NotificationType                 "a002">
+<!ENTITY % ProductIdentifier                "productidentifier">
+<!ENTITY % ProductIDType                    "b221">
+<!ENTITY % IDTypeName                       "b233">
+<!ENTITY % IDValue                          "b244">
+<!ENTITY % PublishingStatus                 "b394">
+<!ENTITY % PublishingStatusNote             "b395">
+<!ENTITY % AnnouncementDate                 "b086">
+<!ENTITY % TradeAnnouncementDate            "b362">
+<!ENTITY % PublicationDate                  "b003">
+<!ENTITY % OutOfPrintDate                   "h134">
+<!ENTITY % SupplyDetail                     "supplydetail">
+<!ENTITY % SupplierIdentifier               "supplieridentifier">
+<!ENTITY % SupplierIDType                   "j345">
+<!ENTITY % SupplierName                     "j137">
+<!ENTITY % TelephoneNumber                  "j270">
+<!ENTITY % FaxNumber                        "j271">
+<!ENTITY % EmailAddress                     "j272">
+<!ENTITY % Website                          "website">
+<!ENTITY % WebsiteRole                      "b367">
+<!ENTITY % WebsiteDescription               "b294">
+<!ENTITY % WebsiteLink                      "b295">
+<!ENTITY % SupplierRole                     "j292">
+<!ENTITY % SupplyToCountry                  "j138">
+<!ENTITY % SupplyToTerritory                "j397">
+<!ENTITY % SupplyToCountryExcluded          "j140">
+<!ENTITY % SupplyRestrictionDetail          "j399">
+<!ENTITY % ReturnsCodeType                  "j268">
+<!ENTITY % ReturnsCode                      "j269">
+<!ENTITY % LastDateForReturns               "j387">
+<!ENTITY % ProductAvailability              "j396">
+<!ENTITY % NewSupplier                      "newsupplier">
+<!ENTITY % DateFormat                       "j260">
+<!ENTITY % ExpectedShipDate                 "j142">
+<!ENTITY % OnSaleDate                       "j143">
+<!ENTITY % OrderTime                        "j144">
+<!ENTITY % Stock                            "stock">
+<!ENTITY % LocationIdentifier               "locationidentifier">
+<!ENTITY % LocationIDType                   "j377">
+<!ENTITY % LocationName                     "j349">
+<!ENTITY % StockQuantityCoded               "stockquantitycoded">
+<!ENTITY % StockQuantityCodeType            "j293">
+<!ENTITY % StockQuantityCodeTypeName        "j296">
+<!ENTITY % StockQuantityCode                "j297">
+<!ENTITY % OnHand                           "j350">
+<!ENTITY % OnOrder                          "j351">
+<!ENTITY % CBO                              "j375">
+<!ENTITY % OnOrderDetail                    "onorderdetail">
+<!ENTITY % ExpectedDate                     "j302">
+<!ENTITY % PackQuantity                     "j145">
+<!ENTITY % AudienceRestrictionFlag          "j146">
+<!ENTITY % AudienceRestrictionNote          "j147">
+<!ENTITY % UnpricedItemType                 "j192">
+<!ENTITY % Price                            "price">
+<!ENTITY % PriceTypeCode                    "j148">
+<!ENTITY % PriceQualifier                   "j261">
+<!ENTITY % PriceTypeDescription             "j262">
+<!ENTITY % PricePer                         "j239">
+<!ENTITY % MinimumOrderQuantity             "j263">
+<!ENTITY % BatchBonus                       "batchbonus">
+<!ENTITY % BatchQuantity                    "j264">
+<!ENTITY % FreeQuantity                     "j265">
+<!ENTITY % ClassOfTrade                     "j149">
+<!ENTITY % DiscountCoded                    "discountcoded">
+<!ENTITY % DiscountCodeType                 "j363">
+<!ENTITY % DiscountCodeTypeName             "j378">
+<!ENTITY % DiscountCode                     "j364">
+<!ENTITY % DiscountPercent                  "j267">
+<!ENTITY % PriceStatus                      "j266">
+<!ENTITY % PriceAmount                      "j151">
+<!ENTITY % CurrencyCode                     "j152">
+<!ENTITY % CountryCode                      "b251">
+<!ENTITY % Territory                        "j303">
+<!ENTITY % CountryExcluded                  "j304">
+<!ENTITY % TerritoryExcluded                "j308">
+<!ENTITY % TaxRateCode1                     "j153">
+<!ENTITY % TaxRatePercent1                  "j154">
+<!ENTITY % TaxableAmount1                   "j155">
+<!ENTITY % TaxAmount1                       "j156">
+<!ENTITY % TaxRateCode2                     "j157">
+<!ENTITY % TaxRatePercent2                  "j158">
+<!ENTITY % TaxableAmount2                   "j159">
+<!ENTITY % TaxAmount2                       "j160">
+<!ENTITY % PriceEffectiveFrom               "j161">
+<!ENTITY % PriceEffectiveUntil              "j162">
+<!ENTITY % Reissue                          "reissue">
+<!ENTITY % ReissueDate                      "j365">
+<!ENTITY % ReissueDescription               "j366">
+<!ENTITY % MarketRepresentation             "marketrepresentation">
+<!ENTITY % AgentIdentifier                  "agentidentifier">
+<!ENTITY % AgentIDType                      "j400">
+<!ENTITY % AgentName                        "j401">
+<!ENTITY % AgentRole                        "j402">
+<!ENTITY % MarketCountry                    "j403">
+<!ENTITY % MarketTerritory                  "j404">
+<!ENTITY % MarketCountryExcluded            "j405">
+<!ENTITY % MarketRestrictionDetail          "j406">
+<!ENTITY % MarketPublishingStatus           "j407">
+<!ENTITY % MarketDate                       "marketdate">
+<!ENTITY % MarketDateRole                   "j408">
+<!ENTITY % SupplyUpdate                     "supplyupdate">
+
+<!-- Declarations of ontent models and elements that differ from those defined in the full Product Information Message DTD are included here:-->
+
+<!ENTITY % Header.mod "((((%SenderIdentifier;)+, (%FromCompany;)?) | %FromCompany;), 
+                        (%FromPerson;)?, (%FromEmail;)?, (%AddresseeIdentifier;)*, (%ToCompany;)?, 
+                        (%ToPerson;)?, (%MessageNumber;)?, (%MessageRepeat;)?, %SentDate;, (%MessageNote;)?, 
+                        (%DefaultPriceTypeCode;)?, (%DefaultCurrencyCode;)?, (%DefaultClassOfTrade;)?)">
+
+<!ENTITY % NewSupplier.mod "((((%SupplierIdentifier;)+, 
+                               (%SupplierName;)?) | %SupplierName;), 
+                             (%TelephoneNumber;)*, (%FaxNumber;)*, (%EmailAddress;)*)">
+
+<!ENTITY % SupplyDetail.mod "((((%SupplierIdentifier;)+, (%SupplierName;)?) | %SupplierName;), (%TelephoneNumber;)*, 
+                              (%FaxNumber;)*, (%EmailAddress;)*, (%Website;)*, (%SupplierRole;)?, 
+                              ((((%SupplyToCountry;)+, (%SupplyToTerritory;)?) | %SupplyToTerritory;), 
+                               (%SupplyToCountryExcluded;)*)?, (%SupplyRestrictionDetail;)?,
+                              (%ReturnsCodeType;, %ReturnsCode;)?, (%LastDateForReturns;)?, %ProductAvailability;, 
+                              (%NewSupplier;)?, ((%DateFormat;)?, %ExpectedShipDate;)?, (%OnSaleDate;)?, (%OrderTime;)?, 
+                              (%Stock;)*, (%PackQuantity;)?, (%AudienceRestrictionFlag;, (%AudienceRestrictionNote;)?)?, 
+                              (%UnpricedItemType; | (%Price;)+), (%Reissue;)?)">
+
+<!-- Declarations that can be re-used from the full Product Information Message DTD without modification are included here: -->
+%MainModule;
+
+<!-- Declarations needed for the attributes of elements that don't occur in the full Product Information Message DTD are included here: -->
+
+<!ENTITY % ref.ONIXBooksSupplyUpdateMessage     "ONIXBooksSupplyUpdateMessage">
+<!ENTITY % ref.SupplyUpdate                     "SupplyUpdate">
+
+<!ENTITY % short.ONIXBooksSupplyUpdateMessage   "ONIXbookssupplyupdatemessage">
+<!ENTITY % short.SupplyUpdate                   "supplyupdate">
+
+<!ENTITY % ONIXBooksSupplyUpdateMessage.attspec '%common.atts; "%ref.ONIXBooksSupplyUpdateMessage;" %more.atts; "%short.ONIXBooksSupplyUpdateMessage;"'>
+<!ENTITY % SupplyUpdate.attspec '%common.atts; "%ref.SupplyUpdate;" %more.atts; "%short.SupplyUpdate;"'>
+
+<!ATTLIST %ONIXBooksSupplyUpdateMessage; %ONIXBooksSupplyUpdateMessage.attspec;>
+<!ATTLIST %SupplyUpdate; %SupplyUpdate.attspec;>
+
+<!--
+**************************************************
+*                                                *
+*           TOP-LEVEL MESSAGE STRUCTURE          *
+*                                                *
+**************************************************
+-->
+
+<!ENTITY % ONIXBooksSupplyUpdateMessage.mod "(%Header;, (%SupplyUpdate;)+)">
+
+<!ELEMENT %ONIXBooksSupplyUpdateMessage; %ONIXBooksSupplyUpdateMessage.mod; >
+
+<!ENTITY % SupplyUpdate.mod "(%RecordReference;, %NotificationType;, %ProductIdentifier;, %PublishingStatus;, 
+                              (%PublishingStatusNote;)?, (%AnnouncementDate;)?, (%TradeAnnouncementDate;)?, 
+                              %PublicationDate;, (%OutOfPrintDate;)?, 
+                              (((%SupplyDetail;)+, (%MarketRepresentation;)*) | (%MarketRepresentation;)+))">
+
+<!ELEMENT %SupplyUpdate; %SupplyUpdate.mod; >

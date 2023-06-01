@@ -1,0 +1,89 @@
+<record>
+  <leader>01958nam0p2200301 i 450 </leader>
+  <controlfield tag="001">RU\BM\BIBL\0000000114</controlfield>
+  <controlfield tag="005">20110301213819.5</controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="d">Цена: в бумажном переплете 9 коп.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="100">
+    <subfield code="a">20110228j178406##|||y0rusy50######ca</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="101">
+    <subfield code="a">chu</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="102">
+    <subfield code="a">RU</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="200">
+    <subfield code="a">Азбука началнаго учения, простаго нотнаго пения, содержащагося на цефаутном ключе.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="205">
+    <subfield code="a">[2-е издание]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="210">
+    <subfield code="a">Москва</subfield>
+    <subfield code="c">Московская тип.</subfield>
+    <subfield code="d">июнь 1784.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="215">
+    <subfield code="a">1-4 л.</subfield>
+    <subfield code="c">ил.</subfield>
+    <subfield code="d">8°</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="309">
+    <subfield code="a">Сигнатура: 1(4). Строк: 5 (ноты). Шрифт: 71 мм.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="309">
+    <subfield code="a">Страницы в рамках из гравированных деталей.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="309">
+    <subfield code="a">Орнамент: концовка, наборные украшения.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="309">
+    <subfield code="a">Иллюстрация: изображение кисти руки с обозначением нот - л.1 об.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="309">
+    <subfield code="a">Клейм нет.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="321">
+    <subfield code="a">Гусева А.А. Свод русских книг кирилловской печати  XVIII века типографий Москвы и Санкт-Петербурга и универсальная методика их идентификации. М., 2010.</subfield>
+    <subfield code="c">№ 36.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="620">
+    <subfield code="d">Москва</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="686">
+    <subfield code="a">01.02.03.04.05</subfield>
+    <subfield code="h">Общероссийский свод книжных памятников</subfield>
+    <subfield code="h">Единичные книжные памятники</subfield>
+    <subfield code="h">Текстовые издания</subfield>
+    <subfield code="h">издания кирилловского шрифта</subfield>
+    <subfield code="j">XVIII в.</subfield>
+    <subfield code="2">RUBBM</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="712">
+    <subfield code="a">Московская синодальная типография</subfield>
+    <subfield code="4">610</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20110228</subfield>
+    <subfield code="g">RCR</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20110228</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="909">
+    <subfield code="a">Книжный памятник - Издание</subfield>
+    <subfield code="3">RU.BM.TEMPLATE.RUSMARC.BIBL.PUBLICATION</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="930">
+    <subfield code="a">Эксперт РГБ</subfield>
+    <subfield code="b">выгрузка РГБ</subfield>
+    <subfield code="c">20110228</subfield>
+  </datafield>
+</record>

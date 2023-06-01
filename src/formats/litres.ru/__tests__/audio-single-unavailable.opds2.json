@@ -1,0 +1,322 @@
+[
+  {
+    "@context": "https://readium.org/webpub-manifest/context.jsonld",
+    "metadata": {
+      "@type": [
+        "https://schema.org/CreativeWork",
+        "https://schema.org/Audiobook"
+      ],
+      "abridged": true,
+      "identifier": [
+        "urn:litres:2452775",
+        "urn:isbn:978-5-457-15037-9",
+        "37534078-042e-11e1-8be0-47117d41cf4b"
+      ],
+      "contentRating": {
+        "@type": "https://schema.org/contentRating",
+        "value": 12,
+        "description": "Restricted for persons younger than given years value"
+      },
+      "rating": {
+        "@type": "https://schema.org/AggregateRating",
+        "ratingValue": 852,
+        "bestRating": 100500132,
+        "worstRating": 0,
+        "ratingExplanation": "рейтинг книги, выставляемый на основе нескольких показателей, на основе объема продаж книги в течение года, популярности автора книги, оценок пользователей и др. и отражающий реальную популярность книги среди пользователей «ЛитРес». Параметр может принимать целые значение от 0 до ∞"
+      },
+      "schema:conditionsOfAccess": "Unavailable",
+      "published": "1895-01-01",
+      "modified": "2020-07-01 03:27:06",
+      "duration": 8663,
+      "title": "Дракула (сокращенный пересказ)",
+      "description": "Хочешь попасть в неведомый мир, полный опасностей и приключений? Тогда эта аудиокнига для тебя! Голос Дракулы\n          вызовет мурашки, и холодок пробежит по телу… Познакомься с бесстрашным Джонатаном Харкером и его друзьями,\n          узнай, кто такие вампиры и как с ними бороться, а главное – как их победить!\n        \nИ помни, что злые силы отступают перед смелыми и находчивыми!\nПересказ Ростислава Нестерова.",
+      "language": [
+        "ru"
+      ],
+      "inLanguage": "ru",
+      "translationOfWork": {
+        "inLanguage": "en"
+      },
+      "narrator": {
+        "name": [
+          "Ростислав Нестеров",
+          "Александр Филиппенко",
+          "Диомид Виноградов"
+        ],
+        "identifier": [
+          "urn:litres:1e867e96-042e-11e1-8be0-47117d41cf4b",
+          "urn:litres:3b868801-2fae-102d-93f9-060d30c95e7d",
+          "urn:litres:78c34d1a-8965-102d-9ab1-2309c0a91052",
+          "urn:litres:hub:1795115",
+          "urn:litres:hub:79602",
+          "urn:litres:hub:173012"
+        ],
+        "bf:role": []
+      },
+      "author": [
+        {
+          "name": "Брэм Стокер",
+          "alternate": "Брэма Стокер",
+          "identifier": "urn:litres:ba0bda53-2a81-102a-9ae1-2dfe723fe7c7",
+          "links": [
+            {
+              "href": "https://litres.ru/brem-stoker/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "aut",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/aut",
+              "rdfs:label": "Автор"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:0",
+              "rdfs:label": "автор"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 3,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Аудиоагент Аудиокнига-АСТ",
+          "identifier": [
+            "urn:litres:cfef03d2-06d4-102c-99a2-0288a49f2f10",
+            "urn:litres:ex:183897"
+          ],
+          "links": [
+            {
+              "href": "https://litres.ru/audioagent-audiokniga-ast/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "bsl",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/bsl",
+              "rdfs:label": "Книготорговец"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:2",
+              "rdfs:label": "агент"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Александр Георгиевич Филиппенко",
+          "alternate": "Александра Филиппенко",
+          "identifier": "urn:litres:3b868801-2fae-102d-93f9-060d30c95e7d",
+          "links": [
+            {
+              "href": "https://litres.ru/aleksandr-filippenko/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "nrt",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/nrt",
+              "rdfs:label": "Повествователь; актёр"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:6",
+              "rdfs:label": "чтец"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 4,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Диомид Виноградов",
+          "alternate": "Диомида Виноградова",
+          "identifier": "urn:litres:78c34d1a-8965-102d-9ab1-2309c0a91052",
+          "links": [
+            {
+              "href": "https://litres.ru/diomid-vinogradov/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "nrt",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/nrt",
+              "rdfs:label": "Повествователь; актёр"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:6",
+              "rdfs:label": "чтец"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Ростислав Нестеров",
+          "alternate": "Ростислава Нестерова",
+          "identifier": "urn:litres:1e867e96-042e-11e1-8be0-47117d41cf4b",
+          "links": [
+            {
+              "href": "https://litres.ru/rostislav-nesterov/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "stl",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/stl",
+              "rdfs:label": "Рассказчик"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:5",
+              "rdfs:label": "пересказчик"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        }
+      ],
+      "publisher": [
+        {
+          "name": "Аудиоагент «Аудиокнига-АСТ»",
+          "identifier": [
+            "urn:litres:cfef03d2-06d4-102c-99a2-0288a49f2f10",
+            "urn:litres:hub:62968"
+          ]
+        }
+      ],
+      "responsibilityNotes": [
+        {
+          "identifier": "urn:litres:agreement:119123",
+          "title": "Аудиокнига (АСТ) (on 100.00%)"
+        }
+      ],
+      "subject": {
+        "genreForm": [
+          "sf_horror",
+          "adventure",
+          "child_det",
+          {
+            "title": "детские детективы",
+            "identifier": [
+              {
+                "@rdf:about": "http://id.loc.gov/vocabulary/classSchemes/bisacsh",
+                "bf:code": "JUV028000"
+              },
+              {
+                "@rdf:about": "https://partnersdnld.litres.ru/genres_list_2/",
+                "bf:code": "urn:litres:sh:5109"
+              }
+            ]
+          },
+          {
+            "title": "классика фантастики",
+            "identifier": [
+              {
+                "@rdf:about": "https://partnersdnld.litres.ru/genres_list_2/",
+                "bf:code": "urn:litres:sh:56305"
+              }
+            ]
+          },
+          {
+            "title": "книги о приключениях",
+            "identifier": [
+              {
+                "@rdf:about": "http://id.loc.gov/vocabulary/classSchemes/bisacsh",
+                "bf:code": "FIC002000"
+              },
+              {
+                "@rdf:about": "https://partnersdnld.litres.ru/genres_list_2/",
+                "bf:code": "urn:litres:sh:6454"
+              }
+            ]
+          },
+          {
+            "title": "мистика",
+            "identifier": [
+              {
+                "@rdf:about": "http://id.loc.gov/vocabulary/classSchemes/bisacsh",
+                "bf:code": "FIC022000"
+              },
+              {
+                "@rdf:about": "https://partnersdnld.litres.ru/genres_list_2/",
+                "bf:code": "urn:litres:sh:5223"
+              }
+            ]
+          }
+        ]
+      },
+      "bf:content": {
+        "@type": "bf:Content",
+        "label": {
+          "ru": [
+            "английская классика",
+            "бессмертные",
+            "вампиры",
+            "захватывающие приключения",
+            "иные миры",
+            "магический реализм",
+            "мистическая",
+            "мистические тайны",
+            "некромантия",
+            "проза",
+            "экранизации"
+          ]
+        }
+      }
+    },
+    "links": [
+      {
+        "rel": "self",
+        "href": "/resources/instance/litres.ru/2452775",
+        "type": "application/opds+json"
+      }
+    ],
+    "readingOrder": [],
+    "resources": [
+      {
+        "rel": "cover",
+        "href": "https://partnersdnld.litres.ru/pub/c/cover_200/2452775.jpg",
+        "type": "image/jpeg",
+        "width": "200",
+        "height": "199"
+      }
+    ]
+  }
+]

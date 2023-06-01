@@ -1,0 +1,1064 @@
+(
+  $marcCountry := function($someCode) {
+    [
+      $lookup(
+        {
+          "AD":"ad", "AE":"ae", "AF":"af", "AG":"ag", "AI":"ai", "AL":"al", "AM":"am", "AO":"ao", "AQ":"aq", "AR":"ar", "AS":"as", "AT":"at", "AU":"au", "AW":"aw", "AX":"ax", "AZ":"az", "BA":"ba", "BB":"bb", "BD":"bd", "BE":"be", "BF":"bf", "BG":"bg", "BH":"bh", "BI":"bi", "BJ":"bj", "BL":"bl", "BM":"bm", "BN":"bn", "BO":"bo", "BQ":"bq", "BR":"br", "BS":"bs", "BT":"bt", "BV":"bv", "BW":"bw", "BY":"by", "BZ":"bz", "CA":"ca", "CC":"cc", "CD":"cd", "CF":"cf", "CG":"cg", "CH":"ch", "CI":"ci", "CK":"ck", "CL":"cl", "CM":"cm", "CN":"cn", "CO":"co", "CR":"cr", "CU":"cu", "CV":"cv", "CW":"cw", "CX":"cx", "CY":"cy", "CZ":"cz", "DE":"de", "DJ":"dj", "DK":"dk", "DM":"dm", "DO":"do", "DZ":"dz", "EC":"ec", "EE":"ee", "EG":"eg", "EH":"eh", "ER":"er", "ES":"es", "ET":"et", "EU":"eu", "FI":"fi", "FJ":"fj", "FK":"fk", "FM":"fm", "FO":"fo", "FR":"fr", "GA":"ga", "GB":"gb", "GD":"gd", "GE":"ge", "GF":"gf", "GG":"gg", "GH":"gh", "GI":"gi", "GL":"gl", "GM":"gm", "GN":"gn", "GP":"gp", "GQ":"gq", "GR":"gr", "GS":"gs", "GT":"gt", "GU":"gu", "GW":"gw", "GY":"gy", "HK":"hk", "HM":"hm", "HN":"hn", "HR":"hr", "HT":"ht", "HU":"hu", "ID":"id", "IE":"ie", "IL":"il", "IM":"im", "IN":"in", "IO":"io", "IQ":"iq", "IR":"ir", "IS":"is", "IT":"it", "JE":"je", "JM":"jm", "JO":"jo", "JP":"jp", "KE":"ke", "KG":"kg", "KH":"kh", "KI":"ki", "KM":"km", "KN":"kn", "KP":"kp", "KR":"kr", "KW":"kw", "KY":"ky", "KZ":"kz", "LA":"la", "LB":"lb", "LC":"lc", "LI":"li", "LK":"lk", "LR":"lr", "LS":"ls", "LT":"lt", "LU":"lu", "LV":"lv", "LY":"ly", "MA":"ma", "MC":"mc", "MD":"md", "ME":"me", "MF":"mf", "MG":"mg", "MH":"mh", "MK":"mk", "ML":"ml", "MM":"mm", "MN":"mn", "MO":"mo", "MP":"mp", "MQ":"mq", "MR":"mr", "MS":"ms", "MT":"mt", "MU":"mu", "MV":"mv", "MW":"mw", "MX":"mx", "MY":"my", "MZ":"mz", "NA":"na", "NC":"nc", "NE":"ne", "NF":"nf", "NG":"ng", "NI":"ni", "NL":"nl", "NO":"no", "NP":"np", "NR":"nr", "NU":"nu", "NZ":"nz", "OM":"om", "PA":"pa", "PE":"pe", "PF":"pf", "PG":"pg", "PH":"ph", "PK":"pk", "PL":"pl", "PM":"pm", "PN":"pn", "PR":"pr", "PS":"ps", "PT":"pt", "PW":"pw", "PY":"py", "QA":"qa", "RE":"re", "RO":"ro", "RS":"rs", "RU":"ru", "RW":"rw", "SA":"sa", "SB":"sb", "SC":"sc", "SD":"sd", "SE":"se", "SG":"sg", "SH":"sh", "SI":"si", "SJ":"sj", "SK":"sk", "SL":"sl", "SM":"sm", "SN":"sn", "SO":"so", "SR":"sr", "SS":"ss", "ST":"st", "SV":"sv", "SX":"sx", "SY":"sy", "SZ":"sz", "TC":"tc", "TD":"td", "TF":"tf", "TG":"tg", "TH":"th", "TJ":"tj", "TK":"tk", "TL":"tl", "TM":"tm", "TN":"tn", "TO":"to", "TR":"tr", "TT":"tt", "TV":"tv", "TW":"tw", "TZ":"tz", "UA":"ua", "UG":"ug", "UM":"um", "US":"us", "UY":"uy", "UZ":"uz", "VA":"va", "VC":"vc", "VE":"ve", "VG":"vg", "VI":"vi", "VN":"vn", "VU":"vu", "WF":"wf", "WS":"ws", "YE":"ye", "YT":"yt", "ZA":"za", "ZM":"zm", "ZW":"zw",
+          "ABW":"aw", "AFG":"af", "AGO":"ao", "AIA":"ai", "ALA":"ax", "ALB":"al", "AND":"ad", "ARE":"ae", "ARG":"ar", "ARM":"am", "ASM":"as", "ATA":"aq", "ATF":"tf", "ATG":"ag", "AUS":"au", "AUT":"at", "AZE":"az", "BDI":"bi", "BEL":"be", "BEN":"bj", "BES":"bq", "BFA":"bf", "BGD":"bd", "BGR":"bg", "BHR":"bh", "BHS":"bs", "BIH":"ba", "BLM":"bl", "BLR":"by", "BLZ":"bz", "BMU":"bm", "BOL":"bo", "BRA":"br", "BRB":"bb", "BRN":"bn", "BTN":"bt", "BVT":"bv", "BWA":"bw", "CAF":"cf", "CAN":"ca", "CCK":"cc", "CHE":"ch", "CHL":"cl", "CHN":"cn", "CIV":"ci", "CMR":"cm", "COD":"cd", "COG":"cg", "COK":"ck", "COL":"co", "COM":"km", "CPV":"cv", "CRI":"cr", "CUB":"cu", "CUW":"cw", "CXR":"cx", "CYM":"ky", "CYP":"cy", "CZE":"cz", "DEU":"de", "DJI":"dj", "DMA":"dm", "DNK":"dk", "DOM":"do", "DZA":"dz", "ECU":"ec", "EGY":"eg", "ERI":"er", "ESH":"eh", "ESP":"es", "EST":"ee", "ETH":"et", "FIN":"fi", "FJI":"fj", "FLK":"fk", "FRA":"fr", "FRO":"fo", "FSM":"fm", "GAB":"ga", "GBR":"gb", "GEO":"ge", "GGY":"gg", "GHA":"gh", "GIB":"gi", "GIN":"gn", "GLP":"gp", "GMB":"gm", "GNB":"gw", "GNQ":"gq", "GRC":"gr", "GRD":"gd", "GRL":"gl", "GTM":"gt", "GUF":"gf", "GUM":"gu", "GUY":"gy", "HKG":"hk", "HMD":"hm", "HND":"hn", "HRV":"hr", "HTI":"ht", "HUN":"hu", "IDN":"id", "IMN":"im", "IND":"in", "IOT":"io", "IRL":"ie", "IRN":"ir", "IRQ":"iq", "ISL":"is", "ISR":"il", "ITA":"it", "JAM":"jm", "JEY":"je", "JOR":"jo", "JPN":"jp", "KAZ":"kz", "KEN":"ke", "KGZ":"kg", "KHM":"kh", "KIR":"ki", "KNA":"kn", "KOR":"kr", "KWT":"kw", "LAO":"la", "LBN":"lb", "LBR":"lr", "LBY":"ly", "LCA":"lc", "LIE":"li", "LKA":"lk", "LSO":"ls", "LTU":"lt", "LUX":"lu", "LVA":"lv", "MAC":"mo", "MAF":"mf", "MAR":"ma", "MCO":"mc", "MDA":"md", "MDG":"mg", "MDV":"mv", "MEX":"mx", "MHL":"mh", "MKD":"mk", "MLI":"ml", "MLT":"mt", "MMR":"mm", "MNE":"me", "MNG":"mn", "MNP":"mp", "MOZ":"mz", "MRT":"mr", "MSR":"ms", "MTQ":"mq", "MUS":"mu", "MWI":"mw", "MYS":"my", "MYT":"yt", "NAM":"na", "NCL":"nc", "NER":"ne", "NFK":"nf", "NGA":"ng", "NIC":"ni", "NIU":"nu", "NLD":"nl", "NOR":"no", "NPL":"np", "NRU":"nr", "NZL":"nz", "OMN":"om", "PAK":"pk", "PAN":"pa", "PCN":"pn", "PER":"pe", "PHL":"ph", "PLW":"pw", "PNG":"pg", "POL":"pl", "PRI":"pr", "PRK":"kp", "PRT":"pt", "PRY":"py", "PSE":"ps", "PYF":"pf", "QAT":"qa", "REU":"re", "ROU":"ro", "RUS":"ru", "RWA":"rw", "SAU":"sa", "SDN":"sd", "SEN":"sn", "SGP":"sg", "SGS":"gs", "SHN":"sh", "SJM":"sj", "SLB":"sb", "SLE":"sl", "SLV":"sv", "SMR":"sm", "SOM":"so", "SPM":"pm", "SRB":"rs", "SSD":"ss", "STP":"st", "SUR":"sr", "SVK":"sk", "SVN":"si", "SWE":"se", "SWZ":"sz", "SXM":"sx", "SYC":"sc", "SYR":"sy", "TCA":"tc", "TCD":"td", "TGO":"tg", "THA":"th", "TJK":"tj", "TKL":"tk", "TKM":"tm", "TLS":"tl", "TON":"to", "TTO":"tt", "TUN":"tn", "TUR":"tr", "TUV":"tv", "TWN":"tw", "TZA":"tz", "UGA":"ug", "UKR":"ua", "UMI":"um", "URY":"uy", "USA":"us", "UZB":"uz", "VAT":"va", "VCT":"vc", "VEN":"ve", "VGB":"vg", "VIR":"vi", "VNM":"vn", "VUT":"vu", "WLF":"wf", "WSM":"ws", "YEM":"ye", "ZAF":"za", "ZMB":"zm", "ZWE":"zw"
+        },
+        $uppercase($someCode)
+      ),
+      $lowercase($someCode)
+    ][0]
+  };
+  $marcLanguage := function($someCode) {
+    [
+      $lookup(
+        {
+          "AB":"abk","AV":"ava","AE":"ave","AZ":"aze","AY":"aym","AK":"aka","SQ":"sqi","AM":"amh","EN":"eng","AR":"ara","HY":"hye/axm/xcl","AS":"asm","AA":"aar","AF":"afr","BM":"bam","EU":"eus","BA":"bak","BE":"bel","BN":"ben","MY":"mya","BI":"bis","BG":"bul","BS":"bos","BR":"bre","CY":"cym","HU":"hun","VE":"ven","VO":"vol","WO":"wol","VI":"vie","GL":"glg","LG":"lug","HZ":"her","KL":"kal","EL":"ell","KA":"kat","GN":"grn","GU":"guj","GD":"gla","DA":"dan","DZ":"dzo","DV":"div","ZU":"zul","HE":"heb","IG":"ibo","YI":"yid","ID":"ind","IA":"ina","IE":"ile","IU":"iku","IK":"ipk","GA":"gle","IS":"isl","ES":"spa","IT":"ita","YO":"yor","KK":"kaz","KN":"kan","KR":"kau","CA":"cat","KS":"kas","QU":"que","KI":"kik","KJ":"kua","KY":"kir","ZH":"zho","KV":"kom","KG":"kon","KO":"kor","KW":"cor","CO":"cos","XH":"xho","KU":"kur","KM":"khm","LO":"lao","LA":"lat","LV":"lav","LN":"lin","LT":"lit","LU":"lub","LB":"ltz","MK":"mkd","MG":"mlg","MS":"msa","ML":"mal","MT":"mlt","MI":"mri","MR":"mar","MH":"mah","ME":"mer","MN":"mon","GV":"glv","NV":"nav","NA":"nau","ND":"nde","NR":"nbl","NG":"ndo","DE":"deu","NE":"nep","NL":"nld","NO":"nor","NY":"nya","NN":"nno","OJ":"oji","OC":"oci","OR":"ori","OM":"orm","OS":"oss","PI":"pli","PA":"pan","FA":"fas","PL":"pol","PT":"por","PS":"pus","RM":"roh","RW":"kin","RO":"ron","RN":"run","RU":"rus","SM":"smo","SG":"sag","SA":"san","SC":"srd","SS":"ssw","SR":"srp","SI":"sin","SD":"snd","SK":"slk","SL":"slv","SO":"som","ST":"sot","SW":"swa","SU":"sun","TL":"tgl","TG":"tgk","TH":"tha","TY":"tah","TA":"tam","TT":"tat","TW":"twi","TE":"tel","BO":"bod","TI":"tir","TO":"ton","TN":"tsn","TS":"tso","TR":"tur","TK":"tuk","UZ":"uzb","UG":"uig","UK":"ukr","UR":"urd","FO":"fao","FJ":"fij","FL":"fil","FI":"fin","FR":"fra","FY":"fry","FF":"ful","HA":"hau","HI":"hin","HO":"hmo","HR":"hrv","CU":"chu","CH":"cha","CE":"che","CS":"ces","ZA":"zha","CV":"chv","SV":"swe","SN":"sna","EE":"ewe","EO":"epo","ET":"est","JV":"jav","JA":"jpn",
+          "ABK":"abk","AWA":"awa","AVA":"ava","AVE":"ave","ADA":"ada","ADY":"ady","AZE":"aze","AYM":"aym","AIN":"ain","AKA":"aka","AKK":"akk","ALB/SQI":"sqi","ALE":"ale","ALT":"alt","AMH":"amh","ENG":"eng","ARA":"ara","ARW":"arw","ARC":"arc","ARP":"arp","ARN":"arn","ARM/HYE":"hye/axm/xcl","ASM":"asm","AAR":"aar","AFR":"afr","AFH":"afh","AKV":"akv","ACE":"ace","ACH":"ach","BAN":"ban","BAM":"bam","BAD":"bad","BAS":"bas","BAQ/EUS":"eus","BAK":"bak","BEJ":"bej","BEL":"bel","BAL":"bal","BEM":"bem","BEN":"ben","BIK/ BCL":"bik","BIN":"bin","BUR/MYA":"mya","BIS":"bis","BUL":"bul","BOS":"bos","BRE":"bre","BUG":"bug","BUA":"bua","BHO":"bho","VAI":"vai","CYM/WEL":"cym","WAR":"war","WAS":"was","HUN":"hun","VEN":"ven","WAL":"wal","VOL":"vol","WOL":"wol","VIE":"vie","GAA":"gaa","HAW":"haw","GAY":"gay","GLG":"glg","LUG":"lug","HER":"her","GEZ":"gez","GIL":"gil","GON":"gon","GOT":"got","GRB":"grb","KAL":"kal","ELL/GRE":"ell","GEO/KAT":"kat","GRN":"grn","GUJ":"guj","GLA":"gla","DAK":"dak","DAR":"dar","DAN":"dan","DEL":"del","DZO":"dzo","DIV":"div","DIN":"din","DYU":"dyu","DOI":"doi","GRC":"grc","EGY":"egy","DUA":"dua","JRB":"jrb","JPR":"jpr","ZEN":"zen","ZUL":"zul","ZUN":"zun","IBA":"iba","HEB":"heb","IBO":"ibo","YID":"yid","ILO":"ilo","INH":"inh","IND":"ind","INA":"ina","ILE":"ile","IKU":"iku","IPK":"ipk","GLE":"gle","ICE/ISL":"isl","ESL/SPA":"spa","ITA":"ita","YOR":"yor","KBD":"kbd","KAB":"kab","KAW":"kaw","CAD":"cad","KAZ":"kaz","XAL":"xal","KAM":"kam","KAN":"kan","KAU":"kau","KAA":"kaa","KRC":"krc","KRL":"krl","CAR":"car","CAT":"cat","KAC":"kac","KAS":"kas","QUE":"que","KIK":"kik","KUA":"kua","KIR":"kir","CHI/ZHO":"zho","KOM":"kom","KON":"kon","KOK":"kok","COP":"cop","KOR":"kor","COR":"cor","COS":"cos","XHO":"xho","KPE":"kpe","MUS":"mus","CRH":"crh","KUM":"kum","KUR":"kur","KRU":"kru","KOS":"kos","KUT":"kut","KHA":"kha","KHM":"khm","LAD":"lad","LAM":"lam","LAO":"lao","LAT":"lat","LAV":"lav","LAH":"lah","LEZ":"lez","LIN":"lin","LIT":"lit","LOZ":"loz","LUB":"lub","LUI":"lui","LUN":"lun","LUO":"luo","LTZ":"ltz","MAG":"mag","MAD":"mad","MAI":"mai","MAK":"mak","MAC/MKD":"mkd","MLG":"mlg","MAY/MSA":"msa","MAL":"mal","MLT":"mlt","MAN":"man","MNI":"mni","MAO/MRI":"mri","MAR":"mar","MWR":"mwr","CHM":"chm","MAH":"mah","MAS":"mas","MEN":"men","MER":"mer","MIC":"mic","MIN":"min","MDF":"mdf","LOL":"lol","MON":"mon","MOS":"mos","MOH":"moh","GLV":"glv","NAV":"nav","NAU":"nau","NDE":"nde","NBL":"nbl","NDO":"ndo","NEW":"new","UND":"und","DEU/GER":"deu","NEP":"nep","NZI":"nzi","DUT/NLD":"nld","DUM":"dum","NIU":"niu","NOG":"nog","NOR":"nor","NYO":"nyo","NYM":"nym","NYA":"nya","NYN":"nyn","NNO":"nno","OJI":"oji","OCI":"oci","ORI":"ori","ORM":"orm","OSA":"osa","OSS":"oss","PAU":"pau","PLI":"pli","PAM":"pam","PAG":"pag","PAN":"pan","PAP":"pap","FAS/PER":"fas","PAL":"pal","POL":"pol","PON":"pon","POR":"por","PUS":"pus","RAJ":"raj","MUL":"mul","RAR":"rar","ROH":"roh","KIN":"kin","RON/RUM":"ron","RUN":"run","RUS":"rus","SMI":"smi","SAM":"sam","SMO":"smo","SAG":"sag","SAD":"sad","SAN":"san","ZAP":"zap","SRD":"srd","SSW":"ssw","CEB":"ceb","SEL":"sel","SCC":"srp","SRR":"srr","SID":"sid","BLA":"bla","SIN":"sin","SND":"snd","SYR":"syr","SLK/SLO":"slk","SLV":"slv","SOG":"sog","SOM":"som","NSO":"nso","SOT":"sot","ENM":"enm","GMH":"gmh","MGA":"mga","FRM":"frm","ANG":"ang","GOH":"goh","SGA":"sga","NON":"non","PEO":"peo","PRO":"pro","OTA":"ota","FRO":"fro","SWA":"swa","SUK":"suk","SUN":"sun","SUS":"sus","TGL":"tgl","TGK":"tgk","THA":"tha","TAH":"tah","TMH":"tmh","TAM":"tam","TAT":"tat","TWI":"twi","TEL":"tel","TEM":"tem","TER":"ter","BOD/TIB":"bod","TIW":"tiw","TIG":"tig","TIR":"tir","TLI":"tli","TOG":"tog","TON":"ton","TSN":"tsn","TSO":"tso","TYV":"tyv","TUM":"tum","TUR":"tur","TUK":"tuk","UGA":"uga","UDM":"udm","UZB":"uzb","UIG":"uig","UKR":"ukr","UMB":"umb","URD":"urd","FAN":"fan","FAT":"fat","FAO":"fao","FIJ":"fij","FIL":"fil","PHN":"phn","FIN":"fin","FON":"fon","FRA/FRE":"fra","FRY":"fry","FUL":"ful","HAI":"hai","HAU":"hau","HIL":"hil","HIN":"hin","HMO":"hmo","HRV/SCR":"hrv","KHO":"kho","HUP":"hup","CHU":"chu","TSI":"tsi","ROM":"rom","CHG":"chg","CHA":"cha","CHY":"chy","CHR":"chr","CHE":"che","CES/CZE":"ces","ZHA":"zha","CHB":"chb","CHN":"chn","CHO":"cho","CHV":"chv","SHN":"shn","SVE/SWE":"swe","SNA":"sna","SCO":"sco","SUX":"sux","EWE":"ewe","EWO":"ewo","EKA":"eka","ELX":"elx","MYV":"myv","EPO":"epo","EST":"est","EFI":"efi","JAV/JAW":"jav","SAH":"sah","YAO":"yao","YAP":"yap","JPN":"jpn"
+        },
+        $uppercase($someCode)
+      ),
+      $lowercase($someCode)
+    ][0]
+  };
+
+  $mapLeader := function($leader) {
+    {
+      "00-04": "00000",
+      "05": [
+        $lookup(
+          {
+            "n": "n",
+            "d": "d",
+            "c": "c"
+          },
+          $leader."06"
+        ),
+        $leader."06",
+        "n"
+      ][0],
+      "06": [
+        $lookup(
+          {
+            "h": "a",
+            "m": "o",
+            "n": "r",
+            "e": "r",
+            "f": "q",
+            "i": "p"
+          },
+          $leader."07"
+        ),
+        $leader."07",
+        "a"
+      ][0],
+      "07": [$leader."08", "m"][0],
+      "08": "#",
+      "09": "a",
+      "10": [$leader."10", "2"][0],
+      "11": "2",
+      "12-16": "00493",
+      "17": "#",
+      "18": [
+        $lookup(
+          {
+            "#": "i",
+            " ": "i",
+            "2": "8",
+            "3": "5",
+            "1": "2"
+          },
+          $leader."18"
+        ),
+        $leader."18",
+        "i"
+      ][0],
+      "19": [
+        $lookup(
+          {
+            "#": "a",
+            "n": "a",
+            " ": "c",
+            "i": "u"
+          },
+          $leader."19"
+        ),
+        $leader."19",
+        "a"
+      ][0],
+      "20": "4",
+      "21": "5",
+      "22": "0",
+      "23": "0"
+    }
+  };
+  $buildLeader := function($leader) {
+    (
+      $m := $mapLeader($leader);
+      $replace(
+        $join(
+          [
+            $m."00-04",
+            $m."05",
+            $m."06",
+            $m."07",
+            $m."08",
+            $m."09",
+            $m."10",
+            $m."11",
+            $m."12-16",
+            $m."17",
+            $m."18",
+            $m."19",
+            $m."20",
+            $m."21",
+            $m."22",
+            $m."23"
+          ],
+          ""
+        ),
+        "#",
+        " "
+      )
+    )
+  };
+  $map008TypeOfDate := function($code) {
+    [
+      $lookup(
+        {
+          "a": "c",
+          "b": "d",
+          "c": "u",
+          "d": "s",
+          "e": "r",
+          "f": "q",
+          "g": "m",
+          "h": "t",
+          "i": "p",
+          "j": "e",
+          "u": "n", /* "b" */
+          "k": "p",
+          "l": "i" /* "k" */
+        },
+        $code
+      ),
+      " "
+    ][0]
+  };
+
+  $map008TargetAudience := function($code) {
+    [
+      $lookup(
+        {
+          "b": "a",
+          "c": "b",
+          "a": "j",
+          "d": "c",
+          "e": "d",
+          "k": "e",
+          "m": "g",
+          "u": " "
+        },
+        $code
+      ),
+      "f"
+    ]
+  };
+
+  $map008FormOfItem := function($code) {
+    [
+      $lookup(
+        {
+        },
+        $code
+      ),
+      "r"
+    ]
+  };
+
+  $map008GovernmentPublication := function($code) {
+    [
+      $lookup(
+        {
+          "a": "f",
+          "b": "s",
+          "c": "l",
+          "d": "l",
+          "e": "c",
+          "f": "i",
+          "g": "z",
+          "h": "o",
+          "y": " ",
+          "z": "z",
+          "|": "|",
+          "#": " ",
+          " ": " "
+        },
+        $code
+      ),
+      " "
+    ]
+  };
+
+  $lookupSubjectCode := function ($code) {
+    $lookup(
+      {
+       "lc": "0",
+       "lcch": "1",
+       "mesh": "2",
+       "nal": "3",
+       "": "4",
+       "cae": "5",
+       "caf": "6"
+      },
+      $code
+    )
+  };
+
+  $lookupRusMARCRelatorCode := function($code) {
+    $code ? $lookup(
+      {
+        "100": "ant", "130": "bkd", "190": "cns", "195": "msd",
+        "202": "prf", "205": "clb", "206": "fld", "207": "prf", "210": "cmm", "212": "cwt", "220": "com", "230": "cmp", "233": "adp", "236": "cmp", "245": "ccp", "250": "cnd", "255": "csp", "257": "ctb", "270": "crr", "273": "cur", "275": "dnc", "280": "dte", "290": "dto", "295": "dgg",
+        "300": "drt", "303": "mus", "305": "dis", "310": "dst", "320": "dnr", "330": "dub", "340": "edt", "365": "exp", "385": "att", "390": "fmo", "395": "asn",
+        "400": "fnd", "410": "art", "420": "hnr", "430": "ilu", "440": "ill", "445": "sgd", "450": "ins", "475": "isb", "480": "lbt", "490": "lse",
+        "500": "lso", "510": "ltg", "520": "lyr", "535": "art", "540": "pbd", "545": "mus", "550": "nrt", "555": "opn", "557": "orm", "560": "org", "570": "oth", "582": "pta", "584": "inv", "587": "pth", "590": "prf", "595": "res",
+        "600": "pht", "605": "osp", "610": "prt", "620": "pop", "630": "pro", "632": "prs", "633": "prd", "635": "prg", "637": "pdr", "640": "pfr", "655": "ppt", "660": "crp", "665": "pro", "670": "rce", "673": "rth", "675": "rev", "677": "rtm", "690": "sce", "695": "sad",
+        "700": "scr", "705": "scl", "710": "sec", "720": "sgn", "721": "sng", "723": "spn", "725": "stn", "726": "prf", "727": "dgs", "730": "trl", "740": "tyd", "750": "tyg", "753": "sll", "755": "voc", "770": "wam",
+        "000": "###", "070": "aut", "010": "adp", "090": "aud", "075": "aft", "080": "aui", "072": "aqt", "062": "att", "005": "act", "018": "anm", "020": "ann", "030": "arr", "060": "asn", "065": "auc", "015": "pma", "050": "asg", "040": "art"
+      },
+      $code
+    ) : undefined
+  };
+  /*
+    FIXME: Add valid length generation in LEADER 00-04
+    before serialization of record to ISO2709 string representation
+    https://www.loc.gov/marc/bibliographic/concise/bdleader.html
+  */
+  $merge(
+    [
+      $.$sift(function($v, $k) {
+        $not($k in false ? ["204", "105", "106", "110"] : [
+          "leader",
+          "021", "022", "035", "040", "071",
+          "100", "101", "102",
+          "200", "205", "208", "210", "211", "215", "225", "230",
+          "300", "320", "321", "327", "328", "330", "332", "333", "335", "336", "337", "345",
+          "410", "411", "421", "422", "423", "430", "440", "451", "452", "453", "454", "463", "464",
+          "500", "501", "520", "530", "531", "532", "541", "545",
+          "600", "601", "602", "605", "606", "607", "610", "620", "626", "660", "661", "670", "675", "676", "680", "686",
+          "700", "701", "702", "710", "711", "712", "720", "721", "730",
+          "801", "802", "852", "856", "886",
+          "900"
+        ])
+      }),
+      {
+        "leader": $buildLeader($.leader),
+        "001": $."001",
+        "003": $.["801"[$."ind2" = "0"].[$.b.$lookup({"NLR": "RuSpRNB"}, $), $.b].*][0],
+        "005": $."005",
+        "007": $."007",
+        "008": $."100"."a".$join(
+          {
+            "00-05": $substring($, 2, 6),
+            "06": $map008TypeOfDate($substring($, 8, 1)),
+            "07-14": $substring($, 9, 8),
+            "15-17": $substring($, 22, 2),
+            "18-21": "     ",
+            "22": $map008TargetAudience($substring($, 18, 1)),
+            "23": $map008FormOfItem([$."130"[]."1", "r"][0]),
+            "24-27": "    ",
+            "28": $map008GovernmentPublication($substring($, 21, 1)),
+            "29": "|",
+            "30-32": "|0 ",
+            "33": $substring($, 35, 1) = "0" ? "|" : "u",
+            "34": "|",
+            "35-37": $marcLanguage([$."102"."c", $."801"."a", "RUS"][0]),
+            "38": [$."040"[]."b", $."040"[]."a"][0],
+            "39-40": " c"
+          }.[
+            $."00-05",
+            $."06",
+            $."07-14",
+            $."15-17",
+            $."18-21",
+            $."22",
+            $."23",
+            $."24-27",
+            $."28",
+            $."29",
+            $."30-32",
+            $."33",
+            $."34",
+            $."35-37",
+            $."38",
+            $."39-40"
+          ]
+        ),
+        "017": $."021"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.b,
+          "b": $.a
+        },
+        "028": $."071"[].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": $."ind2" = "0" ? "0" : "1",
+          "a": $.a,
+          "b": $.b
+        },
+        "035": $."035"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "z": $.z
+        },
+        "030": $."040"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "z": $.z
+        },
+        "037": $."345"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "b": $.a,
+          "a": $.b,
+          "f": $.c,
+          "c": $.d
+        },
+        "040": [
+          $."801"[].{
+            "ind1": "#",
+            "ind2": "#",
+            "a": $."ind2" = "0" ? $.b : undefined,
+            "b": $.a.$marcLanguage($),
+            "c": ($."ind2" = "0" or $."ind2" = "1") ? $.b : undefined,
+            "d": $."ind2" = "2" ? $.b : undefined,
+            "date": false ? $.c : undefined,
+            "e": [$[]."4", $[]."g"][0],
+            "2": $."2"
+          }
+        ],
+        "041": $."101"[].{   /* Language */
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.d,
+          "$d INACTIVE": false ? $.a : undefined,
+          "e": $.h,
+          "f": $.e,
+          "g": $.i,
+          "h": $.c
+        },
+        "043": $."660"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "044": $."102"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.b,
+          "c": $marcCountry($.c),
+          "2": $."2"
+        },
+        "045": $."661".{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "050": $."680"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": "a",
+          "b": "b"
+        },
+        "086": $."022"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "2": $.a,
+          "a": $.b,
+          "z": $.z
+        },
+        "084": $."686"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.b,
+          "2": $."2"
+        },
+        "080": $."675"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "082": $."676"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "2": $.v
+        },
+        "072": $."615".{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $join($.n, ' '),
+          "x": $.m
+        },
+        "100": $append(
+          $."700".{
+            "ind1": $.ind2 ? $.ind2 : "#",
+            "ind2": "#",
+            "a": $join([$.a, $.g], ", "),
+            "v": $.c,
+            "b": $.d,
+            "d": $.f,
+            "u": $.p,
+            "4": $."4" ? [$lookupRusMARCRelatorCode($."4"[0]), $."4"][0] : undefined
+          },
+          $."720".{
+            "ind1": "3",
+            "ind2": "#",
+            "a": $.a,
+            "d": $.f,
+            "4": $."4" ? [$lookupRusMARCRelatorCode($."4"[0]), $."4"][0] : undefined
+          }
+        ),
+        "110": $."710".{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.b,
+          "n": $.d,
+          "c": $.e,
+          "d": $.f,
+          "u": $.p,
+          "4": [$lookupRusMARCRelatorCode($."4"[0]), $."4"][0]
+        },
+        "111": $."710".{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": "#",
+          "a": $.a,
+          "e": $.b,
+          "n": $.d,
+          "c": $.e,
+          "d": $.f,
+          "u": $.p,
+          "4": [$lookupRusMARCRelatorCode($."4"[0]), $."4"][0]
+        },
+        "130": $."500"[$."ind2" = "1"].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": "#",
+          "a": $.a,
+          "d": $.n,
+          "f": $.k,
+          "g": $.n,
+          "k": $.j,
+          "l": $.m,
+          "m": $.r,
+          "n": $.h,
+          "o": $.w,
+          "p": $.i,
+          "r": $.u,
+          "s": $.q
+        },
+        "210": $."531"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.b
+        },
+        "222": $."530"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.b
+        },
+        "240": $."500"[$."ind2" = "0"].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": "#",
+          "a": $.a,
+          "d": $.n,
+          "f": $.k,
+          "g": $.n,
+          "k": $.j,
+          "l": $.m,
+          "m": $.r,
+          "n": $.h,
+          "o": $.w,
+          "p": $.i,
+          "r": $.u,
+          "s": $.q
+        },
+        "243": $."501"[$."ind2" = "0"].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a,
+          "k": $.e,
+          "f": $.k,
+          "l": $.m,
+          "l": $.m
+        },
+        "242": $."541"[].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.e,
+          "n": $.h,
+          "p": $.i,
+          "y": $.z
+        },
+        "245": $."200"[].{
+          "ind1": $."ind1" = "1" ? "0" : undefined,
+          "ind2": "0",
+          "a": $join([$join($.a), $join($.d)], " = ") & ($join($.e) ? " :" : ""),
+          "b": $join($.e),
+          "c": $join([$join($.f), $join($.g)], " ; "),
+          "h": $join($.b),
+          "n": $.h,
+          "p": $.i,
+          "x": $.x
+        },
+        "246": $."532"[].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "247": $."520"[].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": $."ind2" ? $."ind2" : "#",
+          "a": $.a,
+          "b": $.e,
+          "n": $.h,
+          "p": $.i,
+          "g": $.n,
+          "f": $.j,
+          "x": $.x
+        },
+        "250": $."205"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "254": $."208"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "260": $."210"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $join($.a),
+          "b": $join($.c),
+          "c": $join($.d),
+          "e": $join($.e),
+          "f": $join($.g)
+        },
+        "263": $."211"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "300": [
+          $."215"[].{
+            "ind1": "#",
+            "ind2": "#",
+            "a": $.a,
+            "b": $.c,
+            "c": $.d,
+            "e": $.e
+          },
+          $."316"[].{
+            "ind1": "#",
+            "ind2": "#",
+            "b": $.a
+          }
+        ],
+        "490": $.[$."225"[], $."461"[]].*.{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": "#",
+          "a": $join([$join($.a, " / "), $join($.e, " / ")], " : "),
+          "f": $.f,
+          "v": $.v,
+          "x": $.x
+        },
+        "256": $."230"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "500": $append(
+          $."300"[$not($."ind1" or $."ind2")].{
+            "ind1": "#",
+            "ind2": "#",
+            "a": $.a
+          },
+          $."336"[].{
+            "ind1": "#",
+            "ind2": "#",
+            "a": $.a
+          }
+        ),
+        "502": $."328"[].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": $."ind2" ? $."ind2" : "#",
+          "a": $.a
+        },
+        "504": $."320",
+        "505": $."327"[].{
+          "ind1": [
+            $lookup(
+              {
+                "1": "0",
+                "0": "1",
+                "2": "2",
+                " ": "8"
+              },
+              $."ind1"
+            ),
+            "8"
+          ][0],
+          "ind2": $."ind2" = "1" ? "0" : undefined,
+          "a": $.a,
+          "r": $.b,
+          "t": $.c,
+          "g": $.p,
+          "u": $.u
+        },
+        "510": $."321"[].{
+          "ind1": $."ind1" = "1" ? "4" : "1",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.b,
+          "c": $.c
+        },
+        "520": $."330"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "521": $."333"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "524": $."332"[].{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "525": $."300"[$."ind1" or $."ind2"].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": $."ind2" ? $."ind2" : "#",
+          "a": $.a
+        },
+        "538": $."337".{
+          "ind1": "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "555": $."300"[$."ind1" or $."ind2"].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": $."ind2" ? $."ind2" : "#",
+          "a": $.a
+        },
+        "590": $."900"[].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": $."ind2" ? $."ind2" : "#",
+          "a": $.a
+        },
+        "600": $append(
+          $."600"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "0" ? "0" : $."ind2",
+            "ind2": [$."2" ? $."2".$lookupSubjectCode($) : undefined, "4"][0],
+             "a": $join([$.a, $.b], ", "),
+             "c": $.c,
+             "b": $.d,
+             "d": $.f,
+             "t": $.t,
+             "x": $.x,
+             "z": $.y,
+             "y": $.z,
+             "2": $."2"
+          },
+          $."603"[].{
+            "ind1": "3",
+            "ind2": "#",
+            "a": $.a,
+            "t": $.t,
+            "x": $.x,
+            "z": $.y,
+            "y": $.z,
+            "2": $."2"
+          }
+        ),
+        "610": $."601"[].{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": $."2".$lookupSubjectCode($),
+          "a": $.c
+            ? $.a & "(" & $.c & ")"
+            : undefined,
+          "b": $.b,
+          "c": $.e,
+          "d": $.f,
+          "e": $.b,
+          "f": undefined,
+          "g": undefined,
+          "k": $.j,
+          "l": undefined,
+          "m": undefined,
+          "n": $.d,
+          "o": undefined,
+          "p": undefined,
+          "r": undefined,
+          "s": undefined,
+          "t": undefined,
+          "u": undefined,
+          "x": $.x,
+          "y": $.z,
+          "z": $.y,
+          "3": undefined
+        },
+        "611": $."601"[].{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": $."2".$lookupSubjectCode($),
+          "a": $.c
+            ? $.a & "(" & $.c & ")"
+            : undefined,
+          "c": $.e,
+          "d": $.f,
+          "e": $.b ? $.b : undefined,
+          "f": undefined,
+          "g": undefined,
+          "k": $.j,
+          "l": undefined,
+          "n": $.d,
+          "p": undefined,
+          "s": undefined,
+          "t": $.t,
+          "u": undefined,
+          "x": $.x,
+          "y": $.z,
+          "z": $.y,
+          "3": undefined
+        },
+        "630": $."605"[].{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": $."2".$lookupSubjectCode($),
+          "a": $.a,
+          "p": $.i,
+          "f": $.k,
+          "k": $.l,
+          "n": [$.s, $.h].*,
+          "l": $.m,
+          "g": $.n,
+          "s": $.q,
+          "o": $.t,
+          "r": [$.u, $.r].*,
+          "x": $.x,
+          "y": $.z,
+          "z": $.y,
+          "2": $."2"
+        },
+        "650": $."606"[].{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": $."2".$lookupSubjectCode($),
+          "a": $join([$.a, $.x], " "),
+          "x": $.x,
+          "y": $.z,
+          "z": $.y,
+          "2": $."2"
+        },
+        "651": $."607"[].{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": $."2".$lookupSubjectCode($),
+          "a": $join([$.a, $.b], ", "),
+          "x": $.x,
+          "y": $.z,
+          "z": $.y,
+          "3": undefined
+        },
+        "653": $."610"[].{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": "#",
+          "a": $.a
+        },
+        "700": [
+          $."701"[].{
+            "ind1": $.ind2 ? $.ind2 : "#",
+            "ind2": "#",
+            "a": $join([$.a, $.g ? $.g : $.b], ", "),
+            "v": $.c,
+            "b": $.d,
+            "d": $.f,
+            "u": $.p,
+            "e": $lookupRusMARCRelatorCode($."e"[0]),
+            "4": $lookupRusMARCRelatorCode($."4"[0])
+          },
+          $."702"[].{
+            "ind1": $.ind2 ? $.ind2 : "#",
+            "ind2": "#",
+            "a": $join([$.a, $.g ? $.g : $.b], ", "),
+            "v": $.c,
+            "b": $.d,
+            "d": $.f,
+            "u": $.p,
+            "e": $lookupRusMARCRelatorCode($."e"[0]),
+            "4": $lookupRusMARCRelatorCode($."4"[0])
+          },
+          $."721"[].{
+            "ind1": "3",
+            "ind2": "#",
+            "a": $.a,
+            "d": $.f,
+            "4": [$lookupRusMARCRelatorCode($."4"[0]), $."4"][0]
+          }
+        ],
+        "710": $.[$."710"[], $."711"[$."ind1" = "0"], $."712"[]].*.{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": "#",
+          "a": $.a,
+          "b": $.b,
+          "n": $.d,
+          "c": $.e,
+          "d": $.f,
+          "u": $.p,
+          "4": [$lookupRusMARCRelatorCode($."4"[0]), $."4"][0]
+        },
+        "711": $."711"[$."ind1" = "1"].{
+          "ind1": $.ind2 ? $.ind2 : "#",
+          "ind2": "#",
+          "a": $.a,
+          "e": $.b,
+          "n": $.d,
+          "c": $.e,
+          "d": $.f,
+          "u": $.p,
+          "4": [$lookupRusMARCRelatorCode($."4"[0]), $."4"][0]
+        },
+        "730": $."500"[].{
+          "ind1": $."ind1" ? $."ind1" : "#",
+          "ind2": $."ind2" ? $."ind2" : "#",
+          "a": $.a,
+          "d": $.n,
+          "f": $.k,
+          "g": $.n,
+          "k": $.j,
+          "l": $.m,
+          "m": $.r,
+          "n": $.h,
+          "o": $.w,
+          "p": $.i,
+          "r": $.u,
+          "s": $.q
+        },
+        "752": $."620"[
+          $merge(
+            [
+              {
+                "ind1": "#",
+                "ind2": "#"
+              },
+              $
+            ]
+          )
+        ],
+        "753": $."626"[
+          $merge(
+            [
+              {
+                "ind1": "#",
+                "ind2": "#"
+              },
+              $
+            ]
+          )
+        ],
+        "760": $."410"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "762": $."411"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "770": $."421"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "772": $."422"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "773": $append(
+          $."463"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "h": $.a,
+            "x": $.x,
+            "z": $.y
+          },
+          $."545"[].{
+            "ind1": $."ind1" = "1" ? "0" : " ",
+            "ind2": "#",
+            "t": $.a
+          }
+        ),
+        "774": $.[
+          $."464"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "8",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "d": [$.d[], $.a[]],
+            "h": $.a,
+            "x": $.x,
+            "z": $.y
+          },
+          $."462"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "8",
+            "i": "REL HERE",
+            "w": $."3",
+            "t": $.t,
+            "d": $.a,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+          },
+          $."463"[].{ /* 464 is above! */
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": " ",
+            "i": undefined,
+            "w": $."3",
+            "t": $.t,
+            "d": $.a,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+          }
+          /* Fixme: d-> $."210".d */
+        ].*,
+        "777": $."423"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "780": $."430"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "785": $."440"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "775": $."451"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "765": $."454"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "767": $."453"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "776": $."452"[].{
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+        },
+        "787": [$."455", $."456", $."470", $."488"][
+          {
+            "ind1": $.ind2 ? $.ind2 : "#" = "1" ? "0" : "1",
+            "ind2": "#",
+            "w": $."3",
+            "t": $.t,
+            "g": $.v,
+            "x": $.x,
+            "z": $.y
+          }
+        ],
+        "852": $."852" or $."335" or $."037" or $."316"."5"
+          ? $.[$."852", $."335", $."037", $."316"."5".{"a": $}]
+          : undefined,
+        "856": $."856",
+        "901": $."901",
+        "979": $."670" ?
+          $."670"[].{
+            "ind1": "#",
+            "ind2": "#",
+            "a": $.b,
+            "b": $.c,
+            "2": $.d
+          } : $."886"[].{
+            "ind1": "#",
+            "ind2": "#",
+            "a": $.a
+          },
+        "1000": $."900"
+      }
+    ]
+  )
+)

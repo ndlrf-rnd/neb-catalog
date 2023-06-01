@@ -1,0 +1,3072 @@
+<?xml version='1.0' standalone='no' ?>
+<journal>
+  <product_id>9582</product_id>
+  <product_type>C</product_type>
+  <date_public>1562597803</date_public>
+  <list_price>0.0</list_price>
+  <issue_id>487</issue_id>
+  <status>H</status>f
+  <type>D</type>
+  <ltype>A</ltype>
+  <year>2019</year>
+  <quarter>2</quarter>
+  <month>0</month>
+  <redactor_ids></redactor_ids>
+  <volume></volume>
+  <number>2</number>
+  <publication_ids>9786,9670,9237,9364,9601,9702,9520,9491</publication_ids>
+  <page_title></page_title>
+  <meta_description></meta_description>
+  <meta_keywords></meta_keywords>
+  <category_id>154</category_id>
+  <price>0.000000</price>
+  <name>
+    <EN>Issue 2</EN>
+    <RU>Выпуск 2</RU>
+  </name>
+  <theme>
+    <EN></EN>
+    <RU></RU>
+  </theme>
+  <short_description>
+    <EN></EN>
+    <RU></RU>
+  </short_description>
+  <full_description>
+    <EN></EN>
+    <RU></RU>
+  </full_description>
+  <main_pair>9582.png</main_pair>
+  <issn>2077-5180</issn>
+  <publications>
+    <publication>
+      <external_pid>9786</external_pid>
+      <product_code>S207751800005912-2-</product_code>
+      <doi>10.18254/S207751800005912-2</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>1</position>
+      <main_author>16085</main_author>
+      <date_public>1562533200</date_public>
+      <date_accepted>1563310800</date_accepted>
+      <date_received>1561928400</date_received>
+      <date_included>1563310800</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources>Результаты исследований, представленные во введении, получены в рамках государственного задания
+        ЦЭМИ РАН. Результаты исследований, представленные в разделах «Сетевая модель миграционной адаптации», «Модель
+        возвратной миграции», «Гибридная популяционная агент-ориентированная модель», получены за счет средств
+        Российского Фонда фундаментальных исследований (проект № 18-51-14010).
+      </financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Application of Agent-based approach to the Modeling of Processes in the Field of Migration Policy</EN>
+        <RU>Опыт применения агент-ориентированного подхода к моделированию процессов в области миграционной политики
+        </RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;The article is devoted to the analysis of existing experience in the application of agent based
+          approach by modeling migration processes carried out for ongoing development of complex agent based models to
+          simulate processes in the field of migration policy. Analysis showed that despite the advantages demonstrated
+          by the agent-based approach compared with traditional methods of demographic research simulation reveals
+          various difficulties in terms of simulating migration processes that nevertheless do not underestimate
+          advantages of agent and other existing modeling approaches. Hybrid population-based agent modeling is a new
+          emerging field of study that showed advantages by implementing this approach.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;Статья посвящена анализу существующего опыта применения агент-ориентированного подхода к
+          моделированию миграционных процессов, проводимому с целью дальнейшей разработки комплекса агентных моделей,
+          имитирующих процессы в области миграционной политики. Анализ показал, что, несмотря на демонстрируемые
+          агентным подходом преимущества по сравнению с традиционными методами демографических исследований, в ходе
+          моделирования выявляются различные трудности с точки зрения имитации миграционных процессов, которые, тем не
+          менее, не преуменьшают достоинства агентных и других существующих подходов к моделированию. Гибридное
+          популяционное агентное моделирования относится к новой развивающейся области исследования, но в настоящее
+          время уже имеются преимущества реализации данного подхода.&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>Bakhtizin A.R. Agent-orientirovannye modeli ehkonomiki. // M.: Ehkonomika, 2008.</reference>
+          <reference>Makarov V.L., Bakhtizin A.R., Sushko E.D., Abramov V.I. Komp&apos;yuternoe modelirovanie v
+            upravlenii ehkonomikoj (metodologicheskaya osnova dlya strategicheskogo planirovaniya) // Gosudarstvennyj
+            audit. Pravo. Ehkonomika, № 3, 2017.
+          </reference>
+          <reference>Burch T. K. Model-Based Demography. // Essays on Integrating Data, Technique and Theory, 2018,
+            DOI:10.1007/978-3-319-65433-1.
+          </reference>
+          <reference>Constant A., Massey D. S. Return Migration by German Guestworkers: Neoclassical versus New Economic
+            Theories. // International Migration, 2002, 40(4), p. 5–38.
+          </reference>
+          <reference>Courgeau D., Bijak J., Franck R., Silverman E. Model-based demography: Towards a research agenda.
+            // Agent-Based Modelling in Population Studies: Concepts, Methods, and Applications, 2016, p. 29–51.
+          </reference>
+          <reference>Ewald R., Uhrmacher A. M. SESSL: A domain-specific language for simulation experiments. // ACM
+            Transactions on Modeling and Computer Simulation, 2014, 24(2).
+          </reference>
+          <reference>Harris J. R., Todaro M. P. Migration, Unemployment and Development: a Two-Sector Analysis. //
+            American Economic Review, 1970, 60(1), p. 126–142.
+          </reference>
+          <reference>Hobcraft J. Towards a scientific understanding of demographic behaviour. // Population – English
+            Edition, 2007, 62(1), p. 47–51.
+          </reference>
+          <reference>Klabunde A., Zinn S., Willekens F., Leuchter M. Multistate modelling extended by behavioural rules:
+            An application to migration. // Population Studies, 2017, 71, p. 51–67.
+          </reference>
+          <reference>Moeckel R., Spiekermann K., Wegener M. Creating a synthetic population. // Proceedings of the 8th
+            International Conference on Computers in Urban Planning and Urban Management (CUPUM), 2003.
+          </reference>
+          <reference>Morand E., Toulemon L., Pennec S., Baggio R., Billari F. Demographic modelling: The state of the
+            art. // SustainCity working paper, 2010.
+          </reference>
+          <reference>Pei-jun Y., Xiao W., Cheng Chenc Y., Fei-yue W. Hybrid Agent Modeling in Population Simulation:
+            Current Approaches and Future Directions // Journal of Artificial Societies and Social Simulation, 2016,
+            19(1)12 http://jasss.soc.surrey.ac.uk/19/1/12.html
+          </reference>
+          <reference>Portes A. Social Capital: Its Origins and Applications in Modern Sociology. // Annual Review of
+            Sociology, 1998, 24(1), 1–24, DOI:10.1146/annurev.soc.24.1.1.
+          </reference>
+          <reference>Reinhardt O., Hilton J., Warnke T., Bijak J., Uhrmacher A. Streamlining Simulation Experiments with
+            Agent-Based Models in Demography // Journal of Artificial Societies and Social Simulation, 2018, 21(3)9
+            http://jasss.soc.surrey.ac.uk/21/3/9.html
+          </reference>
+          <reference>Silverman E., Bijak J., Hilton J., Cao V. D., Noble J. When demography met social simulation: A
+            tale of two modeling approaches. // Journal of Artificial Societies and Social Simulation 2013, 16(4), 9.
+          </reference>
+          <reference>Simon M. Path Dependency and Adaptation: The Effects of Policy on Migration Systems // Journal of
+            Artificial Societies and Social Simulation 2019, 22(2)2 http://jasss.soc.surrey.ac.uk/22/2/2.html
+          </reference>
+          <reference>Warnke T., Steiniger A., Uhrmacher A. M., Klabunde A., Willekens F. ML3: A Language for Compact
+            Modeling of Linked Lives in Computational Demography. // Proceedings of the 2015 Winter Simulation
+            Conference, 2015, p. 2764–2775, DOI:10.1109/WSC.2015.7408382
+          </reference>
+          <reference>Watts D. J., Strogatz S. H. Collective dynamics of small-world networks. // Nature, 1998,
+            393(6684), p. 440–442, DOI:10.1038/30918
+          </reference>
+        </EN>
+        <RU>
+          <reference>Бахтизин А.Р. Агент-ориентированные модели экономики. // М.: Экономика, 2008.</reference>
+          <reference>Макаров В.Л., Бахтизин А.Р., Сушко Е.Д., Абрамов В.И. Компьютерное моделирование в управлении
+            экономикой (методологическая основа для стратегического планирования) // Государственный аудит. Право.
+            Экономика, № 3, 2017.
+          </reference>
+          <reference>Burch T. K. Model-Based Demography. // Essays on Integrating Data, Technique and Theory, 2018,
+            DOI:10.1007/978-3-319-65433-1.
+          </reference>
+          <reference>Constant A., Massey D. S. Return Migration by German Guestworkers: Neoclassical versus New Economic
+            Theories. // International Migration, 2002, 40(4), p. 5–38.
+          </reference>
+          <reference>Courgeau D., Bijak J., Franck R., Silverman E. Model-based demography: Towards a research agenda.
+            // Agent-Based Modelling in Population Studies: Concepts, Methods, and Applications, 2016, p. 29–51.
+          </reference>
+          <reference>Ewald R., Uhrmacher A. M. SESSL: A domain-specific language for simulation experiments. // ACM
+            Transactions on Modeling and Computer Simulation, 2014, 24(2).
+          </reference>
+          <reference>Harris J. R., Todaro M. P. Migration, Unemployment and Development: a Two-Sector Analysis. //
+            American Economic Review, 1970, 60(1), p. 126–142.
+          </reference>
+          <reference>Hobcraft J. Towards a scientific understanding of demographic behaviour. // Population – English
+            Edition, 2007, 62(1), p. 47–51.
+          </reference>
+          <reference>Klabunde A., Zinn S., Willekens F., Leuchter M. Multistate modelling extended by behavioural rules:
+            An application to migration. // Population Studies, 2017, 71, p. 51–67.
+          </reference>
+          <reference>Moeckel R., Spiekermann K., Wegener M. Creating a synthetic population. // Proceedings of the 8th
+            International Conference on Computers in Urban Planning and Urban Management (CUPUM), 2003.
+          </reference>
+          <reference>Morand E., Toulemon L., Pennec S., Baggio R., Billari F. Demographic modelling: The state of the
+            art. // SustainCity working paper, 2010.
+          </reference>
+          <reference>Pei-jun Y., Xiao W., Cheng Chenc Y., Fei-yue W. Hybrid Agent Modeling in Population Simulation:
+            Current Approaches and Future Directions // Journal of Artificial Societies and Social Simulation, 2016,
+            19(1)12 http://jasss.soc.surrey.ac.uk/19/1/12.html
+          </reference>
+          <reference>Portes A. Social Capital: Its Origins and Applications in Modern Sociology. // Annual Review of
+            Sociology, 1998, 24(1), 1–24, DOI:10.1146/annurev.soc.24.1.1.
+          </reference>
+          <reference>Reinhardt O., Hilton J., Warnke T., Bijak J., Uhrmacher A. Streamlining Simulation Experiments with
+            Agent-Based Models in Demography // Journal of Artificial Societies and Social Simulation, 2018, 21(3)9
+            http://jasss.soc.surrey.ac.uk/21/3/9.html
+          </reference>
+          <reference>Silverman E., Bijak J., Hilton J., Cao V. D., Noble J. When demography met social simulation: A
+            tale of two modeling approaches. // Journal of Artificial Societies and Social Simulation 2013, 16(4), 9.
+          </reference>
+          <reference>Simon M. Path Dependency and Adaptation: The Effects of Policy on Migration Systems // Journal of
+            Artificial Societies and Social Simulation 2019, 22(2)2 http://jasss.soc.surrey.ac.uk/22/2/2.html
+          </reference>
+          <reference>Warnke T., Steiniger A., Uhrmacher A. M., Klabunde A., Willekens F. ML3: A Language for Compact
+            Modeling of Linked Lives in Computational Demography. // Proceedings of the 2015 Winter Simulation
+            Conference, 2015, p. 2764–2775, DOI:10.1109/WSC.2015.7408382
+          </reference>
+          <reference>Watts D. J., Strogatz S. H. Collective dynamics of small-world networks. // Nature, 1998,
+            393(6684), p. 440–442, DOI:10.1038/30918
+          </reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>migration, migration policy, agent based modeling, the EU economy</EN>
+        <RU>миграция, миграционная политика, агент-ориентированное моделирование, экономика Евросоюза</RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>Central Economics and Mathematics Institute</EN>
+        <RU>Центральный экономико-математический институт РАН</RU>
+      </affiliation>
+      <address>
+        <EN>Russian Federation, Moscow</EN>
+        <RU>Российская Федерация, Москва</RU>
+      </address>
+      <authors>
+        <author>
+          <user_id>16085</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_16085</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Владимир</firstname>
+          <lastname>Абрамов</lastname>
+          <company></company>
+          <email>wladimir.abramow@gmail.com</email>
+          <phone></phone>
+          <name_ru>Владимир</name_ru>
+          <name_en>Vladimir</name_en>
+          <surname_ru>Абрамов</surname_ru>
+          <surname_en>Abramov</surname_en>
+          <patronymic>Иванович</patronymic>
+          <orcid>0000-0001-5714-2358</orcid>
+          <internet_profile>https://elibrary.ru/author_items.asp?authorid=818848&amp;pubrole=100&amp;show_refs=1&amp;show_option=0</internet_profile>
+          <academic_degree></academic_degree>
+          <academic_degree_en></academic_degree_en>
+          <occupation>Научный сотрудник</occupation>
+          <occupation_en>Research fellow</occupation_en>
+          <position_place_of_work>ЦЭМИ РАН</position_place_of_work>
+          <position_place_of_work_en>CEMI RAS</position_place_of_work_en>
+          <professional_interest>государственные закупки, агент-ориентированное моделирование, государственное
+            управление
+          </professional_interest>
+          <professional_interest_en>public procurement, agent-based modeling, public administration
+          </professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>ru</lang_code>
+          <password_change_timestamp>1542191099</password_change_timestamp>
+          <usergroups>
+            <link_id>17152</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>16084</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address>117418, Нахимовский пр-т, д. 47</b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en>117418, Nakhimovsky prospect, 47</b_address_en>
+          <address>Москва, 117418, Нахимовский пр-т, д. 47</address>
+          <address_en>Moscow, 117418, Nakhimovsky prospect, 47</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size>small</font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1542191799</last_login>
+          <timestamp>1553873152</timestamp>
+          <password>e768a3945f1bfdeda7f50d21c037c4cf</password>
+          <salt>&apos;aSIO)HG,G</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>6444</version_id>
+      <characters>11852</characters>
+      <timestamp>1563393800</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+    </publication>
+    <publication>
+      <external_pid>9670</external_pid>
+      <product_code>S207751800005804-3-</product_code>
+      <doi>10.18254/S207751800005804-3</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>2</position>
+      <main_author>14622</main_author>
+      <date_public>1562533200</date_public>
+      <date_accepted>1562706000</date_accepted>
+      <date_received>1561669200</date_received>
+      <date_included>1562706000</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources>Проект выполнен при частичной финансовой поддержке Российского Фонда Фундаментальных
+        Исследований (Грант РФФИ № 18-51-14010 АНФ_а)
+      </financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Agent-based model of migration to European Union countries with taking into account individual
+          decision-making system
+        </EN>
+        <RU>Агентно-ориентированная модель миграции в страны Европейского Союза с учетом индивидуальной системы принятия
+          решений
+        </RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;In this paper agent-based model of migration flows to European Union countries that is taken into
+          account individual preferences of agent-migrants is presented. The model is implemented in the AnyLogic
+          system. Such model is based on using systemdynamics and agent-based modelling methods which applying allowed
+          taking into account individual decision-making system of agent-migrants. Such system allows forecasting the
+          dynamics and structure of migration flows to European Union countries with the influence of fundamental
+          macroeconomic characteristics of European countries (e.g. GDP, manpower costs, the level of social expenses,
+          etc.), as well as characteristics of agent-migrants (e.g. the homeland country, age, social status, etc.) that
+          impact on the individual decision-making system.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;В данной статье представлена агентно-ориентированная модель миграционных потоков в страны
+          Европейского Союза, учитывающая индивидуальные предпочтения агентов-мигрантов, реализованная в системе
+          AnyLogic. Данная модель основана на использовании методов системной динамики и агентного моделирования,
+          применение которых позволило учесть индивидуальную систему принятия решений агентов-мигрантов. Подобная
+          система позволяет прогнозировать динамику и структуру миграционных потоков в страны Европейского Союза с
+          учетом влияния важнейших макроэкономических характеристик европейских стран (ВВП, стоимость трудовых ресурсов,
+          уровень социальных расходов и др.), а также характеристик агентов-мигрантов (страны-происхождения, возраста,
+          социального статуса и др.), влияющих на индивидуальную систему принятия решений.&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>Akopov A.S. Imitatsionnoe modelirovanie: uchebnik i praktikum dlya akademicheskogo bakalavriata //
+            A.S. Akopov. — Moskva: Izdatel&apos;stvo Yurajt, 2017. – 389 s.
+          </reference>
+          <reference>Akopov A.S., Khachatryan N. K. Agentnoe modelirovanie: uchebno-metodicheskoe posobie. // M.: TsEhMI
+            RAN, 2016.
+          </reference>
+          <reference>Akopov A.S., Khachatryan N.K. Sistemnaya dinamika: uchebno-metodicheskoe posobie. // M.: TsEhMI
+            RAN, 2014.
+          </reference>
+          <reference>Akopov A.S., Beklaryan L.A. Agentnaya model&apos; povedeniya tolpy pri chrezvychajnykh situatsiyakh
+            // Avtomatika i telemekhanika, № 10, 2015, c. 131–143.
+          </reference>
+          <reference>Bakhtizin A.R. Agent-orientirovannye modeli ehkonomiki. // M.: Ehkonomika, 2008.</reference>
+          <reference>Makarov V.L., Bakhtizin A.R. Sotsial&apos;noe modelirovanie – novyj komp&apos;yuternyj proryv
+            (agent-orientirovannye modeli). // M.: Ehkonomika, 2013. – 295 s.
+          </reference>
+          <reference>Makarov V.L., Bakhtizin A.R., Beklaryan G.L., Akopov A.S. Razrabotka programmnoj platformy dlya
+            krupnomasshtabnogo agent-orientirovannogo modelirovaniya slozhnykh sotsial&apos;nykh sistem // Programmnaya
+            inzheneriya. 2019. T. 10. № 4. c. 167-177.
+          </reference>
+          <reference>Makarov V.L., Bakhtizin A.R., Beklaryan G.L., Akopov A.S., Rovenskaya E.A., Strelkovskij N.V.
+            Ukrupnennaya agent-orientirovannaya imitatsionnaya model&apos; migratsionnykh potokov stran Evropejskogo
+            Soyuza // Ehkonomika i matematicheskie metody. 2019. T. 55. № 1. c. 3-15.
+          </reference>
+          <reference>Akopov A. S., Beklaryan L. Simulation of human crowd behavior in extreme situations //
+            International Journal of Pure and Applied Mathematics. 2012. Vol. 79. No. 1. p.121-138.
+          </reference>
+          <reference>Anderson J.E. A theoretical foundation for the gravity equation. // American Economic Review. 1979.
+            Vol. 69, p. 106–116.
+          </reference>
+          <reference>Bonabeau E. Agent-based modeling: methods and techniques for simulating human systems // Proc.
+            National Academy of Sciences. 2002. Vol. 99(3), p. 7280-7287.
+          </reference>
+          <reference>Schelling T.C. Dynamic Models of Segregation // Journal of Mathematical Sociology. 1971. Vol. 1(2),
+            p. 143–186.
+          </reference>
+          <reference>Stewart Q.J. The development of social physics // American Journal of Physics, 1950, Vol. 18, p.
+            239?253.
+          </reference>
+          <reference>Whelpton P.K. Population of the United States, 1925 to 1970. // The American Journal of Sociology,
+            1928, Vol. 34, № 2, p. 253-270.
+          </reference>
+          <reference>2</reference>
+        </EN>
+        <RU>
+          <reference>Акопов А.С. Имитационное моделирование: учебник и практикум для академического бакалавриата // А.С.
+            Акопов. — Москва: Издательство Юрайт, 2017. – 389 с.
+          </reference>
+          <reference>Акопов А.С., Хачатрян Н. К. Агентное моделирование: учебно-методическое пособие. // М.: ЦЭМИ РАН,
+            2016.
+          </reference>
+          <reference>Акопов А.С., Хачатрян Н.К. Системная динамика: учебно-методическое пособие. // М.: ЦЭМИ РАН,
+            2014.
+          </reference>
+          <reference>Акопов А.С., Бекларян Л.А. Агентная модель поведения толпы при чрезвычайных ситуациях // Автоматика
+            и телемеханика, № 10, 2015, c. 131–143.
+          </reference>
+          <reference>Бахтизин А.Р. Агент-ориентированные модели экономики. // М.: Экономика, 2008.</reference>
+          <reference>Макаров В.Л., Бахтизин А.Р. Социальное моделирование – новый компьютерный прорыв
+            (агент-ориентированные модели). // М.: Экономика, 2013. – 295 с.
+          </reference>
+          <reference>Макаров В.Л., Бахтизин А.Р., Бекларян Г.Л., Акопов А.С. Разработка программной платформы для
+            крупномасштабного агент-ориентированного моделирования сложных социальных систем // Программная инженерия.
+            2019. Т. 10. № 4. c. 167-177.
+          </reference>
+          <reference>Макаров В.Л., Бахтизин А.Р., Бекларян Г.Л., Акопов А.С., Ровенская Е.А., Стрелковский Н.В.
+            Укрупненная агент-ориентированная имитационная модель миграционных потоков стран Европейского Союза //
+            Экономика и математические методы. 2019. Т. 55. № 1. c. 3-15.
+          </reference>
+          <reference>Akopov A. S., Beklaryan L. Simulation of human crowd behavior in extreme situations //
+            International Journal of Pure and Applied Mathematics. 2012. Vol. 79. No. 1. p.121-138.
+          </reference>
+          <reference>Anderson J.E. A theoretical foundation for the gravity equation. // American Economic Review. 1979.
+            Vol. 69, p. 106–116.
+          </reference>
+          <reference>Bonabeau E. Agent-based modeling: methods and techniques for simulating human systems // Proc.
+            National Academy of Sciences. 2002. Vol. 99(3), p. 7280-7287.
+          </reference>
+          <reference>Schelling T.C. Dynamic Models of Segregation // Journal of Mathematical Sociology. 1971. Vol. 1(2),
+            p. 143–186.
+          </reference>
+          <reference>Stewart Q.J. The development of social physics // American Journal of Physics, 1950, Vol. 18, p.
+            239?253.
+          </reference>
+          <reference>Whelpton P.K. Population of the United States, 1925 to 1970. // The American Journal of Sociology,
+            1928, Vol. 34, № 2, p. 253-270.
+          </reference>
+          <reference>2</reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>migration, agent-based modelling, European Union economy</EN>
+        <RU>миграция, агентное моделирование, экономика ЕС</RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>Central Economics and Mathematics Institute Russian Academy of Sciences</EN>
+        <RU>Центральный экономико-математический институт Российской академии наук</RU>
+      </affiliation>
+      <address>
+        <EN>Russian Federation, Moscow</EN>
+        <RU>Российская Федерация, Москва</RU>
+      </address>
+      <author_affiliation>
+        <affiliation>
+          <product_id>9670</product_id>
+          <author_id>9846</author_id>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <affiliation>Центральный экономико-математический институт Российской академии наук</affiliation>
+          <address>Российская Федерация, Москва</address>
+          <affiliation_en>Central Economics and Mathematics Institute Russian Academy of Sciences</affiliation_en>
+          <address_en>Russian Federation, Moscow</address_en>
+        </affiliation>
+        <affiliation>
+          <product_id>9670</product_id>
+          <author_id>14622</author_id>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <affiliation>Центральный экономико-математический институт Российской академии наук</affiliation>
+          <address>Российская Федерация, Москва</address>
+          <affiliation_en>Central Economics and Mathematics Institute Russian Academy of Sciences</affiliation_en>
+          <address_en>Russian Federation, Moscow</address_en>
+        </affiliation>
+        <affiliation>
+          <product_id>9670</product_id>
+          <author_id>14621</author_id>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <affiliation>Центральный экономико-математический институт Российской академии наук</affiliation>
+          <address>Российская Федерация, Москва</address>
+          <affiliation_en>Central Economics and Mathematics Institute Russian Academy of Sciences</affiliation_en>
+          <address_en>Russian Federation, Moscow</address_en>
+        </affiliation>
+        <affiliation>
+          <product_id>9670</product_id>
+          <author_id>8689</author_id>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <affiliation>Центральный экономико-математический институт Российской академии наук</affiliation>
+          <address>Российская Федерация, Москва</address>
+          <affiliation_en>Central Economics and Mathematics Institute Russian Academy of Sciences</affiliation_en>
+          <address_en>Russian Federation, Moscow</address_en>
+        </affiliation>
+      </author_affiliation>
+      <authors>
+        <author>
+          <user_id>9846</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_9846</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname></firstname>
+          <lastname></lastname>
+          <company></company>
+          <email>albert.bakhtizin@gmail.com</email>
+          <phone></phone>
+          <name_ru>Альберт</name_ru>
+          <name_en>Albert</name_en>
+          <surname_ru>Бахтизин</surname_ru>
+          <surname_en>Bakhtizin</surname_en>
+          <patronymic>Рауфович</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree>член-корреспондент РАН, доктор экономических наук</academic_degree>
+          <academic_degree_en>corresponding member of RAS, Grand PhD in Economic Sciences</academic_degree_en>
+          <occupation>Директор ЦЭМИ РАН</occupation>
+          <occupation_en>Director, CEMI RAS</occupation_en>
+          <position_place_of_work>Центральный экономико-математический институт Российской академии наук
+          </position_place_of_work>
+          <position_place_of_work_en>Central economic and mathematical Institute of the Russian Academy of Sciences
+          </position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>RU</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>11192</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>9845</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address></b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en>Russian Federation</b_address_en>
+          <address>Российская Федерация, Москва</address>
+          <address_en>Moscow, Russian Federation</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1551368338</last_login>
+          <timestamp>1539521064</timestamp>
+          <password>73f4ef90bb0ef0ce8dd814d8e60a8ed2</password>
+          <salt>[\?\W~MH4)</salt>
+        </author>
+        <author>
+          <user_id>14622</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_14622</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname></firstname>
+          <lastname></lastname>
+          <company></company>
+          <email>glbeklaryan@gmail.com</email>
+          <phone></phone>
+          <name_ru>Гаянэ</name_ru>
+          <name_en>Gayane</name_en>
+          <surname_ru>Бекларян</surname_ru>
+          <surname_en>Beklaryan</surname_en>
+          <patronymic>Левоновна</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree>к.э.н.</academic_degree>
+          <academic_degree_en>Cand. Sc. (Economics)</academic_degree_en>
+          <occupation>cтарший научный сотрудник</occupation>
+          <occupation_en>Senior Research Scholar</occupation_en>
+          <position_place_of_work>ЦЭМИ РАН</position_place_of_work>
+          <position_place_of_work_en>Central Economics and Mathematics Institute, Russian Academy of Sciences; Russia
+          </position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>RU</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>15571</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>14621</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address>РФ</b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en>Russian Federation</b_address_en>
+          <address>Москва, РФ</address>
+          <address_en>Moscow, Russian Federation</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1565690128</last_login>
+          <timestamp>1550145093</timestamp>
+          <password>eddbd80e9b07ae29cb25e5bbfb4fbbc5</password>
+          <salt>NSlZ2\7cEv</salt>
+        </author>
+        <author>
+          <user_id>14621</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_14621</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname></firstname>
+          <lastname></lastname>
+          <company></company>
+          <email>akopovas@umail.ru</email>
+          <phone></phone>
+          <name_ru>Андраник</name_ru>
+          <name_en>Andranick</name_en>
+          <surname_ru>Акопов</surname_ru>
+          <surname_en>Akopov</surname_en>
+          <patronymic>Сумбатович</patronymic>
+          <orcid>0000-0003-0627-3037</orcid>
+          <internet_profile></internet_profile>
+          <academic_degree>доктор технических наук, профессор</academic_degree>
+          <academic_degree_en>Doctor of Sciences (Techn.), Professor</academic_degree_en>
+          <occupation>главный научный сотрудник</occupation>
+          <occupation_en>Principal Scientific Researcher</occupation_en>
+          <position_place_of_work>ЦЭМИ РАН</position_place_of_work>
+          <position_place_of_work_en>Central Economics and Mathematics Institute, Russian Academy of Sciences; Russia
+          </position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>RU</lang_code>
+          <password_change_timestamp>1562650714</password_change_timestamp>
+          <usergroups>
+            <link_id>15570</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>14620</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address>РФ</b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en>Russian Federation</b_address_en>
+          <address>Москва, РФ</address>
+          <address_en>Moscow, Russian Federation</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1562695809</last_login>
+          <timestamp>1550144830</timestamp>
+          <password>7230124ad3de7bdd29e010dc6ab18ac1</password>
+          <salt>~3GNqQElh2</salt>
+        </author>
+        <author>
+          <user_id>8689</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_8689</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname></firstname>
+          <lastname></lastname>
+          <company></company>
+          <email>makarov@cemi.rssi.ru</email>
+          <phone></phone>
+          <name_ru>Валерий</name_ru>
+          <name_en>Valeriy</name_en>
+          <surname_ru>Макаров</surname_ru>
+          <surname_en>Makarov</surname_en>
+          <patronymic>Леонидович</patronymic>
+          <orcid></orcid>
+          <internet_profile>http://www.cemi.rssi.ru/about/persons/index.php?SECTION_ID=6&amp;ELEMENT_ID=183
+          </internet_profile>
+          <academic_degree>академик РАН, доктор физико-математических наук, профессор</academic_degree>
+          <academic_degree_en>Academician of RAS, Doctor of Sciences (Physics&amp;Maths), Professor</academic_degree_en>
+          <occupation>Научный руководитель ЦЭМИ РАН</occupation>
+          <occupation_en>Scientific Director of CEMI RAS</occupation_en>
+          <position_place_of_work>Центральный экономико-математический институт Российской академии наук
+          </position_place_of_work>
+          <position_place_of_work_en>Central Economics and Mathematics Institute, Russian Academy of Sciences
+          </position_place_of_work_en>
+          <professional_interest>математическая экономика, компьютерное моделирование социально-экономических процессов,
+            экономика публичного сектора, экономика науки и образования
+          </professional_interest>
+          <professional_interest_en>mathematical economу, computer modeling of socio-economic processes, economу of the
+            public sector, economу of science and education
+          </professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>RU</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>10069</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+            <link_id>15089</link_id>
+            <usergroup_id>6</usergroup_id>
+            <status>A</status>
+            <categories_ids>155,154,147</categories_ids>
+            <type>C</type>
+            <link_id>15088</link_id>
+            <usergroup_id>7</usergroup_id>
+            <status>A</status>
+            <categories_ids>155,154,147</categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>8688</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address>РФ</b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en>Russian Federation</b_address_en>
+          <address>Москва, РФ</address>
+          <address_en>Moscow, Russian Federation</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1555323960</last_login>
+          <timestamp>1536134788</timestamp>
+          <password>7f5c7bfb22d45463340a5ceca4e3b9fc</password>
+          <salt>QB%Xd9b54(</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>6335</version_id>
+      <characters>20600</characters>
+      <timestamp>1562599968</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+      <publication_images>
+        <image>
+          <image_id>39994</image_id>
+          <image_path>image1.png</image_path>
+          <image_x>50</image_x>
+          <image_y>25</image_y>
+          <alt>image1</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39995</image_id>
+          <image_path>image10.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image10</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39996</image_id>
+          <image_path>image11.png</image_path>
+          <image_x>94</image_x>
+          <image_y>28</image_y>
+          <alt>image11</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39997</image_id>
+          <image_path>image12.png</image_path>
+          <image_x>102</image_x>
+          <image_y>28</image_y>
+          <alt>image12</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39998</image_id>
+          <image_path>image13.png</image_path>
+          <image_x>20</image_x>
+          <image_y>26</image_y>
+          <alt>image13</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39999</image_id>
+          <image_path>image14.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image14</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40000</image_id>
+          <image_path>image15.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image15</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40001</image_id>
+          <image_path>image16.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image16</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40002</image_id>
+          <image_path>image17.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image17</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40003</image_id>
+          <image_path>image18.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image18</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40004</image_id>
+          <image_path>image19.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image19</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40005</image_id>
+          <image_path>image2.png</image_path>
+          <image_x>723</image_x>
+          <image_y>440</image_y>
+          <alt>image2</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40006</image_id>
+          <image_path>image20.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image20</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40007</image_id>
+          <image_path>image21.png</image_path>
+          <image_x>73</image_x>
+          <image_y>41</image_y>
+          <alt>image21</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40008</image_id>
+          <image_path>image22.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image22</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40009</image_id>
+          <image_path>image23.png</image_path>
+          <image_x>206</image_x>
+          <image_y>28</image_y>
+          <alt>image23</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40010</image_id>
+          <image_path>image24.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image24</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40011</image_id>
+          <image_path>image25.png</image_path>
+          <image_x>184</image_x>
+          <image_y>30</image_y>
+          <alt>image25</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40012</image_id>
+          <image_path>image26.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image26</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40013</image_id>
+          <image_path>image27.png</image_path>
+          <image_x>113</image_x>
+          <image_y>54</image_y>
+          <alt>image27</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40014</image_id>
+          <image_path>image28.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image28</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40015</image_id>
+          <image_path>image29.png</image_path>
+          <image_x>38</image_x>
+          <image_y>23</image_y>
+          <alt>image29</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40016</image_id>
+          <image_path>image3.png</image_path>
+          <image_x>974</image_x>
+          <image_y>1023</image_y>
+          <alt>image3</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40017</image_id>
+          <image_path>image30.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image30</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40018</image_id>
+          <image_path>image31.png</image_path>
+          <image_x>223</image_x>
+          <image_y>28</image_y>
+          <alt>image31</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40019</image_id>
+          <image_path>image32.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image32</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40020</image_id>
+          <image_path>image33.png</image_path>
+          <image_x>129</image_x>
+          <image_y>28</image_y>
+          <alt>image33</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40021</image_id>
+          <image_path>image34.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image34</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40022</image_id>
+          <image_path>image35.png</image_path>
+          <image_x>132</image_x>
+          <image_y>28</image_y>
+          <alt>image35</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40023</image_id>
+          <image_path>image36.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image36</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40024</image_id>
+          <image_path>image37.png</image_path>
+          <image_x>424</image_x>
+          <image_y>33</image_y>
+          <alt>image37</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40025</image_id>
+          <image_path>image38.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image38</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40026</image_id>
+          <image_path>image39.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image39</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40027</image_id>
+          <image_path>image4.png</image_path>
+          <image_x>974</image_x>
+          <image_y>1060</image_y>
+          <alt>image4</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40028</image_id>
+          <image_path>image40.png</image_path>
+          <image_x>433</image_x>
+          <image_y>171</image_y>
+          <alt>image40</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40029</image_id>
+          <image_path>image41.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image41</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40030</image_id>
+          <image_path>image42.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image42</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40031</image_id>
+          <image_path>image43.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image43</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40032</image_id>
+          <image_path>image44.png</image_path>
+          <image_x>238</image_x>
+          <image_y>57</image_y>
+          <alt>image44</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40033</image_id>
+          <image_path>image45.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image45</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40034</image_id>
+          <image_path>image46.png</image_path>
+          <image_x>249</image_x>
+          <image_y>57</image_y>
+          <alt>image46</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40035</image_id>
+          <image_path>image47.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image47</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40036</image_id>
+          <image_path>image48.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image48</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40037</image_id>
+          <image_path>image49.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image49</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40038</image_id>
+          <image_path>image5.png</image_path>
+          <image_x>132</image_x>
+          <image_y>28</image_y>
+          <alt>image5</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40039</image_id>
+          <image_path>image50.wmf</image_path>
+          <image_x>0</image_x>
+          <image_y>0</image_y>
+          <alt>image50</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40040</image_id>
+          <image_path>image51.png</image_path>
+          <image_x>128</image_x>
+          <image_y>54</image_y>
+          <alt>image51</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40041</image_id>
+          <image_path>image52.png</image_path>
+          <image_x>1686</image_x>
+          <image_y>1025</image_y>
+          <alt>image52</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40042</image_id>
+          <image_path>image6.png</image_path>
+          <image_x>137</image_x>
+          <image_y>28</image_y>
+          <alt>image6</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40043</image_id>
+          <image_path>image7.png</image_path>
+          <image_x>146</image_x>
+          <image_y>28</image_y>
+          <alt>image7</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40044</image_id>
+          <image_path>image8.png</image_path>
+          <image_x>50</image_x>
+          <image_y>25</image_y>
+          <alt>image8</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>40045</image_id>
+          <image_path>image9.png</image_path>
+          <image_x>57</image_x>
+          <image_y>25</image_y>
+          <alt>image9</alt>
+          <product_id>9670</product_id>
+          <position>0</position>
+        </image>
+      </publication_images>
+    </publication>
+    <publication>
+      <external_pid>9237</external_pid>
+      <product_code>S207751800005393-1-</product_code>
+      <doi>10.18254/S207751800005393-1</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>3</position>
+      <main_author>19432</main_author>
+      <date_public>1562597803</date_public>
+      <date_accepted>1562154335</date_accepted>
+      <date_received>1560776481</date_received>
+      <date_included>1562154658</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources></financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Principles of collaborative development of complex agent-based simulation models</EN>
+        <RU>Принципы коллективной разработки многофункциональных агентно-ориентированных моделей</RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;This paper suggests an approach to organize complex agent-based models’ development process.
+          Usually if a model is complex and several people or several teams of developers are involved an integration of
+          parts of the model could be a challenging task. Sometimes this process can be more costly (in terms of time,
+          labor or financial resources required) than development of separate parts. To address this issue, it is
+          suggested to use a relatively simple approach that is based on the implementation of the inheritance mechanism
+          in some object-oriented languages. The paper reviewes an implementation in Python as an example.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;В данной работе предлагается подход к организации процесса разработки сложных
+          агентно-ориентированных моделей. Обычно, если модель сложная и в её разработке участвует несколько человек или
+          несколько команд разработчиков, интеграция частей модели (или нескольких небольших моделей в одну большую)
+          представляется непростой задачей. Иногда этот процесс может быть более затратным (в части требуемого времени,
+          усилий или средств), чем разработка отдельных частей. Чтобы решить эту проблему, предлагается использовать
+          относительно простой подход, основанный на особенностях реализации механизма наследования некоторых
+          объектно-ориентированных языков. В статье в качестве примера рассматривается реализация на Python.&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>Falcone J.-L. Implementation of Agent Based Models Lecture part of a University of Geneva course
+            Simulation and modelling of natural processes Coursera. Retrieved from the web on June, 2 2019.
+            https://www.coursera.org/lecture/modeling-simulation-natural-processes/imple  mentation-of-agent-based-models-196XP
+          </reference>
+          <reference>Masad, David, and Jacqueline Kazil. &quot;MESA: an agent-based modeling framework.&quot; In 14th
+            PYTHON in Science Conference, pp. 53-60. 2015.
+          </reference>
+          <reference>Kinny, David, and Michael Georgeff. &quot;Modelling and design of multi-agent systems.&quot; In
+            International Workshop on Agent Theories, Architectures, and Languages, pp. 1-20. Springer, Berlin,
+            Heidelberg, 1996.
+          </reference>
+          <reference>Parunak, H. Van Dyke, and James J. Odell. &quot;Representing social structures in UML.&quot; In
+            International workshop on agent-oriented software engineering, pp. 1-16. Springer, Berlin, Heidelberg, 2001.
+          </reference>
+          <reference>Salamon, Tomas. Design of agent-based models. Eva &amp; Tomas Bruckner Publishing, 2011.
+          </reference>
+        </EN>
+        <RU>
+          <reference>Falcone J.-L. &quot;Implementation of Agent Based Models&quot; // Lecture part of a University of
+            Geneva course &quot;Simulation and modelling of natural processes&quot; Coursera.
+            https://www.coursera.org/lecture/modeling-simulation-natural-processes/implementation-of-agent-based-models-196XP
+          </reference>
+          <reference>Kinny D., Georgeff M. &quot;Modelling and design of multi-agent systems.&quot; // In International
+            Workshop on Agent Theories, Architectures, and Languages, Springer, Berlin, Heidelberg, 1996, p. 1-20.
+          </reference>
+          <reference>Masad D., Kazil J. &quot;MESA: an agent-based modeling framework.&quot; // In 14th PYTHON in
+            Science Conference, 2015, p. 53-60.
+          </reference>
+          <reference>Parunak H.V.D., Odell J.J. &quot;Representing social structures in UML.&quot; // In International
+            workshop on agent-oriented software engineering, Springer, Berlin, Heidelberg, 2001, p. 1-16.
+          </reference>
+          <reference>Salamon T. Design of agent-based models. // Eva &amp; Tomas Bruckner Publishing, 2011</reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>agent-based simulation, Python, collaborative development, modules, inheritance</EN>
+        <RU>агентно-ориентированное моделирование, коллективная разработка, модули, наследование</RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>CEMI RAS; Moscow State University</EN>
+        <RU>Центральный экономико-математический институт РАН; МГУ им. М.В. Ломоносова</RU>
+      </affiliation>
+      <address>
+        <EN>Russian Federation, Moscow</EN>
+        <RU>Российская Федерация, Москва</RU>
+      </address>
+      <authors>
+        <author>
+          <user_id>19432</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_19432</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Александр</firstname>
+          <lastname>Белянов</lastname>
+          <company></company>
+          <email>belyanov@protonmail.ch</email>
+          <phone></phone>
+          <name_ru>Александр</name_ru>
+          <name_en>Aleksandr</name_en>
+          <surname_ru>Белянов</surname_ru>
+          <surname_en>Belianov</surname_en>
+          <patronymic>Александрович</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree></academic_degree>
+          <academic_degree_en></academic_degree_en>
+          <occupation>Научный сотрудник</occupation>
+          <occupation_en>Research fellow</occupation_en>
+          <position_place_of_work>Центральный экономико-математический институт РАН</position_place_of_work>
+          <position_place_of_work_en>CEMI RAS</position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>4</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>ru</lang_code>
+          <password_change_timestamp>1559681748</password_change_timestamp>
+          <usergroups>
+            <link_id>20537</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>19431</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address>Нахимовский проспект, 47</b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en>Nachimovky prospect 47</b_address_en>
+          <address>Москва, Нахимовский проспект, 47</address>
+          <address_en>Moscow, Nachimovky prospect 47</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1559681715</last_login>
+          <timestamp>1559682209</timestamp>
+          <password>067d5b97e62a8e6f6060b5bc4a97737b</password>
+          <salt>7Nzh4j_&quot;`F</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>5901</version_id>
+      <characters>6112</characters>
+      <timestamp>1559682608</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+      <publication_images>
+        <image>
+          <image_id>39971</image_id>
+          <image_path>image1.png</image_path>
+          <image_x>266</image_x>
+          <image_y>402</image_y>
+          <alt>image1</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39972</image_id>
+          <image_path>image2.jpeg</image_path>
+          <image_x>386</image_x>
+          <image_y>789</image_y>
+          <alt>image2</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39973</image_id>
+          <image_path>image3.jpeg</image_path>
+          <image_x>761</image_x>
+          <image_y>389</image_y>
+          <alt>image3</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39974</image_id>
+          <image_path>image4.png</image_path>
+          <image_x>1459</image_x>
+          <image_y>898</image_y>
+          <alt>image4</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39975</image_id>
+          <image_path>image5.png</image_path>
+          <image_x>689</image_x>
+          <image_y>225</image_y>
+          <alt>image5</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39976</image_id>
+          <image_path>image1.png</image_path>
+          <image_x>288</image_x>
+          <image_y>435</image_y>
+          <alt>image1</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39977</image_id>
+          <image_path>image2.png</image_path>
+          <image_x>333</image_x>
+          <image_y>681</image_y>
+          <alt>image2</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39978</image_id>
+          <image_path>image3.jpeg</image_path>
+          <image_x>761</image_x>
+          <image_y>389</image_y>
+          <alt>image3</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39979</image_id>
+          <image_path>image4.png</image_path>
+          <image_x>994</image_x>
+          <image_y>612</image_y>
+          <alt>image4</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39980</image_id>
+          <image_path>image5.png</image_path>
+          <image_x>470</image_x>
+          <image_y>153</image_y>
+          <alt>image5</alt>
+          <product_id>9237</product_id>
+          <position>0</position>
+        </image>
+      </publication_images>
+    </publication>
+    <publication>
+      <external_pid>9364</external_pid>
+      <product_code>S207751800005514-4-</product_code>
+      <doi>10.18254/S207751800005514-4</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>4</position>
+      <main_author>19622</main_author>
+      <date_public>1562597803</date_public>
+      <date_accepted>1561461490</date_accepted>
+      <date_received>1560971106</date_received>
+      <date_included>1562154658</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources>Работа выполнена при поддержке Российского фонда фундаментальных исследований, проект №
+        18-51-14010
+      </financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Methodology of forming artificial societies on the example of social credit</EN>
+        <RU>Методология формирования искусственных обществ на примере социального кредита</RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;In today&apos;s fast-paced world of high technologies more and more advanced tools are needed to
+          assess and predict the economic behavior of various groups of agents — people, organizations, and states. The
+          paper considers agent-based models as a tool to imitate society in order to recreate the real behavior of
+          agents (people, households and firms) and in the created model to perform a series of iterations of the
+          different behavior of agents to predict certain economic situations. The need to complicate mathematical
+          models of the economy can be overcome by creating artificial worlds and computer experiments. In addition, a
+          description of China’s social credit is presented, which is based on collecting, analyzing population data and
+          creating a single database of residents, with the goal of dividing the society into “honest” and not.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+          &lt;p&gt;В современном быстро развивающемся мире высоких технологий, облачных данных, цифровых двойников
+          требуются все более передовые инструменты для оценки и предсказаний экономического поведения различных групп
+          агентов- людей, организаций, государств. В работе рассматриваются агент-ориентированные модели, как инструмент
+          имитации общества с целью воссоздать реальное поведение агентов (людей, домохозяйств и фирм) и в созданной
+          модели проделать ряд итераций различного поведения агентов для предсказания тех или иных экономических
+          ситуаций. Необходимость в усложнении математических моделей экономики может быть преодолена путем создания
+          искусственных миров и компьютерных экспериментов. Помимо этого, представлено описание социального кредита
+          Китая, которое основывается на сборе, анализе данных о населении и создания единой базы данных о жителях, с
+          целью деления общества на &amp;laquo;честное&amp;raquo; и нет.&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>Gosudarstvennyj sovet. Uvedomlenie gosudarstvennogo soveta po pechati rasprostraneniya uvedomleniya
+            plana postroeniya sistemy sotsial&apos;nogo kredita// Finansy, finansy i audit, postroenie sistemy sotsial&apos;nogo
+            kredita. 2014. №21 URL: http://www.gov.cn/zhengce/content/2014-06/27/content_8913.htm
+          </reference>
+          <reference>Gosudarstvennaya nalogovaya administratsiya Kitajskoj Narodnoj Respubliki. Chestnyj nalogoplatel&apos;schik
+            v spiske chesti i nezakonnye nalogoplatel&apos;schiki v chernom spiske// Glavnoe upravlenie Gosudarstvennoj
+            nalogovoj administratsii. 2014. URL:
+            https://web.archive.org/web/20151227094752/http://www.chinatax.gov.cn/2013/n2925/n2957/c778860/content.html
+          </reference>
+          <reference>Kovachi L. Bol&apos;shoj brat 2.0. Kak Kitaj stroit tsifrovuyu diktaturu //Moskovskij tsentr
+            Karnegi. 2017. URL: https://carnegie.ru/commentary/71546
+          </reference>
+          <reference>Makarov V.L. Teoreticheskie i metodologicheskie problemy iskusstvennye obschestva// EhMM, 2012, tom
+            48, № 3, s. 3-20.
+          </reference>
+          <reference>Marejke Ol&apos;berg, Shadzheda Akhmed, Bertram Lang. Kompleksnoe vnedrenie sistemy sotsial&apos;nogo
+            kreditovaniya Kitaya. Tsentralizovannoe planirovanie, lokal&apos;nye ehksperementy //Merics. 2017. URL:
+            https://www.merics.org/sites/default/files/2017-12/171212_China_Monitor_43_Social_Credit_System_Implementation.pdf
+          </reference>
+          <reference>Narody Kitaya //URL:
+            https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D1%8B_%D0%9A%D0%B8%D1%82%D0%B0%D1%8F
+          </reference>
+          <reference>Chzhao Yusha. 4,9 mln lyudej s plokhim kreditnym spiskom zapretili prinimat&apos; samolety //Global
+            times. 2016 URL: http://www.globaltimes.cn/content/1015549.shtml
+          </reference>
+          <reference>Persson, Torsten, G?rard Roland, and Guido Tabellini. &quot;Comparative Politics and Public
+            Finance.&quot; //Journal of Political Economy 108, no. 6 (2000): 1121-161. doi:10.1086/317686.
+          </reference>
+          <reference>Tiebout, Charles M. &quot;A Pure Theory of Local Expenditures.&quot; //Journal of Political Economy
+            64, no. 5 (1956): 416-24.
+          </reference>
+        </EN>
+        <RU>
+          <reference>Государственный совет. Уведомление государственного совета по печати распространения уведомления
+            плана построения системы социального кредита// Финансы, финансы и аудит, построение системы социального
+            кредита. 2014. №21 URL: http://www.gov.cn/zhengce/content/2014-06/27/content_8913.htm
+          </reference>
+          <reference>Государственная налоговая администрация Китайской Народной Республики. Честный налогоплательщик в
+            списке чести и незаконные налогоплательщики в черном списке// Главное управление Государственной налоговой
+            администрации. 2014. URL:
+            https://web.archive.org/web/20151227094752/http://www.chinatax.gov.cn/2013/n2925/n2957/c778860/content.html
+          </reference>
+          <reference>Ковачи Л. Большой брат 2.0. Как Китай строит цифровую диктатуру //Московский центр Карнеги. 2017.
+            URL: https://carnegie.ru/commentary/71546
+          </reference>
+          <reference>Макаров В.Л. Теоретические и методологические проблемы искусственные общества// ЭММ, 2012, том 48,
+            № 3, с. 3-20.
+          </reference>
+          <reference>Марейке Ольберг, Шаджеда Ахмед, Бертрам Ланг. Комплексное внедрение системы социального
+            кредитования Китая. Централизованное планирование, локальные эксперементы //Merics. 2017. URL:
+            https://www.merics.org/sites/default/files/2017-12/171212_China_Monitor_43_Social_Credit_System_Implementation.pdf
+          </reference>
+          <reference>Народы Китая //URL:
+            https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D1%8B_%D0%9A%D0%B8%D1%82%D0%B0%D1%8F
+          </reference>
+          <reference>Чжао Юша. 4,9 млн людей с плохим кредитным списком запретили принимать самолеты //Global times.
+            2016 URL: http://www.globaltimes.cn/content/1015549.shtml
+          </reference>
+          <reference>Persson, Torsten, G?rard Roland, and Guido Tabellini. &quot;Comparative Politics and Public
+            Finance.&quot; //Journal of Political Economy 108, no. 6 (2000): 1121-161. doi:10.1086/317686.
+          </reference>
+          <reference>Tiebout, Charles M. &quot;A Pure Theory of Local Expenditures.&quot; //Journal of Political Economy
+            64, no. 5 (1956): 416-24.
+          </reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>artificial societies, social credit, electronic economy, migration processes, agent-based models, big data,
+          electronic twins
+        </EN>
+        <RU>искусственные общества, социальный кредит, цифровая экономика, миграционные процессы, агент-ориентированное
+          моделирование, большие данные, цифровые двойники
+        </RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>Cemi RAS</EN>
+        <RU>ЦЭМИ РАН</RU>
+      </affiliation>
+      <address>
+        <EN>Russian Federation, Moscow</EN>
+        <RU>Российская Федерация, Москва</RU>
+      </address>
+      <authors>
+        <author>
+          <user_id>19622</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_19622</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Мария</firstname>
+          <lastname>Бурилина</lastname>
+          <company></company>
+          <email>maribu@mail.ru</email>
+          <phone></phone>
+          <name_ru>Мария</name_ru>
+          <name_en>Maria</name_en>
+          <surname_ru>Бурилина</surname_ru>
+          <surname_en>Burilina</surname_en>
+          <patronymic>Алексеевна</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree></academic_degree>
+          <academic_degree_en></academic_degree_en>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <position_place_of_work>ЦЭМИ РАН</position_place_of_work>
+          <position_place_of_work_en>Cemi RAS</position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>EN</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>20727</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>19621</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address></b_address>
+          <b_address_2></b_address_2>
+          <b_city></b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en></b_city_en>
+          <b_address_en></b_address_en>
+          <address>Российская Федерация,</address>
+          <address_en>Russian Federation,</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1560447952</last_login>
+          <timestamp>1560448242</timestamp>
+          <password>1adcd7c566d5a781443303384fee0206</password>
+          <salt>5~bR&apos;,[90L</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>6023</version_id>
+      <characters>17120</characters>
+      <timestamp>1560717016</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+      <publication_images>
+        <image>
+          <image_id>39396</image_id>
+          <image_path>image1.jpeg</image_path>
+          <image_x>807</image_x>
+          <image_y>379</image_y>
+          <alt>image1</alt>
+          <product_id>9364</product_id>
+          <position>0</position>
+        </image>
+      </publication_images>
+    </publication>
+    <publication>
+      <external_pid>9601</external_pid>
+      <product_code>S207751800005736-8-</product_code>
+      <doi>10.18254/S207751800005736-8</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>5</position>
+      <main_author>20093</main_author>
+      <date_public>1562533200</date_public>
+      <date_accepted>1562446800</date_accepted>
+      <date_received>1561150800</date_received>
+      <date_included>1562446800</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources></financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Comparison of Technological approaches in the context of tasks related to Data Extraction</EN>
+        <RU>Основные методологические подходы для извлечения данных с целью обучения интеллектуальных агентов</RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;The article provides a brief analysis of the main problems arising in the preparation of training
+          selections necessary for the training of intelligent agents. A review of the advantages and disadvantages of
+          statistical and linguistic text analysis methods was made. A comparative analysis of the possibilities of
+          statistical and linguistic text analysis methods is presented.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;В статье приведен краткий анализ основных проблем, возникающих при подготовке обучающих выборок,
+          необходимых для обучения интеллектуальных агентов. Произведен обзор преимуществ и недостатков статистических и
+          лингвистических методов анализа текстов. Представлен сравнительный анализ возможностей статистических и
+          лингвистических методов анализа текстов.&amp;nbsp;&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>https://siliconangle.com/2015/10/30/ibm-is-at-the-forefront-of-insight-economy-ibminsight/
+          </reference>
+          <reference>https://www.gartner.com/smarterwithgartner/how-to-tackle-dark-data/</reference>
+          <reference>
+            https://www.technologyreview.com/s/613606/the-ai-gig-economy-is-coming-for-you/?utm_campaign=site_visitor.unpaid.engagement&amp;utm_source=facebook&amp;utm_medium=social_share&amp;utm_content=2019-06-29&amp;fbclid=IwAR0qn9U6YZBG8AaCKFTHRnhqaaRLQBGnr4fiTsXSA4ucSPNHXJeWoYDuWH8
+          </reference>
+          <reference>General&apos;nyj sekretar&apos; OON. «Mezhdunarodnaya migratsiya i razvitie» // Sem&apos;desyat
+            pervaya sessiya Punkt 21(b) pervonachal&apos;nogo perechnya, «Globalizatsiya i vzaimozavisimost&apos;», 2016
+          </reference>
+          <reference>Kuchuganov V.N. Ehlementy teorii assotsiativnoj semantiki // Upravlenie bol&apos;shimi sistemami.
+            Vypusk 40. M.: IPU RAN, 2012, S.30-48.
+          </reference>
+          <reference>Lemov A.V. Sistema, struktura i funktsionirovanie nauchnogo termina (na materiale russkoi?
+            lingvisticheskoi? terminologii) // Saransk: Izd-vo Mordov. un-ta, 2000, 192 s.
+          </reference>
+          <reference>Lotman Yu.M. Lyudi i znaki. // V kn. Lotman Yu. M. Semiosfera.  SPb.: Iskusstvo-SPB, 2010,  S. 6.
+          </reference>
+          <reference>Mitina O.V., Evdokimenko A.S. Metody analiza teksta: metodologicheskie osnovaniya i programmnaya
+            realizatsiya // Vestnik Yuzhno-Ural&apos;skogo gosudarstvennogo universiteta. Seriya Psikhologiya. 2010, №
+            40 (216), S. 29–38.
+          </reference>
+          <reference>Osipov G.S. Priobretenie znanii intellektual&apos;nymi sistemami: Osnovy teorii i tekhnologii. //
+            M.: Nauka. Fizmatlit, 1997.  
+          </reference>
+          <reference>Ofitsial&apos;nyj blog Google
+            https://blog.google/products/translate/higher-quality-neural-translations-bunch-more-languages/
+          </reference>
+          <reference>Tyon van Dejk. Yazyk. Poznanie. Kommunikatsiya. // M: LENAND, 2015.</reference>
+        </EN>
+        <RU>
+          <reference>Hao K. The AI gig economy is coming for you // MIT Technology Review Magazine
+            https://www.technologyreview.com/s/613606/the-ai-gig-economy-is-coming-for-you/?utm_campaign=site_visitor.unpaid.engagement&amp;utm_source=facebook&amp;utm_medium=social_share&amp;utm_content=2019-06-29&amp;fbclid=IwAR0qn9U6YZBG8AaCKFTHRnhqaaRLQBGnr4fiTsXSA4ucSPNHXJeWoYDuWH8
+          </reference>
+          <reference>Johnson H. Digging up dark data: What puts IBM at the forefront of insight economy //
+            https://siliconangle.com/2015/10/30/ibm-is-at-the-forefront-of-insight-economy-ibminsight/
+          </reference>
+          <reference>Shetty S. How to Tackle Dark Data //
+            https://www.gartner.com/smarterwithgartner/how-to-tackle-dark-data/
+          </reference>
+          <reference>Генеральный секретарь ООН. «Международная миграция и развитие» // Семьдесят первая сессия Пункт
+            21(b) первоначального перечня, «Глобализация и взаимозависимость», 2016
+          </reference>
+          <reference>Кучуганов В.Н. Элементы теории ассоциативной семантики // Управление большими системами. Выпуск 40.
+            М.: ИПУ РАН, 2012, С.30-48.
+          </reference>
+          <reference>Лемов А.В. Система, структура и функционирование научного термина (на материале русскои?
+            лингвистическои? терминологии) // Саранск: Изд-во Мордов. ун-та, 2000, 192 с.
+          </reference>
+          <reference>Лотман Ю.М. Люди и знаки. // В кн. Лотман Ю. М. Семиосфера.  СПб.: Искусство-СПБ, 2010,  С. 6.
+          </reference>
+          <reference>Митина О.В., Евдокименко А.С. Методы анализа текста: методологические основания и программная
+            реализация // Вестник Южно-Уральского государственного университета. Серия Психология. 2010, № 40 (216),
+            С. 29–38.
+          </reference>
+          <reference>Осипов Г.С. Приобретение знании интеллектуальными системами: Основы теории и технологии. // М.:
+            Наука. Физматлит, 1997.  
+          </reference>
+          <reference>Официальный блог Google
+            https://blog.google/products/translate/higher-quality-neural-translations-bunch-more-languages/
+          </reference>
+          <reference>Тён ван Дейк. Язык. Познание. Коммуникация. // М: ЛЕНАНД, 2015.</reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>semantic analysis, pragmatic analysis, full-text search, data extraction, intelligent agents</EN>
+        <RU>семантический анализ, прагматический анализ, полнотекстовый поиск, извлечение данных, интеллектуальные
+          агенты
+        </RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>IQSystems</EN>
+        <RU>IQSystems</RU>
+      </affiliation>
+      <address>
+        <EN>Russian Federation, Moscow</EN>
+        <RU>Российская Федерация, Москва</RU>
+      </address>
+      <authors>
+        <author>
+          <user_id>20093</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_20093</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Максим</firstname>
+          <lastname>Ковалев</lastname>
+          <company></company>
+          <email>kovmak@gmail.com</email>
+          <phone></phone>
+          <name_ru>Максим</name_ru>
+          <name_en>Maksim</name_en>
+          <surname_ru>Ковалев</surname_ru>
+          <surname_en>Kovalev</surname_en>
+          <patronymic>Александрович</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree></academic_degree>
+          <academic_degree_en></academic_degree_en>
+          <occupation>Генеральный директор</occupation>
+          <occupation_en></occupation_en>
+          <position_place_of_work>IQSystems</position_place_of_work>
+          <position_place_of_work_en>IQSystems</position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>ru</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>21223</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>20092</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address></b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en></b_address_en>
+          <address>Российская Федерация, Москва</address>
+          <address_en>Russian Federation, Moscow</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1562242292</last_login>
+          <timestamp>1562243061</timestamp>
+          <password>6b4735b49e0caae40dc31fbdf0a2e653</password>
+          <salt>DpRM?%F2(9</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>6267</version_id>
+      <characters>13613</characters>
+      <timestamp>1562243711</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+    </publication>
+    <publication>
+      <external_pid>9702</external_pid>
+      <product_code>S207751800005834-6-</product_code>
+      <doi>10.18254/S207751800005834-6</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>6</position>
+      <main_author>19306</main_author>
+      <date_public>1562533200</date_public>
+      <date_accepted>1562706000</date_accepted>
+      <date_received>1561928400</date_received>
+      <date_included>1562706000</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources></financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Cyber People and Cyber Society</EN>
+        <RU>Кибер-люди и кибер-общество</RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;The article provides a brief overview of modern achievements of science in the mechanization of the
+          human body. Experiments on brain control through the brain interface are considered. An attempt is made to
+          answer the question of how the appearance of robots and “avatars” influences on the modern society.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;В статье приводится краткий обзор современных достижений науки в механизации человеческого тела.
+          Рассматриваются эксперименты по управлению мозгом через мозговой интерфейс.&amp;nbsp; Делается попытка
+          ответить на вопрос, как влияет появление роботов и &amp;laquo;аватаров&amp;raquo; на современное общество.&amp;nbsp;&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>Motorika URL: https://motorica.org/</reference>
+          <reference>IFLScience! URL:
+            https://www.iflscience.com/technology/cockroach-cyborgs-could-help-rescue-crews-after-disasters/
+          </reference>
+          <reference>IFLScience! URL:
+            https://www.iflscience.com/brain/brain-brain-interface-allows-humans-control-cockroaches-their-minds/
+          </reference>
+          <reference>Sanchez S., Chen-Wei Chiu , Yan Zhou , Gonzalez J., Bradleigh Vinson S., Hong Liang. Locomotion
+            control of hybrid cockroach robots // Journal of the Royal Society Interface. 2015, Volume 12, Issue 105
+          </reference>
+          <reference>Mason B. Avatars: A New Program Helps Element Care Keep Seniors at Home // Merrimack Valley
+            Magazine URL: https://www.mvmag.net/2018/04/17/element-care-avatars/
+          </reference>
+          <reference>Haraway D. A Cyborg Manifesto // URL: http://users.uoa.gr/~cdokou/HarawayCyborgManifesto.pdf
+          </reference>
+          <reference>Hayles N.K. Unfinished Work: From Cyborg to Cognisphere // Theory, Culture &amp; Society Journal.
+            2006, Volume 23, issue 7-8, p. 159-166 URL: https://journals.sagepub.com/doi/abs/10.1177/0263276406069229
+          </reference>
+          <reference>Kon&apos;kova T.A. Kiborgi: real&apos;naya perspektiva ili fantastika? // Iskusstvennye obschestva.
+            2011, T. 6, №1-4 URL: https://artsoc.jes.su/s207751800000052-6-1/
+          </reference>
+        </EN>
+        <RU>
+          <reference>Моторика URL: https://motorica.org/</reference>
+          <reference>IFLScience! URL:
+            https://www.iflscience.com/technology/cockroach-cyborgs-could-help-rescue-crews-after-disasters/
+          </reference>
+          <reference>IFLScience! URL:
+            https://www.iflscience.com/brain/brain-brain-interface-allows-humans-control-cockroaches-their-minds/
+          </reference>
+          <reference>Sanchez С., Chen-Wei Chiu , Yan Zhou , Gonzalez J., Bradleigh Vinson S., Hong Liang. Locomotion
+            control of hybrid cockroach robots // Journal of the Royal Society Interface. 2015, Volume 12, Issue 105
+          </reference>
+          <reference>Mason B. Avatars: A New Program Helps Element Care Keep Seniors at Home // Merrimack Valley
+            Magazine URL: https://www.mvmag.net/2018/04/17/element-care-avatars/
+          </reference>
+          <reference>Haraway D. A Cyborg Manifesto // URL: http://users.uoa.gr/~cdokou/HarawayCyborgManifesto.pdf
+          </reference>
+          <reference>Hayles N.K. Unfinished Work: From Cyborg to Cognisphere // Theory, Culture &amp; Society Journal.
+            2006, Volume 23, issue 7-8, p. 159-166 URL: https://journals.sagepub.com/doi/abs/10.1177/0263276406069229
+          </reference>
+          <reference>Конькова Т.А. Киборги: реальная перспектива или фантастика? // Искусственные общества. 2011, Т. 6,
+            №1-4 URL: https://artsoc.jes.su/s207751800000052-6-1/
+          </reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>cyborg, robot, artificial intelligence, avatar</EN>
+        <RU>киборг, робот, искусственный интеллект, аватар</RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>Central Economics and Mathematics Institute</EN>
+        <RU>Центральный экономико-математический институт РАН</RU>
+      </affiliation>
+      <address>
+        <EN>Russian Federation, Moscow</EN>
+        <RU>Российская Федерация, Москва</RU>
+      </address>
+      <authors>
+        <author>
+          <user_id>19306</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_19306</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Татьяна</firstname>
+          <lastname>Конькова (Кураева)</lastname>
+          <company></company>
+          <email>tatiasha@yandex.ru</email>
+          <phone></phone>
+          <name_ru>Татьяна</name_ru>
+          <name_en>Tatiana</name_en>
+          <surname_ru>Конькова (Кураева)</surname_ru>
+          <surname_en>Konkova</surname_en>
+          <patronymic>Александровна</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree></academic_degree>
+          <academic_degree_en></academic_degree_en>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <position_place_of_work>младший научный сотрудник ЦЭМИ РАН, ГАУГН</position_place_of_work>
+          <position_place_of_work_en>Cemi RAS</position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>7</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>ru</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>20411</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>19305</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address></b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en></b_address_en>
+          <address>Российская Федерация, Москва</address>
+          <address_en>Russian Federation, Moscow</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1542868550</last_login>
+          <timestamp>1559576330</timestamp>
+          <password>26143874af672051e63b90c08c263c31</password>
+          <salt>;0cEL!DO&apos;!</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>6365</version_id>
+      <characters>11622</characters>
+      <timestamp>1562782180</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+    </publication>
+    <publication>
+      <external_pid>9520</external_pid>
+      <product_code>S207751800005656-0-</product_code>
+      <doi>10.18254/S207751800005656-0</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>7</position>
+      <main_author>19969</main_author>
+      <date_public>1562597803</date_public>
+      <date_accepted>1562086454</date_accepted>
+      <date_received>1562086417</date_received>
+      <date_included>1562154658</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources></financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Time as a Common Parameter of the Qualities of Subjective Reality</EN>
+        <RU>Время как общий параметр качеств субъективной реальности</RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;The paper analyzes the research of cognitive sciences on the study of time. The article discusses
+          new works related to data on brain positioning systems. Work on the study of the organization of the stream of
+          experience of awake animals is now central to brain research. A special place among these studies is occupied
+          by the concept of phenomenal time. The subject&apos;s time and objective time represent a single time, and
+          studies of the organization of time in the brain, thus, make it possible to approximate the subjective space.
+          However, today there is no theory of a unique connection between the processing of incoming information by the
+          brain, objective events and phenomenal consciousness. Perhaps it is the inconsistency and uncertainty of our
+          intuitive representations and cultural concepts, such as the intuitive notion of time, that become a barrier
+          to theoretical generalizations in the field of neuroscience.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;В работе проведен анализ исследований когнитивных наук по вопросам изучения времени. В статье
+          обсуждаются новые работы, связанные с данными о системах позиционирования мозга. Суть этих открытий сводится к
+          дополнению открытой в мозге GPS системы системой кодирования событий во времени. Работа по изучению
+          организации потока опыта бодрствующих животных теперь занимает центральное место в исследованиях мозга.
+          Особенное место среди этих исследований занимает понятие феноменального времени, время субъекта и объективное
+          время представляют собой единое время и исследования организации времени в мозге, таким образом, позволяют
+          приблизить пространство субъективного. Однако на сегодняшний день нет теории однозначной связи между
+          обработкой мозгом входящей информации, объективными событиями и феноменальными сознанием. Возможно, именно
+          противоречивость и неопределённость наших интуитивных представлений и культурных концепций, таких как
+          интуитивное представление о времени, становятся барьером на пути теоретических обобщений в области нейронауки.&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>Gusserl&apos; Eh. Fenomenologiya vnutrennego soznaniya vremeni // Sobranie sochinenij. T. 1. M.,
+            1994.
+          </reference>
+          <reference>Dubrovskij D. I. Soznanie, mozg, iskusstvennyj intellekt. M., 2007.</reference>
+          <reference>N&apos;yuton I. Metod flyuksij i beskonechnykh ryadov s prilozheniem ego k geometrii krivykh linij
+            // Khrestomatiya po istorii matematiki / pod red. A. P. Yushkevicha. M., 1977.
+          </reference>
+          <reference>Razin A. V. Proiskhozhdenie morali: svoboda voli i nravstvennost&apos; // Aktual&apos;nye problemy
+            rossijskogo prava. M., 2018. № 8 (93). S. 16–26.
+          </reference>
+          <reference>Yurasov A. A. Vremya v strukture sub&apos;ektivnoj real&apos;nosti: dis. kand. filosofskikh nauk.
+            M., 2014.
+          </reference>
+          <reference>. Buzsáki G, Moser E. I. Memory, navigation and theta-rhythm in the hippocampal-entorhinal system.
+            Nat. Neurosci. 2013. no.15, pp. 130–138
+          </reference>
+          <reference>Buonomano D. Your Brain Is a Time Machine: The Neuroscience and Physics of Time. W. W. Norton,
+            2017.
+          </reference>
+          <reference>Dennett D.C., Kinsbourne M., Time and the observer: The where and when of consciousness in the
+            brain // Behav. Brain Sci. 15, 1992. pp. 183–201
+          </reference>
+          <reference>Dragoi G., Tonegawa S. Preplay of future place cell sequences by hippocampal cellular assemblies.
+            Nature. 2011. Jan 20, pp. 397-401.
+          </reference>
+          <reference>Eagleman D.M., Tse P.U., Buonomano D., Janssen P., Nobre A.C., Holcombe A.O., Time and the brain:
+            How subjective time relates to neural time, J. Neurosci. 25, 2005. pp. 10369-10371
+          </reference>
+          <reference>Eagleman D.M., Tse P.U., Buonomano D., Janssen P., Nobre A.C., Holcombe A.O., Time and the brain:
+            How subjective time relates to neural time. J. Neurosci 25, 2005. pp. 10369-10371
+          </reference>
+          <reference>Eichenbaum H. On the Integration of Space, Time, and Memory. Neuron. 2017 Aug 30;95(5):1007-1018
+          </reference>
+          <reference>Eichenbaum H. Time cells in the hippocampus: A new dimension for mapping memories. Nat. Rev.
+            Neurosci 15, 2014. pp. 732–744
+          </reference>
+          <reference>Fischer, B.; Boch, R. Saccadic eye movements after extremely short reaction times in the monkey.
+            Brain Research. 1983. 260 (1), pp. 21-26.
+          </reference>
+          <reference>Kitamura T, Macdonald CJ, Tonegawa S. Entorhinal-hippocampal neuronal circuits bridge temporally
+            discontiguous events. Learn Mem. 2015 Aug 18;22(9):438-43.
+          </reference>
+          <reference>Lashley K.S., Jeffress L.A. The problem of serial order in behavior in Cerebral Mechanisms in
+            Behavior, Ed. Wiley, 1951. pp. 112–136.
+          </reference>
+          <reference>Moser E.I., Roudi Y., Witter M.P., Kentros C., Bonhoeffer T., Moser M.B., Grid cells and cortical
+            representation. Nat. Rev. Neurosci. 15, 2014. pp. 466–481
+          </reference>
+          <reference>Muller R. A., Now: The Physics of Time. USA. NY. 2016, 270 p.</reference>
+          <reference>O’Keefe J. Place units in the hippocampus of the freely moving rat. Exp. Neurol. 1976. V. 51. P.
+            78–109
+          </reference>
+          <reference>Pastalkova E., Itskov V., Amarasingham A., and Buzsáki G. Internally generated cell assembly
+            sequences in the rat hippocampus. Science. 2008, pp. 1322–1327
+          </reference>
+          <reference>Sinha C., Da Silva Sinha V., Zinken J., Sampaio W. When time is not space: The social and
+            linguistic construction of time intervals and temporal event relations in an Amazonian culture. Lang. Cogn.
+            2011. no.3, pp. 137–169
+          </reference>
+          <reference>Traugott E.C. On the expression of spatio-temporal relations in language in Universals of Human
+            Language II. Stanford Univ. Press. 1978, pp. 369–400.
+          </reference>
+          <reference>Tsao, A. Jørgen S., Li Lu, Cheng W., James J. K., Moser M., Moser E. I. Integrating time from
+            experience in the lateral entorhinal cortex. Nature. 2018, no.561, pp. 57–62
+          </reference>
+          <reference>Varela F.J. The Specious Present: A Neurophenomenology of Time Consciousness // Naturalizing
+            Phenomenology. Stanford (CA). 1999. P. 273—277.
+          </reference>
+        </EN>
+        <RU>
+          <reference>Гуссерль Э. Феноменология внутреннего сознания времени // Собрание сочинений. Т. 1. М., 1994.
+          </reference>
+          <reference>Дубровский Д.И. Сознание, мозг, искусственный интеллект. // М., 2007.</reference>
+          <reference>Ньютон И. Метод флюксий и бесконечных рядов с приложением его к геометрии кривых линий //
+            Хрестоматия по истории математики / под ред. А.П. Юшкевича. М., 1977.
+          </reference>
+          <reference>Разин А.В. Происхождение морали: свобода воли и нравственность // Актуальные проблемы российского
+            права. М., 2018. № 8 (93). С. 16–26.
+          </reference>
+          <reference>Юрасов А.А. Время в структуре субъективной реальности: дис. канд. философских наук. М., 2014.
+          </reference>
+          <reference>Buzsáki G, Moser E. I. Memory, navigation and theta-rhythm in the hippocampal-entorhinal system //
+            Nat. Neurosci. 2013. no.15, p. 130–138
+          </reference>
+          <reference>Buonomano D. Your Brain Is a Time Machine: The Neuroscience and Physics of Time // W. W. Norton,
+            2017.
+          </reference>
+          <reference>Dennett D.C., Kinsbourne M., Time and the observer: The where and when of consciousness in the
+            brain // Behav. Brain Sci. 15, 1992. p. 183–201
+          </reference>
+          <reference>Dragoi G., Tonegawa S. Preplay of future place cell sequences by hippocampal cellular assemblies //
+            Nature. 2011. Jan 20, p. 397-401.
+          </reference>
+          <reference>Eagleman D.M., Tse P.U., Buonomano D., Janssen P., Nobre A.C., Holcombe A.O., Time and the brain:
+            How subjective time relates to neural time // J. Neurosci. 25, 2005. pp. 10369-10371
+          </reference>
+          <reference>Eichenbaum H. On the Integration of Space, Time, and Memory // Neuron. 2017 Aug
+            30;95(5):1007-1018
+          </reference>
+          <reference>Eichenbaum H. Time cells in the hippocampus: A new dimension for mapping memories // Nat. Rev.
+            Neurosci 15, 2014. p. 732–744
+          </reference>
+          <reference>Fischer B., Boch R. Saccadic eye movements after extremely short reaction times in the monkey //
+            Brain Research. 1983. 260 (1), p. 21-26.
+          </reference>
+          <reference>Kitamura T., Macdonald C.J., Tonegawa S. Entorhinal-hippocampal neuronal circuits bridge temporally
+            discontiguous events // Learn Mem. 2015 Aug 18;22(9):438-43.
+          </reference>
+          <reference>Lashley K.S., Jeffress L.A. The problem of serial order in behavior in Cerebral Mechanisms in
+            Behavior // Ed. Wiley, 1951. p. 112–136.
+          </reference>
+          <reference>Moser E.I., Roudi Y., Witter M.P., Kentros C., Bonhoeffer T., Moser M.B., Grid cells and cortical
+            representation // Nat. Rev. Neurosci. 15, 2014. p. 466–481
+          </reference>
+          <reference>Muller R. A., Now: The Physics of Time // USA. NY. 2016, 270 p.</reference>
+          <reference>O’Keefe J. Place units in the hippocampus of the freely moving rat // Exp. Neurol. 1976. V. 51. p.
+            78–109
+          </reference>
+          <reference>Pastalkova E., Itskov V., Amarasingham A., Buzsáki G. Internally generated cell assembly sequences
+            in the rat hippocampus // Science. 2008, p. 1322–1327
+          </reference>
+          <reference>Sinha C., Da Silva Sinha V., Zinken J., Sampaio W. When time is not space: The social and
+            linguistic construction of time intervals and temporal event relations in an Amazonian culture // Lang.
+            Cogn. 2011. no.3, p. 137–169
+          </reference>
+          <reference>Traugott E.C. On the expression of spatio-temporal relations in language in Universals of Human
+            Language II // Stanford Univ. Press. 1978, p. 369–400.
+          </reference>
+          <reference>Tsao A., Jørgen S., Li Lu, Cheng W., James J.K., Moser M., Moser E.I. Integrating time from
+            experience in the lateral entorhinal cortex // Nature. 2018, no.561, p. 57–62
+          </reference>
+          <reference>Varela F.J. The Specious Present: A Neurophenomenology of Time Consciousness // Naturalizing
+            Phenomenology. Stanford (CA). 1999. p. 273—277.
+          </reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>grid-cells, place-cells, time cells, entorhial cortex, hippocampus, episodic memory, phenomenal time</EN>
+        <RU>клетки времени, энториальная кора, гиппокамп, эпизодическая память, феноменальное время, длительность,
+          навигационная система мозга
+        </RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>Lomonosov Moscow State University</EN>
+        <RU>МГУ имени М. В. Ломоносова</RU>
+      </affiliation>
+      <address>
+        <EN>Russian Federation, Moscow</EN>
+        <RU>Российская Федерация, Москва</RU>
+      </address>
+      <authors>
+        <author>
+          <user_id>19969</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_19969</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Рустам</firstname>
+          <lastname>Хасанов</lastname>
+          <company></company>
+          <email>hasanov582@mail.ru</email>
+          <phone></phone>
+          <name_ru>Рустам</name_ru>
+          <name_en>Rustam</name_en>
+          <surname_ru>Хасанов</surname_ru>
+          <surname_en>Khasanov</surname_en>
+          <patronymic>Юрьевич</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree></academic_degree>
+          <academic_degree_en></academic_degree_en>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <position_place_of_work>Аспирант кафедры философии и методологии науки философского факультета МГУ имени М. В.
+            Ломоносова
+          </position_place_of_work>
+          <position_place_of_work_en>Moscow state university</position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>2</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>ru</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>21097</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>19968</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address></b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en></b_address_en>
+          <address>Российская Федерация, Москва</address>
+          <address_en>Russian Federation, Moscow</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1556256568</last_login>
+          <timestamp>1561713154</timestamp>
+          <password>0ab27650e726a7662a7cfe83f11cbba3</password>
+          <salt>6b!RDzf_Xb</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>6187</version_id>
+      <characters>20621</characters>
+      <timestamp>1561713393</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+    </publication>
+    <publication>
+      <external_pid>9491</external_pid>
+      <product_code>S207751800005630-2-</product_code>
+      <doi>10.18254/S207751800005630-2</doi>
+      <show_doi>Y</show_doi>
+      <product_type>P</product_type>
+      <publication_type>A</publication_type>
+      <position>8</position>
+      <main_author>19913</main_author>
+      <date_public>1562597803</date_public>
+      <date_accepted>1561713693</date_accepted>
+      <date_received>1561537796</date_received>
+      <date_included>1562154658</date_included>
+      <page_from>0</page_from>
+      <page_to>0</page_to>
+      <rubric_ru></rubric_ru>
+      <rubric_en></rubric_en>
+      <financing_sources></financing_sources>
+      <financing_sources_en></financing_sources_en>
+      <product>
+        <EN>Mechanism of social interaction</EN>
+        <RU>Механизм социального взаимодействия</RU>
+      </product>
+      <full_description>
+        <EN>&lt;p&gt;The paper analyzes the reflexive mechanism of interaction between two social subjects or social
+          groups based on the description of their fear and greed. On a concrete example the concepts of fear and greed
+          are formalized, the process and stages of interaction are described. Offered a possible systematization of the
+          processes of interaction. The article offers a new conceptual scheme to the understanding of social processes.&lt;/p&gt;
+        </EN>
+        <RU>&lt;p&gt;В работе предложен рефлексивный механизм взаимодействия двух социальных субъектов или социальных
+          групп на основе описания их интегральных характеристик страха и жадности. На конкретном примере формализованы
+          понятия страха и жадности, описан процесс и этапы взаимодействия. Обсуждается универсальность использованной
+          концептуальной схемы для моделирования динамики различных взаимодействий. Предложен возможный вариант
+          систематизации процессов взаимодействия.&amp;nbsp;&lt;/p&gt;
+        </RU>
+      </full_description>
+      <list_ref>
+        <EN>
+          <reference>Bazykin A. D. (1985). Matematicheskaya biofizika vzaimodejstvuyuschikh populyatsij. M.: Nauka.
+          </reference>
+          <reference>Bakhtizin A.R. (2008) Agent-orientirovannye modeli ehkonomiki. M.: Ehkonomika.</reference>
+          <reference>Makarov V.L. (2012). Iskusstvennye obschestva // Ehkonomika i matematicheskie metody. T. 48, № 3.
+          </reference>
+          <reference>Makarov V.L., Bakhtizin A.R. (2013) Sotsial&apos;noe modelirovanie – novyj komp&apos;yuternyj
+            proryv (agent-orientirovannye modeli). M.: Ehkonomika.
+          </reference>
+          <reference>Makarov V.L., Bakhtizin A.R., Sushko E.D., Vasenin V.A., Borisov V.A., Roganov V.A. (2016)
+            Agent-orientirovannye modeli: mirovoj opyt i tekhnicheskie vozmozhnosti realizatsii na superkomp&apos;yuterakh.
+            // Vestnik Rossijskoj akademii nauk (ranee: Vestnik Akademii nauk SSSR). T.86, №3.
+          </reference>
+          <reference>Parsons T. (2000) O strukture sotsial&apos;nogo dejstviya. M.: Akademicheskij Proekt.</reference>
+        </EN>
+        <RU>
+          <reference>Базыкин А. Д. (1985). Математическая биофизика взаимодействующих популяций. М.: Наука.</reference>
+          <reference>Бахтизин А.Р. (2008) Агент-ориентированные модели экономики. М.: Экономика.</reference>
+          <reference>Макаров В.Л. (2012). Искусственные общества // Экономика и математические методы. Т. 48, № 3.
+          </reference>
+          <reference>Макаров В.Л., Бахтизин А.Р. (2013) Социальное моделирование – новый компьютерный прорыв
+            (агент-ориентированные модели). М.: Экономика.
+          </reference>
+          <reference>Макаров В.Л., Бахтизин А.Р., Сушко Е.Д., Васенин В.А., Борисов В.А., Роганов В.А. (2016)
+            Агент-ориентированные модели: мировой опыт и технические возможности реализации на суперкомпьютерах. //
+            Вестник Российской академии наук (ранее: Вестник Академии наук СССР). Т.86, №3.
+          </reference>
+          <reference>Парсонс Т. (2000) О структуре социального действия. М.: Академический Проект.</reference>
+        </RU>
+      </list_ref>
+      <keywords_list>
+        <EN>social interaction, gamma distribution, reflexive mechanism, behavioral model</EN>
+        <RU>социальное взаимодействие, рефлексивный механизм, гамма-распределение, модель поведения, агентная модель
+        </RU>
+      </keywords_list>
+      <occupation>
+        <EN></EN>
+        <RU></RU>
+      </occupation>
+      <affiliation>
+        <EN>United Aircraft Corporation</EN>
+        <RU>Объединенная авиастроительная корпорация</RU>
+      </affiliation>
+      <address>
+        <EN></EN>
+        <RU></RU>
+      </address>
+      <author_affiliation>
+        <affiliation>
+          <product_id>9491</product_id>
+          <author_id>19927</author_id>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <affiliation>Индивидуальный предприниматель</affiliation>
+          <address>Российская Федерация, Москва</address>
+          <affiliation_en>Businessman</affiliation_en>
+          <address_en>Russian Federation, Moscow</address_en>
+        </affiliation>
+      </author_affiliation>
+      <authors>
+        <author>
+          <user_id>19913</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_19913</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Никита</firstname>
+          <lastname>Шабров</lastname>
+          <company></company>
+          <email>ashabroff@mail.ru</email>
+          <phone></phone>
+          <name_ru>Никита</name_ru>
+          <name_en>Nikita</name_en>
+          <surname_ru>Шабров</surname_ru>
+          <surname_en>Shabrov</surname_en>
+          <patronymic>Вадимович</patronymic>
+          <orcid>0000-0002-2778-8921</orcid>
+          <internet_profile></internet_profile>
+          <academic_degree>Кандидат технических наук</academic_degree>
+          <academic_degree_en>Candidate in Engineering Sciences</academic_degree_en>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <position_place_of_work>Объединенная авиастроительная корпорация</position_place_of_work>
+          <position_place_of_work_en>United Aircraft Corporation</position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>ru</lang_code>
+          <password_change_timestamp>1562831306</password_change_timestamp>
+          <usergroups>
+            <link_id>21030</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>19912</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address></b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en></b_address_en>
+          <address>Российская Федерация, Москва</address>
+          <address_en>Russian Federation, Moscow</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1561537213</last_login>
+          <timestamp>1561460381</timestamp>
+          <password>97bfec0e9c7a2b5eb182ae576840d4ac</password>
+          <salt>@)q.Ic#Y85</salt>
+        </author>
+        <author>
+          <user_id>19927</user_id>
+          <user_type>C</user_type>
+          <status>A</status>
+          <user_login>user_19927</user_login>
+          <is_root>N</is_root>
+          <company_id>12</company_id>
+          <title></title>
+          <balance>0</balance>
+          <firstname>Ростислав</firstname>
+          <lastname>Нестеров</lastname>
+          <company></company>
+          <email>rn@inbox.ru</email>
+          <phone></phone>
+          <name_ru>Ростислав</name_ru>
+          <name_en>Rostislav</name_en>
+          <surname_ru>Нестеров</surname_ru>
+          <surname_en>Nesterov</surname_en>
+          <patronymic>Олегович</patronymic>
+          <orcid></orcid>
+          <internet_profile></internet_profile>
+          <academic_degree>Кандидат технических наук</academic_degree>
+          <academic_degree_en>Candidate in Engineering Sciences</academic_degree_en>
+          <occupation></occupation>
+          <occupation_en></occupation_en>
+          <position_place_of_work>Индивидуальный предприниматель</position_place_of_work>
+          <position_place_of_work_en>Businessman</position_place_of_work_en>
+          <professional_interest></professional_interest>
+          <professional_interest_en></professional_interest_en>
+          <fax></fax>
+          <url></url>
+          <number_payments>0</number_payments>
+          <tax_exempt>N</tax_exempt>
+          <lang_code>EN</lang_code>
+          <password_change_timestamp>1</password_change_timestamp>
+          <usergroups>
+            <link_id>21046</link_id>
+            <usergroup_id>5</usergroup_id>
+            <status>A</status>
+            <categories_ids></categories_ids>
+            <type>C</type>
+          </usergroups>
+          <profile_id>19926</profile_id>
+          <profile_type>P</profile_type>
+          <b_title></b_title>
+          <b_firstname></b_firstname>
+          <b_lastname></b_lastname>
+          <b_address></b_address>
+          <b_address_2></b_address_2>
+          <b_city>Москва</b_city>
+          <b_county>RU</b_county>
+          <b_state>MOW</b_state>
+          <b_country>RU</b_country>
+          <b_zipcode></b_zipcode>
+          <b_phone></b_phone>
+          <s_title></s_title>
+          <s_firstname></s_firstname>
+          <s_lastname></s_lastname>
+          <s_address></s_address>
+          <s_address_2></s_address_2>
+          <s_city></s_city>
+          <s_county>RU</s_county>
+          <s_state>MOW</s_state>
+          <s_country>RU</s_country>
+          <s_zipcode></s_zipcode>
+          <s_phone></s_phone>
+          <s_address_type></s_address_type>
+          <profile_name>Основной</profile_name>
+          <b_city_en>Moscow</b_city_en>
+          <b_address_en></b_address_en>
+          <address>Российская Федерация, Москва</address>
+          <address_en>Russian Federation, Moscow</address_en>
+          <fields></fields>
+          <birthday>0</birthday>
+          <purchase_timestamp_from>0</purchase_timestamp_from>
+          <purchase_timestamp_to>0</purchase_timestamp_to>
+          <responsible_email></responsible_email>
+          <last_passwords></last_passwords>
+          <fio></fio>
+          <fio_eng></fio_eng>
+          <number_payments_frozen>0</number_payments_frozen>
+          <font_size></font_size>
+          <use_crypto_wallet>N</use_crypto_wallet>
+          <crypto_wallet_address></crypto_wallet_address>
+          <crypto_wallet_private_key></crypto_wallet_private_key>
+          <crypto_wallet_password></crypto_wallet_password>
+          <b_country_descr>Российская Федерация</b_country_descr>
+          <s_country_descr>Российская Федерация</s_country_descr>
+          <b_state_descr>Москва</b_state_descr>
+          <s_state_descr>Москва</s_state_descr>
+          <main_pair></main_pair>
+          <referer></referer>
+          <last_login>1561537026</last_login>
+          <timestamp>1561537181</timestamp>
+          <password>1ab03d4f1bf06181c65f83243d19acac</password>
+          <salt>Gl1&lt;)/Vrbl</salt>
+        </author>
+      </authors>
+      <number_version>1</number_version>
+      <status>P</status>
+      <version_id>6161</version_id>
+      <characters>23587</characters>
+      <timestamp>1561461119</timestamp>
+      <text>a%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A36%3A%22%3Ch1%20id%3D%22heading-1%22%3ETest%20Article%3C%2Fh1%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A0%3A%22%22%3B%7Di%3A1%3Ba%3A2%3A%7Bs%3A4%3A%22text%22%3Bs%3A28%3A%22%3Cp%3ETest%20article%20content.%3C%2Fp%3E%22%3Bs%3A7%3A%22comment%22%3Bs%3A15%3A%22Text%20of%20comment%22%3B%7D%7D</text>
+      <publication_images>
+        <image>
+          <image_id>39723</image_id>
+          <image_path>image1.png</image_path>
+          <image_x>513</image_x>
+          <image_y>303</image_y>
+          <alt>image1</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39724</image_id>
+          <image_path>image2.png</image_path>
+          <image_x>264</image_x>
+          <image_y>64</image_y>
+          <alt>image2</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39725</image_id>
+          <image_path>image3.png</image_path>
+          <image_x>263</image_x>
+          <image_y>63</image_y>
+          <alt>image3</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39726</image_id>
+          <image_path>image4.png</image_path>
+          <image_x>515</image_x>
+          <image_y>281</image_y>
+          <alt>image4</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39727</image_id>
+          <image_path>image5.png</image_path>
+          <image_x>494</image_x>
+          <image_y>548</image_y>
+          <alt>image5</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39728</image_id>
+          <image_path>image6.png</image_path>
+          <image_x>578</image_x>
+          <image_y>243</image_y>
+          <alt>image6</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39729</image_id>
+          <image_path>image7.png</image_path>
+          <image_x>578</image_x>
+          <image_y>733</image_y>
+          <alt>image7</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+        <image>
+          <image_id>39730</image_id>
+          <image_path>image8.png</image_path>
+          <image_x>485</image_x>
+          <image_y>321</image_y>
+          <alt>image8</alt>
+          <product_id>9491</product_id>
+          <position>0</position>
+        </image>
+      </publication_images>
+    </publication>
+  </publications>
+</journal>

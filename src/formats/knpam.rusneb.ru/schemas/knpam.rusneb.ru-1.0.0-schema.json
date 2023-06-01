@@ -1,0 +1,2184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://catalog.rusneb.ru/schemas/knpam.rusneb.ru.schema.json",
+  "title": "knpam.rusneb.ru JSON schema",
+  "type": "object",
+  "properties": {
+    "collections": {
+      "title": "collections",
+      "$comment": "Коллекции",
+      "type": "object",
+      "required": [
+        "deleted",
+        "id"
+      ],
+      "properties": {
+        "conclusion": {
+          "title": "conclusion",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Экспертное заключение на отнесение к книжным памятникам",
+          "description": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        "created_at": {
+          "title": "created_at",
+          "type": "string",
+          "format": "datetime"
+        },
+        "criteria": {
+          "title": "criteria",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Критерий отнесения к книжному памятнику-коллекции",
+          "description": "Критерий отнесения к книжному памятнику-коллекции"
+        },
+        "date": {
+          "title": "date",
+          "type": "string",
+          "format": "date",
+          "$comment": "Дата поступления к владельцу книжного памятника",
+          "description": "Дата поступления к владельцу книжного памятника"
+        },
+        "deleted": {
+          "title": "deleted",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Удалена (0 - Нет, 1 - Да)",
+          "description": "Удалена (0 - Нет, 1 - Да)"
+        },
+        "ground": {
+          "title": "ground",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Основание поступления к владельцу книжного памятника",
+          "description": "Основание поступления к владельцу книжного памятника"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "info": {
+          "title": "info",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Состав документов, входящих в книжный памятник-коллекцию с указанием хронологических, тематических, видовых языковых характеристик",
+          "description": "Состав документов, входящих в книжный памятник-коллекцию с указанием хронологических, тематических, видовых языковых характеристик"
+        },
+        "name": {
+          "title": "name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Название книжного памятника коллекции",
+          "description": "Название книжного памятника коллекции"
+        },
+        "org_name": {
+          "title": "org_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Наименование структурного подразделения владельца книжного памятника, в фонде которого хранится единичный книжный памятник",
+          "description": "Наименование структурного подразделения владельца книжного памятника, в фонде которого хранится единичный книжный памятник"
+        },
+        "origin": {
+          "title": "origin",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Сведения о происхождении книжного памятника-коллекции, предыдущих владельцах книжного памятника-коллекции",
+          "description": "Сведения о происхождении книжного памятника-коллекции, предыдущих владельцах книжного памятника-коллекции"
+        },
+        "ownership": {
+          "title": "ownership",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Сведения о наличии владельческих признаков (надписей, подписей, клейм, помет, экслибрисов, печатей, регистрационных и (или) инвентарных номеров",
+          "description": "Сведения о наличии владельческих признаков (надписей, подписей, клейм, помет, экслибрисов, печатей, регистрационных и (или) инвентарных номеров"
+        },
+        "qty": {
+          "title": "qty",
+          "type": "integer",
+          "$comment": "Количество документов, входящих в книжный памятник-коллекцию",
+          "description": "Количество документов, входящих в книжный памятник-коллекцию"
+        },
+        "source": {
+          "title": "source",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Источник поступления к владельцу книжного памятника",
+          "description": "Источник поступления к владельцу книжного памятника"
+        },
+        "type": {
+          "title": "type",
+          "type": "integer",
+          "$comment": "Тип коллекции ",
+          "description": "Тип коллекции "
+        },
+        "updated_at": {
+          "title": "updated_at",
+          "type": "string",
+          "format": "datetime"
+        },
+        "user_id": {
+          "title": "user_id",
+          "type": "integer",
+          "$comment": "Владелец коллекции",
+          "description": "Владелец коллекции"
+        }
+      }
+    },
+    "comments": {
+      "title": "comments",
+      "$comment": "Комментарии по заявке",
+      "type": "object",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "author_id": {
+          "title": "author_id",
+          "type": "integer",
+          "$comment": "Автор",
+          "description": "Автор"
+        },
+        "date": {
+          "title": "date",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата, время комментария",
+          "description": "Дата, время комментария"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "request_id": {
+          "title": "request_id",
+          "type": "integer",
+          "$comment": "Заявка",
+          "description": "Заявка"
+        },
+        "text": {
+          "title": "text",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Комментарий",
+          "description": "Комментарий"
+        }
+      }
+    },
+    "copies": {
+      "title": "copies",
+      "$comment": "Экземпляры",
+      "type": "object",
+      "required": [
+        "deleted",
+        "has_ec",
+        "id",
+        "num"
+      ],
+      "properties": {
+        "attrs": {
+          "title": "attrs",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Пометы",
+          "description": "Пометы"
+        },
+        "cc_comment": {
+          "title": "cc_comment",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Комментарий к ЭЗ",
+          "description": "Комментарий к ЭЗ"
+        },
+        "collection_id": {
+          "title": "collection_id",
+          "type": "integer",
+          "$comment": "Коллекция",
+          "description": "Коллекция"
+        },
+        "col_conclusion": {
+          "title": "col_conclusion",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Экспертное заключение на отнесение КП к коллекции",
+          "description": "Экспертное заключение на отнесение КП к коллекции"
+        },
+        "conclusion": {
+          "title": "conclusion",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Экспертное заключение на отнесение к книжным памятникам",
+          "description": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        "copy_eid": {
+          "title": "copy_eid",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Идентификатор экземпляра в электронном каталоге",
+          "description": "Идентификатор экземпляра в электронном каталоге"
+        },
+        "created_at": {
+          "title": "created_at",
+          "type": "string",
+          "format": "datetime"
+        },
+        "criteria_type": {
+          "title": "criteria_type",
+          "type": "integer",
+          "$comment": "Критерий отнесения к книжному памятнику",
+          "description": "Критерий отнесения к книжному памятнику"
+        },
+        "c_comment": {
+          "title": "c_comment",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Комментарий к ЭЗ",
+          "description": "Комментарий к ЭЗ"
+        },
+        "deleted": {
+          "title": "deleted",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Удален из реестра (1 - да / 0 - нет)",
+          "description": "Удален из реестра (1 - да / 0 - нет)"
+        },
+        "details": {
+          "title": "details",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Другое",
+          "description": "Другое"
+        },
+        "directory_info": {
+          "title": "directory_info",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Примечания об отдельно изданных указателях",
+          "description": "Примечания об отдельно изданных указателях"
+        },
+        "division_id": {
+          "title": "division_id",
+          "type": "integer",
+          "$comment": "Подразделение",
+          "description": "Подразделение"
+        },
+        "ec_comment": {
+          "title": "ec_comment",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Комментарий",
+          "description": "Комментарий"
+        },
+        "ec_date": {
+          "title": "ec_date",
+          "type": "string",
+          "format": "date",
+          "$comment": "Дата",
+          "description": "Дата"
+        },
+        "ec_num": {
+          "title": "ec_num",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер",
+          "description": "Номер"
+        },
+        "ec_type": {
+          "title": "ec_type",
+          "type": "integer",
+          "$comment": "Тип",
+          "description": "Тип"
+        },
+        "fullness": {
+          "title": "fullness",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Сведения о полноте",
+          "description": "Сведения о полноте"
+        },
+        "has_ec": {
+          "title": "has_ec",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Есть электронная копия КП",
+          "description": "Есть электронная копия КП"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "images": {
+          "title": "images",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Изображения книжного памятника",
+          "description": "Изображения книжного памятника"
+        },
+        "info": {
+          "title": "info",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Примечания общего характера",
+          "description": "Примечания общего характера"
+        },
+        "neb_url": {
+          "title": "neb_url",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Ссылка на документ в НЭБ",
+          "description": "Ссылка на документ в НЭБ"
+        },
+        "num": {
+          "title": "num",
+          "type": "integer",
+          "$comment": "Регистрационный номер",
+          "description": "Регистрационный номер"
+        },
+        "org_name": {
+          "title": "org_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Наименование структурного подразделения владельца книжного памятника, в фонде которого хранится единичный книжный памятник",
+          "description": "Наименование структурного подразделения владельца книжного памятника, в фонде которого хранится единичный книжный памятник"
+        },
+        "part_id": {
+          "title": "part_id",
+          "type": "integer",
+          "$comment": "Часть издания",
+          "description": "Часть издания"
+        },
+        "safety": {
+          "title": "safety",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Сохранность",
+          "description": "Сохранность"
+        },
+        "signs": {
+          "title": "signs",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Книжные знаки",
+          "description": "Книжные знаки"
+        },
+        "size": {
+          "title": "size",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Индивидуальный размер",
+          "description": "Индивидуальный размер"
+        },
+        "storage": {
+          "title": "storage",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер и название собрания, в котором хранится книжный памятник",
+          "description": "Номер и название собрания, в котором хранится книжный памятник"
+        },
+        "storage_cypher": {
+          "title": "storage_cypher",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Шифр хранения",
+          "description": "Шифр хранения"
+        },
+        "system_number": {
+          "title": "system_number",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Инвентарный и (или) регистрационный номер",
+          "description": "Инвентарный и (или) регистрационный номер"
+        },
+        "updated_at": {
+          "title": "updated_at",
+          "type": "string",
+          "format": "datetime"
+        },
+        "user_id": {
+          "title": "user_id",
+          "type": "integer",
+          "$comment": "Владелец КП",
+          "description": "Владелец КП"
+        },
+        "user_id2": {
+          "title": "user_id2",
+          "type": "integer"
+        },
+        "volume": {
+          "title": "volume",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Индивидуальный объем",
+          "description": "Индивидуальный объем"
+        }
+      }
+    },
+    "directories": {
+      "title": "directories",
+      "type": "object",
+      "required": [
+        "id",
+        "new",
+        "type",
+        "value"
+      ],
+      "properties": {
+        "from": {
+          "title": "from",
+          "type": "integer"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "new": {
+          "title": "new",
+          "type": "integer",
+          "default": "0"
+        },
+        "till": {
+          "title": "till",
+          "type": "integer"
+        },
+        "type": {
+          "title": "type",
+          "type": "integer"
+        },
+        "value": {
+          "title": "value",
+          "type": "string",
+          "maxLength": 255,
+          "default": "''"
+        }
+      }
+    },
+    "divisions": {
+      "title": "divisions",
+      "$comment": "Подразделения",
+      "type": "object",
+      "required": [
+        "group_id",
+        "id",
+        "name"
+      ],
+      "properties": {
+        "address": {
+          "title": "address",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Адрес местонахождения",
+          "description": "Адрес местонахождения"
+        },
+        "fio": {
+          "title": "fio",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "ФИО руководителя",
+          "description": "ФИО руководителя"
+        },
+        "full_name": {
+          "title": "full_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Полное наименование",
+          "description": "Полное наименование"
+        },
+        "group_id": {
+          "title": "group_id",
+          "type": "integer",
+          "$comment": "Владелец",
+          "description": "Владелец"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "name": {
+          "title": "name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Краткое наименование",
+          "description": "Краткое наименование"
+        },
+        "position": {
+          "title": "position",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Должность",
+          "description": "Должность"
+        }
+      }
+    },
+    "documents": {
+      "title": "documents",
+      "type": "object",
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "filename": {
+          "title": "filename",
+          "type": "string",
+          "maxLength": 255
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "title": {
+          "title": "title",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Заголовок",
+          "description": "Заголовок"
+        }
+      }
+    },
+    "items": {
+      "title": "items",
+      "$comment": "Издания",
+      "type": "object",
+      "required": [
+        "author_yearsoflife_notsure",
+        "date_notsure",
+        "deleted",
+        "id",
+        "place_notsure",
+        "title_full_notsure"
+      ],
+      "properties": {
+        "author": {
+          "title": "author",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Первые сведения об ответственности/ автор (авторы) произведения",
+          "description": "Первые сведения об ответственности/ автор (авторы) произведения"
+        },
+        "author_ext": {
+          "title": "author_ext",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Расширения инициалов личного имени автора",
+          "description": "Расширения инициалов личного имени автора"
+        },
+        "author_forms": {
+          "title": "author_forms",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Формы имен лица",
+          "description": "Формы имен лица"
+        },
+        "author_org": {
+          "title": "author_org",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Автор-организация",
+          "description": "Автор-организация"
+        },
+        "author_other": {
+          "title": "author_other",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Последующие сведения об ответственности / другие лица, принимавшие участие в создании произведения",
+          "description": "Последующие сведения об ответственности / другие лица, принимавшие участие в создании произведения"
+        },
+        "author_search": {
+          "title": "author_search",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Имя лица как основной поисковый признак (автор, писец, переводчик, составитель и т.д.)",
+          "description": "Имя лица как основной поисковый признак (автор, писец, переводчик, составитель и т.д.)"
+        },
+        "author_yearsoflife": {
+          "title": "author_yearsoflife",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Даты жизни",
+          "description": "Даты жизни"
+        },
+        "author_yearsoflife_from": {
+          "title": "author_yearsoflife_from",
+          "type": "integer"
+        },
+        "author_yearsoflife_notsure": {
+          "title": "author_yearsoflife_notsure",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Не уверен о годах жизни автора",
+          "description": "Не уверен о годах жизни автора"
+        },
+        "author_yearsoflife_params": {
+          "title": "author_yearsoflife_params",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "author_yearsoflife_till": {
+          "title": "author_yearsoflife_till",
+          "type": "integer"
+        },
+        "contributors": {
+          "title": "contributors",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Другие лица, принимавшие участие в создании произведения",
+          "description": "Другие лица, принимавшие участие в создании произведения"
+        },
+        "created_at": {
+          "title": "created_at",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата, время создания записи об издании",
+          "description": "Дата, время создания записи об издании"
+        },
+        "date": {
+          "title": "date",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Время создания",
+          "description": "Время создания"
+        },
+        "date_from": {
+          "title": "date_from",
+          "type": "integer"
+        },
+        "date_notsure": {
+          "title": "date_notsure",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Не уверен о дате создания",
+          "description": "Не уверен о дате создания"
+        },
+        "date_params": {
+          "title": "date_params",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "date_till": {
+          "title": "date_till",
+          "type": "integer"
+        },
+        "deleted": {
+          "title": "deleted",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Издание удалено из реестра (1 - да / 0 - нет)",
+          "description": "Издание удалено из реестра (1 - да / 0 - нет)"
+        },
+        "directory_info": {
+          "title": "directory_info",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Примечания об отдельно изданных указателях",
+          "description": "Примечания об отдельно изданных указателях"
+        },
+        "doc_type": {
+          "title": "doc_type",
+          "type": "integer",
+          "$comment": "Вид документа",
+          "description": "Вид документа"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "illustrations": {
+          "title": "illustrations",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Сведения об иллюстрациях",
+          "description": "Сведения об иллюстрациях"
+        },
+        "info": {
+          "title": "info",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Примечания общего характера",
+          "description": "Примечания общего характера"
+        },
+        "language": {
+          "title": "language",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Язык ",
+          "description": "Язык "
+        },
+        "part_type": {
+          "title": "part_type",
+          "type": "integer",
+          "$comment": "Форма многочастного издания",
+          "description": "Форма многочастного издания"
+        },
+        "place": {
+          "title": "place",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Место создания",
+          "description": "Место создания"
+        },
+        "place_notsure": {
+          "title": "place_notsure",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Не уверен о месте создания",
+          "description": "Не уверен о месте создания"
+        },
+        "publisher": {
+          "title": "publisher",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Издатель/Типограф",
+          "description": "Издатель/Типограф"
+        },
+        "publish_info": {
+          "title": "publish_info",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Сведения об издании / сведения о переиздании",
+          "description": "Сведения об издании / сведения о переиздании"
+        },
+        "size": {
+          "title": "size",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Размер книжного блока (см), размер переплета (см) и/или формат (доли листа)",
+          "description": "Размер книжного блока (см), размер переплета (см) и/или формат (доли листа)"
+        },
+        "special_params": {
+          "title": "special_params",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Особые характеристики типов изданий",
+          "description": "Особые характеристики типов изданий"
+        },
+        "state": {
+          "title": "state",
+          "type": "integer",
+          "$comment": "Госпринадлежность",
+          "description": "Госпринадлежность"
+        },
+        "title": {
+          "title": "title",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Унифицированное заглавие",
+          "description": "Унифицированное заглавие"
+        },
+        "title2": {
+          "title": "title2",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Параллельное заглавие",
+          "description": "Параллельное заглавие"
+        },
+        "title_comment": {
+          "title": "title_comment",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Сведения, относящиеся к заглавию",
+          "description": "Сведения, относящиеся к заглавию"
+        },
+        "title_full": {
+          "title": "title_full",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Основное заглавие",
+          "description": "Основное заглавие"
+        },
+        "title_full_notsure": {
+          "title": "title_full_notsure",
+          "type": "integer",
+          "default": "0"
+        },
+        "title_translation": {
+          "title": "title_translation",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Перевод заглавия",
+          "description": "Перевод заглавия"
+        },
+        "title_variants": {
+          "title": "title_variants",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Варианты заглавия",
+          "description": "Варианты заглавия"
+        },
+        "type": {
+          "title": "type",
+          "type": "integer",
+          "$comment": "Вид КП (1 - Рукописная книга, 2 - Печатная книга)",
+          "description": "Вид КП (1 - Рукописная книга, 2 - Печатная книга)"
+        },
+        "updated_at": {
+          "title": "updated_at",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата, время последнего изменения",
+          "description": "Дата, время последнего изменения"
+        },
+        "user_id": {
+          "title": "user_id",
+          "type": "integer",
+          "$comment": "Владелец КП",
+          "description": "Владелец КП"
+        },
+        "user_id2": {
+          "title": "user_id2",
+          "type": "integer"
+        },
+        "volume": {
+          "title": "volume",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Объем (количество страниц, листов, столбцов)",
+          "description": "Объем (количество страниц, листов, столбцов)"
+        }
+      }
+    },
+    "lst": {
+      "title": "lst",
+      "$comment": "Экземпляры",
+      "type": "object",
+      "required": [
+        "id",
+        "num"
+      ],
+      "properties": {
+        "copy_eid": {
+          "title": "copy_eid",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Идентификатор экземпляра в электронном каталоге",
+          "description": "Идентификатор экземпляра в электронном каталоге"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "num": {
+          "title": "num",
+          "type": "integer",
+          "$comment": "Регистрационный номер",
+          "description": "Регистрационный номер"
+        },
+        "storage_cypher": {
+          "title": "storage_cypher",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Шифр хранения",
+          "description": "Шифр хранения"
+        },
+        "system_number": {
+          "title": "system_number",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Инвентарный и (или) регистрационный номер",
+          "description": "Инвентарный и (или) регистрационный номер"
+        },
+        "Txt": {
+          "title": "Txt",
+          "type": "string",
+          "maxLength": 255
+        }
+      }
+    },
+    "marc": {
+      "title": "marc",
+      "$comment": "RecordID,DateAdded,DateChanged,Author,Title,CopyrightDate,Barcode,Classification,MainEntry,Custom1,Custom2,Custom3,Custom4,Custom5,ImportErrors,ValidationErrors,TagNumber,Ind1,Ind2,ControlData,Sort,LDR,001,004,005,010,021,035,100,101,071,102,170,179,105,120,140,200,106,121,125,205,210,301,316,123,215,302,323,124,208,225,300,305,517,602,313,512,514,518,600,620,206,309,461,510,605,675,690,330,540,601,321,333,423,463,464,541,513,686,700,702,710,870,320,515,516,730,501,610,712,327,801,701,856,790,830,886,909,930,500,952,606,711,722,317,607,318,850,852",
+      "type": "object",
+      "properties": {
+        "Author": {
+          "title": "Author",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Barcode": {
+          "title": "Barcode",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Classification": {
+          "title": "Classification",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "ControlData": {
+          "title": "ControlData",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "CopyrightDate": {
+          "title": "CopyrightDate",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Custom1": {
+          "title": "Custom1",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Custom2": {
+          "title": "Custom2",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Custom3": {
+          "title": "Custom3",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Custom4": {
+          "title": "Custom4",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Custom5": {
+          "title": "Custom5",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "DateAdded": {
+          "title": "DateAdded",
+          "type": "string",
+          "maxLength": 50
+        },
+        "DateChanged": {
+          "title": "DateChanged",
+          "type": "string",
+          "maxLength": 50
+        },
+        "f001": {
+          "title": "f001",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f004": {
+          "title": "f004",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f005": {
+          "title": "f005",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f010": {
+          "title": "f010",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f021": {
+          "title": "f021",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f035": {
+          "title": "f035",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f071": {
+          "title": "f071",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f100": {
+          "title": "f100",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f101": {
+          "title": "f101",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f102": {
+          "title": "f102",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f105": {
+          "title": "f105",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f106": {
+          "title": "f106",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f120": {
+          "title": "f120",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f121": {
+          "title": "f121",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f123": {
+          "title": "f123",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f124": {
+          "title": "f124",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f125": {
+          "title": "f125",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f140": {
+          "title": "f140",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f170": {
+          "title": "f170",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f179": {
+          "title": "f179",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f200": {
+          "title": "f200",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f205": {
+          "title": "f205",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f206": {
+          "title": "f206",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f208": {
+          "title": "f208",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f210": {
+          "title": "f210",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f215": {
+          "title": "f215",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f225": {
+          "title": "f225",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f300": {
+          "title": "f300",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f301": {
+          "title": "f301",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f302": {
+          "title": "f302",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f305": {
+          "title": "f305",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f309": {
+          "title": "f309",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f313": {
+          "title": "f313",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f316": {
+          "title": "f316",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f317": {
+          "title": "f317",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f318": {
+          "title": "f318",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f320": {
+          "title": "f320",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f321": {
+          "title": "f321",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f323": {
+          "title": "f323",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f327": {
+          "title": "f327",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f330": {
+          "title": "f330",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f333": {
+          "title": "f333",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f423": {
+          "title": "f423",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f461": {
+          "title": "f461",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f463": {
+          "title": "f463",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f464": {
+          "title": "f464",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f500": {
+          "title": "f500",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f501": {
+          "title": "f501",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f510": {
+          "title": "f510",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f512": {
+          "title": "f512",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f513": {
+          "title": "f513",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f514": {
+          "title": "f514",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f515": {
+          "title": "f515",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f516": {
+          "title": "f516",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f517": {
+          "title": "f517",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f518": {
+          "title": "f518",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f540": {
+          "title": "f540",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f541": {
+          "title": "f541",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f600": {
+          "title": "f600",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f601": {
+          "title": "f601",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f602": {
+          "title": "f602",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f605": {
+          "title": "f605",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f606": {
+          "title": "f606",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f607": {
+          "title": "f607",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f610": {
+          "title": "f610",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f620": {
+          "title": "f620",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f675": {
+          "title": "f675",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f686": {
+          "title": "f686",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f690": {
+          "title": "f690",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f700": {
+          "title": "f700",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f701": {
+          "title": "f701",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f702": {
+          "title": "f702",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f710": {
+          "title": "f710",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f711": {
+          "title": "f711",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f712": {
+          "title": "f712",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f722": {
+          "title": "f722",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f730": {
+          "title": "f730",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f790": {
+          "title": "f790",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f801": {
+          "title": "f801",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f830": {
+          "title": "f830",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f850": {
+          "title": "f850",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f852": {
+          "title": "f852",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f856": {
+          "title": "f856",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f870": {
+          "title": "f870",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f886": {
+          "title": "f886",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f909": {
+          "title": "f909",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f930": {
+          "title": "f930",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "f952": {
+          "title": "f952",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "ImportErrors": {
+          "title": "ImportErrors",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Ind1": {
+          "title": "Ind1",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Ind2": {
+          "title": "Ind2",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "LDR": {
+          "title": "LDR",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "MainEntry": {
+          "title": "MainEntry",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "RecordId": {
+          "title": "RecordId",
+          "type": "string",
+          "maxLength": 50
+        },
+        "Sort": {
+          "title": "Sort",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "TagNumber": {
+          "title": "TagNumber",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "Title": {
+          "title": "Title",
+          "type": "string",
+          "maxLength": 65535
+        },
+        "ValidationErrors": {
+          "title": "ValidationErrors",
+          "type": "string",
+          "maxLength": 65535
+        }
+      }
+    },
+    "marc2": {
+      "title": "marc2",
+      "type": "object",
+      "required": [
+        "active",
+        "id"
+      ],
+      "properties": {
+        "active": {
+          "title": "active",
+          "type": "integer",
+          "default": "0"
+        },
+        "author": {
+          "title": "author",
+          "type": "string",
+          "maxLength": 255
+        },
+        "copy": {
+          "title": "copy",
+          "type": "string",
+          "maxLength": 255
+        },
+        "cypher": {
+          "title": "cypher",
+          "type": "string",
+          "maxLength": 255
+        },
+        "date": {
+          "title": "date",
+          "type": "string",
+          "maxLength": 11
+        },
+        "division": {
+          "title": "division",
+          "type": "string",
+          "maxLength": 255
+        },
+        "eclibrise": {
+          "title": "eclibrise",
+          "type": "string",
+          "maxLength": 255
+        },
+        "format": {
+          "title": "format",
+          "type": "string",
+          "maxLength": 255
+        },
+        "group_id": {
+          "title": "group_id",
+          "type": "integer"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "info": {
+          "title": "info",
+          "type": "string",
+          "maxLength": 255
+        },
+        "num": {
+          "title": "num",
+          "type": "string",
+          "maxLength": 255
+        },
+        "org": {
+          "title": "org",
+          "type": "string",
+          "maxLength": 255
+        },
+        "place": {
+          "title": "place",
+          "type": "string",
+          "maxLength": 255
+        },
+        "pomet": {
+          "title": "pomet",
+          "type": "string",
+          "maxLength": 255
+        },
+        "reg_num": {
+          "title": "reg_num",
+          "type": "string",
+          "maxLength": 50
+        },
+        "size": {
+          "title": "size",
+          "type": "string",
+          "maxLength": 255
+        },
+        "title": {
+          "title": "title",
+          "type": "string",
+          "maxLength": 255
+        },
+        "type_id": {
+          "title": "type_id",
+          "type": "integer"
+        },
+        "volume": {
+          "title": "volume",
+          "type": "string",
+          "maxLength": 255
+        }
+      }
+    },
+    "migration": {
+      "title": "migration",
+      "type": "object",
+      "required": [
+        "version"
+      ],
+      "properties": {
+        "apply_time": {
+          "title": "apply_time",
+          "type": "integer"
+        },
+        "version": {
+          "title": "version",
+          "type": "string",
+          "maxLength": 180
+        }
+      }
+    },
+    "parts": {
+      "title": "parts",
+      "$comment": "Части",
+      "type": "object",
+      "required": [
+        "date_notsure",
+        "id",
+        "place_notsure"
+      ],
+      "properties": {
+        "comment": {
+          "title": "comment",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Примечания к части",
+          "description": "Примечания к части"
+        },
+        "date": {
+          "title": "date",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Дата издания части",
+          "description": "Дата издания части"
+        },
+        "date_notsure": {
+          "title": "date_notsure",
+          "type": "integer",
+          "default": "0"
+        },
+        "date_params": {
+          "title": "date_params",
+          "type": "string",
+          "maxLength": 255
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "illustrations": {
+          "title": "illustrations",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Сведения об иллюстрациях в части",
+          "description": "Сведения об иллюстрациях в части"
+        },
+        "item_id": {
+          "title": "item_id",
+          "type": "integer",
+          "$comment": "Издание",
+          "description": "Издание"
+        },
+        "num": {
+          "title": "num",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Обозначение и номер части/тома",
+          "description": "Обозначение и номер части/тома"
+        },
+        "place": {
+          "title": "place",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Место издания части",
+          "description": "Место издания части"
+        },
+        "place_notsure": {
+          "title": "place_notsure",
+          "type": "integer",
+          "default": "0"
+        },
+        "publisher": {
+          "title": "publisher",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Издатель/Типограф части",
+          "description": "Издатель/Типограф части"
+        },
+        "size": {
+          "title": "size",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Размер части",
+          "description": "Размер части"
+        },
+        "title": {
+          "title": "title",
+          "type": "string",
+          "maxLength": 255,
+          "$commчent": "Заглавие части",
+          "description": "Заглавие части"
+        },
+        "volume": {
+          "title": "volume",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Объем части",
+          "description": "Объем части"
+        }
+      }
+    },
+    "requests": {
+      "title": "requests",
+      "$comment": "Заявки",
+      "type": "object",
+      "required": [
+        "id",
+        "req_type",
+        "status",
+        "taken"
+      ],
+      "properties": {
+        "author_id": {
+          "title": "author_id",
+          "type": "integer",
+          "$comment": "Автор заявки",
+          "description": "Автор заявки"
+        },
+        "collection_id": {
+          "title": "collection_id",
+          "type": "integer",
+          "$comment": "Заявка о регистрации коллекции, в которую входит данная заявка о регистрации КП",
+          "description": "Заявка о регистрации коллекции, в которую входит данная заявка о регистрации КП"
+        },
+        "comment": {
+          "title": "comment",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Комментарий",
+          "description": "Комментарий"
+        },
+        "copy_id": {
+          "title": "copy_id",
+          "type": "integer",
+          "$comment": "Экземпляр, если заявка на изменение/удаление КП",
+          "description": "Экземпляр, если заявка на изменение/удаление КП"
+        },
+        "created_at": {
+          "title": "created_at",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата создания заявки",
+          "description": "Дата создания заявки"
+        },
+        "division_id": {
+          "title": "division_id",
+          "type": "integer",
+          "$comment": "Подразделение",
+          "description": "Подразделение"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "kp_type": {
+          "title": "kp_type",
+          "type": "integer",
+          "$comment": "Вид КП (1 - Рукописные книги, 2 - Печатные издания, 3 - Книжные памятники-коллекции)",
+          "description": "Вид КП (1 - Рукописные книги, 2 - Печатные издания, 3 - Книжные памятники-коллекции)"
+        },
+        "operator_id": {
+          "title": "operator_id",
+          "type": "integer",
+          "$comment": "Обработчик заявки - оператор системы",
+          "description": "Обработчик заявки - оператор системы"
+        },
+        "owner_id": {
+          "title": "owner_id",
+          "type": "integer",
+          "$comment": "Владелец КП",
+          "description": "Владелец КП"
+        },
+        "owner_id2": {
+          "title": "owner_id2",
+          "type": "integer"
+        },
+        "params": {
+          "title": "params",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Параметры заявки",
+          "description": "Параметры заявки"
+        },
+        "req_type": {
+          "title": "req_type",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Тип заявки (0 - Заявка на создание личного кабинета, 1 - Заявка на регистрацию КП, 2 - Заявка на изменение КП, 3 - Заявка на удаление КП)",
+          "description": "Тип заявки (0 - Заявка на создание личного кабинета, 1 - Заявка на регистрацию КП, 2 - Заявка на изменение КП, 3 - Заявка на удаление КП)"
+        },
+        "status": {
+          "title": "status",
+          "type": "integer",
+          "default": "0",
+          "$comment": "Статус заявки (0 - Оформление заявки, 1 - Заявка на рассмотрении операторами, 2 - Заявка отклонена, 3 - Заявка одобрена, 4 - Заявка возвращена на доработку)",
+          "description": "Статус заявки (0 - Оформление заявки, 1 - Заявка на рассмотрении операторами, 2 - Заявка отклонена, 3 - Заявка одобрена, 4 - Заявка возвращена на доработку)"
+        },
+        "taken": {
+          "title": "taken",
+          "type": "integer",
+          "default": "0"
+        },
+        "updated_at": {
+          "title": "updated_at",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата изменения статуса заявки",
+          "description": "Дата изменения статуса заявки"
+        },
+        "user_id": {
+          "title": "user_id",
+          "type": "integer",
+          "$comment": "Пользователь, если заявка на создание ЛК",
+          "description": "Пользователь, если заявка на создание ЛК"
+        }
+      }
+    },
+    "requests_history": {
+      "title": "requests_history",
+      "$comment": "История заявок",
+      "type": "object",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "date": {
+          "title": "date",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата",
+          "description": "Дата"
+        },
+        "event": {
+          "title": "event",
+          "type": "string",
+          "maxLength": 255
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "operator_id": {
+          "title": "operator_id",
+          "type": "integer"
+        },
+        "params": {
+          "title": "params",
+          "type": "string",
+          "maxLength": 65535,
+          "$comment": "Данные",
+          "description": "Данные"
+        },
+        "request_id": {
+          "title": "request_id",
+          "type": "integer",
+          "$comment": "Заявка",
+          "description": "Заявка"
+        },
+        "user_id": {
+          "title": "user_id",
+          "type": "integer"
+        }
+      }
+    },
+    "users": {
+      "title": "users",
+      "$comment": "Пользователи",
+      "type": "object",
+      "required": [
+        "id",
+        "password",
+        "status"
+      ],
+      "properties": {
+        "access_token": {
+          "title": "access_token",
+          "type": "string",
+          "maxLength": 255
+        },
+        "address": {
+          "title": "address",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Адрес регистрации по месту жительства",
+          "description": "Адрес регистрации по месту жительства"
+        },
+        "authKey": {
+          "title": "authKey",
+          "type": "string",
+          "maxLength": 255
+        },
+        "created_at": {
+          "title": "created_at",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата создания",
+          "description": "Дата создания"
+        },
+        "division_id": {
+          "title": "division_id",
+          "type": "integer"
+        },
+        "email": {
+          "title": "email",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "E-mail",
+          "description": "E-mail"
+        },
+        "email_official": {
+          "title": "email_official",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Официальный адрес электронной почты",
+          "description": "Официальный адрес электронной почты"
+        },
+        "fact_city": {
+          "title": "fact_city",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Город (факт. адрес)",
+          "description": "Город (факт. адрес)"
+        },
+        "fact_house": {
+          "title": "fact_house",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер дома, корпус (факт. адрес)",
+          "description": "Номер дома, корпус (факт. адрес)"
+        },
+        "fact_index": {
+          "title": "fact_index",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Индекс (факт. адрес)",
+          "description": "Индекс (факт. адрес)"
+        },
+        "fact_region": {
+          "title": "fact_region",
+          "type": "integer",
+          "$comment": "Субъект РФ (факт. адрес)",
+          "description": "Субъект РФ (факт. адрес)"
+        },
+        "fact_street": {
+          "title": "fact_street",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Улица (факт. адрес)",
+          "description": "Улица (факт. адрес)"
+        },
+        "fax": {
+          "title": "fax",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер факса",
+          "description": "Номер факса"
+        },
+        "first_name": {
+          "title": "first_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Имя",
+          "description": "Имя"
+        },
+        "group_id": {
+          "title": "group_id",
+          "type": "integer",
+          "$comment": "Группа",
+          "description": "Группа"
+        },
+        "id": {
+          "title": "id",
+          "type": "integer"
+        },
+        "inn": {
+          "title": "inn",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "ИНН",
+          "description": "ИНН"
+        },
+        "last_entry": {
+          "title": "last_entry",
+          "type": "string",
+          "format": "datetime"
+        },
+        "last_name": {
+          "title": "last_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Фамилия",
+          "description": "Фамилия"
+        },
+        "legal_city": {
+          "title": "legal_city",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Город (юр. адрес)",
+          "description": "Город (юр. адрес)"
+        },
+        "legal_house": {
+          "title": "legal_house",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер дома, корпус (юр. адрес)",
+          "description": "Номер дома, корпус (юр. адрес)"
+        },
+        "legal_index": {
+          "title": "legal_index",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Индекс (юр. адрес)",
+          "description": "Индекс (юр. адрес)"
+        },
+        "legal_region": {
+          "title": "legal_region",
+          "type": "integer",
+          "$comment": "Субъект РФ (юр. адрес)",
+          "description": "Субъект РФ (юр. адрес)"
+        },
+        "legal_street": {
+          "title": "legal_street",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Улица (юр. адрес)",
+          "description": "Улица (юр. адрес)"
+        },
+        "middle_name": {
+          "title": "middle_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Отчество",
+          "description": "Отчество"
+        },
+        "opf": {
+          "title": "opf",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Организационно-правовая форма",
+          "description": "Организационно-правовая форма"
+        },
+        "org_fio": {
+          "title": "org_fio",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "ФИО руководителя",
+          "description": "ФИО руководителя"
+        },
+        "org_name": {
+          "title": "org_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Наименование ЮЛ",
+          "description": "Наименование ЮЛ"
+        },
+        "org_position": {
+          "title": "org_position",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Должность руководителя",
+          "description": "Должность руководителя"
+        },
+        "passport_date": {
+          "title": "passport_date",
+          "type": "string",
+          "format": "date",
+          "$comment": "Дата выдачи",
+          "description": "Дата выдачи"
+        },
+        "passport_issued": {
+          "title": "passport_issued",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Кем выдан",
+          "description": "Кем выдан"
+        },
+        "passport_number": {
+          "title": "passport_number",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер паспорта",
+          "description": "Номер паспорта"
+        },
+        "passport_seria": {
+          "title": "passport_seria",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Серия паспорта",
+          "description": "Серия паспорта"
+        },
+        "password": {
+          "title": "password",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Пароль (зашифрован)",
+          "description": "Пароль (зашифрован)"
+        },
+        "password_reset_token": {
+          "title": "password_reset_token",
+          "type": "string",
+          "maxLength": 255
+        },
+        "person_email": {
+          "title": "person_email",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "E-mail",
+          "description": "E-mail"
+        },
+        "person_fax": {
+          "title": "person_fax",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер факса лица, ответственного за внесение сведений",
+          "description": "Номер факса лица, ответственного за внесение сведений"
+        },
+        "person_first_name": {
+          "title": "person_first_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Имя лица, ответственного за внесение сведений",
+          "description": "Имя лица, ответственного за внесение сведений"
+        },
+        "person_last_name": {
+          "title": "person_last_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Фамилия лица, ответственного за внесение сведений",
+          "description": "Фамилия лица, ответственного за внесение сведений"
+        },
+        "person_middle_name": {
+          "title": "person_middle_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Отчество лица, ответственного за внесение сведений",
+          "description": "Отчество лица, ответственного за внесение сведений"
+        },
+        "person_phone": {
+          "title": "person_phone",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер телефона лица, ответственного за внесение сведений",
+          "description": "Номер телефона лица, ответственного за внесение сведений"
+        },
+        "phones": {
+          "title": "phones",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Номер телефона",
+          "description": "Номер телефона"
+        },
+        "recovery_hash": {
+          "title": "recovery_hash",
+          "type": "string",
+          "maxLength": 255
+        },
+        "role": {
+          "title": "role",
+          "type": "integer",
+          "$comment": "Роль (1 - Администратор, 2 - Оператор, 3 - Владелец КП (администатор), 4 - Владелец КП (пользователь)",
+          "description": "Роль (1 - Администратор, 2 - Оператор, 3 - Владелец КП (администатор), 4 - Владелец КП (пользователь)"
+        },
+        "status": {
+          "title": "status",
+          "type": "integer",
+          "default": "1",
+          "$comment": "Статус",
+          "description": "Статус"
+        },
+        "suborg_address": {
+          "title": "suborg_address",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Адрес местонахождения обособленного подразделения",
+          "description": "Адрес местонахождения обособленного подразделения"
+        },
+        "suborg_fio": {
+          "title": "suborg_fio",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "ФИО руководителя обособленного подразделения",
+          "description": "ФИО руководителя обособленного подразделения"
+        },
+        "suborg_name": {
+          "title": "suborg_name",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Полное наименование обособленного подразделения",
+          "description": "Полное наименование обособленного подразделения"
+        },
+        "suborg_position": {
+          "title": "suborg_position",
+          "type": "string",
+          "maxLength": 255,
+          "$comment": "Должность руководителя обособленного подразделения",
+          "description": "Должность руководителя обособленного подразделения"
+        },
+        "type": {
+          "title": "type",
+          "type": "integer",
+          "$comment": "Тип пользователя (1 - Юридическое лицо, 2 - Физическое лицо)",
+          "description": "Тип пользователя (1 - Юридическое лицо, 2 - Физическое лицо)"
+        },
+        "updated_at": {
+          "title": "updated_at",
+          "type": "string",
+          "format": "datetime",
+          "$comment": "Дата последнего изменения",
+          "description": "Дата последнего изменения"
+        },
+        "username2": {
+          "title": "username2",
+          "type": "string",
+          "maxLength": 255
+        }
+      }
+    }
+  }
+}

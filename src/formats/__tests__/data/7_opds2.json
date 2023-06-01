@@ -1,0 +1,156 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "6 в.",
+        "name": "Агапит",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "identifier": "/resources/instance/NLR/18.86.6.16",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html",
+              "name": "ФГБУ \"Российская национальная библиотека\""
+            },
+            "shelfMark": "18.86.6.16"
+          },
+          {
+            "identifier": "/resources/instance/NLR/138/1538",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html",
+              "name": "ФГБУ \"Российская национальная библиотека\""
+            },
+            "shelfMark": "138/1538"
+          },
+          {
+            "identifier": "/resources/instance/НГОУНБ",
+            "organization": "НГОУНБ"
+          },
+          {
+            "identifier": "/resources/instance/РГБ",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            }
+          },
+          {
+            "identifier": "/resources/instance/БАН",
+            "organization": "БАН"
+          },
+          {
+            "identifier": "/resources/instance/ЗНБ СГУ",
+            "organization": "ЗНБ СГУ"
+          },
+          {
+            "identifier": "/resources/instance/МГУ",
+            "organization": "МГУ"
+          },
+          {
+            "identifier": "/resources/instance/ГПИБ",
+            "organization": "ГПИБ"
+          },
+          {
+            "identifier": "/resources/instance/КирОУНБ",
+            "organization": "КирОУНБ"
+          },
+          {
+            "identifier": "/resources/instance/ТОУНБ",
+            "organization": "ТОУНБ"
+          },
+          {
+            "identifier": "/resources/instance/ГПНТБ СО РАН",
+            "organization": "ГПНТБ СО РАН"
+          },
+          {
+            "identifier": "/resources/instance/НБ УрГУ",
+            "organization": "НБ УрГУ"
+          },
+          {
+            "identifier": "/resources/instance/НБЛ КГУ",
+            "organization": "НБЛ КГУ"
+          },
+          {
+            "identifier": "/resources/instance/NLR: 18.86.6.16",
+            "organization": "NLR: 18.86.6.16"
+          },
+          {
+            "identifier": "/resources/instance/NLR: 138/1538",
+            "organization": "NLR: 138/1538"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "Экз. РНБ (18.86.6.16) в картонном пер., оклееном мраморной бумагой. Корешок с зеленой кожаной наклейкой с золотого тиснения (позолота частично утрачена) загл.: \"Агапита Изложение глав\". На нижней крышке пер. экслибрис Рус. фонда ГПБ с шифром. На форзаце ярлык с шифром РНБ. На тит. л. штамп ИБ в венке с короной. На тит. л., с. 33, 35 круглый штамп ГПБ. На тит. л. рукоп. помета техн. характера; Экз. РНБ (138/1538) в бумаж. обл. (рисунок \"павлинье перо\"). На 1-й с. обл. наклейка с цифрами: \"2832\". На 4-й с. экслибрис Рус. фонда ГПБ с шифром. На 2-й с. обл. ярлык с шифром РНБ. На тит. л. прямоугольный штамп РНБ: \"1 филиал\". На тит. л. и с.33 круглый штамп ГПБ. Размер: 19,4х12,2х0,7 см",
+      "citation": [
+        {
+          "name": "СК XVIII 51"
+        },
+        {
+          "name": "СК XVIII. Т.3. С.484"
+        },
+        {
+          "name": "СК XVIII. Доп. С.101"
+        }
+      ],
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1707",
+          "deathDate": "1775",
+          "name": "Писарев, Степан Иванович",
+          "relCode": "trl",
+          "role": "trl",
+          "relTerm": "Переводчик"
+        },
+        {
+          "birthDate": "1754",
+          "deathDate": "1801",
+          "name": "Павел I",
+          "relCode": "dte",
+          "role": "dte",
+          "relTerm": "Объект посвящения"
+        }
+      ],
+      "dc:issued": "1771",
+      "description": [
+        "[8], 35, [1] с.",
+        "8°",
+        "Экз. РНБ (18.86.6.16) в картонном пер., оклееном мраморной бумагой. Корешок с зеленой кожаной наклейкой с золотого тиснения (позолота частично утрачена) загл.: \"Агапита Изложение глав\". На нижней крышке пер. экслибрис Рус. фонда ГПБ с шифром. На форзаце ярлык с шифром РНБ. На тит. л. штамп ИБ в венке с короной. На тит. л., с. 33, 35 круглый штамп ГПБ. На тит. л. рукоп. помета техн. характера",
+        "Экз. РНБ (138/1538) в бумаж. обл. (рисунок \"павлинье перо\"). На 1-й с. обл. наклейка с цифрами: \"2832\". На 4-й с. экслибрис Рус. фонда ГПБ с шифром. На 2-й с. обл. ярлык с шифром РНБ. На тит. л. прямоугольный штамп РНБ: \"1 филиал\". На тит. л. и с.33 круглый штамп ГПБ. Размер: 19,4х12,2х0,7 см"
+      ],
+      "dimensions": "8°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/rnb/009670190",
+      "language": [
+        "rus",
+        "grc",
+        "Includes translation from: grc"
+      ],
+      "marc:type": "a",
+      "materialExtent": "[8], 35, [1] с.",
+      "modified": "2019-10-04T15:34:48.0Z",
+      "numberOfPages": 35,
+      "published": "1771",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Санкт-Петербург",
+        "name": "Напечатано при Императорской Академии наук в С. Петербурге"
+      },
+      "responsibilityNotes": "Поднесенное Константинопольския соборныя церкви диаконом. ; Переведено с еллиногреческаго языка статским советником С. Писаревым, и",
+      "subject": {
+        "agent": "Юстиниан I император византийский ок.483 - 565",
+        "place": "nlr_sh: Юстиниан"
+      },
+      "title": "Изложение глав или статей увещательных греческому императору Иустиниану,"
+    }
+  }
+]

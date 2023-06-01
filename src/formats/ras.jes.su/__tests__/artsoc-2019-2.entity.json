@@ -1,0 +1,275 @@
+[
+  {
+    "key": "2077-5180",
+    "kind": "periodical",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":\"https://schema.org/Periodical\",\"identifier\":\"https://portal.issn.org/resource/ISSN/\",\"title\":\"КВАЗИНАЗВАНИЕ\",\"name\":{\"en\":\"MOCK TITLE\",\"ru\":\"КВАЗИНАЗВАНИЕ\"}}}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-08T14:56:43.000Z"
+  },
+  {
+    "key": "9582",
+    "kind": "publication_issue",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":\"https://schema.org/PublicationIssue\",\"title\":\"Выпуск 2\",\"name\":{\"ru\":\"Выпуск 2\",\"en\":\"Issue 2\"},\"issueNumber\":\"2\",\"identifier\":\"/resources/publication_issue/ras.jes.su/[\\\"9582\\\"]\",\"language\":\"ru-RU\",\"numberOfWorkPart\":\"487\",\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-08T14:56:43.000Z\",\"published\":\"2019-07-08T14:56:43.000Z\",\"belongsTo\":{\"series\":[{\"name\":\"ISSN\",\"identifier\":\"https://portal.issn.org/resource/ISSN/{\\\"@type\\\":\\\"https://schema.org/PublicationVolume\\\"}\",\"title\":\"https://portal.issn.org/resource/ISSN/{\\\"@type\\\":\\\"https://schema.org/PublicationVolume\\\"}\",\"type\":\"text/html\"}]},\"toc\":[{\"title\":\"Опыт применения агент-ориентированного подхода к моделированию процессов в области миграционной политики\\n        \",\"name\":{\"ru\":\"Опыт применения агент-ориентированного подхода к моделированию процессов в области миграционной политики\\n        \",\"en\":\"Application of Agent-based approach to the Modeling of Processes in the Field of Migration Policy\"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9786\"},{\"title\":\"Агентно-ориентированная модель миграции в страны Европейского Союза с учетом индивидуальной системы принятия\\n          решений\\n        \",\"name\":{\"ru\":\"Агентно-ориентированная модель миграции в страны Европейского Союза с учетом индивидуальной системы принятия\\n          решений\\n        \",\"en\":\"Agent-based model of migration to European Union countries with taking into account individual\\n          decision-making system\\n        \"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9670\"},{\"title\":\"Принципы коллективной разработки многофункциональных агентно-ориентированных моделей\",\"name\":{\"ru\":\"Принципы коллективной разработки многофункциональных агентно-ориентированных моделей\",\"en\":\"Principles of collaborative development of complex agent-based simulation models\"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9237\"},{\"title\":\"Методология формирования искусственных обществ на примере социального кредита\",\"name\":{\"ru\":\"Методология формирования искусственных обществ на примере социального кредита\",\"en\":\"Methodology of forming artificial societies on the example of social credit\"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9364\"},{\"title\":\"Основные методологические подходы для извлечения данных с целью обучения интеллектуальных агентов\",\"name\":{\"ru\":\"Основные методологические подходы для извлечения данных с целью обучения интеллектуальных агентов\",\"en\":\"Comparison of Technological approaches in the context of tasks related to Data Extraction\"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9601\"},{\"title\":\"Кибер-люди и кибер-общество\",\"name\":{\"ru\":\"Кибер-люди и кибер-общество\",\"en\":\"Cyber People and Cyber Society\"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9702\"},{\"title\":\"Время как общий параметр качеств субъективной реальности\",\"name\":{\"ru\":\"Время как общий параметр качеств субъективной реальности\",\"en\":\"Time as a Common Parameter of the Qualities of Subjective Reality\"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9520\"},{\"title\":\"Механизм социального взаимодействия\",\"name\":{\"ru\":\"Механизм социального взаимодействия\",\"en\":\"Mechanism of social interaction\"},\"rel\":\"item\",\"href\":\"/resources/publication/ras.jes.su/9491\"}]}}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-08T14:56:43.000Z"
+  },
+  {
+    "key_from": [
+      "2077-5180"
+    ],
+    "key_to": "9582",
+    "kind_from": "periodical",
+    "kind_to": "publication_issue",
+    "relation_kind": "hasPart",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": [
+      "2077-5180"
+    ],
+    "key_to": "9582",
+    "kind_from": "periodical",
+    "kind_to": "publication_volume",
+    "relation_kind": "hasPart",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key": "science",
+    "kind": "collection",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"links\":[],\"metadata\":{\"title\":\"НЭБ: Наука\",\"name\":\"НЭБ: Наука\"]}}",
+    "source": "catalog.rusneb.ru"
+  },
+  {
+    "key": "9786",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Опыт применения агент-ориентированного подхода к моделированию процессов в области миграционной политики\\n        \",\"name\":{\"ru\":\"Опыт применения агент-ориентированного подхода к моделированию процессов в области миграционной политики\\n        \",\"en\":\"Application of Agent-based approach to the Modeling of Processes in the Field of Migration Policy\"},\"identifier\":[\"doi:10.18254/S207751800005912-2\"],\"modified\":\"1563393800\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":{\"name\":{\"ru\":\"Владимир Иванович Abramov\",\"en\":\"Vladimir Abramov\"},\"email\":\"wladimir.abramow@gmail.com\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"ЦЭМИ РАН\",\"en\":\"CEMI RAS\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:16084\",\"address\":{\"ru\":\"Москва, 117418, Нахимовский пр-т, д. 47\",\"en\":\"Moscow, 117418, Nakhimovsky prospect, 47\"},\"title\":\"https://elibrary.ru/author_items.asp?authorid=818848&pubrole=100&show_refs=1&show_option=0\"},\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-07T21:00:00.000Z\",\"published\":\"2019-07-07T21:00:00.000Z\",\"subject\":{\"en\":[\"migration\",\"migration policy\",\"agent based modeling\",\"the EU economy\"],\"ru\":[\"миграция\",\"миграционная политика\",\"агент-ориентированное моделирование\",\"экономика Евросоюза\"]},\"citation\":[{\"name\":\"Bakhtizin A.R. Agent-orientirovannye modeli ehkonomiki. // M.: Ehkonomika, 2008.\"},{\"name\":\"Makarov V.L., Bakhtizin A.R., Sushko E.D., Abramov V.I. Komp'yuternoe modelirovanie v upravlenii ehkonomikoj (metodologicheskaya osnova dlya strategicheskogo planirovaniya) // Gosudarstvennyj audit. Pravo. Ehkonomika, № 3, 2017. \"},{\"name\":\"Burch T. K. Model-Based Demography. // Essays on Integrating Data, Technique and Theory, 2018, DOI:10.1007/978-3-319-65433-1. \"},{\"name\":\"Constant A., Massey D. S. Return Migration by German Guestworkers: Neoclassical versus New Economic Theories. // International Migration, 2002, 40(4), p. 5–38. \"},{\"name\":\"Courgeau D., Bijak J., Franck R., Silverman E. Model-based demography: Towards a research agenda. // Agent-Based Modelling in Population Studies: Concepts, Methods, and Applications, 2016, p. 29–51. \"},{\"name\":\"Ewald R., Uhrmacher A. M. SESSL: A domain-specific language for simulation experiments. // ACM Transactions on Modeling and Computer Simulation, 2014, 24(2). \"},{\"name\":\"Harris J. R., Todaro M. P. Migration, Unemployment and Development: a Two-Sector Analysis. // American Economic Review, 1970, 60(1), p. 126–142. \"},{\"name\":\"Hobcraft J. Towards a scientific understanding of demographic behaviour. // Population – English Edition, 2007, 62(1), p. 47–51. \"},{\"name\":\"Klabunde A., Zinn S., Willekens F., Leuchter M. Multistate modelling extended by behavioural rules: An application to migration. // Population Studies, 2017, 71, p. 51–67. \"},{\"name\":\"Moeckel R., Spiekermann K., Wegener M. Creating a synthetic population. // Proceedings of the 8th International Conference on Computers in Urban Planning and Urban Management (CUPUM), 2003. \"},{\"name\":\"Morand E., Toulemon L., Pennec S., Baggio R., Billari F. Demographic modelling: The state of the art. // SustainCity working paper, 2010. \"},{\"name\":\"Pei-jun Y., Xiao W., Cheng Chenc Y., Fei-yue W. Hybrid Agent Modeling in Population Simulation: Current Approaches and Future Directions // Journal of Artificial Societies and Social Simulation, 2016, 19(1)12 http://jasss.soc.surrey.ac.uk/19/1/12.html \"},{\"name\":\"Portes A. Social Capital: Its Origins and Applications in Modern Sociology. // Annual Review of Sociology, 1998, 24(1), 1–24, DOI:10.1146/annurev.soc.24.1.1. \"},{\"name\":\"Reinhardt O., Hilton J., Warnke T., Bijak J., Uhrmacher A. Streamlining Simulation Experiments with Agent-Based Models in Demography // Journal of Artificial Societies and Social Simulation, 2018, 21(3)9 http://jasss.soc.surrey.ac.uk/21/3/9.html \"},{\"name\":\"Silverman E., Bijak J., Hilton J., Cao V. D., Noble J. When demography met social simulation: A tale of two modeling approaches. // Journal of Artificial Societies and Social Simulation 2013, 16(4), 9. \"},{\"name\":\"Simon M. Path Dependency and Adaptation: The Effects of Policy on Migration Systems // Journal of Artificial Societies and Social Simulation 2019, 22(2)2 http://jasss.soc.surrey.ac.uk/22/2/2.html \"},{\"name\":\"Warnke T., Steiniger A., Uhrmacher A. M., Klabunde A., Willekens F. ML3: A Language for Compact Modeling of Linked Lives in Computational Demography. // Proceedings of the 2015 Winter Simulation Conference, 2015, p. 2764–2775, DOI:10.1109/WSC.2015.7408382 \"},{\"name\":\"Watts D. J., Strogatz S. H. Collective dynamics of small-world networks. // Nature, 1998, 393(6684), p. 440–442, DOI:10.1038/30918 \"}],\"responsibilityNotes\":{\"ru\":\"Результаты исследований, представленные во введении, получены в рамках государственного задания ЦЭМИ РАН. Результаты исследований, представленные в разделах «Сетевая модель миграционной адаптации», «Модель возвратной миграции», «Гибридная популяционная агент-ориентированная модель», получены за счет средств Российского Фонда фундаментальных исследований (проект № 18-51-14010).\"},\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005912-2\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-07T21:00:00.000Z"
+  },
+  {
+    "key": "9670",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Агентно-ориентированная модель миграции в страны Европейского Союза с учетом индивидуальной системы принятия\\n          решений\\n        \",\"name\":{\"ru\":\"Агентно-ориентированная модель миграции в страны Европейского Союза с учетом индивидуальной системы принятия\\n          решений\\n        \",\"en\":\"Agent-based model of migration to European Union countries with taking into account individual\\n          decision-making system\\n        \"},\"identifier\":[\"doi:10.18254/S207751800005804-3\"],\"modified\":\"1562599968\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":[{\"name\":{\"ru\":\"Альберт Рауфович Bakhtizin\",\"en\":\"Albert Bakhtizin\"},\"email\":\"albert.bakhtizin@gmail.com\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"Центральный экономико-математический институт Российской академии наук\\n          \",\"en\":\"Central economic and mathematical Institute of the Russian Academy of Sciences\\n          \"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:9845\",\"address\":{\"ru\":\"Российская Федерация, Москва\",\"en\":\"Moscow, Russian Federation\"}},{\"name\":{\"ru\":\"Гаянэ Левоновна Beklaryan\",\"en\":\"Gayane Beklaryan\"},\"email\":\"glbeklaryan@gmail.com\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"ЦЭМИ РАН\",\"en\":\"Central Economics and Mathematics Institute, Russian Academy of Sciences; Russia\\n          \"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:14621\",\"address\":{\"ru\":\"Москва, РФ\",\"en\":\"Moscow, Russian Federation\"}},{\"name\":{\"ru\":\"Андраник Сумбатович Akopov\",\"en\":\"Andranick Akopov\"},\"email\":\"akopovas@umail.ru\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"ЦЭМИ РАН\",\"en\":\"Central Economics and Mathematics Institute, Russian Academy of Sciences; Russia\\n          \"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:14620\",\"address\":{\"ru\":\"Москва, РФ\",\"en\":\"Moscow, Russian Federation\"}},{\"name\":{\"ru\":\"Валерий Леонидович Makarov\",\"en\":\"Valeriy Makarov\"},\"email\":\"makarov@cemi.rssi.ru\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"Центральный экономико-математический институт Российской академии наук\\n          \",\"en\":\"Central Economics and Mathematics Institute, Russian Academy of Sciences\\n          \"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:8688\",\"address\":{\"ru\":\"Москва, РФ\",\"en\":\"Moscow, Russian Federation\"},\"title\":\"http://www.cemi.rssi.ru/about/persons/index.php?SECTION_ID=6&ELEMENT_ID=183\\n          \"}],\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-07T21:00:00.000Z\",\"published\":\"2019-07-07T21:00:00.000Z\",\"subject\":{\"en\":[\"migration\",\"agent-based modelling\",\"European Union economy\"],\"ru\":[\"миграция\",\"агентное моделирование\",\"экономика ЕС\"]},\"citation\":[{\"name\":\"Akopov A.S. Imitatsionnoe modelirovanie: uchebnik i praktikum dlya akademicheskogo bakalavriata // A.S. Akopov. — Moskva: Izdatel'stvo Yurajt, 2017. – 389 s. \"},{\"name\":\"Akopov A.S., Khachatryan N. K. Agentnoe modelirovanie: uchebno-metodicheskoe posobie. // M.: TsEhMI RAN, 2016. \"},{\"name\":\"Akopov A.S., Khachatryan N.K. Sistemnaya dinamika: uchebno-metodicheskoe posobie. // M.: TsEhMI RAN, 2014. \"},{\"name\":\"Akopov A.S., Beklaryan L.A. Agentnaya model' povedeniya tolpy pri chrezvychajnykh situatsiyakh // Avtomatika i telemekhanika, № 10, 2015, c. 131–143. \"},{\"name\":\"Bakhtizin A.R. Agent-orientirovannye modeli ehkonomiki. // M.: Ehkonomika, 2008.\"},{\"name\":\"Makarov V.L., Bakhtizin A.R. Sotsial'noe modelirovanie – novyj komp'yuternyj proryv (agent-orientirovannye modeli). // M.: Ehkonomika, 2013. – 295 s. \"},{\"name\":\"Makarov V.L., Bakhtizin A.R., Beklaryan G.L., Akopov A.S. Razrabotka programmnoj platformy dlya krupnomasshtabnogo agent-orientirovannogo modelirovaniya slozhnykh sotsial'nykh sistem // Programmnaya inzheneriya. 2019. T. 10. № 4. c. 167-177. \"},{\"name\":\"Makarov V.L., Bakhtizin A.R., Beklaryan G.L., Akopov A.S., Rovenskaya E.A., Strelkovskij N.V. Ukrupnennaya agent-orientirovannaya imitatsionnaya model' migratsionnykh potokov stran Evropejskogo Soyuza // Ehkonomika i matematicheskie metody. 2019. T. 55. № 1. c. 3-15. \"},{\"name\":\"Akopov A. S., Beklaryan L. Simulation of human crowd behavior in extreme situations // International Journal of Pure and Applied Mathematics. 2012. Vol. 79. No. 1. p.121-138. \"},{\"name\":\"Anderson J.E. A theoretical foundation for the gravity equation. // American Economic Review. 1979. Vol. 69, p. 106–116. \"},{\"name\":\"Bonabeau E. Agent-based modeling: methods and techniques for simulating human systems // Proc. National Academy of Sciences. 2002. Vol. 99(3), p. 7280-7287. \"},{\"name\":\"Schelling T.C. Dynamic Models of Segregation // Journal of Mathematical Sociology. 1971. Vol. 1(2), p. 143–186. \"},{\"name\":\"Stewart Q.J. The development of social physics // American Journal of Physics, 1950, Vol. 18, p. 239?253. \"},{\"name\":\"Whelpton P.K. Population of the United States, 1925 to 1970. // The American Journal of Sociology, 1928, Vol. 34, № 2, p. 253-270. \"},{\"name\":\"2\"}],\"responsibilityNotes\":{\"ru\":\"Проект выполнен при частичной финансовой поддержке Российского Фонда Фундаментальных Исследований (Грант РФФИ № 18-51-14010 АНФ_а)\"},\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[{\"href\":\"http://ras.jes.su/images/publication_images/9670/image1.png\",\"identifier\":\"39994\",\"width\":50,\"height\":25,\"title\":\"image1\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image10.wmf\",\"identifier\":\"39995\",\"title\":\"image10\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image11.png\",\"identifier\":\"39996\",\"width\":94,\"height\":28,\"title\":\"image11\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image12.png\",\"identifier\":\"39997\",\"width\":102,\"height\":28,\"title\":\"image12\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image13.png\",\"identifier\":\"39998\",\"width\":20,\"height\":26,\"title\":\"image13\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image14.wmf\",\"identifier\":\"39999\",\"title\":\"image14\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image15.wmf\",\"identifier\":\"40000\",\"title\":\"image15\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image16.wmf\",\"identifier\":\"40001\",\"title\":\"image16\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image17.wmf\",\"identifier\":\"40002\",\"title\":\"image17\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image18.wmf\",\"identifier\":\"40003\",\"title\":\"image18\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image19.wmf\",\"identifier\":\"40004\",\"title\":\"image19\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image2.png\",\"identifier\":\"40005\",\"width\":723,\"height\":440,\"title\":\"image2\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image20.wmf\",\"identifier\":\"40006\",\"title\":\"image20\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image21.png\",\"identifier\":\"40007\",\"width\":73,\"height\":41,\"title\":\"image21\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image22.wmf\",\"identifier\":\"40008\",\"title\":\"image22\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image23.png\",\"identifier\":\"40009\",\"width\":206,\"height\":28,\"title\":\"image23\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image24.wmf\",\"identifier\":\"40010\",\"title\":\"image24\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image25.png\",\"identifier\":\"40011\",\"width\":184,\"height\":30,\"title\":\"image25\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image26.wmf\",\"identifier\":\"40012\",\"title\":\"image26\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image27.png\",\"identifier\":\"40013\",\"width\":113,\"height\":54,\"title\":\"image27\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image28.wmf\",\"identifier\":\"40014\",\"title\":\"image28\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image29.png\",\"identifier\":\"40015\",\"width\":38,\"height\":23,\"title\":\"image29\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image3.png\",\"identifier\":\"40016\",\"width\":974,\"height\":1023,\"title\":\"image3\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image30.wmf\",\"identifier\":\"40017\",\"title\":\"image30\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image31.png\",\"identifier\":\"40018\",\"width\":223,\"height\":28,\"title\":\"image31\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image32.wmf\",\"identifier\":\"40019\",\"title\":\"image32\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image33.png\",\"identifier\":\"40020\",\"width\":129,\"height\":28,\"title\":\"image33\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image34.wmf\",\"identifier\":\"40021\",\"title\":\"image34\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image35.png\",\"identifier\":\"40022\",\"width\":132,\"height\":28,\"title\":\"image35\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image36.wmf\",\"identifier\":\"40023\",\"title\":\"image36\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image37.png\",\"identifier\":\"40024\",\"width\":424,\"height\":33,\"title\":\"image37\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image38.wmf\",\"identifier\":\"40025\",\"title\":\"image38\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image39.wmf\",\"identifier\":\"40026\",\"title\":\"image39\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image4.png\",\"identifier\":\"40027\",\"width\":974,\"height\":1060,\"title\":\"image4\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image40.png\",\"identifier\":\"40028\",\"width\":433,\"height\":171,\"title\":\"image40\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image41.wmf\",\"identifier\":\"40029\",\"title\":\"image41\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image42.wmf\",\"identifier\":\"40030\",\"title\":\"image42\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image43.wmf\",\"identifier\":\"40031\",\"title\":\"image43\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image44.png\",\"identifier\":\"40032\",\"width\":238,\"height\":57,\"title\":\"image44\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image45.wmf\",\"identifier\":\"40033\",\"title\":\"image45\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image46.png\",\"identifier\":\"40034\",\"width\":249,\"height\":57,\"title\":\"image46\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image47.wmf\",\"identifier\":\"40035\",\"title\":\"image47\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image48.wmf\",\"identifier\":\"40036\",\"title\":\"image48\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image49.wmf\",\"identifier\":\"40037\",\"title\":\"image49\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image5.png\",\"identifier\":\"40038\",\"width\":132,\"height\":28,\"title\":\"image5\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image50.wmf\",\"identifier\":\"40039\",\"title\":\"image50\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image51.png\",\"identifier\":\"40040\",\"width\":128,\"height\":54,\"title\":\"image51\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image52.png\",\"identifier\":\"40041\",\"width\":1686,\"height\":1025,\"title\":\"image52\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image6.png\",\"identifier\":\"40042\",\"width\":137,\"height\":28,\"title\":\"image6\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image7.png\",\"identifier\":\"40043\",\"width\":146,\"height\":28,\"title\":\"image7\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image8.png\",\"identifier\":\"40044\",\"width\":50,\"height\":25,\"title\":\"image8\"},{\"href\":\"http://ras.jes.su/images/publication_images/9670/image9.png\",\"identifier\":\"40045\",\"width\":57,\"height\":25,\"title\":\"image9\"}],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005804-3\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-07T21:00:00.000Z"
+  },
+  {
+    "key": "9237",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Принципы коллективной разработки многофункциональных агентно-ориентированных моделей\",\"name\":{\"ru\":\"Принципы коллективной разработки многофункциональных агентно-ориентированных моделей\",\"en\":\"Principles of collaborative development of complex agent-based simulation models\"},\"identifier\":[\"doi:10.18254/S207751800005393-1\"],\"modified\":\"1559682608\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":{\"name\":{\"ru\":\"Александр Александрович Belianov\",\"en\":\"Aleksandr Belianov\"},\"email\":\"belyanov@protonmail.ch\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"Центральный экономико-математический институт РАН\",\"en\":\"CEMI RAS\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:19431\",\"address\":{\"ru\":\"Москва, Нахимовский проспект, 47\",\"en\":\"Moscow, Nachimovky prospect 47\"}},\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-08T14:56:43.000Z\",\"published\":\"2019-07-08T14:56:43.000Z\",\"subject\":{\"en\":[\"agent-based simulation\",\"Python\",\"collaborative development\",\"modules\",\"inheritance\"],\"ru\":[\"агентно-ориентированное моделирование\",\"коллективная разработка\",\"модули\",\"наследование\"]},\"citation\":[{\"name\":\"Falcone J.-L. Implementation of Agent Based Models Lecture part of a University of Geneva course Simulation and modelling of natural processes Coursera. Retrieved from the web on June, 2 2019. https://www.coursera.org/lecture/modeling-simulation-natural-processes/imple mentation-of-agent-based-models-196XP \"},{\"name\":\"Masad, David, and Jacqueline Kazil. \\\"MESA: an agent-based modeling framework.\\\" In 14th PYTHON in Science Conference, pp. 53-60. 2015. \"},{\"name\":\"Kinny, David, and Michael Georgeff. \\\"Modelling and design of multi-agent systems.\\\" In International Workshop on Agent Theories, Architectures, and Languages, pp. 1-20. Springer, Berlin, Heidelberg, 1996. \"},{\"name\":\"Parunak, H. Van Dyke, and James J. Odell. \\\"Representing social structures in UML.\\\" In International workshop on agent-oriented software engineering, pp. 1-16. Springer, Berlin, Heidelberg, 2001. \"},{\"name\":\"Salamon, Tomas. Design of agent-based models. Eva & Tomas Bruckner Publishing, 2011. \"}],\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[{\"href\":\"http://ras.jes.su/images/publication_images/9237/image1.png\",\"identifier\":\"39971\",\"width\":266,\"height\":402,\"title\":\"image1\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image2.jpeg\",\"identifier\":\"39972\",\"width\":386,\"height\":789,\"title\":\"image2\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image3.jpeg\",\"identifier\":\"39973\",\"width\":761,\"height\":389,\"title\":\"image3\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image4.png\",\"identifier\":\"39974\",\"width\":1459,\"height\":898,\"title\":\"image4\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image5.png\",\"identifier\":\"39975\",\"width\":689,\"height\":225,\"title\":\"image5\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image1.png\",\"identifier\":\"39976\",\"width\":288,\"height\":435,\"title\":\"image1\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image2.png\",\"identifier\":\"39977\",\"width\":333,\"height\":681,\"title\":\"image2\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image3.jpeg\",\"identifier\":\"39978\",\"width\":761,\"height\":389,\"title\":\"image3\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image4.png\",\"identifier\":\"39979\",\"width\":994,\"height\":612,\"title\":\"image4\"},{\"href\":\"http://ras.jes.su/images/publication_images/9237/image5.png\",\"identifier\":\"39980\",\"width\":470,\"height\":153,\"title\":\"image5\"}],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005393-1\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-08T14:56:43.000Z"
+  },
+  {
+    "key": "9364",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Методология формирования искусственных обществ на примере социального кредита\",\"name\":{\"ru\":\"Методология формирования искусственных обществ на примере социального кредита\",\"en\":\"Methodology of forming artificial societies on the example of social credit\"},\"identifier\":[\"doi:10.18254/S207751800005514-4\"],\"modified\":\"1560717016\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":{\"name\":{\"ru\":\"Мария Алексеевна Burilina\",\"en\":\"Maria Burilina\"},\"email\":\"maribu@mail.ru\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"ЦЭМИ РАН\",\"en\":\"Cemi RAS\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:19621\",\"address\":{\"ru\":\"Российская Федерация,\",\"en\":\"Russian Federation,\"}},\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-08T14:56:43.000Z\",\"published\":\"2019-07-08T14:56:43.000Z\",\"subject\":{\"en\":[\"artificial societies\",\"social credit\",\"electronic economy\",\"migration processes\",\"agent-based models\",\"big data\",\"electronic twins\"],\"ru\":[\"искусственные общества\",\"социальный кредит\",\"цифровая экономика\",\"миграционные процессы\",\"агент-ориентированное моделирование\",\"большие данные\",\"цифровые двойники\"]},\"citation\":[{\"name\":\"Gosudarstvennyj sovet. Uvedomlenie gosudarstvennogo soveta po pechati rasprostraneniya uvedomleniya plana postroeniya sistemy sotsial'nogo kredita// Finansy, finansy i audit, postroenie sistemy sotsial'nogo kredita. 2014. №21 URL: http://www.gov.cn/zhengce/content/2014-06/27/content_8913.htm \"},{\"name\":\"Gosudarstvennaya nalogovaya administratsiya Kitajskoj Narodnoj Respubliki. Chestnyj nalogoplatel'schik v spiske chesti i nezakonnye nalogoplatel'schiki v chernom spiske// Glavnoe upravlenie Gosudarstvennoj nalogovoj administratsii. 2014. URL: https://web.archive.org/web/20151227094752/http://www.chinatax.gov.cn/2013/n2925/n2957/c778860/content.html \"},{\"name\":\"Kovachi L. Bol'shoj brat 2.0. Kak Kitaj stroit tsifrovuyu diktaturu //Moskovskij tsentr Karnegi. 2017. URL: https://carnegie.ru/commentary/71546 \"},{\"name\":\"Makarov V.L. Teoreticheskie i metodologicheskie problemy iskusstvennye obschestva// EhMM, 2012, tom 48, № 3, s. 3-20. \"},{\"name\":\"Marejke Ol'berg, Shadzheda Akhmed, Bertram Lang. Kompleksnoe vnedrenie sistemy sotsial'nogo kreditovaniya Kitaya. Tsentralizovannoe planirovanie, lokal'nye ehksperementy //Merics. 2017. URL: https://www.merics.org/sites/default/files/2017-12/171212_China_Monitor_43_Social_Credit_System_Implementation.pdf \"},{\"name\":\"Narody Kitaya //URL: https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D1%8B_%D0%9A%D0%B8%D1%82%D0%B0%D1%8F \"},{\"name\":\"Chzhao Yusha. 4,9 mln lyudej s plokhim kreditnym spiskom zapretili prinimat' samolety //Global times. 2016 URL: http://www.globaltimes.cn/content/1015549.shtml \"},{\"name\":\"Persson, Torsten, G?rard Roland, and Guido Tabellini. \\\"Comparative Politics and Public Finance.\\\" //Journal of Political Economy 108, no. 6 (2000): 1121-161. doi:10.1086/317686. \"},{\"name\":\"Tiebout, Charles M. \\\"A Pure Theory of Local Expenditures.\\\" //Journal of Political Economy 64, no. 5 (1956): 416-24. \"}],\"responsibilityNotes\":{\"ru\":\"Работа выполнена при поддержке Российского фонда фундаментальных исследований, проект № 18-51-14010\"},\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[{\"href\":\"http://ras.jes.su/images/publication_images/9364/image1.jpeg\",\"identifier\":\"39396\",\"width\":807,\"height\":379,\"title\":\"image1\"}],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005514-4\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-08T14:56:43.000Z"
+  },
+  {
+    "key": "9601",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Основные методологические подходы для извлечения данных с целью обучения интеллектуальных агентов\",\"name\":{\"ru\":\"Основные методологические подходы для извлечения данных с целью обучения интеллектуальных агентов\",\"en\":\"Comparison of Technological approaches in the context of tasks related to Data Extraction\"},\"identifier\":[\"doi:10.18254/S207751800005736-8\"],\"modified\":\"1562243711\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":{\"name\":{\"ru\":\"Максим Александрович Kovalev\",\"en\":\"Maksim Kovalev\"},\"email\":\"kovmak@gmail.com\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"IQSystems\",\"en\":\"IQSystems\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:20092\",\"address\":{\"ru\":\"Российская Федерация, Москва\",\"en\":\"Russian Federation, Moscow\"}},\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-07T21:00:00.000Z\",\"published\":\"2019-07-07T21:00:00.000Z\",\"subject\":{\"en\":[\"semantic analysis\",\"pragmatic analysis\",\"full-text search\",\"data extraction\",\"intelligent agents\"],\"ru\":[\"семантический анализ\",\"прагматический анализ\",\"полнотекстовый поиск\",\"извлечение данных\",\"интеллектуальные агенты\"]},\"citation\":[{\"name\":\"https://siliconangle.com/2015/10/30/ibm-is-at-the-forefront-of-insight-economy-ibminsight/ \"},{\"name\":\"https://www.gartner.com/smarterwithgartner/how-to-tackle-dark-data/\"},{\"name\":\" https://www.technologyreview.com/s/613606/the-ai-gig-economy-is-coming-for-you/?utm_campaign=site_visitor.unpaid.engagement&utm_source=facebook&utm_medium=social_share&utm_content=2019-06-29&fbclid=IwAR0qn9U6YZBG8AaCKFTHRnhqaaRLQBGnr4fiTsXSA4ucSPNHXJeWoYDuWH8 \"},{\"name\":\"General'nyj sekretar' OON. «Mezhdunarodnaya migratsiya i razvitie» // Sem'desyat pervaya sessiya Punkt 21(b) pervonachal'nogo perechnya, «Globalizatsiya i vzaimozavisimost'», 2016 \"},{\"name\":\"Kuchuganov V.N. Ehlementy teorii assotsiativnoj semantiki // Upravlenie bol'shimi sistemami. Vypusk 40. M.: IPU RAN, 2012, S.30-48. \"},{\"name\":\"Lemov A.V. Sistema, struktura i funktsionirovanie nauchnogo termina (na materiale russkoi? lingvisticheskoi? terminologii) // Saransk: Izd-vo Mordov. un-ta, 2000, 192 s. \"},{\"name\":\"Lotman Yu.M. Lyudi i znaki. // V kn. Lotman Yu. M. Semiosfera.  SPb.: Iskusstvo-SPB, 2010,  S. 6. \"},{\"name\":\"Mitina O.V., Evdokimenko A.S. Metody analiza teksta: metodologicheskie osnovaniya i programmnaya realizatsiya // Vestnik Yuzhno-Ural'skogo gosudarstvennogo universiteta. Seriya Psikhologiya. 2010, № 40 (216), S. 29–38. \"},{\"name\":\"Osipov G.S. Priobretenie znanii intellektual'nymi sistemami: Osnovy teorii i tekhnologii. // M.: Nauka. Fizmatlit, 1997.   \"},{\"name\":\"Ofitsial'nyj blog Google https://blog.google/products/translate/higher-quality-neural-translations-bunch-more-languages/ \"},{\"name\":\"Tyon van Dejk. Yazyk. Poznanie. Kommunikatsiya. // M: LENAND, 2015.\"}],\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005736-8\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-07T21:00:00.000Z"
+  },
+  {
+    "key": "9702",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Кибер-люди и кибер-общество\",\"name\":{\"ru\":\"Кибер-люди и кибер-общество\",\"en\":\"Cyber People and Cyber Society\"},\"identifier\":[\"doi:10.18254/S207751800005834-6\"],\"modified\":\"1562782180\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":{\"name\":{\"ru\":\"Татьяна Александровна Konkova\",\"en\":\"Tatiana Konkova\"},\"email\":\"tatiasha@yandex.ru\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"младший научный сотрудник ЦЭМИ РАН, ГАУГН\",\"en\":\"Cemi RAS\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:19305\",\"address\":{\"ru\":\"Российская Федерация, Москва\",\"en\":\"Russian Federation, Moscow\"}},\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-07T21:00:00.000Z\",\"published\":\"2019-07-07T21:00:00.000Z\",\"subject\":{\"en\":[\"cyborg\",\"robot\",\"artificial intelligence\",\"avatar\"],\"ru\":[\"киборг\",\"робот\",\"искусственный интеллект\",\"аватар\"]},\"citation\":[{\"name\":\"Motorika URL: https://motorica.org/\"},{\"name\":\"IFLScience! URL: https://www.iflscience.com/technology/cockroach-cyborgs-could-help-rescue-crews-after-disasters/ \"},{\"name\":\"IFLScience! URL: https://www.iflscience.com/brain/brain-brain-interface-allows-humans-control-cockroaches-their-minds/ \"},{\"name\":\"Sanchez S., Chen-Wei Chiu , Yan Zhou , Gonzalez J., Bradleigh Vinson S., Hong Liang. Locomotion control of hybrid cockroach robots // Journal of the Royal Society Interface. 2015, Volume 12, Issue 105 \"},{\"name\":\"Mason B. Avatars: A New Program Helps Element Care Keep Seniors at Home // Merrimack Valley Magazine URL: https://www.mvmag.net/2018/04/17/element-care-avatars/ \"},{\"name\":\"Haraway D. A Cyborg Manifesto // URL: http://users.uoa.gr/~cdokou/HarawayCyborgManifesto.pdf \"},{\"name\":\"Hayles N.K. Unfinished Work: From Cyborg to Cognisphere // Theory, Culture & Society Journal. 2006, Volume 23, issue 7-8, p. 159-166 URL: https://journals.sagepub.com/doi/abs/10.1177/0263276406069229 \"},{\"name\":\"Kon'kova T.A. Kiborgi: real'naya perspektiva ili fantastika? // Iskusstvennye obschestva. 2011, T. 6, №1-4 URL: https://artsoc.jes.su/s207751800000052-6-1/ \"}],\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005834-6\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-07T21:00:00.000Z"
+  },
+  {
+    "key": "9520",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Время как общий параметр качеств субъективной реальности\",\"name\":{\"ru\":\"Время как общий параметр качеств субъективной реальности\",\"en\":\"Time as a Common Parameter of the Qualities of Subjective Reality\"},\"identifier\":[\"doi:10.18254/S207751800005656-0\"],\"modified\":\"1561713393\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":{\"name\":{\"ru\":\"Рустам Юрьевич Khasanov\",\"en\":\"Rustam Khasanov\"},\"email\":\"hasanov582@mail.ru\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"Аспирант кафедры философии и методологии науки философского факультета МГУ имени М. В.\\n            Ломоносова\\n          \",\"en\":\"Moscow state university\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:19968\",\"address\":{\"ru\":\"Российская Федерация, Москва\",\"en\":\"Russian Federation, Moscow\"}},\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-08T14:56:43.000Z\",\"published\":\"2019-07-08T14:56:43.000Z\",\"subject\":{\"en\":[\"grid-cells\",\"place-cells\",\"time cells\",\"entorhial cortex\",\"hippocampus\",\"episodic memory\",\"phenomenal time\"],\"ru\":[\"клетки времени\",\"энториальная кора\",\"гиппокамп\",\"эпизодическая память\",\"феноменальное время\",\"длительность\",\"навигационная система мозга\"]},\"citation\":[{\"name\":\"Gusserl' Eh. Fenomenologiya vnutrennego soznaniya vremeni // Sobranie sochinenij. T. 1. M., 1994. \"},{\"name\":\"Dubrovskij D. I. Soznanie, mozg, iskusstvennyj intellekt. M., 2007.\"},{\"name\":\"N'yuton I. Metod flyuksij i beskonechnykh ryadov s prilozheniem ego k geometrii krivykh linij // Khrestomatiya po istorii matematiki / pod red. A. P. Yushkevicha. M., 1977. \"},{\"name\":\"Razin A. V. Proiskhozhdenie morali: svoboda voli i nravstvennost' // Aktual'nye problemy rossijskogo prava. M., 2018. № 8 (93). S. 16–26. \"},{\"name\":\"Yurasov A. A. Vremya v strukture sub'ektivnoj real'nosti: dis. kand. filosofskikh nauk. M., 2014. \"},{\"name\":\". Buzsáki G, Moser E. I. Memory, navigation and theta-rhythm in the hippocampal-entorhinal system. Nat. Neurosci. 2013. no.15, pp. 130–138 \"},{\"name\":\"Buonomano D. Your Brain Is a Time Machine: The Neuroscience and Physics of Time. W. W. Norton, 2017. \"},{\"name\":\"Dennett D.C., Kinsbourne M., Time and the observer: The where and when of consciousness in the brain // Behav. Brain Sci. 15, 1992. pp. 183–201 \"},{\"name\":\"Dragoi G., Tonegawa S. Preplay of future place cell sequences by hippocampal cellular assemblies. Nature. 2011. Jan 20, pp. 397-401. \"},{\"name\":\"Eagleman D.M., Tse P.U., Buonomano D., Janssen P., Nobre A.C., Holcombe A.O., Time and the brain: How subjective time relates to neural time, J. Neurosci. 25, 2005. pp. 10369-10371 \"},{\"name\":\"Eagleman D.M., Tse P.U., Buonomano D., Janssen P., Nobre A.C., Holcombe A.O., Time and the brain: How subjective time relates to neural time. J. Neurosci 25, 2005. pp. 10369-10371 \"},{\"name\":\"Eichenbaum H. On the Integration of Space, Time, and Memory. Neuron. 2017 Aug 30;95(5):1007-1018 \"},{\"name\":\"Eichenbaum H. Time cells in the hippocampus: A new dimension for mapping memories. Nat. Rev. Neurosci 15, 2014. pp. 732–744 \"},{\"name\":\"Fischer, B.; Boch, R. Saccadic eye movements after extremely short reaction times in the monkey. Brain Research. 1983. 260 (1), pp. 21-26. \"},{\"name\":\"Kitamura T, Macdonald CJ, Tonegawa S. Entorhinal-hippocampal neuronal circuits bridge temporally discontiguous events. Learn Mem. 2015 Aug 18;22(9):438-43. \"},{\"name\":\"Lashley K.S., Jeffress L.A. The problem of serial order in behavior in Cerebral Mechanisms in Behavior, Ed. Wiley, 1951. pp. 112–136. \"},{\"name\":\"Moser E.I., Roudi Y., Witter M.P., Kentros C., Bonhoeffer T., Moser M.B., Grid cells and cortical representation. Nat. Rev. Neurosci. 15, 2014. pp. 466–481 \"},{\"name\":\"Muller R. A., Now: The Physics of Time. USA. NY. 2016, 270 p.\"},{\"name\":\"O’Keefe J. Place units in the hippocampus of the freely moving rat. Exp. Neurol. 1976. V. 51. P. 78–109 \"},{\"name\":\"Pastalkova E., Itskov V., Amarasingham A., and Buzsáki G. Internally generated cell assembly sequences in the rat hippocampus. Science. 2008, pp. 1322–1327 \"},{\"name\":\"Sinha C., Da Silva Sinha V., Zinken J., Sampaio W. When time is not space: The social and linguistic construction of time intervals and temporal event relations in an Amazonian culture. Lang. Cogn. 2011. no.3, pp. 137–169 \"},{\"name\":\"Traugott E.C. On the expression of spatio-temporal relations in language in Universals of Human Language II. Stanford Univ. Press. 1978, pp. 369–400. \"},{\"name\":\"Tsao, A. Jørgen S., Li Lu, Cheng W., James J. K., Moser M., Moser E. I. Integrating time from experience in the lateral entorhinal cortex. Nature. 2018, no.561, pp. 57–62 \"},{\"name\":\"Varela F.J. The Specious Present: A Neurophenomenology of Time Consciousness // Naturalizing Phenomenology. Stanford (CA). 1999. P. 273—277. \"}],\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005656-0\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-08T14:56:43.000Z"
+  },
+  {
+    "key": "9491",
+    "kind": "scholarly_article",
+    "mediaType": "application/opds+json",
+    "media_type": "application/opds+json",
+    "record": "{\"metadata\":{\"@type\":[\"https://schema.org/ScholarlyArticle\",\"https://schema.org/CreativeWork\"],\"title\":\"Механизм социального взаимодействия\",\"name\":{\"ru\":\"Механизм социального взаимодействия\",\"en\":\"Mechanism of social interaction\"},\"identifier\":[\"doi:10.18254/S207751800005630-2\"],\"modified\":\"1561461119\",\"language\":\"ru-RU\",\"numberOfPages\":0,\"author\":[{\"name\":{\"ru\":\"Никита Вадимович Shabrov\",\"en\":\"Nikita Shabrov\"},\"email\":\"ashabroff@mail.ru\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"Объединенная авиастроительная корпорация\",\"en\":\"United Aircraft Corporation\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:19912\",\"address\":{\"ru\":\"Российская Федерация, Москва\",\"en\":\"Russian Federation, Moscow\"}},{\"name\":{\"ru\":\"Ростислав Олегович Nesterov\",\"en\":\"Rostislav Nesterov\"},\"email\":\"rn@inbox.ru\",\"relCode\":\"aut\",\"affiliation\":{\"ru\":\"Индивидуальный предприниматель\",\"en\":\"Businessman\"},\"relTerm\":{\"ru\":\"автор\",\"en\":\"author\"},\"identifier\":\"urn:ras.jes.su:19926\",\"address\":{\"ru\":\"Российская Федерация, Москва\",\"en\":\"Russian Federation, Moscow\"}}],\"publisher\":[{\"name\":\"LLC Integration Education and Science\",\"identifier\":\"https://ras.jes.su\"}],\"dc:issued\":\"2019-07-08T14:56:43.000Z\",\"published\":\"2019-07-08T14:56:43.000Z\",\"subject\":{\"en\":[\"social interaction\",\"gamma distribution\",\"reflexive mechanism\",\"behavioral model\"],\"ru\":[\"социальное взаимодействие\",\"рефлексивный механизм\",\"гамма-распределение\",\"модель поведения\",\"агентная модель\"]},\"citation\":[{\"name\":\"Bazykin A. D. (1985). Matematicheskaya biofizika vzaimodejstvuyuschikh populyatsij. M.: Nauka. \"},{\"name\":\"Bakhtizin A.R. (2008) Agent-orientirovannye modeli ehkonomiki. M.: Ehkonomika.\"},{\"name\":\"Makarov V.L. (2012). Iskusstvennye obschestva // Ehkonomika i matematicheskie metody. T. 48, № 3. \"},{\"name\":\"Makarov V.L., Bakhtizin A.R. (2013) Sotsial'noe modelirovanie – novyj komp'yuternyj proryv (agent-orientirovannye modeli). M.: Ehkonomika. \"},{\"name\":\"Makarov V.L., Bakhtizin A.R., Sushko E.D., Vasenin V.A., Borisov V.A., Roganov V.A. (2016) Agent-orientirovannye modeli: mirovoj opyt i tekhnicheskie vozmozhnosti realizatsii na superkomp'yuterakh. // Vestnik Rossijskoj akademii nauk (ranee: Vestnik Akademii nauk SSSR). T.86, №3. \"},{\"name\":\"Parsons T. (2000) O strukture sotsial'nogo dejstviya. M.: Akademicheskij Proekt.\"}],\"belongsTo\":{\"series\":\"/resources/publication/ras.jes.su/9582\"}},\"images\":[{\"href\":\"http://ras.jes.su/images/publication_images/9491/image1.png\",\"identifier\":\"39723\",\"width\":513,\"height\":303,\"title\":\"image1\"},{\"href\":\"http://ras.jes.su/images/publication_images/9491/image2.png\",\"identifier\":\"39724\",\"width\":264,\"height\":64,\"title\":\"image2\"},{\"href\":\"http://ras.jes.su/images/publication_images/9491/image3.png\",\"identifier\":\"39725\",\"width\":263,\"height\":63,\"title\":\"image3\"},{\"href\":\"http://ras.jes.su/images/publication_images/9491/image4.png\",\"identifier\":\"39726\",\"width\":515,\"height\":281,\"title\":\"image4\"},{\"href\":\"http://ras.jes.su/images/publication_images/9491/image5.png\",\"identifier\":\"39727\",\"width\":494,\"height\":548,\"title\":\"image5\"},{\"href\":\"http://ras.jes.su/images/publication_images/9491/image6.png\",\"identifier\":\"39728\",\"width\":578,\"height\":243,\"title\":\"image6\"},{\"href\":\"http://ras.jes.su/images/publication_images/9491/image7.png\",\"identifier\":\"39729\",\"width\":578,\"height\":733,\"title\":\"image7\"},{\"href\":\"http://ras.jes.su/images/publication_images/9491/image8.png\",\"identifier\":\"39730\",\"width\":485,\"height\":321,\"title\":\"image8\"}],\"links\":[{\"title\":\"Текст статьи\",\"href\":\"https://s3.rusneb.ru/pubmaker/sources/ras.jes.su/4883390bdc4c29961f289b266a039965.html\",\"rel\":\"http://opds-spec.org/acquisition/open-access\"},{\"href\":\"https://doi.org/10.18254/S207751800005630-2\",\"rel\":\"alternate\",\"alt\":\"DOI\"}]}",
+    "source": "ras.jes.su",
+    "time_source": "2019-07-08T14:56:43.000Z"
+  },
+  {
+    "key_from": "science",
+    "key_to": "2077-5180",
+    "kind_from": "collection",
+    "kind_to": "periodical",
+    "relation_kind": "has_item",
+    "source_from": "catalog.rusneb.ru",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9786",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9670",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9237",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9364",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9601",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9702",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9520",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "9582",
+    "key_to": "9491",
+    "kind_from": "publication_issue",
+    "kind_to": "scholarly_article",
+    "relation_kind": "item",
+    "source_from": "ras.jes.su",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005912-2",
+    "key_to": "9786",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005804-3",
+    "key_to": "9670",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005393-1",
+    "key_to": "9237",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005514-4",
+    "key_to": "9364",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005736-8",
+    "key_to": "9601",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005834-6",
+    "key_to": "9702",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005656-0",
+    "key_to": "9520",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  },
+  {
+    "key_from": "10.18254/S207751800005630-2",
+    "key_to": "9491",
+    "kind_from": "identifier",
+    "kind_to": "scholarly_article",
+    "relation_kind": "identifies",
+    "source_from": "doi",
+    "source_to": "ras.jes.su"
+  }
+]

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE ONIXMessage SYSTEM "/d/neb-catalog/src/formats/onix/mappings/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage>
+  <Header>
+    <FromSAN>7729197301</FromSAN>
+    <FromCompany>ЭКСМО</FromCompany>
+    <ToSAN>7701023055</ToSAN>
+    <ToCompany>ООО «ТД «Библио-Глобус»</ToCompany>
+    <SentDate>20080731</SentDate>
+  </Header>
+  <Product>
+    <RecordReference>4938</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9785699114559</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>978-5-699-11455-9</IDValue>
+    </ProductIdentifier>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText>Евгений Онегин</TitleText>
+      <Subtitle>Роман в стихах, критика</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <NamesBeforeKey>А.С.</NamesBeforeKey>
+      <KeyNames>Пушкин</KeyNames>
+    </Contributor>
+    <EditionStatement>2-е изд.</EditionStatement>
+    <ContributorStatement>А. С. Пушкин</ContributorStatement>
+    <Series>
+      <TitleOfSeries>Золотая серия поэзии</TitleOfSeries>
+    </Series>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>ЭКСМО</PublisherName>
+    </Publisher>
+    <CityOfPublication>М.</CityOfPublication>
+    <PublicationDate>2008</PublicationDate>
+    <InitialPrintRun>доп. 3000</InitialPrintRun>
+    <NumberOfPages>381</NumberOfPages>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text>"Энциклопедия русской жизни" назвал Белинский роман в стихах "Евгений Онегин". И действительно, это бессмертное произведение лучше любого учебника истории живописует русскую жизнь первой половины XIX века, быт и нравы от высшего света Петербурга до патриархальной деревни.</Text>
+    </OtherText>
+    <ProductForm>BB</ProductForm>
+    <ProductFormDescription>в пер.</ProductFormDescription>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>18</Measurement>
+      <MeasureUnitCode>sm</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>12,2</Measurement>
+      <MeasureUnitCode>sm</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>03</MeasureTypeCode>
+      <Measurement>2,1</Measurement>
+      <MeasureUnitCode>sm</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>08</MeasureTypeCode>
+      <Measurement>300</Measurement>
+      <MeasureUnitCode>gr</MeasureUnitCode>
+    </Measure>
+    <Subject>
+      <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+      <SubjectSchemeName>UDC</SubjectSchemeName>
+      <SubjectCode>821.161.1</SubjectCode>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+      <SubjectSchemeName>KTK</SubjectSchemeName>
+      <SubjectCode>620</SubjectCode>
+      <SubjectHeadingText>Российская поэзия</SubjectHeadingText>
+    </Subject>
+    <MediaFile>
+      <MediaFileTypeCode>04</MediaFileTypeCode>
+      <MediaFileFormatCode>03</MediaFileFormatCode>
+      <MediaFileLinkTypeCode>06</MediaFileLinkTypeCode>
+      <MediaFileLink>Cover4938.jpg</MediaFileLink>
+    </MediaFile>
+    <SupplyDetail>
+      <ProductAvailability>20</ProductAvailability>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <PriceAmount>120</PriceAmount>
+        <TaxRatePercent1>10</TaxRatePercent1>
+      </Price>
+      <Price>
+        <PriceTypeCode>05</PriceTypeCode>
+        <PriceAmount>96</PriceAmount>
+        <DiscountPercent>20</DiscountPercent>
+      </Price>
+      <Stock>
+        <OnHand>400</OnHand>
+      </Stock>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

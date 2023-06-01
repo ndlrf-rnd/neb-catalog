@@ -1,0 +1,12 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/operation-reset-storage.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/",
+  "type": "object",
+  "description": "Reet storage operation (WARNING: NON-REVERSIBLE STORAGE REST)",
+  "properties": {
+    "type": {
+      "const": "reset-storage"
+    }
+  }
+}

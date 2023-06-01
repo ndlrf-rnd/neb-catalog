@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context",
+    {
+      "language": "en-US"
+    }
+  ],
+  "conformsTo": "https://example.com/article",
+  "type": "TechArticle",
+  "id": "http://www.w3.org/TR/tabular-data-model/",
+  "url": "http://www.w3.org/TR/2015/REC-tabular-data-model-20151217/",
+  "copyrightYear": "2015",
+  "copyrightHolder": "World Wide Web Consortium",
+  "creator": [
+    "Jeni Tennison",
+    "Gregg Kellogg",
+    "Ivan Herman"
+  ],
+  "publisher": {
+    "type": "Organization",
+    "name": "World Wide Web Consortium",
+    "id": "https://www.w3.org/"
+  },
+  "datePublished": "2015-12-17",
+  "resources": [
+    "datatypes.html",
+    "datatypes.svg",
+    "datatypes.png",
+    "diff.html",
+    {
+      "type": "LinkedResource",
+      "url": "test-utf8.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "type": "LinkedResource",
+      "url": "test.xlsx",
+      "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  ]
+}

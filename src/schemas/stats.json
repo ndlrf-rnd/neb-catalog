@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "$id": "https://catalog.rusneb.ru/schemas/stats.json",
+  "base": "https://catalog.ruseb.ru/",
+  "contentEncoding": "utf-8",
+  "contentMediaType": "application/json",
+  "description": "Aggregated records statistics",
+  "type": "object",
+  "required": [
+    "items"
+  ],
+  "attributes": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "title": "Record entity kind",
+            "$ref": "/schemas/common-parameters.json#/$defs/kind"
+          },
+          "source": {
+            "$ref": "/schemas/common-parameters.json#/$defs/source"
+          },
+          "provider": {
+            "$ref": "/schemas/common-parameters.json#/$defs/provider"
+          },
+          "updated": {
+            "title": "Count of updated records",
+            "type": "integer",
+            "minimum": 0
+          },
+          "deleted": {
+            "title": "Count of deleted records",
+            "type": "integer",
+            "minimum": 0
+          },
+          "date": {
+            "title": "Report day",
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "source",
+          "kind",
+          "provider",
+          "updated",
+          "deleted",
+          "date"
+        ]
+      }
+    }
+  }
+}

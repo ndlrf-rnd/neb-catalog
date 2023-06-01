@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://readium.org/webpub-manifest/schema/contributor-object.schema.json",
+  "title": "Contributor Object",
+  "type": "object",
+  "properties": {
+    "name": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "description": "The language in a language map must be a valid BCP 47 tag.",
+          "type": "object",
+          "patternProperties": {
+            "^[a-zA-Z0-9]+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "minProperties": 1
+        }
+      ]
+    },
+    "identifier": {
+      "type": "string",
+      "format": "uri"
+    },
+    "sortAs": {
+      "type": "string"
+    },
+    "role": {
+      "type": [
+        "string",
+        "array"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "position": {
+      "type": "number"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "link.schema.json"
+      }
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

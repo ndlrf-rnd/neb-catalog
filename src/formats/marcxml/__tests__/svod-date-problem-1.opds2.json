@@ -1,0 +1,64 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1728",
+        "deathDate": "1778",
+        "name": "Майков, Василий Иванович",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "citation": [
+        {
+          "locationWithinSource": "3948",
+          "name": "Сводный каталог русской книги гражданской печати XVIII века. 1725-1800. М., 1962-1975."
+        }
+      ],
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1722",
+          "deathDate": "1750 или 1751",
+          "name": "Шишкин, Иван Васильевич",
+          "relCode": "ant",
+          "role": "ant",
+          "relTerm": "Библиографический предшественник"
+        }
+      ],
+      "dc:issued": "1787",
+      "description": [
+        "Сюжет заимствован из переведенного И.Шишкиным романа \"История о княжне Иерониме...\"",
+        "67 с.",
+        "8°"
+      ],
+      "dimensions": "8°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/РНБ/RU\\NLR\\A1\\11362",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "67 с.",
+      "modified": "2005-02-11T17:01:28.0Z",
+      "numberOfPages": 67,
+      "published": "1787",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "М.",
+        "name": "Тип. Комп. типогр."
+      },
+      "responsibilityNotes": "Василья Майкова",
+      "restrictionAndAccessNote": "2-е изд.",
+      "subtitle": "Трагедия.",
+      "title": "Фемист и Иеронима"
+    }
+  }
+]

@@ -1,0 +1,275 @@
+(
+  $marc21OrgCode := function($someCode) {
+    [
+      $someCode ? $lookup(
+        {
+          "ргб": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+          "rumorgb": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+          "рнб": "http://id.loc.gov/vocabulary/organizations/rusprnb.html",
+          "rusprnb": "http://id.loc.gov/vocabulary/organizations/rusprnb.html",
+          "ркп": "http://id.loc.gov/vocabulary/organizations/rumorkp.html",
+          "rumorkp": "http://id.loc.gov/vocabulary/organizations/rumorkp.html"
+        },
+        $lowercase($someCode)
+      ) : undefined,
+      $someCode
+    ][0]
+  };
+  {
+    "@graph": {
+
+      "bf:Work": {
+        "bf:adminMetadata": {
+          "bf:identifiedBy": {
+            "bf:Local": {
+              "rdf:value": $."001",
+              "bf:assigner": $distinct([$."003", $."040".a]).{
+                "bf:Agent": {
+                  "rdf:about": $marc21OrgCode($)[0]
+                }
+              }
+            }
+          }
+        },
+        "bf:title": {
+          "@type": "bf:Title",
+          "bf:KeyTitle": $.["130".a, "130".g, "130".k].*,
+          "bf:MainTitle": $split($join($."245".[$.a, $.b], " "), " : ")[0],
+          "bf:Subtitle": $split($join($."245".[$.a, $.b], " "), " : ")[1],
+          "bf:ParallelTitle": $.[
+            $join($."210".["a", "b"], " "),
+            $join($."246".["a", "b"], " "),
+            "555".a
+          ].*,
+          "bf:partName": $.["130".n, "130".p, "245".n, "245".p].*,
+          "bf:partNumber": "490".v,
+          "rdfs:label": $.[
+            "240".a, "505".t,
+            "630".a, "630".b
+          ].*
+        },
+        "bf:contribution": [
+          $."100".{
+            "@type": "bf:PrimaryContribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bflc:name": $join([$.a, $.b, $.c], " "),
+              "bf:date": $split($.d, "-")
+            },
+            "bf:role":  {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/aut",
+              "rdfs:label": "Author"
+            }
+          },
+          [$."700", $."720"].{
+            "@type": "bf:Contribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bflc:name": $join([$.a, $.b, $.c], " "),
+              "bf:date": $split($.d, "-")
+            },
+            "bf:role": {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/" & $."4",
+              "rdfs:label": $join([$.e, $.g], ", ")
+            }
+          }
+        ],
+        "bf:language": {
+          "@id": "http://id.loc.gov/vocabulary/languages/" & "008"."35-37",
+          "@type": "bf:Language",
+          "rdfs:label": $."041".[$.a, $.d, $.e, $.g, $.j].*
+        },
+        "bf:note": $.[$."546".a, $."546".b, $."130".l].{
+          "@type": "bf:Note",
+          "bf:noteType": "Language",
+          "rdfs:label": $
+        }.*,
+        "bf:citationWithinSource": $.[$."510"].*.{
+          "bf:citationSource": {
+            "@type": "bf:Title",
+            "bf:KeyTitle": $.a
+          },
+          "bf:citationCoverage": {
+            "@type": "bf:Temporal",
+            "rdfs:label": $.b
+          },
+          "bf:citationLocationWithinSource": $.c
+        },
+        "bf:subject": [
+          [$."656".{
+            "@type": "madsrdf:Occupation",
+            "rdfs:label": $
+          }],
+          [$."520".{
+            "@type": "madsrdf:Summary",
+            "rdfs:label": $.a
+          }],
+          [$."600", $."610", $."611"].{
+            "@type": "bf:Work",
+            "rdfs:label": $.t
+          },
+          [$."600", $."610", $."611"].{
+            "@type": "bf:Agent",
+            "rdfs:label": [$."4", $.a, $.b, $.c, $.d, $.e]
+          },
+          [$."648".{
+            "@type": "bf:Temporal",
+            "rdfs:label": $
+          }],
+          [$."600", $."651", $."662"].{
+            "@type": "bf:Place",
+            "rdfs:label": $
+          },
+          [$."655".{
+            "@type": "bf:GenreForm",
+            "rdfs:label": $
+          }],
+          [$."653", $."650"].{
+            "@type": "bf:Topic",
+            "rdfs:label": $
+          }
+        ].*,
+        "relatedTo": $."700".t.[
+          {
+            "@type": "bf:Work",
+            "rdfs:label": $
+          }
+        ],
+        "bf:hasInstance": [
+          {
+            "@type":"bf:instance",
+            "bf:content": {
+              "@type": "bf:Content",
+              "@id": "http://id.loc.gov/vocabulary/contentTypes/" & $lookup({
+                "a": "Text",
+                "c": "NotatedMusic",
+                "d": "NotatedMusic",
+                "e": "Cartography",
+                "f": "Cartography",
+                "g": "MovingImage",
+                "i": "Audio",
+                "j": "Audio",
+                "k": "StillImage",
+                "o": "MixedMaterial",
+                "p": "MixedMaterial",
+                "r": "Object",
+                "t": "Text"
+              }, $substring($.leader, 6, 1))
+            },
+            "bf:provisionActivity": [
+              {
+                "@type": [
+                  "bf:Publication",
+                  "bf:ProvisionActivity"
+                ],
+                "bf:date": $."260".[$.c, $.g].*,
+                "bf:place": $.["044".a, "043".c, "044".c].{
+                  "@type": "bf:Place",
+                  "rdfs:label": $
+                }.*,
+                "bf:agent": {
+                  "@type": "bf:Agent",
+                  "rdfs:label": $."260".[$.b, $.a].*
+                }
+              }
+            ],
+            "bf:tableOfContents": $."505".[$.a, $.g, $.r, $.t].{
+              "@type": "bf:TableOfContents",
+              "rdfs:label": $
+            },
+            "bf:responsibilityStatement": $.["245"."$с", "505".r].*,
+            "bf:editionStatement": $."250".[$.a, $.b].*,
+            "bf:partOf": $."773",
+            "bf:hasSeries": $."490" ? [{
+                "@type": "bf:Instance",
+                "bf:title": {
+                  "@type": "bf:Title",
+                  "bf:CollectiveTitle": "490".a
+                },
+                "bf:seriesStatement": [
+                  "490".a, "440".a,
+                  "760".a, "772".a, "773".a,
+                  "800".a, "810".a, "811".a, "830".a
+                ].*,
+                "bf:firstIssue": $split($.IGNORE."490".a, "-")[0],
+                "bf:lastIssue": $split($.IGNORE."490".a, "-")[1]
+            }] : undefined,
+            "bf:dimensions": $."300".с,
+            "bf:extent": $."300".{
+              "@type": "bf:Note",
+              "rdfs:label": $.a
+            },
+            "bf:custodialHistory": $.["561"].a,
+            "bf:note": [
+              [$."300"].b.{
+                "@type": "bf:Note",
+                "bf:noteType": "Physical details",
+                "rdfs:label": $
+              },
+              [$."561", $."563", $."580", $."581", $."555"].a.{
+                "@type": "bf:Note",
+                "bf:noteType": "Physical details",
+                "rdfs:label": $
+              },
+              [$."563", $."583"].a.{
+                "@type": "bf:Note",
+                "bf:noteType": "binding",
+                "rdfs:label": $
+              },
+              [$."560", $."600"].a.{
+                "@type": "bf:Note",
+                "bf:noteType": "with",
+                "rdfs:label": $
+              },
+              ($."255" or $."500" or $."520") ? {
+                "@type": "bf:Note",
+                "bf:noteType": "description",
+                "rdfs:label": $.[
+                  $."255".$each($, function($v, $k) {($k = "ind1") or ($k = "ind2") ?  undefined: $v}),
+                  $."500".$each($, function($v, $k) {($k = "ind1") or ($k = "ind2") ?  undefined: $v}),
+                  $."520".$each($, function($v, $k) {($k = "ind1") or ($k = "ind2") ?  undefined: $v})
+                ]
+              } : undefined,
+              [$."533"].a.{
+                "@type": "bf:Note",
+                "bf:noteType": "Reproduction Note",
+                "rdfs:label": $
+              }
+            ],
+            "item": $.[
+              $.[$."852", $."851"].*.{
+                "@type": "bf:Item",
+                "bf:location": $marc21OrgCode($.a),
+                "bf:subLocation": $join($.[b, c], ", "),
+                "bf:identifiedBy": $.[
+                  p.{
+                    "@type": "bf:Barcode",
+                    "rdfs:label": $
+                  },
+                  j.{
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": $
+                  }
+                ]
+              },
+              $.IGNORE.[$."856"].u.{
+                "bf:electronicLocator": {
+                  "@type": "rdfs:Resource",
+                  "bflc:target": {
+                    "@id": $
+                  },
+                  "bf:note": {
+                    "@type": "bf:Note",
+                    "rdfs:label": "Internal Digitization Product URI (internal)"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+)

@@ -1,0 +1,100 @@
+.operations {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    max-height: 600px;
+    padding: 0;
+}
+
+.operation {
+    display: flex;
+    width: 100%;
+    max-height: 100px;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 0 2px #9da5ab;
+
+}
+
+.operation > * {
+    display: block;
+        text-align: right;
+    padding: 4px 8px;
+}
+
+.operation > .operation-id {
+
+    text-align: center;
+    width: 20%;
+    padding:0;
+    font-size: 3rem;
+    line-height: 3.0rem;
+    vertical-align: baseline;
+    font-weight: lighter;
+}
+.operation .io-cell code {
+    overflow: auto;
+    height: 100%;
+    width: auto;
+    display: block;
+}
+.operation-type {
+    font-weight: bold;
+    font-size: 1.0rem;
+    margin-right: 0.4rem;
+
+}
+
+.io-data .io-data-key {
+    font-weight: bold;
+}
+
+.io-cell {
+    background-color: #2b2b2b;
+    text-align: left;
+    vertical-align: top;
+    padding: 0;
+    border-bottom: 1px solid white;
+}
+
+.id-cell {
+    width: 20%;
+    padding-left: 2.6rem;
+}
+
+.io {
+    border: 0;
+}
+
+.io-data {
+    margin: 0 0 0 0;
+    padding: .4rem .8rem;
+}
+
+.io-data-kv {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.message-no-data {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1rem 1.25rem;
+    font-size: 1.25rem;
+}
+
+.badge {
+    height: 1.2rem;
+    border-radius: 1px;
+    margin: 0.4rem 0;
+
+    padding: 0 8px 2px;
+    /*width: 100%;*/
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+    line-height: 1rem;
+    font-size: 0.75rem;
+}

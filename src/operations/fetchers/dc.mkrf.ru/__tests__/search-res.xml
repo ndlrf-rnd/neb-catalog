@@ -1,0 +1,2387 @@
+"C:\Users\Ilya Kutukov\AppData\Local\Microsoft\WindowsApps\ubuntu1804.exe" run "/usr/bin/node /mnt/d/neb-catalog/src/dcx/feeds.js"
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0">
+  <link rel="self" href="/dcx_mkrf/atom/documents?startIndex=1&amp;itemsPerPage=10&amp;q%5Bchannel%5D%5B0%5D=channel_files_nebbooks&amp;q%5Badv%5D%5Badvmode%5D=AND&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bfield%5D=Filename&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bop%5D=CONTAINS&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bvalu%0A++++e%5D=%2Arsl0100298%2A.pdf" type="application/atom+xml"/>
+  <link rel="first" href="/dcx_mkrf/atom/documents?startIndex=1&amp;itemsPerPage=10&amp;q%5Bchannel%5D%5B0%5D=channel_files_nebbooks&amp;q%5Badv%5D%5Badvmode%5D=AND&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bfield%5D=Filename&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bop%5D=CONTAINS&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bvalu%0A++++e%5D=%2Arsl0100298%2A.pdf" type="application/atom+xml"/>
+  <link rel="previous" href="/dcx_mkrf/atom/documents?startIndex=1&amp;itemsPerPage=10&amp;q%5Bchannel%5D%5B0%5D=channel_files_nebbooks&amp;q%5Badv%5D%5Badvmode%5D=AND&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bfield%5D=Filename&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bop%5D=CONTAINS&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bvalu%0A++++e%5D=%2Arsl0100298%2A.pdf" type="application/atom+xml"/>
+  <link rel="next" href="/dcx_mkrf/atom/documents?startIndex=11&amp;itemsPerPage=10&amp;q%5Bchannel%5D%5B0%5D=channel_files_nebbooks&amp;q%5Badv%5D%5Badvmode%5D=AND&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bfield%5D=Filename&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bop%5D=CONTAINS&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bvalu%0A++++e%5D=%2Arsl0100298%2A.pdf" type="application/atom+xml"/>
+  <link rel="last" href="/dcx_mkrf/atom/documents?startIndex=4961&amp;itemsPerPage=10&amp;q%5Bchannel%5D%5B0%5D=channel_files_nebbooks&amp;q%5Badv%5D%5Badvmode%5D=AND&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bfield%5D=Filename&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bop%5D=CONTAINS&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bvalu%0A++++e%5D=%2Arsl0100298%2A.pdf" type="application/atom+xml"/>
+  <link rel="alternate" href="/dcx_mkrf/documents" type="text/html"/>
+  <link rel="search" href="/dcx_mkrf/atom/documents?searchdescription&amp;q%5Bchannel%5D%5B0%5D=channel_files_nebbooks&amp;q%5Badv%5D%5Badvmode%5D=AND&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bfield%5D=Filename&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bop%5D=CONTAINS&amp;q%5Badv%5D%5Bterm%5D%5B0%5D%5Bvalu%0A++++e%5D=%2Arsl0100298%2A.pdf" type="application/opensearchdescription+xml"/>
+  <title type="text">DC-X: Книги НЭБ: файлы</title>
+  <updated>2019-11-14T08:37:06+03:00</updated>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw6m0bs7b1dbn3cnbb</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw6m0bs7b1dbn3cnbb&amp;selected_doc_ids[]=doc77yw6m0bs7b1dbn3cnbb" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/33/9c/file77yw6m0rz6f1beh1fnbb.pdf" type="application/pdf" title="bc000000029_0002.pdf" length="166690459"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml"/>
+    <title type="text">bc000000029_0002.pdf</title>
+    <updated>2019-11-14T08:36:14+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/91/36/file77yw6pp075u1nau84nbb.jpg" width="328" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:35:59+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw6m0bs7b1dbn3cnbb" version="1.0">
+      <created>2019-11-14T08:35:59+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:36:14+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>69c0677dbccaca74305cc2111747745d</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:35:15+03:00</DateImported>
+        <Filename>bc000000029_0002.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6m0p7gw1fe3tfnbb" version="1.0">
+          <created>2019-11-14T08:35:59+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6m0bs7b1dbn3cnbb"/>
+          <hash>193b0a98b03cdc1772a4f15be72ec420</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>656</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:59+03:00</modified>
+          <size>95567</size>
+          <subpath>2019/11-14/3d/96/file77yw6m0p7gw1fe3tfnbb.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6m0rz6f1beh1fnbb" version="1.0">
+          <created>2019-11-14T08:36:01+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000029_0002.pdf</displayname>
+          <doc_id id="doc77yw6m0bs7b1dbn3cnbb"/>
+          <hash>69c0677dbccaca74305cc2111747745d</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:01+03:00</modified>
+          <size>166690459</size>
+          <subpath>2019/11-14/33/9c/file77yw6m0rz6f1beh1fnbb.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6pp075u1nau84nbb" version="1.0">
+          <created>2019-11-14T08:36:12+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6m0bs7b1dbn3cnbb"/>
+          <hash>bf60c4d10fc4145cfad42555b7b20034</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>328</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:12+03:00</modified>
+          <size>29778</size>
+          <subpath>2019/11-14/91/36/file77yw6pp075u1nau84nbb.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6m0bs7b1dbn3cnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6m0bs7b1dbn3cnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6m0bs7b1dbn3cnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6m0bs7b1dbn3cnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6m0bs7b1dbn3cnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw6m0bs7b1dbn3cnbb&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6pp075u1nau84nbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6pp075u1nau84nbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/91/36/file77yw6pp075u1nau84nbb.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw6pp075u1nau84nbb.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:36:12+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/91/36/file77yw6pp075u1nau84nbb.jpg"/>
+        <published>2019-11-14T08:36:12+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6pp075u1nau84nbb" version="1.0">
+          <created>2019-11-14T08:36:12+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6m0bs7b1dbn3cnbb"/>
+          <hash>bf60c4d10fc4145cfad42555b7b20034</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>328</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:12+03:00</modified>
+          <size>29778</size>
+          <subpath>2019/11-14/91/36/file77yw6pp075u1nau84nbb.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6m0rz6f1beh1fnbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6m0rz6f1beh1fnbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/33/9c/file77yw6m0rz6f1beh1fnbb.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000029_0002.pdf</title>
+        <updated>2019-11-14T08:36:01+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/33/9c/file77yw6m0rz6f1beh1fnbb.pdf"/>
+        <published>2019-11-14T08:36:01+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6m0rz6f1beh1fnbb" version="1.0">
+          <created>2019-11-14T08:36:01+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000029_0002.pdf</displayname>
+          <doc_id id="doc77yw6m0bs7b1dbn3cnbb"/>
+          <hash>69c0677dbccaca74305cc2111747745d</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:01+03:00</modified>
+          <size>166690459</size>
+          <subpath>2019/11-14/33/9c/file77yw6m0rz6f1beh1fnbb.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6m0p7gw1fe3tfnbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6m0p7gw1fe3tfnbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/3d/96/file77yw6m0p7gw1fe3tfnbb.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw6m0p7gw1fe3tfnbb.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6m0bs7b1dbn3cnbb" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:35:59+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/3d/96/file77yw6m0p7gw1fe3tfnbb.jpg"/>
+        <published>2019-11-14T08:35:59+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6m0p7gw1fe3tfnbb" version="1.0">
+          <created>2019-11-14T08:35:59+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6m0bs7b1dbn3cnbb"/>
+          <hash>193b0a98b03cdc1772a4f15be72ec420</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>656</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:59+03:00</modified>
+          <size>95567</size>
+          <subpath>2019/11-14/3d/96/file77yw6m0p7gw1fe3tfnbb.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw6ipsy9hwurypnb8</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw6ipsy9hwurypnb8&amp;selected_doc_ids[]=doc77yw6ipsy9hwurypnb8" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw6ipsy9hwurypnb8" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/05/04/file77yw6l2t1o671yv7nb8.pdf" type="application/pdf" title="bc000000035.pdf" length="147613297"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw6ipsy9hwurypnb8" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw6ipsy9hwurypnb8" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw6ipsy9hwurypnb8" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw6ipsy9hwurypnb8" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw6ipsy9hwurypnb8" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw6ipsy9hwurypnb8" type="application/atom+xml"/>
+    <title type="text">bc000000035.pdf</title>
+    <updated>2019-11-14T08:35:58+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/7a/94/file77yw6lfzx47b78gunb8.jpg" width="297" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:35:47+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw6ipsy9hwurypnb8" version="1.0">
+      <created>2019-11-14T08:35:47+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:35:58+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>a29b3eae23322bde2112a6efe224cc75</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:35:02+03:00</DateImported>
+        <Filename>bc000000035.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6l2ns34x8b2fnb8" version="1.0">
+          <created>2019-11-14T08:35:56+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6ipsy9hwurypnb8"/>
+          <hash>587ce19cf832a2d0c918ecfff0336ddb</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>593</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:56+03:00</modified>
+          <size>173530</size>
+          <subpath>2019/11-14/04/64/file77yw6l2ns34x8b2fnb8.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6l2t1o671yv7nb8" version="1.0">
+          <created>2019-11-14T08:35:57+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000035.pdf</displayname>
+          <doc_id id="doc77yw6ipsy9hwurypnb8"/>
+          <hash>a29b3eae23322bde2112a6efe224cc75</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:57+03:00</modified>
+          <size>147613297</size>
+          <subpath>2019/11-14/05/04/file77yw6l2t1o671yv7nb8.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6lfzx47b78gunb8" version="1.0">
+          <created>2019-11-14T08:35:57+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6ipsy9hwurypnb8"/>
+          <hash>6e87cd81ae773d0cf4655ceedc59dcb6</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>297</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:57+03:00</modified>
+          <size>42317</size>
+          <subpath>2019/11-14/7a/94/file77yw6lfzx47b78gunb8.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6ipsy9hwurypnb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6ipsy9hwurypnb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6ipsy9hwurypnb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6ipsy9hwurypnb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6ipsy9hwurypnb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw6ipsy9hwurypnb8&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6l2t1o671yv7nb8</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6l2t1o671yv7nb8" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/05/04/file77yw6l2t1o671yv7nb8.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6ipsy9hwurypnb8" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000035.pdf</title>
+        <updated>2019-11-14T08:35:57+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/05/04/file77yw6l2t1o671yv7nb8.pdf"/>
+        <published>2019-11-14T08:35:57+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6l2t1o671yv7nb8" version="1.0">
+          <created>2019-11-14T08:35:57+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000035.pdf</displayname>
+          <doc_id id="doc77yw6ipsy9hwurypnb8"/>
+          <hash>a29b3eae23322bde2112a6efe224cc75</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:57+03:00</modified>
+          <size>147613297</size>
+          <subpath>2019/11-14/05/04/file77yw6l2t1o671yv7nb8.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6lfzx47b78gunb8</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6lfzx47b78gunb8" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/7a/94/file77yw6lfzx47b78gunb8.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw6lfzx47b78gunb8.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6ipsy9hwurypnb8" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:35:57+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/7a/94/file77yw6lfzx47b78gunb8.jpg"/>
+        <published>2019-11-14T08:35:57+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6lfzx47b78gunb8" version="1.0">
+          <created>2019-11-14T08:35:57+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6ipsy9hwurypnb8"/>
+          <hash>6e87cd81ae773d0cf4655ceedc59dcb6</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>297</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:57+03:00</modified>
+          <size>42317</size>
+          <subpath>2019/11-14/7a/94/file77yw6lfzx47b78gunb8.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6l2ns34x8b2fnb8</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6l2ns34x8b2fnb8" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/04/64/file77yw6l2ns34x8b2fnb8.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw6l2ns34x8b2fnb8.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6ipsy9hwurypnb8" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:35:56+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/04/64/file77yw6l2ns34x8b2fnb8.jpg"/>
+        <published>2019-11-14T08:35:56+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6l2ns34x8b2fnb8" version="1.0">
+          <created>2019-11-14T08:35:56+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6ipsy9hwurypnb8"/>
+          <hash>587ce19cf832a2d0c918ecfff0336ddb</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>593</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:56+03:00</modified>
+          <size>173530</size>
+          <subpath>2019/11-14/04/64/file77yw6l2ns34x8b2fnb8.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw6mbqlyb100pn6nbe</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw6mbqlyb100pn6nbe&amp;selected_doc_ids[]=doc77yw6mbqlyb100pn6nbe" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw6mbqlyb100pn6nbe" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/bc/87/file77yw6q2cqvtz37f5nbe.pdf" type="application/pdf" title="bc000000024_0002.pdf" length="319572696"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw6mbqlyb100pn6nbe" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw6mbqlyb100pn6nbe" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw6mbqlyb100pn6nbe" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw6mbqlyb100pn6nbe" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw6mbqlyb100pn6nbe" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw6mbqlyb100pn6nbe" type="application/atom+xml"/>
+    <title type="text">bc000000024_0002.pdf</title>
+    <updated>2019-11-14T08:36:17+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/a8/21/file77yw6qtse071mmajlnbe.jpg" width="292" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:36:00+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw6mbqlyb100pn6nbe" version="1.0">
+      <created>2019-11-14T08:36:00+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:36:17+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>bf2f4bc8c8807c9e8a446d0ae189eea0</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:35:00+03:00</DateImported>
+        <Filename>bc000000024_0002.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6q2a7551ebxwynbe" version="1.0">
+          <created>2019-11-14T08:36:14+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6mbqlyb100pn6nbe"/>
+          <hash>7bfac14fe2d68d2c3e802c024aff50be</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>583</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:14+03:00</modified>
+          <size>1985</size>
+          <subpath>2019/11-14/1b/bc/file77yw6q2a7551ebxwynbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6q2cqvtz37f5nbe" version="1.0">
+          <created>2019-11-14T08:36:16+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000024_0002.pdf</displayname>
+          <doc_id id="doc77yw6mbqlyb100pn6nbe"/>
+          <hash>bf2f4bc8c8807c9e8a446d0ae189eea0</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:16+03:00</modified>
+          <size>319572696</size>
+          <subpath>2019/11-14/bc/87/file77yw6q2cqvtz37f5nbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6qtse071mmajlnbe" version="1.0">
+          <created>2019-11-14T08:36:17+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6mbqlyb100pn6nbe"/>
+          <hash>91b90721fdc1334c3647c13478407ff1</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>292</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:17+03:00</modified>
+          <size>623</size>
+          <subpath>2019/11-14/a8/21/file77yw6qtse071mmajlnbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6mbqlyb100pn6nbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6mbqlyb100pn6nbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6mbqlyb100pn6nbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6mbqlyb100pn6nbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw6mbqlyb100pn6nbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw6mbqlyb100pn6nbe&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6qtse071mmajlnbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6qtse071mmajlnbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/a8/21/file77yw6qtse071mmajlnbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw6qtse071mmajlnbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6mbqlyb100pn6nbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:36:17+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/a8/21/file77yw6qtse071mmajlnbe.jpg"/>
+        <published>2019-11-14T08:36:17+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6qtse071mmajlnbe" version="1.0">
+          <created>2019-11-14T08:36:17+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6mbqlyb100pn6nbe"/>
+          <hash>91b90721fdc1334c3647c13478407ff1</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>292</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:17+03:00</modified>
+          <size>623</size>
+          <subpath>2019/11-14/a8/21/file77yw6qtse071mmajlnbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6q2cqvtz37f5nbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6q2cqvtz37f5nbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/bc/87/file77yw6q2cqvtz37f5nbe.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6mbqlyb100pn6nbe" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000024_0002.pdf</title>
+        <updated>2019-11-14T08:36:16+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/bc/87/file77yw6q2cqvtz37f5nbe.pdf"/>
+        <published>2019-11-14T08:36:16+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6q2cqvtz37f5nbe" version="1.0">
+          <created>2019-11-14T08:36:16+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000024_0002.pdf</displayname>
+          <doc_id id="doc77yw6mbqlyb100pn6nbe"/>
+          <hash>bf2f4bc8c8807c9e8a446d0ae189eea0</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:16+03:00</modified>
+          <size>319572696</size>
+          <subpath>2019/11-14/bc/87/file77yw6q2cqvtz37f5nbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw6q2a7551ebxwynbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw6q2a7551ebxwynbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1b/bc/file77yw6q2a7551ebxwynbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw6q2a7551ebxwynbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw6mbqlyb100pn6nbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:36:14+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1b/bc/file77yw6q2a7551ebxwynbe.jpg"/>
+        <published>2019-11-14T08:36:14+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw6q2a7551ebxwynbe" version="1.0">
+          <created>2019-11-14T08:36:14+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw6mbqlyb100pn6nbe"/>
+          <hash>7bfac14fe2d68d2c3e802c024aff50be</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>583</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:36:14+03:00</modified>
+          <size>1985</size>
+          <subpath>2019/11-14/1b/bc/file77yw6q2a7551ebxwynbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw64qj9vc64e4cnb4</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw64qj9vc64e4cnb4&amp;selected_doc_ids[]=doc77yw64qj9vc64e4cnb4" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw64qj9vc64e4cnb4" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/bb/24/file77yw64qpe681c8jlcnb4.pdf" type="application/pdf" title="bc000000031.pdf" length="118125835"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw64qj9vc64e4cnb4" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw64qj9vc64e4cnb4" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw64qj9vc64e4cnb4" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw64qj9vc64e4cnb4" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw64qj9vc64e4cnb4" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw64qj9vc64e4cnb4" type="application/atom+xml"/>
+    <title type="text">bc000000031.pdf</title>
+    <updated>2019-11-14T08:34:58+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/60/2d/file77yw650gfzrkao69nb4.jpg" width="336" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:34:57+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw64qj9vc64e4cnb4" version="1.0">
+      <created>2019-11-14T08:34:57+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:34:58+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>bc0b37dc1a374eef2b0f26408443c9cb</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:34:10+03:00</DateImported>
+        <Filename>bc000000031.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw64qmp5i2ijiwnb4" version="1.0">
+          <created>2019-11-14T08:34:57+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64qj9vc64e4cnb4"/>
+          <hash>3d5ec4545f7fe0abd37d66ace5027012</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>672</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:57+03:00</modified>
+          <size>76033</size>
+          <subpath>2019/11-14/84/1d/file77yw64qmp5i2ijiwnb4.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw64qpe681c8jlcnb4" version="1.0">
+          <created>2019-11-14T08:34:58+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000031.pdf</displayname>
+          <doc_id id="doc77yw64qj9vc64e4cnb4"/>
+          <hash>bc0b37dc1a374eef2b0f26408443c9cb</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:58+03:00</modified>
+          <size>118125835</size>
+          <subpath>2019/11-14/bb/24/file77yw64qpe681c8jlcnb4.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw650gfzrkao69nb4" version="1.0">
+          <created>2019-11-14T08:34:58+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64qj9vc64e4cnb4"/>
+          <hash>9d2897dc3cef4e88f71581b245abb15f</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>336</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:58+03:00</modified>
+          <size>24296</size>
+          <subpath>2019/11-14/60/2d/file77yw650gfzrkao69nb4.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64qj9vc64e4cnb4&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64qj9vc64e4cnb4&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64qj9vc64e4cnb4&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64qj9vc64e4cnb4&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64qj9vc64e4cnb4&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw64qj9vc64e4cnb4&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw64qpe681c8jlcnb4</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw64qpe681c8jlcnb4" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/bb/24/file77yw64qpe681c8jlcnb4.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw64qj9vc64e4cnb4" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000031.pdf</title>
+        <updated>2019-11-14T08:34:58+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/bb/24/file77yw64qpe681c8jlcnb4.pdf"/>
+        <published>2019-11-14T08:34:58+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw64qpe681c8jlcnb4" version="1.0">
+          <created>2019-11-14T08:34:58+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000031.pdf</displayname>
+          <doc_id id="doc77yw64qj9vc64e4cnb4"/>
+          <hash>bc0b37dc1a374eef2b0f26408443c9cb</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:58+03:00</modified>
+          <size>118125835</size>
+          <subpath>2019/11-14/bb/24/file77yw64qpe681c8jlcnb4.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw650gfzrkao69nb4</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw650gfzrkao69nb4" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/60/2d/file77yw650gfzrkao69nb4.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw650gfzrkao69nb4.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw64qj9vc64e4cnb4" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:34:58+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/60/2d/file77yw650gfzrkao69nb4.jpg"/>
+        <published>2019-11-14T08:34:58+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw650gfzrkao69nb4" version="1.0">
+          <created>2019-11-14T08:34:58+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64qj9vc64e4cnb4"/>
+          <hash>9d2897dc3cef4e88f71581b245abb15f</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>336</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:58+03:00</modified>
+          <size>24296</size>
+          <subpath>2019/11-14/60/2d/file77yw650gfzrkao69nb4.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw64qmp5i2ijiwnb4</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw64qmp5i2ijiwnb4" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/84/1d/file77yw64qmp5i2ijiwnb4.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw64qmp5i2ijiwnb4.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw64qj9vc64e4cnb4" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:34:57+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/84/1d/file77yw64qmp5i2ijiwnb4.jpg"/>
+        <published>2019-11-14T08:34:57+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw64qmp5i2ijiwnb4" version="1.0">
+          <created>2019-11-14T08:34:57+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64qj9vc64e4cnb4"/>
+          <hash>3d5ec4545f7fe0abd37d66ace5027012</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>672</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:57+03:00</modified>
+          <size>76033</size>
+          <subpath>2019/11-14/84/1d/file77yw64qmp5i2ijiwnb4.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw64yi1aa5bdqznb8</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw64yi1aa5bdqznb8&amp;selected_doc_ids[]=doc77yw64yi1aa5bdqznb8" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw64yi1aa5bdqznb8" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/97/2a/file77yw650ro4k9gjn6nb8.pdf" type="application/pdf" title="bc000000029_0001.pdf" length="169044590"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw64yi1aa5bdqznb8" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw64yi1aa5bdqznb8" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw64yi1aa5bdqznb8" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw64yi1aa5bdqznb8" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw64yi1aa5bdqznb8" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw64yi1aa5bdqznb8" type="application/atom+xml"/>
+    <title type="text">bc000000029_0001.pdf</title>
+    <updated>2019-11-14T08:34:59+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/b7/ba/file77yw65fdyih1d0di7nb8.jpg" width="328" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:34:58+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw64yi1aa5bdqznb8" version="1.0">
+      <created>2019-11-14T08:34:58+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:34:59+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>1468fae9337b998bd9e5e1a1474aed84</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:34:05+03:00</DateImported>
+        <Filename>bc000000029_0001.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw650jr0n150y7lnb8" version="1.0">
+          <created>2019-11-14T08:34:58+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64yi1aa5bdqznb8"/>
+          <hash>5d204bb004cdd71c98465ccda0a59389</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>656</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:58+03:00</modified>
+          <size>90191</size>
+          <subpath>2019/11-14/7c/06/file77yw650jr0n150y7lnb8.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw650ro4k9gjn6nb8" version="1.0">
+          <created>2019-11-14T08:34:59+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000029_0001.pdf</displayname>
+          <doc_id id="doc77yw64yi1aa5bdqznb8"/>
+          <hash>1468fae9337b998bd9e5e1a1474aed84</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:59+03:00</modified>
+          <size>169044590</size>
+          <subpath>2019/11-14/97/2a/file77yw650ro4k9gjn6nb8.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw65fdyih1d0di7nb8" version="1.0">
+          <created>2019-11-14T08:34:59+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64yi1aa5bdqznb8"/>
+          <hash>7e65a5ccc4ba55b3312a74b7b5b25a13</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>328</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:59+03:00</modified>
+          <size>28051</size>
+          <subpath>2019/11-14/b7/ba/file77yw65fdyih1d0di7nb8.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64yi1aa5bdqznb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64yi1aa5bdqznb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64yi1aa5bdqznb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64yi1aa5bdqznb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw64yi1aa5bdqznb8&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw64yi1aa5bdqznb8&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw650ro4k9gjn6nb8</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw650ro4k9gjn6nb8" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/97/2a/file77yw650ro4k9gjn6nb8.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw64yi1aa5bdqznb8" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000029_0001.pdf</title>
+        <updated>2019-11-14T08:34:59+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/97/2a/file77yw650ro4k9gjn6nb8.pdf"/>
+        <published>2019-11-14T08:34:59+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw650ro4k9gjn6nb8" version="1.0">
+          <created>2019-11-14T08:34:59+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000029_0001.pdf</displayname>
+          <doc_id id="doc77yw64yi1aa5bdqznb8"/>
+          <hash>1468fae9337b998bd9e5e1a1474aed84</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:59+03:00</modified>
+          <size>169044590</size>
+          <subpath>2019/11-14/97/2a/file77yw650ro4k9gjn6nb8.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw65fdyih1d0di7nb8</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw65fdyih1d0di7nb8" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/b7/ba/file77yw65fdyih1d0di7nb8.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw65fdyih1d0di7nb8.jpg" type="image/jpeg"/>
+undefined
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw64yi1aa5bdqznb8" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:34:59+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/b7/ba/file77yw65fdyih1d0di7nb8.jpg"/>
+        <published>2019-11-14T08:34:59+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw65fdyih1d0di7nb8" version="1.0">
+          <created>2019-11-14T08:34:59+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64yi1aa5bdqznb8"/>
+          <hash>7e65a5ccc4ba55b3312a74b7b5b25a13</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>328</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:59+03:00</modified>
+          <size>28051</size>
+          <subpath>2019/11-14/b7/ba/file77yw65fdyih1d0di7nb8.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw650jr0n150y7lnb8</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw650jr0n150y7lnb8" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/7c/06/file77yw650jr0n150y7lnb8.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw650jr0n150y7lnb8.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw64yi1aa5bdqznb8" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:34:58+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/7c/06/file77yw650jr0n150y7lnb8.jpg"/>
+        <published>2019-11-14T08:34:58+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw650jr0n150y7lnb8" version="1.0">
+          <created>2019-11-14T08:34:58+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw64yi1aa5bdqznb8"/>
+          <hash>5d204bb004cdd71c98465ccda0a59389</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>656</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:58+03:00</modified>
+          <size>90191</size>
+          <subpath>2019/11-14/7c/06/file77yw650jr0n150y7lnb8.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw5u1vulz17wmnwnbe</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw5u1vulz17wmnwnbe&amp;selected_doc_ids[]=doc77yw5u1vulz17wmnwnbe" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw5u1vulz17wmnwnbe" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/d2/d3/file77yw5xhttgic74ujnbe.pdf" type="application/pdf" title="bc000000030_0002.pdf" length="122883943"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw5u1vulz17wmnwnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw5u1vulz17wmnwnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw5u1vulz17wmnwnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw5u1vulz17wmnwnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw5u1vulz17wmnwnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw5u1vulz17wmnwnbe" type="application/atom+xml"/>
+    <title type="text">bc000000030_0002.pdf</title>
+    <updated>2019-11-14T08:34:55+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/52/93/file77yw5xs0s5dltvrknbe.jpg" width="323" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:34:18+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw5u1vulz17wmnwnbe" version="1.0">
+      <created>2019-11-14T08:34:18+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:34:55+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>dd7f91d6ff52e7e969db05541aed67ac</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:33:58+03:00</DateImported>
+        <Filename>bc000000030_0002.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5x2ehe8eg8zknbe" version="1.0">
+          <created>2019-11-14T08:34:31+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5u1vulz17wmnwnbe"/>
+          <hash>19ecb176837224dc87a4aac177db5017</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>646</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:31+03:00</modified>
+          <size>2185</size>
+          <subpath>2019/11-14/e7/ea/file77yw5x2ehe8eg8zknbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5xhttgic74ujnbe" version="1.0">
+          <created>2019-11-14T08:34:32+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000030_0002.pdf</displayname>
+          <doc_id id="doc77yw5u1vulz17wmnwnbe"/>
+          <hash>dd7f91d6ff52e7e969db05541aed67ac</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:32+03:00</modified>
+          <size>122883943</size>
+          <subpath>2019/11-14/d2/d3/file77yw5xhttgic74ujnbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5xs0s5dltvrknbe" version="1.0">
+          <created>2019-11-14T08:34:34+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5u1vulz17wmnwnbe"/>
+          <hash>c47c10fcfbf6b364e94516e985faf61d</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>323</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:34+03:00</modified>
+          <size>673</size>
+          <subpath>2019/11-14/52/93/file77yw5xs0s5dltvrknbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5u1vulz17wmnwnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5u1vulz17wmnwnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5u1vulz17wmnwnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5u1vulz17wmnwnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5u1vulz17wmnwnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw5u1vulz17wmnwnbe&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5xs0s5dltvrknbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5xs0s5dltvrknbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/52/93/file77yw5xs0s5dltvrknbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5xs0s5dltvrknbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5u1vulz17wmnwnbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:34:34+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/52/93/file77yw5xs0s5dltvrknbe.jpg"/>
+        <published>2019-11-14T08:34:34+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5xs0s5dltvrknbe" version="1.0">
+          <created>2019-11-14T08:34:34+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5u1vulz17wmnwnbe"/>
+          <hash>c47c10fcfbf6b364e94516e985faf61d</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>323</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:34+03:00</modified>
+          <size>673</size>
+          <subpath>2019/11-14/52/93/file77yw5xs0s5dltvrknbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5xhttgic74ujnbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5xhttgic74ujnbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/d2/d3/file77yw5xhttgic74ujnbe.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5u1vulz17wmnwnbe" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000030_0002.pdf</title>
+        <updated>2019-11-14T08:34:32+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/d2/d3/file77yw5xhttgic74ujnbe.pdf"/>
+        <published>2019-11-14T08:34:32+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5xhttgic74ujnbe" version="1.0">
+          <created>2019-11-14T08:34:32+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000030_0002.pdf</displayname>
+          <doc_id id="doc77yw5u1vulz17wmnwnbe"/>
+          <hash>dd7f91d6ff52e7e969db05541aed67ac</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:32+03:00</modified>
+          <size>122883943</size>
+          <subpath>2019/11-14/d2/d3/file77yw5xhttgic74ujnbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5x2ehe8eg8zknbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5x2ehe8eg8zknbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/e7/ea/file77yw5x2ehe8eg8zknbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5x2ehe8eg8zknbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5u1vulz17wmnwnbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:34:31+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/e7/ea/file77yw5x2ehe8eg8zknbe.jpg"/>
+        <published>2019-11-14T08:34:31+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5x2ehe8eg8zknbe" version="1.0">
+          <created>2019-11-14T08:34:31+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5u1vulz17wmnwnbe"/>
+          <hash>19ecb176837224dc87a4aac177db5017</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>646</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:34:31+03:00</modified>
+          <size>2185</size>
+          <subpath>2019/11-14/e7/ea/file77yw5x2ehe8eg8zknbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw65ju4s11a9vexnbb</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw65ju4s11a9vexnbb&amp;selected_doc_ids[]=doc77yw65ju4s11a9vexnbb" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw65ju4s11a9vexnbb" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1d/3e/file77yw65jzofmjjq1wnbb.pdf" type="application/pdf" title="bc000000039_0002.pdf" length="357999036"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw65ju4s11a9vexnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw65ju4s11a9vexnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw65ju4s11a9vexnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw65ju4s11a9vexnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw65ju4s11a9vexnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw65ju4s11a9vexnbb" type="application/atom+xml"/>
+    <title type="text">bc000000039_0002.pdf</title>
+    <updated>2019-11-14T08:35:04+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/51/9b/file77yw66et96s5u41unbb.jpg" width="275" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:35:00+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw65ju4s11a9vexnbb" version="1.0">
+      <created>2019-11-14T08:35:00+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:35:04+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>9387c0e1b2031164a4b4697589ce2a51</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:33:52+03:00</DateImported>
+        <Filename>bc000000039_0002.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw65jxdg6ygbdmnbb" version="1.0">
+          <created>2019-11-14T08:35:00+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw65ju4s11a9vexnbb"/>
+          <hash>e69bbdb091b1504ab85fe866d90330b9</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>549</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:00+03:00</modified>
+          <size>1885</size>
+          <subpath>2019/11-14/b2/f8/file77yw65jxdg6ygbdmnbb.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw65jzofmjjq1wnbb" version="1.0">
+          <created>2019-11-14T08:35:03+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000039_0002.pdf</displayname>
+          <doc_id id="doc77yw65ju4s11a9vexnbb"/>
+          <hash>9387c0e1b2031164a4b4697589ce2a51</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:03+03:00</modified>
+          <size>357999036</size>
+          <subpath>2019/11-14/1d/3e/file77yw65jzofmjjq1wnbb.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw66et96s5u41unbb" version="1.0">
+          <created>2019-11-14T08:35:03+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw65ju4s11a9vexnbb"/>
+          <hash>c6e9f614fce012c58b5ca9c7c840c781</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>275</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:03+03:00</modified>
+          <size>598</size>
+          <subpath>2019/11-14/51/9b/file77yw66et96s5u41unbb.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw65ju4s11a9vexnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw65ju4s11a9vexnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw65ju4s11a9vexnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw65ju4s11a9vexnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw65ju4s11a9vexnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw65ju4s11a9vexnbb&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw65jzofmjjq1wnbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw65jzofmjjq1wnbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1d/3e/file77yw65jzofmjjq1wnbb.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw65ju4s11a9vexnbb" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000039_0002.pdf</title>
+        <updated>2019-11-14T08:35:03+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1d/3e/file77yw65jzofmjjq1wnbb.pdf"/>
+        <published>2019-11-14T08:35:03+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw65jzofmjjq1wnbb" version="1.0">
+          <created>2019-11-14T08:35:03+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000039_0002.pdf</displayname>
+          <doc_id id="doc77yw65ju4s11a9vexnbb"/>
+          <hash>9387c0e1b2031164a4b4697589ce2a51</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:03+03:00</modified>
+          <size>357999036</size>
+          <subpath>2019/11-14/1d/3e/file77yw65jzofmjjq1wnbb.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw66et96s5u41unbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw66et96s5u41unbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/51/9b/file77yw66et96s5u41unbb.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw66et96s5u41unbb.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw65ju4s11a9vexnbb" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:35:03+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/51/9b/file77yw66et96s5u41unbb.jpg"/>
+        <published>2019-11-14T08:35:03+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw66et96s5u41unbb" version="1.0">
+          <created>2019-11-14T08:35:03+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw65ju4s11a9vexnbb"/>
+          <hash>c6e9f614fce012c58b5ca9c7c840c781</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>275</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:03+03:00</modified>
+          <size>598</size>
+          <subpath>2019/11-14/51/9b/file77yw66et96s5u41unbb.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw65jxdg6ygbdmnbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw65jxdg6ygbdmnbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/b2/f8/file77yw65jxdg6ygbdmnbb.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw65jxdg6ygbdmnbb.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw65ju4s11a9vexnbb" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:35:00+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/b2/f8/file77yw65jxdg6ygbdmnbb.jpg"/>
+        <published>2019-11-14T08:35:00+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw65jxdg6ygbdmnbb" version="1.0">
+          <created>2019-11-14T08:35:00+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw65ju4s11a9vexnbb"/>
+          <hash>e69bbdb091b1504ab85fe866d90330b9</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>549</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:35:00+03:00</modified>
+          <size>1885</size>
+          <subpath>2019/11-14/b2/f8/file77yw65jxdg6ygbdmnbb.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw5n8ytqfz0hzrnbe</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw5n8ytqfz0hzrnbe&amp;selected_doc_ids[]=doc77yw5n8ytqfz0hzrnbe" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ab/85/file77yw5n95miq1mhhfknbe.pdf" type="application/pdf" title="bc000000038.pdf" length="20703426"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml"/>
+    <title type="text">bc000000038.pdf</title>
+    <updated>2019-11-14T08:33:54+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1c/67/file77yw5navzmq15l3egnbe.jpg" width="281" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:33:54+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw5n8ytqfz0hzrnbe" version="1.0">
+      <created>2019-11-14T08:33:54+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:33:54+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>e3ac1f25d24811a36b068cdeb5fe9f21</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:33:48+03:00</DateImported>
+        <Filename>bc000000038.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5n92s6o147sqgnbe" version="1.0">
+          <created>2019-11-14T08:33:54+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5n8ytqfz0hzrnbe"/>
+          <hash>c4683e81bfb7575d432cc0e38c1da2b4</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>562</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:54+03:00</modified>
+          <size>58092</size>
+          <subpath>2019/11-14/1e/2d/file77yw5n92s6o147sqgnbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5n95miq1mhhfknbe" version="1.0">
+          <created>2019-11-14T08:33:54+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000038.pdf</displayname>
+          <doc_id id="doc77yw5n8ytqfz0hzrnbe"/>
+          <hash>e3ac1f25d24811a36b068cdeb5fe9f21</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:54+03:00</modified>
+          <size>20703426</size>
+          <subpath>2019/11-14/ab/85/file77yw5n95miq1mhhfknbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5navzmq15l3egnbe" version="1.0">
+          <created>2019-11-14T08:33:54+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5n8ytqfz0hzrnbe"/>
+          <hash>688dc3ae2dfdf2bfe6d45b39c63b1ce9</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>281</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:54+03:00</modified>
+          <size>19340</size>
+          <subpath>2019/11-14/1c/67/file77yw5navzmq15l3egnbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5n8ytqfz0hzrnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5n8ytqfz0hzrnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5n8ytqfz0hzrnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5n8ytqfz0hzrnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5n8ytqfz0hzrnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw5n8ytqfz0hzrnbe&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5n92s6o147sqgnbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5n92s6o147sqgnbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1e/2d/file77yw5n92s6o147sqgnbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5n92s6o147sqgnbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:33:54+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1e/2d/file77yw5n92s6o147sqgnbe.jpg"/>
+        <published>2019-11-14T08:33:54+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5n92s6o147sqgnbe" version="1.0">
+          <created>2019-11-14T08:33:54+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5n8ytqfz0hzrnbe"/>
+          <hash>c4683e81bfb7575d432cc0e38c1da2b4</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>562</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:54+03:00</modified>
+          <size>58092</size>
+          <subpath>2019/11-14/1e/2d/file77yw5n92s6o147sqgnbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5n95miq1mhhfknbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5n95miq1mhhfknbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ab/85/file77yw5n95miq1mhhfknbe.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000038.pdf</title>
+        <updated>2019-11-14T08:33:54+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ab/85/file77yw5n95miq1mhhfknbe.pdf"/>
+        <published>2019-11-14T08:33:54+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5n95miq1mhhfknbe" version="1.0">
+          <created>2019-11-14T08:33:54+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000038.pdf</displayname>
+          <doc_id id="doc77yw5n8ytqfz0hzrnbe"/>
+          <hash>e3ac1f25d24811a36b068cdeb5fe9f21</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:54+03:00</modified>
+          <size>20703426</size>
+          <subpath>2019/11-14/ab/85/file77yw5n95miq1mhhfknbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5navzmq15l3egnbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5navzmq15l3egnbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1c/67/file77yw5navzmq15l3egnbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5navzmq15l3egnbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5n8ytqfz0hzrnbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:33:54+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1c/67/file77yw5navzmq15l3egnbe.jpg"/>
+        <published>2019-11-14T08:33:54+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5navzmq15l3egnbe" version="1.0">
+          <created>2019-11-14T08:33:54+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5n8ytqfz0hzrnbe"/>
+          <hash>688dc3ae2dfdf2bfe6d45b39c63b1ce9</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>281</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:54+03:00</modified>
+          <size>19340</size>
+          <subpath>2019/11-14/1c/67/file77yw5navzmq15l3egnbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw5k15k43oxxmjnbe</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw5k15k43oxxmjnbe&amp;selected_doc_ids[]=doc77yw5k15k43oxxmjnbe" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw5k15k43oxxmjnbe" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1e/2f/file77yw5k1cjjbc4mojnbe.pdf" type="application/pdf" title="bc000000037.pdf" length="129507598"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw5k15k43oxxmjnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw5k15k43oxxmjnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw5k15k43oxxmjnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw5k15k43oxxmjnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw5k15k43oxxmjnbe" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw5k15k43oxxmjnbe" type="application/atom+xml"/>
+    <title type="text">bc000000037.pdf</title>
+    <updated>2019-11-14T08:33:44+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/18/0f/file77yw5kcv4z81g4gwznbe.jpg" width="291" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:33:42+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw5k15k43oxxmjnbe" version="1.0">
+      <created>2019-11-14T08:33:42+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:33:44+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>ab530d9736ff25f57447d74a52c040ea</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:33:01+03:00</DateImported>
+        <Filename>bc000000037.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5k19iae27b3lnbe" version="1.0">
+          <created>2019-11-14T08:33:42+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5k15k43oxxmjnbe"/>
+          <hash>e71fe743e6d9043aa1846af83a156d78</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>582</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:42+03:00</modified>
+          <size>78089</size>
+          <subpath>2019/11-14/c2/22/file77yw5k19iae27b3lnbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5k1cjjbc4mojnbe" version="1.0">
+          <created>2019-11-14T08:33:43+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000037.pdf</displayname>
+          <doc_id id="doc77yw5k15k43oxxmjnbe"/>
+          <hash>ab530d9736ff25f57447d74a52c040ea</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:43+03:00</modified>
+          <size>129507598</size>
+          <subpath>2019/11-14/1e/2f/file77yw5k1cjjbc4mojnbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5kcv4z81g4gwznbe" version="1.0">
+          <created>2019-11-14T08:33:43+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5k15k43oxxmjnbe"/>
+          <hash>ec03165be5d79e5801293c6a6758197a</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>291</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:43+03:00</modified>
+          <size>23691</size>
+          <subpath>2019/11-14/18/0f/file77yw5kcv4z81g4gwznbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5k15k43oxxmjnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5k15k43oxxmjnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5k15k43oxxmjnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5k15k43oxxmjnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5k15k43oxxmjnbe&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw5k15k43oxxmjnbe&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5k1cjjbc4mojnbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5k1cjjbc4mojnbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1e/2f/file77yw5k1cjjbc4mojnbe.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5k15k43oxxmjnbe" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000037.pdf</title>
+        <updated>2019-11-14T08:33:43+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/1e/2f/file77yw5k1cjjbc4mojnbe.pdf"/>
+        <published>2019-11-14T08:33:43+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5k1cjjbc4mojnbe" version="1.0">
+          <created>2019-11-14T08:33:43+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000037.pdf</displayname>
+          <doc_id id="doc77yw5k15k43oxxmjnbe"/>
+          <hash>ab530d9736ff25f57447d74a52c040ea</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:43+03:00</modified>
+          <size>129507598</size>
+          <subpath>2019/11-14/1e/2f/file77yw5k1cjjbc4mojnbe.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5kcv4z81g4gwznbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5kcv4z81g4gwznbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/18/0f/file77yw5kcv4z81g4gwznbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5kcv4z81g4gwznbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5k15k43oxxmjnbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:33:43+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/18/0f/file77yw5kcv4z81g4gwznbe.jpg"/>
+        <published>2019-11-14T08:33:43+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5kcv4z81g4gwznbe" version="1.0">
+          <created>2019-11-14T08:33:43+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5k15k43oxxmjnbe"/>
+          <hash>ec03165be5d79e5801293c6a6758197a</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>291</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:43+03:00</modified>
+          <size>23691</size>
+          <subpath>2019/11-14/18/0f/file77yw5kcv4z81g4gwznbe.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5k19iae27b3lnbe</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5k19iae27b3lnbe" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/c2/22/file77yw5k19iae27b3lnbe.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5k19iae27b3lnbe.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5k15k43oxxmjnbe" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:33:42+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/c2/22/file77yw5k19iae27b3lnbe.jpg"/>
+        <published>2019-11-14T08:33:42+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5k19iae27b3lnbe" version="1.0">
+          <created>2019-11-14T08:33:42+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5k15k43oxxmjnbe"/>
+          <hash>e71fe743e6d9043aa1846af83a156d78</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>rgb</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>582</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:42+03:00</modified>
+          <size>78089</size>
+          <subpath>2019/11-14/c2/22/file77yw5k19iae27b3lnbe.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+    <id>http://customer.digicol.de/xmlns/dcx/document/doc77yw5dnvl2e1b3wsnbb</id>
+    <link rel="alternate" href="/dcx_mkrf/documents?doc_ids[]=doc77yw5dnvl2e1b3wsnbb&amp;selected_doc_ids[]=doc77yw5dnvl2e1b3wsnbb" type="text/html"/>
+    <link rel="self" href="/dcx_mkrf/atom/document/doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml;type=entry"/>
+    <link rel="enclosure" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ab/8c/file77yw5jdxlftikvjgnbb.pdf" type="application/pdf" title="bc000000030_0001.pdf" length="132074248"/>
+    <link rel="dcx:document_files" href="/dcx_mkrf/atom/files?q[doc_id]=doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_pubinfos" href="/dcx_mkrf/atom/pubinfos?q[doc_id]=doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_doctoutags" href="/dcx_mkrf/atom/doctoutags?q[doc_id]=doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_related" href="/dcx_mkrf/atom/documents?q[related]=1&amp;q[doc_id]=doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_locks" href="/dcx_mkrf/atom/locks?q[doc_id]=doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml"/>
+    <link rel="dcx:document_comments" href="/dcx_mkrf/atom/comments?q[doc_id]=doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml"/>
+    <title type="text">bc000000030_0001.pdf</title>
+    <updated>2019-11-14T08:33:41+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><div><img src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/93/86/file77yw5jq52771d734jnbb.jpg" width="323" height="400" alt=""/></div> </div>
+    </content>
+    <published>2019-11-14T08:33:19+03:00</published>
+    <document xmlns="http://www.digicol.com/xmlns/dcx" id="doc77yw5dnvl2e1b3wsnbb" version="1.0">
+      <created>2019-11-14T08:33:19+03:00</created>
+      <identifier></identifier>
+      <modcount>2</modcount>
+      <modified>2019-11-14T08:33:41+03:00</modified>
+      <pool_id id="dm_books"/>
+      <restore_pool_id></restore_pool_id>
+      <restore_unique></restore_unique>
+      <unique>1dceff86afcce992debd70f84d7ad59f</unique>
+      <head>
+        <Type topic="documenttype-pdf">pdf</Type>
+        <Owner topic="tmt66a2gziwbw01gt815w8">mkrf</Owner>
+        <Hotfolder topic="tmt6ldmgo1l2o9eksfavz" hotfolder_id="neb_books">Книги НЭБ</Hotfolder>
+        <DateImported>2019-11-14T08:32:48+03:00</DateImported>
+        <Filename>bc000000030_0001.pdf</Filename>
+        <WordCount>0</WordCount>
+        <CharCount>0</CharCount>
+      </head>
+      <body xmlns="http://www.w3.org/1999/xhtml"/>
+      <files>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5jduq4ieu1p3nbb" version="1.0">
+          <created>2019-11-14T08:33:40+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5dnvl2e1b3wsnbb"/>
+          <hash>19ecb176837224dc87a4aac177db5017</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>646</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:40+03:00</modified>
+          <size>2185</size>
+          <subpath>2019/11-14/ef/90/file77yw5jduq4ieu1p3nbb.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5jdxlftikvjgnbb" version="1.0">
+          <created>2019-11-14T08:33:41+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000030_0001.pdf</displayname>
+          <doc_id id="doc77yw5dnvl2e1b3wsnbb"/>
+          <hash>1dceff86afcce992debd70f84d7ad59f</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:41+03:00</modified>
+          <size>132074248</size>
+          <subpath>2019/11-14/ab/8c/file77yw5jdxlftikvjgnbb.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5jq52771d734jnbb" version="1.0">
+          <created>2019-11-14T08:33:41+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5dnvl2e1b3wsnbb"/>
+          <hash>c47c10fcfbf6b364e94516e985faf61d</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>323</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:41+03:00</modified>
+          <size>673</size>
+          <subpath>2019/11-14/93/86/file77yw5jq52771d734jnbb.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </files>
+    </document>
+    <feed xmlns:dcx="http://www.digicol.com/xmlns/dcx" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:fh="http://purl.org/syndication/history/1.0" rel="dcx:document_files_master">
+      <link rel="self" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5dnvl2e1b3wsnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="first" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5dnvl2e1b3wsnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="previous" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5dnvl2e1b3wsnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="next" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5dnvl2e1b3wsnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="last" href="/dcx_mkrf/atom/files?startIndex=1&amp;itemsPerPage=10&amp;q%5Bdoc_id%5D=doc77yw5dnvl2e1b3wsnbb&amp;q%5Bvariant%5D=master" type="application/atom+xml"/>
+      <link rel="alternate" href="/dcx_mkrf/files" type="text/html"/>
+      <link rel="search" href="/dcx_mkrf/atom/files?searchdescription&amp;q%5Bdoc_id%5D=doc77yw5dnvl2e1b3wsnbb&amp;q%5Bvariant%5D=master" type="application/opensearchdescription+xml"/>
+      <title type="text">DCX_File</title>
+      <updated>2019-11-14T08:37:06+03:00</updated>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5jdxlftikvjgnbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5jdxlftikvjgnbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ab/8c/file77yw5jdxlftikvjgnbb.pdf" type="application/pdf"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml;type=entry"/>
+        <title type="text">bc000000030_0001.pdf</title>
+        <updated>2019-11-14T08:33:41+03:00</updated>
+        <content type="application/pdf" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ab/8c/file77yw5jdxlftikvjgnbb.pdf"/>
+        <published>2019-11-14T08:33:41+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5jdxlftikvjgnbb" version="1.0">
+          <created>2019-11-14T08:33:41+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname>bc000000030_0001.pdf</displayname>
+          <doc_id id="doc77yw5dnvl2e1b3wsnbb"/>
+          <hash>1dceff86afcce992debd70f84d7ad59f</hash>
+          <identifier></identifier>
+          <info>
+            <DisplayPath>RuSpRNB</DisplayPath>
+            <clipping_path>0</clipping_path>
+            <exif/>
+            <pdf>
+              <PDFVersion>1.4</PDFVersion>
+            </pdf>
+          </info>
+          <mimetype>application/pdf</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:41+03:00</modified>
+          <size>132074248</size>
+          <subpath>2019/11-14/ab/8c/file77yw5jdxlftikvjgnbb.pdf</subpath>
+          <type>original</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5jq52771d734jnbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5jq52771d734jnbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/93/86/file77yw5jq52771d734jnbb.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5jq52771d734jnbb.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:33:41+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/93/86/file77yw5jq52771d734jnbb.jpg"/>
+        <published>2019-11-14T08:33:41+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5jq52771d734jnbb" version="1.0">
+          <created>2019-11-14T08:33:41+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5dnvl2e1b3wsnbb"/>
+          <hash>c47c10fcfbf6b364e94516e985faf61d</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>400</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>323</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:41+03:00</modified>
+          <size>673</size>
+          <subpath>2019/11-14/93/86/file77yw5jq52771d734jnbb.jpg</subpath>
+          <type>thumbnail</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <entry xmlns:dcx="http://www.digicol.com/xmlns/dcx">
+        <id>http://customer.digicol.de/xmlns/dcx/file/file77yw5jduq4ieu1p3nbb</id>
+        <link rel="self" href="/dcx_mkrf/atom/file/file77yw5jduq4ieu1p3nbb" type="application/atom+xml;type=entry"/>
+        <link rel="edit-media" href="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ef/90/file77yw5jduq4ieu1p3nbb.jpg" type="image/jpeg"/>
+        <link rel="document-file-with-updated-metadata" href="/dcx_mkrf/atom/documentfilewithupdatedmetadata/file77yw5jduq4ieu1p3nbb.jpg" type="image/jpeg"/>
+        <link rel="dcx:document" href="/dcx_mkrf/atom/document/doc77yw5dnvl2e1b3wsnbb" type="application/atom+xml;type=entry"/>
+        <updated>2019-11-14T08:33:40+03:00</updated>
+        <content type="image/jpeg" src="https://dc-x2.mkrf.ru/device_mkrf/dev1/2019/11-14/ef/90/file77yw5jduq4ieu1p3nbb.jpg"/>
+        <published>2019-11-14T08:33:40+03:00</published>
+        <file xmlns="http://www.digicol.com/xmlns/dcx" id="file77yw5jduq4ieu1p3nbb" version="1.0">
+          <created>2019-11-14T08:33:40+03:00</created>
+          <current>1</current>
+          <derivedfrom id=""/>
+          <dev_id id="dev1"/>
+          <displayname></displayname>
+          <doc_id id="doc77yw5dnvl2e1b3wsnbb"/>
+          <hash>19ecb176837224dc87a4aac177db5017</hash>
+          <identifier></identifier>
+          <info>
+            <ImageBits>8</ImageBits>
+            <ImageColorspace>gray</ImageColorspace>
+            <ImageHeight>800</ImageHeight>
+            <ImageOrientation>p</ImageOrientation>
+            <ImageWidth>646</ImageWidth>
+          </info>
+          <mimetype>image/jpeg</mimetype>
+          <modcount>1</modcount>
+          <modified>2019-11-14T08:33:40+03:00</modified>
+          <size>2185</size>
+          <subpath>2019/11-14/ef/90/file77yw5jduq4ieu1p3nbb.jpg</subpath>
+          <type>layout</type>
+          <variant>master</variant>
+          <version>1</version>
+        </file>
+      </entry>
+      <fh:complete/>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+      <opensearch:totalResults>3</opensearch:totalResults>
+    </feed>
+  </entry>
+  <opensearch:startIndex>1</opensearch:startIndex>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>4966</opensearch:totalResults>
+</feed>

@@ -1,0 +1,809 @@
+<http://udcdata.info/028515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/028515> <http://www.w3.org/2004/02/skos/core#notation> "534.5" .
+<http://udcdata.info/028515> <http://www.w3.org/2004/02/skos/core#prefLabel> "Сложение колебаний"@ru .
+<http://udcdata.info/028515> <http://www.w3.org/2004/02/skos/core#prefLabel> "Composition of vibrations"@en .
+<http://udcdata.info/034457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/034457> <http://www.w3.org/2004/02/skos/core#notation> "561" .
+<http://udcdata.info/034457> <http://www.w3.org/2004/02/skos/core#prefLabel> "Палеоботаника. Систематика ископаемых растений"@ru .
+<http://udcdata.info/034457> <http://www.w3.org/2004/02/skos/core#prefLabel> "Systematic palaeobotany"@en .
+<http://udcdata.info/033818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/033818> <http://www.w3.org/2004/02/skos/core#notation> "551.58" .
+<http://udcdata.info/033818> <http://www.w3.org/2004/02/skos/core#prefLabel> "Климатология"@ru .
+<http://udcdata.info/033818> <http://www.w3.org/2004/02/skos/core#prefLabel> "Climatology"@en .
+<http://udcdata.info/077117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/077117> <http://www.w3.org/2004/02/skos/core#notation> "821.214" .
+<http://udcdata.info/077117> <http://www.w3.org/2004/02/skos/core#prefLabel> "Современная индийская литература"@ru .
+<http://udcdata.info/077117> <http://www.w3.org/2004/02/skos/core#prefLabel> "Literature of modern Indic languages"@en .
+<http://udcdata.info/015944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/015944> <http://www.w3.org/2004/02/skos/core#notation> "176" .
+<http://udcdata.info/015944> <http://www.w3.org/2004/02/skos/core#prefLabel> "Сексуальная этика. Сексуальная мораль"@ru .
+<http://udcdata.info/015944> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sexual ethics. Sexual morality"@en .
+<http://udcdata.info/032561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/032561> <http://www.w3.org/2004/02/skos/core#notation> "548/549" .
+<http://udcdata.info/032561> <http://www.w3.org/2004/02/skos/core#prefLabel> "Минералогические науки. Кристаллография. Минералогия"@ru .
+<http://udcdata.info/032561> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mineralogical sciences. Crystallography. Mineralogy"@en .
+<http://udcdata.info/032606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/032606> <http://www.w3.org/2004/02/skos/core#notation> "548.4" .
+<http://udcdata.info/032606> <http://www.w3.org/2004/02/skos/core#prefLabel> "Дефекты в кристаллах"@ru .
+<http://udcdata.info/032606> <http://www.w3.org/2004/02/skos/core#prefLabel> "Irregularities in crystals"@en .
+<http://udcdata.info/039738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/039738> <http://www.w3.org/2004/02/skos/core#notation> "616.5" .
+<http://udcdata.info/039738> <http://www.w3.org/2004/02/skos/core#prefLabel> "Кожа. Наружные покровы тела. Дерматология. Кожные болезни"@ru .
+<http://udcdata.info/039738> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skin. Common integument. Clinical dermatology. Cutaneous complaints"@en .
+<http://udcdata.info/028263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/028263> <http://www.w3.org/2004/02/skos/core#notation> "533" .
+<http://udcdata.info/028263> <http://www.w3.org/2004/02/skos/core#prefLabel> "Механика газов. Аэродинамика. Физика плазмы"@ru .
+<http://udcdata.info/028263> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mechanics of gases. Aeromechanics. Plasma physics"@en .
+<http://udcdata.info/033456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/033456> <http://www.w3.org/2004/02/skos/core#notation> "551.46" .
+<http://udcdata.info/033456> <http://www.w3.org/2004/02/skos/core#prefLabel> "Океанология. Рельеф морского дна. Дно океана"@ru .
+<http://udcdata.info/033456> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical oceanography. Submarine topography. Ocean floor"@en .
+<http://udcdata.info/027081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/027081> <http://www.w3.org/2004/02/skos/core#notation> "519.8" .
+<http://udcdata.info/027081> <http://www.w3.org/2004/02/skos/core#prefLabel> "Исследование операций"@ru .
+<http://udcdata.info/027081> <http://www.w3.org/2004/02/skos/core#prefLabel> "Operational research (OR): mathematical theories and methods"@en .
+<http://udcdata.info/067408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/067408> <http://www.w3.org/2004/02/skos/core#notation> "81`23" .
+<http://udcdata.info/067408> <http://www.w3.org/2004/02/skos/core#prefLabel> "Психолингвистика. Психология языка"@ru .
+<http://udcdata.info/067408> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psycholinguistics. Psychology of language"@en .
+<http://udcdata.info/037116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/037116> <http://www.w3.org/2004/02/skos/core#notation> "599" .
+<http://udcdata.info/037116> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mammalia. Млекопитающие"@ru .
+<http://udcdata.info/037116> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mammalia (Mammals)"@en .
+<http://udcdata.info/066316> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/066316> <http://www.w3.org/2004/02/skos/core#notation> "781.6" .
+<http://udcdata.info/066316> <http://www.w3.org/2004/02/skos/core#prefLabel> "Общие вопросы композиции и интерпретации"@ru .
+<http://udcdata.info/066316> <http://www.w3.org/2004/02/skos/core#prefLabel> "General questions of composition and interpretation"@en .
+<http://udcdata.info/013373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/013373> <http://www.w3.org/2004/02/skos/core#notation> "001.18" .
+<http://udcdata.info/013373> <http://www.w3.org/2004/02/skos/core#prefLabel> "Будущее науки. Прогноз. Научное предвидение"@ru .
+<http://udcdata.info/013373> <http://www.w3.org/2004/02/skos/core#prefLabel> "Future of knowledge"@en .
+<http://udcdata.info/037198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/037198> <http://www.w3.org/2004/02/skos/core#notation> "599.72" .
+<http://udcdata.info/037198> <http://www.w3.org/2004/02/skos/core#prefLabel> "Perissodactyla. Непарнокопытные"@ru .
+<http://udcdata.info/037198> <http://www.w3.org/2004/02/skos/core#prefLabel> "Perissodactyla (Odd-toed ungulates)"@en .
+<http://udcdata.info/065295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/065295> <http://www.w3.org/2004/02/skos/core#notation> "761" .
+<http://udcdata.info/065295> <http://www.w3.org/2004/02/skos/core#prefLabel> "Гравюра высокой печати (выпуклая)"@ru .
+<http://udcdata.info/065295> <http://www.w3.org/2004/02/skos/core#prefLabel> "Relief techniques"@en .
+<http://udcdata.info/039796> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/039796> <http://www.w3.org/2004/02/skos/core#notation> "616.6" .
+<http://udcdata.info/039796> <http://www.w3.org/2004/02/skos/core#prefLabel> "Заболевания мочеполовой системы"@ru .
+<http://udcdata.info/039796> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pathology of the urogenital system. Urinary and sexual (genital) complaints. Urology"@en .
+<http://udcdata.info/018846> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/018846> <http://www.w3.org/2004/02/skos/core#notation> "311.4" .
+<http://udcdata.info/018846> <http://www.w3.org/2004/02/skos/core#prefLabel> "Статистика отдельных организаций и учреждений"@ru .
+<http://udcdata.info/018846> <http://www.w3.org/2004/02/skos/core#prefLabel> "Private statistics"@en .
+<http://udcdata.info/053290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/053290> <http://www.w3.org/2004/02/skos/core#notation> "642" .
+<http://udcdata.info/053290> <http://www.w3.org/2004/02/skos/core#prefLabel> "Питание. Время приема пищи. Столовая посуда"@ru .
+<http://udcdata.info/053290> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meals and mealtimes. Tableware"@en .
+<http://udcdata.info/028264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/028264> <http://www.w3.org/2004/02/skos/core#notation> "533.1" .
+<http://udcdata.info/028264> <http://www.w3.org/2004/02/skos/core#prefLabel> "Свойства газов"@ru .
+<http://udcdata.info/028264> <http://www.w3.org/2004/02/skos/core#prefLabel> "Properties of gases"@en .
+<http://udcdata.info/035450> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/035450> <http://www.w3.org/2004/02/skos/core#notation> "581" .
+<http://udcdata.info/035450> <http://www.w3.org/2004/02/skos/core#prefLabel> "Общая ботаника"@ru .
+<http://udcdata.info/035450> <http://www.w3.org/2004/02/skos/core#prefLabel> "General botany"@en .
+<http://udcdata.info/038224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/038224> <http://www.w3.org/2004/02/skos/core#notation> "614.3" .
+<http://udcdata.info/038224> <http://www.w3.org/2004/02/skos/core#prefLabel> "Санитарный надзор и контроль"@ru .
+<http://udcdata.info/038224> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sanitary inspection and control"@en .
+<http://udcdata.info/036786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/036786> <http://www.w3.org/2004/02/skos/core#notation> "596.2" .
+<http://udcdata.info/036786> <http://www.w3.org/2004/02/skos/core#prefLabel> "Urochordata. Tunicata. Оболочники. Туникаты. Ascidiacea. Асцидии. Thaliascea. Пелагические оболочники. Сальпы. Larvacea"@ru .
+<http://udcdata.info/036786> <http://www.w3.org/2004/02/skos/core#prefLabel> "Urochordata (Tunicata)"@en .
+<http://udcdata.info/077122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/077122> <http://www.w3.org/2004/02/skos/core#notation> "821.4" .
+<http://udcdata.info/077122> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература афро-азиатских, нило-сахарских, конго-кордофанских, койсанских языков"@ru .
+<http://udcdata.info/077122> <http://www.w3.org/2004/02/skos/core#prefLabel> "Literature of Afro-Asiatic, Nilo-Saharan, Congo-Kordofanian, Khoisan languages"@en .
+<http://udcdata.info/036007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/036007> <http://www.w3.org/2004/02/skos/core#notation> "582.7" .
+<http://udcdata.info/036007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rosidae. Розиды"@ru .
+<http://udcdata.info/036007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rosidae"@en .
+<http://udcdata.info/027613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/027613> <http://www.w3.org/2004/02/skos/core#notation> "528.5" .
+<http://udcdata.info/027613> <http://www.w3.org/2004/02/skos/core#prefLabel> "Геодезические инструменты и приборы"@ru .
+<http://udcdata.info/027613> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geodetic instruments and equipment"@en .
+<http://udcdata.info/028935> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/028935> <http://www.w3.org/2004/02/skos/core#notation> "536.1" .
+<http://udcdata.info/028935> <http://www.w3.org/2004/02/skos/core#prefLabel> "Общая теория теплоты"@ru .
+<http://udcdata.info/028935> <http://www.w3.org/2004/02/skos/core#prefLabel> "General theory of heat"@en .
+<http://udcdata.info/067938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://udcdata.info/067938> <http://www.w3.org/2004/02/skos/core#notation> "821.134.3" .
+<http://udcdata.info/067938> <http://www.w3.org/2004/02/skos/core#prefLabel> "Португальская литература"@ru .
+<http://udcdata.info/067938> <http://www.w3.org/2004/02/skos/core#prefLabel> "Portuguese literature"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Ш)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Швейцария"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Швейцария"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Швейцария"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%94%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%97%D0%B0%D0%BF%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9B%D1%8E%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Шв)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Швеция"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Швеция"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Швеция"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%94%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%97%D0%B0%D0%BF%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9B%D1%8E%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Ю)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Югославия. Страны на территории Югославии"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Югославия. Страны на территории Югославии"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Югославия. Страны на территории Югославии"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%94%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%97%D0%B0%D0%BF%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9B%D1%8E%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(41)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Северная и Северо-Западная Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Северная и Северо-Западная Европа"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Северная и Северо-Западная Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%94%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%97%D0%B0%D0%BF%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9B%D1%8E%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9D%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Бл-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Болгария -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Болгария -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%91%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Вл-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Великобритания -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Великобритания -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BB%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Вн-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Венгрия -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Венгрия -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%92%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Ге-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- ГДР (1949 - 1990) -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- ГДР (1949 - 1990) -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%93%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Ис-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Испания -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Испания -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%81%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Ит-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Италия -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Италия -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%98%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4П-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Польша -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Польша -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4П-4)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Польша -- Области, районы и воеводства"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Польша -- Области, районы и воеводства"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Области, районы и воеводства"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-2%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F-4%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%9F%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Р-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Румыния -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Румыния -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Р-4)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Румыния -- Уезды и области"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Румыния -- Уезды и области"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Уезды и области"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-2%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0-4%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Фр-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Франция -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Франция -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A4%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Че-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Чехословакия. Чехия. Словакия -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Чехословакия. Чехия. Словакия -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A7%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Шв-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Швеция -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Швеция -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%A8%D0%B2%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(4Ю-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Югославия. Страны на территории Югославии -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Югославия. Страны на территории Югославии -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%284%D0%AE%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%28411%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%28411%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(411)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%28411%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Северная и Северо-Западная Европа -- Скандинавские страны в целом"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%28411%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Европа -- Северная и Северо-Западная Европа -- Скандинавские страны в целом"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%28411%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Скандинавские страны в целом"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%28411%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%2841%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(7Бр)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- Бразилия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- Бразилия"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Бразилия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(7Кан)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- Канада"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- Канада"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Канада"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(7США)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- США"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%91%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%9A%D0%B0%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90-2%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90-2%29> <http://www.w3.org/2004/02/skos/core#notation> "Я23(7США-2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- США -- Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90-2%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Страноведческие справочники. Путеводители. Адресные книги. Адрес-календари -- Отдельные зарубежные страны -- Америка -- США -- Города"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90-2%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Города"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90-2%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF23%287%D0%A1%D0%A8%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(0)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Все страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Все страны"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Все страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Россия. СССР. Российская Федерация. Страны на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Россия. СССР. Российская Федерация. Страны на территории СССР"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Россия. СССР. Российская Федерация. Страны на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(4/8)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%D0%A0%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(2Р)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Россия. СССР. Российская Федерация. Страны на территории СССР -- Российская Федерация"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Россия. СССР. Российская Федерация. Страны на территории СССР -- Российская Федерация"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Российская Федерация"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(4)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Европа"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(5)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Азия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Азия"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Азия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(6)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Африка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Африка"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Африка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(7)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(8)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Австралия и Океания"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Австралия и Океания"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Австралия и Океания"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%288%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%D0%92%D0%BB%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%D0%92%D0%BB%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(4Вл)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%D0%92%D0%BB%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Европа -- Великобритания"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%D0%92%D0%BB%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Европа -- Великобритания"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%D0%92%D0%BB%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Великобритания"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%D0%92%D0%BB%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(5Ид)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Азия -- Индия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Азия -- Индия"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Индия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(5Кит)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Азия -- Китай"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Азия -- Китай"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Китай"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%98%D0%B4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%D0%95%D0%B3%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%D0%95%D0%B3%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(6Ег)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%D0%95%D0%B3%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Африка -- Египет"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%D0%95%D0%B3%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Африка -- Египет"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%D0%95%D0%B3%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Египет"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%D0%95%D0%B3%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%286%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(7Кан)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка -- Канада"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка -- Канада"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Канада"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(7США)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка -- США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка -- США"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/2004/02/skos/core#notation> "Я24(70)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка -- Латинская Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Ежегодники и альманахи справочного характера -- Отдельные зарубежные страны -- Америка -- Латинская Америка"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Латинская Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%9A%D0%B0%D0%BD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%D0%A1%D0%A8%D0%90%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%2870%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF24%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Россия. СССР. Российская Федерация. Страны на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Россия. СССР. Российская Федерация. Страны на территории СССР"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Россия. СССР. Российская Федерация. Страны на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(4/8)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%D0%A0%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(2Р)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Россия. СССР. Российская Федерация. Страны на территории СССР -- Российская Федерация"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Россия. СССР. Российская Федерация. Страны на территории СССР -- Российская Федерация"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Российская Федерация"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(4)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Европа"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(5)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Азия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Азия"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Азия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(7)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Америка"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(4Че)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Европа -- Чехословакия. Чехия. Словакия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Европа -- Чехословакия. Чехия. Словакия"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Чехословакия. Чехия. Словакия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(4Фр)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Европа -- Франция"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Европа -- Франция"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Франция"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A7%D0%B5%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%D0%A4%D1%80%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%D0%98%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(5И)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Азия -- Израиль"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Азия -- Израиль"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Израиль"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#notation> "Я25(7США)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Америка -- США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Справочные издания -- Календари (месяцесловы) -- Отдельные зарубежные страны -- Америка -- США"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF25%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#notation> "Я41" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Серии"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Серии"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Серии"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF4> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#notation> "Я43" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Сборники произведений разных авторов"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF4> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#notation> "Я44" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Собрания сочинений и сборники произведений одного автора"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Собрания сочинений и сборники произведений одного автора"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Собрания сочинений и сборники произведений одного автора"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF4> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#notation> "Я48" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Собрания оттисков, вырезок и т.п."@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Собрания оттисков, вырезок и т.п."@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Собрания оттисков, вырезок и т.п."@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF41> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF44> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF48> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF4> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(0)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Все страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Все страны"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Все страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Россия. СССР. Российская Федерация. Страны на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Россия. СССР. Российская Федерация. Страны на территории СССР"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Россия. СССР. Российская Федерация. Страны на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(4/8)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#notation> "Я431" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п."@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п."@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п."@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#notation> "Я434" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники, изданные \"в честь\" или в память\" отдельных лиц"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники, изданные \"в честь\" или в память\" отдельных лиц"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Сборники, изданные \"в честь\" или в память\" отдельных лиц"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#notation> "Я437" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники статей из периодических изданий"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники статей из периодических изданий"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Сборники статей из периодических изданий"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#notation> "Я438" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники цитат, мыслей, афоризмов и т.п."@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники цитат, мыслей, афоризмов и т.п."@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Сборники цитат, мыслей, афоризмов и т.п."@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF434> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF437> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF438> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%D0%A0%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(2Р)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Россия. СССР. Российская Федерация. Страны на территории СССР -- Российская Федерация"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Россия. СССР. Российская Федерация. Страны на территории СССР -- Российская Федерация"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Российская Федерация"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%D0%A0%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(4)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Европа"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Европа"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(5)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Азия"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(7)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Америка"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Америка"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(4Г)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Европа -- Германия (до 1949 г.)"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Европа -- Германия (до 1949 г.)"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Германия (до 1949 г.)"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(4Ф)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Европа -- ФРГ (1949- )"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Европа -- ФРГ (1949- )"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "ФРГ (1949- )"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%93%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%D0%A4%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%284%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(5И)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия -- Израиль"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия -- Израиль"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Израиль"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(5Кит)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия -- Китай"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия -- Китай"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Китай"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(5Я)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия -- Япония"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Азия -- Япония"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Япония"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%98%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%9A%D0%B8%D1%82%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%D0%AF%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%285%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#notation> "Я43(7США)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Америка -- США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Отдельные зарубежные страны -- Америка -- США"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "США"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%D0%A1%D0%A8%D0%90%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF43%287%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/2004/02/skos/core#notation> "Я431(0)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Международные конгрессы, съезды, конференции"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Международные конгрессы, съезды, конференции"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Международные конгрессы, съезды, конференции"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/2004/02/skos/core#notation> "Я431(2)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Конгрессы, съезды, конференции России, СССР, стран на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Конгрессы, съезды, конференции России, СССР, стран на территории СССР"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Конгрессы, съезды, конференции России, СССР, стран на территории СССР"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/2004/02/skos/core#notation> "Я431(4/8)" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Отдельные зарубежные страны"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Отдельные зарубежные страны"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%280%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%284%2F8%29> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#notation> "Я431(2)1" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Конгрессы, съезды, конференции России, СССР, стран на территории СССР -- Труды, изданные академиями наук"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Конгрессы, съезды, конференции России, СССР, стран на территории СССР -- Труды, изданные академиями наук"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Труды, изданные академиями наук"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%D0%90%2F%D0%AD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#notation> "Я431(2)3" .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Конгрессы, съезды, конференции России, СССР, стран на территории СССР -- Труды, изданные высшими учебными заведениями"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#prefLabel> "Литература универсального содержания -- Серии. Сборники. Собрания сочинений -- Сборники произведений разных авторов -- Сборники докладов, тезисов и аннотаций докладов, прочитанных на конгрессе, съезде, конференции и т.п. -- Конгрессы, съезды, конференции России, СССР, стран на территории СССР -- Труды, изданные высшими учебными заведениями"@en .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Труды, изданные высшими учебными заведениями"@ru .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%291> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%D0%A0%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%D0%90%2F%D0%AD%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%293> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%29> .
+<http://lod.rsl.ru/bbkgsk/concepts/%D0%AF431%282%D0%A0%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .

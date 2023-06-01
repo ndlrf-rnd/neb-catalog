@@ -1,0 +1,702 @@
+[
+  {
+    "@context": "https://readium.org/webpub-manifest/context.jsonld",
+    "metadata": {
+      "@type": [
+        "https://schema.org/CreativeWork",
+        "https://schema.org/Audiobook"
+      ],
+      "abridged": false,
+      "identifier": [
+        "urn:litres:173327",
+        "urn:isbn:978-5-457-57384-0",
+        "ef36130d-077d-102c-99a2-0288a49f2f10"
+      ],
+      "contentRating": {
+        "@type": "https://schema.org/contentRating",
+        "value": 12,
+        "description": "Restricted for persons younger than given years value"
+      },
+      "rating": {
+        "@type": "https://schema.org/AggregateRating",
+        "ratingValue": 15269,
+        "bestRating": 100500132,
+        "worstRating": 0,
+        "ratingExplanation": "рейтинг книги, выставляемый на основе нескольких показателей, на основе объема продаж книги в течение года, популярности автора книги, оценок пользователей и др. и отражающий реальную популярность книги среди пользователей «ЛитРес». Параметр может принимать целые значение от 0 до ∞"
+      },
+      "schema:conditionsOfAccess": "Available",
+      "published": "1895-01-01",
+      "modified": "2019-08-13 13:49:58",
+      "duration": 62756,
+      "title": "Дракула (инсценировка)",
+      "description": "Роман Брэма Стокера – общеизвестная классика вампирского жанра, а его граф Дракула – поистине бессмертное\n          существо, пережившее множество экранизаций и ставшее воплощением всего самого коварного и таинственного, на\n          что только способна человеческая фантазия.\n        \nВам предстоит услышать пять голосов, повествующих о пережитых ими кошмарных встречах с Дракулой. Девушка\n          Люси, получившая смертельный укус и постепенно становящаяся вампиром, ее возлюбленный, не находящий себе места\n          от отчаянья, мужественный врач, распознающий зловещие симптомы… Отрывки из их дневников и писем шаг за шагом\n          будут приближать вас к разгадке зловещей тайны.\n        ",
+      "language": [
+        "ru"
+      ],
+      "inLanguage": "ru",
+      "translationOfWork": {
+        "inLanguage": "en"
+      },
+      "narrator": {
+        "name": [
+          "Степан Старчиков",
+          "Сергей Кирсанов",
+          "Евгений Терновский",
+          "Елена Морозова",
+          "Е. Афанасьева"
+        ],
+        "identifier": [
+          "urn:litres:69008fb0-0b60-102c-96f3-af3a14b75ca4",
+          "urn:litres:a785b42d-39c2-102c-b1cf-18f68bd48621",
+          "urn:litres:e6ff2f9b-39c2-102c-b1cf-18f68bd48621",
+          "urn:litres:3bd11373-2fae-102d-93f9-060d30c95e7d",
+          "urn:litres:9abc1cbb-d497-11e0-9959-47117d41cf4b",
+          "urn:litres:hub:63067",
+          "urn:litres:hub:63961",
+          "urn:litres:hub:63962",
+          "urn:litres:hub:96792",
+          "urn:litres:hub:300255"
+        ],
+        "bf:role": []
+      },
+      "author": [
+        {
+          "name": "Брэм Стокер",
+          "alternate": "Брэма Стокер",
+          "identifier": "urn:litres:ba0bda53-2a81-102a-9ae1-2dfe723fe7c7",
+          "links": [
+            {
+              "href": "https://litres.ru/brem-stoker/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "aut",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/aut",
+              "rdfs:label": "Автор"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:0",
+              "rdfs:label": "автор"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 3,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Н. Сандрова",
+          "alternate": "Н. Сандровой",
+          "identifier": "urn:litres:e4a14228-0779-102c-99a2-0288a49f2f10",
+          "links": [
+            {
+              "href": "https://litres.ru/n-sandrova/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "trl",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/trl",
+              "rdfs:label": "Переводчик"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:1",
+              "rdfs:label": "переводчик"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Степан Старчиков",
+          "alternate": "Степана Старчикова",
+          "identifier": "urn:litres:69008fb0-0b60-102c-96f3-af3a14b75ca4",
+          "links": [
+            {
+              "href": "https://litres.ru/s-starchikov/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "nrt",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/nrt",
+              "rdfs:label": "Повествователь; актёр"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:6",
+              "rdfs:label": "чтец"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Сергей Кирсанов",
+          "alternate": "Сергея Кирсанова",
+          "identifier": "urn:litres:a785b42d-39c2-102c-b1cf-18f68bd48621",
+          "links": [
+            {
+              "href": "https://litres.ru/sergey-kirsanov/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "nrt",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/nrt",
+              "rdfs:label": "Повествователь; актёр"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:6",
+              "rdfs:label": "чтец"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Евгений Терновский",
+          "alternate": "Евгения Терновского",
+          "identifier": "urn:litres:e6ff2f9b-39c2-102c-b1cf-18f68bd48621",
+          "links": [
+            {
+              "href": "https://litres.ru/evgeniy-ternovskiy/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "nrt",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/nrt",
+              "rdfs:label": "Повествователь; актёр"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:6",
+              "rdfs:label": "чтец"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Елена Морозова",
+          "alternate": "Елены Морозовой",
+          "identifier": "urn:litres:3bd11373-2fae-102d-93f9-060d30c95e7d",
+          "links": [
+            {
+              "href": "https://litres.ru/elena-morozova-2/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "nrt",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/nrt",
+              "rdfs:label": "Повествователь; актёр"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:6",
+              "rdfs:label": "чтец"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Е. Афанасьева",
+          "alternate": "Е. Афанасьева",
+          "identifier": "urn:litres:9abc1cbb-d497-11e0-9959-47117d41cf4b",
+          "links": [
+            {
+              "href": "https://litres.ru/e-afanaseva/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "nrt",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/nrt",
+              "rdfs:label": "Повествователь; актёр"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:6",
+              "rdfs:label": "чтец"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        },
+        {
+          "name": "Аудиоагент Сидиком",
+          "identifier": "urn:litres:9e01ff52-8fc7-11e2-98af-002590591ed2",
+          "links": [
+            {
+              "href": "https://litres.ru/audioagent-sidikom/?utm_source=catalog.rusneb.ru&utm_medium=referral"
+            }
+          ],
+          "relCode": "bsl",
+          "bf:role": [
+            {
+              "@type": "bf:Role",
+              "@id": "http://id.loc.gov/vocabulary/relators/bsl",
+              "rdfs:label": "Книготорговец"
+            },
+            {
+              "@type": "bf:Role",
+              "@id": "urn:litres-relation:2",
+              "rdfs:label": "агент"
+            }
+          ],
+          "rating": {
+            "@type": "https://schema.org/AggregateRating",
+            "ratingValue": 1,
+            "bestRating": 5,
+            "worstRating": 1,
+            "ratingExplanation": "уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.",
+            "author": "https://litres.ru"
+          }
+        }
+      ],
+      "publisher": [
+        {
+          "name": "Аудиоагент ЛитресПаб (Сидиком)",
+          "identifier": [
+            "urn:litres:9e01ff52-8fc7-11e2-98af-002590591ed2",
+            "urn:litres:hub:3211171"
+          ]
+        }
+      ],
+      "responsibilityNotes": [
+        {
+          "identifier": "urn:litres:agreement:9357223",
+          "title": "Литрес Паблишинг (on 100.00%)"
+        }
+      ],
+      "subject": {
+        "genreForm": [
+          "sf_horror",
+          "prose_classic",
+          "foreign_prose",
+          "foreign_fantasy",
+          {
+            "title": "зарубежное фэнтези",
+            "identifier": [
+              {
+                "@rdf:about": "http://id.loc.gov/vocabulary/classSchemes/bisacsh",
+                "bf:code": "FIC009000"
+              },
+              {
+                "@rdf:about": "https://partnersdnld.litres.ru/genres_list_2/",
+                "bf:code": "urn:litres:sh:5218"
+              }
+            ]
+          },
+          {
+            "title": "мистика",
+            "identifier": [
+              {
+                "@rdf:about": "http://id.loc.gov/vocabulary/classSchemes/bisacsh",
+                "bf:code": "FIC022000"
+              },
+              {
+                "@rdf:about": "https://partnersdnld.litres.ru/genres_list_2/",
+                "bf:code": "urn:litres:sh:5223"
+              }
+            ]
+          }
+        ]
+      },
+      "bf:content": {
+        "@type": "bf:Content",
+        "label": {
+          "ru": [
+            "английская классика",
+            "вампиры",
+            "инсценировки",
+            "иные миры",
+            "мистическая проза",
+            "некромантия"
+          ]
+        }
+      }
+    },
+    "links": [
+      {
+        "rel": "self",
+        "href": "/resources/instance/litres.ru/173327",
+        "type": "application/opds+json"
+      },
+      {
+        "href": "https://litres.ru/brem-stoker/drakula-inscenirovka-173327/?utm_source=catalog.rusneb.ru&utm_medium=referral",
+        "rel": "http://opds-spec.org/acquisition/buy",
+        "type": "text/html",
+        "indirectAcquisition": [
+          {
+            "type": "audio/mpeg"
+          }
+        ]
+      },
+      {
+        "bitrate": 128,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "rel": "http://opds-spec.org/acquisition/sample",
+        "title": "Sample_Brem_Stoker_-_Drakula.mp3 - MP3",
+        "identifier": "urn:litres:22361078",
+        "size": 9294498,
+        "duration": 62756,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=22361078&sha="
+      }
+    ],
+    "readingOrder": [
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "01.mp3 - MP3",
+        "identifier": "urn:litres:51175899",
+        "size": 20931908,
+        "duration": 2614,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175899&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "02.mp3 - MP3",
+        "identifier": "urn:litres:51175755",
+        "size": 19259145,
+        "duration": 2409,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175755&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "03.mp3 - MP3",
+        "identifier": "urn:litres:51175923",
+        "size": 20720758,
+        "duration": 2634,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175923&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "04.mp3 - MP3",
+        "identifier": "urn:litres:51175739",
+        "size": 19550465,
+        "duration": 2405,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175739&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "05.mp3 - MP3",
+        "identifier": "urn:litres:51175771",
+        "size": 16252716,
+        "duration": 1432,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175771&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "06.mp3 - MP3",
+        "identifier": "urn:litres:51175843",
+        "size": 13659664,
+        "duration": 1668,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175843&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "07.mp3 - MP3",
+        "identifier": "urn:litres:51175883",
+        "size": 21224501,
+        "duration": 2425,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175883&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "08.mp3 - MP3",
+        "identifier": "urn:litres:51175763",
+        "size": 19808019,
+        "duration": 2477,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175763&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "09.mp3 - MP3",
+        "identifier": "urn:litres:51175731",
+        "size": 29439628,
+        "duration": 2579,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175731&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "10.mp3 - MP3",
+        "identifier": "urn:litres:51175811",
+        "size": 19698639,
+        "duration": 2454,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175811&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "11.mp3 - MP3",
+        "identifier": "urn:litres:51175867",
+        "size": 24470040,
+        "duration": 2081,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175867&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "12.mp3 - MP3",
+        "identifier": "urn:litres:51175827",
+        "size": 36481587,
+        "duration": 2952,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175827&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "13.mp3 - MP3",
+        "identifier": "urn:litres:51175907",
+        "size": 31234883,
+        "duration": 2650,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175907&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "14.mp3 - MP3",
+        "identifier": "urn:litres:51175747",
+        "size": 28255481,
+        "duration": 2458,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175747&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "15.mp3 - MP3",
+        "identifier": "urn:litres:51175859",
+        "size": 25687301,
+        "duration": 2195,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175859&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "16.mp3 - MP3",
+        "identifier": "urn:litres:51175819",
+        "size": 14084534,
+        "duration": 1662,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175819&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "17.mp3 - MP3",
+        "identifier": "urn:litres:51175779",
+        "size": 25391965,
+        "duration": 2129,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175779&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "18.mp3 - MP3",
+        "identifier": "urn:litres:51175955",
+        "size": 28399705,
+        "duration": 2403,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175955&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "19.mp3 - MP3",
+        "identifier": "urn:litres:51175931",
+        "size": 15880802,
+        "duration": 2105,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175931&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "20.mp3 - MP3",
+        "identifier": "urn:litres:51175947",
+        "size": 16113925,
+        "duration": 2031,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175947&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "21.mp3 - MP3",
+        "identifier": "urn:litres:51175795",
+        "size": 20185453,
+        "duration": 2394,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175795&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "22.mp3 - MP3",
+        "identifier": "urn:litres:51175875",
+        "size": 24928584,
+        "duration": 2127,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175875&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "23.mp3 - MP3",
+        "identifier": "urn:litres:51175787",
+        "size": 17661472,
+        "duration": 2293,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175787&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "24.mp3 - MP3",
+        "identifier": "urn:litres:51175915",
+        "size": 28560423,
+        "duration": 2355,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175915&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "25.mp3 - MP3",
+        "identifier": "urn:litres:51175803",
+        "size": 18068527,
+        "duration": 2333,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175803&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "26.mp3 - MP3",
+        "identifier": "urn:litres:51175939",
+        "size": 19235921,
+        "duration": 2394,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175939&sha="
+      },
+      {
+        "bitrate": 192,
+        "type": "audio/mpeg",
+        "extension": "mp3",
+        "title": "27.mp3 - MP3",
+        "identifier": "urn:litres:51175891",
+        "size": 25792287,
+        "duration": 3097,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51175891&sha="
+      }
+    ],
+    "resources": [
+      {
+        "rel": "cover",
+        "href": "https://partnersdnld.litres.ru/pub/c/cover_550/173327.jpg",
+        "type": "image/jpeg",
+        "width": "550",
+        "height": "496"
+      },
+      {
+        "bitrate": 64,
+        "type": "audio/m4b",
+        "extension": "mp4",
+        "title": "01.m4b - M4B-файл",
+        "identifier": "urn:litres:51183694",
+        "size": 513784480,
+        "duration": 62756,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51183694&sha="
+      },
+      {
+        "type": "application/zip",
+        "extension": "zip",
+        "title": "173327.mp3.zip - ZIP - файл",
+        "identifier": "urn:litres:51183454",
+        "size": 575653132,
+        "href": "https://partnersdnld.litres.ru/get_the_book/?book=ef36130d-077d-102c-99a2-0288a49f2f10&file=51183454&sha="
+      }
+    ]
+  }
+]

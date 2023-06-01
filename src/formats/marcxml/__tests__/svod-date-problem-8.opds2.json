@@ -1,0 +1,72 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Гурова, Ирина Павловна",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "99-50296",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorkp.html",
+              "name": "ФГБУ \"Российская книжная палата\""
+            },
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/1 99-12/449-3",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "1 99-12/449-3"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/1 99-12/450-7",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "1 99-12/450-7"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1999",
+      "description": [
+        "95 с.",
+        "21 см"
+      ],
+      "dimensions": "21 см",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/000633206",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "95 с.",
+      "modified": "2000-02-03T12:00:00.0Z",
+      "numberOfPages": 95,
+      "published": "1999",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Ульяновск"
+      },
+      "responsibilityNotes": "Гурова И. П.",
+      "subject": {
+        "topic": "rubbk: Экономика -- История экономической мысли -- Методология"
+      },
+      "title": "История метода историко-экономической науки"
+    }
+  }
+]

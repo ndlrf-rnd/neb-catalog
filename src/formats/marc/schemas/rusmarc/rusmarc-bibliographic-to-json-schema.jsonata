@@ -1,0 +1,123 @@
+{
+  "$id": "https://rsl.ru/schemas/rsl-rusmarc-bibliographic/0.1.0/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RusMARC Json schema from Russian State Library",
+  "version": "0.1.0",
+  "type": "object",
+
+  "properties": $merge([
+    $.elements.elements.elements[name = "FIELD"]{
+      attributes.tag: {
+        "$ref": "#/definitions/" & attributes.tag
+      }
+    },
+    {
+      "leader": {
+        "$ref": "#/definitions/leader"
+      }
+    }
+  ]),
+  "additionalProperties": {
+    "$ref": "#/definitions/other"
+  },
+  "required": $.elements.elements.elements[name = "FIELD" and $.attributes.mandatory = "y"].attributes.tag,
+
+  "definitions": $merge([
+    $.elements.elements.elements[name = "FIELD"]{
+      attributes.tag: {
+        "repeatable": attributes.repeatable = "y",
+        "obj": {
+          "type": "object",
+          "title": $[0].attributes.name,
+          "required": $.elements[$.name = "SUBFIELD" and $.attributes.mandatory = "y"][].("$" & $.attributes.tag),
+          "description": $join(
+            [
+              $.elements[name="DESCRIPTION" or name="NOTES" or name="RELATED"].**.text,
+              $.attributes.nm,
+              $.attributes.nr
+            ],
+            "\n"
+          ),
+          "properties": $.elements[name="SUBFIELD" or start]{
+            ($.attributes.tag ? "$" & $.attributes.tag : "0" & $.attributes.start & "-" & "0" & $.attributes.end) : {
+              "type": $.attributes.repeatable = "y" ? "array" : "string",
+              "items": $.attributes.repeatable = "y" ? {"type": "string"} : undefined,
+              "title": $[0].attributes.name,
+              "start": $.attributes.start,
+              "end": $.attributes.end,
+              "description": $join(
+                [
+                  $.elements[name="DESCRIPTION" or name="NOTES" or name="RELATED"].**.text,
+                  $.attributes.nm,
+                  $.attributes.nr
+                ],
+                "\n"
+              )
+            }[0]
+          }
+        }
+      }.($.repeatable ? {"type": "array", "items": $.obj} : $.obj)
+    },
+    {
+      "leader": {
+        "title": "Leader",
+        "type": "object",
+        "properties": $merge([
+          $.elements.elements[name = "LEADER"].elements[attributes.start]{
+            $pad(attributes.start, -2, "0") & (attributes.length = "1" ? "" : "-" & $pad(attributes.end, -2, "0")) : {
+              "title": attributes.name,
+              "type": "string",
+              "enum": elements[name = "OPTION"].attributes.value,
+              "enumDescription": elements[name = "OPTION"].attributes.name
+            }
+          }
+        ])
+      },
+      "other": {
+        "oneOf": [
+          {
+            "type": "array",
+            "item": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "ind1": {
+                      "type": "string"
+                    },
+                    "ind2": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          {
+            "type": "object",
+            "properties": {
+              "ind1": {
+                "type": "string"
+              },
+              "ind2": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          {
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ])
+}

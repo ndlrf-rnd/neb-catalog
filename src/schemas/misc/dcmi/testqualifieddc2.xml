@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<my:qualifieddc xmlns:my="http://example.org/appqualifieddc/"
+             xmlns:dc="http://purl.org/dc/elements/1.1/"
+             xmlns:dcterms="http://purl.org/dc/terms/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://example.org/appqualifieddc/ appqualifieddc.xsd">
+
+
+	<!-- Test cases for appqualifieddc.xsd -->
+
+	<!-- Core Elements -->
+	<dc:title>TITLE</dc:title>
+  <dc:creator>CREATOR</dc:creator>
+  <dc:subject>SUBJECT</dc:subject>
+  <dc:description>DESCRIPTION</dc:description>
+  <dc:publisher>PUBLISHER</dc:publisher>
+  <dc:contributor>CONTRIBUTOR</dc:contributor>
+  <dc:date>DATE</dc:date>
+  <dc:type>TYPE</dc:type>
+  <dc:format>FORMAT</dc:format>
+  <dc:identifier>IDENTIFIER</dc:identifier>
+  <dc:source>SOURCE</dc:source>
+  <dc:language>LANGUAGE</dc:language>
+  <dc:relation>RELATION</dc:relation>
+  <dc:coverage>CONVERAGE</dc:coverage>
+  <dc:rights>RIGHTS</dc:rights>
+
+	<!-- Refinement Elements -->
+  <dcterms:alternative>ALTERNATIVE</dcterms:alternative>
+
+  <dcterms:tableOfContents>TABLEOFCONTENTS</dcterms:tableOfContents>
+  <dcterms:abstract>ABSTRACT</dcterms:abstract>
+
+  <dcterms:created>CREATED</dcterms:created>
+  <dcterms:valid>VALID</dcterms:valid>
+  <dcterms:available>AVAILABLE</dcterms:available>
+  <dcterms:issued>ISSUED</dcterms:issued>
+  <dcterms:modified>MODIFIED</dcterms:modified>
+
+  <dcterms:extent>EXTENT</dcterms:extent>
+  <dcterms:medium>MEDIUM</dcterms:medium>
+
+  <dcterms:isVersionOf>ISVERSIONOF</dcterms:isVersionOf>
+  <dcterms:hasVersion>HASVERSION</dcterms:hasVersion>
+  <dcterms:isReplacedBy>ISREPLACEDBY</dcterms:isReplacedBy>
+  <dcterms:replaces>REPLACES</dcterms:replaces>
+  <dcterms:isRequiredBy>ISREQUIREDBY</dcterms:isRequiredBy>
+  <dcterms:requires>REQUIRES</dcterms:requires>
+  <dcterms:isPartOf>ISPARTOF</dcterms:isPartOf>
+  <dcterms:hasPart>HASPART</dcterms:hasPart>
+  <dcterms:isReferencedBy>ISREFERENCEDBY</dcterms:isReferencedBy>
+  <dcterms:references>REFERENCES</dcterms:references>
+  <dcterms:isFormatOf>ISFORMATOF</dcterms:isFormatOf>
+  <dcterms:hasFormat>HASFORMAT</dcterms:hasFormat>
+
+  <dcterms:spatial>SPATIAL</dcterms:spatial>
+  <dcterms:temporal>TEMPORAL</dcterms:temporal>
+
+  <!-- Encodings -->
+  <dc:subject xsi:type="dcterms:LCSH">SUBJECT</dc:subject>
+  <dc:subject xsi:type="dcterms:MESH">SUBJECT</dc:subject>
+  <dc:subject xsi:type="dcterms:DDC">SUBJECT</dc:subject>
+  <dc:subject xsi:type="dcterms:LCC">SUBJECT</dc:subject>
+  <dc:subject xsi:type="dcterms:UDC">SUBJECT</dc:subject>
+
+	<dc:date xsi:type="dcterms:Period">DATE</dc:date>
+	<dc:date xsi:type="dcterms:W3CDTF">1963-08-17</dc:date>
+  <dcterms:created xsi:type="dcterms:Period">CREATED</dcterms:created>
+  <dcterms:valid xsi:type="dcterms:W3CDTF">1963-08-17</dcterms:valid>
+  <dcterms:available xsi:type="dcterms:Period">AVAILABLE</dcterms:available>
+  <dcterms:issued xsi:type="dcterms:W3CDTF">1963/08/17</dcterms:issued>
+  <dcterms:modified>MODIFIED</dcterms:modified>
+
+  <dc:type xsi:type="dcterms:DCMIType">Collection</dc:type>
+
+	<dc:format xsi:type="dcterms:IMT">FORMAT</dc:format>
+  <dcterms:medium xsi:type="dcterms:IMT">MEDIUM</dcterms:medium>
+
+	<dc:identifier xsi:type="dcterms:URI">http://oai.grainger.uiuc.edu</dc:identifier>
+  <dc:source xsi:type="dcterms:URI">http://oai.grainger.uiuc.edu</dc:source>
+  <dc:relation xsi:type="dcterms:URI">http://oai.grainger.uiuc.edu</dc:relation>
+  <dcterms:isVersionOf xsi:type="dcterms:URI">http://oai.grainger.uiuc.edu</dcterms:isVersionOf>
+  <dcterms:hasVersion xsi:type="dcterms:URI">http://oai.grainger.uiuc.edu</dcterms:hasVersion>
+
+  <dc:language xsi:type="dcterms:ISO639-2">LANGUAGE</dc:language>
+  <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+
+	<dc:coverage xsi:type="dcterms:Point">COVERAGE</dc:coverage>
+  <dc:coverage xsi:type="dcterms:Period">COVERAGE</dc:coverage>
+  <dc:coverage xsi:type="dcterms:ISO3166">COVERAGE</dc:coverage>
+  <dc:coverage xsi:type="dcterms:Box">COVERAGE</dc:coverage>
+  <dc:coverage xsi:type="dcterms:TGN">COVERAGE</dc:coverage>
+  <dc:coverage xsi:type="dcterms:ISO639-2">COVERAGE</dc:coverage>
+  <dcterms:spatial xsi:type="dcterms:Point">SPATIAL</dcterms:spatial>
+  <dcterms:temporal xsi:type="dcterms:Period">TEMPORAL</dcterms:temporal>
+
+</my:qualifieddc>

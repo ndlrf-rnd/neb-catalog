@@ -1,0 +1,439 @@
+{
+  "@context": [
+    "https://readium.org/webpub-manifest/context.jsonld"
+  ],
+  "groups": [
+    {
+      "metadata": {
+        "@id": "http://localhost:18080/resources/collection",
+        "@type": "https://schema.org/Collection",
+        "identifier": "http://localhost:18080/resources/collection",
+        "name": {
+          "en": "All Collection records",
+          "ru": "Все записи типа Collection"
+        },
+        "numberOfItems": 18,
+        "numberOfPageItems": 18,
+        "title": "Все записи типа Collection",
+        "type": "application/opds+json"
+      },
+      "navigation": [
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kproman",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kproman",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Книги императорского дома Романовых",
+          "numberOfItems": 10,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1600-01-01 12:00:00",
+            "1917-12-31 12:00:00"
+          ],
+          "title": "Книги императорского дома Романовых",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Региональная печать",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "title": "Региональная печать",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpposter",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpposter",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Российский плакат конца XIX – начала XX вв.",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1875-01-01 12:00:00",
+            "1924-12-31 12:00:00"
+          ],
+          "title": "Российский плакат конца XIX – начала XX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Палеотипы",
+          "numberOfItems": 14,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1500-01-01 12:00:00",
+            "1549-12-31 12:00:00"
+          ],
+          "title": "Палеотипы",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Национальные языки",
+          "numberOfItems": 10,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "title": "Национальные языки",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmusic",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmusic",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Музыкальные ноты",
+          "numberOfItems": 28,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "title": "Музыкальные ноты",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Шедевры",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "title": "Шедевры",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Географические карты России XVII – первой половины XIX вв.",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1600-01-01 12:00:00",
+            "1849-12-31 12:00:00"
+          ],
+          "title": "Географические карты России XVII – первой половины XIX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmanus",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmanus",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Славяно-русские рукописные книги",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1450-01-01 12:00:00",
+            "1899-12-31 12:00:00"
+          ],
+          "title": "Славяно-русские рукописные книги",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplubok",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplubok",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Русский лубок (народная картинка) XVIII – начала XX вв.",
+          "numberOfItems": 10,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1700-00-01 12:00:00",
+            "1924-12-31 12:00:00"
+          ],
+          "title": "Русский лубок (народная картинка) XVIII – начала XX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplen",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplen",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Ленинград в Великой Отечественной войне.",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1941-01-01 12:00:00",
+            "1945-12-31 12:00:00"
+          ],
+          "title": "Ленинград в Великой Отечественной войне.",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Инкунабулы",
+          "numberOfItems": 2,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1450-01-01 12:00:00",
+            "1500-01-01 11:59:59"
+          ],
+          "title": "Инкунабулы",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Кириллические книги конца XV – первой трети XIX вв.",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1475-01-01 12:00:00",
+            "1833-12-31 12:00:00"
+          ],
+          "title": "Кириллические книги конца XV – первой трети XIX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcivil",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcivil",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Книги гражданского шрифта, изданные в России в XVIII – первой трети XIX вв.",
+          "numberOfItems": 10,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1700-01-01 12:00:00",
+            "1833-12-31 12:00:00"
+          ],
+          "title": "Книги гражданского шрифта, изданные в России в XVIII – первой трети XIX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/knpam",
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/knpam",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Книжные памятники",
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "temporalCoverage": [
+            "1000-01-01 12:00:00",
+            "1999-12-31 12:00:00"
+          ],
+          "title": "Книжные памятники",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/dc.mkrf.ru/contracts",
+          "holdingArchive": {
+            "identifier": "https://mkrf.ru",
+            "title": "Министерство культуры Российской Федерации"
+          },
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/contracts",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Контракты Министерства культуры РФ",
+          "numberOfItems": 20,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "title": "Контракты Министерства культуры РФ",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/dc.mkrf.ru/7_14-19",
+          "govContractNumber": "7/14-19",
+          "holdingArchive": {
+            "identifier": "https://mkrf.ru",
+            "title": "Министерство культуры Российской Федерации"
+          },
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/7_14-19",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Контракт Министерства культуры РФ № 7/14-19 от 2019-08-05 с ФГБУ «Российская национальная библиотека»",
+          "numberOfItems": 10,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "title": "Контракт Министерства культуры РФ № 7/14-19 от 2019-08-05 с ФГБУ «Российская национальная библиотека»",
+          "type": "application/opds+json"
+        },
+        {
+          "@id": "http://localhost:18080/resources/collection/dc.mkrf.ru/4_14-19",
+          "govContractNumber": "4/14-19",
+          "holdingArchive": {
+            "identifier": "https://mkrf.ru",
+            "title": "Министерство культуры Российской Федерации"
+          },
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/4_14-19",
+          "modified": "2020-02-02T02:02:02.200Z",
+          "name": "Контракт Министерства культуры РФ № 4/14-19 от 2019-07-22 с ФГБУ «Российская государственная библиотека»",
+          "numberOfItems": 10,
+          "provider": "rusneb.ru",
+          "rel": "collection item",
+          "title": "Контракт Министерства культуры РФ № 4/14-19 от 2019-07-22 с ФГБУ «Российская государственная библиотека»",
+          "type": "application/opds+json"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@id": "http://localhost:18080/resources",
+        "@type": "https://schema.org/Collection",
+        "identifier": "http://localhost:18080/resources",
+        "title": "Записи, сгруппированные по типу"
+      },
+      "navigation": [
+        {
+          "href": "http://localhost:18080/resources/collection",
+          "properties": {
+            "numberOfItems": 18
+          },
+          "rel": "collection",
+          "title": "Collections",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/concept",
+          "properties": {
+            "numberOfItems": 105
+          },
+          "rel": "collection",
+          "title": "Concepts",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/group",
+          "properties": {
+            "numberOfItems": 1
+          },
+          "rel": "collection",
+          "title": "Groups",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/instance",
+          "properties": {
+            "numberOfItems": 13
+          },
+          "rel": "collection",
+          "title": "Instances",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/item",
+          "properties": {
+            "numberOfItems": 126
+          },
+          "rel": "collection",
+          "title": "Items",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/organization",
+          "properties": {
+            "numberOfItems": 2
+          },
+          "rel": "collection",
+          "title": "Organizations",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/url",
+          "properties": {
+            "numberOfItems": 122
+          },
+          "rel": "collection",
+          "title": "Urls",
+          "type": "application/opds+json"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": {
+          "en": "NEL SEED Logo",
+          "ru": "Логотип НЭБ СИД"
+        },
+        "title": "Логотип НЭБ СИД",
+        "type": "application/opds+json"
+      },
+      "publications": [
+        {
+          "images": [
+            {
+              "height": 90,
+              "href": "/static/images/world_tree_81x90.png",
+              "rel": "cover",
+              "type": "image/png",
+              "width": 81
+            }
+          ],
+          "links": [
+            {
+              "href": "/index.json#logo",
+              "rel": "self",
+              "type": "application/opds+json"
+            },
+            {
+              "href": "https://commons.wikimedia.org/wiki/File:Dolmatov_World_tree.png",
+              "name": {
+                "en": "Image file",
+                "ru": "Файл изображения"
+              },
+              "rel": "http://opds-spec.org/acquisition/open-access",
+              "title": "Файл изображения",
+              "type": "image/png"
+            }
+          ],
+          "metadata": {
+            "@id": "https://commons.wikimedia.org/wiki/File:Dolmatov_World_tree.png",
+            "@type": "https://schema.org/ImageObject",
+            "abstract": {
+              "en": "World tree. Russian ornament. 19th century.",
+              "ru": "Мировое дерево. Из альбома: «Русские вышивки, исполненные К.Далматовым по атлáсy цветным шёлком на мягкую мебель и по полотну на карнизы окон и дверей в Русский терем Датского Королевского парка Фреденсбог в 1889 г. Узоры взяты К.Далматовым из обширного его собрания старинных образцов народного шитья великоруссов Московской, Новгородской, Тверской и Ярославской губерний.»"
+            },
+            "contributor": [
+              {
+                "name": {
+                  "en": "Dolmatov K.",
+                  "ru": "Далматов К."
+                }
+              }
+            ],
+            "identifier": "https://commons.wikimedia.org/wiki/File:Dolmatov_World_tree.png",
+            "name": {
+              "en": "NDL Logo: World Tree (Russian ornament. 19th century)",
+              "ru": "NDL Logo: World Tree (Russian ornament. 19th century)"
+            },
+            "published": "1889-01-01",
+            "responsibilityNotes": "Image licensed under Creative Commons and provided by the Ru.Wikipedia community.",
+            "title": "NDL Logo: World Tree (Russian ornament. 19th century)",
+            "type": "application/opds+json"
+          }
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/index.json",
+      "rel": "self",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "/schemas/hyper-schema.json",
+      "rel": "schema",
+      "title": "SEED JSON (Hyper-)Schema"
+    },
+    {
+      "href": "https://rusneb.ru",
+      "title": "Russian national digital library"
+    },
+    {
+      "href": "https://rsl.ru",
+      "title": "Russian state library"
+    }
+  ],
+  "metadata": {
+    "description": "Каталог Системы Интеграции Данных Национальной электронной библиотеки Российской Федерации",
+    "name": {
+      "en": "NEL RF - SEED Catalog",
+      "ru": "НЭБ РФ - Каталог СИД"
+    },
+    "order": "desc",
+    "title": "НЭБ РФ - Каталог СИД"
+  }
+}

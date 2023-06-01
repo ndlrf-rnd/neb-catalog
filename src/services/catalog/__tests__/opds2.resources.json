@@ -1,0 +1,83 @@
+{
+  "links": [
+    {
+      "href": "http://localhost:18080/resources?extended=1",
+      "rel": "self",
+      "title": "JSON/OPDS2 format",
+      "type": "application/opds+json"
+    }
+  ],
+  "metadata": {
+    "@id": "http://localhost:18080/resources",
+    "@type": "https://schema.org/Collection",
+    "identifier": "http://localhost:18080/resources",
+    "order": "desc",
+    "processingTimeSec": 0.01,
+    "title": "Записи, сгруппированные по типу"
+  },
+  "navigation": [
+    {
+      "href": "http://localhost:18080/resources/collection?extended=1",
+      "properties": {
+        "numberOfItems": 18
+      },
+      "rel": "collection",
+      "title": "Collections",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/concept?extended=1",
+      "properties": {
+        "numberOfItems": 105
+      },
+      "rel": "collection",
+      "title": "Concepts",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/group?extended=1",
+      "properties": {
+        "numberOfItems": 1
+      },
+      "rel": "collection",
+      "title": "Groups",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/instance?extended=1",
+      "properties": {
+        "numberOfItems": 13
+      },
+      "rel": "collection",
+      "title": "Instances",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/item?extended=1",
+      "properties": {
+        "numberOfItems": 126
+      },
+      "rel": "collection",
+      "title": "Items",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/organization?extended=1",
+      "properties": {
+        "numberOfItems": 2
+      },
+      "rel": "collection",
+      "title": "Organizations",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/url?extended=1",
+      "properties": {
+        "numberOfItems": 122
+      },
+      "rel": "collection",
+      "title": "Urls",
+      "type": "application/opds+json"
+    }
+  ]
+}

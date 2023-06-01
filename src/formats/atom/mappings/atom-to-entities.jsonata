@@ -1,0 +1,65 @@
+(
+  $source := $.source ? $.source : (
+    $.[
+      $.url.$,
+      $.url.href.$,
+      $.attributes.href.$
+    ][$type($) = 'string'].$substringBefore($replace($, /.*:\/\//, ''), '/')
+  );
+  $append(
+      elements.elements[name='entry'].[
+          {
+            /*
+                'id': $.elements[name='id'].elements.text,
+                'title': $.elements[name='title'].elements.text,
+                'link': $.elements[name='link' and $not($substringBefore(attributes.rel, ':') = 'dcx')].attributes
+                'time': $.elements[name='document'].**.[name='CreatedDate'].text,
+            */
+            'kind': 'instance',
+            'key': $.elements[name='document'].attributes.id,
+            'time_source': $toMillis($.elements[name='updated'].elements.text),
+            'media_type': 'application/atom+xml'
+        },
+        $not($.elements[name = 'updated'].elements.text = $.elements[name = 'published'].elements.text) ? {
+          'kind': 'instance',
+          'key': $.elements[name='document'].attributes.id,
+            /* $toMillis($.elements[name='published'].elements.text), */
+          'time_source': $toMillis($.elements[name='updated'].elements.text) - 1000
+      } : undefined
+      ].*,
+      $.elements.elements[name='entry'].[
+          (
+            $keyTo := $.elements[name='document'].attributes.id;
+            $append(
+                $.elements[
+                    name='link'
+                    and
+                    (
+                        attributes.rel = $.elements[name='link' and attributes.rel = 'alternate']
+                            ? 'alternate'
+                            : 'self'
+                    )
+                ],
+                $.elements[
+                    name='link'
+                    and $not($substringBefore(attributes.rel, ':') = 'dcx')
+                    and $not(attributes.rel = 'self')
+                    and $not(attributes.rel = 'alternate')
+                ]
+            ).{
+                'kind_to': 'instance',
+                'source_to': $source,
+                'key_to': $.attributes.rel = 'enclosure' ? $.attributes.title : $keyTo,
+
+                'kind_from': 'instance',
+                'source_from': $substringBefore($replace($.attributes.href, /.*:\/\//, ''), '/') ? $substringBefore($replace($.attributes.href, /.*:\/\//, ''), '/') : $source,
+                'key_from': '/' & $substringAfter($replace($.attributes.href, /.*:\/\//, ''), '/'),
+                'relation_kind':
+                    ($.attributes.rel = 'self') or ($.attributes.rel = 'alternate') or ($.attributes.rel = 'enclosure') or $not($.attributes.rel)
+                        ? 'identifies'
+                        : $.attributes.rel
+            };
+        )
+    ]
+  )
+)

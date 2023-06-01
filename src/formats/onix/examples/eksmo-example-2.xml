@@ -1,0 +1,1597 @@
+<Product><RecordReference>fa01e710-bdd8-40d2-8057-951e848393ae</RecordReference>
+  <NotificationType>03</NotificationType>
+  <ProductIdentifier><ProductIDType>01</ProductIDType>
+    <IDTypeName>NOMCODE</IDTypeName>
+    <IDValue>ITD000000000086911</IDValue>
+  </ProductIdentifier>
+  <ProductIdentifier><ProductIDType>01</ProductIDType>
+    <IDTypeName>UDK</IDTypeName>
+    <IDValue>141.339</IDValue>
+  </ProductIdentifier>
+  <ProductIdentifier><ProductIDType>01</ProductIDType>
+    <IDTypeName>BBK</IDTypeName>
+    <IDValue>86.42</IDValue>
+  </ProductIdentifier>
+  <ProductIdentifier><ProductIDType>15</ProductIDType>
+    <IDTypeName>ISBN</IDTypeName>
+    <IDValue>978-5-699-50570-8</IDValue>
+  </ProductIdentifier>
+  <ProductIdentifier><ProductIDType>01</ProductIDType>
+    <IDTypeName>EAN13</IDTypeName>
+    <IDValue>9785699505708</IDValue>
+  </ProductIdentifier>
+  <DescriptiveDetail><ProductComposition>00</ProductComposition>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDescription>84x108/32</ProductFormDescription>
+    <Measure><MeasureType>01</MeasureType>
+      <Measurement>200</Measurement>
+      <MeasureUnitCode>mm</MeasureUnitCode>
+    </Measure>
+    <Measure><MeasureType>02</MeasureType>
+      <Measurement>125</Measurement>
+      <MeasureUnitCode>mm</MeasureUnitCode>
+    </Measure>
+    <Measure><MeasureType>03</MeasureType>
+      <Measurement>20</Measurement>
+      <MeasureUnitCode>mm</MeasureUnitCode>
+    </Measure>
+    <Measure><MeasureType>08</MeasureType>
+      <Measurement>0.21</Measurement>
+      <MeasureUnitCode>kg</MeasureUnitCode>
+    </Measure>
+    <Collection><CollectionType>10</CollectionType>
+      <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+        <IDTypeName>SERIE_GUID</IDTypeName>
+        <IDValue>6bd08434-4f03-11e0-a01d-001a64231342</IDValue>
+      </CollectionIdentifier>
+      <TitleDetail><TitleType>01</TitleType>
+        <TitleElement><TitleElementLevel>02</TitleElementLevel>
+          <TitleText><![CDATA[Календари. Гороскопы]]></TitleText>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+    <Collection><CollectionType>10</CollectionType>
+      <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+        <IDTypeName>THEMATIC_GUID</IDTypeName>
+        <IDValue>e640825e-4f03-11e0-a01d-001a64231342</IDValue>
+      </CollectionIdentifier>
+      <TitleDetail><TitleType>01</TitleType>
+        <TitleElement><SequenceNumber>4</SequenceNumber>
+          <TitleElementLevel>02</TitleElementLevel>
+          <TitleText><![CDATA[САМОПОЗНАНИЕ. ДУХОВНО-МИСТИЧЕСКИЕ УЧЕНИЯ]]></TitleText>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+    <Collection><CollectionType>10</CollectionType>
+      <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+        <IDTypeName>NICHE_GUID</IDTypeName>
+        <IDValue>e640818e-4f03-11e0-a01d-001a64231342</IDValue>
+      </CollectionIdentifier>
+      <TitleDetail><TitleType>01</TitleType>
+        <TitleElement><SequenceNumber>3</SequenceNumber>
+          <TitleElementLevel>02</TitleElementLevel>
+          <TitleText><![CDATA[ЭЗОТЕРИКА. САМОПОЗНАНИЕ. ТАЙНЫЕ ЯВЛЕНИЯ]]></TitleText>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+    <Collection><CollectionType>10</CollectionType>
+      <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+        <IDTypeName>SEGMENT_GUID</IDTypeName>
+        <IDValue>e009c81e-4f03-11e0-a01d-001a64231342</IDValue>
+      </CollectionIdentifier>
+      <TitleDetail><TitleType>01</TitleType>
+        <TitleElement><SequenceNumber>1</SequenceNumber>
+          <TitleElementLevel>02</TitleElementLevel>
+          <TitleText><![CDATA[ПОПУЛЯРНАЯ И ПРИКЛАДНАЯ ЛИТЕРАТУРА ДЛЯ НЕПРОФЕССИОНАЛОВ (НПЛ)]]></TitleText>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>1</SequenceNumber>
+        <TitleElementLevel>01</TitleElementLevel>
+        <YearOfAnnual>2011</YearOfAnnual>
+        <NoPrefix></NoPrefix>
+        <TitleWithoutPrefix><![CDATA[Лунный календарь питания, красоты и здоровья на 2012]]></TitleWithoutPrefix>
+      </TitleElement>
+    </TitleDetail>
+    <Contributor><SequenceNumber>0</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <NameIdentifier><NameIDType>01</NameIDType>
+        <IDTypeName>AUTHOR_GUID</IDTypeName>
+        <IDValue>93382a76-4a95-11e2-956a-5ef3fc5021a7</IDValue>
+      </NameIdentifier>
+      <NamesBeforeKey>Тамара</NamesBeforeKey>
+      <KeyNames>Зюрняева</KeyNames>
+      <AlternativeName><NameType>01</NameType>
+        <NamesBeforeKey>Тамара</NamesBeforeKey>
+        <KeyNames>Зюрняева</KeyNames>
+      </AlternativeName>
+    </Contributor>
+    <Contributor><SequenceNumber>1</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <NameIdentifier><NameIDType>01</NameIDType>
+        <IDTypeName>AUTHOR_GUID</IDTypeName>
+        <IDValue>a0cb731c-c971-11e0-9556-5ef3fc5021fb</IDValue>
+      </NameIdentifier>
+      <NamesBeforeKey>Татьяна</NamesBeforeKey>
+      <KeyNames>Рачук</KeyNames>
+    </Contributor>
+    <Contributor><SequenceNumber>2</SequenceNumber>
+      <ContributorRole>B21</ContributorRole>
+      <NameIdentifier><NameIDType>01</NameIDType>
+        <IDTypeName>EDITOR_GUID</IDTypeName>
+        <IDValue>1b55d4e7-cdf9-11e4-b07f-5cf3fc4a21fa</IDValue>
+      </NameIdentifier>
+      <PersonName>Мясникова Анна Геннадьевна</PersonName>
+    </Contributor>
+    <Extent><ExtentType>00</ExtentType>
+      <ExtentValue>352</ExtentValue>
+      <ExtentUnit>03</ExtentUnit>
+    </Extent>
+  </DescriptiveDetail>
+  <CollateralDetail><TextContent><TextType>02</TextType>
+    <ContentAudience>00</ContentAudience>
+    <Text><![CDATA[Перед вами лунный календарь с уникальной системой определения полезности той или иной пищи, тех или иных косметических и оздоровительных процедур. Как вы знаете, наш организм напрямую зависит от лунных ритмов. В этой книге раскрыта еще и связь питания, красоты и здоровья с чередованием стихий мира в традиции Фэн-шуй. Рекомендации даны на каждый день! В календаре вы найдете: ежедневный учет биологических ритмов; магические продукты стихий; опыт восточной и современной науки.
+Для широкого круга читателей.]]></Text>
+  </TextContent>
+  </CollateralDetail>
+  <PublishingDetail><Imprint><ImprintIdentifier><ImprintIDType>01</ImprintIDType>
+    <IDTypeName>IMPRINT_GUID</IDTypeName>
+    <IDValue>d3e1161e-d418-11e3-a44f-5ef3fc5021a7</IDValue>
+  </ImprintIdentifier>
+    <ImprintName><![CDATA[Издательство "Эксмо"]]></ImprintName>
+  </Imprint>
+    <Publisher><PublishingRole>01</PublishingRole>
+      <PublisherIdentifier><PublisherIDType>01</PublisherIDType>
+        <IDTypeName>PUBLISHER_GUID</IDTypeName>
+        <IDValue>2a734e3d-a107-11de-8bc8-00265518a912</IDValue>
+      </PublisherIdentifier>
+      <PublisherName><![CDATA[Издательство "Эксмо" ООО]]></PublisherName>
+    </Publisher>
+    <ProductContact><ProductContactRole>01</ProductContactRole>
+      <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+        <IDTypeName>USER_GUID</IDTypeName>
+        <IDValue>00000000001</IDValue>
+      </ProductContactIdentifier>
+      <ContactName>Северюхин Михаил</ContactName>
+      <EmailAddress>severyuhin.mv@eksmo.ru</EmailAddress>
+    </ProductContact>
+    <ProductContact><ProductContactRole>02</ProductContactRole>
+      <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+        <IDTypeName>USER_GUID</IDTypeName>
+        <IDValue>00000000002</IDValue>
+      </ProductContactIdentifier>
+      <ContactName>Федосеев Александр</ContactName>
+      <EmailAddress>fedoseev.ab@eksmo.ru</EmailAddress>
+    </ProductContact>
+    <PublishingStatus>02</PublishingStatus>
+    <PublishingDate><PublishingDateRole>11</PublishingDateRole>
+      <Date dateformat="00">20110729</Date>
+    </PublishingDate>
+    <PublishingDate><PublishingDateRole>01</PublishingDateRole>
+      <Date dateformat="00">20110729</Date>
+    </PublishingDate>
+    <SalesRights><SalesRightsType>00</SalesRightsType>
+      <Territory><RegionsIncluded>WORLD</RegionsIncluded>
+      </Territory>
+    </SalesRights>
+    <ROWSalesRightsType>00</ROWSalesRightsType>
+  </PublishingDetail>
+  <RelatedMaterial><RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>7b368fa9-a28c-4d82-8945-a20077480391</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+    <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+      <WorkIdentifier><WorkIDType>01</WorkIDType>
+        <IDTypeName>PROIZ_GUID</IDTypeName>
+        <IDValue>9a62b149-5d35-492e-82b8-2d394cd1db0a</IDValue>
+      </WorkIdentifier>
+    </RelatedWork>
+  </RelatedMaterial>
+</Product>
+<Product><RecordReference>41df2340-96f8-4561-82ed-bf676e0aa416</RecordReference>
+<NotificationType>03</NotificationType>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>NOMCODE</IDTypeName>
+  <IDValue>AST000000000164143</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>BBK</IDTypeName>
+  <IDValue>86.42</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>15</ProductIDType>
+  <IDTypeName>ISBN</IDTypeName>
+  <IDValue>978-5-17-091081-6</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>EAN13</IDTypeName>
+  <IDValue>9785170910816</IDValue>
+</ProductIdentifier>
+<DescriptiveDetail><ProductComposition>00</ProductComposition>
+  <ProductForm>BC</ProductForm>
+  <ProductFormDescription>84x108/32</ProductFormDescription>
+  <Measure><MeasureType>01</MeasureType>
+    <Measurement>200</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>02</MeasureType>
+    <Measurement>125</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>03</MeasureType>
+    <Measurement>7</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>08</MeasureType>
+    <Measurement>0.081</Measurement>
+    <MeasureUnitCode>kg</MeasureUnitCode>
+  </Measure>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SERIE_GUID</IDTypeName>
+      <IDValue>2bdbfe91-f977-11e4-b07f-5cf3fc4a21fa</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[Борщ. Календари 2016]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>THEMATIC_GUID</IDTypeName>
+      <IDValue>e64081aa-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>4</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[АСТРОЛОГИЯ. ГАДАНИЯ. СОННИКИ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>NICHE_GUID</IDTypeName>
+      <IDValue>e640818e-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>3</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ЭЗОТЕРИКА. САМОПОЗНАНИЕ. ТАЙНЫЕ ЯВЛЕНИЯ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SEGMENT_GUID</IDTypeName>
+      <IDValue>e009c81e-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>1</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ПОПУЛЯРНАЯ И ПРИКЛАДНАЯ ЛИТЕРАТУРА ДЛЯ НЕПРОФЕССИОНАЛОВ (НПЛ)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <TitleDetail><TitleType>01</TitleType>
+    <TitleElement><SequenceNumber>1</SequenceNumber>
+      <TitleElementLevel>01</TitleElementLevel>
+      <YearOfAnnual>2015</YearOfAnnual>
+      <NoPrefix></NoPrefix>
+      <TitleWithoutPrefix><![CDATA[Лев. Самый полный гороскоп на 2016 год. 23 июля - 22 августа]]></TitleWithoutPrefix>
+    </TitleElement>
+  </TitleDetail>
+  <Contributor><SequenceNumber>0</SequenceNumber>
+    <ContributorRole>A01</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>AUTHOR_GUID</IDTypeName>
+      <IDValue>5312dd15-1d4d-11e2-818f-5ef3fc5021a7</IDValue>
+    </NameIdentifier>
+    <NamesBeforeKey>Татьяна</NamesBeforeKey>
+    <KeyNames>Борщ</KeyNames>
+  </Contributor>
+  <Contributor><SequenceNumber>1</SequenceNumber>
+    <ContributorRole>B21</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>EDITOR_GUID</IDTypeName>
+      <IDValue>a6f25328-6047-11e4-9722-5ef3fc5021fb</IDValue>
+    </NameIdentifier>
+    <PersonName>Амелькина Александра Андреевна</PersonName>
+  </Contributor>
+  <Extent><ExtentType>00</ExtentType>
+    <ExtentValue>128</ExtentValue>
+    <ExtentUnit>03</ExtentUnit>
+  </Extent>
+  <AudienceRange><AudienceRangeQualifier>18</AudienceRangeQualifier>
+    <AudienceRangePrecision>03</AudienceRangePrecision>
+    <AudienceRangeValue>6</AudienceRangeValue>
+  </AudienceRange>
+</DescriptiveDetail>
+<CollateralDetail><TextContent><TextType>02</TextType>
+  <ContentAudience>00</ContentAudience>
+  <Text><![CDATA[Точный астрологический календарь на 2016 год подскажет Львам как избежать конфликтов и неприятностей, правильно выстроить отношения на работе и в кругу семьи, как отвести от себя и родных беды и опасности.
+Соотносите ваше финансовое состояние, успехи на любовном фронте и заботу о собственном здоровье с положением звезд и не упустите свой шанс!
+
+Какие перемены несет Львам 2016 год:
+Январь: весь месяц весьма благоприятен для работы
+Февраль: укрепляйте доверие в партнерских отношениях
+Март: постарайтесь найти общий язык с окружением
+Апрель: главное в этом месяце – освоение новых горизонтов!
+Май: благоприятный месяц в финансовом положении
+Июнь: активный, динамичный и напряженный месяц
+Июль: хорошее время для медитации и философских поисков
+Август: проявите себя в качестве лидера
+Сентябрь: вас ждет много работы и вы готовы свернуть горы
+Октябрь: начнут решаться вопросы, связанные с детьми
+Ноябрь: избегайте лишней требовательности к себе и другим
+Декабрь: вас посетит вдохновение и поможет справиться со многими задачами]]></Text>
+</TextContent>
+  <SupportingResource><ResourceContentType>01</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/AST000000000164143/COVER/cover1.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>02</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/AST000000000164143/COVER/cover4.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>07</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/AST000000000164143/COVER/spine.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>15</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/AST000000000164143/PDF/AST000000000164143.pdf</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150624</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+</CollateralDetail>
+<PublishingDetail><Imprint><ImprintIdentifier><ImprintIDType>01</ImprintIDType>
+  <IDTypeName>IMPRINT_GUID</IDTypeName>
+  <IDValue>aa0df88c-d418-11e3-a44f-5ef3fc5021a7</IDValue>
+</ImprintIdentifier>
+  <ImprintName><![CDATA[ИЗДАТЕЛЬСТВО  "АСТ"]]></ImprintName>
+</Imprint>
+  <Publisher><PublishingRole>01</PublishingRole>
+    <PublisherIdentifier><PublisherIDType>01</PublisherIDType>
+      <IDTypeName>PUBLISHER_GUID</IDTypeName>
+      <IDValue>f89a7636-1c58-11e2-818f-5ef3fc5021a7</IDValue>
+    </PublisherIdentifier>
+    <PublisherName><![CDATA[ИЗДАТЕЛЬСТВО  "АСТ"]]></PublisherName>
+  </Publisher>
+  <ProductContact><ProductContactRole>01</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000001</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Северюхин Михаил</ContactName>
+    <EmailAddress>severyuhin.mv@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <ProductContact><ProductContactRole>02</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000002</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Федосеев Александр</ContactName>
+    <EmailAddress>fedoseev.ab@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <PublishingStatus>02</PublishingStatus>
+  <PublishingDate><PublishingDateRole>11</PublishingDateRole>
+    <Date dateformat="00">20150720</Date>
+  </PublishingDate>
+  <PublishingDate><PublishingDateRole>01</PublishingDateRole>
+    <Date dateformat="00">20150710</Date>
+  </PublishingDate>
+  <SalesRights><SalesRightsType>00</SalesRightsType>
+    <Territory><RegionsIncluded>WORLD</RegionsIncluded>
+    </Territory>
+  </SalesRights>
+  <ROWSalesRightsType>00</ROWSalesRightsType>
+</PublishingDetail>
+<RelatedMaterial><RelatedWork><WorkRelationCode>01</WorkRelationCode>
+  <WorkIdentifier><WorkIDType>01</WorkIDType>
+    <IDTypeName>PROIZ_GUID</IDTypeName>
+    <IDValue>b6b94d09-f06f-4f5e-990c-772d624b5c0c</IDValue>
+  </WorkIdentifier>
+</RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>13d0331e-a0a0-4592-afaa-d0444e3b5d68</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+</RelatedMaterial>
+</Product>
+<Product><RecordReference>6ae310e1-5d83-4d8d-9c5f-2d4fee603c59</RecordReference>
+<NotificationType>03</NotificationType>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>NOMCODE</IDTypeName>
+  <IDValue>ASE000000000710645</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>UDK</IDTypeName>
+  <IDValue>133.52</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>BBK</IDTypeName>
+  <IDValue>86.42</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>15</ProductIDType>
+  <IDTypeName>ISBN</IDTypeName>
+  <IDValue>978-5-17-092128-7</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>EAN13</IDTypeName>
+  <IDValue>9785170921287</IDValue>
+</ProductIdentifier>
+<DescriptiveDetail><ProductComposition>00</ProductComposition>
+  <ProductForm>BC</ProductForm>
+  <ProductFormDescription>62x90/6*</ProductFormDescription>
+  <Measure><MeasureType>01</MeasureType>
+    <Measurement>290</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>02</MeasureType>
+    <Measurement>290</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>03</MeasureType>
+    <Measurement>0</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>08</MeasureType>
+    <Measurement>0.165</Measurement>
+    <MeasureUnitCode>kg</MeasureUnitCode>
+  </Measure>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SERIE_GUID</IDTypeName>
+      <IDValue>88a2d2c9-0e9c-11e5-b07f-5cf3fc4a21fa</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[Счастливый календарь]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>THEMATIC_GUID</IDTypeName>
+      <IDValue>e640825e-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>4</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[САМОПОЗНАНИЕ. ДУХОВНО-МИСТИЧЕСКИЕ УЧЕНИЯ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>NICHE_GUID</IDTypeName>
+      <IDValue>e640818e-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>3</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ЭЗОТЕРИКА. САМОПОЗНАНИЕ. ТАЙНЫЕ ЯВЛЕНИЯ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SEGMENT_GUID</IDTypeName>
+      <IDValue>e009c81e-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>1</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ПОПУЛЯРНАЯ И ПРИКЛАДНАЯ ЛИТЕРАТУРА ДЛЯ НЕПРОФЕССИОНАЛОВ (НПЛ)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <TitleDetail><TitleType>01</TitleType>
+    <TitleElement><SequenceNumber>1</SequenceNumber>
+      <TitleElementLevel>01</TitleElementLevel>
+      <YearOfAnnual>2015</YearOfAnnual>
+      <NoPrefix></NoPrefix>
+      <TitleWithoutPrefix><![CDATA[Большой счастливый календарь 2016. Деньги. Любовь. Везение]]></TitleWithoutPrefix>
+    </TitleElement>
+  </TitleDetail>
+  <Contributor><SequenceNumber>0</SequenceNumber>
+    <ContributorRole>A01</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>AUTHOR_GUID</IDTypeName>
+      <IDValue>145485e8-6579-11de-84c5-000423b38f2a</IDValue>
+    </NameIdentifier>
+    <NamesBeforeKey>Наталия</NamesBeforeKey>
+    <KeyNames>Правдина</KeyNames>
+    <NamesAfterKey>Борисовна</NamesAfterKey>
+  </Contributor>
+  <Contributor><SequenceNumber>1</SequenceNumber>
+    <ContributorRole>B21</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>EDITOR_GUID</IDTypeName>
+      <IDValue>1ec8ef28-4e7a-11e2-956a-5ef3fc5021a7</IDValue>
+    </NameIdentifier>
+    <PersonName>Сватовская Анна Станиславовна</PersonName>
+  </Contributor>
+  <Extent><ExtentType>00</ExtentType>
+    <ExtentValue>24</ExtentValue>
+    <ExtentUnit>03</ExtentUnit>
+  </Extent>
+  <AudienceRange><AudienceRangeQualifier>18</AudienceRangeQualifier>
+    <AudienceRangePrecision>03</AudienceRangePrecision>
+    <AudienceRangeValue>12</AudienceRangeValue>
+  </AudienceRange>
+</DescriptiveDetail>
+<CollateralDetail><TextContent><TextType>02</TextType>
+  <ContentAudience>00</ContentAudience>
+  <Text><![CDATA[Новинка от Натальи Правдиной — цветной настенный календарь с указанием всех опасных и счастливых дней 2016 года!
+Предсказания на каждый день на весь год!
+Вы сможете спланировать свою жизнь так, чтобы 2016 год стал для вас годом
+БОГАТСТВА,
+ЛЮБВИ,
+УСПЕХА!
+Календарь очень удобен в использовании и станет великолепным подарком вам и вашим близким.]]></Text>
+</TextContent>
+  <SupportingResource><ResourceContentType>01</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ASE000000000710645/COVER/cover1.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>02</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ASE000000000710645/COVER/cover4.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>15</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ASE000000000710645/PDF/ASE000000000710645.pdf</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150626</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+</CollateralDetail>
+<PublishingDetail><Imprint><ImprintIdentifier><ImprintIDType>01</ImprintIDType>
+  <IDTypeName>IMPRINT_GUID</IDTypeName>
+  <IDValue>aa0df88c-d418-11e3-a44f-5ef3fc5021a7</IDValue>
+</ImprintIdentifier>
+  <ImprintName><![CDATA[ИЗДАТЕЛЬСТВО  "АСТ"]]></ImprintName>
+</Imprint>
+  <Publisher><PublishingRole>01</PublishingRole>
+    <PublisherIdentifier><PublisherIDType>01</PublisherIDType>
+      <IDTypeName>PUBLISHER_GUID</IDTypeName>
+      <IDValue>f89a7636-1c58-11e2-818f-5ef3fc5021a7</IDValue>
+    </PublisherIdentifier>
+    <PublisherName><![CDATA[ИЗДАТЕЛЬСТВО  "АСТ"]]></PublisherName>
+  </Publisher>
+  <ProductContact><ProductContactRole>01</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000001</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Северюхин Михаил</ContactName>
+    <EmailAddress>severyuhin.mv@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <ProductContact><ProductContactRole>02</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000002</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Федосеев Александр</ContactName>
+    <EmailAddress>fedoseev.ab@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <PublishingStatus>02</PublishingStatus>
+  <PublishingDate><PublishingDateRole>11</PublishingDateRole>
+    <Date dateformat="00">20150715</Date>
+  </PublishingDate>
+  <PublishingDate><PublishingDateRole>01</PublishingDateRole>
+    <Date dateformat="00">20150717</Date>
+  </PublishingDate>
+  <SalesRights><SalesRightsType>00</SalesRightsType>
+    <Territory><RegionsIncluded>WORLD</RegionsIncluded>
+    </Territory>
+  </SalesRights>
+  <ROWSalesRightsType>00</ROWSalesRightsType>
+</PublishingDetail>
+<RelatedMaterial><RelatedWork><WorkRelationCode>01</WorkRelationCode>
+  <WorkIdentifier><WorkIDType>01</WorkIDType>
+    <IDTypeName>PROIZ_GUID</IDTypeName>
+    <IDValue>ddf67b6b-8964-45e1-94b8-846118a31d81</IDValue>
+  </WorkIdentifier>
+</RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>26c804c1-26d5-441e-8758-5ec46b0a2d25</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+</RelatedMaterial>
+</Product>
+<Product><RecordReference>7e585e50-ae87-4622-8790-6b0142890185</RecordReference>
+<NotificationType>03</NotificationType>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>NOMCODE</IDTypeName>
+  <IDValue>ASE000000000716012</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>UDK</IDTypeName>
+  <IDValue>821.111(73)</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>BBK</IDTypeName>
+  <IDValue>84(7Сое)-44</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>15</ProductIDType>
+  <IDTypeName>ISBN</IDTypeName>
+  <IDValue>978-5-17-092390-8</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>EAN13</IDTypeName>
+  <IDValue>9785170923908</IDValue>
+</ProductIdentifier>
+<DescriptiveDetail><ProductComposition>00</ProductComposition>
+  <ProductForm>BB</ProductForm>
+  <ProductFormDescription>84x108/32</ProductFormDescription>
+  <Measure><MeasureType>01</MeasureType>
+    <Measurement>200</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>02</MeasureType>
+    <Measurement>125</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>03</MeasureType>
+    <Measurement>24</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>08</MeasureType>
+    <Measurement>0.37</Measurement>
+    <MeasureUnitCode>kg</MeasureUnitCode>
+  </Measure>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SERIE_GUID</IDTypeName>
+      <IDValue>00000000-0000-0000-0000-000000000000</IDValue>
+    </CollectionIdentifier>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>THEMATIC_GUID</IDTypeName>
+      <IDValue>e64081c0-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>4</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ЗАРУБЕЖНАЯ СОВРЕМЕННАЯ ПРОЗА И ДРАМАТУРГИЯ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>NICHE_GUID</IDTypeName>
+      <IDValue>704a4753-f3d7-11e8-8679-000af77e485f</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>3</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ЗАРУБЕЖНАЯ СОВРЕМЕННАЯ ПРОЗА И ДРАМАТУРГИЯ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SEGMENT_GUID</IDTypeName>
+      <IDValue>e009c818-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>1</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ВЗРОСЛАЯ РАЗВЛЕКАТЕЛЬНАЯ ЛИТЕРАТУРА. ХУДОЖЕСТВЕННАЯ И ДОКУМЕНТАЛЬНАЯ (ВРЛ)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <TitleDetail><TitleType>01</TitleType>
+    <TitleElement><SequenceNumber>1</SequenceNumber>
+      <TitleElementLevel>01</TitleElementLevel>
+      <YearOfAnnual>2015</YearOfAnnual>
+      <NoPrefix></NoPrefix>
+      <TitleWithoutPrefix><![CDATA[Оставленные]]></TitleWithoutPrefix>
+    </TitleElement>
+  </TitleDetail>
+  <Contributor><SequenceNumber>0</SequenceNumber>
+    <ContributorRole>A01</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>AUTHOR_GUID</IDTypeName>
+      <IDValue>bc9d0295-0911-11e5-b07f-5cf3fc4a21fa</IDValue>
+    </NameIdentifier>
+    <NamesBeforeKey>Том</NamesBeforeKey>
+    <KeyNames>Перротта</KeyNames>
+  </Contributor>
+  <Contributor><SequenceNumber>1</SequenceNumber>
+    <ContributorRole>B21</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>EDITOR_GUID</IDTypeName>
+      <IDValue>6b1f4966-19fd-11e3-b66e-5ef3fc5021fb</IDValue>
+    </NameIdentifier>
+    <PersonName> Маркович Ядранка</PersonName>
+  </Contributor>
+  <Extent><ExtentType>00</ExtentType>
+    <ExtentValue>416</ExtentValue>
+    <ExtentUnit>03</ExtentUnit>
+  </Extent>
+  <AudienceRange><AudienceRangeQualifier>18</AudienceRangeQualifier>
+    <AudienceRangePrecision>03</AudienceRangePrecision>
+    <AudienceRangeValue>16</AudienceRangeValue>
+  </AudienceRange>
+</DescriptiveDetail>
+<CollateralDetail><TextContent><TextType>02</TextType>
+  <ContentAudience>00</ContentAudience>
+  <Text><![CDATA[Что, если бы прямо здесь и сейчас некоторые из нас исчезли?
+Испарились, развеялись, провалились сквозь землю?
+Кто-то решил бы, что это – похищение…
+Кто-то пал бы духом…
+А кто-то продолжил бы жить как и прежде,
+будто ничего и не случилось.
+Но что-то случилось.
+14 октября что-то случилось в небольшом городке Мейплтон,
+когда сотни его жителей внезапно пропали без вести. Никаких догадок,
+никаких зацепок. Все, кто остался, — в недоумении, страхе
+и растерянности. Ведь самое страшное — неизвестность.
+Мэр города Кевин Гарви всеми силами старается восстановить
+порядок и помочь тем, кто потерял родных и близких, даже несмотря
+на то, что его семья развалилась после так называемого "Внезапного
+исчезновения". Его жена Лори вступила в секту "Виноватые";
+их сын Том бросил учебу в университете и стал последователем
+"святого" Уэйна. Лишь дочь Кевина Джил до сих пор живет
+с ним в одном доме, хотя она изменилась до неузнаваемости...]]></Text>
+</TextContent>
+  <SupportingResource><ResourceContentType>01</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ASE000000000716012/COVER/cover1.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>02</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ASE000000000716012/COVER/cover4.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>07</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ASE000000000716012/COVER/spine.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150923</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>15</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ASE000000000716012/PDF/ASE000000000716012.pdf</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150911</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+</CollateralDetail>
+<PublishingDetail><Imprint><ImprintIdentifier><ImprintIDType>01</ImprintIDType>
+  <IDTypeName>IMPRINT_GUID</IDTypeName>
+  <IDValue>aa0df88c-d418-11e3-a44f-5ef3fc5021a7</IDValue>
+</ImprintIdentifier>
+  <ImprintName><![CDATA[ИЗДАТЕЛЬСТВО  "АСТ"]]></ImprintName>
+</Imprint>
+  <Publisher><PublishingRole>01</PublishingRole>
+    <PublisherIdentifier><PublisherIDType>01</PublisherIDType>
+      <IDTypeName>PUBLISHER_GUID</IDTypeName>
+      <IDValue>f89a7636-1c58-11e2-818f-5ef3fc5021a7</IDValue>
+    </PublisherIdentifier>
+    <PublisherName><![CDATA[ИЗДАТЕЛЬСТВО  "АСТ"]]></PublisherName>
+  </Publisher>
+  <ProductContact><ProductContactRole>01</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000001</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Северюхин Михаил</ContactName>
+    <EmailAddress>severyuhin.mv@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <ProductContact><ProductContactRole>02</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000002</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Федосеев Александр</ContactName>
+    <EmailAddress>fedoseev.ab@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <PublishingStatus>02</PublishingStatus>
+  <PublishingDate><PublishingDateRole>11</PublishingDateRole>
+    <Date dateformat="00">20150901</Date>
+  </PublishingDate>
+  <PublishingDate><PublishingDateRole>01</PublishingDateRole>
+    <Date dateformat="00">20150914</Date>
+  </PublishingDate>
+  <SalesRights><SalesRightsType>00</SalesRightsType>
+    <Territory><RegionsIncluded>WORLD</RegionsIncluded>
+    </Territory>
+  </SalesRights>
+  <ROWSalesRightsType>00</ROWSalesRightsType>
+</PublishingDetail>
+<RelatedMaterial><RelatedWork><WorkRelationCode>01</WorkRelationCode>
+  <WorkIdentifier><WorkIDType>01</WorkIDType>
+    <IDTypeName>PROIZ_GUID</IDTypeName>
+    <IDValue>9a2565bd-765e-49ba-b47e-cf5dfdcc7de3</IDValue>
+  </WorkIdentifier>
+</RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>f1803feb-81ab-45b3-8519-6a5a323ebc93</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>eb5a9c66-99a6-439b-aad8-a7b8144f4ea3</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>2429f5d9-45ed-49f7-b4ef-f725c501acdb</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>4e93a092-3d28-11e5-a6d2-000af77e485f</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+</RelatedMaterial>
+</Product>
+<Product><RecordReference>77c13fbc-59ac-482d-9e6c-d872b7c222da</RecordReference>
+<NotificationType>03</NotificationType>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>NOMCODE</IDTypeName>
+  <IDValue>ITD000000000728471</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>UDK</IDTypeName>
+  <IDValue>379.8</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>15</ProductIDType>
+  <IDTypeName>ISBN</IDTypeName>
+  <IDValue>978-5-699-86517-8</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>EAN13</IDTypeName>
+  <IDValue>9785699865178</IDValue>
+</ProductIdentifier>
+<DescriptiveDetail><ProductComposition>00</ProductComposition>
+  <ProductForm>BB</ProductForm>
+  <ProductFormDescription>60x84/8</ProductFormDescription>
+  <Measure><MeasureType>01</MeasureType>
+    <Measurement>280</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>02</MeasureType>
+    <Measurement>210</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>03</MeasureType>
+    <Measurement>10</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>08</MeasureType>
+    <Measurement>0.47</Measurement>
+    <MeasureUnitCode>kg</MeasureUnitCode>
+  </Measure>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SERIE_GUID</IDTypeName>
+      <IDValue>5b5ec1d9-99f0-11e6-9d96-000af77e485f</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[Распродажа блокноты и раскраски. Суперcкидка 50%]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>THEMATIC_GUID</IDTypeName>
+      <IDValue>e6408250-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>4</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ХОББИ И РАЗВЛЕЧЕНИЯ. ОРГАНИЗАЦИЯ ДОСУГА. ПЕСЕННИКИ.]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>NICHE_GUID</IDTypeName>
+      <IDValue>e009c844-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>3</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ДОМ. ДОСУГ. РУКОДЕЛИЕ И РЕМЕСЛА]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SEGMENT_GUID</IDTypeName>
+      <IDValue>e009c81e-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>1</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ПОПУЛЯРНАЯ И ПРИКЛАДНАЯ ЛИТЕРАТУРА ДЛЯ НЕПРОФЕССИОНАЛОВ (НПЛ)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <TitleDetail><TitleType>01</TitleType>
+    <TitleElement><SequenceNumber>1</SequenceNumber>
+      <TitleElementLevel>01</TitleElementLevel>
+      <YearOfAnnual>2016</YearOfAnnual>
+      <NoPrefix></NoPrefix>
+      <TitleWithoutPrefix><![CDATA[Авторская тату-раскраска. The Tattoo Colouring Book. Megamunden (Арт-хобби. Блокноты и раскраски)]]></TitleWithoutPrefix>
+    </TitleElement>
+  </TitleDetail>
+  <Contributor><SequenceNumber>22</SequenceNumber>
+    <ContributorRole>B21</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>EDITOR_GUID</IDTypeName>
+      <IDValue>c6d4fe53-49c2-11e2-956a-5ef3fc5021a7</IDValue>
+    </NameIdentifier>
+    <PersonName>Комиссарова Евгения Артемовна</PersonName>
+  </Contributor>
+  <Extent><ExtentType>00</ExtentType>
+    <ExtentValue>104</ExtentValue>
+    <ExtentUnit>03</ExtentUnit>
+  </Extent>
+  <AudienceRange><AudienceRangeQualifier>18</AudienceRangeQualifier>
+    <AudienceRangePrecision>03</AudienceRangePrecision>
+    <AudienceRangeValue>16</AudienceRangeValue>
+  </AudienceRange>
+</DescriptiveDetail>
+<CollateralDetail><TextContent><TextType>03</TextType>
+  <ContentAudience>00</ContentAudience>
+  <Text><![CDATA[Уникальные рисунки известного художника Мегамандена! Черепа, пистолеты, природа, винтаж - вместе являются основанием его стиля.
+Более 100 оригинальных иллюстраций для вашего творчества. Попробуйте сделать рисунок в стиле автора, или найдите свой собственный стиль. Вы можете не только раскрасить картинку,  она также может стать основой для рисунка на теле.
+
+Фишки книги:
+Мировой бестселлер
+От издательства подарившего миру "Таинственный сад" и "Зачарованный лес" Дж. Бэсфорд]]></Text>
+</TextContent>
+  <TextContent><TextType>02</TextType>
+    <ContentAudience>00</ContentAudience>
+    <Text><![CDATA[Авторская раскраска с тату-рисункками, от известного иллюстратора - Мегамандена. Большой формат раскраски для себя или в подарок. Более 100 иллюстраций для творчества и вдохновения. Прочувствуйте культуру тату, раскрасив рисунки по-своему. Используйте любые цветные карандаши, гелевые ручки или фломастеры, и начинайте творить! Ваш готовый рисунок может стать не только красивой картинкой, но и основой будущего творения на теле.]]></Text>
+  </TextContent>
+  <SupportingResource><ResourceContentType>01</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000728471/COVER/cover1.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>02</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000728471/COVER/cover4.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>07</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000728471/COVER/spine.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>06</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000728471/COVER/cover3d.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>15</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000728471/PDF/ITD000000000728471.pdf</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20160226</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+</CollateralDetail>
+<PublishingDetail><Imprint><ImprintIdentifier><ImprintIDType>01</ImprintIDType>
+  <IDTypeName>IMPRINT_GUID</IDTypeName>
+  <IDValue>d3e1161e-d418-11e3-a44f-5ef3fc5021a7</IDValue>
+</ImprintIdentifier>
+  <ImprintName><![CDATA[Издательство "Эксмо"]]></ImprintName>
+</Imprint>
+  <Publisher><PublishingRole>01</PublishingRole>
+    <PublisherIdentifier><PublisherIDType>01</PublisherIDType>
+      <IDTypeName>PUBLISHER_GUID</IDTypeName>
+      <IDValue>2a734e3d-a107-11de-8bc8-00265518a912</IDValue>
+    </PublisherIdentifier>
+    <PublisherName><![CDATA[Издательство "Эксмо" ООО]]></PublisherName>
+  </Publisher>
+  <ProductContact><ProductContactRole>01</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000001</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Северюхин Михаил</ContactName>
+    <EmailAddress>severyuhin.mv@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <ProductContact><ProductContactRole>02</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000002</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Федосеев Александр</ContactName>
+    <EmailAddress>fedoseev.ab@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <PublishingStatus>02</PublishingStatus>
+  <PublishingDate><PublishingDateRole>11</PublishingDateRole>
+    <Date dateformat="00">20160413</Date>
+  </PublishingDate>
+  <PublishingDate><PublishingDateRole>01</PublishingDateRole>
+    <Date dateformat="00">20160415</Date>
+  </PublishingDate>
+  <SalesRights><SalesRightsType>00</SalesRightsType>
+    <Territory><RegionsIncluded>WORLD</RegionsIncluded>
+    </Territory>
+  </SalesRights>
+  <ROWSalesRightsType>00</ROWSalesRightsType>
+</PublishingDetail>
+<RelatedMaterial><RelatedWork><WorkRelationCode>01</WorkRelationCode>
+  <WorkIdentifier><WorkIDType>01</WorkIDType>
+    <IDTypeName>PROIZ_GUID</IDTypeName>
+    <IDValue>f6d08de3-c1b3-11e5-96e3-000af77e485f</IDValue>
+  </WorkIdentifier>
+</RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>7ad55cbf-98c9-11e5-98fd-0050569c29c2</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>f9ac3668-98c9-11e5-98fd-0050569c29c2</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+</RelatedMaterial>
+</Product>
+<Product><RecordReference>65c470b3-1a84-4209-b3cb-b48fdee6e842</RecordReference>
+<NotificationType>03</NotificationType>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>NOMCODE</IDTypeName>
+  <IDValue>ITD000000000343533</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>UDK</IDTypeName>
+  <IDValue>343.1(094.4)</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>BBK</IDTypeName>
+  <IDValue>67.402</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>15</ProductIDType>
+  <IDTypeName>ISBN</IDTypeName>
+  <IDValue>978-5-699-74341-4</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>EAN13</IDTypeName>
+  <IDValue>9785699743414</IDValue>
+</ProductIdentifier>
+<DescriptiveDetail><ProductComposition>00</ProductComposition>
+  <ProductForm>BC</ProductForm>
+  <ProductFormDescription>84x108/32</ProductFormDescription>
+  <Measure><MeasureType>01</MeasureType>
+    <Measurement>200</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>02</MeasureType>
+    <Measurement>125</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>03</MeasureType>
+    <Measurement>12</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>08</MeasureType>
+    <Measurement>0.176</Measurement>
+    <MeasureUnitCode>kg</MeasureUnitCode>
+  </Measure>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SERIE_GUID</IDTypeName>
+      <IDValue>65cce666-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[Законы и кодексы (обложка)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>THEMATIC_GUID</IDTypeName>
+      <IDValue>e64081ba-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>4</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ЗАКОНОДАТЕЛЬСТВО РФ. КОММЕНТАРИИ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>NICHE_GUID</IDTypeName>
+      <IDValue>e009c866-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>3</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ПРАВО. ЮРИДИЧЕСКИЕ НАУКИ]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SEGMENT_GUID</IDTypeName>
+      <IDValue>e009c820-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>1</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ПРОФЕССИОНАЛЬНАЯ И НАУЧНАЯ ЛИТЕРАТУРА. ДЕЛОВАЯ ЛИТЕРАТУРА (ПРЛ)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <TitleDetail><TitleType>01</TitleType>
+    <TitleElement><SequenceNumber>1</SequenceNumber>
+      <TitleElementLevel>01</TitleElementLevel>
+      <YearOfAnnual>2014</YearOfAnnual>
+      <NoPrefix></NoPrefix>
+      <TitleWithoutPrefix><![CDATA[Уголовно-процессуальный кодекс Российской Федерации : текст с изм. и доп. на 20 июня 2014 г.]]></TitleWithoutPrefix>
+    </TitleElement>
+  </TitleDetail>
+  <Contributor><SequenceNumber>1</SequenceNumber>
+    <ContributorRole>B21</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>EDITOR_GUID</IDTypeName>
+      <IDValue>0598b616-7571-11e0-a4f2-001a64231342</IDValue>
+    </NameIdentifier>
+    <PersonName> Дегтярёва Татьяна Сергеевна</PersonName>
+  </Contributor>
+  <Extent><ExtentType>00</ExtentType>
+    <ExtentValue>272</ExtentValue>
+    <ExtentUnit>03</ExtentUnit>
+  </Extent>
+  <AudienceRange><AudienceRangeQualifier>18</AudienceRangeQualifier>
+    <AudienceRangePrecision>03</AudienceRangePrecision>
+    <AudienceRangeValue>0</AudienceRangeValue>
+  </AudienceRange>
+</DescriptiveDetail>
+<CollateralDetail><TextContent><TextType>02</TextType>
+  <ContentAudience>00</ContentAudience>
+  <Text><![CDATA[Настоящее издание содержит текст Уголовно-процессуального кодекса Российской Федерации с изменениями и дополнениями на 20 мая 2014 года. Если есть изменения, вступающие в силу позднее, то вместе с редакцией нормы, действующей на эту дату, приводится норма в новой редакции и указывается дата, с которой она вступает в силу.]]></Text>
+</TextContent>
+  <SupportingResource><ResourceContentType>01</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000343533/COVER/cover1.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150204</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>02</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000343533/COVER/cover4.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150204</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>07</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000343533/COVER/spine.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20150204</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>15</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000343533/PDF/ITD000000000343533.pdf</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20141009</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+</CollateralDetail>
+<PublishingDetail><Imprint><ImprintIdentifier><ImprintIDType>01</ImprintIDType>
+  <IDTypeName>IMPRINT_GUID</IDTypeName>
+  <IDValue>d3e1161e-d418-11e3-a44f-5ef3fc5021a7</IDValue>
+</ImprintIdentifier>
+  <ImprintName><![CDATA[Издательство "Эксмо"]]></ImprintName>
+</Imprint>
+  <Publisher><PublishingRole>01</PublishingRole>
+    <PublisherIdentifier><PublisherIDType>01</PublisherIDType>
+      <IDTypeName>PUBLISHER_GUID</IDTypeName>
+      <IDValue>2a734e3d-a107-11de-8bc8-00265518a912</IDValue>
+    </PublisherIdentifier>
+    <PublisherName><![CDATA[Издательство "Эксмо" ООО]]></PublisherName>
+  </Publisher>
+  <ProductContact><ProductContactRole>01</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000001</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Северюхин Михаил</ContactName>
+    <EmailAddress>severyuhin.mv@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <ProductContact><ProductContactRole>02</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000002</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Федосеев Александр</ContactName>
+    <EmailAddress>fedoseev.ab@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <PublishingStatus>02</PublishingStatus>
+  <PublishingDate><PublishingDateRole>11</PublishingDateRole>
+    <Date dateformat="00">20140623</Date>
+  </PublishingDate>
+  <PublishingDate><PublishingDateRole>01</PublishingDateRole>
+    <Date dateformat="00">20140623</Date>
+  </PublishingDate>
+  <SalesRights><SalesRightsType>00</SalesRightsType>
+    <Territory><RegionsIncluded>WORLD</RegionsIncluded>
+    </Territory>
+  </SalesRights>
+  <ROWSalesRightsType>00</ROWSalesRightsType>
+</PublishingDetail>
+<RelatedMaterial><RelatedWork><WorkRelationCode>01</WorkRelationCode>
+  <WorkIdentifier><WorkIDType>01</WorkIDType>
+    <IDTypeName>PROIZ_GUID</IDTypeName>
+    <IDValue>2e7c71c8-1957-4c04-8e1d-e1e543eedbfe</IDValue>
+  </WorkIdentifier>
+</RelatedWork>
+</RelatedMaterial>
+</Product>
+<Product><RecordReference>b7346c86-c31e-43fe-be5d-18f62cc95504</RecordReference>
+<NotificationType>03</NotificationType>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>NOMCODE</IDTypeName>
+  <IDValue>ITD000000000829570</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>UDK</IDTypeName>
+  <IDValue>087.5:75.071.1 Ван Гог В.</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>BBK</IDTypeName>
+  <IDValue>85.143(3)-8</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>15</ProductIDType>
+  <IDTypeName>ISBN</IDTypeName>
+  <IDValue>978-5-699-92401-1</IDValue>
+</ProductIdentifier>
+<ProductIdentifier><ProductIDType>01</ProductIDType>
+  <IDTypeName>EAN13</IDTypeName>
+  <IDValue>9785699924011</IDValue>
+</ProductIdentifier>
+<DescriptiveDetail><ProductComposition>00</ProductComposition>
+  <ProductForm>BB</ProductForm>
+  <ProductFormDescription>84x108/16</ProductFormDescription>
+  <Measure><MeasureType>01</MeasureType>
+    <Measurement>255</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>02</MeasureType>
+    <Measurement>197</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>03</MeasureType>
+    <Measurement>12</Measurement>
+    <MeasureUnitCode>mm</MeasureUnitCode>
+  </Measure>
+  <Measure><MeasureType>08</MeasureType>
+    <Measurement>0.455</Measurement>
+    <MeasureUnitCode>kg</MeasureUnitCode>
+  </Measure>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SERIE_GUID</IDTypeName>
+      <IDValue>293a1bb7-437d-11e6-96e3-000af77e485f</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[Как говорить с детьми о…]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>THEMATIC_GUID</IDTypeName>
+      <IDValue>e6408202-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>4</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ПРИКЛАДНЫЕ ИЗДАНИЯ ПО ИСКУССТВУ (МУЗЫКАЛЬНЫЕ ИЗДАНИЯ И НОТЫ, АЛЬБОМЫ ДЛЯ РИСОВАНИЯ)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>NICHE_GUID</IDTypeName>
+      <IDValue>e009c850-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>3</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ИСКУССТВО. КУЛЬТУРА]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <Collection><CollectionType>10</CollectionType>
+    <CollectionIdentifier><CollectionIDType>01</CollectionIDType>
+      <IDTypeName>SEGMENT_GUID</IDTypeName>
+      <IDValue>e009c81e-4f03-11e0-a01d-001a64231342</IDValue>
+    </CollectionIdentifier>
+    <TitleDetail><TitleType>01</TitleType>
+      <TitleElement><SequenceNumber>1</SequenceNumber>
+        <TitleElementLevel>02</TitleElementLevel>
+        <TitleText><![CDATA[ПОПУЛЯРНАЯ И ПРИКЛАДНАЯ ЛИТЕРАТУРА ДЛЯ НЕПРОФЕССИОНАЛОВ (НПЛ)]]></TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </Collection>
+  <TitleDetail><TitleType>01</TitleType>
+    <TitleElement><SequenceNumber>1</SequenceNumber>
+      <TitleElementLevel>01</TitleElementLevel>
+      <YearOfAnnual>2016</YearOfAnnual>
+      <NoPrefix></NoPrefix>
+      <TitleWithoutPrefix><![CDATA[Как говорить с детьми о Ван Гоге]]></TitleWithoutPrefix>
+    </TitleElement>
+  </TitleDetail>
+  <TitleDetail><TitleType>03</TitleType>
+    <TitleElement><SequenceNumber>1</SequenceNumber>
+      <TitleElementLevel>01</TitleElementLevel>
+      <NoPrefix></NoPrefix>
+      <TitleWithoutPrefix><![CDATA[Comment parler de Van Gogh aux enfants]]></TitleWithoutPrefix>
+    </TitleElement>
+  </TitleDetail>
+  <Contributor><SequenceNumber>22</SequenceNumber>
+    <ContributorRole>B21</ContributorRole>
+    <NameIdentifier><NameIDType>01</NameIDType>
+      <IDTypeName>EDITOR_GUID</IDTypeName>
+      <IDValue>e7ddff0a-1618-11e3-860a-5ef3fc5021a7</IDValue>
+    </NameIdentifier>
+    <PersonName>Шапиро Ангелина Михайловна</PersonName>
+  </Contributor>
+  <Extent><ExtentType>00</ExtentType>
+    <ExtentValue>80</ExtentValue>
+    <ExtentUnit>03</ExtentUnit>
+  </Extent>
+  <AudienceRange><AudienceRangeQualifier>18</AudienceRangeQualifier>
+    <AudienceRangePrecision>03</AudienceRangePrecision>
+    <AudienceRangeValue>0</AudienceRangeValue>
+  </AudienceRange>
+</DescriptiveDetail>
+<CollateralDetail><TextContent><TextType>03</TextType>
+  <ContentAudience>00</ContentAudience>
+  <Text><![CDATA[О чем эта книга:
+Эта книга о великом художнике Винсенте Ван Гоге, его жизни, творчестве и удивительной судьбе. Она подготовлена специально для родителей, которые хотят увлечь своих детей искусством.
+Расскажите своему ребенку занимательные факты о Винсенте Ван Гоге, заинтересуйте его картинами, показав, что они не так просты, как кажутся на первый взгляд, вместе откройте их тайный смысл.
+Познакомьте вашего ребенка с творчеством правильно, чтобы не отбить у него на всю жизнь интерес к искусству!
+
+Для кото эта книга:
+Для родителей, мечтающих, чтобы их дети интересовались искусством
+Для родителей, желающих расширить кругозор своих детей
+
+«Фишки» книги:
+10 картин мастера
+Интересные факты из жизни
+Увлекательный истории, способные увлечь ребенка
+
+Отзыв:
+Книги этой серии позволяют увидеть за необычными картинами великих художников - живых людей, с их проблемами, болезнями, одиночеством. Они становится ближе и понятнее нам. Творчество открывается как целительная сила души, стремящейся к свету… Прекрасная идея с примерами детских вопросов по картинам и ответов на них. Доступными словами о композиции, технике, метафоричности картин.
+
+Анна Быкова, автор книги «Ленивая мама»
+
+]]></Text>
+</TextContent>
+  <TextContent><TextType>02</TextType>
+    <ContentAudience>00</ContentAudience>
+    <Text><![CDATA[Винсент Ван Гог - один из самых известных постимпрессионистов. Буйство цветов и новаторство стиля его шедевров навсегда изменили историю живописи.
+Эта книга - must-have для родителей, которые хотят привить своим детям любовь к искусству. Уникальные стратегии общения, простые и доступные диалоги и великолепные комиксы помогут вам объяснить ребенку, кто такой Винсент Ван Гог, какой вклад он внес в развитие мировой культуры и почему всем следует помнить о нем.]]></Text>
+  </TextContent>
+  <SupportingResource><ResourceContentType>01</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000829570/COVER/cover1.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>02</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000829570/COVER/cover4.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>07</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000829570/COVER/spine.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>06</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000829570/COVER/cover3d.jpg</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170715</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+  <SupportingResource><ResourceContentType>15</ResourceContentType>
+    <ContentAudience>00</ContentAudience>
+    <ResourceMode>03</ResourceMode>
+    <ResourceVersion><ResourceForm>02</ResourceForm>
+      <ResourceLink>http://cdn.eksmo.ru/v2/ITD000000000829570/PDF/ITD000000000829570.pdf</ResourceLink>
+      <ContentDate><ContentDateRole>01</ContentDateRole>
+        <Date>20170521</Date>
+      </ContentDate>
+    </ResourceVersion>
+  </SupportingResource>
+</CollateralDetail>
+<PublishingDetail><Imprint><ImprintIdentifier><ImprintIDType>01</ImprintIDType>
+  <IDTypeName>IMPRINT_GUID</IDTypeName>
+  <IDValue>d3e1161e-d418-11e3-a44f-5ef3fc5021a7</IDValue>
+</ImprintIdentifier>
+  <ImprintName><![CDATA[Издательство "Эксмо"]]></ImprintName>
+</Imprint>
+  <Publisher><PublishingRole>01</PublishingRole>
+    <PublisherIdentifier><PublisherIDType>01</PublisherIDType>
+      <IDTypeName>PUBLISHER_GUID</IDTypeName>
+      <IDValue>2a734e3d-a107-11de-8bc8-00265518a912</IDValue>
+    </PublisherIdentifier>
+    <PublisherName><![CDATA[Издательство "Эксмо" ООО]]></PublisherName>
+  </Publisher>
+  <ProductContact><ProductContactRole>01</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000001</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Северюхин Михаил</ContactName>
+    <EmailAddress>severyuhin.mv@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <ProductContact><ProductContactRole>02</ProductContactRole>
+    <ProductContactIdentifier><ProductContactIDType>01</ProductContactIDType>
+      <IDTypeName>USER_GUID</IDTypeName>
+      <IDValue>00000000002</IDValue>
+    </ProductContactIdentifier>
+    <ContactName>Федосеев Александр</ContactName>
+    <EmailAddress>fedoseev.ab@eksmo.ru</EmailAddress>
+  </ProductContact>
+  <PublishingDate><PublishingDateRole>11</PublishingDateRole>
+    <Date dateformat="00">20170306</Date>
+  </PublishingDate>
+  <PublishingDate><PublishingDateRole>01</PublishingDateRole>
+    <Date dateformat="00">20170303</Date>
+  </PublishingDate>
+  <SalesRights><SalesRightsType>00</SalesRightsType>
+    <Territory><RegionsIncluded>WORLD</RegionsIncluded>
+    </Territory>
+  </SalesRights>
+  <ROWSalesRightsType>00</ROWSalesRightsType>
+</PublishingDetail>
+<RelatedMaterial><RelatedWork><WorkRelationCode>01</WorkRelationCode>
+  <WorkIdentifier><WorkIDType>01</WorkIDType>
+    <IDTypeName>PROIZ_GUID</IDTypeName>
+    <IDValue>426fe6f0-58ab-11e6-9bc1-000af77e485f</IDValue>
+  </WorkIdentifier>
+</RelatedWork>
+  <RelatedWork><WorkRelationCode>01</WorkRelationCode>
+    <WorkIdentifier><WorkIDType>01</WorkIDType>
+      <IDTypeName>PROIZ_GUID</IDTypeName>
+      <IDValue>9f4f0fe6-150c-4dff-9c41-c8db5145bf68</IDValue>
+    </WorkIdentifier>
+  </RelatedWork>
+</RelatedMaterial>
+</Product>

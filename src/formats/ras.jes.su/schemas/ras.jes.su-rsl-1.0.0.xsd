@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="journal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="product_id"/>
+        <xs:element ref="product_type"/>
+        <xs:element ref="date_public"/>
+        <xs:element ref="list_price"/>
+        <xs:element ref="issue_id"/>
+        <xs:element ref="status"/>
+        <xs:element ref="type"/>
+        <xs:element ref="ltype"/>
+        <xs:element ref="year"/>
+        <xs:element ref="quarter"/>
+        <xs:element ref="month"/>
+        <xs:element ref="redactor_ids"/>
+        <xs:element ref="volume"/>
+        <xs:element ref="number"/>
+        <xs:element ref="publication_ids"/>
+        <xs:element ref="page_title"/>
+        <xs:element ref="meta_description"/>
+        <xs:element ref="meta_keywords"/>
+        <xs:element ref="category_id"/>
+        <xs:element ref="price"/>
+        <xs:element ref="name"/>
+        <xs:element ref="theme"/>
+        <xs:element ref="short_description"/>
+        <xs:element ref="full_description"/>
+        <xs:element ref="main_pair"/>
+        <xs:element minOccurs="0" ref="redactors"/>
+        <xs:element ref="issn"/>
+        <xs:element ref="publications"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="list_price" type="xs:decimal"/>
+  <xs:element name="issue_id" type="xs:integer"/>
+  <xs:element name="ltype" type="xs:NCName"/>
+  <xs:element name="year" type="xs:integer"/>
+  <xs:element name="quarter" type="xs:integer"/>
+  <xs:element name="month" type="xs:integer"/>
+  <xs:element name="redactor_ids" type="xs:string"/>
+  <xs:element name="volume" type="xs:string"/>
+  <xs:element name="number" type="xs:string"/>
+  <xs:element name="publication_ids" type="xs:string"/>
+  <xs:element name="page_title">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="meta_description">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="meta_keywords">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="category_id" type="xs:integer"/>
+  <xs:element name="price" type="xs:decimal"/>
+  <xs:element name="name">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="theme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="short_description">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="redactors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="redactor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="redactor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="user_id"/>
+        <xs:element ref="user_type"/>
+        <xs:element ref="status"/>
+        <xs:element ref="user_login"/>
+        <xs:element ref="is_root"/>
+        <xs:element ref="company_id"/>
+        <xs:element ref="title"/>
+        <xs:element ref="balance"/>
+        <xs:element ref="firstname"/>
+        <xs:element ref="lastname"/>
+        <xs:element ref="company"/>
+        <xs:element ref="email"/>
+        <xs:element ref="phone"/>
+        <xs:element ref="name_ru"/>
+        <xs:element ref="name_en"/>
+        <xs:element ref="surname_ru"/>
+        <xs:element ref="surname_en"/>
+        <xs:element ref="patronymic"/>
+        <xs:element ref="orcid"/>
+        <xs:element ref="internet_profile"/>
+        <xs:element ref="academic_degree"/>
+        <xs:element ref="academic_degree_en"/>
+        <xs:element ref="occupation"/>
+        <xs:element ref="occupation_en"/>
+        <xs:element ref="position_place_of_work"/>
+        <xs:element ref="position_place_of_work_en"/>
+        <xs:element ref="professional_interest"/>
+        <xs:element ref="professional_interest_en"/>
+        <xs:element ref="fax"/>
+        <xs:element ref="url"/>
+        <xs:element ref="number_payments"/>
+        <xs:element ref="tax_exempt"/>
+        <xs:element ref="lang_code"/>
+        <xs:element ref="password_change_timestamp"/>
+        <xs:element ref="usergroups"/>
+        <xs:element ref="profile_id"/>
+        <xs:element ref="profile_type"/>
+        <xs:element ref="b_title"/>
+        <xs:element ref="b_firstname"/>
+        <xs:element ref="b_lastname"/>
+        <xs:element ref="b_address"/>
+        <xs:element ref="b_address_2"/>
+        <xs:element ref="b_city"/>
+        <xs:element ref="b_county"/>
+        <xs:element ref="b_state"/>
+        <xs:element ref="b_country"/>
+        <xs:element ref="b_zipcode"/>
+        <xs:element ref="b_phone"/>
+        <xs:element ref="s_title"/>
+        <xs:element ref="s_firstname"/>
+        <xs:element ref="s_lastname"/>
+        <xs:element ref="s_address"/>
+        <xs:element ref="s_address_2"/>
+        <xs:element ref="s_city"/>
+        <xs:element ref="s_county"/>
+        <xs:element ref="s_state"/>
+        <xs:element ref="s_country"/>
+        <xs:element ref="s_zipcode"/>
+        <xs:element ref="s_phone"/>
+        <xs:element ref="s_address_type"/>
+        <xs:element ref="profile_name"/>
+        <xs:element ref="b_city_en"/>
+        <xs:element ref="b_address_en"/>
+        <xs:element ref="address"/>
+        <xs:element ref="address_en"/>
+        <xs:element ref="fields"/>
+        <xs:element ref="birthday"/>
+        <xs:element ref="purchase_timestamp_from"/>
+        <xs:element ref="purchase_timestamp_to"/>
+        <xs:element ref="responsible_email"/>
+        <xs:element ref="last_passwords"/>
+        <xs:element ref="fio"/>
+        <xs:element ref="fio_eng"/>
+        <xs:element ref="number_payments_frozen"/>
+        <xs:element ref="font_size"/>
+        <xs:element ref="use_crypto_wallet"/>
+        <xs:element ref="crypto_wallet_address"/>
+        <xs:element ref="crypto_wallet_private_key"/>
+        <xs:element ref="crypto_wallet_password"/>
+        <xs:element ref="b_country_descr"/>
+        <xs:element ref="s_country_descr"/>
+        <xs:element ref="b_state_descr"/>
+        <xs:element ref="s_state_descr"/>
+        <xs:element ref="main_pair"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="issn" type="xs:NMTOKEN"/>
+  <xs:element name="publications">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="publication"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publication">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="external_pid"/>
+        <xs:element ref="product_code"/>
+        <xs:element ref="doi"/>
+        <xs:element ref="show_doi"/>
+        <xs:element ref="product_type"/>
+        <xs:element ref="publication_type"/>
+        <xs:element ref="position"/>
+        <xs:element ref="main_author"/>
+        <xs:element ref="date_public"/>
+        <xs:element ref="date_accepted"/>
+        <xs:element ref="date_received"/>
+        <xs:element ref="date_included"/>
+        <xs:element ref="page_from"/>
+        <xs:element ref="page_to"/>
+        <xs:element ref="rubric_ru"/>
+        <xs:element ref="rubric_en"/>
+        <xs:element ref="financing_sources"/>
+        <xs:element ref="financing_sources_en"/>
+        <xs:element ref="product"/>
+        <xs:element ref="full_description"/>
+        <xs:element ref="list_ref"/>
+        <xs:element ref="keywords_list"/>
+        <xs:element ref="occupation"/>
+        <xs:element ref="affiliation"/>
+        <xs:element ref="address"/>
+        <xs:element minOccurs="0" ref="author_affiliation"/>
+        <xs:element ref="authors"/>
+        <xs:element ref="number_version"/>
+        <xs:element ref="status"/>
+        <xs:element ref="version_id"/>
+        <xs:element ref="characters"/>
+        <xs:element ref="timestamp"/>
+        <xs:element ref="text"/>
+        <xs:element minOccurs="0" ref="attachment"/>
+        <xs:element minOccurs="0" ref="publication_images"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="external_pid" type="xs:integer"/>
+  <xs:element name="product_code" type="xs:NCName"/>
+  <xs:element name="doi" type="xs:string"/>
+  <xs:element name="show_doi" type="xs:NCName"/>
+  <xs:element name="publication_type" type="xs:NCName"/>
+  <xs:element name="main_author" type="xs:integer"/>
+  <xs:element name="date_accepted" type="xs:integer"/>
+  <xs:element name="date_received" type="xs:integer"/>
+  <xs:element name="date_included" type="xs:integer"/>
+  <xs:element name="page_from" type="xs:integer"/>
+  <xs:element name="page_to" type="xs:integer"/>
+  <xs:element name="rubric_ru" type="xs:string"/>
+  <xs:element name="rubric_en" type="xs:string"/>
+  <xs:element name="financing_sources" type="xs:string"/>
+  <xs:element name="financing_sources_en" type="xs:string"/>
+  <xs:element name="product">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="list_ref">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="keywords_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="author_affiliation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="affiliation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="authors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="author"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="author">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="user_id"/>
+        <xs:element ref="user_type"/>
+        <xs:element ref="status"/>
+        <xs:element ref="user_login"/>
+        <xs:element ref="is_root"/>
+        <xs:element ref="company_id"/>
+        <xs:element ref="title"/>
+        <xs:element ref="balance"/>
+        <xs:element ref="firstname"/>
+        <xs:element ref="lastname"/>
+        <xs:element ref="company"/>
+        <xs:element ref="email"/>
+        <xs:element ref="phone"/>
+        <xs:element ref="name_ru"/>
+        <xs:element ref="name_en"/>
+        <xs:element ref="surname_ru"/>
+        <xs:element ref="surname_en"/>
+        <xs:element ref="patronymic"/>
+        <xs:element ref="orcid"/>
+        <xs:element ref="internet_profile"/>
+        <xs:element ref="academic_degree"/>
+        <xs:element ref="academic_degree_en"/>
+        <xs:element ref="occupation"/>
+        <xs:element ref="occupation_en"/>
+        <xs:element ref="position_place_of_work"/>
+        <xs:element ref="position_place_of_work_en"/>
+        <xs:element ref="professional_interest"/>
+        <xs:element ref="professional_interest_en"/>
+        <xs:element ref="fax"/>
+        <xs:element ref="url"/>
+        <xs:element ref="number_payments"/>
+        <xs:element ref="tax_exempt"/>
+        <xs:element ref="lang_code"/>
+        <xs:element ref="password_change_timestamp"/>
+        <xs:element ref="usergroups"/>
+        <xs:element ref="profile_id"/>
+        <xs:element ref="profile_type"/>
+        <xs:element ref="b_title"/>
+        <xs:element ref="b_firstname"/>
+        <xs:element ref="b_lastname"/>
+        <xs:element ref="b_address"/>
+        <xs:element ref="b_address_2"/>
+        <xs:element ref="b_city"/>
+        <xs:element ref="b_county"/>
+        <xs:element ref="b_state"/>
+        <xs:element ref="b_country"/>
+        <xs:element ref="b_zipcode"/>
+        <xs:element ref="b_phone"/>
+        <xs:element ref="s_title"/>
+        <xs:element ref="s_firstname"/>
+        <xs:element ref="s_lastname"/>
+        <xs:element ref="s_address"/>
+        <xs:element ref="s_address_2"/>
+        <xs:element ref="s_city"/>
+        <xs:element ref="s_county"/>
+        <xs:element ref="s_state"/>
+        <xs:element ref="s_country"/>
+        <xs:element ref="s_zipcode"/>
+        <xs:element ref="s_phone"/>
+        <xs:element ref="s_address_type"/>
+        <xs:element ref="profile_name"/>
+        <xs:element ref="b_city_en"/>
+        <xs:element ref="b_address_en"/>
+        <xs:element ref="address"/>
+        <xs:element ref="address_en"/>
+        <xs:element ref="fields"/>
+        <xs:element ref="birthday"/>
+        <xs:element ref="purchase_timestamp_from"/>
+        <xs:element ref="purchase_timestamp_to"/>
+        <xs:element ref="responsible_email"/>
+        <xs:element ref="last_passwords"/>
+        <xs:element ref="fio"/>
+        <xs:element ref="fio_eng"/>
+        <xs:element ref="number_payments_frozen"/>
+        <xs:element ref="font_size"/>
+        <xs:element ref="use_crypto_wallet"/>
+        <xs:element ref="crypto_wallet_address"/>
+        <xs:element ref="crypto_wallet_private_key"/>
+        <xs:element ref="crypto_wallet_password"/>
+        <xs:element ref="b_country_descr"/>
+        <xs:element ref="s_country_descr"/>
+        <xs:element ref="b_state_descr"/>
+        <xs:element ref="s_state_descr"/>
+        <xs:element ref="main_pair"/>
+        <xs:element ref="referer"/>
+        <xs:element ref="last_login"/>
+        <xs:element ref="timestamp"/>
+        <xs:element ref="password"/>
+        <xs:element ref="salt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="referer">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="last_login" type="xs:integer"/>
+  <xs:element name="password" type="xs:string"/>
+  <xs:element name="salt" type="xs:string"/>
+  <xs:element name="number_version" type="xs:integer"/>
+  <xs:element name="version_id" type="xs:integer"/>
+  <xs:element name="characters" type="xs:integer"/>
+  <xs:element name="text" type="xs:string"/>
+  <xs:element name="attachment" type="xs:string"/>
+  <xs:element name="publication_images">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="image_id"/>
+        <xs:element ref="image_path"/>
+        <xs:element ref="image_x"/>
+        <xs:element ref="image_y"/>
+        <xs:element ref="alt"/>
+        <xs:element ref="product_id"/>
+        <xs:element ref="position"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="product_id" type="xs:integer"/>
+  <xs:element name="product_type" type="xs:NCName"/>
+  <xs:element name="date_public" type="xs:integer"/>
+  <xs:element name="status" type="xs:NCName"/>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="EN">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RU">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="full_description">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="main_pair">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="image_id"/>
+        <xs:element ref="position"/>
+        <xs:element ref="detailed_id"/>
+        <xs:element ref="icon"/>
+        <xs:element ref="pair_id"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="detailed_id" type="xs:integer"/>
+  <xs:element name="icon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="image_path"/>
+        <xs:element ref="alt"/>
+        <xs:element ref="image_x"/>
+        <xs:element ref="image_y"/>
+        <xs:element ref="http_image_path"/>
+        <xs:element ref="absolute_path"/>
+        <xs:element ref="is_flash"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="http_image_path" type="xs:string"/>
+  <xs:element name="absolute_path" type="xs:string"/>
+  <xs:element name="is_flash" type="xs:integer"/>
+  <xs:element name="pair_id" type="xs:integer"/>
+  <xs:element name="user_id" type="xs:integer"/>
+  <xs:element name="user_type" type="xs:NCName"/>
+  <xs:element name="user_login" type="xs:NCName"/>
+  <xs:element name="is_root" type="xs:NCName"/>
+  <xs:element name="company_id" type="xs:integer"/>
+  <xs:element name="title">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="balance" type="xs:string"/>
+  <xs:element name="firstname" type="xs:string"/>
+  <xs:element name="lastname" type="xs:string"/>
+  <xs:element name="company">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="phone">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="name_ru" type="xs:NCName"/>
+  <xs:element name="name_en" type="xs:string"/>
+  <xs:element name="surname_ru" type="xs:string"/>
+  <xs:element name="surname_en" type="xs:string"/>
+  <xs:element name="patronymic" type="xs:string"/>
+  <xs:element name="orcid" type="xs:string"/>
+  <xs:element name="internet_profile" type="xs:anyURI"/>
+  <xs:element name="academic_degree" type="xs:string"/>
+  <xs:element name="academic_degree_en" type="xs:string"/>
+  <xs:element name="occupation">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="occupation_en" type="xs:string"/>
+  <xs:element name="position_place_of_work" type="xs:string"/>
+  <xs:element name="position_place_of_work_en" type="xs:string"/>
+  <xs:element name="professional_interest" type="xs:string"/>
+  <xs:element name="professional_interest_en" type="xs:string"/>
+  <xs:element name="fax">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="url">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="number_payments" type="xs:string"/>
+  <xs:element name="tax_exempt" type="xs:NCName"/>
+  <xs:element name="lang_code" type="xs:NCName"/>
+  <xs:element name="password_change_timestamp" type="xs:integer"/>
+  <xs:element name="usergroups">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="status"/>
+        <xs:element ref="type"/>
+        <xs:element ref="categories_ids"/>
+        <xs:element ref="link_id"/>
+        <xs:element ref="usergroup_id"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="categories_ids" type="xs:string"/>
+  <xs:element name="link_id" type="xs:integer"/>
+  <xs:element name="usergroup_id" type="xs:integer"/>
+  <xs:element name="profile_id" type="xs:integer"/>
+  <xs:element name="profile_type" type="xs:NCName"/>
+  <xs:element name="b_title">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="b_firstname">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="b_lastname">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="b_address" type="xs:string"/>
+  <xs:element name="b_address_2">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="b_city" type="xs:string"/>
+  <xs:element name="b_county" type="xs:NCName"/>
+  <xs:element name="b_state" type="xs:NCName"/>
+  <xs:element name="b_country" type="xs:NCName"/>
+  <xs:element name="b_zipcode">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="b_phone">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_title">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_firstname">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_lastname">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_address">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_address_2">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_city">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_county" type="xs:NCName"/>
+  <xs:element name="s_state" type="xs:NCName"/>
+  <xs:element name="s_country" type="xs:NCName"/>
+  <xs:element name="s_zipcode">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_phone">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="s_address_type">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="profile_name" type="xs:NCName"/>
+  <xs:element name="b_city_en" type="xs:string"/>
+  <xs:element name="b_address_en" type="xs:string"/>
+  <xs:element name="address">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="address_en" type="xs:string"/>
+  <xs:element name="fields">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="birthday" type="xs:string"/>
+  <xs:element name="purchase_timestamp_from" type="xs:string"/>
+  <xs:element name="purchase_timestamp_to" type="xs:string"/>
+  <xs:element name="responsible_email">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="last_passwords">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="fio">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="fio_eng">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="number_payments_frozen" type="xs:string"/>
+  <xs:element name="font_size" type="xs:string"/>
+  <xs:element name="use_crypto_wallet" type="xs:NCName"/>
+  <xs:element name="crypto_wallet_address" type="xs:string"/>
+  <xs:element name="crypto_wallet_private_key">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="crypto_wallet_password">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="b_country_descr" type="xs:string"/>
+  <xs:element name="s_country_descr" type="xs:string"/>
+  <xs:element name="b_state_descr" type="xs:string"/>
+  <xs:element name="s_state_descr" type="xs:NCName"/>
+  <xs:element name="position" type="xs:integer"/>
+  <xs:element name="affiliation">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="EN"/>
+        <xs:element ref="RU"/>
+        <xs:element ref="address"/>
+        <xs:element ref="address_en"/>
+        <xs:element ref="affiliation"/>
+        <xs:element ref="occupation"/>
+        <xs:element ref="occupation_en"/>
+        <xs:element ref="product_id"/>
+        <xs:element ref="affiliation_en"/>
+        <xs:element ref="author_id"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="affiliation_en" type="xs:string"/>
+  <xs:element name="author_id" type="xs:integer"/>
+  <xs:element name="timestamp" type="xs:integer"/>
+  <xs:element name="image_id" type="xs:integer"/>
+  <xs:element name="image_path" type="xs:string"/>
+  <xs:element name="image_x" type="xs:integer"/>
+  <xs:element name="image_y" type="xs:integer"/>
+  <xs:element name="alt" type="xs:string"/>
+  <xs:element name="reference" type="xs:string"/>
+</xs:schema>

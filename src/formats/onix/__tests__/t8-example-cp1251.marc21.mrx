@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns="http://www.loc.gov/MARC21/slim" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <leader>00000cam a22000004  4500</leader>
+    <controlfield tag="001">4938</controlfield>
+    <controlfield tag="003">XX-XxUND</controlfield>
+    <controlfield tag="007">ta</controlfield>
+    <controlfield tag="008">      s2008    xx |||||||||||| ||||und d</controlfield>
+    <datafield xmlns="" tag="040" ind1="1" ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">XX-XxUND</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">XX-XxUND</subfield>
+    </datafield>
+    <datafield xmlns="" tag="100" ind1="1" ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">Пушкин, А.С.</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="e">author</subfield>
+    </datafield>
+    <datafield xmlns="" tag="245" ind1="0" ind2="0">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">Евгений Онегин</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="b">Роман в стихах, критика</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">by</subfield>
+    </datafield>
+    <datafield xmlns="" tag="260" ind1=" " ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">М.</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="b">[s.n.]</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">2008</subfield>
+    </datafield>
+    <datafield xmlns="" tag="300" ind1=" " ind2=" ">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">381 p.</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="c">18 grams.</subfield>
+    </datafield>
+    <datafield xmlns="" tag="520" ind1="2" ind2="#">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="a">"Энциклопедия русской жизни" назвал Белинский роман в стихах "Евгений Онегин". И действительно, это бессмертное произведение лучше любого учебника истории живописует русскую жизнь первой половины XIX века, быт и нравы от высшего света Петербурга до патриархальной деревни.</subfield>
+    </datafield>
+    <datafield xmlns="" tag="856" ind1="" ind2="2">
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="3">Front cover image</subfield>
+      <subfield xmlns="http://www.loc.gov/MARC21/slim" code="u">Cover4938.jpg</subfield>
+    </datafield>
+  </record>
+</collection>

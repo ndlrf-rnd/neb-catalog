@@ -1,0 +1,142 @@
+{
+    "@context": {
+        "accessMode" : {
+            "@id" : "https://schema.org/accessMode",
+            "@language": null,
+            "@direction": null
+        },
+        "accessModeSufficient": {
+            "@id" : "https://schema.org/accessModeSufficient",
+            "@language": null,
+            "@direction": null
+        },
+        "accessibilityFeature": {
+            "@id" : "https://schema.org/accessibilityFeature",
+            "@language": null,
+            "@direction": null
+        },
+        "accessibilityHazard": {
+            "@id" : "https://schema.org/accessibilityHazard",
+            "@language": null,
+            "@direction": null
+        },
+        "alternate": {
+            "@container": "@set",
+            "@type" : "@id",
+            "@id": "https://www.w3.org/ns/pub#alternate"
+        },
+        "artist": {
+            "@container": "@list",
+            "@id": "https://schema.org/artist"
+        },
+        "author": {
+            "@container": "@list",
+            "@id": "https://schema.org/author"
+        },
+        "contributor": {
+            "@container": "@list",
+            "@id": "https://schema.org/contributor"
+        },
+        "conformsTo": {
+            "@container": "@set",
+            "@language": null,
+            "@direction": null,
+            "@id": "http://purl.org/dc/terms/conformsTo"
+        },
+        "colorist": {
+            "@container": "@list",
+            "@id": "https://schema.org/colorist"
+        },
+        "creator": {
+            "@container": "@list",
+            "@id": "https://schema.org/creator"
+        },
+        "duration" : {
+            "@language" : null,
+            "@direction": null,
+            "@id" : "https://schema.org/duration"
+        },
+        "editor": {
+            "@container": "@list",
+            "@id": "https://schema.org/editor"
+        },
+        "encodingFormat" : {
+            "@language" : null,
+            "@direction": null,
+            "@id" : "https://schema.org/encodingFormat"
+        },
+        "identifier": {
+            "@language" : null,
+            "@direction": null,
+            "@id": "https://schema.org/identifier"
+        },
+        "illustrator": {
+            "@container": "@list",
+            "@id": "https://schema.org/illustrator"
+        },
+        "inker": {
+            "@container": "@list",
+            "@id": "https://schema.org/inker"
+        },
+        "integrity": {
+            "@language" : null,
+            "@direction": null,
+            "@id": "https://www.w3.org/ns/pub#integrity"
+        },
+        "inLanguage": {
+            "@language" : null,
+            "@direction": null,
+            "@container": "@list",
+            "@id": "https://schema.org/inDirection"
+        },
+        "letterer": {
+            "@container": "@list",
+            "@id": "https://schema.org/letterer"
+        },
+        "links": {
+            "@container": "@set",
+            "@type" : "@id",
+            "@id": "https://www.w3.org/ns/pub#links"
+        },
+        "LinkedResource": {
+            "@id": "https://www.w3.org/ns/pub#LinkedResource"
+        },
+        "penciler": {
+            "@container": "@list",
+            "@id": "https://schema.org/penciler"
+        },
+        "publisher": {
+            "@container": "@list",
+            "@id": "https://schema.org/publisher"
+        },
+        "readBy": {
+            "@container": "@list",
+            "@id": "https://schema.org/readBy"
+        },
+        "readingOrder": {
+            "@container": "@list",
+            "@type" : "@id",
+            "@id": "https://www.w3.org/ns/pub#readingOrder"
+        },
+        "resources": {
+            "@container": "@set",
+            "@type" : "@id",
+            "@id": "https://www.w3.org/ns/pub#resources"
+        },
+        "rel": {
+            "@language" : null,
+            "@direction": null,
+            "@container": "@set",
+            "@id": "https://www.w3.org/ns/pub#rel"
+        },
+        "translator": {
+            "@container": "@list",
+            "@id": "https://schema.org/translator"
+        },
+        "id"        : "@id",
+        "type"      : "@type",
+        "value"     : "@value",
+        "language"  : "@language",
+        "direction" : "@direction"
+    }
+}

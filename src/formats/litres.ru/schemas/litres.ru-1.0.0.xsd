@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="fb-updates">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="updated-book"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="removed-book"/>
+      </xs:sequence>
+      <xs:attribute name="timestamp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updated-book">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="files"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="title-info"/>
+          <xs:element ref="document-info"/>
+        </xs:sequence>
+        <xs:element ref="book-title"/>
+        <xs:element ref="annotation"/>
+        <xs:element ref="authors"/>
+        <xs:element ref="genres"/>
+        <xs:element minOccurs="0" ref="relations"/>
+        <xs:element ref="copyrights"/>
+      </xs:sequence>
+      <xs:attribute name="adult" use="required" type="xs:integer"/>
+      <xs:attribute name="allow_full_free" use="required" type="xs:integer"/>
+      <xs:attribute name="allow_read" use="required" type="xs:integer"/>
+      <xs:attribute name="allow_sell" use="required" type="xs:integer"/>
+      <xs:attribute name="art_cover" use="required" type="xs:NCName"/>
+      <xs:attribute name="art_cover_h" use="required" type="xs:integer"/>
+      <xs:attribute name="art_cover_w" use="required" type="xs:integer"/>
+      <xs:attribute name="available" use="required" type="xs:integer"/>
+      <xs:attribute name="available_date" use="required"/>
+      <xs:attribute name="can_preorder" use="required" type="xs:integer"/>
+      <xs:attribute name="chars" use="required" type="xs:integer"/>
+      <xs:attribute name="contract_author" use="required" type="xs:integer"/>
+      <xs:attribute name="contract_ends" use="required" type="xs:date"/>
+      <xs:attribute name="contract_title" use="required"/>
+      <xs:attribute name="copyright_read_online" use="required" type="xs:integer"/>
+      <xs:attribute name="cover" use="required" type="xs:NCName"/>
+      <xs:attribute name="cover_h" use="required" type="xs:integer"/>
+      <xs:attribute name="cover_w" use="required" type="xs:integer"/>
+      <xs:attribute name="created" use="required"/>
+      <xs:attribute name="date_written_d" type="xs:date"/>
+      <xs:attribute name="date_written_s" type="xs:integer"/>
+      <xs:attribute name="drm" use="required" type="xs:integer"/>
+      <xs:attribute name="external_id" use="required"/>
+      <xs:attribute name="file_id" type="xs:integer"/>
+      <xs:attribute name="file_parts" use="required" type="xs:integer"/>
+      <xs:attribute name="first_time_sale"/>
+      <xs:attribute name="has_trial" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="images" type="xs:integer"/>
+      <xs:attribute name="inapp_price" type="xs:NCName"/>
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+      <xs:attribute name="lang3" use="required" type="xs:NCName"/>
+      <xs:attribute name="last_release"/>
+      <xs:attribute name="litex" use="required" type="xs:integer"/>
+      <xs:attribute name="litres_isbn" type="xs:NMTOKEN"/>
+      <xs:attribute name="lvl" use="required" type="xs:integer"/>
+      <xs:attribute name="must_import" use="required" type="xs:integer"/>
+      <xs:attribute name="options" use="required" type="xs:integer"/>
+      <xs:attribute name="price" use="required" type="xs:decimal"/>
+      <xs:attribute name="public_domain" use="required" type="xs:integer"/>
+      <xs:attribute name="publisher" use="required"/>
+      <xs:attribute name="rating" type="xs:integer"/>
+      <xs:attribute name="sell_open" use="required" type="xs:integer"/>
+      <xs:attribute name="sent_by_id" use="required" type="xs:integer"/>
+      <xs:attribute name="sent_by_name" use="required"/>
+      <xs:attribute name="show_card" use="required" type="xs:integer"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+      <xs:attribute name="src_lang" type="xs:NCName"/>
+      <xs:attribute name="src_lang3" type="xs:NCName"/>
+      <xs:attribute name="status" use="required" type="xs:NCName"/>
+      <xs:attribute name="subject_id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required" type="xs:integer"/>
+      <xs:attribute name="udk" type="xs:NMTOKEN"/>
+      <xs:attribute name="updated" use="required"/>
+      <xs:attribute name="url" use="required"/>
+      <xs:attribute name="valid_from" use="required" type="xs:date"/>
+      <xs:attribute name="valid_till" use="required" type="xs:date"/>
+      <xs:attribute name="you_can_sell" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="files">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element maxOccurs="unbounded" ref="file"/>
+        <xs:element maxOccurs="unbounded" ref="group"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="group">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="file"/>
+      </xs:sequence>
+      <xs:attribute name="group_id" use="required" type="xs:integer"/>
+      <xs:attribute name="value" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title-info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="genre"/>
+        <xs:element ref="author"/>
+        <xs:element minOccurs="0" ref="reteller"/>
+        <xs:element maxOccurs="unbounded" ref="reader"/>
+        <xs:element ref="book-title"/>
+        <xs:element ref="annotation"/>
+        <xs:element ref="date"/>
+        <xs:element ref="lang"/>
+        <xs:element minOccurs="0" ref="src-lang"/>
+        <xs:element minOccurs="0" ref="translator"/>
+        <xs:element ref="keywords"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reteller">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="first-name"/>
+        <xs:element ref="last-name"/>
+        <xs:element ref="full-name"/>
+        <xs:element ref="id"/>
+        <xs:element ref="hub-id"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reader">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nickname"/>
+        <xs:element ref="id"/>
+        <xs:element ref="hub-id"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lang" type="xs:NCName"/>
+  <xs:element name="src-lang" type="xs:NCName"/>
+  <xs:element name="translator">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="first-name"/>
+        <xs:element ref="last-name"/>
+        <xs:element ref="full-name"/>
+        <xs:element ref="id"/>
+        <xs:element ref="hub-id"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="keywords" type="xs:string"/>
+  <xs:element name="document-info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="author"/>
+        <xs:element ref="date"/>
+        <xs:element minOccurs="0" ref="src-ocr"/>
+        <xs:element ref="id"/>
+        <xs:element ref="version"/>
+        <xs:element ref="publisher"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="src-ocr" type="xs:NCName"/>
+  <xs:element name="version" type="xs:decimal"/>
+  <xs:element name="publisher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nickname"/>
+        <xs:element ref="id"/>
+        <xs:element ref="hub-id"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="authors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="author"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="genres">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="genre"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="relations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="related"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="related">
+    <xs:complexType>
+      <xs:attribute name="relation" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required" type="xs:integer"/>
+      <xs:attribute name="uuid" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="copyrights">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="copyright"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="copyright">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="percent" use="required" type="xs:decimal"/>
+      <xs:attribute name="title" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="removed-book">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="removed" use="required"/>
+      <xs:attribute name="uid" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="file">
+    <xs:complexType>
+      <xs:attribute name="file_description"/>
+      <xs:attribute name="filename" type="xs:NMTOKEN"/>
+      <xs:attribute name="id" type="xs:integer"/>
+      <xs:attribute name="mime_type"/>
+      <xs:attribute name="seconds" type="xs:integer"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="genre">
+    <xs:complexType mixed="true">
+      <xs:attribute name="bisac" type="xs:NCName"/>
+      <xs:attribute name="id" type="xs:integer"/>
+      <xs:attribute name="master" type="xs:integer"/>
+      <xs:attribute name="title"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="author">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="subject_id"/>
+          <xs:element ref="url"/>
+        </xs:sequence>
+        <xs:element minOccurs="0" ref="first-name"/>
+        <xs:element minOccurs="0" ref="middle-name"/>
+        <xs:element minOccurs="0" ref="last-name"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="full-name-rodit"/>
+          <xs:element ref="lvl"/>
+          <xs:element ref="relation"/>
+        </xs:sequence>
+        <xs:choice minOccurs="0">
+          <xs:element ref="nickname"/>
+          <xs:element ref="exid"/>
+          <xs:sequence>
+            <xs:element ref="full-name"/>
+            <xs:element ref="id"/>
+            <xs:element ref="hub-id"/>
+          </xs:sequence>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subject_id" type="xs:integer"/>
+  <xs:element name="url" type="xs:string"/>
+  <xs:element name="middle-name" type="xs:string"/>
+  <xs:element name="full-name-rodit" type="xs:string"/>
+  <xs:element name="lvl" type="xs:integer"/>
+  <xs:element name="relation" type="xs:integer"/>
+  <xs:element name="exid" type="xs:NMTOKEN"/>
+  <xs:element name="first-name" type="xs:string"/>
+  <xs:element name="last-name" type="xs:string"/>
+  <xs:element name="full-name" type="xs:string"/>
+  <xs:element name="id" type="xs:string"/>
+  <xs:element name="hub-id" type="xs:integer"/>
+  <xs:element name="nickname" type="xs:string"/>
+  <xs:element name="book-title">
+    <xs:complexType mixed="true">
+      <xs:attribute name="title"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="p"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p" type="xs:string"/>
+  <xs:element name="date">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NMTOKEN">
+          <xs:attribute name="value" use="required" type="xs:date"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,151 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003629000/rsl01003629471/rsl01003629471.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Гриневич, Илья Федорович",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "13907-O",
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/G 5/33",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "G 5/33"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/U 289/30",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "U 289/30"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "dc:issued": "1846",
+      "description": [
+        "NLR: 132/640, Экз. РНБ (132/640): нет с. [3-6]",
+        "Имеется электронная копия",
+        "[6], 238, [7] с.",
+        "24"
+      ],
+      "dimensions": "24",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/003629471",
+      "language": [ "rus"],
+      "marc:type": "a",
+      "materialExtent": "[6], 238, [7] с.",
+      "modified": "2019-04-03T10:32:47.0Z",
+      "numberOfPages": 238,
+      "published": "1846",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Одесса",
+        "name": "тип. А. Брауна"
+      },
+      "responsibilityNotes": "[Соч.] Проф. Гриневича",
+      "subtitle": "(От основания Рима до Константина Великого)",
+      "title": "Жизнь древних римлян"
+    }
+  },
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003630000/rsl01003630014/rsl01003630014.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1840",
+        "deathDate": "1908",
+        "name": "Салиас де Турнемир, Евгений Андреевич",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "32-81303",
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/N 35/540",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "N 35/540"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/T 93/16",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "T 93/16"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "dc:issued": "1891",
+      "description": [
+        "Имеется электронная копия",
+        "216 с.",
+        "19"
+      ],
+      "dimensions": "19",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/003630014",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "216 с.",
+      "modified": "2019-08-06T10:43:09.0Z",
+      "numberOfPages": 216,
+      "published": "1891",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Москва",
+        "name": "А.А. Карцев"
+      },
+      "responsibilityNotes": "Гр. Е.А. Салиас",
+      "subtitle": "Ист. повесть",
+      "title": "Филозóф"
+    }
+  }
+]

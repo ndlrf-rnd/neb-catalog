@@ -1,0 +1,499 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": [
+    {
+      "_attributes": {
+        "xmlns": "http://www.w3.org/2007/app",
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+        "xmlns:dcx": "http://www.digicol.com/xmlns/dcx",
+        "xml:lang": "ru"
+      },
+      "dcx:date": [
+        {
+          "_text": [
+            "2019-11-14T07:30:14+03:00"
+          ]
+        }
+      ],
+      "dcx:user_dn": [
+        {
+          "_text": [
+            "uid=robot.neb,ou=people,dc=example,dc=com"
+          ]
+        }
+      ],
+      "dcx:user_id": [
+        {
+          "_text": [
+            "#local_openldap#uid#robot.neb"
+          ]
+        }
+      ],
+      "dcx:user_topic_id": [
+        {
+          "_text": [
+            "tmt77rsw8cpi7peho6xeiq"
+          ]
+        }
+      ],
+      "dcx:version": [
+        {
+          "_text": [
+            "1.22.0"
+          ]
+        }
+      ],
+      "atom:link": [
+        {
+          "_attributes": {
+            "rel": "self",
+            "href": "/dcx_mkrf/atom",
+            "type": "application/atomsvc+xml"
+          }
+        },
+        {
+          "_attributes": {
+            "rel": "alternate",
+            "href": "/dcx_mkrf/",
+            "type": "text/html"
+          }
+        }
+      ],
+      "workspace": [
+        {
+          "atom:title": [
+            {
+              "_text": [
+                "DCX"
+              ]
+            }
+          ],
+          "collection": [
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/documents?q[channel][]=channel_files_nebbooks"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "Книги НЭБ: файлы"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "documents_channel"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/tagdefs"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "All tag definitions"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "all_tagdefs"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/my/usertags"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "My tags"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "my_usertags"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/my/sharedusertags"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "My shared user tags"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "my_sharedusertags"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/my/groupusertags"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "My group user tags"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "my_groupusertags"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/doctoutags"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "My document to tag mappings"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "my_doctoutags"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/my/jobs"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "My jobs"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "my_jobs"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/files"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "All files"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "*/*"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "all_files"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/tagdefs?q[text_content]=1"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "All text content tags"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "text_content_tags"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/documents"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "Target for new documents"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "create_document"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=docstatus"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "List of all document status values"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "document_status"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=taskstatus"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "List of all document task status values"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "document_taskstatus"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=section"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "List of all publication sections"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "pub_sections"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=publication"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "List of all publications"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "pub_publications"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=edition"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "List of all publication editions"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "pub_editions"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "href": "https://dc-x2.mkrf.ru/dcx_mkrf/atom/my/uploadconfigs"
+              },
+              "atom:title": [
+                {
+                  "_text": [
+                    "List of all permitted upload targets"
+                  ]
+                }
+              ],
+              "accept": [
+                {
+                  "_text": [
+                    "application/atom+xml;type=entry"
+                  ]
+                }
+              ],
+              "dcx:feed_type": [
+                {
+                  "_text": [
+                    "upload_permitted_configurations"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

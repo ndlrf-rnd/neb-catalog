@@ -1,0 +1,50 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": []
+      },
+      "bf:illustrativeContent": "ил.",
+      "citation": [
+        {
+          "locationWithinSource": "№ 36.",
+          "name": "Гусева А.А. Свод русских книг кирилловской печати  XVIII века типографий Москвы и Санкт-Петербурга и универсальная методика их идентификации. М., 2010."
+        }
+      ],
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1784-06",
+      "description": [
+        "1-4 л.",
+        "ил.",
+        "8°"
+      ],
+      "dimensions": "8°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/РГБ/RU\\BM\\BIBL\\0000000114",
+      "language":  [
+          "rus",
+          "chu"
+        ],
+      "marc:type": "a",
+      "materialExtent": "1-4 л.",
+      "modified": "2011-03-01T21:38:19.5Z",
+      "numberOfPages": 4,
+      "published": "1784-06",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Москва",
+        "name": "Московская тип."
+      },
+      "restrictionAndAccessNote": "[2-е издание]",
+      "title": "Азбука началнаго учения, простаго нотнаго пения, содержащагося на цефаутном ключе."
+    }
+  }
+]

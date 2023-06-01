@@ -1,0 +1,81 @@
+stages:
+- build
+- deploy
+
+image: gitlab.rsl.ru:5005/devops/image_build_deploy:latest
+
+variables:
+  PROJECT_PREFIX: neb-catalog
+  DOCKER_HOST: tcp://localhost:2375
+  DOCKER_TLS_CERTDIR: ""
+
+services:
+- docker:19.03.4-dind
+
+before_script:
+- docker info
+- kubectl config set-cluster cfc --server=https://kube-apiserver.neb.rsl:6443 --certificate-authority=/var/run/secrets/kubernetes.io/serviceaccount/ca.crt
+- kubectl config set-context cfc --cluster=cfc
+- kubectl config set-credentials user --token=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+- kubectl config set-context cfc --user=user
+- kubectl config use-context cfc
+- docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+
+build: &build_tmpl
+  stage: build
+  tags:
+  - kubernetes
+  script:
+  - export COMMIT_TIME=$(git show -s --format=%ci $CI_COMMIT_SHA | sed 's/ +0000//g'| tr -d '\n' | awk '{print $1"-"$2}' | sed 's/:/-/g')
+  - echo "Build ${CI_COMMIT_REF_SLUG}-${COMMIT_TIME}-${CI_COMMIT_SHORT_SHA}"
+  - export TAG=${CI_COMMIT_REF_SLUG}-${COMMIT_TIME}-${CI_COMMIT_SHORT_SHA}
+  - echo TAG="$(echo "$TAG")" >> variables
+  - docker build -t $CI_REGISTRY_IMAGE/app:${TAG} .
+  - docker push $CI_REGISTRY_IMAGE/app:${TAG}
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - variables
+  when: always
+  only:
+  - master
+
+build_release:
+  <<: *build_tmpl
+  when: always
+  only:
+  - release
+
+deploy_dev:
+  stage: deploy
+  tags:
+  - kubernetes
+  script:
+  - echo "Deploy ${CI_COMMIT_REF_SLUG} ${CI_COMMIT_SHORT_SHA}"
+  - source variables
+  - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.rsl.ru/devops/core.git
+  - cd core/neb-catalog
+  - jsonnet -S --tla-str namespace=dev --tla-str suffix="$CI_COMMIT_REF_SLUG" --tla-str tag="$TAG" neb-catalog.jsonnet | kubectl apply -f -
+  environment:
+    name: dev/${CI_COMMIT_REF_SLUG}
+    url: http://catalog-${CI_COMMIT_REF_SLUG}.dev.neb.rsl
+  when: always
+  only:
+  - master
+
+deploy_release:
+  stage: deploy
+  tags:
+  - kubernetes
+  script:
+  - echo "Deploy ${CI_COMMIT_REF_SLUG} ${CI_COMMIT_SHORT_SHA}"
+  - source variables
+  - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.rsl.ru/devops/core.git
+  - cd core/neb-catalog
+  - jsonnet -S --tla-str namespace=prod --tla-str ingress='catalog.rusneb.ru' --tla-code ssl=true --tla-str tag="$TAG" neb-catalog.jsonnet | kubectl apply -f -
+  environment:
+    name: release
+    url: https://catalog.rusneb.ru
+  when: manual
+  only:
+  - release

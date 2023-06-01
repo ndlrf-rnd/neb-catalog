@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcxml:collection xmlns:marcxml="http://www.loc.gov/MARC21/slim"><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02041nam a2200361 ic4500</leader>
+  <controlfield tag="001">003345174</controlfield>
+  <controlfield tag="005">20171003114154.0</controlfield>
+  <controlfield tag="008">071203s1907 ru 000 | rus d</controlfield>
+  <datafield tag="017" ind1=" " ind2=" ">
+    <subfield code="a">8711-45</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">RuMoRGB</subfield>
+    <subfield code="b">rus</subfield>
+    <subfield code="e">rpk</subfield>
+  </datafield>
+  <datafield tag="041" ind1="0" ind2=" ">
+    <subfield code="a">rus</subfield>
+  </datafield>
+  <datafield tag="084" ind1=" " ind2=" ">
+    <subfield code="a">У03(2)530.261.38-04</subfield>
+    <subfield code="2">rubbk</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">за 1906 год</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1907</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">VII, 835 c.</subfield>
+    <subfield code="b">табл.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Нс, Пс</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Имеется микрофильм</subfield>
+    <subfield code="b">Москва</subfield>
+    <subfield code="c">РГБ</subfield>
+    <subfield code="d">2007</subfield>
+    <subfield code="e">черно-белый, галогенидосеребр., безопасная основа, 1 рулон, 35 мм, норм. кратность</subfield>
+    <subfield code="n">U 168/1</subfield>
+    <subfield code="3">негатив, мастер-коп. с ориг., 1 поколение; используется исключительно в технологических целях
+    </subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Имеется электронная копия</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Имеется микрофильм</subfield>
+    <subfield code="b">Москва</subfield>
+    <subfield code="c">РГБ</subfield>
+    <subfield code="d">2007</subfield>
+    <subfield code="e">черно-белый, галогенидосеребр., безопасная основа, 1 рулон, 35 мм, норм. кратность</subfield>
+    <subfield code="n">U 168/1</subfield>
+    <subfield code="3">позитив, раб. копия</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Микрофильм</subfield>
+    <subfield code="b">Москва</subfield>
+    <subfield code="c">РГБ</subfield>
+    <subfield code="e">35мм</subfield>
+    <subfield code="d">2008</subfield>
+  </datafield>
+  <datafield tag="773" ind1="1" ind2="8">
+    <subfield code="7">c1am</subfield>
+    <subfield code="g">за 1906 г.</subfield>
+    <subfield code="a">Россия. Государственный контроль</subfield>
+    <subfield code="t">Отчет Государственного контроля по исполнению Государственной росписи и финансовых смет за ...
+      [Текст]
+    </subfield>
+    <subfield code="d">Санкт-Петербург, 1868-</subfield>
+    <subfield code="h">24-32 см</subfield>
+    <subfield code="w">003508265</subfield>
+  </datafield>
+  <datafield tag="852" ind1="4" ind2=" ">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">FB</subfield>
+    <subfield code="j">U 168/1</subfield>
+    <subfield code="x">80</subfield>
+  </datafield>
+  <datafield tag="852" ind1="4" ind2=" ">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">FB</subfield>
+    <subfield code="j">U 166/2</subfield>
+    <subfield code="x">80</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">MFK</subfield>
+    <subfield code="j">801-08/100</subfield>
+    <subfield code="x">82</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">OMF1</subfield>
+    <subfield code="j">801-08/100</subfield>
+    <subfield code="x">80</subfield>
+  </datafield>
+  <datafield tag="852" ind1="4" ind2=" ">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">FB</subfield>
+    <subfield code="j">U 161/1</subfield>
+    <subfield code="x">80</subfield>
+  </datafield>
+  <datafield tag="852" ind1="4" ind2=" ">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">FB</subfield>
+    <subfield code="j">Рб 42/120</subfield>
+    <subfield code="x">80</subfield>
+  </datafield>
+  <datafield tag="852" ind1="4" ind2=" ">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">FB</subfield>
+    <subfield code="j">Рб 42/118</subfield>
+    <subfield code="x">80</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="q">application/pdf</subfield>
+    <subfield code="u">http://dlib.rsl.ru/rsl01003000000/rsl01003345000/rsl01003345174/rsl01003345174.pdf</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">fb19vrus</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">plib</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">dluniv</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">dlopen</subfield>
+  </datafield>
+</record>
+</marcxml:collection>

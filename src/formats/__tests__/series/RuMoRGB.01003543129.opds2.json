@@ -1,0 +1,103 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003543000/rsl01003543129/rsl01003543129.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "143032-О",
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/S 9/149",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "S 9/149"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/S 62/490",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "S 62/490"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/МК",
+            "name": "MK",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "МК"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/G 10/240",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "G 10/240"
+          }
+        ],
+        "series": [
+          {
+            "href": "/resources/instance/RuMoRGB/010086108",
+            "subtitle": "Изд. 4-е, испр. и доп.",
+            "title": "Вейдемейер, Александр Иванович (1789-1852) / Обзор главнейших происшествий в России, с кончины Петра Великаго до вступления на престол Елисаветы Петровны / сочинение Александра Вейдемейера"
+          },
+          {
+            "href": "/resources/instance/RuMoRGB/010085686",
+            "title": "Конволют"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "dc:issued": "1848",
+      "description": [
+        "Имеется электронная копия",
+        "II, 128 с."
+      ],
+      "dimensions": "20 см",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/003543129",
+      "keyTitle": "Вейдемейер, Александр Иванович (1789-1852), Конволют",
+      "language": [
+        "rus"
+      ],
+      "marc:type": "a",
+      "materialExtent": "II, 128 с.",
+      "modified": "2019-09-12T14:15:56.0Z",
+      "nameOfWorkPart": "Ч. 1",
+      "numberOfPages": 128,
+      "published": "1848",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Санкт-Петербург",
+        "name": "в Тип. военно-учебных заведений"
+      },
+      "sortAs": "Вейдемейер, Александр Иванович (1789-1852), Конволют",
+      "subtitle": "Изд. 4-е, испр. и доп.",
+      "title": "Вейдемейер, Александр Иванович (1789-1852), Конволют, Изд. 4-е, испр. и доп., Ч. 1, Обзор главнейших происшествий в России, с кончины Петра Великаго до вступления на престол Елисаветы Петровны / сочинение Александра Вейдемейера"
+    }
+  }
+]

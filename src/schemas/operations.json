@@ -1,0 +1,146 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/operations.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/operations/",
+  "type": "object",
+  "$defs": {
+    "submissionSchema": {
+      "type": "object",
+      "required": [
+        "secret",
+        "provider"
+      ],
+      "properties": {
+        "secret": {
+          "description": "Data provider account API key (32/64 long string, case-insensitive)",
+          "$ref": "common-parameters.json#/$defs/secret"
+        },
+        "account": {
+          "$ref": "common-parameters.json#/$defs/account"
+        },
+        "provider": {
+          "$ref": "common-parameters.json#/$defs/provider"
+        },
+        "documents_estimated": {
+          "type": "integer"
+        },
+        "bytes_estimated": {
+          "type": "integer"
+        },
+        "parameters": {
+          "oneOf": [
+            {
+              "$ref": "operation-import.json"
+            }
+          ]
+        }
+      }
+    },
+    "targetSchema": {
+      "$ref": "operation.json#"
+    }
+  },
+  "required": [
+    "links"
+  ],
+  "properties": {
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "operation.json#"
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "prev": {"type": "object"},
+        "current": {"type": "object"},
+        "next": {"type": "object"}
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "operations{?page,limit,secret}",
+      "templateRequired": [
+        "offset",
+        "limit"
+      ],
+      "templatePointers": {
+        "offset": "/meta/cursors/offset",
+        "limit": "/meta/cursors/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    },
+    {
+      "rel": "prev",
+      "href": "operations{?offset,limit}",
+      "templateRequired": [
+        "offset",
+        "limit"
+      ],
+      "templatePointers": {
+        "offset": "/meta/prev/offset",
+        "limit": "/meta/prev/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    },
+    {
+      "rel": "next",
+      "href": "operations{?page,limit}",
+      "templateRequired": [
+        "page",
+        "limit"
+      ],
+      "templatePointers": {
+        "offset": "/meta/next/offset",
+        "limit": "/meta/next/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    },
+    {
+      "method": "POST",
+      "href": "operations/",
+      "description": "Schedule long running operation",
+      "rel": "create",
+      "submissionmediaType": "application/json",
+      "submissionSchema": {
+        "$ref": "#/$defs/submissionSchema"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "links": [
+        {
+          "id": 12345,
+          "type": "import",
+          "parameters": {
+            "url": "https://docs.test.com/1.tsv"
+          }
+        },
+        {
+          "id": 67890,
+          "type": "test"
+        }
+      ],
+      "meta": {
+        "current": {
+          "offset": 0,
+          "limit": 2
+        },
+        "next": {
+          "offset": 3,
+          "limit": 2
+        }
+      }
+    }
+  ]
+}

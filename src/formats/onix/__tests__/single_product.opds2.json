@@ -1,0 +1,38 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "SHAPIRO",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1998",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/XX-XxUND/365-9780194351898",
+      "language": [
+        "und",
+        "rus"
+      ],
+      "marc:type": "a",
+      "published": "1998",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "S.l.",
+        "name": "[s.n.]"
+      },
+      "responsibilityNotes": "by",
+      "title": "OXFORD PICTURE DICTIONARY CHINESE"
+    }
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://nlr.ru/manuscripts/RA1527/elektronnyiy-katalog?prm=3125C9BA-5273-4194-B3B2-FCD976FC2DCB",
+        "rel": "http://opds-spec.org/acquisition"
+      },
+      {
+        "href": "http://vivaldi.nlr.ru/bc000001120/view",
+        "rel": "http://opds-spec.org/acquisition"
+      },
+      {
+        "href": "http://vivaldi.nlr.ru/bc000001120/cover",
+        "rel": "http://opds-spec.org/acquisition"
+      },
+      {
+        "href": "http://vivaldi.nlr.ru/bc000001120/text",
+        "rel": "related"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": [
+          {
+            "identifier": "/resources/instance/NLR",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html",
+              "name": "ФГБУ \"Российская национальная библиотека\""
+            }
+          },
+          {
+            "identifier": "/resources/instance/NLR",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html",
+              "name": "ФГБУ \"Российская национальная библиотека\""
+            }
+          },
+          {
+            "identifier": "/resources/instance/NLR",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rusprnb.html",
+              "name": "ФГБУ \"Российская национальная библиотека\""
+            }
+          }
+        ]
+      },
+      "bf:illustrativeContent": "Дополнительные элементы оформления: 30 миниатюр.; Переплет: Доски, поволоченные тканью.; Тип письма: Полуустав.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "",
+      "description": [
+        "Ф. 166 - Вяземский П. П. Собрание.",
+        "109 + II л.",
+        "8º (16,5 x 10,5)",
+        "Дополнительные элементы оформления: 30 миниатюр.",
+        "Переплет: Доски, поволоченные тканью.",
+        "Тип письма: Полуустав."
+      ],
+      "dimensions": "8º (16,5 x 10,5)",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuSpRNB/NLR\\ОР 3125C9BA 5273 4194 B3B2 FCD976FC2DCB\u001e2",
+      "language": [
+          "rus",
+          "chu"
+        ],
+      "marc:type": "a",
+      "materialExtent": "109 + II л.",
+      "modified": "1912-10-15T45:31:.6\u001e Z",
+      "numberOfPages": 109,
+      "published": "",
+      "publisher": {
+        "addressCountry": "ru"
+      },
+      "subtitle": "Лицевая рукопись",
+      "title": "Сборник"
+    }
+  }
+]

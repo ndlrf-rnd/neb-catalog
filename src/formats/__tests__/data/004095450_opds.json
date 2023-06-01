@@ -1,0 +1,81 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01004000000/rsl01004095000/rsl01004095450/rsl01004095450.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "alternateName": "Евангелие учительное",
+      "author": [],
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "64623-78",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/MK Кир. 2°",
+            "name": "MK",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "MK Кир. 2°"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "locationWithinSource": "№ 47",
+          "name": "Издания кирилловского шрифта второй половины XVI в.: свод. кат. / А. А. Гусева.- М., 2003.- Кн. 1"
+        }
+      ],
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "dc:issued": "1569-03-17",
+      "description": [
+        "Строк : 28",
+        "Шрифт : 85 мм.",
+        "Иллюстрации (1 с 1 доски), герб",
+        "Орнамент: инициалы, заставки, концовки, вязь, рамка",
+        "1 гравюра - герб Г.А. Ходкевича",
+        "Имеется электронная копия",
+        "[1]-[8], 1-399, [1] = 408 л.",
+        "2°"
+      ],
+      "dimensions": "2°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/004095450",
+      "keyTitle": "Евангелие учительное",
+      "language": [
+        "chu",
+        "rus"
+      ],
+      "marc:type": "a",
+      "materialExtent": "[1]-[8], 1-399, [1] = 408 л.",
+      "modified": "2019-10-22T13:20:08.0Z",
+      "numberOfPages": 408,
+      "published": "1569-03-17",
+      "publisher": {
+        "addressCountry": "bw",
+        "addressLocality": "Заблудов",
+        "name": "Тип. Г.А. Ходкевича: Печ. Иван Федоров, Петр Тимофеевич Мстиславец"
+      },
+      "sortAs": "Евангелие учительное",
+      "title": "Евангелие учительное"
+    }
+  }
+]

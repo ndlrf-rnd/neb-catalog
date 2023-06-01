@@ -1,0 +1,93 @@
+<record>
+  <leader>03418nam0p2200313 i 450 </leader>
+  <controlfield tag="001">RU\BM\BIBL\RuMoRGB-CK1q19v\0000000877</controlfield>
+  <controlfield tag="005">20110405112419.0</controlfield>
+  <datafield ind1=" " ind2=" " tag="100">
+    <subfield code="a">20100801d5791####|||y0rusy50######ca</subfield>
+  </datafield>
+  <datafield ind1="|" ind2=" " tag="101">
+    <subfield code="a">rus</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="102">
+    <subfield code="a">RU</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="105">
+    <subfield code="a">y###z###000ay</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="200">
+    <subfield code="a">О ΖНЛОΣОΦОΣ Искатель премудрости, или Духовный рыцарь</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="210">
+    <subfield code="a">[Б.м.]</subfield>
+    <subfield code="d">5791 (!)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="215">
+    <subfield code="a">115, [1] с.</subfield>
+    <subfield code="d">8° (21 см.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">По предположению Н.В. Губерти, книга была напечатана в тип. Н.С. Всеволожского в 1816 или 1818 г. (см. Губерти, 2 с. 390).  Дата на тит. л. 5791 означает год написания книги 1791.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Предыдущее изд. см. CК XVIII, 3792.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">На с. 91 - 92 обращение авт. : Любопытству читателя. Предпослано разделу, в кот. вошли отрывки, исключенные при публикации кн. Лопухина  "Некоторыя черты о внутренней церкви" (см. с. 92 -109).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Имеются подстроч. примеч.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="309">
+    <subfield code="a">Экз. РГБ, РНБ, БАН, ГПИБ, МГУ в изд. обл.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="321">
+    <subfield code="a">Сводный каталог русской книги. 1801-1825. М., 2000-2007.</subfield>
+    <subfield code="c">№ 4612</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="327">
+    <subfield code="a">На с. 73 - 90: Нравоучительный катихизис истинных ф-к. м-в. для употребления ищущих премудрости, которые для приобретения понятий о путях премудрости и таинственном ея училище, с пользою могут заниматься также разсматриванием известной картины представляющей изображение Храма Натуры и Благодати, / Сочиненной автором сея степени и катихизиса сего.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="327">
+    <subfield code="a">На с. 110 - 115: Еще из сердца тогоже автора. На с. [1] - лат. буквы в след. порядке: V.I.T.R.I.O.L. / O.C.D.A.N.S.E. Аббревиатура над чертой означает "Visitando Interiore Terrae, Rectificandoque Invenies Occultum Lapidem verum Medicinum." (Проникни во внутренность земли, перегонкою найдешь сокрытый камень, истинное лекарство). Читается также как слово "vitriol" (селитряная кислота). (См. Губерти, 2, с. 391).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="686">
+    <subfield code="a">01.02.03.05.02</subfield>
+    <subfield code="h">Общероссийский свод книжных памятников</subfield>
+    <subfield code="h">Единичные книжные памятники</subfield>
+    <subfield code="h">Текстовые издания</subfield>
+    <subfield code="h">издания русского гражданского шрифта</subfield>
+    <subfield code="j">1801-1830 гг.</subfield>
+    <subfield code="2">RUBBM</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="700">
+    <subfield code="a">Лопухин</subfield>
+    <subfield code="f">1756 - 1816</subfield>
+    <subfield code="g">Иван Владимирович</subfield>
+    <subfield code="4">070</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="730">
+    <subfield code="a">Всеволожский, Николай Сергеевич (1772 - 1857)</subfield>
+    <subfield code="4">060</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20000320</subfield>
+    <subfield code="g">RCR</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20100801</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="909">
+    <subfield code="a">Книжный памятник - Издание</subfield>
+    <subfield code="3">RU.BM.TEMPLATE.RUSMARC.BIBL.PUBLICATION</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="930">
+    <subfield code="a">Эксперт РГБ</subfield>
+    <subfield code="b">выгрузка РГБ</subfield>
+    <subfield code="c">20100801</subfield>
+  </datafield>
+</record>

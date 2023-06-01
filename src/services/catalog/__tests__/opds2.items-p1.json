@@ -1,0 +1,2131 @@
+{
+  "links": [
+    {
+      "href": "http://localhost:18080/resources/item",
+      "rel": "self",
+      "title": "Все записи типа Item",
+      "type": "application/opds+json"
+    }
+  ],
+  "metadata": {
+    "@id": "http://localhost:18080/resources/item",
+    "@type": "https://schema.org/Collection",
+    "cursors": {
+      "after": "item-126",
+      "before": "item-117"
+    },
+    "identifier": "http://localhost:18080/resources/item",
+    "name": {
+      "en": "All Item records",
+      "ru": "Все записи типа Item"
+    },
+    "numberOfItems": 126,
+    "numberOfPageItems": 10,
+    "order": "desc",
+    "processingTimeSec": 0.01,
+    "title": "Все записи типа Item",
+    "type": "application/opds+json"
+  },
+  "navigation": [
+    {
+      "href": "http://localhost:18080/resources/item?extended=1&limit=10&after=item-117",
+      "rel": "next",
+      "title": "Следующая страница",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "http://localhost:18080/resources/item?extended=1&limit=10",
+      "rel": "first",
+      "title": "Первая страница",
+      "type": "application/opds+json"
+    }
+  ],
+  "publications": [
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/44/images/003825821_00.jpg",
+          "name": {
+            "en": "Image of item 003825821_00.jpg",
+            "ru": "Изображение экземпляра 003825821_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 003825821_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/44/images/003825821_01.jpg",
+          "name": {
+            "en": "Image of item 003825821_01.jpg",
+            "ru": "Изображение экземпляра 003825821_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003825821_01.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/44/images/003825821_02.jpg",
+          "name": {
+            "en": "Image of item 003825821_02.jpg",
+            "ru": "Изображение экземпляра 003825821_02.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003825821_02.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003825000/rsl01003825821/rsl01003825821.pdf",
+          "name": {
+            "en": "Digital version on Russian state library (RSL) official site",
+            "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/44.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4a74d5af0dd45680a6",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=44",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/44/conclusion/173.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/44?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/44",
+        "@type": "https://schema.org/CreativeWork",
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula",
+              "name": "knpam.rusneb.ru kpincunabula",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-20",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-105",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "G 23/49",
+              "bf:stockNumber": "143016-О",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "003825821",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "G 23/49",
+              "knpam:system_number": "143016-О",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-54",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "[1848]-1858",
+        "dc:format": "14",
+        "dc:issued": "[1848]-1858",
+        "dcterms:extent": "486, 45 с.",
+        "description": "Отечественное издание",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/44",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "486, 45 с.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "1850",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "addressLocality": "Санкт-Петербург",
+          "description": "Отечественное издание",
+          "name": "тип. 2-го Отд-ния Собств. е. и. в. канцелярии"
+        },
+        "schema:temporal": "[1848]-1858",
+        "serial": "item-126",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "title": "Список гражданским чинам первых шести классов по старшинству... 1850",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/69/images/003863046_00.jpg",
+          "name": {
+            "en": "Image of item 003863046_00.jpg",
+            "ru": "Изображение экземпляра 003863046_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 003863046_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/69/images/003863046_01.jpg",
+          "name": {
+            "en": "Image of item 003863046_01.jpg",
+            "ru": "Изображение экземпляра 003863046_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003863046_01.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003863000/rsl01003863046/rsl01003863046.pdf",
+          "name": {
+            "en": "Digital version on Russian state library (RSL) official site",
+            "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/69.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4974d5af0dd4568052",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=69",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/69/conclusion/170.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/69?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/69",
+        "@type": "https://schema.org/CreativeWork",
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+              "name": "knpam.rusneb.ru kpmasterpiece",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-15",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-37",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "G 8/60",
+              "bf:stockNumber": "13933-O",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "3863046",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "G 8/60",
+              "knpam:system_number": "13933-O",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-91",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "comment": "Кн. 1",
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1854-1859",
+        "dc:format": "27",
+        "dc:issued": "1854-1859",
+        "dcterms:extent": "192 с. разд. паг., 2 л. ил.",
+        "description": "Отечественное издание\nЗагл. книг 31-33: Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/69",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "192 с. разд. паг., 2 л. ил.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Кн. 10",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "name": "Санкт-Петербург"
+        },
+        "schema:temporal": "1854-1859",
+        "serial": "item-125",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "subtitle": "Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "title": "Сборник известий, относящихся до настоящей войны, издаваемый с выс. соизволения Н. Путиловым : Кн. 10",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/83/images/3907724_00.jpg",
+          "name": {
+            "en": "Image of item 3907724_00.jpg",
+            "ru": "Изображение экземпляра 3907724_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 3907724_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/83/images/3907724_01.jpg",
+          "name": {
+            "en": "Image of item 3907724_01.jpg",
+            "ru": "Изображение экземпляра 3907724_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 3907724_01.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/83/images/3907724_03.jpg",
+          "name": {
+            "en": "Image of item 3907724_03.jpg",
+            "ru": "Изображение экземпляра 3907724_03.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 3907724_03.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/83.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4974d5af0dd4568034",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=83",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/83/conclusion/194.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/83?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/83",
+        "@type": "https://schema.org/CreativeWork",
+        "author": {
+          "birthDate": "1839",
+          "deathDate": "1920",
+          "name": "Фишер фон Вальдгейм, Александр Александрович",
+          "relCode": "aut",
+          "relTerm": "Автор",
+          "sortAs": "Фишер фон Вальдгейм, Александр Александрович ,"
+        },
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+              "name": "knpam.rusneb.ru kpnatlang",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-89",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-66",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "МК XII.А.13б/4°",
+              "bf:stockNumber": "МК IV-6774; 30484-О",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "3907724",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "МК XII.А.13б/4°",
+              "knpam:system_number": "МК IV-6774; 30484-О",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-15",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "bf:illustrativeContent": "ил.",
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1884",
+        "dc:format": "24",
+        "dc:issued": "1884",
+        "dcterms:extent": "[4], VIII, 198 с.",
+        "description": "Вышла только ч. 1",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/83",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "[4], VIII, 198 с.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Введение. Органография цветковых растений",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "addressLocality": "Варшава",
+          "description": "Отечественное издание",
+          "name": "тип. К. Ковалевского"
+        },
+        "responsibilityNotes": "Фишер фон Вальдгейм, Александр Александрович ,\n[Соч.] А. Фишера-фон-Вальдгейма, орд. проф. Варш. ун-та. Ч. 1",
+        "serial": "item-124",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "title": "Курс ботаники / Введение. Органография цветковых растений",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/31/images/003825177_00.jpg",
+          "name": {
+            "en": "Image of item 003825177_00.jpg",
+            "ru": "Изображение экземпляра 003825177_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 003825177_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/31/images/003825177_01.jpg",
+          "name": {
+            "en": "Image of item 003825177_01.jpg",
+            "ru": "Изображение экземпляра 003825177_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003825177_01.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/31/images/003825177_03.jpg",
+          "name": {
+            "en": "Image of item 003825177_03.jpg",
+            "ru": "Изображение экземпляра 003825177_03.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003825177_03.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003825000/rsl01003825177/rsl01003825177.pdf",
+          "name": {
+            "en": "Digital version on Russian state library (RSL) official site",
+            "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/31.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4b74d5af0dd45680d6",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=31",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/31/conclusion/173.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/31?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/31",
+        "@type": "https://schema.org/CreativeWork",
+        "author": {
+          "birthDate": "1791",
+          "deathDate": "1854",
+          "name": "Шишкина, Олимпиада Петровна",
+          "relCode": "aut",
+          "relTerm": "Автор",
+          "sortAs": "Шишкина, Олимпиада Петровна ,"
+        },
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap",
+              "name": "knpam.rusneb.ru kpmap",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-102",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-91",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "G 2/38",
+              "bf:stockNumber": "13918-O",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "003825177",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "G 2/38",
+              "knpam:system_number": "13918-O",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-42",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "comment": "Продолж. \"Князя Скопина-Шуйского\", соч. того же авт. Ч. 1-4",
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1845",
+        "dc:format": "23",
+        "dc:issued": "1845",
+        "dcterms:extent": "[4], 236 с.",
+        "description": "Отечественное издание\nАвт. указан в конце посвящ.",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/31",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "[4], 236 с.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Ч. 2",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "addressLocality": "Санкт-Петербург",
+          "description": "Отечественное издание",
+          "name": "тип. воен.-учеб. заведений"
+        },
+        "responsibilityNotes": "Шишкина, Олимпиада Петровна ,\n[Олимпиада Шишкина]",
+        "serial": "item-123",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "subtitle": "Междуцарствие в России",
+        "title": "Прокопий Ляпунов или Междуцарствие в России : Ч. 2",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/61/images/003863037_00.jpg",
+          "name": {
+            "en": "Image of item 003863037_00.jpg",
+            "ru": "Изображение экземпляра 003863037_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 003863037_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/61/images/003863037_01.jpg",
+          "name": {
+            "en": "Image of item 003863037_01.jpg",
+            "ru": "Изображение экземпляра 003863037_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003863037_01.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003863000/rsl01003863037/rsl01003863037.pdf",
+          "name": {
+            "en": "Digital version on Russian state library (RSL) official site",
+            "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/61.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4a74d5af0dd456806d",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=61",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/61/conclusion/170.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/61?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/61",
+        "@type": "https://schema.org/CreativeWork",
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+              "name": "knpam.rusneb.ru kpmasterpiece",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-96",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-67",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "G 8/60",
+              "bf:stockNumber": "14002-O",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "3863037",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "G 8/60",
+              "knpam:system_number": "14002-O",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-14",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "comment": "Кн. 1",
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1854-1859",
+        "dc:format": "27",
+        "dc:issued": "1854-1859",
+        "dcterms:extent": "193 с. разд. паг., 1 портр.",
+        "description": "Отечественное издание\nЗагл. книг 31-33: Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/61",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "193 с. разд. паг., 1 портр.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Кн. 19",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "name": "Санкт-Петербург"
+        },
+        "schema:temporal": "1854-1859",
+        "serial": "item-122",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "subtitle": "Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "title": "Сборник известий, относящихся до настоящей войны, издаваемый с выс. соизволения Н. Путиловым : Кн. 19",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/57/images/003830674_00.jpg",
+          "name": {
+            "en": "Image of item 003830674_00.jpg",
+            "ru": "Изображение экземпляра 003830674_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 003830674_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/57/images/003830674_04.jpg",
+          "name": {
+            "en": "Image of item 003830674_04.jpg",
+            "ru": "Изображение экземпляра 003830674_04.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003830674_04.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/57/images/003830674_01.jpg",
+          "name": {
+            "en": "Image of item 003830674_01.jpg",
+            "ru": "Изображение экземпляра 003830674_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003830674_01.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/57/images/003830674_02.jpg",
+          "name": {
+            "en": "Image of item 003830674_02.jpg",
+            "ru": "Изображение экземпляра 003830674_02.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003830674_02.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003830000/rsl01003830674/rsl01003830674.pdf",
+          "name": {
+            "en": "Digital version on Russian state library (RSL) official site",
+            "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/57.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4a74d5af0dd4568082",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=57",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/57/conclusion/70.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/57?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/57",
+        "@type": "https://schema.org/CreativeWork",
+        "author": {
+          "birthDate": "1805",
+          "deathDate": "1870",
+          "name": "Устрялов, Николай Герасимович",
+          "relCode": "aut",
+          "relTerm": "Автор",
+          "sortAs": "Устрялов, Николай Герасимович ,"
+        },
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+              "name": "knpam.rusneb.ru kppaleotype",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-79",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-52",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "G 8/57",
+              "bf:stockNumber": "13926-O",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "3830674",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "G 8/57",
+              "knpam:system_number": "13926-O",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-108",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1858-1859",
+        "dc:format": "25",
+        "dc:issued": "1858-1859",
+        "dcterms:extent": "LXXXVIII, 399, [6] с., 1 л. фронт. (портр.)",
+        "description": "В конце посвящения авт.: Николай Устрялов",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/57",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "LXXXVIII, 399, [6] с., 1 л. фронт. (портр.)",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Господство царевны Софии",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "addressLocality": "Санкт-Петербург",
+          "description": "Отечественное издание",
+          "name": "тип. II-го отд-ния Собств. е. и. вел. канцелярии"
+        },
+        "responsibilityNotes": "Устрялов, Николай Герасимович ,\n[Соч.] Н. Устрялова. Т. 1-",
+        "schema:temporal": "1858-1859",
+        "serial": "item-121",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "title": "История царствования Петра Великого / Господство царевны Софии",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/71/images/003863044_00.jpg",
+          "name": {
+            "en": "Image of item 003863044_00.jpg",
+            "ru": "Изображение экземпляра 003863044_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 003863044_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/71/images/003863044_01.jpg",
+          "name": {
+            "en": "Image of item 003863044_01.jpg",
+            "ru": "Изображение экземпляра 003863044_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003863044_01.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003863000/rsl01003863044/rsl01003863044.pdf",
+          "name": {
+            "en": "Digital version on Russian state library (RSL) official site",
+            "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/71.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4974d5af0dd4568058",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=71",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/71/conclusion/170.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/71?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/71",
+        "@type": "https://schema.org/CreativeWork",
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional",
+              "name": "knpam.rusneb.ru kpregional",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-69",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-61",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "G 8/60",
+              "bf:stockNumber": "13995-O",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "3863044",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "G 8/60",
+              "knpam:system_number": "13995-O",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-10",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "comment": "Кн. 1",
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1854-1859",
+        "dc:format": "27",
+        "dc:issued": "1854-1859",
+        "dcterms:extent": "198 с. разд. паг., 2 л. ил.",
+        "description": "Отечественное издание\nЗагл. книг 31-33: Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/71",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "198 с. разд. паг., 2 л. ил.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Кн. 12",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "name": "Санкт-Петербург"
+        },
+        "schema:temporal": "1854-1859",
+        "serial": "item-120",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "subtitle": "Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "title": "Сборник известий, относящихся до настоящей войны, издаваемый с выс. соизволения Н. Путиловым : Кн. 12",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/58/images/003863041_00.jpg",
+          "name": {
+            "en": "Image of item 003863041_00.jpg",
+            "ru": "Изображение экземпляра 003863041_00.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 003863041_00.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/58/images/003863041_01.jpg",
+          "name": {
+            "en": "Image of item 003863041_01.jpg",
+            "ru": "Изображение экземпляра 003863041_01.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 003863041_01.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003863000/rsl01003863041/rsl01003863041.pdf",
+          "name": {
+            "en": "Digital version on Russian state library (RSL) official site",
+            "ru": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/58.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4974d5af0dd4568061",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=58",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/58/conclusion/170.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/58?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/58",
+        "@type": "https://schema.org/CreativeWork",
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+              "name": "knpam.rusneb.ru kppaleotype",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-75",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-44",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "G 8/60",
+              "bf:stockNumber": "13998-O",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "3863041",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "G 8/60",
+              "knpam:system_number": "13998-O",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-98",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "comment": "Кн. 1",
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1854-1859",
+        "dc:format": "27",
+        "dc:issued": "1854-1859",
+        "dcterms:extent": "189 с. разд. паг., 2 л. ил.",
+        "description": "Отечественное издание\nЗагл. книг 31-33: Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/58",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "189 с. разд. паг., 2 л. ил.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Кн. 15",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "name": "Санкт-Петербург"
+        },
+        "schema:temporal": "1854-1859",
+        "serial": "item-119",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "subtitle": "Сборник известий, относящихся до войны 1853-1856 г., издаваемый с выс. соизволения Н. Путиловым",
+        "title": "Сборник известий, относящихся до настоящей войны, издаваемый с выс. соизволения Н. Путиловым : Кн. 15",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/99/images/3981456_00.png",
+          "name": {
+            "en": "Image of item 3981456_00.png",
+            "ru": "Изображение экземпляра 3981456_00.png"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 3981456_00.png",
+          "type": "image/png"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/99/images/3981456_01.png",
+          "name": {
+            "en": "Image of item 3981456_01.png",
+            "ru": "Изображение экземпляра 3981456_01.png"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 3981456_01.png",
+          "type": "image/png"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/99/images/3981456_03.png",
+          "name": {
+            "en": "Image of item 3981456_03.png",
+            "ru": "Изображение экземпляра 3981456_03.png"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 3981456_03.png",
+          "type": "image/png"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/99.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea4974d5af0dd4568004",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=99",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/99/conclusion/199.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/99?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/99",
+        "@type": "https://schema.org/CreativeWork",
+        "author": {
+          "birthDate": "1820",
+          "deathDate": "1877",
+          "name": "Попов, Александр Николаевич",
+          "relCode": "aut",
+          "relTerm": "Автор",
+          "sortAs": "Попов, Александр Николаевич ,"
+        },
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+              "name": "knpam.rusneb.ru kpnatlang",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-16",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-38",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "МК XII.А.10/4° Б-ка Зимнего дворца",
+              "bf:stockNumber": "МК IV-16407; 30514-О",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "3981456",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "МК XII.А.10/4° Б-ка Зимнего дворца",
+              "knpam:system_number": "МК IV-16407; 30514-О",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-90",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "comment": "Ист. исслед. Александра Николаевича Попова. Т. 1-",
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "1905",
+        "dc:format": "27",
+        "dc:issued": "1905",
+        "dcterms:extent": "[2], VI, 503 с., 1 л. портр.",
+        "description": "Отечественное издание",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/99",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "[2], VI, 503 с., 1 л. портр.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "Сношения России с иностранными державами перед войной 1812 года",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "addressLocality": "Москва",
+          "description": "Отечественное издание",
+          "name": "типо-лит. Н.И. Гросман и Г.А. Вендельштейн"
+        },
+        "responsibilityNotes": "Попов, Александр Николаевич ,",
+        "serial": "item-118",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "subtitle": "Отечественная война тысяча восемьсот двенадцатого года",
+        "title": "Отечественная война 1812 года : Сношения России с иностранными державами перед войной 1812 года",
+        "type": "application/opds+json"
+      }
+    },
+    {
+      "images": [
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/26/images/10077990_0.jpg",
+          "name": {
+            "en": "Image of item 10077990_0.jpg",
+            "ru": "Изображение экземпляра 10077990_0.jpg"
+          },
+          "rel": "cover",
+          "title": "Изображение экземпляра 10077990_0.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/26/images/10077990_1.jpg",
+          "name": {
+            "en": "Image of item 10077990_1.jpg",
+            "ru": "Изображение экземпляра 10077990_1.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 10077990_1.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/26/images/10077990_3.jpg",
+          "name": {
+            "en": "Image of item 10077990_3.jpg",
+            "ru": "Изображение экземпляра 10077990_3.jpg"
+          },
+          "rel": "image",
+          "title": "Изображение экземпляра 10077990_3.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:18080/resources/item/storage.rusneb.ru/knpam.rusneb.ru/test/26.pdf",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "type": "application/pdf"
+        },
+        {
+          "href": "https://kp.rusneb.ru/item/material/5dd3ea3b74d5af0dd456799c",
+          "name": {
+            "en": "Item page on National electronic library (NEL)",
+            "ru": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/copies/view?num=26",
+          "name": {
+            "en": "Item page on National heritage books registry (Реестр Книжных Памятников)",
+            "ru": "Ссылка на страницу экземпляра в Реестре книжных памятников"
+          },
+          "properties": {
+            "indirectAcquisition": [
+              {
+                "type": "application/pdf"
+              }
+            ]
+          },
+          "rel": "http://opds-spec.org/acquisition/sample",
+          "title": "Ссылка на страницу экземпляра в Реестре книжных памятников",
+          "type": "text/html"
+        },
+        {
+          "href": "https://knpam.rusneb.ru/uploads/copies/26/conclusion/202.pdf",
+          "name": {
+            "en": "Heritage status assignment expertise conclusion",
+            "ru": "Экспертное заключение на отнесение к книжным памятникам"
+          },
+          "rel": "http://opds-spec.org/acquisition",
+          "title": "Экспертное заключение на отнесение к книжным памятникам",
+          "type": "application/pdf"
+        },
+        {
+          "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/26?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "application/vnd.rusneb.knpam+json"
+        }
+      ],
+      "metadata": {
+        "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/26",
+        "@type": "https://schema.org/CreativeWork",
+        "belongsTo": {
+          "collection": [
+            {
+              "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr",
+              "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr",
+              "name": "knpam.rusneb.ru kpcyr",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "collection-83",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "href": "http://localhost:18080/resources/group/knpam.rusneb.ru/28",
+              "name": "http:  localhost:18080 resources group knpam.rusneb.ru 28",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "group-80",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem"
+            },
+            {
+              "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "@type": "https://schema.org/ArchiveOrganization",
+              "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва, г.",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "bf:shelfMark": "МК XII.A.13б/8",
+              "bf:stockNumber": "МК IV-6755; 30522-O",
+              "email": "nbros@rsl.ru",
+              "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/26",
+              "identifier": "urn:nbn:ru:kp:org:26",
+              "knpam:copy_eid": "10077990",
+              "knpam:inn": "7704097560",
+              "knpam:opf": "Федеральное государственное бюджетное учреждение",
+              "knpam:storage_cypher": "МК XII.A.13б/8",
+              "knpam:system_number": "МК IV-6755; 30522-O",
+              "location": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressLocality": "Москва",
+                "addressRegion": 133,
+                "postalCode": "119019",
+                "streetAddress": "Воздвиженка, ул., 3/5"
+              },
+              "name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+              "properties": {
+                "modified": "2020-02-02T02:02:02.200Z",
+                "provider": "rusneb.ru",
+                "serial": "organization-29",
+                "sourceModified": "2020-02-02T02:02:02.200Z"
+              },
+              "rel": "hasitem",
+              "telephone": "+7 (499) 557-04-70"
+            }
+          ]
+        },
+        "content": {
+          "en": "book/text",
+          "ru": "Книги"
+        },
+        "datePublished": "[1841-1861]",
+        "dc:format": "18 см",
+        "dc:issued": "[1841-1861]",
+        "dcterms:extent": "[4], 81, [1] с.",
+        "description": "Отечественное издание\nЗагл. изд. с 1859 г.: Сведения о состоянии оружия, артиллерии, пороха, свинца и других потребностей в сухопутных войсках и в запасах артиллерийского ведомства",
+        "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/26",
+        "knpam:criteria_type": "Социально-значимый",
+        "kp:doc_type": 28,
+        "language": "rus",
+        "materialDescription": "Целостность: полный.",
+        "materialExtent": "[4], 81, [1] с.",
+        "modified": "2020-02-02T02:02:02.200Z",
+        "nameOfWorkPart": "... [кроме Кавказа] по 1 генваря 1860",
+        "numberOfItems": 1,
+        "provider": "rusneb.ru",
+        "publisher": {
+          "name": "Б. м."
+        },
+        "schema:temporal": "[1841-1861]",
+        "serial": "item-117",
+        "sourceModified": "2020-02-02T02:02:02.200Z",
+        "subtitle": "Сведения о состоянии оружия, артиллерии, пороха, свинца и других потребностей в сухопутных войсках и в запасах артиллерийского ведомства",
+        "title": "Сведения о состоянии в сухопутных войсках и артиллерийском ведомстве: оружия, артиллерии, пороха, свинца и других главных военных потребностей, материалов на изготовление оных и об успехе самого приготовления... ... [кроме Кавказа] по 1 генваря 1860",
+        "type": "application/opds+json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+<fb-updates timestamp="2018-04-19 11:33:14">
+  <updated-book id="32498526" created="2018-04-18 16:35:49" last_release="2018-04-18 16:35:49" updated="2018-04-18 16:35:49" valid_till="2018-12-31" valid_from="2013-01-01" size="579411" sent_by_name="nvcvet@gmail.com" sent_by_id="9351951" must_import="0" options="0" price="0.90" you_can_sell="0" allow_read="0" allow_sell="0" has_trial="0" allow_full_free="0" public_domain="0" show_card="0" contract_author="9339265" contract_title="АСТ" subject_id="44580" external_id="b4854f32-430a-11e8-9a05-0cc47a52085c" cover="jpg" type="0" adult="16" file_parts="6" available="-1" available_date="2018-04-18 16:18:02" copyright_read_online="1" contract_ends="2018-12-31" udk="821.111-312.4" art_cover="jpg" lvl="2" sell_open="0" can_preorder="0" litex="1" chars="46369" images="1" drm="0" publisher="АСТ" date_written_s="1969" date_written_d="1969-01-01" lang="ru" src_lang="en" cover_h="1960" cover_w="1400" art_cover_w="1400" art_cover_h="1960" lang3="rus" src_lang3="eng" status="approved" rating="6030" url="">
+    <files>
+      <file size="579409" type="fb2.zip"/>
+      <file size="51846" type="html"/>
+      <file size="583471" type="html.zip"/>
+      <file size="47604" type="txt"/>
+      <file size="20832" type="txt.zip"/>
+      <file size="623059" type="rtf.zip"/>
+      <file size="663336" type="a4.pdf"/>
+      <file size="708752" type="a6.pdf"/>
+      <file size="447161" type="mobi.prc"/>
+      <file size="1474324" type="epub"/>
+      <file size="590189" type="ios.epub"/>
+      <file size="578047" type="fb3"/>
+    </files>
+    <book-title title="Наследство Боксдейла"/>
+    <annotation>
+      <p>
+        «– Видишь ли, мой дорогой Адам, – мягко объяснял каноник, прохаживаясь с главным суперинтендентом Дэлглишем под вязами возле своего пасторского дома, – как бы нам ни было кстати это наследство, оно не принесет мне радости, если моя приемная бабушка Элли получила в свое время эти деньги недостойным способом.
+      </p>
+      <p>
+        Каноник имел в виду, что они с женой не смогут воспользоваться пятьюдесятью тысячами фунтов, оставленными им его приемной бабушкой Элли, если шестьдесят семь лет назад она отравила своего престарелого мужа мышьяком, чтобы получить их. Поскольку в 1902 году это обвинение было снято с тетушки Элли судом, который, по мнению ее хемпширских соседей, в качестве публичного зрелища мог состязаться с церемонией коронации, щепетильность каноника казалась не совсем уместной…»
+      </p>
+    </annotation>
+    <authors>
+      <author id="dc3b5610-2a80-102a-9ae1-2dfe723fe7c7">
+        <subject_id>44580</subject_id>
+        <url>fillis-dzheyms/</url>
+        <first-name>Филлис Дороти</first-name>
+        <middle-name/>
+        <last-name>Джеймс</last-name>
+        <full-name-rodit>Филлис Дороти Джеймс</full-name-rodit>
+        <lvl>2</lvl>
+        <relation>0</relation>
+      </author>
+      <author id="e4f1d9b0-2a80-102a-9ae1-2dfe723fe7c7">
+        <subject_id>44696</subject_id>
+        <url>i-doronina/</url>
+        <first-name>Ирина</first-name>
+        <middle-name>Яковлевна</middle-name>
+        <last-name>Доронина</last-name>
+        <full-name-rodit>Ирины Дорониной</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>1</relation>
+      </author>
+      <author id="c9a05514-1ce6-11e2-86b3-b737ee03444a">
+        <subject_id>2835185</subject_id>
+        <url>raznoe-4/</url>
+        <first-name>Литагент</first-name>
+        <middle-name/>
+        <last-name>АСТ</last-name>
+        <full-name-rodit/>
+        <lvl>2</lvl>
+        <relation>2</relation>
+      </author>
+    </authors>
+    <genres>
+      <genre title="зарубежные детективы" id="5219" bisac="FIC022000" master="1"/>
+      <genre title="классические детективы" id="5261" bisac="FIC022000"/>
+    </genres>
+    <relations>
+      <related uuid="BA8F3184-9049-4EAF-A47B-9D711D9135DC" relation="6" type="0"/>
+    </relations>
+    <copyrights>
+      <copyright id="9339265" title="АСТ" percent="100.00"/>
+    </copyrights>
+  </updated-book>
+  <updated-book id="32523047" created="2018-04-19 09:14:23" last_release="2018-04-19 09:14:23" updated="2018-04-19 09:14:23" valid_till="2021-11-01" valid_from="2016-11-01" size="5653231" sent_by_name="sabanova" sent_by_id="9355626" must_import="0" options="68" price="5.99" you_can_sell="0" allow_read="0" allow_sell="0" has_trial="0" allow_full_free="0" public_domain="0" show_card="64" contract_author="9356032" contract_title="Эксмо" subject_id="44790" file_id="37754271" external_id="0a6e477f-4398-11e8-aa6b-0cc47a520474" cover="jpg" type="1" adult="0" file_parts="0" available="-1" available_date="2018-04-19 09:11:16" copyright_read_online="0" contract_ends="2021-02-12" art_cover="jpg" lvl="4" sell_open="0" can_preorder="0" litex="0" chars="4368" drm="0" publisher="" lang="ru" cover_h="1500" cover_w="1071" art_cover_w="1071" art_cover_h="1500" lang3="rus" status="approved" url="">
+    <files>
+      <group value="Ознакомительный фрагмент. MP3" group_id="1">
+        <file id="37754271" size="5653231" filename="Sample.mp3" seconds="4368" mime_type="audio/mpeg" file_description="MP3"/>
+      </group>
+      <group value="Стандартное качество. MP3" group_id="5">
+        <file id="37754255" size="5669432" filename="01.mp3" seconds="354" mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="37754231" size="14099251" filename="02.mp3" seconds="880" mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="37754263" size="11474467" filename="03.mp3" seconds="716" mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="37754215" size="5472573" filename="04.mp3" seconds="341" mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="37754239" size="24781451" filename="05.mp3" seconds="1548" mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="37754247" size="8470594" filename="06.mp3" seconds="529" mime_type="audio/mpeg" file_description="MP3"/>
+      </group>
+      <group value="Мобильная версия. MP4" group_id="19">
+        <file id="37754223" size="31707503" filename="Sovetnik_Po_Kulture.m4b" seconds="4366" mime_type="audio/m4b" file_description="M4B-файл"/>
+      </group>
+    </files>
+    <book-title title="Советник по культуре"/>
+    <annotation>
+      <p>
+        Николай Стверцов прибыл на планету Ниона в качестве советника по культуре посольства Земной Федерации. Он должен сыграть важную роль в межгалактическом проекте «Восхождение». Проект призван помочь пяти расам Нионы достичь более высокого уровня развития. Но, узнав о страшной тайне изготовления шейота, который является главным предметом экспорта с отсталой планеты, Стверцов начинает сомневаться в правильности политики Земной Федерации на Нионе…
+      </p>
+    </annotation>
+    <authors>
+      <author id="ea92d3b4-2a80-102a-9ae1-2dfe723fe7c7">
+        <subject_id>44790</subject_id>
+        <url>aleksey-kalugin/</url>
+        <first-name>Алексей</first-name>
+        <middle-name>Александрович</middle-name>
+        <last-name>Калугин</last-name>
+        <full-name-rodit>Алексея Калугина</full-name-rodit>
+        <lvl>4</lvl>
+        <relation>0</relation>
+        <exid>1-00000025829</exid>
+      </author>
+      <author id="556f2637-8bde-11e6-9c73-0cc47a1952f2">
+        <subject_id>10117645</subject_id>
+        <url>audioagent-litres-chtec-pablik/</url>
+        <first-name>Аудиоагент</first-name>
+        <middle-name/>
+        <last-name>ЛитРес Чтец</last-name>
+        <full-name-rodit>Аудиоагента ЛитРес Чтец</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>2</relation>
+      </author>
+      <author id="a4d115a3-a4f2-11e6-a11d-0cc47a5203ba">
+        <subject_id>10389074</subject_id>
+        <url>raznoe-10389074/</url>
+        <first-name>Аудиоагент</first-name>
+        <middle-name/>
+        <last-name>1 редакция-прямой договор</last-name>
+        <full-name-rodit/>
+        <lvl>1</lvl>
+        <relation>2</relation>
+      </author>
+      <author id="f703f2a3-24cc-11e7-b088-0cc47a52085c">
+        <subject_id>11119920</subject_id>
+        <url>dumanskiy-andrey/</url>
+        <first-name>Андрей</first-name>
+        <middle-name/>
+        <last-name>Думанский</last-name>
+        <full-name-rodit>Думанского Андрея</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>2</relation>
+      </author>
+      <author id="f703f2a3-24cc-11e7-b088-0cc47a52085c">
+        <subject_id>11119920</subject_id>
+        <url>dumanskiy-andrey/</url>
+        <first-name>Андрей</first-name>
+        <middle-name/>
+        <last-name>Думанский</last-name>
+        <full-name-rodit>Думанского Андрея</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>6</relation>
+      </author>
+    </authors>
+    <genres>
+      <genre title="научная фантастика" id="5073" bisac="FIC028020"/>
+      <genre title="социальная фантастика" id="5078" bisac="FIC028000"/>
+    </genres>
+    <relations>
+      <related uuid="76316fbc-2c44-102b-839c-b3fddb510218" relation="8" type="0"/>
+    </relations>
+    <copyrights>
+      <copyright id="9354189" title="ЛитРес: чтец" percent="26.00"/>
+      <copyright id="9354794" title="Эксмо" percent="50.00"/>
+      <copyright id="9356032" title="Думанский Андрей" percent="100.00"/>
+    </copyrights>
+  </updated-book>
+  <removed-book id="24261892" uid="fc3ba230-4753-11e7-b2fb-0cc47a52085c" removed="2018-04-19 10:34:13"/>
+</fb-updates>

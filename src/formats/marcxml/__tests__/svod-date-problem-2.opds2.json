@@ -1,0 +1,70 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1732",
+        "deathDate": "1783",
+        "name": "Иероним",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "citation": [
+        {
+          "locationWithinSource": "2416",
+          "name": "Сводный каталог русской книги гражданской печати XVIII века. 1725-1800. М., 1962-1975."
+        }
+      ],
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1744",
+          "deathDate": "1818",
+          "name": "Новиков, Николай Иванович",
+          "relCode": "prt",
+          "role": "prt",
+          "relTerm": "Типограф"
+        },
+        {
+          "birthDate": "1852",
+          "deathDate": "1924",
+          "name": "Бурылин, Дмитрий Геннадьевич",
+          "relCode": "aut",
+          "role": "aut",
+          "relTerm": "Автор"
+        }
+      ],
+      "dc:issued": "1779",
+      "description": [
+        "Существует 2 изд., отличающихся только набором. Последовательность изд. не установлена. В настоящем изд. слово \"говоренныя\" на тит. л. набрано прямым шрифтом",
+        "На обороте тит. л. тип. марка Н.Новикова",
+        "34 с.",
+        "4°"
+      ],
+      "dimensions": "4°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/РНБ/RU\\NLR\\A1\\1235",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "34 с.",
+      "modified": "2003-11-17T14:31:48.0Z",
+      "numberOfPages": 34,
+      "published": "1779",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "М.",
+        "name": "Тип. Имп. Моск. ун-та [У Н.Новикова]"
+      },
+      "title": "Слова преосвященным Иеронимом епископом Владимирским и Муромским в городе Муроме говоренныя 1778 года"
+    }
+  }
+]

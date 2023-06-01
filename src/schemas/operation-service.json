@@ -1,0 +1,26 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/operation-service.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/",
+  "type": "object",
+  "description": "Service command operation",
+  "properties": {
+    "type": {
+      "const": "import"
+    },
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "description": "Service command",
+          "minLength": 1,
+          "maxLength": 13000,
+          "type": "string"
+        }
+      },
+      "required": [
+        "command"
+      ]
+    }
+  }
+}

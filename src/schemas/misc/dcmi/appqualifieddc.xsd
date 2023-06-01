@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns="http://example.org/appqualifieddc/"
+            targetNamespace="http://example.org/appqualifieddc/"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified">
+
+  <xs:annotation>
+    <xs:documentation xml:lang="en">
+      A Qualified DC application XML Schema
+ 
+      Created 2002-07-12
+
+      Created by 
+
+      Tim Cole (t-cole3@uiuc.edu)
+      Tom Habing (thabing@uiuc.edu)
+      Jane Hunter (jane@dstc.edu.au)
+      Pete Johnston (p.johnston@ukoln.ac.uk),
+      Carl Lagoze (lagoze@cs.cornell.edu)
+
+      This schema includes the container element for a Qualified DC application. 
+      In doing so it assigns that container element to the targetNamespace
+      of this schema.
+      
+    </xs:documentation>
+
+  </xs:annotation>
+
+   <xs:include schemaLocation="qualifieddc.xsd"/>
+
+</xs:schema>

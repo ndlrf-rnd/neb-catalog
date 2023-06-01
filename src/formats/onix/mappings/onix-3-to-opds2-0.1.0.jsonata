@@ -1,0 +1,561 @@
+(
+  $getContributor := function ($contributor) {
+    {
+      "bf:role": $contributor.ContributorRole._text ? $contributor.ContributorRole._text.$lookup(
+        {
+          "A07": "artist",
+          "A36": "artist",
+
+          "A01": "author",
+
+          "A47": "colorist",
+
+          "A32": "contributor",
+          "A39": "contributor",
+          "E10": "contributor",
+          "Z01": "contributor",
+          "Z98": "contributor",
+
+          "B21": "editor",
+          "B15": "editor",
+
+          "A13": "illustrator",
+
+          "A40": "inker",
+          "A46": "inker",
+
+          "A48": "letterer",
+
+          "A12": "penciler",
+          "B18": "publisher",
+
+          "E07": "readBy",
+
+          "B06": "translator",
+          "B08": "translator",
+          "B10": "translator"
+        },
+        $
+      ) : "contributor",
+      "type" : "Person",
+
+      "identifier": $join(
+        [
+          "URN",
+          $contributor.NameIdentifier.IDTypeName._text,
+          $contributor.NameIdentifier.IDValue._text
+        ],
+        ":"
+      ),
+      "name": $join(
+        [
+          $contributor.KeyNames._text,
+          $contributor.NamesBeforeKey._text,
+          $contributor.NamesAfterKey._text,
+          $contributor.PersonName._text
+        ],
+        ' '
+      )
+    }
+  };
+
+  /*
+  A01	By (author)	Author of a textual work
+  A02	With	With or as told to: ‘ghost’ or secondary author of a literary work (for clarity, should not be used for true ‘ghost’ authors who are not credited on the book and whose existence is secret)
+  A03	Screenplay by	Writer of screenplay or script (film or video)
+  A04	Libretto by	Writer of libretto (opera): see also A31
+  A05	Lyrics by	Author of lyrics (song): see also A31
+  A06	By (composer)	Composer of music
+  A07	By (artist)	Visual artist when named as the primary creator of, eg, a book of reproductions of artworks
+  A08	By (photographer)	Photographer when named as the primary creator of, eg, a book of photographs
+  A09	Created by
+  A10	From an idea by
+  A11	Designed by
+  A12	Illustrated by	Artist when named as the creator of artwork which illustrates a text, or the originator (sometimes ‘penciller’ for collaborative art) of the artwork of a graphic novel or comic book
+  A13	Photographs by	Photographer when named as the creator of photographs which illustrate a text
+  A14	Text by	Author of text which accompanies art reproductions or photographs, or which is part of a graphic novel or comic book
+  A15	Preface by	Author of preface
+  A16	Prologue by	Author of prologue
+  A17	Summary by	Author of summary
+  A18	Supplement by	Author of supplement
+  A19	Afterword by	Author of afterword
+  A20	Notes by	Author of notes or annotations: see also A29
+  A21	Commentaries by	Author of commentaries on the main text
+  A22	Epilogue by	Author of epilogue
+  A23	Foreword by	Author of foreword
+  A24	Introduction by	Author of introduction: see also A29
+  A25	Footnotes by	Author/compiler of footnotes
+  A26	Memoir by	Author of memoir accompanying main text
+  A27	Experiments by	Person who carried out experiments reported in the text
+  A29	Introduction and notes by	Author of introduction and notes: see also A20 and A24
+  A30	Software written by	Writer of computer programs ancillary to the text
+  A31	Book and lyrics by	Author of the textual content of a musical drama: see also A04 and A05
+  A32	Contributions by	Author of additional contributions to the text
+  A33	Appendix by	Author of appendix
+  A34	Index by	Compiler of index
+  A35	Drawings by
+  A36	Cover design or artwork by	Use also for the cover artist of a graphic novel or comic book if named separately
+  A37	Preliminary work by	Responsible for preliminary work on which the work is based
+  A38	Original author	Author of the first edition (usually of a standard work) who is not an author of the current edition
+  A39	Maps by	Maps drawn or otherwise contributed by
+  A40	Inked or colored by	Use for secondary creators when separate persons are named as having respectively drawn and inked/colored/finished artwork, eg for a graphic novel or comic book. Use with A12 for ‘drawn by’. Use A40 for ‘finished by’, but prefer more specific codes A46 to A48 instead of A40 unless the more specific secondary roles are inappropriate, unclear or unavailable
+  A41	Paper engineering by	Designer or paper engineer of die-cuts, press-outs or of pop-ups in a pop-up book, who may be different from the illustrator
+  A42	Continued by	Use where a standard work is being continued by somebody other than the original author
+  A43	Interviewer
+  A44	Interviewee
+  A45	Comic script by	Writer of dialogue, captions in a comic book (following an outline by the primary writer)
+  A46	Inker	Renders final comic book line art based on work of the illustrator or penciller. Preferred to code A40
+  A47	Colorist	Provides comic book color art and effects. Preferred to code A40
+  A48	Letterer	Creates comic book text balloons and other text elements (where this is a distinct role from script writer and/or illustrator)
+  A51	Research by	Person or organization responsible for performing research on which the work is based. For use in ONIX 3.0 only
+  A99	Other primary creator	Other type of primary creator not specified above
+  B01	Edited by
+  B02	Revised by
+  B03	Retold by
+  B04	Abridged by
+  B05	Adapted by
+  B06	Translated by
+  B07	As told by
+  B08	Translated with commentary by	This code applies where a translator has provided a commentary on issues relating to the translation. If the translator has also provided a commentary on the work itself, codes B06 and A21 should be used
+  B09	Series edited by	Name of a series editor when the product belongs to a series
+  B10	Edited and translated by
+  B11	Editor-in-chief
+  B12	Guest editor
+  B13	Volume editor
+  B14	Editorial board member
+  B15	Editorial coordination by
+  B16	Managing editor
+  B17	Founded by	Usually the founder editor of a serial publication: Begruendet von
+  B18	Prepared for publication by
+  B19	Associate editor
+  B20	Consultant editor	Use also for ‘advisory editor’, ‘series advisor’, ‘editorial consultant’ etc
+  B21	General editor
+  B22	Dramatized by
+  B23	General rapporteur	In Europe, an expert editor who takes responsibility for the legal content of a collaborative law volume
+  B24	Literary editor	An editor who is responsible for establishing the text used in an edition of a literary work, where this is recognised as a distinctive role (in Spain, ‘editor literario’)
+  B25	Arranged by (music)
+  B26	Technical editor	Responsible for the technical accuracy and language, may also be involved in coordinating and preparing technical material for publication
+  B27	Thesis advisor or supervisor
+  B28	Thesis examiner
+  B29	Scientific editor	Responsible overall for the scientific content of the publication
+  B30	Historical advisor	For use in ONIX 3.0 only
+  B31	Original editor	Editor of the first edition (usually of a standard work) who is not an editor of the current edition. For use in ONIX 3.0 only
+  B99	Other adaptation by	Other type of adaptation or editing not specified above
+  C01	Compiled by	For puzzles, directories, statistics, etc
+  C02	Selected by	For textual material (eg for an anthology)
+  C03	Non-text material selected by	Eg for a collection of photographs etc
+  C04	Curated by	Eg for an exhibition
+  C99	Other compilation by	Other type of compilation not specified above
+  D01	Producer
+  D02	Director
+  D03	Conductor	Conductor of a musical performance
+  D04	Choreographer	Of a dance performance. For use in ONIX 3.0 only
+  D99	Other direction by	Other type of direction not specified above
+  E01	Actor
+  E02	Dancer
+  E03	Narrator
+  E04	Commentator
+  E05	Vocal soloist	Singer etc
+  E06	Instrumental soloist
+  E07	Read by	Reader of recorded text, as in an audiobook
+  E08	Performed by (orchestra, band, ensemble)	Name of a musical group in a performing role
+  E09	Speaker	Of a speech, lecture etc
+  E10	Presenter	Introduces and links other contributors and material, eg within a documentary
+  E99	Performed by	Other type of performer not specified above: use for a recorded performance which does not fit a category above, eg a performance by a stand-up comedian
+  F01	Filmed/photographed by	Cinematographer, etc
+  F02	Editor (film or video)
+  F99	Other recording by	Other type of recording not specified above
+  Z01	Assisted by	May be associated with any contributor role, and placement should therefore be controlled by contributor sequence numbering
+  Z02	Honored/dedicated to
+  Z98	(Various roles)	For use ONLY with ‘et al’ or ‘Various’ within <UnnamedPersons>, where the roles of the multiple contributors vary
+  Z99	Other	Other creative responsibility not falling within A to F above
+  */
+
+  $defaultLanguage := $.ONIXMessage.Header.DefaultLanguageOfText._text[$];
+
+  $.ONIXMessage.Product.{
+    '@context': [
+      'https://readium.org/webpub-manifest/context.jsonld',
+      'https://id.loc.gov/ontologies/bibframe.html'
+    ],
+    'metadata': $merge(
+      [
+        {
+          '@type': 'https://schema.org/Book',
+          'identifier': [
+            $.ProductIdentifier.$join(["URN", $.IDTypeName._text, $.IDValue._text], ':'),
+            $.RecordReference._text ? $join(["URN", $.RecordReference._text], ':') : undefined
+          ],
+          'contentRating': $.DescriptiveDetail.AudienceRange.{
+            '@type': 'https://schema.org/contentRating',
+            'value': $.AudienceRangeValue._text.*,
+            'description': $.AudienceRangeQualifier._text.$lookup(
+              {
+                '15': 'Reading speed, words per minute',
+                '16': 'Interest age, months',
+                '17': 'Interest age, years',
+                '18': 'Reading age, years'
+              },
+              $
+            )
+          },
+          'schema:conditionsOfAccess': [
+            $.SupplyDetail.ProductAvailability._text.$lookup(
+              {
+                "01": "Cancelled - Cancelled: product was announced, and subsequently abandoned",
+                "09": "Not yet available, postponed indefinitely - Not yet available, publisher indicates that it has been postponed indefinitely. Should be used in preference to code 10 where the publisher has indicated that a previously-announced publication date is no longer correct, and no new date has yet been announced. For use in ONIX 3.0 only",
+                "10": "Not yet available - Not yet available (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known)",
+                "11": "Awaiting stock - Not yet available, but will be a stock item when available (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known). Used particularly for imports which have been published in the country of origin but have not yet arrived in the importing country",
+                "12": "Not yet available, will be POD - Not yet available, to be published as print-on-demand only (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known). May apply either to a POD successor to an existing conventional edition, when the successor will be published under a different ISBN (normally because different trade terms apply); or to a title that is being published as a POD original",
+                "20": "Available - Available from us (form of availability unspecified)",
+                "21": "In stock - Available from us as a stock item",
+                "22": "To order - Available from us as a non-stock item, by special order",
+                "23": "POD - Available from us by print-on-demand",
+                "30": "Temporarily unavailable - Temporarily unavailable: temporarily unavailable from us (reason unspecified) (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known)",
+                "31": "Out of stock - Stock item, temporarily out of stock (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known)",
+                "32": "Reprinting - Temporarily unavailable, reprinting (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known)",
+                "33": "Awaiting reissue - Temporarily unavailable, awaiting reissue (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known)",
+                "34": "Temporarily withdrawn from sale - May be for quality or technical reasons. Requires expected availability date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known",
+                "40": "Not available (reason unspecified) - Not available from us (for any reason)",
+                "41": "Not available, replaced by new product - This product is unavailable, but a successor product or edition is or will be available from us (identify successor in <RelatedProduct>)",
+                "42": "Not available, other format available - This product is unavailable, but the same content is or will be available from us in an alternative format (identify other format product in <RelatedProduct>)",
+                "43": "No longer supplied by us - Identify new supplier in <NewSupplier> if possible",
+                "44": "Apply direct - Not available to trade, apply direct to publisher",
+                "45": "Not sold separately - Must be bought as part of a set or trade pack (identify set or pack in <RelatedProduct>)",
+                "46": "Withdrawn from sale - May be for legal reasons or to avoid giving offence",
+                "47": "Remaindered - Remaindered",
+                "48": "Not available, replaced by POD - Out of print, but a print-on-demand edition is or will be available under a different ISBN. Use only when the POD successor has a different ISBN, normally because different trade terms apply",
+                "49": "Recalled - Recalled for reasons of consumer safety",
+                "50": "Not sold as set - When a collection that is not sold as a set nevertheless has its own ONIX record",
+                "51": "Not available, publisher indicates OP - This product is unavailable, no successor product or alternative format is available or planned. Use this code only when the publisher has indicated the product is out of print",
+                "52": "Not available, publisher no longer sells product in this market - This product is unavailable in this market, no successor product or alternative format is available or planned. Use this code when a publisher has indicated the product is permanently unavailable (in this market) while remaining available elsewhere",
+                "97": "No recent update received - Sender has not received any recent update for this product from the publisher/supplier (for use when the sender is a data aggregator): the definition of ‘recent’ must be specified by the aggregator, or by agreement between parties to an exchange",
+                "98": "No longer receiving updates - Sender is no longer receiving any updates from the publisher/supplier of this product (for use when the sender is a data aggregator)",
+                "99": "Contact supplier - Availability not known to sender"
+              },
+              $
+            ),
+            $.PublishingDetail.PublishingStatus._text.$lookup(
+              {
+                "00": "Unspecified - Status is not specified (as distinct from unknown): the default if the <MarketPublishingStatus> element is not sent",
+                "01": "Cancelled - The product was announced for publication in this market, and subsequently abandoned. A market publication date must not be sent",
+                "02": "Forthcoming - Not yet published in this market, should be accompanied by expected local publication date",
+                "03": "Postponed indefinitely - The product was announced for publication in this market, and subsequently postponed with no expected local publication date. A market publication date must not be sent",
+                "04": "Active - The product was published in this market, and is still active in the sense that the publisher will accept orders for it, though it may or may not be immediately available, for which see <SupplyDetail>",
+                "05": "No longer our product - Responsibility for the product in this market has been transferred elsewhere (with details of acquiring publisher representative in this market if possible in PR.25 (ONIX 2.1) OR P.25 (ONIX 3.0))",
+                "06": "Out of stock indefinitely - The product was active in this market, but is now inactive in the sense that (a) the publisher representative (local publisher or sales agent) cannot fulfill orders for it, though stock may still be available elsewhere in the supply chain, and (b) there are no current plans to bring it back into stock in this market. Code 06 does not specifically imply that returns are or are not still accepted",
+                "07": "Out of print - The product was active in this market, but is now permanently inactive in this market in the sense that (a) the publisher representative (local publisher or sales agent) will not accept orders for it, though stock may still be available elsewhere in the supply chain, and (b) the product will not be made available again in this market under the same ISBN. Code 07 normally implies that the publisher will not accept returns beyond a specified date",
+                "08": "Inactive - The product was active in this market, but is now permanently or indefinitely inactive in the sense that the publisher representative (local publisher or sales agent) will not accept orders for it, though stock may still be available elsewhere in the supply chain. Code 08 covers both of codes 06 and 07, and may be used where the distinction between those values is either unnecessary or meaningless",
+                "09": "Unknown - The sender of the ONIX record does not know the current publishing status in this market",
+                "10": "Remaindered - The product is no longer available in this market from the publisher representative (local publisher or sales agent), under the current ISBN, at the current price. It may be available to be traded through another channel, usually at a reduced price",
+                "11": "Withdrawn from sale - Withdrawn from sale in this market, typically for legal reasons or to avoid giving offence",
+                "12": "Not available in this market - Either no rights are held for the product in this market, or for other reasons the publisher has decided not to make it available in this market",
+                "13": "Active, but not sold separately - The product is published in this market and active but, as a publishing decision, it is not sold separately – only in an assembly or as part of a package. Depending on product composition and pricing, it may be saleable separately at retail",
+                "14": "Active, with market restrictions - The product is published in this market and active, but is not available to all customer types, typically because the market is split between exclusive sales agents for different market segments. In ONIX 2.1, should be accompanied by a free-text statement in <MarketRestrictionDetail> describing the nature of the restriction. In ONIX 3.0, the <SalesRestriction> composite in Group P.24 should be used",
+                "15": "Recalled - Recalled in this market for reasons of consumer safety",
+                "16": "Temporarily withdrawn from sale - Temporarily withdrawn from sale in this market, typically for quality or technical reasons. In ONIX 3.0, must be accompanied by expected availability date coded ‘22’ within the <MarketPublishingDate> composite, except in exceptional circumstances where no date is known"
+              },
+              $
+            )
+          ][$],
+          'published': $.PublishingDetail.PublishingDateRole[$number($._text) in [1, 11]]
+            ? $.PublishingDetail.PublishingDate.Date._text
+            : $.PublishingDetail.PublishingDateRole[$number($._text) != 13]._text,
+
+          'modified': $.PublishingDetail.PublishingDateRole[$number($._text) != 13]._text,
+
+          'bf:extent': $number($.DescriptiveDetails.Extent._text),
+          'dcterms:extent': $number($.DescriptiveDetails.Extent._text),
+          'numberOfPages': $number($.DescriptiveDetails.Extent._text),
+
+          /*
+            TODO: Utilize DescriptiveDetails.TitleDetail
+            "00 - Undefined",
+            "01 - Distinctive title (book); Cover title (serial); Title on item (serial content item or reviewed resource) - The full text of the distinctive title of the item, without abbreviation or abridgement. For books, where the title alone is not distinctive, elements may be taken from a set or series title and part number etc to create a distinctive title. Where the item is an omnibus edition containing two or more works by the same author, and there is no separate combined title, a distinctive title may be constructed by concatenating the individual titles, with suitable punctuation, as in ‘Pride and prejudice / Sense and sensibility / Northanger Abbey’",
+            "02 - ISSN key title of serial - Serials only",
+            "03 - Title in original language - Where the subject of the ONIX record is a translated item",
+            "04 - Title acronym or initialism - For serials: an acronym or initialism of Title Type 01, eg ‘JAMA’, ‘JACM’",
+            "05 - Abbreviated title - An abbreviated form of Title Type 01",
+            "06 - Title in other language - A translation of Title Type 01 into another language",
+            "07 - Thematic title of journal issue - Serials only: when a journal issue is explicitly devoted to a specified topic",
+            "08 - Former title - Books or serials: when an item was previously published under another title",
+            "10 - Distributor’s title - For books: the title carried in a book distributor’s title file: frequently incomplete, and may include elements not properly part of the title",
+            "11 - Alternative title on cover - An alternative title that appears on the cover of a book",
+            "12 - Alternative title on back - An alternative title that appears on the back of a book",
+            "13 - Expanded title - An expanded form of the title, eg the title of a school text book with grade and type and other details added to make the title meaningful, where otherwise it would comprise only the curriculum subject. This title type is required for submissions to the Spanish ISBN Agency",
+            "14 - Alternative title - An alternative title that the book is widely known by, whether it appears on the book or not",
+          */
+
+          'title': $.Product.Title.TitleText._text,
+          'subtitle': $.Product.Title.Subtitle._text,
+          'description': $.CollateralDetail.TextContent.{
+          'contentAudience': $.ContentAudience._text.$lookup(
+            {
+              "00": "Unrestricted - Any audience",
+              "01": "Restricted - Distribution by agreement between the parties to the ONIX exchange (this value is provided to cover applications where ONIX content includes material which is not for general distribution)",
+              "02": "Booktrade - Distributors, bookstores, publisher’s own staff etc",
+              "03": "End-customers",
+              "04": "Librarians",
+              "05": "Teachers",
+              "06": "Students",
+              "07": "Press - Press or other media",
+              "08": "Shopping comparison service - Where a specially formatted description is required for this audience",
+              "09": "Search engine index - Text not intended for display, but may be used (in addition to any less restricted text) for indexing and search"
+              },
+              $
+            ),
+            'title': $.TextType._text.$lookup(
+              {
+                "01": "Sender-defined text", /* To be used only in circumstances where the parties to an exchange have agreed to include text which (a) is not for general distribution, and (b) cannot be coded elsewhere. If more than one type of text is sent, it must be identified by tagging within the text itself */
+                "02": "Short description/annotation", /* Limited to a maximum of 350 characters */
+                "03": "Description", /* Length unrestricted */
+                "04": "Table of contents", /* Used for a table of contents sent as a single text field, which may or may not carry structure expressed as XHTML */
+                "05": "Flap / cover copy", /* Descriptive blurb taken from the back cover and/or flaps */
+                "06": "Review quote", /* A quote taken from a review of the product or of the work in question where there is no need to take account of different editions */
+                "07": "Review quote: previous edition", /* A quote taken from a review of a previous edition of the work */
+                "08": "Review quote: previous work", /* A quote taken from a review of a previous work by the same author(s) or in the same series */
+                "09": "Endorsement", /* A quote usually provided by a celebrity or another author to promote a new book, not from a review */
+                "10": "Promotional headline", /* A promotional phrase which is intended to headline a description of the product */
+                "11": "Feature", /* Text describing a feature of a product to which the publisher wishes to draw attention for promotional purposes. Each separate feature should be described by a separate repeat, so that formatting can be applied at the discretion of the receiver of the ONIX record, or multiple features can be described using appropriate XHTML markup */
+                "12": "Biographical note", /* A note referring to all contributors to a product – NOT linked to a single contributor */
+                "13": "Publisher’s notice", /* A statement included by a publisher in fulfillment of contractual obligations, such as a disclaimer, sponsor statement, or legal notice of any sort. Note that the inclusion of such a notice cannot and does not imply that a user of the ONIX record is obliged to reproduce it */
+                "14": "Excerpt", /* A short excerpt from the main text of the work */
+                "15": "Index", /* Used for an index sent as a single text field, which may be structured using XHTML */
+                "16": "Short description/annotation for collection", /* (of which the product is a part.) Limited to a maximum of 350 characters */
+                "17": "Description for collection", /* (of which the product is a part.) Length unrestricted */
+                "18": "New feature", /* As code 11 but used for a new feature of this edition or version */
+                "19": "Version history",
+                "20": "Open access statement", /* Short summary statement of open access status and any related conditions (eg ‘Open access – no commercial use’), primarily for marketing purposes. Should always be accompanied by a link to the complete license (see <EpubLicense> or code 99 in List 158) */
+                "21": "Digital exclusivity statement", /* Short summary statement that the product is available only in digital formats (eg ‘Digital exclusive’). If a non-digital version is planned, <ContentDate> should be used to specify the date when exclusivity will end (use content date role code 15). If a non-digital version is available, the statement should not be included */
+                "22": "Official recommendation", /* For example a recommendation or approval provided by a ministry of education or other official body. Use <Text> to provide details and ideally use <TextSourceCorporate> to name the approver */
+                "23": "JBPA description", /* Short description in format specified by Japanese Book Publishers Association */
+                "24": "schema.org snippet", /* JSON-LD snippet suitable for use within an HTML <script type="application/ld+json"> tag, containing structured metadata suitable for use with schema.org */
+                "25": "Errata",
+                "26": "Introduction" /* Introduction, preface or the text of other preliminary material, sent as a single text field, which may be structured using XHTML */
+              },
+              $
+            ),
+            'description': $.Text._text
+          },
+
+          'language': [$defaultLanguage],
+
+          "publisher": $.PublishingDetail.Imprint.{
+            "identifier": $.ImprintIdentifier.$join(
+              [
+                "URN",
+                $.IDTypeName._text,
+                $.IDValue._text
+              ],
+              ":"
+            ),
+            'name': $.ImprintName._text
+          },
+
+          'responsibilityNotes': $join(
+            $.PublishingDetail.SalesRights.[
+              $.SalesRightsType._text.$lookup(
+                {
+                  "00": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element",
+                  "01": "For sale with exclusive rights in the specified countries or territories",
+                  "02": "For sale with non-exclusive rights in the specified countries or territories",
+                  "03": "Not for sale in the specified countries or territories (reason unspecified)",
+                  "04": "Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)",
+                  "05": "Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)",
+                  "06": "Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)",
+                  "07": "For sale with exclusive rights in the specified countries or territories (sales restriction applies) - Only for use with ONIX 3. Deprecated",
+                  "08": "For sale with non-exclusive rights in the specified countries or territories (sales restriction applies) - O"
+                },
+                $
+              ),
+              $.Territory.RegionsIncluded ? 'Included regions: ' & $join($.Territory.RegionsIncluded._text, ', ') : undefined,
+              $.ProductContact.{
+                'role': $.ProductContactRole._text,
+                'identifier': $.ProductContactIdentifier.IDTypeName._text & ':' & $.ProductContactIdentifier.IDValue._text,
+                'name': $.ContactName._text,
+                'email': $.EmailAddress._text
+              },
+              $.PublishingDetail.ROWSalesRightsType._text.$lookup(
+                {
+                  "00": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element",
+                  "01": "For sale with exclusive rights in the specified countries or territories",
+                  "02": "For sale with non-exclusive rights in the specified countries or territories",
+                  "03": "Not for sale in the specified countries or territories (reason unspecified)",
+                  "04": "Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)",
+                  "05": "Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)",
+                  "06": "Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)",
+                  "07": "For sale with exclusive rights in the specified countries or territories (sales restriction applies) - Only for use with ONIX 3. Deprecated",
+                  "08": "For sale with non-exclusive rights in the specified countries or territories (sales restriction applies) - Only for use with ONIX 3. Deprecated"
+                },
+                $
+              )
+            ],
+            "\\n"
+          )
+        },
+        $.DescriptiveDetail.Contributor.$getContributor($){
+          `bf:role`: $
+        }
+      ]
+    ),
+
+    "readingOrder": [], /* Mandatory according to standard */
+    "links": $.RelatedMaterial.RelatedWork.{
+      "rel": $.WorkRelationCode._text ? $lookup(
+        {
+          "01": "bf:manifestationOf", /* "Manifestation of - Product X is or includes a manifestation of work Y. (There is a direct parent-child relation between work Y and the product)" */
+          "02": "bf:derivedFrom",     /* "Derived from - Product X is or includes a manifestation of a work derived (directly) from related work Y in one or more of the ways specified in ISTC rules. (There is a relationship between a grandparent work Y and a prent work, and between that parent work and the product.) This relation type is intended to enable products with a common ‘grandparent’ work to be linked without specifying the precise nature of their derivation, and without necessarily assigning an identifier to the product’s parent" */
+          "03": "bf:hasDerivative",   /* "Related work is derived from this - Product X is a manifestation of a work from which related work Y is (directly) derived in one or more of the ways specified in ISTC rules. (There is a relationship between a parent work and a child work Y, and between the parent work and the product)" */
+          "04": "relatedTo",       /* "Other work in same collection - Product X is a manifestation of a work in the same collection as related work Y" */
+          "05": "relatedTo"        /* "Other work by same contributor - Product X is a manifestation of a work by the same contributor(s) as related work Y" */
+        },
+        $.WorkRelationCode._text.$
+      ) : $.WorkRelationCode._text,
+
+      "href": $.WorkIdentifier.$join(
+        [
+          "URN",
+          $.IDTypeName._text,
+          false ? $lookup(
+            {
+              "01": $.IDTypeName._text, /* "Proprietary - Note that <IDTypeName> is required with proprietary identifiers" */
+              "02": "ISBN", /* "ISBN-10 - 10-character ISBN of manifestation of work, when this is the only work identifier available – now DEPRECATED in ONIX for Books, except where providing historical information for compatibility with legacy systems. It should only be used in relation to products published before 2007 – when ISBN-13 superseded it – and should never be used as the ONLY identifier (it should always be accompanied by the correct GTIN-13 / ISBN-13 of the manifestation of the work)", */
+              "06": "DOI", /* "DOI - Digital Object Identifier (variable length and character set)" */
+              "11": "ISTC", /* "ISTC - International Standard Text Code (16 characters: numerals and letters A-F, unhyphenated)" */
+              "15": "ISBN", /* "ISBN-13 - 13-character ISBN of manifestation of work, when this is the only work identifier available (13 digits, without spaces or hyphens)" */
+              "18": "ISRC", /* "ISRC - International Standard Recording Code" */
+              "32": "GLIMIR", /* "GLIMIR - Global Library Manifestation Identifier, OCLC’s ‘manifestation cluster’ ID" */
+              "33": "OWI" /* "OWI - OCLC Work Identifier" */
+           },
+           $.WorkIDType._text
+         ) : $.WorkIDType._text,
+         $.IDValue._text
+       ],
+       ':'
+      )
+    },
+    "resources": $.SupportingResource.ResourceVersion.{
+      "title": $lookup(
+        {
+          "01": "Front cover - 2D",
+          "02": "Back cover - 2D",
+          "03": "Cover / pack - Not limited to front or back, including 3D perspective",
+          "04": "Contributor picture - Photograph or portrait of contributor(s)",
+          "05": "Series image / artwork",
+          "06": "Series logo",
+          "07": "Product image / artwork",
+          "08": "Product logo",
+          "09": "Publisher logo",
+          "10": "Imprint logo",
+          "11": "Contributor interview",
+          "12": "Contributor presentation - Contributor presentation and/or commentary",
+          "13": "Contributor reading",
+          "14": "Contributor event schedule - Link to a schedule in iCalendar format",
+          "15": "Sample content - For example: a short excerpt, sample text or a complete sample chapter, page images, screenshots etc",
+          "16": "Widget - A ‘look inside’ feature presented as a small embeddable application",
+          "17": "Review - Review text held in a separate downloadable file, not in the ONIX record. Equivalent of code 06 in List 153. Use the <TextContent> composite for review quotes carried in the ONIX record. Use the <CitedContent> composite for a third-party review which is referenced from the ONIX record. Use <SupportingResource> for review text offered as a separate file resource for reproduction as part of promotional material for the product",
+          "18": "Other commentary / discussion",
+          "19": "Reading group guide",
+          "20": "Teacher’s guide - Incuding associated teacher / instructor resources",
+          "21": "Feature article - Feature article provided by publisher",
+          "22": "Character ‘interview’ - Fictional character ‘interview’",
+          "23": "Wallpaper / screensaver",
+          "24": "Press release",
+          "25": "Table of contents - A table of contents held in a separate downloadable file, not in the ONIX record. Equivalent of code 04 in List 153. Use the <TextContent> composite for a table of contents carried in the ONIX record. Use <Supporting Resource> for text offered as a separate file resource",
+          "26": "Trailer - A promotional video (or audio), similar to a movie trailer (sometimes referred to as a ‘book trailer’)",
+          "27": "Cover thumbnail - Intended ONLY for transitional use, where ONIX 2.1 records referencing existing thumbnail assets of unknown pixel size are being re-expressed in ONIX 3.0. Use code 01 for all new cover assets, and where the pixel size of older assets is known",
+          "28": "Full content - The full content of the product (or the product itself), supplied for example to support full-text search or indexing",
+          "29": "Full cover - Includes cover, back cover, spine and – where appropriate – any flaps",
+          "30": "Master brand logo",
+          "31": "Description - Descriptive text in a separate downloadable file, not in the ONIX record. Equivalent of code 03 in List 153. Use the <TextContent> composite for descriptions carried in the ONIX record. Use <Supporting Resource> for text offered as a separate file resource for reproduction as part of promotional material for the product",
+          "32": "Index - Index text held in a separate downloadable file, not in the ONIX record. Equivalent of code 15 in List 153. Use the <TextContent> composite for index text carried in the ONIX record. Use <Supporting Resource> for an index offered as a separate file resource",
+          "33": "Student’s guide - Including associated student / learner resources",
+          "34": "Publisher’s catalogue - For example a PDF or other digital representation of a publisher’s ‘new titles’ or range catalogue",
+          "35": "Online advertisement panel - For example a banner ad for the product. Pixel dimensions should typically be included in <ResourceVersionFeature>",
+          "36": "Online advertisement page - German ‘Búhnenbild’",
+          "37": "Promotional event material - For example, posters, logos, banners, advertising templates for use in connection with a promotional event",
+          "38": "Digital review copy - Availability of a digital review or digital proof copy, may be limited to authorised users or account holders",
+          "39": "Instructional material - For example, video showing how to use the product",
+          "40": "Errata",
+          "41": "Introduction - Introduction, preface or other preliminary material in a separate resource file",
+          "42": "Collection description - Descriptive material in a separate resource file, not in the ONIX record. Equivalent of code 17 in List 153. Use the <TextContent> composite for collection descriptions carried in the ONIX record. Use <Supporting Resource> for material (which need not be solely only) offered as a separate file resource for reproduction as part of promotional material for the product and collection",
+          "99": "License - Link to a license covering permitted usage of the product content. Deprecated in favor of <EpubLicense>. This was a temporary workaround in ONIX 3.0, and use of <EpubLicense> is strongly preferred"
+        },
+        %.ResourceContentType._text
+      ),
+      "audience": $lookup(
+        {
+          "00": "Unrestricted	Any audience",
+          "01": "Restricted	Distribution by agreement between the parties to the ONIX exchange (this value is provided to cover applications where ONIX content includes material which is not for general distribution)",
+          "02": "Booktrade	Distributors, bookstores, publisher’s own staff etc",
+          "03": "End-customers",
+          "04": "Librarians",
+          "05": "Teachers",
+          "06": "Students",
+          "07": "Press	Press or other media",
+          "08": "Shopping comparison service	Where a specially formatted description is required for this audience",
+          "09": "Search engine index	Text not intended for display, but may be used (in addition to any less restricted text) for indexing and search"
+        },
+        %.ContentAudience._text
+      ),
+      "type": $lookup(
+        {
+          "01": "application",  /* "Application - An executable together with data on which it operates" */
+          "02": "audio",        /* "A sound recording" */
+          "03": "image",        /* "A still image" */
+          "04": "text",         /* "Readable text, with or without associated images etc" */
+          "05": "video",        /* "Moving images, with or without accompanying sound" */
+          "06": "multi-mode"  /* "Multi-mode A website or other supporting resource delivering content in a variety of modes" */
+        },
+        %.ResourceMode._text
+      ),
+
+      "description": $lookup(
+        {
+          "01": "Linkable resource - A resource that may be accessed by a hyperlink. The current host (eg the ONIX sender, who may be the publisher) will provide ongoing hosting services for the resource for the active life of the product (or at least until the Until Date specified in <ContentDate>). The ONIX recipient may embed the URL in a consumer facing-website (eg as the src attribute in an <img> link), and need not host an independent copy of the resource",
+          "02": "Downloadable file - A file that may be downloaded on demand for third-party use. The ONIX sender will host a copy of the resource until the specified Until Date, but only for the ONIX recipient’s direct use. The ONIX recipient should download a copy of the resource, and must host an independent copy of the resource if it is used on a consumer-facing website. Special attention should be paid to the ‘Last Updated’ <ContentDate> to ensure the independent copy of the resource is kept up to date",
+          "03":	"Embeddable application - An application which is supplied in a form which can be embedded into a third-party webpage. As type 02, except the resource contains active content such as JavaScript, Flash, etc"
+        },
+        $.ResourceForm._text
+      ),
+      "href": $.ResourceLink._text,
+
+      'properties': $merge(
+        $.{
+          "description": $lookup(
+            {
+              "01": "Publication date - Nominal date of publication (of the content item or supporting resource)",
+              "04": "Broadcast date - Date when a TV or radio program was / will be broadcast",
+              "14": "From date - Date from which a content item or supporting resource may be referenced or used. The content is embargoed until this date",
+              "15": "Until date - Date until which a content item or supporting resource may be referenced or used",
+              "17": "Last updated - Date when a resource was last changed or updated",
+              "24": "From… until date - Combines From date and Until date to define a period (both dates are inclusive). Use with for example dateformat 06",
+              "27": "Available from - Date from which a supporting resource is available for download. Note that this date also implies that it can be immediately displayed to the intended audience, unless a From date (code 14) is also supplied and is later than the Available from date",
+              "28": "Available until - Date until which a supporting resource is available for download. Note that this date does not imply it must be removed from display to the intended audience on this date – for this, use Until date (code 15)",
+              "31": "Associated start date - Start date referenced by the supporting resource, for example, the ‘earliest exam date’ for an official recommendation",
+              "32": "Associated end date - End date referenced by the supporting resource, for example, the ‘latest exam date’ for an official recommendation"
+            },
+            $.ContentDate.ContentDateRole._text
+          ),
+
+          /* Lookup result is key */
+          $lookup(
+            {
+              "01": "Publication date",
+              "04": "Broadcast date",
+              "14": "From date",
+              "15": "Until date",
+              "17": "Last updated",
+              "24": "From… until date",
+              "27": "Available from",
+              "28": "Available until",
+              "31": "Associated start date",
+              "32": "Associated end date"
+            },
+            $.ContentDate.ContentDateRole._text
+          ): $.ContentDate.Date._text
+        }
+      )
+    }
+  }
+)

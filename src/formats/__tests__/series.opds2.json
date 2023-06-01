@@ -1,0 +1,42 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://vivaldi.nlr.ru/bx700000265/view",
+        "rel": "contents"
+      },
+      {
+        "href": "http://vivaldi.nlr.ru/bx700000265/cover",
+        "rel": "alternate"
+      },
+      {
+        "href": "http://vivaldi.nlr.ru/bx700000265/text",
+        "rel": "related"
+      }
+    ],
+    "metadata": {
+      "@type": "https://schema.org/Book",
+      "belongsTo": {
+        "collection": {
+          "name": "",
+          "organization": "NLR: 138/973-1"
+        }
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "identifier": "https://catalog.rusneb.ru/resources/instance/rnb/RU\\NLR\\A1\\891",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialDescription": "Экз. РНБ (138/973-1): ч.1-2 в одном пер. В составном картон. цельнокожан. коричневом марморир. пер. Корешок с 5-ю бинтами, с блинтовым тиснением. На корешке кожан. наклейка цвета бордо с вытесн. загл.: \"Жизнь княжны Изабеллы\", коричневой кожан. наклейкой с цифрами: 1 2 и частично утрач. бумаж. наклейка с нечит. текстом. Обрез тонир. красный. На нижней крышке пер. экслибрис Рус. фонда ГПБ с шифром. На форзаце наклейка с шифром РНБ. На авантит. и тит. л. многочисл. карандаш. пометы. На тит. л. и с.33 круглый штамп ГПБ. Размер: 20,2х12,6х2,5 см",
+      "materialExtent": "[2], 102 с.",
+      "modified": "2019-11-11T15:57:36.0Z",
+      "numberOfPages": 102,
+      "publisher": {
+        "addressCountry": "ru"
+      },
+      "title": "Ч.1"
+    }
+  }
+]

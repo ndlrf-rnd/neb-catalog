@@ -1,0 +1,1665 @@
+[
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "ru03-000001RKP"
+      },
+      {
+        "tag": "003",
+        "value": "RU-RKP"
+      },
+      {
+        "tag": "005",
+        "value": "20151116141356"
+      },
+      {
+        "tag": "008",
+        "value": "151116s2005    ru a                rus"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "30533"
+          },
+          {
+            "code": "b",
+            "value": "05/19"
+          },
+          {
+            "code": "9",
+            "value": "Knizhnaja letopis"
+          }
+        ],
+        "tag": "015"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "05-22137"
+          },
+          {
+            "code": "b",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "017"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5930933421"
+          }
+        ],
+        "tag": "020"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "RuMoRKP"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "c",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "rus"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "624.01:532.5(075.8)"
+          },
+          {
+            "code": "2",
+            "value": "4"
+          }
+        ],
+        "tag": "080"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "38.173"
+          },
+          {
+            "code": "2",
+            "value": "rubbkm"
+          }
+        ],
+        "tag": "084"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Hk|hm`, R`r|m` Mhjnk`ebm`"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Nqmnb{ chdp`bkhweqjncn p`qwer` hmfemepm{u qerei"
+          },
+          {
+            "code": "b",
+            "value": "[swea. onqnahe dk bsgnb on qoevh`k|mnqrl <Reoknc`gnqm`afemhe h bemrhkvh>, <Bndnqm`afemhe h bndnnrbedemhe>]"
+          },
+          {
+            "code": "c",
+            "value": "R. M. Hk|hm`"
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "L."
+          },
+          {
+            "code": "b",
+            "value": "Hgd-bn @qqnv. qrpnhr. bsgnb"
+          },
+          {
+            "code": "c",
+            "value": "2005"
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "186 q."
+          },
+          {
+            "code": "b",
+            "value": "hk."
+          },
+          {
+            "code": "c",
+            "value": "21 ql."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ahakhncp.: q. 183"
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Rpsanopnbnd{"
+          },
+          {
+            "code": "x",
+            "value": "Chdp`bkhweqjhi p`qwer"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "i",
+            "value": "H46"
+          },
+          {
+            "code": "a",
+            "value": "RU-RKP"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5-93093-342-1"
+          },
+          {
+            "code": "9",
+            "value": "1000 }jg."
+          }
+        ],
+        "tag": "920"
+      }
+    ],
+    "leader": "00000nam  2200253 i 4500"
+  },
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "ru03-000002RKP"
+      },
+      {
+        "tag": "003",
+        "value": "RU-RKP"
+      },
+      {
+        "tag": "005",
+        "value": "20151116141356"
+      },
+      {
+        "tag": "008",
+        "value": "151116s2005    ru                  rus"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "31506"
+          },
+          {
+            "code": "b",
+            "value": "05/20"
+          },
+          {
+            "code": "9",
+            "value": "Knizhnaja letopis"
+          }
+        ],
+        "tag": "015"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "05-22593"
+          },
+          {
+            "code": "b",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "017"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5947234920"
+          }
+        ],
+        "tag": "020"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "RuMoRKP"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "c",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "rus"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "159.922.7"
+          },
+          {
+            "code": "2",
+            "value": "4"
+          }
+        ],
+        "tag": "080"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "88.4"
+          },
+          {
+            "code": "2",
+            "value": "rubbkm"
+          }
+        ],
+        "tag": "084"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "@mm, K~dlhk` Tednpnbm`"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Oqhunknchweqjhi rpemhmc q ondpnqrj`lh"
+          },
+          {
+            "code": "c",
+            "value": "K~dlhk` @mm"
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "QOa. [h dp.]"
+          },
+          {
+            "code": "b",
+            "value": "Ohrep"
+          },
+          {
+            "code": "b",
+            "value": "Ohrep Ophmr"
+          },
+          {
+            "code": "c",
+            "value": "2005"
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "270 q."
+          },
+          {
+            "code": "c",
+            "value": "21 ql."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Qeph <]ttejrhbm{i rpemhmc>"
+          }
+        ],
+        "tag": "440"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ahakhncp.: q. 269-270"
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ondpnqrjh"
+          },
+          {
+            "code": "x",
+            "value": "Oqhunknch"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Oqhunknchweqjhi rpemhmc"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "i",
+            "value": "@68"
+          },
+          {
+            "code": "a",
+            "value": "RU-RKP"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5-94723-492-0"
+          },
+          {
+            "code": "b",
+            "value": "b oep."
+          },
+          {
+            "code": "9",
+            "value": "3500 }jg."
+          }
+        ],
+        "tag": "920"
+      }
+    ],
+    "leader": "00000nam  2200277 i 4500"
+  },
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "ru03-000003RKP"
+      },
+      {
+        "tag": "003",
+        "value": "RU-RKP"
+      },
+      {
+        "tag": "005",
+        "value": "20151116141356"
+      },
+      {
+        "tag": "008",
+        "value": "151116s2005    ru                  rus"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "35999"
+          },
+          {
+            "code": "b",
+            "value": "05/22"
+          },
+          {
+            "code": "9",
+            "value": "Knizhnaja letopis"
+          }
+        ],
+        "tag": "015"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "05-29382"
+          },
+          {
+            "code": "b",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "017"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5930933464"
+          }
+        ],
+        "tag": "020"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "RuMoRKP"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "c",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "rus"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "69:658.012(075.8)"
+          },
+          {
+            "code": "2",
+            "value": "4"
+          }
+        ],
+        "tag": "080"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "65.3173"
+          },
+          {
+            "code": "2",
+            "value": "rubbkm"
+          }
+        ],
+        "tag": "084"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "M`m`qnb, O`bek Qspemnbhw"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Sop`bkemhe opnejrmn-qrpnhrek|m{l opnveqqnl"
+          },
+          {
+            "code": "b",
+            "value": "renph, op`bhk`, op`jrhj` : [swea. onqnahe dk bsgnb on `puhrejrsp.-qrpnhr. qoevh`k|mnqrl]"
+          },
+          {
+            "code": "c",
+            "value": "O. Q. M`m`qnb"
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "[Oepep`a. h dno. hgd.]"
+          }
+        ],
+        "tag": "250"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "L."
+          },
+          {
+            "code": "b",
+            "value": "Hgd-bn @qqnv. qrpnhr. bsgnb"
+          },
+          {
+            "code": "c",
+            "value": "2005"
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "159 q."
+          },
+          {
+            "code": "b",
+            "value": "quel{"
+          },
+          {
+            "code": "c",
+            "value": "22 ql."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ahakhncp.: q. 153"
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "G`ck. oped{dsyecn hgd.: Sop`bkemhe opnejrnl"
+          }
+        ],
+        "tag": "547"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Sop`bkemhe opnejr`lh"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Qrpnhrek|mne opnejrhpnb`mhe"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "i",
+            "value": "M25"
+          },
+          {
+            "code": "a",
+            "value": "RU-RKP"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5-93093-346-4"
+          },
+          {
+            "code": "9",
+            "value": "1000 }jg."
+          }
+        ],
+        "tag": "920"
+      }
+    ],
+    "leader": "00000nam  2200289 i 4500"
+  },
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "ru03-000004RKP"
+      },
+      {
+        "tag": "003",
+        "value": "RU-RKP"
+      },
+      {
+        "tag": "005",
+        "value": "20151116141356"
+      },
+      {
+        "tag": "008",
+        "value": "151116s2004    ru                  rus"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "36000"
+          },
+          {
+            "code": "b",
+            "value": "05/22"
+          },
+          {
+            "code": "9",
+            "value": "Knizhnaja letopis"
+          }
+        ],
+        "tag": "015"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "05-29383"
+          },
+          {
+            "code": "b",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "017"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5930933081"
+          }
+        ],
+        "tag": "020"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "RuMoRKP"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "c",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "rus"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "69:658(075.8)"
+          },
+          {
+            "code": "2",
+            "value": "4"
+          }
+        ],
+        "tag": "080"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "65.3173"
+          },
+          {
+            "code": "2",
+            "value": "rubbkm"
+          }
+        ],
+        "tag": "084"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "O`qrsunb`, R`r|m` Pnl`mnbm`"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "]jnmnlhj` qrpnhrek|qrb`"
+          },
+          {
+            "code": "b",
+            "value": "jp`r. jspq : [swea. onqnahe on m`op`bkemh~ 653500 <Qrp-bn>]"
+          },
+          {
+            "code": "c",
+            "value": "R. P. O`qrsunb`"
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "L."
+          },
+          {
+            "code": "b",
+            "value": "Hgd-bn @qqnv. qrpnhr. bsgnb"
+          },
+          {
+            "code": "c",
+            "value": "2004"
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "127 q."
+          },
+          {
+            "code": "b",
+            "value": "cp`t."
+          },
+          {
+            "code": "c",
+            "value": "22 ql."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ahakhncp.: q. 127"
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Qrpnhrek|m{e npc`mhg`vhh"
+          },
+          {
+            "code": "x",
+            "value": "]jnmnlhj`"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "i",
+            "value": "O196"
+          },
+          {
+            "code": "a",
+            "value": "RU-RKP"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5-93093-308-1"
+          },
+          {
+            "code": "9",
+            "value": "1000 }jg."
+          }
+        ],
+        "tag": "920"
+      }
+    ],
+    "leader": "00000nam  2200253 i 4500"
+  },
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "ru03-000005RKP"
+      },
+      {
+        "tag": "003",
+        "value": "RU-RKP"
+      },
+      {
+        "tag": "005",
+        "value": "20151116141356"
+      },
+      {
+        "tag": "008",
+        "value": "151116s2005    ru a                rus"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "38445"
+          },
+          {
+            "code": "b",
+            "value": "05/23"
+          },
+          {
+            "code": "9",
+            "value": "Knizhnaja letopis"
+          }
+        ],
+        "tag": "015"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "05-30009"
+          },
+          {
+            "code": "b",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "017"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5352012867"
+          }
+        ],
+        "tag": "020"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "RuMoRKP"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "c",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "rus"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "821.113.6-93"
+          },
+          {
+            "code": "2",
+            "value": "4"
+          }
+        ],
+        "tag": "080"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "84(4Xbe)-44"
+          },
+          {
+            "code": "2",
+            "value": "rubbkm"
+          }
+        ],
+        "tag": "084"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Khmdcpem, @qrphd"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Lhn, lni Lhn!"
+          },
+          {
+            "code": "b",
+            "value": "[onbeqrh-qj`gjh : dk derei : oep. qn xbed.]"
+          },
+          {
+            "code": "c",
+            "value": "@qrphd Khmdcpem; [hk. B. Ejkephq`]"
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "QOa."
+          },
+          {
+            "code": "b",
+            "value": "@gasj`-jk`qqhj`"
+          },
+          {
+            "code": "c",
+            "value": "2005"
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "347 q."
+          },
+          {
+            "code": "b",
+            "value": "hk."
+          },
+          {
+            "code": "c",
+            "value": "21 ql."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Lnh k~ahl{e jmhfjh"
+          }
+        ],
+        "tag": "440"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Qndepf.: Lhn, lni Lhn! ; L`dhjem ; Qnkmewm` onkmj`"
+          }
+        ],
+        "tag": "505"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Qj`gjh xbedqjhe (d. k.)"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ejkephq, Bhr`khi"
+          },
+          {
+            "code": "4",
+            "value": "ill"
+          }
+        ],
+        "tag": "700"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "i",
+            "value": "K59"
+          },
+          {
+            "code": "a",
+            "value": "RU-RKP"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5-352-01286-7"
+          },
+          {
+            "code": "b",
+            "value": "b oep."
+          },
+          {
+            "code": "9",
+            "value": "5000 }jg."
+          }
+        ],
+        "tag": "920"
+      }
+    ],
+    "leader": "00800nam  2200277 i 4500"
+  },
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "ru03-000006RKP"
+      },
+      {
+        "tag": "003",
+        "value": "RU-RKP"
+      },
+      {
+        "tag": "005",
+        "value": "20151116141356"
+      },
+      {
+        "tag": "008",
+        "value": "151116s2005    ru a                rus"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "43315"
+          },
+          {
+            "code": "b",
+            "value": "05/26"
+          },
+          {
+            "code": "9",
+            "value": "Knizhnaja letopis"
+          }
+        ],
+        "tag": "015"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "05-35153"
+          },
+          {
+            "code": "b",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "017"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5703821827"
+          }
+        ],
+        "tag": "020"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "RuMoRKP"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "c",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "rus"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "530.182"
+          },
+          {
+            "code": "2",
+            "value": "4"
+          }
+        ],
+        "tag": "080"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "22.31"
+          },
+          {
+            "code": "2",
+            "value": "rubbkm"
+          }
+        ],
+        "tag": "084"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Jp`qmnyewemjn, Bk`dhlhp Hb`mnbhw"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Mekhmeim{e qhqrel{: cenlerphweqjhe lernd{ `m`khg` h qhmreg`"
+          },
+          {
+            "code": "c",
+            "value": "B. H. Jp`qmnyewemjn, @. O. Jphyemjn"
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "L."
+          },
+          {
+            "code": "b",
+            "value": "Hgd-bn LCRS"
+          },
+          {
+            "code": "c",
+            "value": "2005"
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "519 q."
+          },
+          {
+            "code": "b",
+            "value": "hk."
+          },
+          {
+            "code": "c",
+            "value": "22 ql."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ahakhncp.: q. 509-516"
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "@brnl`rhweqjhe qhqrel{ sop`bkemh mekhmeim{e"
+          },
+          {
+            "code": "x",
+            "value": "@m`khg"
+          },
+          {
+            "code": "x",
+            "value": "Cenlerphweqjhe lernd{"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "@brnl`rhweqjhe qhqrel{ sop`bkemh mekhmeim{e"
+          },
+          {
+            "code": "x",
+            "value": "Qhmreg"
+          },
+          {
+            "code": "x",
+            "value": "Cenlerphweqjhe lernd{"
+          },
+          {
+            "code": "2",
+            "value": "RuMoRKP"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Jphyemjn, @kejq`mdp Oerpnbhw"
+          },
+          {
+            "code": "4",
+            "value": "aut"
+          }
+        ],
+        "tag": "700"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "i",
+            "value": "J782"
+          },
+          {
+            "code": "a",
+            "value": "RU-RKP"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "5-7038-2182-7"
+          },
+          {
+            "code": "b",
+            "value": "b oep."
+          },
+          {
+            "code": "9",
+            "value": "1000 }jg."
+          }
+        ],
+        "tag": "920"
+      }
+    ],
+    "leader": "00000nam  2200277 i 4500"
+  }
+]

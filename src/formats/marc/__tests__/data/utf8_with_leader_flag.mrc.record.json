@@ -1,0 +1,345 @@
+[
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "2"
+      },
+      {
+        "tag": "005",
+        "value": "19900316000000.0"
+      },
+      {
+        "tag": "008",
+        "value": "840112s1962    pau      b    00010 eng  "
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "   61014599/L/r83"
+          },
+          {
+            "code": "o",
+            "value": "00204096"
+          }
+        ],
+        "tag": "010"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "ocmDCLC6114599B"
+          }
+        ],
+        "tag": "035"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "9",
+            "value": "AAA-0425"
+          }
+        ],
+        "tag": "035"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "PPT-M"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "1",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "engund"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "9",
+        "ind2": "8",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "TMYM"
+          },
+          {
+            "code": "b",
+            "value": "BF575.L7 T68 1962"
+          },
+          {
+            "code": "c",
+            "value": "1"
+          },
+          {
+            "code": "z",
+            "value": "39074500724638"
+          }
+        ],
+        "tag": "049"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "PPCM"
+          },
+          {
+            "code": "c",
+            "value": "1"
+          },
+          {
+            "code": "l",
+            "value": "Fred B. Rogers, M.D."
+          },
+          {
+            "code": "o",
+            "value": "Gift"
+          }
+        ],
+        "tag": "049"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "BF697"
+          },
+          {
+            "code": "b",
+            "value": ".T623"
+          }
+        ],
+        "tag": "050"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "BF575.L7"
+          },
+          {
+            "code": "b",
+            "value": "T68 1962"
+          }
+        ],
+        "tag": "090"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Tournier, Paul."
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "De la solitude à la communauté."
+          },
+          {
+            "code": "l",
+            "value": "English."
+          }
+        ],
+        "tag": "240"
+      },
+      {
+        "ind1": "1",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Escape from loneliness /"
+          },
+          {
+            "code": "c",
+            "value": "by Paul Tournier ; translated by John S. Gilmour."
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Philadelphia :"
+          },
+          {
+            "code": "b",
+            "value": "Westminster Press,"
+          },
+          {
+            "code": "c",
+            "value": "c1962."
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "192 p. ;"
+          },
+          {
+            "code": "c",
+            "value": "21 cm."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Translation of De la solitude à la communauté."
+          }
+        ],
+        "tag": "500"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Includes bibliographical references (p. 190-192)."
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": "#",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Loneliness."
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Self."
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Social psychology."
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "2",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Loneliness."
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "#",
+        "ind2": "2",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Social Isolation."
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "0",
+        "ind2": "1",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "De la solitude à la communauté."
+          },
+          {
+            "code": "l",
+            "value": "English."
+          }
+        ],
+        "tag": "730"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "x",
+            "value": "070101"
+          }
+        ],
+        "tag": "951"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "BF 575.L7 T728d 1962"
+          }
+        ],
+        "tag": "957"
+      }
+    ],
+    "leader": "01123cam a2200349 a 4500"
+  }
+]

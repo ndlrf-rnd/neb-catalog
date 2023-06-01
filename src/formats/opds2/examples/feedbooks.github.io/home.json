@@ -1,0 +1,494 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "groups": [
+    {
+      "metadata": {
+        "@id": "http://localhost:18080/resources/collection",
+        "@type": "https://schema.org/Collection",
+        "identifier": "http://localhost:18080/resources/collection",
+        "name": {
+          "en": "All Collection records",
+          "ru": "Все записи типа Collection"
+        },
+        "numberOfItems": 18,
+        "numberOfPageItems": 18,
+        "title": "Все записи типа Collection",
+        "type": "application/opds+json"
+      },
+      "navigation": [
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kproman?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kproman",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Книги императорского дома Романовых",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional",
+          "properties": {
+            "numberOfItems": 10,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Региональная печать",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpposter?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpposter",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Российский плакат конца XIX – начала XX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+          "properties": {
+            "numberOfItems": 10,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Палеотипы",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+          "properties": {
+            "numberOfItems": 28,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Национальные языки",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmusic?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmusic",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Музыкальные ноты",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+          "properties": {
+            "numberOfItems": 10,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Шедевры",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmap",
+          "properties": {
+            "numberOfItems": 10,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Географические карты России XVII – первой половины XIX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmanus?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmanus",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Славяно-русские рукописные книги",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplubok?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplubok",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Русский лубок (народная картинка) XVIII – начала XX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplen?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kplen",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Ленинград в Великой Отечественной войне.",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpincunabula",
+          "properties": {
+            "numberOfItems": 10,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Инкунабулы",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcyr",
+          "properties": {
+            "numberOfItems": 20,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Кириллические книги конца XV – первой трети XIX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcivil?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpcivil",
+          "properties": {
+            "numberOfItems": 10,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Книги гражданского шрифта, изданные в России в XVIII – первой трети XIX вв.",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/knpam?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/knpam",
+          "properties": {
+            "numberOfItems": 14,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Книжные памятники",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/contracts?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/contracts",
+          "properties": {
+            "numberOfItems": 2,
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Контракты Министерства культуры РФ",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/7_14-19?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/7_14-19",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Контракт Министерства культуры РФ № 7/14-19 от 2019-08-05 с ФГБУ «Российская национальная библиотека»",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/4_14-19?export=raw",
+          "name": {
+            "en": "Download source record",
+            "ru": "Скачать оригинальную запись"
+          },
+          "rel": "convertedFrom",
+          "title": "Скачать оригинальную запись",
+          "type": "text/tab-separated-values"
+        },
+        {
+          "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/4_14-19",
+          "properties": {
+            "provider": "rusneb.ru"
+          },
+          "rel": "collection item",
+          "title": "Контракт Министерства культуры РФ № 4/14-19 от 2019-07-22 с ФГБУ «Российская государственная библиотека»",
+          "type": "application/opds+json"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@id": "http://localhost:18080/resources",
+        "@type": "https://schema.org/Collection",
+        "identifier": "http://localhost:18080/resources",
+        "title": "Записи, сгруппированные по типу"
+      },
+      "navigation": [
+        {
+          "href": "http://localhost:18080/resources/collection",
+          "properties": {
+            "numberOfItems": 18
+          },
+          "rel": "collection",
+          "title": "Collections",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/item",
+          "properties": {
+            "numberOfItems": 109
+          },
+          "rel": "collection",
+          "title": "Items",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/organization",
+          "properties": {
+            "numberOfItems": 2
+          },
+          "rel": "collection",
+          "title": "Organizations",
+          "type": "application/opds+json"
+        },
+        {
+          "href": "http://localhost:18080/resources/url",
+          "properties": {
+            "numberOfItems": 109
+          },
+          "rel": "collection",
+          "title": "Urls",
+          "type": "application/opds+json"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "RSL SEED Logo",
+        "title": "RSL SEED Logo",
+        "type": "application/opds+json"
+      },
+      "publications": [
+        {
+          "images": [
+            {
+              "height": 533,
+              "href": "/static/images/Dolmatov_World_tree.png",
+              "rel": "cover",
+              "type": "image/png",
+              "width": 441
+            }
+          ],
+          "links": [
+            {
+              "href": "/index.json#logo",
+              "rel": "self",
+              "type": "application/opds+json"
+            }
+          ],
+          "metadata": {
+            "@id": "https://commons.wikimedia.org/wiki/File:Dolmatov_World_tree.png",
+            "@type": "https://schema.org/ImageObject",
+            "contributor": [
+              {
+                "en": "Dolmatov K.",
+                "ru": "Далматов К."
+              }
+            ],
+            "description": {
+              "en": "World tree. Russian ornament. 19th century.",
+              "ru": "Мировое дерево. Из альбома: «Русские вышивки, исполненные К.Далматовым по атлáсy цветным шёлком на мягкую мебель и по полотну на карнизы окон и дверей в Русский терем Датского Королевского парка Фреденсбог в 1889 г. Узоры взяты К.Далматовым из обширного его собрания старинных образцов народного шитья великоруссов Московской, Новгородской, Тверской и Ярославской губерний.»"
+            },
+            "identifier": "https://commons.wikimedia.org/wiki/File:Dolmatov_World_tree.png",
+            "name": {
+              "en": "World Tree Logo",
+              "ru": "Мировое дерево"
+            },
+            "published": "1889-01-01",
+            "responsibilityNotes": "Image licensed under Creative Commons and provided by the Ru.Wikipedia community.",
+            "title": "Мировое дерево",
+            "type": "application/opds+json"
+          }
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/index.json",
+      "rel": "self",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://rusneb.ru",
+      "title": "Russian national electronic library"
+    },
+    {
+      "href": "https://rsl.ru",
+      "title": "Russian state library"
+    }
+  ],
+  "metadata": {
+    "description": "Каталог Системы Интеграции Данных Национальной электронной библиотеки Российской Федерации",
+    "name": {
+      "en": "NEL RF - SEED Catalog",
+      "ru": "НЭБ РФ - Каталог СИД"
+    },
+    "order": "desc",
+    "title": "НЭБ РФ - Каталог СИД"
+  }
+}

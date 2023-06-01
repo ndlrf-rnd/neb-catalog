@@ -1,0 +1,3973 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "_instruction": [
+    {
+      "xml-stylesheet": "type=\"text/xsl\" href=\"link-relations.xsl\""
+    },
+    {
+      "oxygen": "RNGSchema=\"link-relations.rng\" type=\"xml\""
+    }
+  ],
+  "registry": [
+    {
+      "_attributes": {
+        "xmlns": "http://www.iana.org/assignments",
+        "id": "link-relations"
+      },
+      "title": [
+        {
+          "_text": [
+            "Link Relations"
+          ]
+        }
+      ],
+      "created": [
+        {
+          "_text": [
+            "2005-08-26"
+          ]
+        }
+      ],
+      "updated": [
+        {
+          "_text": [
+            "2020-06-26"
+          ]
+        }
+      ],
+      "registry": [
+        {
+          "_attributes": {
+            "id": "link-relations-1"
+          },
+          "title": [
+            {
+              "_text": [
+                "Link Relation Types"
+              ]
+            }
+          ],
+          "xref": [
+            {
+              "_attributes": {
+                "type": "rfc",
+                "data": "rfc8288"
+              }
+            }
+          ],
+          "registration_rule": [
+            {
+              "_text": [
+                "Specification Required"
+              ]
+            }
+          ],
+          "expert": [
+            {
+              "_text": [
+                "Mark Nottingham, Julian Reschke, Jan Algermissen"
+              ]
+            }
+          ],
+          "note": [
+            {
+              "_text": [
+                "New link relations, along with changes to existing relations, can be requested \nusing the ",
+                " or the mailing list defined in ",
+                ".\n  "
+              ],
+              "xref": [
+                {
+                  "_attributes": {
+                    "type": "uri",
+                    "data": "https://github.com/protocol-registries/link-relations"
+                  },
+                  "_text": [
+                    "registry interface"
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "type": "rfc",
+                    "data": "rfc8288"
+                  }
+                }
+              ]
+            }
+          ],
+          "record": [
+            {
+              "value": [
+                {
+                  "_text": [
+                    "about"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that is the subject of the link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6903"
+                      }
+                    }
+                  ],
+                  "_text": [
+                    ", section 2"
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "alternate"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a substitute for this context"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-alternate"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2020-01-21"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "amphtml"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Used to reference alternative content that uses the AMP profile of the HTML format."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://amp.dev/documentation/guides-and-tutorials/learn/spec/amphtml/"
+                      },
+                      "_text": [
+                        "AMP HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "appendix"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to an appendix."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "apple-touch-icon"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to an icon for the context. Synonym for icon."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3"
+                      },
+                      "_text": [
+                        "Configuring Web Applications"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "apple-touch-startup-image"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a launch screen for the context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3"
+                      },
+                      "_text": [
+                        "Configuring Web Applications"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2010-11-09"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "archives"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a collection of records, documents, or other\n      materials of historical interest."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives"
+                      },
+                      "_text": [
+                        "HTML5"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2010-11-09"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "author"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to the context's author."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-author"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2015-12-21"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "blocked-by"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies the entity that blocks access to a resource\n      following receipt of a legal demand."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc7725"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "bookmark"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Gives a permanent link to use for bookmarking purposes."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-bookmark"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "canonical"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Designates the preferred version of a resource (the IRI and its contents)."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6596"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "chapter"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a chapter in a collection of resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2017-10-26",
+                "updated": "2019-02-26"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "cite-as"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates that the link target is preferred over the link context for the purpose of permanent citation."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8574"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "collection"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The target IRI points to a resource which represents the collection resource for the context IRI."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6573"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "contents"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a table of contents."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2016-08-12"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "convertedFrom"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The document linked to was later converted to the\n      document that contains this link relation.  For example, an RFC can\n      have a link to the Internet-Draft that became the RFC; in that case,\n      the link relation would be \"convertedFrom\"."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc7991"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation is different than \"predecessor-version\" in that\n      \"predecessor-version\" is for items in a version control system.  It\n      is also different than \"previous\" in that this relation is used for\n      converted resources, not those that are part of a sequence of\n      resources."
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "copyright"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a copyright statement that applies to the\n    link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "create-form"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The target IRI points to a resource where a submission form can be obtained."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6861"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "current"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource containing the most recent\n      item(s) in a collection of resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5005"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "describedby"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource providing information about the\n      link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/powder-dr/#assoc-linking"
+                      },
+                      "_text": [
+                        "Protocol for Web Description Resources (POWDER)"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "describes"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The relationship A 'describes' B asserts that\n      resource A provides a description of resource B. There are no\n      constraints on the format or representation of either A or B,\n      neither are there any further constraints on either resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6892"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This link relation type is the inverse of the 'describedby'\n        relation type.  While 'describedby' establishes a relation from\n        the described resource back to the resource that describes it,\n        'describes' established a relation from the describing resource to\n        the resource it describes.  If B is 'describedby' A, then A\n        'describes' B."
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "disclosure"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a list of patent disclosures made with respect to \n      material for which 'disclosure' relation is specified."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6579"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2016-02-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "dns-prefetch"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Used to indicate an origin that will be used to fetch required \n      resources for the link context, and that the user agent ought to resolve \n      as early as possible."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/resource-hints/"
+                      },
+                      "_text": [
+                        "Resource Hints"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "duplicate"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource whose available representations\n      are byte-for-byte identical with the corresponding representations of\n      the context IRI."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6249"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation is for static resources.  That is, an HTTP GET\n      request on any duplicate will return the same representation.  It\n      does not make sense for dynamic or POSTable resources and should not\n      be used for them.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "edit"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that can be used to edit the\n      link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5023"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "edit-form"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The target IRI points to a resource where a submission form for\n      editing associated resource can be obtained."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6861"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "edit-media"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that can be used to edit media\n      associated with the link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5023"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "enclosure"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies a related resource that is potentially\n      large and might require special handling."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc4287"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "external"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that is not part of the same site as the current context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://html.spec.whatwg.org/multipage/links.html#link-type-external"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "first"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "An IRI that refers to the furthest preceding resource\n    in a series of resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8288"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation type registration did not indicate a\n      reference.  Originally requested by Mark Nottingham in December\n      2004.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "glossary"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a glossary of terms."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "help"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to context-sensitive help."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-help"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "hosts"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource hosted by the server indicated by\n      the link context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6690"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation is used in CoRE where links are retrieved as a\n      \"/.well-known/core\" resource representation, and is the default\n      relation type in the CoRE Link Format."
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "updated": "2019-07-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "hub"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a hub that enables registration for\n    notification of updates to the context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/websub/"
+                      },
+                      "_text": [
+                        "WebSub"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation type was requested by Brett Slatkin."
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2010-11-09"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "icon"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to an icon representing the link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-icon"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "index"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to an index."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalAfter"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalAfter"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.21"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalBefore"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalBefore"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.22"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalContains"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalContains"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.23"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalDisjoint"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalDisjoint"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.24"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalDuring"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalDuring"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.25"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalEquals"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalEquals"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.26"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalFinishedBy"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalFinishedBy"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.27"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalFinishes"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalFinishes"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.28"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalIn"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalIn"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.29"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalMeets"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalMeets"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.30"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29",
+                "updated": "2019-07-17"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalMetBy"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalMetBy"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.31"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalOverlappedBy"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalOverlappedBy"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.32"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalOverlaps"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalOverlaps"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.33"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalStartedBy"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalStartedBy"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.34"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2018-11-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "intervalStarts"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource"
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/owl-time/#time:intervalStarts"
+                      },
+                      "_text": [
+                        "Time Ontology in OWL"
+                      ]
+                    }
+                  ],
+                  "_text": [
+                    " section 4.2.35"
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "item"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The target IRI points to a resource that is a member of the collection represented by the context IRI."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6573"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "last"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "An IRI that refers to the furthest following resource\n      in a series of resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8288"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation type registration did not indicate a\n      reference. Originally requested by Mark Nottingham in December\n      2004.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "latest-version"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Points to a resource containing the latest (e.g.,\n      current) version of the context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5829"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "license"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a license associated with this context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc4946"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "For implications of use in HTML, see: \n      http://www.w3.org/TR/html5/links.html#link-type-license"
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "lrdd"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to further information about the link's context,\n      expressed as a LRDD (\"Link-based Resource Descriptor Document\")\n      resource.  See ",
+                    " for information about\n      processing this relation type in host-meta documents. When used\n      elsewhere, it refers to additional links and other metadata.\n      Multiple instances indicate additional LRDD resources. LRDD\n      resources MUST have an \"application/xrd+xml\" representation, and\n      MAY have others."
+                  ],
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6415"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6415"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "manifest"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Links to a manifest file for the context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/appmanifest/#using-a-link-element-to-link-to-a-manifest"
+                      },
+                      "_text": [
+                        "Web App Manifest"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-26"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "mask-icon"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a mask that can be applied to the icon for the context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html#//apple_ref/doc/uid/TP40002051-CH18-SW1"
+                      },
+                      "_text": [
+                        "Creating Pinned Tab Icons"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2020-06-19"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "media-feed"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a feed of personalised media recommendations relevant to the link context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://wicg.github.io/media-feeds/#discovery-of-media-feeds"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2013-11-01"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "memento"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The Target IRI points to a Memento, a fixed resource that will not change state anymore."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc7089"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "A Memento for an Original Resource is a resource that\n      encapsulates a prior state of the Original Resource."
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "micropub"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Links to the context's Micropub endpoint."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/micropub/#endpoint-discovery-p-1"
+                      },
+                      "_text": [
+                        "Micropub"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "modulepreload"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a module that the user agent is to preemptively fetch and store for use in the current context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "monitor"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that can be used to monitor changes in an HTTP resource.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5989"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "monitor-group"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that can be used to monitor changes in a specified group of HTTP resources.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5989"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2006-02-02"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "next"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates that the link's context is a part of a series, and\n      that the next in the series is the link target.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-next"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "next-archive"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to the immediately following archive resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5005"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2010-11-09"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "nofollow"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates that the context’s original author or publisher does not endorse the link target."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-nofollow"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "noopener"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates that any newly created top-level browsing context which results from following the link will not be an auxiliary browsing context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://html.spec.whatwg.org/multipage/links.html#link-type-noopener"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2010-11-09"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "noreferrer"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates that no referrer information is to be leaked when following the link."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-noreferrer"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "opener"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates that any newly created top-level browsing context which results from following the link will be an auxiliary browsing context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://html.spec.whatwg.org/multipage/links.html#link-type-opener"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "openid2.local_id"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to an OpenID Authentication server on which the context relies for an assertion that the end user controls an Identifier."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3"
+                      },
+                      "_text": [
+                        "OpenID Authentication 2.0 - Final"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "openid2.provider"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource which accepts OpenID Authentication protocol messages for the context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3"
+                      },
+                      "_text": [
+                        "OpenID Authentication 2.0 - Final"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2013-11-01"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "original"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The Target IRI points to an Original Resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc7089"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "An Original Resource is a resource that exists or used to\n      exist, and for which access to one of its prior states may be\n      required.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-09-25"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "P3Pv1"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a P3P privacy policy for the context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/P3P/#syntax_link"
+                      },
+                      "_text": [
+                        "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "payment"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates a resource where payment is accepted."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8288"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation type registration did not indicate a\n      reference.  Requested by Joshua Kinberg and Robert Sayre.  It is\n      meant as a general way to facilitate acts of payment, and thus\n      this specification makes no assumptions on the type of payment or\n      transaction protocol.  Examples may include a web page where\n      donations are accepted or where goods and services are available\n      for purchase. rel=\"payment\" is not intended to initiate an\n      automated transaction.  In Atom documents, a link element with a\n      rel=\"payment\" attribute may exist at the feed/channel level and/or\n      the entry/item level.  For example, a rel=\"payment\" link at the\n      feed/channel level may point to a \"tip jar\" URI, whereas an entry/\n      item containing a book review may include a rel=\"payment\" link\n      that points to the location where the book may be purchased\n      through an online retailer.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2016-02-04"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "pingback"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Gives the address of the pingback resource for the link context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.hixie.ch/specs/pingback/pingback"
+                      },
+                      "_text": [
+                        "Pingback 1.0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2016-02-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "preconnect"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Used to indicate an origin that will be used to fetch required \n      resources for the link context. Initiating an early connection, which \n      includes the DNS lookup, TCP handshake, and optional TLS negotiation, \n      allows the user agent to mask the high latency costs of establishing a \n      connection."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/resource-hints/"
+                      },
+                      "_text": [
+                        "Resource Hints"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "predecessor-version"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Points to a resource containing the predecessor\n      version in the version history.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5829"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2010-11-09",
+                "updated": "2016-03-03"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "prefetch"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The prefetch link relation type is used to identify a resource \n      that might be required by the next navigation from the link context, and \n      that the user agent ought to fetch, such that the user agent can deliver a \n      faster response once the resource is requested in the future."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/resource-hints/"
+                      },
+                      "_text": [
+                        "Resource Hints"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2016-01-22"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "preload"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that should be loaded early in the \n      processing of the link's context, without blocking rendering."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/preload/"
+                      },
+                      "_text": [
+                        "Preload"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "Additional target attributes establish the detailed fetch properties of the link."
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2016-02-29"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "prerender"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Used to identify a resource that might be required by the next \n      navigation from the link context, and that the user agent ought to fetch \n      and execute, such that the user agent can deliver a faster response once \n      the resource is requested in the future."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/resource-hints/"
+                      },
+                      "_text": [
+                        "Resource Hints"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "prev"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates that the link's context is a part of a series, and\n      that the previous in the series is the link target.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-prev"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "preview"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that provides a preview of the link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6903"
+                      }
+                    }
+                  ],
+                  "_text": [
+                    ", section 3"
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "previous"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to the previous resource in an ordered series\n      of resources.  Synonym for \"prev\"."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "prev-archive"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to the immediately preceding archive resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5005"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "privacy-policy"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a privacy policy associated with the link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6903"
+                      }
+                    }
+                  ],
+                  "_text": [
+                    ", section 4"
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "profile"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifying that a resource representation conforms\nto a certain profile, without affecting the non-profile semantics\nof the resource representation."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6906"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "Profile URIs are primarily intended to be used as\nidentifiers, and thus clients SHOULD NOT indiscriminately access\nprofile URIs."
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2020-01-07"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "publication"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Links to a publication manifest. A manifest represents \n      structured information about a publication, such as informative metadata, \n      a list of resources, and a default reading order."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/pub-manifest/#link-relation-type-registration"
+                      },
+                      "_text": [
+                        "Publication Manifest"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {}
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "related"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies a related resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc4287"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "restconf"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies the root of RESTCONF API as configured on this HTTP server.\n      The \"restconf\" relation defines the root of the API defined in RFC8040.\n      Subsequent revisions of RESTCONF will use alternate relation values to support \n      protocol versioning."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8040"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "replies"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies a resource that is a reply to the context\n      of the link.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc4685"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2010-11-09"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "search"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that can be used to search through\n      the link's context and related resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.opensearch.org/Specifications/OpenSearch/1.1"
+                      },
+                      "_text": [
+                        "OpenSearch"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "section"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a section in a collection of resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "self"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Conveys an identifier for the link's context.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc4287"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "service"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Indicates a URI that can be used to retrieve a\n      service document."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5023"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "When used in an Atom document, this relation type specifies\n      Atom Publishing Protocol service documents by default.  Requested\n      by James Snell.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-05-30"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "service-desc"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies service description for the context that\n      is primarily intended for consumption by machines."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8631"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {}
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-05-30"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "service-doc"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies service documentation for the context that\n      is primarily intended for human consumption."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8631"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {}
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-05-30"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "service-meta"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies general metadata for the context that is\n      primarily intended for consumption by machines."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8631"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {}
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-11-07"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "sponsored"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that is within a context that is \n\t\tsponsored (such as advertising or another compensation agreement)."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html"
+                      },
+                      "_text": [
+                        "Google Blog post 09-2019"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {}
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "start"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to the first resource in a collection of\n      resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-05-30"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "status"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies a resource that represents the context's\n      status."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8631"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {}
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "stylesheet"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a stylesheet."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-stylesheet"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "subsection"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource serving as a subsection in a\n      collection of resources."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://www.w3.org/TR/html401/"
+                      },
+                      "_text": [
+                        "HTML 4.01 Specification"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "successor-version"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Points to a resource containing the successor version\n      in the version history.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5829"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-04-01"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "sunset"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies a resource that provides information about\n      the context's retirement policy.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8594"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "tag"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Gives a tag (identified by the given address) that applies to\n      the current document.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/html5/links.html#link-type-tag"
+                      },
+                      "_text": [
+                        "HTML"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "terms-of-service"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to the terms of service associated with the link's context."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6903"
+                      }
+                    }
+                  ],
+                  "_text": [
+                    ", section 5"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2013-11-01"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "timegate"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The Target IRI points to a TimeGate for an Original Resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc7089"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "A TimeGate for an Original Resource is a resource that is\n      capable of datetime negotiation to support access to prior states\n      of the Original Resource.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2013-11-01"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "timemap"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "The Target IRI points to a TimeMap for an Original Resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc7089"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "A TimeMap for an Original Resource is a resource from which\n      a list of URIs of Mementos of the Original Resource is available.\n    "
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "type"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource identifying the abstract semantic type of which the link's context is considered to be an instance."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc6903"
+                      }
+                    }
+                  ],
+                  "_text": [
+                    ", section 6"
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2019-11-07"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "ugc"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a resource that is within a context that is User Generated Content.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html"
+                      },
+                      "_text": [
+                        "Google Blog post 09-2019"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {}
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "up"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Refers to a parent document in a hierarchy of\n      documents.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc8288"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This relation type registration did not indicate a\n      reference.  Requested by Noah Slater."
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "version-history"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Points to a resource containing the version history\n      for the context.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5829"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "via"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies a resource that is the source of the\n      information in the link's context.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc4287"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "date": "2016-04-19"
+              },
+              "value": [
+                {
+                  "_text": [
+                    "webmention"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Identifies a target URI that supports the Webmention protocol.\n    This allows clients that mention a resource in some form of publishing process\n    to contact that endpoint and inform it that this resource has been mentioned."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "uri",
+                        "data": "http://www.w3.org/TR/webmention/"
+                      },
+                      "_text": [
+                        "Webmention"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "note": [
+                {
+                  "_text": [
+                    "This is a similar \"Linkback\" mechanism to the ones of Refback, Trackback, and Pingback.\n    It uses a different protocol, though, and thus should be discoverable through its own link\n    relation type."
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "working-copy"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Points to a working copy for this resource."
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5829"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": [
+                {
+                  "_text": [
+                    "working-copy-of"
+                  ]
+                }
+              ],
+              "description": [
+                {
+                  "_text": [
+                    "Points to the versioned resource from which this\n      working copy was obtained.\n    "
+                  ]
+                }
+              ],
+              "spec": [
+                {
+                  "xref": [
+                    {
+                      "_attributes": {
+                        "type": "rfc",
+                        "data": "rfc5829"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "people": [
+        {}
+      ]
+    }
+  ]
+}

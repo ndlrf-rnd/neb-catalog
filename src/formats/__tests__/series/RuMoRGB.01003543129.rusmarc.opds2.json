@@ -1,0 +1,88 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003543000/rsl01003543129/rsl01003543129.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": [],
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "143032-О",
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/S 9/149",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "S 9/149"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/S 62/490",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "S 62/490"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/МК",
+            "name": "MK",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "МК"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/G 10/240",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "G 10/240"
+          }
+        ],
+        "series": [
+          {
+            "href": "RuMoRGB/003543129",
+            "title": "Вейдемейер, Александр Иванович (1789-1852) / Конволют",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "dc:issued": "1848",
+      "description": "II, 128 с.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/003543129",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "II, 128 с.",
+      "modified": "2019-09-12T14:15:56.0Z",
+      "numberOfPages": 128,
+      "numberOfWorkPart": "Ч. 1",
+      "published": "1848",
+      "publisher": {
+        "addressCountry": "ru"
+      },
+      "title": "Ч. 1"
+    }
+  }
+]

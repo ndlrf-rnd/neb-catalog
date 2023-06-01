@@ -1,0 +1,105 @@
+{
+  "links": [
+    {
+      "href": "http://localhost:18080/resources/collection",
+      "rel": "self",
+      "title": "Все записи типа Collection",
+      "type": "application/opds+json"
+    }
+  ],
+  "metadata": {
+    "@id": "http://localhost:18080/resources/collection",
+    "@type": "https://schema.org/Collection",
+    "cursors": {
+      "after": "collection-4",
+      "before": "collection-1"
+    },
+    "identifier": "http://localhost:18080/resources/collection",
+    "name": {
+      "en": "All Collection records",
+      "ru": "Все записи типа Collection"
+    },
+    "numberOfItems": 18,
+    "numberOfPageItems": 4,
+    "order": "desc",
+    "processingTimeSec": 0.01,
+    "title": "Все записи типа Collection",
+    "type": "application/opds+json"
+  },
+  "navigation": [
+    {
+      "href": "http://localhost:18080/resources/collection?extended=1&limit=7",
+      "rel": "first",
+      "title": "Первая страница",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/knpam",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/knpam",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Книжные памятники",
+      "numberOfItems": 2,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-4",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1000-01-01 12:00:00",
+        "1999-12-31 12:00:00"
+      ],
+      "title": "Книжные памятники",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/dc.mkrf.ru/contracts",
+      "holdingArchive": {
+        "identifier": "https://mkrf.ru",
+        "title": "Министерство культуры Российской Федерации"
+      },
+      "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/contracts",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Контракты Министерства культуры РФ",
+      "numberOfItems": 14,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-3",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "title": "Контракты Министерства культуры РФ",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/dc.mkrf.ru/7_14-19",
+      "govContractNumber": "7/14-19",
+      "holdingArchive": {
+        "identifier": "https://mkrf.ru",
+        "title": "Министерство культуры Российской Федерации"
+      },
+      "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/7_14-19",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Контракт Министерства культуры РФ № 7/14-19 от 2019-08-05 с ФГБУ «Российская национальная библиотека»",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-2",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "title": "Контракт Министерства культуры РФ № 7/14-19 от 2019-08-05 с ФГБУ «Российская национальная библиотека»",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/dc.mkrf.ru/4_14-19",
+      "govContractNumber": "4/14-19",
+      "holdingArchive": {
+        "identifier": "https://mkrf.ru",
+        "title": "Министерство культуры Российской Федерации"
+      },
+      "href": "http://localhost:18080/resources/collection/dc.mkrf.ru/4_14-19",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Контракт Министерства культуры РФ № 4/14-19 от 2019-07-22 с ФГБУ «Российская государственная библиотека»",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-1",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "title": "Контракт Министерства культуры РФ № 4/14-19 от 2019-07-22 с ФГБУ «Российская государственная библиотека»",
+      "type": "application/opds+json"
+    }
+  ]
+}

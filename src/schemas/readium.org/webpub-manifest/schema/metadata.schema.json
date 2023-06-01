@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://readium.org/webpub-manifest/schema/metadata.schema.json",
+  "title": "Metadata",
+  "type": "object",
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "type": "string",
+      "format": "uri"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "description": "The language in a language map must be a valid BCP 47 tag.",
+          "type": "object",
+          "patternProperties": {
+            "^[a-zA-Z0-9]+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "minProperties": 1
+        }
+      ]
+    },
+    "subtitle": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "description": "The language in a language map must be a valid BCP 47 tag.",
+          "type": "object",
+          "patternProperties": {
+            "^[a-zA-Z0-9]+$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "minProperties": 1
+        }
+      ]
+    },
+    "modified": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "language": {
+      "description": "The language must be a valid BCP 47 tag.",
+      "type": [
+        "string",
+        "array"
+      ],
+      "items": {
+        "type": "string",
+        "pattern": "^[a-zA-Z0-9]+$"
+      },
+      "pattern": "^[a-zA-Z0-9]+$"
+    },
+    "sortAs": {
+      "type": "string"
+    },
+    "author": {
+      "$ref": "contributor.schema.json"
+    },
+    "translator": {
+      "$ref": "contributor.schema.json"
+    },
+    "editor": {
+      "$ref": "contributor.schema.json"
+    },
+    "artist": {
+      "$ref": "contributor.schema.json"
+    },
+    "illustrator": {
+      "$ref": "contributor.schema.json"
+    },
+    "letterer": {
+      "$ref": "contributor.schema.json"
+    },
+    "penciler": {
+      "$ref": "contributor.schema.json"
+    },
+    "colorist": {
+      "$ref": "contributor.schema.json"
+    },
+    "inker": {
+      "$ref": "contributor.schema.json"
+    },
+    "narrator": {
+      "$ref": "contributor.schema.json"
+    },
+    "contributor": {
+      "$ref": "contributor.schema.json"
+    },
+    "publisher": {
+      "$ref": "contributor.schema.json"
+    },
+    "imprint": {
+      "$ref": "contributor.schema.json"
+    },
+    "subject": {
+      "$ref": "subject.schema.json"
+    },
+    "readingProgression": {
+      "type": "string",
+      "enum": [
+        "rtl",
+        "ltr",
+        "ttb",
+        "btt",
+        "auto"
+      ],
+      "default": "auto"
+    },
+    "description": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "numberOfPages": {
+      "type": "integer",
+      "exclusiveMinimum": 0
+    },
+    "belongsTo": {
+      "type": "object",
+      "properties": {
+        "collection": {
+          "$ref": "contributor.schema.json"
+        },
+        "series": {
+          "$ref": "contributor.schema.json"
+        }
+      }
+    }
+  },
+  "required": [
+    "title"
+  ],
+  "allOf": [
+    {
+      "$ref": "extensions/epub/metadata.schema.json"
+    },
+    {
+      "$ref": "extensions/presentation/metadata.schema.json"
+    }
+  ]
+}

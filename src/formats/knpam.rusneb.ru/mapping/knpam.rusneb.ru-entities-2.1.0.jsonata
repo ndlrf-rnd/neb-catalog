@@ -1,0 +1,553 @@
+(
+  /* Types */
+  $getType := function ($v) {
+    $v ? $lookup({
+      '1': 'Рукописные книги',
+      '2': 'Печатные издания'
+    }, $string(v)) : undefined
+  };
+  $i18nTitle := function($ru, $en) {
+    {
+      'title': $ru,
+      'name': {
+        'en': $en,
+        'ru': $ru
+      }
+    }
+  };
+  $getPartType := function ($v) {
+    $v ? $lookup({
+      '1': 'Многотомник',
+      '2': 'Сериальное издание'
+    }, $string(v)) : undefined
+  };
+
+  $i18nContentLabelCompact := function($contentLabel) {
+    [
+      $lookup(
+        {
+          "book/album": "Книги",
+          "book/dissert": "Книги",
+          "book/graphic":  "Изобразительные издания",
+          "book/manuscript": "Рукописи",
+          "book/multivol": "Книги",
+          "book/music": "Ноты",
+          "book/outline": "Книги",
+          "book/rare": "Книги",
+          "book/science": "Книги",
+          "book/symposium": "Книги",
+          "book/tech": "Книги",
+          "book/text": "Книги",
+          "other/book": "Книги",
+          "other/exhibitions": "Изобразительные издания",
+          "other/images": "Изобразительные издания",
+          "other/text": "Книги",
+          "cartographic/atlas": "Карты",
+          "cartographic/map": "Карты",
+          "cartographic/plan": "Карты",
+          "cartographic/text": "Карты",
+          "leaflet/collection": "Афиши и листовки",
+          "leaflet/engrave": "Афиши и листовки",
+          "leaflet/leaflet": "Афиши и листовки",
+          "leaflet/manuscript": "Рукописи",
+          "leaflet/music": "Ноты",
+          "leaflet/photo": "Афиши и листовки",
+          "leaflet/picture": "Афиши и листовки",
+          "leaflet/placard": "Афиши и листовки",
+          "leaflet/plate": "Афиши и листовки",
+          "leaflet/postcard": "Афиши и листовки",
+          "periodic/article": "Периодика",
+          "periodic/magazine": "Периодика",
+          "periodic/newspaper": "Периодика"
+        },
+        $lowercase($contentLabel)
+      ),
+      $contentLabel
+    ][0]
+  };
+
+
+  $getCriteriaType := function($v) {
+    (
+      $default := '2';
+      $enum := {
+        '1': 'Хронологический',
+        '2': 'Социально-значимый'
+      };
+      $verbose := $lookup($enum, $v ? $string($v) : $default);
+      $verbose ? $verbose : $lookup($enum, $default);
+    )
+  };
+
+  /* Organization */
+
+  $getOrgRole := function($role) {
+    /* Роль (1 - Администратор, 2 - Оператор, 3 - Владелец КП (администатор), 4 - Владелец КП (пользователь) */
+    $lookup(
+      {
+        '1': {'en': 'Administrator', 'ru': 'Администратор'},
+        '2': {'en': 'Operator', 'ru': 'Оператор'},
+        '3': {'en': 'Heritage item holder (Administrator)', 'ru': 'Владелец КП (администатор)'},
+        '4': {'en': 'Heritage item holder (User)', 'ru': 'Владелец КП (пользователь)'}
+      },
+      $string($role)
+     )
+  };
+
+  $getOrganization := function ($org) {
+    {
+      '@type': 'https://schema.org/ArchiveOrganization',
+      '@id': '/resources/organization/knpam.rusneb.ru/' & $string($org.id),
+      'identifier': 'urn:nbn:ru:kp:org:' & $string($org.id),
+      'role': $getOrgRole($.role),
+      'name': $org.org_name.$trim($),
+      'knpam:inn': $org.inn.$trim($),
+      'knpam:opf': $org.opf.$trim($),
+      'email': $org.email_official.$trim($),
+      'fax': $org.fax,
+      'telephone': $org.phones.$split($, / *, */).$trim($).$,
+      'address': {
+        '@type': 'https://schema.org/PostalAddress',
+        'postalCode': $org.legal_index.$trim($),
+        'addressRegion': $org.legal_region,
+        'addressLocality': $org.legal_city.$trim($),
+        'streetAddress': $org.legal_street and $org.legal_house ? $join($org.[$.legal_street,$.legal_house].$, ', ') : undefined
+      },
+      'location': {
+        '@type': 'https://schema.org/PostalAddress',
+        'postalCode': $org.fact_index.$trim($),
+        'addressRegion': $org.fact_region,
+        'addressLocality': $org.fact_city.$trim($),
+        'streetAddress': $org.fact_street and $org.fact_house ? $join($org.[$.fact_street,$.fact_house].$, ', ') : undefined
+      }
+    }
+  };
+
+  $getAuthorDates := function($instance) {
+    (
+      $instance.author_yearsoflife_from
+      or $instance.author_yearsoflife_till
+      or $instance.author_yearsoflife
+    ) ? (
+      $yolParts := $instance.author_yearsoflife ? $instance.author_yearsoflife.$split($, '-') : [undefined, undefined];
+      {
+        'birthDate': $instance.[$.author_yearsoflife_from, $yolParts[0].$trim($)].$[0].$string($),
+        'deathDate': $instance.[$.author_yearsoflife_till, $yolParts[1].$trim($)].$[0].$string($)
+      }
+    ) : undefined
+  };
+
+  $getSignType := function ($signTypeCode) {
+    (
+      $signTypeCode ? $lookup({
+        "16": "",
+        "17": "Экслибрис",
+        "18": "Суперэкслибрис",
+        "19": "Марка книгопродавца",
+        "20": "Технический ярлык (наклейка)",
+        "21": "Штамп/штемпель"
+      }, $signTypeCode) : undefined
+    )
+  };
+
+  /* Item */
+  $getItem := function($item, $organization, $group) {
+    {
+      'identifier': 'urn:nbn:ru:kp:' & $item.num,
+      '@id': 'urn:nbn:ru:kp:' & $item.num,
+      /*
+        Other possible `@type` options:
+          - `ArchiveComponent`
+          - `Atlas`
+          - `Book`
+          - `Map`
+      */
+      '@type': 'https://schema.org/CreativeWork',
+
+      'knpam:criteria_type': $getCriteriaType($item.criteria_type),
+      'description': $item.info ? $join($item.info.$split($, /[\t\r\n ]+;[\t\r\n ]+/).$trim($), '\n') : undefined,
+      'materialDescription': $join(
+        $distinct(
+          [
+            $join([
+              $item.fullness and ($item.fullness = 'Неполный') ? 'Целостность: неполный.' : 'Целостность: полный.',
+              $item.safety.$
+            ], ' '),
+            $item.details.$,
+            $item.signs.($.type or $.location or $.owner ? $join([$getSignType($.sign), $.location, $.owner].$, ': ') : undefined),
+            $item.attrs.($.location or $.owner ? $join([$.location, $.owner].$, ': ') : undefined)
+          ]
+        ).$,
+        '\n'
+      ),
+      'dcterms:extent': $item.volume ? $string($item.volume) : undefined,
+      'materialExtent': $item.volume ? $string($item.volume) : undefined,
+      'dc:format': $item.size,
+      'belongsTo': {
+        'collection': [
+          $group,
+          $merge([
+            $organization,
+            {
+            /* 'temporalCoverage': $.from or $.till ? [
+              $.from ? $.from.$string($) : null,
+              $.till ? $.till.$string($) : null
+            ] */
+              /*
+              MARC21 037$a - stock number
+              Инвентарный и (или) регистрационный номер
+              */
+              'knpam:system_number': $item.system_number,
+              'bf:stockNumber': $item.system_number,
+
+              /*
+              MARC21 852$j
+              Шифр хранения
+              */
+              'knpam:storage_cypher': $item.storage_cypher,
+              'bf:shelfMark': $item.storage_cypher,
+
+              'comment': $item.storage,
+
+              /*
+                MARC21 001 - Контрольный номер в каталоге фондодержателя
+
+                Контрольный номер записи об экземпляре
+                (или более высокого уровня библиографического описания) в каталоге фондодержатедя.
+                Соответствует полю copies.copy_eid в базе Реестра книжных памятников.
+              */
+              'knpam:copy_eid': $item.copy_eid
+              /*
+              'identifier': $organization.'@id' & ($item.copy_eid ? '#' & $item.copy_eid : ''),
+              '@id': $organization.'@id' & ($item.copy_eid ? '#' & $item.copy_eid : '')
+              */
+            }
+          ])
+        ]
+      }
+    }
+  };
+
+  /* Part */
+  $getPart := function ($part) {
+    {
+      /* $part.title - "Заглавие части" */
+      /* $part.num - "Обозначение и номер части/тома" */
+      'nameOfWorkPart': ($part.title or $part.num) ? $join($distinct([$part.title, $part.num].$string($)), ' ') : undefined,
+
+      'dc:format': $part.size, /* part.size - "Размер части" */
+      'dc:issued': $part.date, /* part.date - "Дата издания части" */
+      'published': $part.date, /* part.date - "Дата издания части" */
+
+      'description': $part.comment, /* part.comment "Примечания к части" */
+
+      'publisher': $part.publisher or $part.place ? {
+        'name': $part.publisher.$trim($), /* "Издатель/Типограф части" */
+        'addressLocality': $part.place /* "Место издания части" */
+      } : undefined,
+
+      'bf:illustrativeContent': $part.illustrations, /* part.illustrations - "Сведения об иллюстрациях в части" */
+      'dcterms:extent': $part.volume.$, /* part.volume - "Объем части" */
+      'materialExtent': $part.volume.$, /* part.volume - "Объем части" */
+      'schema:temporal': $part.date.$ /* part.date - "Дата издания части" */
+                                      /* $part.date_params */
+    }
+  };
+
+  /* Instance */
+  /*
+    https://rsl.planfix.ru/task/79007/?comment=109066836
+    Илья, похоже на глюк... Все КП 20-го года имеют в этом поле одинаковое значение
+
+    "content": {
+      "en": "book/manuscript",
+      "ru": "Рукописи"
+    },
+
+    В реестре это значение надо брать из поля items.doc_type. Значения такие:
+
+    27 = Рукопись
+    28 = Текст
+    29 = Изоматериал
+    30 = Ноты
+    31 = Карты
+    32 = Другое
+  */
+
+  $contentMapping := {
+    '27': 'book/manuscript',
+    '28': 'book/text',
+    '29': 'book/graphic',
+    '30': 'book/music',
+    '31': 'cartographic/atlas',
+    '32': 'other/text'
+  };
+
+  $getContent := function($group) {
+    (
+      $en := $lookup($contentMapping, $string($group.id));
+      {
+        "en": $en,
+        "ru": $group.value
+      }
+    )
+  };
+
+  $getGroup := function($group) {
+    (
+      $id := $lookup($contentMapping, $string($group.id));
+      {
+        "identifier": 'urn:nbn:ru:kp:group:' & ($id ? $id : $string($group.id)),
+        '@id': '/resources/groups/knpam.rusneb.ru/' & $.id.$string($),
+        "name": $group.value
+      }
+    )
+  };
+
+  $getPublisherState := function ($v) {
+    $lookup(
+      {
+        '0': 'Отечественное издание',
+        '1': 'Иностранное издание'
+      },
+      $v ? $string($v) : '0'
+    )
+  };
+
+  $getInstance := function($instance, $group) {
+    {
+      /*
+        Other possible `@type` options:
+          - `ArchiveComponent`
+          - `Atlas`
+          - `Book`
+          - `Map`
+      */
+      '@type': 'https://schema.org/CreativeWork',
+
+      'kp:type': $getType($instance.type),
+      'kp:doc_type': $instance.doc_type,
+      'kp:partType': $getPartType($instance.part_type),
+      'title': $instance.title_full,          /* "Основное заглавие" - "Евангелие тетр",*/
+      'keyTitle': $instance.title,        /* "Основное заглавие" - "Евангелие тетр",*/
+
+      /*  $instance.title_full, */            /* "Основное заглавие" - "Евангелие тетр",*/
+      /*  $instance.title2  */                /* "Параллельное заглавие" */
+
+      'subtitle': $instance.title2,       /* "Параллельное заглавие" */
+
+      'sortAs': $instance.title,           /* "Унифицированное заглавие" - "Евангелие" */
+
+      'alternateTitle': $instance.title_variants or $instance.title_translation ? [
+        $instance.title_variants,         /* "Варианты заглавия" - "Мариинское Евангелие; Афонское Евангелие; Григоровичево Евангелие; Codex Marianus" */
+        $instance.title_translation       /* "Перевод заглавия" */
+      ].$ : undefined,
+      'dc:format': $instance.size,
+      'content': $getContent($group),
+      'dcterms:extent': $instance.volume ? $string($instance.volume) : undefined,
+      'materialExtent': $instance.volume ? $string($instance.volume) : undefined,
+
+      'author': ([
+        $instance.author_search
+        or $instance.author_ext
+        or $instance.author_forms
+        or $instance.author_org
+      ].$)
+      ? $merge([
+        {
+          'name': $instance.author_search or $instance.author_ext or $instance.author_forms
+            ? $join([
+              $instance.author_search,
+              $instance.author_ext,
+              $instance.author_forms
+            ].$replace($, /[ \t\n,]+$/, ''), ' ')
+            : $instance.author_org.$trim($),
+          'relCode': 'aut',
+          'relTerm': 'Автор',
+          'affiliation': $instance.author_org.$trim($),
+          'sortAs': $instance.author_search.$trim($)
+        },
+        $getAuthorDates($instance)
+      ]) : undefined,
+
+      'contributor': $instance.contributors.$trim($),
+      'responsibilityNotes': $join(
+        $distinct([
+          $instance.author_search,
+          $instance.author,
+          $instance.author_org,
+          $instance.author_other,
+          $instance.author_ext,
+          $instance.contributors
+        ]).$trim($),
+        '\n'
+      ),
+
+      'description': $join(
+        [
+          $getPublisherState($instance.state),
+          $instance.special_params,
+          $instance.comment,
+          $instance.info ? $instance.info.$split($, /[\t\r\n ]+;[\t\r\n ]+/) : undefined
+        ].$trim($string($)),
+        '\n'
+      ),
+      'dc:issued': $instance.date,
+      'datePublished': $instance.date,
+      'schema:temporal': $instance.date_params.descr,
+      'modified': $instance.updated_at,
+
+      /* "instance.language" Старославянский, глаголица; на л. 134-134 об. – кириллица, сербский устав" */
+      'language': $instance.language.($lookup({'Карельский': 'krl'}, $) ? $lookup({'Карельский': 'krl'}, $) : $),
+
+      'publisher': $instance.publisher
+        ? {
+          'name': $instance.publisher.$trim($),
+          'addressLocality': $instance.place.$trim($),
+          'description': $getPublisherState($instance.state)
+        }
+        : {
+          'name': $instance.place ? $instance.place.$trim($) : 'N/A'
+        },
+      'bf:illustrativeContent': $instance.illustrations,
+      'comment': $trim($instance.title_comment) /* "Сведения, относящиеся к заглавию" */
+    }
+  };
+
+  /* Links */
+  $getLinks := function($item) {
+    [
+      $item.num ? $merge([
+        $i18nTitle(
+          'Ссылка на страницу экземпляра в Реестре книжных памятников',
+          'Item page on National heritage books registry (Реестр Книжных Памятников)'
+        ),
+        {
+          'rel': 'original archives',
+          'type': 'text/html',
+          'href': 'https://knpam.rusneb.ru/item' & $string($item.num) & '.htm',
+          'alternate': 'https://knpam.rusneb.ru/copies/view?num=' & $string($item.num)
+        }
+      ]) : undefined,
+
+      $item.neb_url ? $merge([
+        $i18nTitle(
+          'Ссылка на страницу экземпляра в Национальной электронной библиотеке (НЭБ)',
+          'Item page on National electronic library (NEL)'
+        ),
+        {
+          'rel': 'http://opds-spec.org/acquisition/open-access',
+          'properties': {
+            'indirectAcquisition': [
+              {
+                'type': 'application/pdf'
+              }
+            ]
+          },
+          'type': 'text/html',
+          'href': $item.neb_url.$encodeUrl($)
+        }
+      ]): undefined,
+
+      $item.ec_comment ? $merge([
+        $match($item.ec_comment, /dlib\.rsl\.ru/)
+          ? $i18nTitle(
+            'Цифровая версии на официальном сайте Российской государственной библиотеки (РГБ)',
+            'Digital version on Russian state library (RSL) official site'
+          )
+          : (
+            $match($item.ec_comment, /primo\.nlr\.ru/)
+              ? $i18nTitle(
+                'Цифровая версия на официальном сайте Российской национальной библиотеки (РНБ)',
+                'Digital version on The National Library of Russia (NLR) official site'
+              )
+              : $i18nTitle('Цифровая версия', 'Digital version')
+          ),
+        {
+          'href': $item.ec_comment,
+          'rel': 'http://opds-spec.org/acquisition/open-access'
+        },
+        $match($item.ec_comment, /(dlib\.rsl\.ru|primo\.nlr\.ru)/) ? {
+          'properties': {
+            'indirectAcquisition': [
+              {
+                'type': 'application/pdf'
+              }
+            ]
+          },
+          'type': 'text/html'
+        } : undefined
+      ]) : undefined,
+
+      $item.ec_url ? {
+        'rel': 'related',
+        'href': $item.ec_url.$encodeUrl($)
+      } : undefined,
+
+      $item.conclusion ? {
+        "title": "Экспертное заключение на отнесение к книжным памятникам",
+        'rel': 'http://opds-spec.org/acquisition',
+        "name": {
+          "en": "Heritage status assignment expertise conclusion",
+          "ru": "Экспертное заключение на отнесение к книжным памятникам"
+        },
+        'href': $join(
+          [
+            'https://knpam.rusneb.ru/uploads/copies',
+            $string($item.id),
+            'conclusion',
+            $item.conclusion
+          ],
+          '/'
+        ).$encodeUrl($)
+      } : undefined,
+
+      $item.col_conclusion ? $merge([
+        $i18nTitle(
+          'Экспертное заключение на отнесение КП к коллекции',
+          'Heritage status assignment expertise conclusion'
+        ),
+        {
+          'description': $item.c_comment,
+          'href': $join(
+            [
+              'https://knpam.rusneb.ru/uploads/copies',
+              $string($item.id),
+              'col_conclusion',
+              $item.col_conclusion
+            ],
+            '/'
+          ).$encodeUrl($),
+          'rel': 'http://opds-spec.org/acquisition/sample'
+        }
+      ]) : undefined
+    ]
+  };
+
+  $getImages := function ($item) {
+    $item.images.$split($, '\t').{
+        'title': 'Изображение экземпляра ' & $,
+        'name': {
+          "en": 'Image of item ' & $,
+          "ru": 'Изображение экземпляра ' & $
+        },
+        'href': $encodeUrl('https://knpam.rusneb.ru/uploads/copies/' & $item.id & '/images/' & $)
+    }.$
+  };
+
+  $instance := $getInstance($.instance, $.group);
+  $part := $getPart($.part);
+  $organization := $getOrganization($.organization);
+  $group := $getGroup($.group);
+  /* Items (NOT COPIES), its semantically wrong filed name in source */
+  {
+    'metadata': $merge([
+      $instance,
+      $part,
+      $getItem($.item, $organization, $group),
+      { 'title': $join($.[$instance.title, $part.nameOfWorkPart].$, ' ') }
+    ]),
+    'images': [$getImages($.item), $getImages($.instance), $getImages($.part)],
+    'links': $getLinks($.item)
+  }
+)

@@ -1,0 +1,1500 @@
+AD:
+  ISO_3166-1: '20'
+  ISO_3166-1.Alpha-2: AD
+  ISO_3166-1.Alpha-3: AND
+  ISO_3166-2: AD
+  i18n.ru: Андорра
+AE:
+  ISO_3166-1: '784'
+  ISO_3166-1.Alpha-2: AE
+  ISO_3166-1.Alpha-3: ARE
+  ISO_3166-2: AE
+  i18n.ru: ОАЭ
+AF:
+  ISO_3166-1: '4'
+  ISO_3166-1.Alpha-2: AF
+  ISO_3166-1.Alpha-3: AFG
+  ISO_3166-2: AF
+  i18n.ru: Афганистан
+AG:
+  ISO_3166-1: '28'
+  ISO_3166-1.Alpha-2: AG
+  ISO_3166-1.Alpha-3: ATG
+  ISO_3166-2: AG
+  i18n.ru: Антигуа и Барбуда
+AI:
+  ISO_3166-1: '660'
+  ISO_3166-1.Alpha-2: AI
+  ISO_3166-1.Alpha-3: AIA
+  ISO_3166-2: AI
+  i18n.ru: Ангилья
+AL:
+  ISO_3166-1: '8'
+  ISO_3166-1.Alpha-2: AL
+  ISO_3166-1.Alpha-3: ALB
+  ISO_3166-2: AL
+  i18n.ru: Албания
+AM:
+  ISO_3166-1: '51'
+  ISO_3166-1.Alpha-2: AM
+  ISO_3166-1.Alpha-3: ARM
+  ISO_3166-2: AM
+  i18n.ru: Армения
+AO:
+  ISO_3166-1: '24'
+  ISO_3166-1.Alpha-2: AO
+  ISO_3166-1.Alpha-3: AGO
+  ISO_3166-2: AO
+  i18n.ru: Ангола
+AQ:
+  ISO_3166-1: '10'
+  ISO_3166-1.Alpha-2: AQ
+  ISO_3166-1.Alpha-3: ATA
+  ISO_3166-2: AQ
+  i18n.ru: Антарктида
+AR:
+  ISO_3166-1: '32'
+  ISO_3166-1.Alpha-2: AR
+  ISO_3166-1.Alpha-3: ARG
+  ISO_3166-2: AR
+  i18n.ru: Аргентина
+AS:
+  ISO_3166-1: '16'
+  ISO_3166-1.Alpha-2: AS
+  ISO_3166-1.Alpha-3: ASM
+  ISO_3166-2: AS
+  i18n.ru: Американское Самоа
+AT:
+  ISO_3166-1: '40'
+  ISO_3166-1.Alpha-2: AT
+  ISO_3166-1.Alpha-3: AUT
+  ISO_3166-2: AT
+  i18n.ru: Австрия
+AU:
+  ISO_3166-1: '36'
+  ISO_3166-1.Alpha-2: AU
+  ISO_3166-1.Alpha-3: AUS
+  ISO_3166-2: AU
+  i18n.ru: Австралия
+AW:
+  ISO_3166-1: '533'
+  ISO_3166-1.Alpha-2: AW
+  ISO_3166-1.Alpha-3: ABW
+  ISO_3166-2: AW
+  i18n.ru: Аруба
+AX:
+  ISO_3166-1: '248'
+  ISO_3166-1.Alpha-2: AX
+  ISO_3166-1.Alpha-3: ALA
+  ISO_3166-2: AX
+  i18n.ru: Аландские острова
+AZ:
+  ISO_3166-1: '31'
+  ISO_3166-1.Alpha-2: AZ
+  ISO_3166-1.Alpha-3: AZE
+  ISO_3166-2: AZ
+  i18n.ru: Азербайджан
+BA:
+  ISO_3166-1: '70'
+  ISO_3166-1.Alpha-2: BA
+  ISO_3166-1.Alpha-3: BIH
+  ISO_3166-2: BA
+  i18n.ru: Босния и Герцеговина
+BB:
+  ISO_3166-1: '52'
+  ISO_3166-1.Alpha-2: BB
+  ISO_3166-1.Alpha-3: BRB
+  ISO_3166-2: BB
+  i18n.ru: Барбадос
+BD:
+  ISO_3166-1: '50'
+  ISO_3166-1.Alpha-2: BD
+  ISO_3166-1.Alpha-3: BGD
+  ISO_3166-2: BD
+  i18n.ru: Бангладеш
+BE:
+  ISO_3166-1: '56'
+  ISO_3166-1.Alpha-2: BE
+  ISO_3166-1.Alpha-3: BEL
+  ISO_3166-2: BE
+  i18n.ru: Бельгия
+BF:
+  ISO_3166-1: '854'
+  ISO_3166-1.Alpha-2: BF
+  ISO_3166-1.Alpha-3: BFA
+  ISO_3166-2: BF
+  i18n.ru: Буркина-Фасо
+BG:
+  ISO_3166-1: '100'
+  ISO_3166-1.Alpha-2: BG
+  ISO_3166-1.Alpha-3: BGR
+  ISO_3166-2: BG
+  i18n.ru: Болгария
+BH:
+  ISO_3166-1: '48'
+  ISO_3166-1.Alpha-2: BH
+  ISO_3166-1.Alpha-3: BHR
+  ISO_3166-2: BH
+  i18n.ru: Бахрейн
+BI:
+  ISO_3166-1: '108'
+  ISO_3166-1.Alpha-2: BI
+  ISO_3166-1.Alpha-3: BDI
+  ISO_3166-2: BI
+  i18n.ru: Бурунди
+BJ:
+  ISO_3166-1: '204'
+  ISO_3166-1.Alpha-2: BJ
+  ISO_3166-1.Alpha-3: BEN
+  ISO_3166-2: BJ
+  i18n.ru: Бенин
+BL:
+  ISO_3166-1: '652'
+  ISO_3166-1.Alpha-2: BL
+  ISO_3166-1.Alpha-3: BLM
+  ISO_3166-2: BL
+  i18n.ru: Сен-Бартелеми
+BM:
+  ISO_3166-1: '60'
+  ISO_3166-1.Alpha-2: BM
+  ISO_3166-1.Alpha-3: BMU
+  ISO_3166-2: BM
+  i18n.ru: Бермуды
+BN:
+  ISO_3166-1: '96'
+  ISO_3166-1.Alpha-2: BN
+  ISO_3166-1.Alpha-3: BRN
+  ISO_3166-2: BN
+  i18n.ru: Бруней
+BO:
+  ISO_3166-1: '68'
+  ISO_3166-1.Alpha-2: BO
+  ISO_3166-1.Alpha-3: BOL
+  ISO_3166-2: BO
+  i18n.ru: Боливия
+BQ:
+  ISO_3166-1: '535'
+  ISO_3166-1.Alpha-2: BQ
+  ISO_3166-1.Alpha-3: BES
+  ISO_3166-2: BQ
+  i18n.ru: 'Бонэйр, Синт-Эстатиус и Саба'
+BR:
+  ISO_3166-1: '76'
+  ISO_3166-1.Alpha-2: BR
+  ISO_3166-1.Alpha-3: BRA
+  ISO_3166-2: BR
+  i18n.ru: Бразилия
+BS:
+  ISO_3166-1: '44'
+  ISO_3166-1.Alpha-2: BS
+  ISO_3166-1.Alpha-3: BHS
+  ISO_3166-2: BS
+  i18n.ru: Багамские Острова
+BT:
+  ISO_3166-1: '64'
+  ISO_3166-1.Alpha-2: BT
+  ISO_3166-1.Alpha-3: BTN
+  ISO_3166-2: BT
+  i18n.ru: Бутан
+BV:
+  ISO_3166-1: '74'
+  ISO_3166-1.Alpha-2: BV
+  ISO_3166-1.Alpha-3: BVT
+  ISO_3166-2: BV
+  i18n.ru: Остров Буве
+BW:
+  ISO_3166-1: '72'
+  ISO_3166-1.Alpha-2: BW
+  ISO_3166-1.Alpha-3: BWA
+  ISO_3166-2: BW
+  i18n.ru: Ботсвана
+BY:
+  ISO_3166-1: '112'
+  ISO_3166-1.Alpha-2: BY
+  ISO_3166-1.Alpha-3: BLR
+  ISO_3166-2: BY
+  i18n.ru: Белоруссия
+BZ:
+  ISO_3166-1: '84'
+  ISO_3166-1.Alpha-2: BZ
+  ISO_3166-1.Alpha-3: BLZ
+  ISO_3166-2: BZ
+  i18n.ru: Белиз
+CA:
+  ISO_3166-1: '124'
+  ISO_3166-1.Alpha-2: CA
+  ISO_3166-1.Alpha-3: CAN
+  ISO_3166-2: CA
+  i18n.ru: Канада
+CC:
+  ISO_3166-1: '166'
+  ISO_3166-1.Alpha-2: CC
+  ISO_3166-1.Alpha-3: CCK
+  ISO_3166-2: CC
+  i18n.ru: Кокосовые острова
+CD:
+  ISO_3166-1: '180'
+  ISO_3166-1.Alpha-2: CD
+  ISO_3166-1.Alpha-3: COD
+  ISO_3166-2: CD
+  i18n.ru: ДР Конго
+CF:
+  ISO_3166-1: '140'
+  ISO_3166-1.Alpha-2: CF
+  ISO_3166-1.Alpha-3: CAF
+  ISO_3166-2: CF
+  i18n.ru: ЦАР
+CG:
+  ISO_3166-1: '178'
+  ISO_3166-1.Alpha-2: CG
+  ISO_3166-1.Alpha-3: COG
+  ISO_3166-2: CG
+  i18n.ru: Республика Конго
+CH:
+  ISO_3166-1: '756'
+  ISO_3166-1.Alpha-2: CH
+  ISO_3166-1.Alpha-3: CHE
+  ISO_3166-2: CH
+  i18n.ru: Швейцария
+CI:
+  ISO_3166-1: '384'
+  ISO_3166-1.Alpha-2: CI
+  ISO_3166-1.Alpha-3: CIV
+  ISO_3166-2: CI
+  i18n.ru: Кот-д’Ивуар
+CK:
+  ISO_3166-1: '184'
+  ISO_3166-1.Alpha-2: CK
+  ISO_3166-1.Alpha-3: COK
+  ISO_3166-2: CK
+  i18n.ru: Острова Кука
+CL:
+  ISO_3166-1: '152'
+  ISO_3166-1.Alpha-2: CL
+  ISO_3166-1.Alpha-3: CHL
+  ISO_3166-2: CL
+  i18n.ru: Чили
+CM:
+  ISO_3166-1: '120'
+  ISO_3166-1.Alpha-2: CM
+  ISO_3166-1.Alpha-3: CMR
+  ISO_3166-2: CM
+  i18n.ru: Камерун
+CN:
+  ISO_3166-1: '156'
+  ISO_3166-1.Alpha-2: CN
+  ISO_3166-1.Alpha-3: CHN
+  ISO_3166-2: CN
+  i18n.ru: "Китай\_(Китайская Народная Республика)"
+CO:
+  ISO_3166-1: '170'
+  ISO_3166-1.Alpha-2: CO
+  ISO_3166-1.Alpha-3: COL
+  ISO_3166-2: CO
+  i18n.ru: Колумбия
+CR:
+  ISO_3166-1: '188'
+  ISO_3166-1.Alpha-2: CR
+  ISO_3166-1.Alpha-3: CRI
+  ISO_3166-2: CR
+  i18n.ru: Коста-Рика
+CU:
+  ISO_3166-1: '192'
+  ISO_3166-1.Alpha-2: CU
+  ISO_3166-1.Alpha-3: CUB
+  ISO_3166-2: CU
+  i18n.ru: Куба
+CV:
+  ISO_3166-1: '132'
+  ISO_3166-1.Alpha-2: CV
+  ISO_3166-1.Alpha-3: CPV
+  ISO_3166-2: CV
+  i18n.ru: Кабо-Верде
+CW:
+  ISO_3166-1: '531'
+  ISO_3166-1.Alpha-2: CW
+  ISO_3166-1.Alpha-3: CUW
+  ISO_3166-2: CW
+  i18n.ru: Кюрасао
+CX:
+  ISO_3166-1: '162'
+  ISO_3166-1.Alpha-2: CX
+  ISO_3166-1.Alpha-3: CXR
+  ISO_3166-2: CX
+  i18n.ru: Остров Рождества
+CY:
+  ISO_3166-1: '196'
+  ISO_3166-1.Alpha-2: CY
+  ISO_3166-1.Alpha-3: CYP
+  ISO_3166-2: CY
+  i18n.ru: Кипр
+CZ:
+  ISO_3166-1: '203'
+  ISO_3166-1.Alpha-2: CZ
+  ISO_3166-1.Alpha-3: CZE
+  ISO_3166-2: CZ
+  i18n.ru: Чехия
+DE:
+  ISO_3166-1: '276'
+  ISO_3166-1.Alpha-2: DE
+  ISO_3166-1.Alpha-3: DEU
+  ISO_3166-2: DE
+  i18n.ru: Германия
+DJ:
+  ISO_3166-1: '262'
+  ISO_3166-1.Alpha-2: DJ
+  ISO_3166-1.Alpha-3: DJI
+  ISO_3166-2: DJ
+  i18n.ru: Джибути
+DK:
+  ISO_3166-1: '208'
+  ISO_3166-1.Alpha-2: DK
+  ISO_3166-1.Alpha-3: DNK
+  ISO_3166-2: DK
+  i18n.ru: Дания
+DM:
+  ISO_3166-1: '212'
+  ISO_3166-1.Alpha-2: DM
+  ISO_3166-1.Alpha-3: DMA
+  ISO_3166-2: DM
+  i18n.ru: Доминика
+DO:
+  ISO_3166-1: '214'
+  ISO_3166-1.Alpha-2: DO
+  ISO_3166-1.Alpha-3: DOM
+  ISO_3166-2: DO
+  i18n.ru: Доминиканская Республика
+DZ:
+  ISO_3166-1: '12'
+  ISO_3166-1.Alpha-2: DZ
+  ISO_3166-1.Alpha-3: DZA
+  ISO_3166-2: DZ
+  i18n.ru: Алжир
+EC:
+  ISO_3166-1: '218'
+  ISO_3166-1.Alpha-2: EC
+  ISO_3166-1.Alpha-3: ECU
+  ISO_3166-2: EC
+  i18n.ru: Эквадор
+EE:
+  ISO_3166-1: '233'
+  ISO_3166-1.Alpha-2: EE
+  ISO_3166-1.Alpha-3: EST
+  ISO_3166-2: EE
+  i18n.ru: Эстония
+EG:
+  ISO_3166-1: '818'
+  ISO_3166-1.Alpha-2: EG
+  ISO_3166-1.Alpha-3: EGY
+  ISO_3166-2: EG
+  i18n.ru: Египет
+EH:
+  ISO_3166-1: '732'
+  ISO_3166-1.Alpha-2: EH
+  ISO_3166-1.Alpha-3: ESH
+  ISO_3166-2: EH
+  i18n.ru: САДР
+ER:
+  ISO_3166-1: '232'
+  ISO_3166-1.Alpha-2: ER
+  ISO_3166-1.Alpha-3: ERI
+  ISO_3166-2: ER
+  i18n.ru: Эритрея
+ES:
+  ISO_3166-1: '724'
+  ISO_3166-1.Alpha-2: ES
+  ISO_3166-1.Alpha-3: ESP
+  ISO_3166-2: ES
+  i18n.ru: Испания
+ET:
+  ISO_3166-1: '231'
+  ISO_3166-1.Alpha-2: ET
+  ISO_3166-1.Alpha-3: ETH
+  ISO_3166-2: ET
+  i18n.ru: Эфиопия
+EU:
+  ISO_3166-1: ''
+  ISO_3166-1.Alpha-2: EU
+  ISO_3166-1.Alpha-3: ''
+  ISO_3166-2: EU
+  i18n.ru: Европейский союз
+FI:
+  ISO_3166-1: '246'
+  ISO_3166-1.Alpha-2: FI
+  ISO_3166-1.Alpha-3: FIN
+  ISO_3166-2: FI
+  i18n.ru: Финляндия
+FJ:
+  ISO_3166-1: '242'
+  ISO_3166-1.Alpha-2: FJ
+  ISO_3166-1.Alpha-3: FJI
+  ISO_3166-2: FJ
+  i18n.ru: Фиджи
+FK:
+  ISO_3166-1: '238'
+  ISO_3166-1.Alpha-2: FK
+  ISO_3166-1.Alpha-3: FLK
+  ISO_3166-2: FK
+  i18n.ru: Фолклендские острова
+FM:
+  ISO_3166-1: '583'
+  ISO_3166-1.Alpha-2: FM
+  ISO_3166-1.Alpha-3: FSM
+  ISO_3166-2: FM
+  i18n.ru: Микронезия
+FO:
+  ISO_3166-1: '234'
+  ISO_3166-1.Alpha-2: FO
+  ISO_3166-1.Alpha-3: FRO
+  ISO_3166-2: FO
+  i18n.ru: Фареры
+FR:
+  ISO_3166-1: '250'
+  ISO_3166-1.Alpha-2: FR
+  ISO_3166-1.Alpha-3: FRA
+  ISO_3166-2: FR
+  i18n.ru: Франция
+GA:
+  ISO_3166-1: '266'
+  ISO_3166-1.Alpha-2: GA
+  ISO_3166-1.Alpha-3: GAB
+  ISO_3166-2: GA
+  i18n.ru: Габон
+GB:
+  ISO_3166-1: '826'
+  ISO_3166-1.Alpha-2: GB
+  ISO_3166-1.Alpha-3: GBR
+  ISO_3166-2: GB
+  i18n.ru: Великобритания
+GD:
+  ISO_3166-1: '308'
+  ISO_3166-1.Alpha-2: GD
+  ISO_3166-1.Alpha-3: GRD
+  ISO_3166-2: GD
+  i18n.ru: Гренада
+GE:
+  ISO_3166-1: '268'
+  ISO_3166-1.Alpha-2: GE
+  ISO_3166-1.Alpha-3: GEO
+  ISO_3166-2: GE
+  i18n.ru: Грузия
+GF:
+  ISO_3166-1: '254'
+  ISO_3166-1.Alpha-2: GF
+  ISO_3166-1.Alpha-3: GUF
+  ISO_3166-2: GF
+  i18n.ru: Гвиана
+GG:
+  ISO_3166-1: '831'
+  ISO_3166-1.Alpha-2: GG
+  ISO_3166-1.Alpha-3: GGY
+  ISO_3166-2: GG
+  i18n.ru: Гернси
+GH:
+  ISO_3166-1: '288'
+  ISO_3166-1.Alpha-2: GH
+  ISO_3166-1.Alpha-3: GHA
+  ISO_3166-2: GH
+  i18n.ru: Гана
+GI:
+  ISO_3166-1: '292'
+  ISO_3166-1.Alpha-2: GI
+  ISO_3166-1.Alpha-3: GIB
+  ISO_3166-2: GI
+  i18n.ru: Гибралтар
+GL:
+  ISO_3166-1: '304'
+  ISO_3166-1.Alpha-2: GL
+  ISO_3166-1.Alpha-3: GRL
+  ISO_3166-2: GL
+  i18n.ru: Гренландия
+GM:
+  ISO_3166-1: '270'
+  ISO_3166-1.Alpha-2: GM
+  ISO_3166-1.Alpha-3: GMB
+  ISO_3166-2: GM
+  i18n.ru: Гамбия
+GN:
+  ISO_3166-1: '324'
+  ISO_3166-1.Alpha-2: GN
+  ISO_3166-1.Alpha-3: GIN
+  ISO_3166-2: GN
+  i18n.ru: Гвинея
+GP:
+  ISO_3166-1: '312'
+  ISO_3166-1.Alpha-2: GP
+  ISO_3166-1.Alpha-3: GLP
+  ISO_3166-2: GP
+  i18n.ru: Гваделупа
+GQ:
+  ISO_3166-1: '226'
+  ISO_3166-1.Alpha-2: GQ
+  ISO_3166-1.Alpha-3: GNQ
+  ISO_3166-2: GQ
+  i18n.ru: Экваториальная Гвинея
+GR:
+  ISO_3166-1: '300'
+  ISO_3166-1.Alpha-2: GR
+  ISO_3166-1.Alpha-3: GRC
+  ISO_3166-2: GR
+  i18n.ru: Греция
+GS:
+  ISO_3166-1: '239'
+  ISO_3166-1.Alpha-2: GS
+  ISO_3166-1.Alpha-3: SGS
+  ISO_3166-2: GS
+  i18n.ru: Южная Георгия и Южные Сандвичевы Острова
+GT:
+  ISO_3166-1: '320'
+  ISO_3166-1.Alpha-2: GT
+  ISO_3166-1.Alpha-3: GTM
+  ISO_3166-2: GT
+  i18n.ru: Гватемала
+GU:
+  ISO_3166-1: '316'
+  ISO_3166-1.Alpha-2: GU
+  ISO_3166-1.Alpha-3: GUM
+  ISO_3166-2: GU
+  i18n.ru: Гуам
+GW:
+  ISO_3166-1: '624'
+  ISO_3166-1.Alpha-2: GW
+  ISO_3166-1.Alpha-3: GNB
+  ISO_3166-2: GW
+  i18n.ru: Гвинея-Бисау
+GY:
+  ISO_3166-1: '328'
+  ISO_3166-1.Alpha-2: GY
+  ISO_3166-1.Alpha-3: GUY
+  ISO_3166-2: GY
+  i18n.ru: Гайана
+HK:
+  ISO_3166-1: '344'
+  ISO_3166-1.Alpha-2: HK
+  ISO_3166-1.Alpha-3: HKG
+  ISO_3166-2: HK
+  i18n.ru: Гонконг
+HM:
+  ISO_3166-1: '334'
+  ISO_3166-1.Alpha-2: HM
+  ISO_3166-1.Alpha-3: HMD
+  ISO_3166-2: HM
+  i18n.ru: Херд и Макдональд
+HN:
+  ISO_3166-1: '340'
+  ISO_3166-1.Alpha-2: HN
+  ISO_3166-1.Alpha-3: HND
+  ISO_3166-2: HN
+  i18n.ru: Гондурас
+HR:
+  ISO_3166-1: '191'
+  ISO_3166-1.Alpha-2: HR
+  ISO_3166-1.Alpha-3: HRV
+  ISO_3166-2: HR
+  i18n.ru: Хорватия
+HT:
+  ISO_3166-1: '332'
+  ISO_3166-1.Alpha-2: HT
+  ISO_3166-1.Alpha-3: HTI
+  ISO_3166-2: HT
+  i18n.ru: Гаити
+HU:
+  ISO_3166-1: '348'
+  ISO_3166-1.Alpha-2: HU
+  ISO_3166-1.Alpha-3: HUN
+  ISO_3166-2: HU
+  i18n.ru: Венгрия
+ID:
+  ISO_3166-1: '360'
+  ISO_3166-1.Alpha-2: ID
+  ISO_3166-1.Alpha-3: IDN
+  ISO_3166-2: ID
+  i18n.ru: Индонезия
+IE:
+  ISO_3166-1: '372'
+  ISO_3166-1.Alpha-2: IE
+  ISO_3166-1.Alpha-3: IRL
+  ISO_3166-2: IE
+  i18n.ru: Ирландия
+IL:
+  ISO_3166-1: '376'
+  ISO_3166-1.Alpha-2: IL
+  ISO_3166-1.Alpha-3: ISR
+  ISO_3166-2: IL
+  i18n.ru: Израиль
+IM:
+  ISO_3166-1: '833'
+  ISO_3166-1.Alpha-2: IM
+  ISO_3166-1.Alpha-3: IMN
+  ISO_3166-2: IM
+  i18n.ru: Остров Мэн
+IN:
+  ISO_3166-1: '356'
+  ISO_3166-1.Alpha-2: IN
+  ISO_3166-1.Alpha-3: IND
+  ISO_3166-2: IN
+  i18n.ru: Индия
+IO:
+  ISO_3166-1: '86'
+  ISO_3166-1.Alpha-2: IO
+  ISO_3166-1.Alpha-3: IOT
+  ISO_3166-2: IO
+  i18n.ru: Британская территория в Индийском океане
+IQ:
+  ISO_3166-1: '368'
+  ISO_3166-1.Alpha-2: IQ
+  ISO_3166-1.Alpha-3: IRQ
+  ISO_3166-2: IQ
+  i18n.ru: Ирак
+IR:
+  ISO_3166-1: '364'
+  ISO_3166-1.Alpha-2: IR
+  ISO_3166-1.Alpha-3: IRN
+  ISO_3166-2: IR
+  i18n.ru: Иран
+IS:
+  ISO_3166-1: '352'
+  ISO_3166-1.Alpha-2: IS
+  ISO_3166-1.Alpha-3: ISL
+  ISO_3166-2: IS
+  i18n.ru: Исландия
+IT:
+  ISO_3166-1: '380'
+  ISO_3166-1.Alpha-2: IT
+  ISO_3166-1.Alpha-3: ITA
+  ISO_3166-2: IT
+  i18n.ru: Италия
+JE:
+  ISO_3166-1: '832'
+  ISO_3166-1.Alpha-2: JE
+  ISO_3166-1.Alpha-3: JEY
+  ISO_3166-2: JE
+  i18n.ru: Джерси
+JM:
+  ISO_3166-1: '388'
+  ISO_3166-1.Alpha-2: JM
+  ISO_3166-1.Alpha-3: JAM
+  ISO_3166-2: JM
+  i18n.ru: Ямайка
+JO:
+  ISO_3166-1: '400'
+  ISO_3166-1.Alpha-2: JO
+  ISO_3166-1.Alpha-3: JOR
+  ISO_3166-2: JO
+  i18n.ru: Иордания
+JP:
+  ISO_3166-1: '392'
+  ISO_3166-1.Alpha-2: JP
+  ISO_3166-1.Alpha-3: JPN
+  ISO_3166-2: JP
+  i18n.ru: Япония
+KE:
+  ISO_3166-1: '404'
+  ISO_3166-1.Alpha-2: KE
+  ISO_3166-1.Alpha-3: KEN
+  ISO_3166-2: KE
+  i18n.ru: Кения
+KG:
+  ISO_3166-1: '417'
+  ISO_3166-1.Alpha-2: KG
+  ISO_3166-1.Alpha-3: KGZ
+  ISO_3166-2: KG
+  i18n.ru: Киргизия
+KH:
+  ISO_3166-1: '116'
+  ISO_3166-1.Alpha-2: KH
+  ISO_3166-1.Alpha-3: KHM
+  ISO_3166-2: KH
+  i18n.ru: Камбоджа
+KI:
+  ISO_3166-1: '296'
+  ISO_3166-1.Alpha-2: KI
+  ISO_3166-1.Alpha-3: KIR
+  ISO_3166-2: KI
+  i18n.ru: Кирибати
+KM:
+  ISO_3166-1: '174'
+  ISO_3166-1.Alpha-2: KM
+  ISO_3166-1.Alpha-3: COM
+  ISO_3166-2: KM
+  i18n.ru: Коморы
+KN:
+  ISO_3166-1: '659'
+  ISO_3166-1.Alpha-2: KN
+  ISO_3166-1.Alpha-3: KNA
+  ISO_3166-2: KN
+  i18n.ru: Сент-Китс и Невис
+KP:
+  ISO_3166-1: '408'
+  ISO_3166-1.Alpha-2: KP
+  ISO_3166-1.Alpha-3: PRK
+  ISO_3166-2: KP
+  i18n.ru: "КНДР\_(Корейская Народно-Демократическая Республика)"
+KR:
+  ISO_3166-1: '410'
+  ISO_3166-1.Alpha-2: KR
+  ISO_3166-1.Alpha-3: KOR
+  ISO_3166-2: KR
+  i18n.ru: Республика Корея
+KW:
+  ISO_3166-1: '414'
+  ISO_3166-1.Alpha-2: KW
+  ISO_3166-1.Alpha-3: KWT
+  ISO_3166-2: KW
+  i18n.ru: Кувейт
+KY:
+  ISO_3166-1: '136'
+  ISO_3166-1.Alpha-2: KY
+  ISO_3166-1.Alpha-3: CYM
+  ISO_3166-2: KY
+  i18n.ru: Острова Кайман
+KZ:
+  ISO_3166-1: '398'
+  ISO_3166-1.Alpha-2: KZ
+  ISO_3166-1.Alpha-3: KAZ
+  ISO_3166-2: KZ
+  i18n.ru: Казахстан
+LA:
+  ISO_3166-1: '418'
+  ISO_3166-1.Alpha-2: LA
+  ISO_3166-1.Alpha-3: LAO
+  ISO_3166-2: LA
+  i18n.ru: Лаос
+LB:
+  ISO_3166-1: '422'
+  ISO_3166-1.Alpha-2: LB
+  ISO_3166-1.Alpha-3: LBN
+  ISO_3166-2: LB
+  i18n.ru: Ливан
+LC:
+  ISO_3166-1: '662'
+  ISO_3166-1.Alpha-2: LC
+  ISO_3166-1.Alpha-3: LCA
+  ISO_3166-2: LC
+  i18n.ru: Сент-Люсия
+LI:
+  ISO_3166-1: '438'
+  ISO_3166-1.Alpha-2: LI
+  ISO_3166-1.Alpha-3: LIE
+  ISO_3166-2: LI
+  i18n.ru: Лихтенштейн
+LK:
+  ISO_3166-1: '144'
+  ISO_3166-1.Alpha-2: LK
+  ISO_3166-1.Alpha-3: LKA
+  ISO_3166-2: LK
+  i18n.ru: Шри-Ланка
+LR:
+  ISO_3166-1: '430'
+  ISO_3166-1.Alpha-2: LR
+  ISO_3166-1.Alpha-3: LBR
+  ISO_3166-2: LR
+  i18n.ru: Либерия
+LS:
+  ISO_3166-1: '426'
+  ISO_3166-1.Alpha-2: LS
+  ISO_3166-1.Alpha-3: LSO
+  ISO_3166-2: LS
+  i18n.ru: Лесото
+LT:
+  ISO_3166-1: '440'
+  ISO_3166-1.Alpha-2: LT
+  ISO_3166-1.Alpha-3: LTU
+  ISO_3166-2: LT
+  i18n.ru: Литва
+LU:
+  ISO_3166-1: '442'
+  ISO_3166-1.Alpha-2: LU
+  ISO_3166-1.Alpha-3: LUX
+  ISO_3166-2: LU
+  i18n.ru: Люксембург
+LV:
+  ISO_3166-1: '428'
+  ISO_3166-1.Alpha-2: LV
+  ISO_3166-1.Alpha-3: LVA
+  ISO_3166-2: LV
+  i18n.ru: Латвия
+LY:
+  ISO_3166-1: '434'
+  ISO_3166-1.Alpha-2: LY
+  ISO_3166-1.Alpha-3: LBY
+  ISO_3166-2: LY
+  i18n.ru: Ливия
+MA:
+  ISO_3166-1: '504'
+  ISO_3166-1.Alpha-2: MA
+  ISO_3166-1.Alpha-3: MAR
+  ISO_3166-2: MA
+  i18n.ru: Марокко
+MC:
+  ISO_3166-1: '492'
+  ISO_3166-1.Alpha-2: MC
+  ISO_3166-1.Alpha-3: MCO
+  ISO_3166-2: MC
+  i18n.ru: Монако
+MD:
+  ISO_3166-1: '498'
+  ISO_3166-1.Alpha-2: MD
+  ISO_3166-1.Alpha-3: MDA
+  ISO_3166-2: MD
+  i18n.ru: Молдавия
+ME:
+  ISO_3166-1: '499'
+  ISO_3166-1.Alpha-2: ME
+  ISO_3166-1.Alpha-3: MNE
+  ISO_3166-2: ME
+  i18n.ru: Черногория
+MF:
+  ISO_3166-1: '663'
+  ISO_3166-1.Alpha-2: MF
+  ISO_3166-1.Alpha-3: MAF
+  ISO_3166-2: MF
+  i18n.ru: Сен-Мартен
+MG:
+  ISO_3166-1: '450'
+  ISO_3166-1.Alpha-2: MG
+  ISO_3166-1.Alpha-3: MDG
+  ISO_3166-2: MG
+  i18n.ru: Мадагаскар
+MH:
+  ISO_3166-1: '584'
+  ISO_3166-1.Alpha-2: MH
+  ISO_3166-1.Alpha-3: MHL
+  ISO_3166-2: MH
+  i18n.ru: Маршалловы Острова
+MK:
+  ISO_3166-1: '807'
+  ISO_3166-1.Alpha-2: MK
+  ISO_3166-1.Alpha-3: MKD
+  ISO_3166-2: MK
+  i18n.ru: Северная Македония
+ML:
+  ISO_3166-1: '466'
+  ISO_3166-1.Alpha-2: ML
+  ISO_3166-1.Alpha-3: MLI
+  ISO_3166-2: ML
+  i18n.ru: Мали
+MM:
+  ISO_3166-1: '104'
+  ISO_3166-1.Alpha-2: MM
+  ISO_3166-1.Alpha-3: MMR
+  ISO_3166-2: MM
+  i18n.ru: Мьянма
+MN:
+  ISO_3166-1: '496'
+  ISO_3166-1.Alpha-2: MN
+  ISO_3166-1.Alpha-3: MNG
+  ISO_3166-2: MN
+  i18n.ru: Монголия
+MO:
+  ISO_3166-1: '446'
+  ISO_3166-1.Alpha-2: MO
+  ISO_3166-1.Alpha-3: MAC
+  ISO_3166-2: MO
+  i18n.ru: Макао
+MP:
+  ISO_3166-1: '580'
+  ISO_3166-1.Alpha-2: MP
+  ISO_3166-1.Alpha-3: MNP
+  ISO_3166-2: MP
+  i18n.ru: Северные Марианские Острова
+MQ:
+  ISO_3166-1: '474'
+  ISO_3166-1.Alpha-2: MQ
+  ISO_3166-1.Alpha-3: MTQ
+  ISO_3166-2: MQ
+  i18n.ru: Мартиника
+MR:
+  ISO_3166-1: '478'
+  ISO_3166-1.Alpha-2: MR
+  ISO_3166-1.Alpha-3: MRT
+  ISO_3166-2: MR
+  i18n.ru: Мавритания
+MS:
+  ISO_3166-1: '500'
+  ISO_3166-1.Alpha-2: MS
+  ISO_3166-1.Alpha-3: MSR
+  ISO_3166-2: MS
+  i18n.ru: Монтсеррат
+MT:
+  ISO_3166-1: '470'
+  ISO_3166-1.Alpha-2: MT
+  ISO_3166-1.Alpha-3: MLT
+  ISO_3166-2: MT
+  i18n.ru: Мальта
+MU:
+  ISO_3166-1: '480'
+  ISO_3166-1.Alpha-2: MU
+  ISO_3166-1.Alpha-3: MUS
+  ISO_3166-2: MU
+  i18n.ru: Маврикий
+MV:
+  ISO_3166-1: '462'
+  ISO_3166-1.Alpha-2: MV
+  ISO_3166-1.Alpha-3: MDV
+  ISO_3166-2: MV
+  i18n.ru: Мальдивы
+MW:
+  ISO_3166-1: '454'
+  ISO_3166-1.Alpha-2: MW
+  ISO_3166-1.Alpha-3: MWI
+  ISO_3166-2: MW
+  i18n.ru: Малави
+MX:
+  ISO_3166-1: '484'
+  ISO_3166-1.Alpha-2: MX
+  ISO_3166-1.Alpha-3: MEX
+  ISO_3166-2: MX
+  i18n.ru: Мексика
+MY:
+  ISO_3166-1: '458'
+  ISO_3166-1.Alpha-2: MY
+  ISO_3166-1.Alpha-3: MYS
+  ISO_3166-2: MY
+  i18n.ru: Малайзия
+MZ:
+  ISO_3166-1: '508'
+  ISO_3166-1.Alpha-2: MZ
+  ISO_3166-1.Alpha-3: MOZ
+  ISO_3166-2: MZ
+  i18n.ru: Мозамбик
+NA:
+  ISO_3166-1: '516'
+  ISO_3166-1.Alpha-2: NA
+  ISO_3166-1.Alpha-3: NAM
+  ISO_3166-2: NA
+  i18n.ru: Намибия
+NC:
+  ISO_3166-1: '540'
+  ISO_3166-1.Alpha-2: NC
+  ISO_3166-1.Alpha-3: NCL
+  ISO_3166-2: NC
+  i18n.ru: Новая Каледония
+NE:
+  ISO_3166-1: '562'
+  ISO_3166-1.Alpha-2: NE
+  ISO_3166-1.Alpha-3: NER
+  ISO_3166-2: NE
+  i18n.ru: Нигер
+NF:
+  ISO_3166-1: '574'
+  ISO_3166-1.Alpha-2: NF
+  ISO_3166-1.Alpha-3: NFK
+  ISO_3166-2: NF
+  i18n.ru: Остров Норфолк
+NG:
+  ISO_3166-1: '566'
+  ISO_3166-1.Alpha-2: NG
+  ISO_3166-1.Alpha-3: NGA
+  ISO_3166-2: NG
+  i18n.ru: Нигерия
+NI:
+  ISO_3166-1: '558'
+  ISO_3166-1.Alpha-2: NI
+  ISO_3166-1.Alpha-3: NIC
+  ISO_3166-2: NI
+  i18n.ru: Никарагуа
+NL:
+  ISO_3166-1: '528'
+  ISO_3166-1.Alpha-2: NL
+  ISO_3166-1.Alpha-3: NLD
+  ISO_3166-2: NL
+  i18n.ru: Нидерланды
+'NO':
+  ISO_3166-1: '578'
+  ISO_3166-1.Alpha-2: 'NO'
+  ISO_3166-1.Alpha-3: NOR
+  ISO_3166-2: 'NO'
+  i18n.ru: Норвегия
+NP:
+  ISO_3166-1: '524'
+  ISO_3166-1.Alpha-2: NP
+  ISO_3166-1.Alpha-3: NPL
+  ISO_3166-2: NP
+  i18n.ru: Непал
+NR:
+  ISO_3166-1: '520'
+  ISO_3166-1.Alpha-2: NR
+  ISO_3166-1.Alpha-3: NRU
+  ISO_3166-2: NR
+  i18n.ru: Науру
+NU:
+  ISO_3166-1: '570'
+  ISO_3166-1.Alpha-2: NU
+  ISO_3166-1.Alpha-3: NIU
+  ISO_3166-2: NU
+  i18n.ru: Ниуэ
+NZ:
+  ISO_3166-1: '554'
+  ISO_3166-1.Alpha-2: NZ
+  ISO_3166-1.Alpha-3: NZL
+  ISO_3166-2: NZ
+  i18n.ru: Новая Зеландия
+OM:
+  ISO_3166-1: '512'
+  ISO_3166-1.Alpha-2: OM
+  ISO_3166-1.Alpha-3: OMN
+  ISO_3166-2: OM
+  i18n.ru: Оман
+PA:
+  ISO_3166-1: '591'
+  ISO_3166-1.Alpha-2: PA
+  ISO_3166-1.Alpha-3: PAN
+  ISO_3166-2: PA
+  i18n.ru: Панама
+PE:
+  ISO_3166-1: '604'
+  ISO_3166-1.Alpha-2: PE
+  ISO_3166-1.Alpha-3: PER
+  ISO_3166-2: PE
+  i18n.ru: Перу
+PF:
+  ISO_3166-1: '258'
+  ISO_3166-1.Alpha-2: PF
+  ISO_3166-1.Alpha-3: PYF
+  ISO_3166-2: PF
+  i18n.ru: Французская Полинезия
+PG:
+  ISO_3166-1: '598'
+  ISO_3166-1.Alpha-2: PG
+  ISO_3166-1.Alpha-3: PNG
+  ISO_3166-2: PG
+  i18n.ru: Папуа — Новая Гвинея
+PH:
+  ISO_3166-1: '608'
+  ISO_3166-1.Alpha-2: PH
+  ISO_3166-1.Alpha-3: PHL
+  ISO_3166-2: PH
+  i18n.ru: Филиппины
+PK:
+  ISO_3166-1: '586'
+  ISO_3166-1.Alpha-2: PK
+  ISO_3166-1.Alpha-3: PAK
+  ISO_3166-2: PK
+  i18n.ru: Пакистан
+PL:
+  ISO_3166-1: '616'
+  ISO_3166-1.Alpha-2: PL
+  ISO_3166-1.Alpha-3: POL
+  ISO_3166-2: PL
+  i18n.ru: Польша
+PM:
+  ISO_3166-1: '666'
+  ISO_3166-1.Alpha-2: PM
+  ISO_3166-1.Alpha-3: SPM
+  ISO_3166-2: PM
+  i18n.ru: Сен-Пьер и Микелон
+PN:
+  ISO_3166-1: '612'
+  ISO_3166-1.Alpha-2: PN
+  ISO_3166-1.Alpha-3: PCN
+  ISO_3166-2: PN
+  i18n.ru: Острова Питкэрн
+PR:
+  ISO_3166-1: '630'
+  ISO_3166-1.Alpha-2: PR
+  ISO_3166-1.Alpha-3: PRI
+  ISO_3166-2: PR
+  i18n.ru: Пуэрто-Рико
+PS:
+  ISO_3166-1: '275'
+  ISO_3166-1.Alpha-2: PS
+  ISO_3166-1.Alpha-3: PSE
+  ISO_3166-2: PS
+  i18n.ru: Государство Палестина
+PT:
+  ISO_3166-1: '620'
+  ISO_3166-1.Alpha-2: PT
+  ISO_3166-1.Alpha-3: PRT
+  ISO_3166-2: PT
+  i18n.ru: Португалия
+PW:
+  ISO_3166-1: '585'
+  ISO_3166-1.Alpha-2: PW
+  ISO_3166-1.Alpha-3: PLW
+  ISO_3166-2: PW
+  i18n.ru: Палау
+PY:
+  ISO_3166-1: '600'
+  ISO_3166-1.Alpha-2: PY
+  ISO_3166-1.Alpha-3: PRY
+  ISO_3166-2: PY
+  i18n.ru: Парагвай
+QA:
+  ISO_3166-1: '634'
+  ISO_3166-1.Alpha-2: QA
+  ISO_3166-1.Alpha-3: QAT
+  ISO_3166-2: QA
+  i18n.ru: Катар
+RE:
+  ISO_3166-1: '638'
+  ISO_3166-1.Alpha-2: RE
+  ISO_3166-1.Alpha-3: REU
+  ISO_3166-2: RE
+  i18n.ru: Реюньон
+RO:
+  ISO_3166-1: '642'
+  ISO_3166-1.Alpha-2: RO
+  ISO_3166-1.Alpha-3: ROU
+  ISO_3166-2: RO
+  i18n.ru: Румыния
+RS:
+  ISO_3166-1: '688'
+  ISO_3166-1.Alpha-2: RS
+  ISO_3166-1.Alpha-3: SRB
+  ISO_3166-2: RS
+  i18n.ru: Сербия
+RU:
+  ISO_3166-1: '643'
+  ISO_3166-1.Alpha-2: RU
+  ISO_3166-1.Alpha-3: RUS
+  ISO_3166-2: RU
+  i18n.ru: Россия
+RW:
+  ISO_3166-1: '646'
+  ISO_3166-1.Alpha-2: RW
+  ISO_3166-1.Alpha-3: RWA
+  ISO_3166-2: RW
+  i18n.ru: Руанда
+SA:
+  ISO_3166-1: '682'
+  ISO_3166-1.Alpha-2: SA
+  ISO_3166-1.Alpha-3: SAU
+  ISO_3166-2: SA
+  i18n.ru: Саудовская Аравия
+SB:
+  ISO_3166-1: '90'
+  ISO_3166-1.Alpha-2: SB
+  ISO_3166-1.Alpha-3: SLB
+  ISO_3166-2: SB
+  i18n.ru: Соломоновы Острова
+SC:
+  ISO_3166-1: '690'
+  ISO_3166-1.Alpha-2: SC
+  ISO_3166-1.Alpha-3: SYC
+  ISO_3166-2: SC
+  i18n.ru: Сейшельские Острова
+SD:
+  ISO_3166-1: '729'
+  ISO_3166-1.Alpha-2: SD
+  ISO_3166-1.Alpha-3: SDN
+  ISO_3166-2: SD
+  i18n.ru: Судан
+SE:
+  ISO_3166-1: '752'
+  ISO_3166-1.Alpha-2: SE
+  ISO_3166-1.Alpha-3: SWE
+  ISO_3166-2: SE
+  i18n.ru: Швеция
+SG:
+  ISO_3166-1: '702'
+  ISO_3166-1.Alpha-2: SG
+  ISO_3166-1.Alpha-3: SGP
+  ISO_3166-2: SG
+  i18n.ru: Сингапур
+SH:
+  ISO_3166-1: '654'
+  ISO_3166-1.Alpha-2: SH
+  ISO_3166-1.Alpha-3: SHN
+  ISO_3166-2: SH
+  i18n.ru: 'Острова Святой Елены, Вознесения и Тристан-да-Кунья'
+SI:
+  ISO_3166-1: '705'
+  ISO_3166-1.Alpha-2: SI
+  ISO_3166-1.Alpha-3: SVN
+  ISO_3166-2: SI
+  i18n.ru: Словения
+SJ:
+  ISO_3166-1: '744'
+  ISO_3166-1.Alpha-2: SJ
+  ISO_3166-1.Alpha-3: SJM
+  ISO_3166-2: SJ
+  i18n.ru: Шпицберген и Ян-Майен
+SK:
+  ISO_3166-1: '703'
+  ISO_3166-1.Alpha-2: SK
+  ISO_3166-1.Alpha-3: SVK
+  ISO_3166-2: SK
+  i18n.ru: Словакия
+SL:
+  ISO_3166-1: '694'
+  ISO_3166-1.Alpha-2: SL
+  ISO_3166-1.Alpha-3: SLE
+  ISO_3166-2: SL
+  i18n.ru: Сьерра-Леоне
+SM:
+  ISO_3166-1: '674'
+  ISO_3166-1.Alpha-2: SM
+  ISO_3166-1.Alpha-3: SMR
+  ISO_3166-2: SM
+  i18n.ru: Сан-Марино
+SN:
+  ISO_3166-1: '686'
+  ISO_3166-1.Alpha-2: SN
+  ISO_3166-1.Alpha-3: SEN
+  ISO_3166-2: SN
+  i18n.ru: Сенегал
+SO:
+  ISO_3166-1: '706'
+  ISO_3166-1.Alpha-2: SO
+  ISO_3166-1.Alpha-3: SOM
+  ISO_3166-2: SO
+  i18n.ru: Сомали
+SR:
+  ISO_3166-1: '740'
+  ISO_3166-1.Alpha-2: SR
+  ISO_3166-1.Alpha-3: SUR
+  ISO_3166-2: SR
+  i18n.ru: Суринам
+SS:
+  ISO_3166-1: '728'
+  ISO_3166-1.Alpha-2: SS
+  ISO_3166-1.Alpha-3: SSD
+  ISO_3166-2: SS
+  i18n.ru: Южный Судан
+ST:
+  ISO_3166-1: '678'
+  ISO_3166-1.Alpha-2: ST
+  ISO_3166-1.Alpha-3: STP
+  ISO_3166-2: ST
+  i18n.ru: Сан-Томе и Принсипи
+SV:
+  ISO_3166-1: '222'
+  ISO_3166-1.Alpha-2: SV
+  ISO_3166-1.Alpha-3: SLV
+  ISO_3166-2: SV
+  i18n.ru: Сальвадор
+SX:
+  ISO_3166-1: '534'
+  ISO_3166-1.Alpha-2: SX
+  ISO_3166-1.Alpha-3: SXM
+  ISO_3166-2: SX
+  i18n.ru: Синт-Мартен
+SY:
+  ISO_3166-1: '760'
+  ISO_3166-1.Alpha-2: SY
+  ISO_3166-1.Alpha-3: SYR
+  ISO_3166-2: SY
+  i18n.ru: Сирия
+SZ:
+  ISO_3166-1: '748'
+  ISO_3166-1.Alpha-2: SZ
+  ISO_3166-1.Alpha-3: SWZ
+  ISO_3166-2: SZ
+  i18n.ru: Эсватини
+TC:
+  ISO_3166-1: '796'
+  ISO_3166-1.Alpha-2: TC
+  ISO_3166-1.Alpha-3: TCA
+  ISO_3166-2: TC
+  i18n.ru: Теркс и Кайкос
+TD:
+  ISO_3166-1: '148'
+  ISO_3166-1.Alpha-2: TD
+  ISO_3166-1.Alpha-3: TCD
+  ISO_3166-2: TD
+  i18n.ru: Чад
+TF:
+  ISO_3166-1: '260'
+  ISO_3166-1.Alpha-2: TF
+  ISO_3166-1.Alpha-3: ATF
+  ISO_3166-2: TF
+  i18n.ru: Французские Южные и Антарктические Территории
+TG:
+  ISO_3166-1: '768'
+  ISO_3166-1.Alpha-2: TG
+  ISO_3166-1.Alpha-3: TGO
+  ISO_3166-2: TG
+  i18n.ru: Того
+TH:
+  ISO_3166-1: '764'
+  ISO_3166-1.Alpha-2: TH
+  ISO_3166-1.Alpha-3: THA
+  ISO_3166-2: TH
+  i18n.ru: Таиланд
+TJ:
+  ISO_3166-1: '762'
+  ISO_3166-1.Alpha-2: TJ
+  ISO_3166-1.Alpha-3: TJK
+  ISO_3166-2: TJ
+  i18n.ru: Таджикистан
+TK:
+  ISO_3166-1: '772'
+  ISO_3166-1.Alpha-2: TK
+  ISO_3166-1.Alpha-3: TKL
+  ISO_3166-2: TK
+  i18n.ru: Токелау
+TL:
+  ISO_3166-1: '626'
+  ISO_3166-1.Alpha-2: TL
+  ISO_3166-1.Alpha-3: TLS
+  ISO_3166-2: TL
+  i18n.ru: Восточный Тимор
+TM:
+  ISO_3166-1: '795'
+  ISO_3166-1.Alpha-2: TM
+  ISO_3166-1.Alpha-3: TKM
+  ISO_3166-2: TM
+  i18n.ru: Туркмения
+TN:
+  ISO_3166-1: '788'
+  ISO_3166-1.Alpha-2: TN
+  ISO_3166-1.Alpha-3: TUN
+  ISO_3166-2: TN
+  i18n.ru: Тунис
+TO:
+  ISO_3166-1: '776'
+  ISO_3166-1.Alpha-2: TO
+  ISO_3166-1.Alpha-3: TON
+  ISO_3166-2: TO
+  i18n.ru: Тонга
+TR:
+  ISO_3166-1: '792'
+  ISO_3166-1.Alpha-2: TR
+  ISO_3166-1.Alpha-3: TUR
+  ISO_3166-2: TR
+  i18n.ru: Турция
+TT:
+  ISO_3166-1: '780'
+  ISO_3166-1.Alpha-2: TT
+  ISO_3166-1.Alpha-3: TTO
+  ISO_3166-2: TT
+  i18n.ru: Тринидад и Тобаго
+TV:
+  ISO_3166-1: '798'
+  ISO_3166-1.Alpha-2: TV
+  ISO_3166-1.Alpha-3: TUV
+  ISO_3166-2: TV
+  i18n.ru: Тувалу
+TW:
+  ISO_3166-1: '158'
+  ISO_3166-1.Alpha-2: TW
+  ISO_3166-1.Alpha-3: TWN
+  ISO_3166-2: TW
+  i18n.ru: Китайская Республика
+TZ:
+  ISO_3166-1: '834'
+  ISO_3166-1.Alpha-2: TZ
+  ISO_3166-1.Alpha-3: TZA
+  ISO_3166-2: TZ
+  i18n.ru: Танзания
+UA:
+  ISO_3166-1: '804'
+  ISO_3166-1.Alpha-2: UA
+  ISO_3166-1.Alpha-3: UKR
+  ISO_3166-2: UA
+  i18n.ru: Украина
+UG:
+  ISO_3166-1: '800'
+  ISO_3166-1.Alpha-2: UG
+  ISO_3166-1.Alpha-3: UGA
+  ISO_3166-2: UG
+  i18n.ru: Уганда
+UM:
+  ISO_3166-1: '581'
+  ISO_3166-1.Alpha-2: UM
+  ISO_3166-1.Alpha-3: UMI
+  ISO_3166-2: UM
+  i18n.ru: Внешние малые острова (США)
+US:
+  ISO_3166-1: '840'
+  ISO_3166-1.Alpha-2: US
+  ISO_3166-1.Alpha-3: USA
+  ISO_3166-2: US
+  i18n.ru: США
+UY:
+  ISO_3166-1: '858'
+  ISO_3166-1.Alpha-2: UY
+  ISO_3166-1.Alpha-3: URY
+  ISO_3166-2: UY
+  i18n.ru: Уругвай
+UZ:
+  ISO_3166-1: '860'
+  ISO_3166-1.Alpha-2: UZ
+  ISO_3166-1.Alpha-3: UZB
+  ISO_3166-2: UZ
+  i18n.ru: Узбекистан
+VA:
+  ISO_3166-1: '336'
+  ISO_3166-1.Alpha-2: VA
+  ISO_3166-1.Alpha-3: VAT
+  ISO_3166-2: VA
+  i18n.ru: Ватикан
+VC:
+  ISO_3166-1: '670'
+  ISO_3166-1.Alpha-2: VC
+  ISO_3166-1.Alpha-3: VCT
+  ISO_3166-2: VC
+  i18n.ru: Сент-Винсент и Гренадины
+VE:
+  ISO_3166-1: '862'
+  ISO_3166-1.Alpha-2: VE
+  ISO_3166-1.Alpha-3: VEN
+  ISO_3166-2: VE
+  i18n.ru: Венесуэла
+VG:
+  ISO_3166-1: '92'
+  ISO_3166-1.Alpha-2: VG
+  ISO_3166-1.Alpha-3: VGB
+  ISO_3166-2: VG
+  i18n.ru: Виргинские Острова (Великобритания)
+VI:
+  ISO_3166-1: '850'
+  ISO_3166-1.Alpha-2: VI
+  ISO_3166-1.Alpha-3: VIR
+  ISO_3166-2: VI
+  i18n.ru: Виргинские Острова (США)
+VN:
+  ISO_3166-1: '704'
+  ISO_3166-1.Alpha-2: VN
+  ISO_3166-1.Alpha-3: VNM
+  ISO_3166-2: VN
+  i18n.ru: Вьетнам
+VU:
+  ISO_3166-1: '548'
+  ISO_3166-1.Alpha-2: VU
+  ISO_3166-1.Alpha-3: VUT
+  ISO_3166-2: VU
+  i18n.ru: Вануату
+WF:
+  ISO_3166-1: '876'
+  ISO_3166-1.Alpha-2: WF
+  ISO_3166-1.Alpha-3: WLF
+  ISO_3166-2: WF
+  i18n.ru: Уоллис и Футуна
+WS:
+  ISO_3166-1: '882'
+  ISO_3166-1.Alpha-2: WS
+  ISO_3166-1.Alpha-3: WSM
+  ISO_3166-2: WS
+  i18n.ru: Самоа
+YE:
+  ISO_3166-1: '887'
+  ISO_3166-1.Alpha-2: YE
+  ISO_3166-1.Alpha-3: YEM
+  ISO_3166-2: YE
+  i18n.ru: Йемен
+YT:
+  ISO_3166-1: '175'
+  ISO_3166-1.Alpha-2: YT
+  ISO_3166-1.Alpha-3: MYT
+  ISO_3166-2: YT
+  i18n.ru: Майотта
+ZA:
+  ISO_3166-1: '710'
+  ISO_3166-1.Alpha-2: ZA
+  ISO_3166-1.Alpha-3: ZAF
+  ISO_3166-2: ZA
+  i18n.ru: ЮАР
+ZM:
+  ISO_3166-1: '894'
+  ISO_3166-1.Alpha-2: ZM
+  ISO_3166-1.Alpha-3: ZMB
+  ISO_3166-2: ZM
+  i18n.ru: Замбия
+ZW:
+  ISO_3166-1: '716'
+  ISO_3166-1.Alpha-2: ZW
+  ISO_3166-1.Alpha-3: ZWE
+  ISO_3166-2: ZW
+  i18n.ru: Зимбабве

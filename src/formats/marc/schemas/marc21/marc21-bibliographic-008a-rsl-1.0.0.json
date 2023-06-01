@@ -1,0 +1,1122 @@
+{ "008a": {
+  "type": "object",
+  "title": "Fixed-Length Data Elements",
+  "additionalProperties": false,
+  "properties": {
+    "18-34": {
+      "type": "string",
+      "description": "Material specific coded elements"
+    }
+  }
+},
+  "008c": {
+    "type": "object",
+    "title": "Computer Files",
+    "additionalProperties": false,
+    "properties": {
+      "22": {
+        "oneOf": [
+          {
+            "title": "Unknown or not specified",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Target audience (006/05)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f",
+              "g",
+              "j",
+              "|"
+            ],
+            "enumDescription": [
+              "Preschool",
+              "Primary",
+              "Pre-adolescent",
+              "Adolescent",
+              "Adult",
+              "Specialized",
+              "General",
+              "Juvenile",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "23": {
+        "oneOf": [
+          {
+            "title": "Unknown or not specified",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Form of item (006/06)",
+            "type": "string",
+            "enum": [
+              "o",
+              "q",
+              "|"
+            ],
+            "enumDescription": [
+              "Online",
+              "Direct electronic",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "26": {
+        "description": "Type of computer file (006/09)",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j",
+          "m",
+          "u",
+          "z",
+          "|"
+        ],
+        "enumDescription": [
+          "Numeric data",
+          "Computer program",
+          "Representational",
+          "Document",
+          "Bibliographic data",
+          "Font",
+          "Game",
+          "Sound",
+          "Interactive multimedia",
+          "Online system or service",
+          "Combination",
+          "Unknown",
+          "Other",
+          "No attempt to code"
+        ]
+      },
+      "27": {
+        "oneOf": [
+          {
+            "title": "Undefined",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Undefined (006/10)",
+            "type": "string",
+            "enum": [
+              "|"
+            ],
+            "enumDescription": [
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "28": {
+        "oneOf": [
+          {
+            "title": "Not a government publication",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Government publication (006/11)",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "f",
+              "i",
+              "l",
+              "m",
+              "o",
+              "s",
+              "u",
+              "z",
+              "|"
+            ],
+            "enumDescription": [
+              "Autonomous or semi-autonomous component",
+              "Multilocal",
+              "Federal/national",
+              "International intergovernmental",
+              "Local",
+              "Multistate",
+              "Government publication-level undetermined",
+              "State, provincial, territorial, dependent, etc.",
+              "Unknown if item is government publication",
+              "Other",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "18-21": {
+        "oneOf": [
+          {
+            "title": "Undefined",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Undefined (006/01-04)",
+            "type": "string",
+            "enum": [
+              "|"
+            ],
+            "enumDescription": [
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "24-25": {
+        "oneOf": [
+          {
+            "title": "Undefined",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Undefined (006/07-08)",
+            "type": "string",
+            "enum": [
+              "|"
+            ],
+            "enumDescription": [
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "29-34": {
+        "oneOf": [
+          {
+            "title": "Undefined",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Undefined (006/12-17)",
+            "type": "string",
+            "enum": [
+              "|"
+            ],
+            "enumDescription": [
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008d": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008e": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008f": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008g": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008i": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008j": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008k": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008m": {
+    "type": "object",
+    "title": "Music",
+    "additionalProperties": false,
+    "properties": {
+      "20": {
+        "description": "Format of music (006/03)",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "g",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m",
+          "n",
+          "u",
+          "z",
+          "|"
+        ],
+        "enumDescription": [
+          "Full score",
+          "Full score, miniature or study size",
+          "Accompaniment reduced for keyboard",
+          "Voice score with accompaniment omitted",
+          "Condensed score or piano-conductor score",
+          "Close score",
+          "Chorus score",
+          "Condensed score",
+          "Performer-conductor part",
+          "Vocal score",
+          "Score",
+          "Multiple score formats",
+          "Not applicable",
+          "Unknown",
+          "Other",
+          "No attempt to code"
+        ]
+      },
+      "21": {
+        "oneOf": [
+          {
+            "title": "No parts in hand or not specified",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Music parts (006/04)",
+            "type": "string",
+            "enum": [
+              "d",
+              "e",
+              "f",
+              "n",
+              "u",
+              "|"
+            ],
+            "enumDescription": [
+              "Instrumental and vocal parts",
+              "Instrumental parts",
+              "Vocal parts",
+              "Not applicable",
+              "Unknown",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "22": {
+        "oneOf": [
+          {
+            "title": "Unknown or unspecified",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Target audience (006/05)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f",
+              "g",
+              "j",
+              "|"
+            ],
+            "enumDescription": [
+              "Preschool",
+              "Primary",
+              "Pre-adolescent",
+              "Adolescent",
+              "Adult",
+              "Specialized",
+              "General",
+              "Juvenile",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "23": {
+        "oneOf": [
+          {
+            "title": "None of the following",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Form of item (006/06)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "f",
+              "o",
+              "q",
+              "r",
+              "s",
+              "|"
+            ],
+            "enumDescription": [
+              "Microfilm",
+              "Microfiche",
+              "Microopaque",
+              "Large print",
+              "Braille",
+              "Online",
+              "Direct electronic",
+              "Regular print reproduction",
+              "electronic",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "32": {
+        "type": "string",
+        "description": "Undefined (006/15)"
+      },
+      "33": {
+        "oneOf": [
+          {
+            "title": "Not arrangement or transposition or not specified",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Transposition and arrangement (006/16)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "n",
+              "u",
+              "|"
+            ],
+            "enumDescription": [
+              "Transposition",
+              "Arrangement",
+              "Both transposed and arranged",
+              "Not applicable",
+              "Unknown",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "34": {
+        "type": "string",
+        "description": "Undefined (006/17)"
+      },
+      "18-19": {
+        "description": "Form of composition (006/01-02)",
+        "type": "string",
+        "enum": [
+          "an",
+          "bd",
+          "bg",
+          "bl",
+          "bt",
+          "ca",
+          "cb",
+          "cc",
+          "cg",
+          "ch",
+          "cl",
+          "cn",
+          "co",
+          "cp",
+          "cr",
+          "cs",
+          "ct",
+          "cy",
+          "cz",
+          "df",
+          "dv",
+          "fg",
+          "fl",
+          "fm",
+          "ft",
+          "gm",
+          "hy",
+          "jz",
+          "mc",
+          "md",
+          "mi",
+          "mo",
+          "mp",
+          "mr",
+          "ms",
+          "mu",
+          "mz",
+          "nc",
+          "nn",
+          "op",
+          "or",
+          "ov",
+          "pg",
+          "pm",
+          "po",
+          "pp",
+          "pr",
+          "ps",
+          "pt",
+          "pv",
+          "rc",
+          "rd",
+          "rg",
+          "ri",
+          "rp",
+          "rq",
+          "sd",
+          "sg",
+          "sn",
+          "sp",
+          "st",
+          "su",
+          "sy",
+          "tc",
+          "tl",
+          "ts",
+          "uu",
+          "vi",
+          "vr",
+          "wz",
+          "za",
+          "zz",
+          "||"
+        ],
+        "enumDescription": [
+          "Anthems",
+          "Ballads",
+          "Bluegrass music",
+          "Blues",
+          "Ballets",
+          "Chaconnes",
+          "Chants, Other religions",
+          "Chant, Christian",
+          "Concerti grossi",
+          "Chorales",
+          "Chorale preludes",
+          "Canons and rounds",
+          "Concertos",
+          "Chansons, polyphonic",
+          "Carols",
+          "Chance compositions",
+          "Cantatas",
+          "Country music",
+          "Canzonas",
+          "Dance forms",
+          "Divertimentos, serenades, cassations, divertissements, and notturni",
+          "Fugues",
+          "Flamenco",
+          "Folk music",
+          "Fantasias",
+          "Gospel music",
+          "Hymns",
+          "Jazz",
+          "Musical revues and comedies",
+          "Madrigals",
+          "Minuets",
+          "Motets",
+          "Motion picture music",
+          "Marches",
+          "Masses",
+          "Multiple forms",
+          "Mazurkas",
+          "Nocturnes",
+          "Not applicable",
+          "Operas",
+          "Oratorios",
+          "Overtures",
+          "Program music",
+          "Passion music",
+          "Polonaises",
+          "Popular music",
+          "Preludes",
+          "Passacaglias",
+          "Part-songs",
+          "Pavans",
+          "Rock music",
+          "Rondos",
+          "Ragtime music",
+          "Ricercars",
+          "Rhapsodies",
+          "Requiems",
+          "Square dance music",
+          "Songs",
+          "Sonatas",
+          "Symphonic poems",
+          "Studies and exercises",
+          "Suites",
+          "Symphonies",
+          "Toccatas",
+          "Teatro lirico",
+          "Trio-sonatas",
+          "Unknown",
+          "Villancicos",
+          "Variations",
+          "Waltzes",
+          "Zarzuelas",
+          "Other",
+          "No attempt to code"
+        ]
+      },
+      "24-29": {
+        "oneOf": [
+          {
+            "title": "No accompanying matter",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Accompanying matter (006/07-12)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f",
+              "g",
+              "h",
+              "i",
+              "k",
+              "r",
+              "s",
+              "z",
+              "|"
+            ],
+            "enumDescription": [
+              "Discography",
+              "Bibliography",
+              "Thematic index",
+              "Libretto or text",
+              "Biography of composer or author",
+              "Biography of performer or history of ensemble",
+              "Technical and/or historical information on instruments",
+              "Technical information on music",
+              "Historical information",
+              "Ethnological information",
+              "Instructional materials",
+              "Music",
+              "Other",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "30-31": {
+        "oneOf": [
+          {
+            "title": "Item is a music sound recording",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Literary text for sound recordings (006/13-14)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f",
+              "g",
+              "h",
+              "i",
+              "j",
+              "k",
+              "l",
+              "m",
+              "n",
+              "o",
+              "p",
+              "r",
+              "s",
+              "t",
+              "z",
+              "|"
+            ],
+            "enumDescription": [
+              "Autobiography",
+              "Biography",
+              "Conference proceedings",
+              "Drama",
+              "Essays",
+              "Fiction",
+              "Reporting",
+              "History",
+              "Instruction",
+              "Language instruction",
+              "Comedy",
+              "Lectures, speeches",
+              "Memoirs",
+              "Not applicable",
+              "Folktales",
+              "Poetry",
+              "Rehearsals",
+              "Sounds",
+              "Interviews",
+              "Other",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008o": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008p": {
+    "type": "object",
+    "title": "Maps",
+    "additionalProperties": false,
+    "properties": {
+      "24": {
+        "title": "Undefined",
+        "type": "string",
+        "pattern": "^[# _]+$"
+      },
+      "25": {
+        "description": "Type of cartographic material (006/08)",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "u",
+          "z",
+          "|"
+        ],
+        "enumDescription": [
+          "Single map",
+          "Map series",
+          "Map serial",
+          "Globe",
+          "Atlas",
+          "Separate supplement to another work",
+          "Bound as part of another work",
+          "Unknown",
+          "Other",
+          "No attempt to code"
+        ]
+      },
+      "28": {
+        "oneOf": [
+          {
+            "title": "Not a government publication",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Government publication (006/11)",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "f",
+              "i",
+              "l",
+              "m",
+              "o",
+              "s",
+              "u",
+              "z",
+              "|"
+            ],
+            "enumDescription": [
+              "Autonomous or semi-autonomous component",
+              "Multilocal",
+              "Federal/national",
+              "International intergovernmental",
+              "Local",
+              "Multistate",
+              "Government publication-level undetermined",
+              "State, provincial, territorial, dependent, etc.",
+              "Unknown if item is government publication",
+              "Other",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "29": {
+        "oneOf": [
+          {
+            "title": "None of the following",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Form of item (006/12)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "f",
+              "o",
+              "q",
+              "r",
+              "s",
+              "|"
+            ],
+            "enumDescription": [
+              "Microfilm",
+              "Microfiche",
+              "Microopaque",
+              "Large print",
+              "Braille",
+              "Online",
+              "Direct electronic",
+              "Regular print reproduction",
+              "electronic",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "30": {
+        "title": "Undefined",
+        "type": "string",
+        "pattern": "^[# _]+$"
+      },
+      "31": {
+        "description": "Index (006/14)",
+        "type": "string",
+        "enum": [
+          "0",
+          "1",
+          "|"
+        ],
+        "enumDescription": [
+          "No index",
+          "Index present",
+          "No attempt to code"
+        ]
+      },
+      "32": {
+        "title": "Undefined",
+        "type": "string",
+        "pattern": "^[# _]+$"
+      },
+      "18-21": {
+        "oneOf": [
+          {
+            "title": "No relief shown",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Relief (006/01-04)",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f",
+              "g",
+              "i",
+              "j",
+              "k",
+              "m",
+              "z",
+              "||||"
+            ],
+            "enumDescription": [
+              "Contours",
+              "Shading",
+              "Gradient and bathymetric tints",
+              "Hachures",
+              "Bathymetry/soundings",
+              "Form lines",
+              "Spot heights",
+              "Pictorially",
+              "Land forms",
+              "Bathymetry/isolines",
+              "Rock drawings",
+              "Other",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "22-23": {
+        "description": "Projection (006/05-06)",
+        "type": "string",
+        "enum": [
+          "##",
+          "aa",
+          "ab",
+          "ac",
+          "ad",
+          "ae",
+          "af",
+          "ag",
+          "am",
+          "an",
+          "ap",
+          "au",
+          "az",
+          "ba",
+          "bb",
+          "bc",
+          "bd",
+          "be",
+          "bf",
+          "bg",
+          "bh",
+          "bi",
+          "bj",
+          "bk",
+          "bl",
+          "bo",
+          "br",
+          "bs",
+          "bu",
+          "bz",
+          "ca",
+          "cb",
+          "cc",
+          "ce",
+          "cp",
+          "cu",
+          "cz",
+          "da",
+          "db",
+          "dc",
+          "dd",
+          "de",
+          "df",
+          "dg",
+          "dh",
+          "dl",
+          "zz",
+          "||"
+        ],
+        "enumDescription": [
+          "Projection not specified",
+          "Aitoff",
+          "Gnomic",
+          "Lambert's azimuthal equal area",
+          "Orthographic",
+          "Azimuthal equidistant",
+          "Stereographic",
+          "General vertical near-sided",
+          "Modified stereographic for Alaska",
+          "Chamberlin trimetric",
+          "Polar stereographic",
+          "Azimuthal, specific type unknown",
+          "Azimuthal, other",
+          "Gall",
+          "Goode's homolographic",
+          "Lambert's cylindrical equal area",
+          "Mercator",
+          "Miller",
+          "Mollweide",
+          "Sinusoidal",
+          "Transverse Mercator",
+          "Gauss-Kruger",
+          "Equirectangular",
+          "Krovak",
+          "Cassini-Soldner",
+          "Oblique Mercator",
+          "Robinson",
+          "Space oblique Mercator",
+          "Cylindrical, specific type unknown",
+          "Cylindrical, other",
+          "Albers equal area",
+          "Bonne",
+          "Lambert's conformal conic",
+          "Equidistant conic",
+          "Polyconic",
+          "Conic, specific type unknown",
+          "Conic, other",
+          "Armadillo",
+          "Butterfly",
+          "Eckert",
+          "Goode's homolosine",
+          "Miller's bipolar oblique conformal conic",
+          "Van Der Grinten",
+          "Dimaxion",
+          "Cordiform",
+          "Lambert conformal",
+          "Other",
+          "No attempt to code"
+        ]
+      },
+      "26-27": {
+        "title": "Undefined",
+        "type": "string",
+        "pattern": "^[# _]+$"
+      },
+      "33-34": {
+        "oneOf": [
+          {
+            "title": "No specified special format characteristics",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Special format characteristics (006/16-17)",
+            "type": "string",
+            "enum": [
+              "e",
+              "j",
+              "k",
+              "l",
+              "n",
+              "o",
+              "p",
+              "r",
+              "z",
+              "||"
+            ],
+            "enumDescription": [
+              "Manuscript",
+              "Picture card, post card",
+              "Calendar",
+              "Puzzle",
+              "Game",
+              "Wall map",
+              "Playing cards",
+              "Loose-leaf",
+              "Other",
+              "No attempt to code"
+            ]
+          }
+        ]
+      },
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008r": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  },
+  "008t": {
+    "type": "object",
+    "title": "Fixed-Length Data Elements",
+    "additionalProperties": false,
+    "properties": {
+      "18-34": {
+        "type": "string",
+        "description": "Material specific coded elements"
+      }
+    }
+  }
+}

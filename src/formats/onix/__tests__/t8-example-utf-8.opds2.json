@@ -1,0 +1,80 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://f.letmeprint.ru/6-e84a6efa/preview_799_200x0.jpg",
+        "rel": "related",
+        "title": "Front cover thumbnail - size: 200x? pixels"
+      },
+      {
+        "href": "http://f.letmeprint.ru/5-53bca468/preview_799_150x0.jpg",
+        "rel": "related",
+        "title": "Front cover thumbnail - size: 150x? pixels"
+      },
+      {
+        "href": "http://f.letmeprint.ru/4-c3036e6b/pview_799_75x0.jpg",
+        "rel": "related",
+        "title": "Front cover thumbnail - size: 75x? pixels"
+      },
+      {
+        "href": "http://f.letmeprint.ru/3-9a75921d/preview_799_60x0.jpg",
+        "rel": "related",
+        "title": "Front cover thumbnail - size: 60x? pixels"
+      },
+      {
+        "href": "http://f.letmeprint.ru/2-7d72d546/preview_799_40x0.jpg",
+        "rel": "related",
+        "title": "Front cover thumbnail - size: 40x? pixels"
+      },
+      {
+        "href": "http://f.letmeprint.ru/8-e59a5d23/fragment_799.pdf",
+        "rel": "related"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "bf:Electronic",
+      "author": {
+        "name": "Северный, Александр Александрович",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "content": {
+        "en": "other",
+        "ru": "other"
+      },
+      "dc:issued": "2003",
+      "description": [
+        "Материалы II Международного Конгресса «Молодое поколение ХХI века: актуальные проблемы социально-психологического здоровья». Под редакцией А.А. Северного, Ю. С. Шевченко. Минск, 3-6 ноября 2003 г. - 277 с. Спонсоры: Международный центр «Счастливые семьи» АО. «Гедеон Рихтер» в РБ",
+        "400 p.",
+        "28 grams."
+      ],
+      "dimensions": "28 grams.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/XX-XxUND/799",
+      "language": [
+        "und",
+        "rus"
+      ],
+      "marc:type": "m",
+      "materialExtent": "400 p.",
+      "numberOfPages": 400,
+      "published": "2003",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Минск",
+        "name": "[s.n.]"
+      },
+      "responsibilityNotes": "by А.А. Северный",
+      "subject": {
+        "summary": "Материалы II Международного Конгресса «Молодое поколение ХХI века: актуальные проблемы социально-психологического здоровья». Под редакцией А.А. Северного, Ю. С. Шевченко. Минск, 3-6 ноября 2003 г. - 277 с. Спонсоры: Международный центр «Счастливые семьи» АО. «Гедеон Рихтер» в РБ"
+      },
+      "title": "МОЛОДОЕ ПОКОЛЕНИЕ ХХI ВЕКА: АКТУАЛЬНЫЕ ПРОБЛЕМЫ СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКОГО ЗДОРОВЬЯ"
+    }
+  }
+]

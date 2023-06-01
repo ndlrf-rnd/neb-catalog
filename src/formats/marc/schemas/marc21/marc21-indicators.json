@@ -1,0 +1,2738 @@
+{
+  "016": {
+    "ind1": {
+      "label": "National bibliographic agency",
+      "type": "string",
+      "enum": [
+        " ",
+        "7"
+      ],
+      "enumDescription": [
+        "Library and Archives Canada",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "017": {
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Copyright or legal deposit number",
+        "No display constant generated"
+      ]
+    }
+  },
+  "022": {
+    "ind1": {
+      "label": "Level of international interest",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No level specified",
+        "Continuing resource of international interest",
+        "Continuing resource not of international interest"
+      ]
+    }
+  },
+  "024": {
+    "ind1": {
+      "label": "Type of standard number or code",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "7",
+        "8"
+      ],
+      "enumDescription": [
+        "International Standard Recording Code",
+        "Universal Product Code",
+        "International Standard Music Number",
+        "International Article Number",
+        "Serial Item and Contribution Identifier",
+        "Source specified in subfield $2",
+        "Unspecified type of standard number or code"
+      ]
+    },
+    "ind2": {
+      "label": "Difference indicator",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "No difference",
+        "Difference"
+      ]
+    }
+  },
+  "028": {
+    "ind1": {
+      "label": "Type of number",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "enumDescription": [
+        "Issue number",
+        "Matrix number",
+        "Plate number",
+        "Other music publisher number",
+        "Video recording publisher number",
+        "Other publisher number",
+        "Distributor number"
+      ]
+    },
+    "ind2": {
+      "label": "Note/added entry controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "enumDescription": [
+        "No note, no added entry",
+        "Note, added entry",
+        "Note, no added entry",
+        "No note, added entry"
+      ]
+    }
+  },
+  "033": {
+    "ind1": {
+      "label": "Type of date in subfield $a",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No date information",
+        "Single date",
+        "Multiple single dates",
+        "Range of dates"
+      ]
+    },
+    "ind2": {
+      "label": "Type of event",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Capture",
+        "Broadcast",
+        "Finding"
+      ]
+    }
+  },
+  "034": {
+    "ind1": {
+      "label": "Type of scale",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "enumDescription": [
+        "Scale indeterminable/No scale recorded",
+        "Single scale",
+        "Range of scales"
+      ]
+    },
+    "ind2": {
+      "label": "Type of ring",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Not applicable",
+        "Outer ring",
+        "Exclusion ring"
+      ]
+    }
+  },
+  "037": {
+    "ind1": {
+      "label": "Source of acquisition sequence",
+      "type": "string",
+      "enum": [
+        " ",
+        "2",
+        "3"
+      ],
+      "enumDescription": [
+        "Not applicable/No information provided/Earliest",
+        "Intervening",
+        "Current/Latest"
+      ]
+    }
+  },
+  "041": {
+    "ind1": {
+      "label": "Translation indication",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Item not a translation/does not include a translation",
+        "Item is or includes a translation"
+      ]
+    },
+    "ind2": {
+      "label": "Source of code",
+      "type": "string",
+      "enum": [
+        " ",
+        "7"
+      ],
+      "enumDescription": [
+        "MARC language code",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "045": {
+    "ind1": {
+      "label": "Type of time period in subfield $b or $c",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Subfield $b or $c not present",
+        "Single date/time",
+        "Multiple single dates/times",
+        "Range of dates/times"
+      ]
+    }
+  },
+  "047": {
+    "ind2": {
+      "label": "Source of code",
+      "type": "string",
+      "enum": [
+        " ",
+        "7"
+      ],
+      "enumDescription": [
+        "MARC musical composition code",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "048": {
+    "ind2": {
+      "label": "Source of code",
+      "type": "string",
+      "enum": [
+        " ",
+        "7"
+      ],
+      "enumDescription": [
+        "MARC code",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "050": {
+    "ind1": {
+      "label": "Existence in LC collection",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Item is in LC",
+        "Item is not in LC"
+      ]
+    },
+    "ind2": {
+      "label": "Source of call number",
+      "type": "string",
+      "enum": [
+        "0",
+        "4"
+      ],
+      "enumDescription": [
+        "Assigned by LC",
+        "Assigned by agency other than LC"
+      ]
+    }
+  },
+  "052": {
+    "ind1": {
+      "label": "Code source",
+      "type": "string",
+      "enum": [
+        " ",
+        "1",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Classification",
+        "U.S. Dept. of Defense Classification",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "055": {
+    "ind1": {
+      "label": "Existence in LAC collection",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Information not provided",
+        "Work held by LAC",
+        "Work not held by LAC"
+      ]
+    },
+    "ind2": {
+      "label": "Type, completeness, source of class/call number",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "enumDescription": [
+        "LC-based call number assigned by LAC",
+        "Complete LC class number assigned by LAC",
+        "Incomplete LC class number assigned by LAC",
+        "LC-based call number assigned by the contributing library",
+        "Complete LC class number assigned by the contributing library",
+        "Incomplete LC class number assigned by the contributing library",
+        "Other call number assigned by LAC",
+        "Other class number assigned by LAC",
+        "Other call number assigned by the contributing library",
+        "Other class number assigned by the contributing library"
+      ]
+    }
+  },
+  "060": {
+    "ind1": {
+      "label": "Existence in NLM collection",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Item is in NLM",
+        "Item is not in NLM"
+      ]
+    },
+    "ind2": {
+      "label": "Source of call number",
+      "type": "string",
+      "enum": [
+        "0",
+        "4"
+      ],
+      "enumDescription": [
+        "Assigned by NLM",
+        "Assigned by agency other than NLM"
+      ]
+    }
+  },
+  "070": {
+    "ind1": {
+      "label": " collection",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Item is in NAL",
+        "Item is not in NAL"
+      ]
+    }
+  },
+  "072": {
+    "ind2": {
+      "label": "Code source",
+      "type": "string",
+      "enum": [
+        "0",
+        "7"
+      ],
+      "enumDescription": [
+        "NAL subject category code list",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "080": {
+    "ind1": {
+      "label": "Type of edition",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Full",
+        "Abridged"
+      ]
+    }
+  },
+  "082": {
+    "ind1": {
+      "label": "Type of edition",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "7"
+      ],
+      "enumDescription": [
+        "Full edition",
+        "Abridged edition",
+        "Other edition specified in subfield $2"
+      ]
+    },
+    "ind2": {
+      "label": "Source of classification number",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "4"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Assigned by LC",
+        "Assigned by agency other than LC"
+      ]
+    }
+  },
+  "083": {
+    "ind1": {
+      "label": "Type of edition",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "7"
+      ],
+      "enumDescription": [
+        "Full edition",
+        "Abridged edition",
+        "Other edition specified in subfield $2"
+      ]
+    }
+  },
+  "086": {
+    "ind1": {
+      "label": "Number source",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Source specified in subfield $2",
+        "Superintendent of Documents Classification System",
+        "Government of Canada Publications: Outline of Classification"
+      ]
+    }
+  },
+  "100": {
+    "ind1": {
+      "label": "Type of personal name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "enumDescription": [
+        "Forename",
+        "Surname",
+        "Family name"
+      ]
+    }
+  },
+  "110": {
+    "ind1": {
+      "label": "Type of corporate name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    }
+  },
+  "111": {
+    "ind1": {
+      "label": "Type of meeting name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    }
+  },
+  "130": {
+    "ind1": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0-9"
+      ],
+      "enumDescription": [
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "210": {
+    "ind1": {
+      "label": "Title added entry",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No added entry",
+        "Added entry"
+      ]
+    },
+    "ind2": {
+      "label": "Type",
+      "type": "string",
+      "enum": [
+        " ",
+        "0"
+      ],
+      "enumDescription": [
+        "Abbreviated key title",
+        "Other abbreviated title"
+      ]
+    }
+  },
+  "222": {
+    "ind2": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0",
+        "1-9"
+      ],
+      "enumDescription": [
+        "No nonfiling characters",
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "240": {
+    "ind1": {
+      "label": "Uniform title printed or displayed",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Not printed or displayed",
+        "Printed or displayed"
+      ]
+    },
+    "ind2": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0-9"
+      ],
+      "enumDescription": [
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "242": {
+    "ind1": {
+      "label": "Title added entry",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No added entry",
+        "Added entry"
+      ]
+    },
+    "ind2": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0",
+        "1-9"
+      ],
+      "enumDescription": [
+        "No nonfiling characters",
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "243": {
+    "ind1": {
+      "label": "Uniform title printed or displayed",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Not printed or displayed",
+        "Printed or displayed"
+      ]
+    },
+    "ind2": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0-9"
+      ],
+      "enumDescription": [
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "245": {
+    "ind1": {
+      "label": "Title added entry",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No added entry",
+        "Added entry"
+      ]
+    },
+    "ind2": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0",
+        "1-9"
+      ],
+      "enumDescription": [
+        "No nonfiling characters",
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "246": {
+    "ind1": {
+      "label": "Note/added entry controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "enumDescription": [
+        "Note, no added entry",
+        "Note, added entry",
+        "No note, no added entry",
+        "No note, added entry"
+      ]
+    },
+    "ind2": {
+      "label": "Type of title",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "enumDescription": [
+        "No type specified",
+        "Portion of title",
+        "Parallel title",
+        "Distinctive title",
+        "Other title",
+        "Cover title",
+        "Added title page title",
+        "Caption title",
+        "Running title",
+        "Spine title"
+      ]
+    }
+  },
+  "247": {
+    "ind1": {
+      "label": "Title added entry",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No added entry",
+        "Added entry"
+      ]
+    },
+    "ind2": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    }
+  },
+  "260": {
+    "ind1": {
+      "label": "Sequence of publishing statements",
+      "type": "string",
+      "enum": [
+        " ",
+        "2",
+        "3"
+      ],
+      "enumDescription": [
+        "Not applicable/No information provided/Earliest available publisher",
+        "Intervening publisher",
+        "Current/latest publisher"
+      ]
+    }
+  },
+  "264": {
+    "ind1": {
+      "label": "Sequence of statements",
+      "type": "string",
+      "enum": [
+        " ",
+        "2",
+        "3"
+      ],
+      "enumDescription": [
+        "Not applicable/No information provided/Earliest",
+        "Intervening",
+        "Current/Latest"
+      ]
+    },
+    "ind2": {
+      "label": "Function of entity",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "enumDescription": [
+        "Production",
+        "Publication",
+        "Distribution",
+        "Manufacture",
+        "Copyright notice date"
+      ]
+    }
+  },
+  "270": {
+    "ind1": {
+      "label": "Level",
+      "type": "string",
+      "enum": [
+        " ",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No level specified",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "ind2": {
+      "label": "Type of address",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "7"
+      ],
+      "enumDescription": [
+        "No type specified",
+        "Mailing",
+        "Type specified in subfield $i"
+      ]
+    }
+  },
+  "307": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Hours",
+        "No display constant generated"
+      ]
+    }
+  },
+  "342": {
+    "ind1": {
+      "label": "Geospatial reference dimension",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Horizontal coordinate system",
+        "Vertical coordinate system"
+      ]
+    },
+    "ind2": {
+      "label": "Geospatial reference method",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "enumDescription": [
+        "Geographic",
+        "Map projection",
+        "Grid coordinate system",
+        "Local planar",
+        "Local",
+        "Geodetic model",
+        "Altitude",
+        "Method specified in $2",
+        "Depth"
+      ]
+    }
+  },
+  "355": {
+    "ind1": {
+      "label": "Controlled element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "enumDescription": [
+        "Document",
+        "Title",
+        "Abstract",
+        "Contents note",
+        "Author",
+        "Record",
+        "None of the above"
+      ]
+    }
+  },
+  "362": {
+    "ind1": {
+      "label": "Format of date",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Formatted style",
+        "Unformatted note"
+      ]
+    }
+  },
+  "363": {
+    "ind1": {
+      "label": "Start/End designator",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Starting information",
+        "Ending information"
+      ]
+    },
+    "ind2": {
+      "label": "State of issuance",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Not specified",
+        "Closed",
+        "Open"
+      ]
+    }
+  },
+  "365": {
+    "ind1": {
+      "label": "Start/End designator",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Starting information",
+        "Ending information"
+      ]
+    },
+    "ind2": {
+      "label": "State of issuance",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Not specified",
+        "Closed",
+        "Open"
+      ]
+    }
+  },
+  "377": {
+    "ind2": {
+      "label": "Source of code",
+      "type": "string",
+      "enum": [
+        " ",
+        "7"
+      ],
+      "enumDescription": [
+        "MARC language code",
+        "Source specified in $2"
+      ]
+    }
+  },
+  "382": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Medium of performance",
+        "Partial medium of performance"
+      ]
+    },
+    "ind2": {
+      "label": "Access control",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Not intended for access",
+        "Intended for access"
+      ]
+    }
+  },
+  "384": {
+    "ind1": {
+      "label": "Key type",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Relationship to original unknown",
+        "Original key",
+        "Transposed key"
+      ]
+    }
+  },
+  "388": {
+    "ind1": {
+      "label": "Type of time period",
+      "type": "string",
+      "enum": [
+        " ",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Creation of work",
+        "Creation of aggregate work"
+      ]
+    }
+  },
+  "400": {
+    "ind1": {
+      "label": "Type of personal name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "enumDescription": [
+        "Forename",
+        "Surname",
+        "Family name"
+      ]
+    },
+    "ind2": {
+      "label": "Pronoun represents main entry",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Main entry not represented by pronoun",
+        "Main entry represented by pronoun"
+      ]
+    }
+  },
+  "410": {
+    "ind1": {
+      "label": "Type of corporate name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    },
+    "ind2": {
+      "label": "Pronoun represents main entry",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Main entry not represented by pronoun",
+        "Main entry represented by pronoun"
+      ]
+    }
+  },
+  "411": {
+    "ind1": {
+      "label": "Type of meeting name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    },
+    "ind2": {
+      "label": "Pronoun represents main entry",
+      "type": "string",
+      "enum": [
+        "0",
+        "9"
+      ],
+      "enumDescription": [
+        "Main entry not represented by pronoun",
+        "Main entry represented by pronoun"
+      ]
+    }
+  },
+  "440": {
+    "ind2": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0",
+        "1-9"
+      ],
+      "enumDescription": [
+        "No nonfiling characters",
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "490": {
+    "ind1": {
+      "label": "Series tracing policy",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Series not traced",
+        "Series traced"
+      ]
+    }
+  },
+  "505": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "8"
+      ],
+      "enumDescription": [
+        "Contents",
+        "Incomplete contents",
+        "Partial contents",
+        "No display constant generated"
+      ]
+    },
+    "ind2": {
+      "label": "Level of content designation",
+      "type": "string",
+      "enum": [
+        " ",
+        "0"
+      ],
+      "enumDescription": [
+        "Basic",
+        "Enhanced"
+      ]
+    }
+  },
+  "506": {
+    "ind1": {
+      "label": "Restriction",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "No restrictions",
+        "Restrictions apply"
+      ]
+    }
+  },
+  "510": {
+    "ind1": {
+      "label": "Coverage/location in source",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "enumDescription": [
+        "Coverage unknown",
+        "Coverage complete",
+        "Coverage is selective",
+        "Location in source not given",
+        "Location in source given"
+      ]
+    }
+  },
+  "511": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No display constant generated",
+        "Cast"
+      ]
+    }
+  },
+  "516": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Type of file",
+        "No display constant generated"
+      ]
+    }
+  },
+  "520": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "enumDescription": [
+        "Summary",
+        "Subject",
+        "Review",
+        "Scope and content",
+        "Abstract",
+        "Content advice",
+        "No display constant generated"
+      ]
+    }
+  },
+  "521": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "enumDescription": [
+        "Audience",
+        "Reading grade level",
+        "Interest age level",
+        "Interest grade level",
+        "Special audience characteristics",
+        "Motivation/interest level",
+        "No display constant generated"
+      ]
+    }
+  },
+  "522": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Geographic coverage",
+        "No display constant generated"
+      ]
+    }
+  },
+  "524": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Cite as",
+        "No display constant generated"
+      ]
+    }
+  },
+  "526": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "8"
+      ],
+      "enumDescription": [
+        "Reading program",
+        "No display constant generated"
+      ]
+    }
+  },
+  "535": {
+    "ind1": {
+      "label": "Custodial role",
+      "type": "string",
+      "enum": [
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Holder of originals",
+        "Holder of duplicates"
+      ]
+    }
+  },
+  "541": {
+    "ind1": {
+      "label": "Privacy",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Private",
+        "Not private"
+      ]
+    }
+  },
+  "542": {
+    "ind1": {
+      "label": "Privacy",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Private",
+        "Not private"
+      ]
+    }
+  },
+  "544": {
+    "ind1": {
+      "label": "Relationship",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Associated materials",
+        "Related materials"
+      ]
+    }
+  },
+  "545": {
+    "ind1": {
+      "label": "Type of data",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Biographical sketch",
+        "Administrative history"
+      ]
+    }
+  },
+  "555": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "8"
+      ],
+      "enumDescription": [
+        "Indexes",
+        "Finding aids",
+        "No display constant generated"
+      ]
+    }
+  },
+  "556": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Documentation",
+        "No display constant generated"
+      ]
+    }
+  },
+  "561": {
+    "ind1": {
+      "label": "Privacy",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Private",
+        "Not private"
+      ]
+    }
+  },
+  "565": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "8"
+      ],
+      "enumDescription": [
+        "File size",
+        "Case file characteristics",
+        "No display constant generated"
+      ]
+    }
+  },
+  "567": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Methodology",
+        "No display constant generated"
+      ]
+    }
+  },
+  "581": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Publications",
+        "No display constant generated"
+      ]
+    }
+  },
+  "583": {
+    "ind1": {
+      "label": "Privacy",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Private",
+        "Not private"
+      ]
+    }
+  },
+  "586": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Awards",
+        "No display constant generated"
+      ]
+    }
+  },
+  "588": {
+    "ind1": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Source of description",
+        "Latest issue consulted"
+      ]
+    }
+  },
+  "600": {
+    "ind1": {
+      "label": "Type of personal name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "enumDescription": [
+        "Forename",
+        "Surname",
+        "Family name"
+      ]
+    },
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "610": {
+    "ind1": {
+      "label": "Type of corporate name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    },
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "611": {
+    "ind1": {
+      "label": "Type of meeting name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    },
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "630": {
+    "ind1": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0-9"
+      ],
+      "enumDescription": [
+        "Number of nonfiling characters"
+      ]
+    },
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "647": {
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "648": {
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "650": {
+    "ind1": {
+      "label": "Level of subject",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "No level specified",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "651": {
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "653": {
+    "ind1": {
+      "label": "Level of index term",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "No level specified",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "ind2": {
+      "label": "Type of term or name",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Topical term",
+        "Personal name",
+        "Corporate name",
+        "Meeting name",
+        "Chronological term",
+        "Geographic name",
+        "Genre/form term"
+      ]
+    }
+  },
+  "654": {
+    "ind1": {
+      "label": "Level of subject",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "No level specified",
+        "Primary",
+        "Secondary"
+      ]
+    }
+  },
+  "655": {
+    "ind1": {
+      "label": "Type of heading",
+      "type": "string",
+      "enum": [
+        " ",
+        "0"
+      ],
+      "enumDescription": [
+        "Basic",
+        "Faceted"
+      ]
+    },
+    "ind2": {
+      "label": "Thesaurus",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Library of Congress Subject Headings",
+        "LC subject headings for children's literature",
+        "Medical Subject Headings",
+        "National Agricultural Library subject authority file",
+        "Source not specified",
+        "Canadian Subject Headings",
+        "Répertoire de vedettes-matière",
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "656": {
+    "ind2": {
+      "label": "Source of term",
+      "type": "string",
+      "enum": [
+        "7"
+      ],
+      "enumDescription": [
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "657": {
+    "ind2": {
+      "label": "Source of term",
+      "type": "string",
+      "enum": [
+        "7"
+      ],
+      "enumDescription": [
+        "Source specified in subfield $2"
+      ]
+    }
+  },
+  "700": {
+    "ind1": {
+      "label": "Type of personal name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "enumDescription": [
+        "Forename",
+        "Surname",
+        "Family name"
+      ]
+    },
+    "ind2": {
+      "label": "Type of added entry",
+      "type": "string",
+      "enum": [
+        " ",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Analytical entry"
+      ]
+    }
+  },
+  "710": {
+    "ind1": {
+      "label": "Type of corporate name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    },
+    "ind2": {
+      "label": "Type of added entry",
+      "type": "string",
+      "enum": [
+        " ",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Analytical entry"
+      ]
+    }
+  },
+  "711": {
+    "ind1": {
+      "label": "Type of meeting name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    },
+    "ind2": {
+      "label": "Type of added entry",
+      "type": "string",
+      "enum": [
+        " ",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Analytical entry"
+      ]
+    }
+  },
+  "720": {
+    "ind1": {
+      "label": "Type of name",
+      "type": "string",
+      "enum": [
+        " ",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Not specified",
+        "Personal",
+        "Other"
+      ]
+    }
+  },
+  "730": {
+    "ind1": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0-9"
+      ],
+      "enumDescription": [
+        "Number of nonfiling characters"
+      ]
+    },
+    "ind2": {
+      "label": "Type of added entry",
+      "type": "string",
+      "enum": [
+        " ",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Analytical entry"
+      ]
+    }
+  },
+  "740": {
+    "ind1": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0",
+        "1-9"
+      ],
+      "enumDescription": [
+        "No nonfiling characters",
+        "Number of nonfiling characters"
+      ]
+    },
+    "ind2": {
+      "label": "Type of added entry",
+      "type": "string",
+      "enum": [
+        " ",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Analytical entry"
+      ]
+    }
+  },
+  "760": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Main series",
+        "No display constant generated"
+      ]
+    }
+  },
+  "762": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Has subseries",
+        "No display constant generated"
+      ]
+    }
+  },
+  "765": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Translation of",
+        "No display constant generated"
+      ]
+    }
+  },
+  "767": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Translated as",
+        "No display constant generated"
+      ]
+    }
+  },
+  "770": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Has supplement",
+        "No display constant generated"
+      ]
+    }
+  },
+  "772": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "8"
+      ],
+      "enumDescription": [
+        "Supplement to",
+        "Parent",
+        "No display constant generated"
+      ]
+    }
+  },
+  "773": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "In",
+        "No display constant generated"
+      ]
+    }
+  },
+  "774": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Constituent unit",
+        "No display constant generated"
+      ]
+    }
+  },
+  "775": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Other edition available",
+        "No display constant generated"
+      ]
+    }
+  },
+  "776": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Available in another form",
+        "No display constant generated"
+      ]
+    }
+  },
+  "777": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Issued with",
+        "No display constant generated"
+      ]
+    }
+  },
+  "780": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Type of relationship",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "enumDescription": [
+        "Continues",
+        "Continues in part",
+        "Supersedes",
+        "Supersedes in part",
+        "Formed by the union of ... and ...",
+        "Absorbed",
+        "Absorbed in part",
+        "Separated from"
+      ]
+    }
+  },
+  "785": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Type of relationship",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "enumDescription": [
+        "Continued by",
+        "Continued in part by",
+        "Superseded by",
+        "Superseded in part by",
+        "Absorbed by",
+        "Absorbed in part by",
+        "Split into ... and ...",
+        "Merged with ... to form ...",
+        "Changed back to"
+      ]
+    }
+  },
+  "786": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Data source",
+        "No display constant generated"
+      ]
+    }
+  },
+  "787": {
+    "ind1": {
+      "label": "Note controller",
+      "type": "string",
+      "enum": [
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "Display note",
+        "Do not display note"
+      ]
+    },
+    "ind2": {
+      "label": "Display constant controller",
+      "type": "string",
+      "enum": [
+        " ",
+        "8"
+      ],
+      "enumDescription": [
+        "Related item",
+        "No display constant generated"
+      ]
+    }
+  },
+  "800": {
+    "ind1": {
+      "label": "Type of personal name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "enumDescription": [
+        "Forename",
+        "Surname",
+        "Family name"
+      ]
+    }
+  },
+  "810": {
+    "ind1": {
+      "label": "Type of corporate name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    }
+  },
+  "811": {
+    "ind1": {
+      "label": "Type of meeting name entry element",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Inverted name",
+        "Jurisdiction name",
+        "Name in direct order"
+      ]
+    }
+  },
+  "830": {
+    "ind2": {
+      "label": "Nonfiling characters",
+      "type": "string",
+      "enum": [
+        "0",
+        "1-9"
+      ],
+      "enumDescription": [
+        "No nonfiling characters",
+        "Number of nonfiling characters"
+      ]
+    }
+  },
+  "852": {
+    "ind1": {
+      "label": "Shelving scheme",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Library of Congress classification",
+        "Dewey Decimal classification",
+        "National Library of Medicine classification",
+        "Superintendent of Documents classification",
+        "Shelving control number",
+        "Title",
+        "Shelved separately",
+        "Source specified in subfield $2",
+        "Other scheme"
+      ]
+    },
+    "ind2": {
+      "label": "Shelving order",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Not enumeration",
+        "Primary enumeration",
+        "Alternative enumeration"
+      ]
+    }
+  },
+  "856": {
+    "ind1": {
+      "label": "Access method",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "7"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Email",
+        "FTP",
+        "Remote login (Telnet)",
+        "Dial-up",
+        "HTTP",
+        "Method specified in subfield $2"
+      ]
+    },
+    "ind2": {
+      "label": "Relationship",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "8"
+      ],
+      "enumDescription": [
+        "No information provided",
+        "Resource",
+        "Version of resource",
+        "Related resource",
+        "No display constant generated"
+      ]
+    }
+  },
+  "883": {
+    "ind1": {
+      "label": "Method of machine assignment",
+      "type": "string",
+      "enum": [
+        " ",
+        "0",
+        "1"
+      ],
+      "enumDescription": [
+        "No information provided/not applicable",
+        "Fully machine-generated",
+        "Partially machine-generated"
+      ]
+    }
+  },
+  "886": {
+    "ind1": {
+      "label": "Type of field",
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "enumDescription": [
+        "Leader",
+        "Variable control fields (002-009)",
+        "Variable data fields (010-999)"
+      ]
+    }
+  }
+}

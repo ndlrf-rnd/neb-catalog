@@ -1,0 +1,23 @@
+<record>
+  <leader>01036nam0p2200253   450 </leader>
+  <controlfield tag="001">000028728</controlfield>
+  <controlfield tag="005">20080212134630.0</controlfield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">RU\NLR\A2\4060</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="100">
+    <subfield code="a">20071101j178303  |||y0rusy50######</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20071101</subfield>
+    <subfield code="g">RCR</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20071101</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+</record>

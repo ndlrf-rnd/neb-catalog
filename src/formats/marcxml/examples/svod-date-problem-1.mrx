@@ -1,0 +1,94 @@
+<record>
+  <leader>01611nam0p2200265 i 450 </leader>
+  <controlfield tag="001">RU\NLR\A1\11362</controlfield>
+  <controlfield tag="005">20050211170128.0</controlfield>
+  <datafield ind1=" " ind2=" " tag="100">
+    <subfield code="a">19980713d1787####|||y0rusy50######ca</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="101">
+    <subfield code="a">rus</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="200">
+    <subfield code="a">Фемист и Иеронима</subfield>
+    <subfield code="e">Трагедия.</subfield>
+    <subfield code="f">Василья Майкова</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="205">
+    <subfield code="a">2-е изд.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="210">
+    <subfield code="a">М.</subfield>
+    <subfield code="c">Тип. Комп. типогр.</subfield>
+    <subfield code="d">178775</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="215">
+    <subfield code="a">67 с.</subfield>
+    <subfield code="d">8°</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Сюжет заимствован из переведенного И.Шишкиным романа "История о княжне Иерониме..."</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="321">
+    <subfield code="a">Сводный каталог русской книги гражданской печати XVIII века. 1725-1800. М., 1962-1975.</subfield>
+    <subfield code="c">3948</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="620">
+    <subfield code="d">Москва</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="686">
+    <subfield code="a">01.02.03.05.01</subfield>
+    <subfield code="h">Общероссийский свод книжных памятников</subfield>
+    <subfield code="h">Единичные книжные памятники</subfield>
+    <subfield code="h">Текстовые издания</subfield>
+    <subfield code="h">издания русского гражданского шрифта</subfield>
+    <subfield code="j">XVIII в.</subfield>
+    <subfield code="2">RUBBM</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="700">
+    <subfield code="a">Майков</subfield>
+    <subfield code="b">В.И.</subfield>
+    <subfield code="f">1728-1778</subfield>
+    <subfield code="g">Василий Иванович</subfield>
+    <subfield code="4">070</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="702">
+    <subfield code="a">Шишкин</subfield>
+    <subfield code="b">И.В.</subfield>
+    <subfield code="f">1722-1750 или 1751</subfield>
+    <subfield code="g">Иван Васильевич</subfield>
+    <subfield code="4">100</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="2" tag="712">
+    <subfield code="a">Типографическая компания</subfield>
+    <subfield code="c">Москва</subfield>
+    <subfield code="b">Типография</subfield>
+    <subfield code="4">610</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="2" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20110405</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РНБ</subfield>
+    <subfield code="c">19980713</subfield>
+    <subfield code="g">RCR</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РНБ</subfield>
+    <subfield code="c">20050211</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="909">
+    <subfield code="a">Книжный памятник - Издание</subfield>
+    <subfield code="3">RU.BM.TEMPLATE.RUSMARC.BIBL.PUBLICATION</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="930">
+    <subfield code="a">Эксперт РГБ</subfield>
+    <subfield code="b">выгрузка РГБ</subfield>
+    <subfield code="c">19980713</subfield>
+  </datafield>
+</record>

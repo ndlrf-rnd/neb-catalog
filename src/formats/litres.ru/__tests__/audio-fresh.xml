@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fb-updates xmlns:l="http://www.w3.org/1999/xlink" timestamp="2020-07-01 03:50:57">
+  <updated-book id="2452775" created="2013-06-27 19:34:11" updated="2020-07-01 03:27:06" valid_till="2020-10-01"
+                valid_from="2010-10-01" size="9715301" sent_by_name="palek" sent_by_id="32" must_import="0" options="66"
+                price="99.00" you_can_sell="0" allow_read="0" allow_sell="0" has_trial="0" allow_full_free="0"
+                public_domain="0" show_card="64" contract_author="119123" contract_title="АСТ-Аудиокнига"
+                subject_id="47318" file_id="5832395" external_id="37534078-042e-11e1-8be0-47117d41cf4b" cover="jpg"
+                type="1" litres_isbn="978-5-457-15037-9" first_time_sale="2011-11-01 05:12:37" adult="12" file_parts="0"
+                available="0" available_date="2019-07-24 14:06:34" copyright_read_online="0" contract_ends="2020-07-01"
+                art_cover="jpg" lvl="3" sell_open="2" can_preorder="0" litex="0" chars="8663" drm="0" publisher=""
+                date_written_s="1895" date_written_d="1895-01-01" lang="ru" src_lang="en" cover_h="199" cover_w="200"
+                art_cover_w="200" art_cover_h="199" lang3="rus" src_lang3="eng" status="approved" rating="852"
+                url="brem-stoker/drakula-sokraschennyy-pereskaz-2452775/" inapp_price="ru.litres.app.refill_199.XXL">
+    <files>
+      <group value="Ознакомительный фрагмент. MP3" group_id="1">
+        <file id="3926875" size="498048" filename="sample.mp3" seconds="8651" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="5832395" size="9715301" filename="sampleb.mp3" seconds="8663" mime_type="audio/mpeg"
+              file_description="MP3"/>
+      </group>
+      <group value="Стандартное качество. MP3, 128 Kbps" group_id="3">
+        <file id="3926885" size="778085" filename="B.Stoker_-_Drakula_01.mp3" seconds="49" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926895" size="2525172" filename="B.Stoker_-_Drakula_02.mp3" seconds="158" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926905" size="2531018" filename="B.Stoker_-_Drakula_03.mp3" seconds="159" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926915" size="3883110" filename="B.Stoker_-_Drakula_04.mp3" seconds="243" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926925" size="4082483" filename="B.Stoker_-_Drakula_05.mp3" seconds="256" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926935" size="3336002" filename="B.Stoker_-_Drakula_06.mp3" seconds="209" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926945" size="5048381" filename="B.Stoker_-_Drakula_07.mp3" seconds="316" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926955" size="4255515" filename="B.Stoker_-_Drakula_08.mp3" seconds="266" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926975" size="4808476" filename="B.Stoker_-_Drakula_09.mp3" seconds="301" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926965" size="4380069" filename="B.Stoker_-_Drakula_10.mp3" seconds="274" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926985" size="4197421" filename="B.Stoker_-_Drakula_11.mp3" seconds="263" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3926995" size="4293553" filename="B.Stoker_-_Drakula_12.mp3" seconds="269" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927005" size="4581933" filename="B.Stoker_-_Drakula_13.mp3" seconds="287" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927015" size="4352900" filename="B.Stoker_-_Drakula_14.mp3" seconds="273" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927035" size="3956258" filename="B.Stoker_-_Drakula_15.mp3" seconds="248" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927025" size="5156632" filename="B.Stoker_-_Drakula_16.mp3" seconds="323" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927045" size="4220403" filename="B.Stoker_-_Drakula_17.mp3" seconds="264" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927055" size="4681423" filename="B.Stoker_-_Drakula_18.mp3" seconds="293" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927065" size="4698129" filename="B.Stoker_-_Drakula_19.mp3" seconds="294" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927075" size="5191335" filename="B.Stoker_-_Drakula_20.mp3" seconds="325" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927085" size="4061991" filename="B.Stoker_-_Drakula_21.mp3" seconds="254" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927095" size="3936194" filename="B.Stoker_-_Drakula_22.mp3" seconds="246" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927105" size="4589467" filename="B.Stoker_-_Drakula_23.mp3" seconds="287" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927115" size="5162490" filename="B.Stoker_-_Drakula_24.mp3" seconds="323" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927125" size="4107971" filename="B.Stoker_-_Drakula_25.mp3" seconds="257" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927135" size="3354398" filename="B.Stoker_-_Drakula_26.mp3" seconds="210" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927145" size="6110414" filename="B.Stoker_-_Drakula_27.mp3" seconds="382" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927155" size="4596142" filename="B.Stoker_-_Drakula_28.mp3" seconds="288" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927165" size="4870759" filename="B.Stoker_-_Drakula_29.mp3" seconds="305" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927175" size="5513576" filename="B.Stoker_-_Drakula_30.mp3" seconds="345" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927185" size="5584206" filename="B.Stoker_-_Drakula_31.mp3" seconds="349" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3927195" size="5542829" filename="B.Stoker_-_Drakula_32.mp3" seconds="347" mime_type="audio/mpeg"
+              file_description="MP3"/>
+      </group>
+      <group value="Мобильная версия. MP4" group_id="19">
+        <file id="3927205" size="68846170" filename="Drakula.m4b" seconds="8651" mime_type="audio/m4b"
+              file_description="M4B-файл"/>
+      </group>
+      <group value="MP3 файлы в zip архиве" group_id="20">
+        <file id="3927745" size="136420777" filename="B.Stoker_-_Drakula.zip" mime_type="application/zip"
+              file_description="ZIP - файл"/>
+      </group>
+    </files>
+    <title-info>
+      <genre>sf_horror</genre>
+      <genre>adventure</genre>
+      <genre>child_det</genre>
+      <author>
+        <first-name>Брэм</first-name>
+        <last-name>Стокер</last-name>
+        <full-name>Брэм Стокер</full-name>
+        <id>ba0bda53-2a81-102a-9ae1-2dfe723fe7c7</id>
+        <hub-id>47318</hub-id>
+      </author>
+      <reteller>
+        <first-name>Ростислав</first-name>
+        <last-name>Нестеров</last-name>
+        <full-name>Ростислав Нестеров</full-name>
+        <id>1e867e96-042e-11e1-8be0-47117d41cf4b</id>
+        <hub-id>1795115</hub-id>
+      </reteller>
+      <reader>
+        <nickname>Александр Филиппенко</nickname>
+        <id>3b868801-2fae-102d-93f9-060d30c95e7d</id>
+        <hub-id>79602</hub-id>
+      </reader>
+      <reader>
+        <nickname>Диомид Виноградов</nickname>
+        <id>78c34d1a-8965-102d-9ab1-2309c0a91052</id>
+        <hub-id>173012</hub-id>
+      </reader>
+      <book-title>Дракула (сокращенный пересказ)</book-title>
+      <annotation>
+        <p>Хочешь попасть в неведомый мир, полный опасностей и приключений? Тогда эта аудиокнига для тебя! Голос Дракулы
+          вызовет мурашки, и холодок пробежит по телу… Познакомься с бесстрашным Джонатаном Харкером и его друзьями,
+          узнай, кто такие вампиры и как с ними бороться, а главное – как их победить!
+        </p>
+        <p>И помни, что злые силы отступают перед смелыми и находчивыми!</p>
+        <p>Пересказ Ростислава Нестерова.</p>
+      </annotation>
+      <date value="1895-01-01">1895</date>
+      <lang>ru</lang>
+      <src-lang>en</src-lang>
+      <keywords>экранизации,магический реализм,вампиры,некромантия,мистические тайны,бессмертные,мистическая
+        проза,английская классика,захватывающие приключения,иные миры
+      </keywords>
+    </title-info>
+    <document-info>
+      <author>
+        <nickname>meshcheryakova@litres.ru</nickname>
+      </author>
+      <date value="2011-11-01">2011-11-01</date>
+      <id>37534078-042e-11e1-8be0-47117d41cf4b</id>
+      <version>1.0</version>
+      <publisher>
+        <nickname>Аудиоагент «Аудиокнига-АСТ»</nickname>
+        <id>cfef03d2-06d4-102c-99a2-0288a49f2f10</id>
+        <hub-id>62968</hub-id>
+      </publisher>
+    </document-info>
+    <book-title title="Дракула (сокращенный пересказ)"/>
+    <annotation>
+      <p>Хочешь попасть в неведомый мир, полный опасностей и приключений? Тогда эта аудиокнига для тебя! Голос Дракулы
+        вызовет мурашки, и холодок пробежит по телу… Познакомься с бесстрашным Джонатаном Харкером и его друзьями,
+        узнай, кто такие вампиры и как с ними бороться, а главное – как их победить!
+      </p>
+      <p>И помни, что злые силы отступают перед смелыми и находчивыми!</p>
+      <p>Пересказ Ростислава Нестерова.</p>
+    </annotation>
+    <authors>
+      <author id="ba0bda53-2a81-102a-9ae1-2dfe723fe7c7">
+        <subject_id>47318</subject_id>
+        <url>brem-stoker/</url>
+        <first-name>Брэм</first-name>
+        <middle-name></middle-name>
+        <last-name>Стокер</last-name>
+        <full-name-rodit>Брэма Стокер</full-name-rodit>
+        <lvl>3</lvl>
+        <relation>0</relation>
+      </author>
+      <author id="cfef03d2-06d4-102c-99a2-0288a49f2f10">
+        <subject_id>62968</subject_id>
+        <url>audioagent-audiokniga-ast/</url>
+        <first-name>Аудиоагент</first-name>
+        <middle-name></middle-name>
+        <last-name>Аудиокнига-АСТ</last-name>
+        <full-name-rodit></full-name-rodit>
+        <lvl>1</lvl>
+        <relation>2</relation>
+        <exid>183897</exid>
+      </author>
+      <author id="3b868801-2fae-102d-93f9-060d30c95e7d">
+        <subject_id>79602</subject_id>
+        <url>aleksandr-filippenko/</url>
+        <first-name>Александр</first-name>
+        <middle-name>Георгиевич</middle-name>
+        <last-name>Филиппенко</last-name>
+        <full-name-rodit>Александра Филиппенко</full-name-rodit>
+        <lvl>4</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="78c34d1a-8965-102d-9ab1-2309c0a91052">
+        <subject_id>173012</subject_id>
+        <url>diomid-vinogradov/</url>
+        <first-name>Диомид</first-name>
+        <middle-name></middle-name>
+        <last-name>Виноградов</last-name>
+        <full-name-rodit>Диомида Виноградова</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="1e867e96-042e-11e1-8be0-47117d41cf4b">
+        <subject_id>1795115</subject_id>
+        <url>rostislav-nesterov/</url>
+        <first-name>Ростислав</first-name>
+        <middle-name></middle-name>
+        <last-name>Нестеров</last-name>
+        <full-name-rodit>Ростислава Нестерова</full-name-rodit>
+        <lvl>1</lvl>
+        <relation>5</relation>
+      </author>
+    </authors>
+    <genres>
+      <genre title="детские детективы" id="5109" bisac="JUV028000"/>
+      <genre title="классика фантастики" id="56305" master="1"/>
+      <genre title="книги о приключениях" id="6454" bisac="FIC002000"/>
+      <genre title="мистика" id="5223" bisac="FIC022000"/>
+    </genres>
+    <copyrights>
+      <copyright id="119123" title="Аудиокнига (АСТ)" percent="100.00"/>
+    </copyrights>
+  </updated-book>
+  <updated-book id="2455535" created="2013-07-04 17:32:13" updated="2020-07-01 03:27:18" valid_till="2020-10-01"
+                valid_from="2010-10-01" size="5666544" sent_by_name="palek" sent_by_id="32" must_import="0" options="66"
+                price="99.00" you_can_sell="0" allow_read="0" allow_sell="0" has_trial="0" allow_full_free="0"
+                public_domain="0" show_card="64" contract_author="119123" contract_title="АСТ-Аудиокнига"
+                subject_id="44615" file_id="5832335" external_id="63fb9466-0733-11e1-aac2-5924aae99221" cover="jpg"
+                type="1" litres_isbn="978-5-457-15045-4" first_time_sale="2011-11-05 03:56:52" adult="6" file_parts="0"
+                available="0" available_date="2019-07-24 14:06:02" copyright_read_online="0" contract_ends="2020-07-01"
+                art_cover="jpg" lvl="2" sell_open="2" can_preorder="0" litex="0" chars="8576" drm="0" publisher=""
+                date_written_s="1844" date_written_d="1844-01-01" lang="ru" cover_h="357" cover_w="331"
+                art_cover_w="331" art_cover_h="357" lang3="rus" status="approved" rating="9564"
+                url="aleksandr-duma/tri-mushketera-spektakl-dlya-detey-2455535/"
+                inapp_price="ru.litres.app.refill_199.XXL">
+    <files>
+      <group value="Ознакомительный фрагмент. MP3" group_id="1">
+        <file id="3937405" size="494592" filename="sample.mp3" seconds="8566" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="5832335" size="5666544" filename="sampleb.mp3" seconds="8576" mime_type="audio/mpeg"
+              file_description="MP3"/>
+      </group>
+      <group value="Стандартное качество. MP3, 128 Kbps" group_id="3">
+        <file id="3937415" size="727103" filename="A.Dyuma_-_Tri_mushketera_00.mp3" seconds="46" mime_type="audio/mpeg"
+              file_description="MP3"/>
+        <file id="3937455" size="5666544" filename="A.Dyuma_-_Tri_mushketera_01.mp3" seconds="355"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937425" size="6374567" filename="A.Dyuma_-_Tri_mushketera_02.mp3" seconds="399"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937445" size="5759331" filename="A.Dyuma_-_Tri_mushketera_03.mp3" seconds="360"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937475" size="5328415" filename="A.Dyuma_-_Tri_mushketera_04.mp3" seconds="334"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937435" size="5397796" filename="A.Dyuma_-_Tri_mushketera_05.mp3" seconds="338"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937465" size="4849016" filename="A.Dyuma_-_Tri_mushketera_06.mp3" seconds="304"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937485" size="5598835" filename="A.Dyuma_-_Tri_mushketera_07.mp3" seconds="350"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937495" size="6036438" filename="A.Dyuma_-_Tri_mushketera_08.mp3" seconds="378"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937505" size="6046469" filename="A.Dyuma_-_Tri_mushketera_09.mp3" seconds="378"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937515" size="5585878" filename="A.Dyuma_-_Tri_mushketera_10.mp3" seconds="350"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937525" size="6251269" filename="A.Dyuma_-_Tri_mushketera_11.mp3" seconds="391"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937535" size="7355099" filename="A.Dyuma_-_Tri_mushketera_12.mp3" seconds="460"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937545" size="6309783" filename="A.Dyuma_-_Tri_mushketera_13.mp3" seconds="395"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937555" size="5658603" filename="A.Dyuma_-_Tri_mushketera_14.mp3" seconds="354"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937565" size="6453561" filename="A.Dyuma_-_Tri_mushketera_15.mp3" seconds="404"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937575" size="6253359" filename="A.Dyuma_-_Tri_mushketera_16.mp3" seconds="391"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937585" size="5778557" filename="A.Dyuma_-_Tri_mushketera_17.mp3" seconds="362"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937595" size="5813666" filename="A.Dyuma_-_Tri_mushketera_18.mp3" seconds="364"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937605" size="7103488" filename="A.Dyuma_-_Tri_mushketera_19.mp3" seconds="444"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937615" size="5646900" filename="A.Dyuma_-_Tri_mushketera_20.mp3" seconds="353"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937625" size="6599847" filename="A.Dyuma_-_Tri_mushketera_21.mp3" seconds="413"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937635" size="6135494" filename="A.Dyuma_-_Tri_mushketera_22.mp3" seconds="384"
+              mime_type="audio/mpeg" file_description="MP3"/>
+        <file id="3937645" size="4299400" filename="A.Dyuma_-_Tri_mushketera_23.mp3" seconds="269"
+              mime_type="audio/mpeg" file_description="MP3"/>
+      </group>
+      <group value="Мобильная версия. MP4" group_id="19">
+        <file id="3937655" size="68289323" filename="Tri_mushketyora.m4b" seconds="8566" mime_type="audio/m4b"
+              file_description="M4B-файл"/>
+      </group>
+      <group value="MP3 файлы в zip архиве" group_id="20">
+        <file id="3939165" size="135716244" filename="A.Dyuma_-_Tri_mushketera.zip" mime_type="application/zip"
+              file_description="ZIP - файл"/>
+      </group>
+    </files>
+    <title-info>
+      <genre>adv_history</genre>
+      <author>
+        <first-name>Александр</first-name>
+        <last-name>Дюма</last-name>
+        <full-name>Александр Дюма</full-name>
+        <id>e05b7d98-2a80-102a-9ae1-2dfe723fe7c7</id>
+        <hub-id>44615</hub-id>
+      </author>
+      <reader>
+        <nickname>Лев Дуров</nickname>
+        <id>5ec52acd-2a83-102a-9ae1-2dfe723fe7c7</id>
+        <hub-id>51982</hub-id>
+      </reader>
+      <reader>
+        <nickname>Семен Чайка</nickname>
+        <id>ce20074b-1113-102c-96f3-af3a14b75ca4</id>
+        <hub-id>63228</hub-id>
+      </reader>
+      <reader>
+        <nickname>Игорь Старыгин</nickname>
+        <id>3b7d382a-2fae-102d-93f9-060d30c95e7d</id>
+        <hub-id>74262</hub-id>
+      </reader>
+      <reader>
+        <nickname>Вениамин Смехов</nickname>
+        <id>3bf72229-2fae-102d-93f9-060d30c95e7d</id>
+        <hub-id>112692</hub-id>
+      </reader>
+      <book-title>Три мушкетера (спектакль для детей)</book-title>
+      <annotation>
+        <p>Хочешь окунуться и мир приключений и познакомиться с юным гасконцем д&apos;Артаньяном и отважными мушкетерами
+          Атосом, Портосом и Арамисом? Если ты уже смотрел знаменитый фильм «Три мушкетера», то тебя ждет приятный
+          сюрприз! В аудиокниге, которую ты держишь в руках, вновь встретились все три мушкетера. Вениамин Смехов,
+          Валентин Смирнитский и Игорь Старыгин, а роль капитана Де Тревиля озвучивает сам Лев Дуров!
+        </p>
+      </annotation>
+      <date value="1844-01-01">1844</date>
+      <lang>ru</lang>
+      <keywords>авантюрные приключения,становление героя,придворные интриги,мужская дружба,французская
+        классика,захватывающие приключения,аудиоспектакли,опасные приключения
+      </keywords>
+    </title-info>
+    <document-info>
+      <author>
+        <nickname>meshcheryakova@litres.ru</nickname>
+      </author>
+      <date value="2011-11-05">2011-11-05</date>
+      <id>63fb9466-0733-11e1-aac2-5924aae99221</id>
+      <version>1.0</version>
+      <publisher>
+        <nickname>Аудиоагент «Аудиокнига-АСТ»</nickname>
+        <id>cfef03d2-06d4-102c-99a2-0288a49f2f10</id>
+        <hub-id>62968</hub-id>
+      </publisher>
+    </document-info>
+    <book-title title="Три мушкетера (спектакль для детей)"/>
+    <annotation>
+      <p>Хочешь окунуться и мир приключений и познакомиться с юным гасконцем д&apos;Артаньяном и отважными мушкетерами
+        Атосом, Портосом и Арамисом? Если ты уже смотрел знаменитый фильм «Три мушкетера», то тебя ждет приятный
+        сюрприз! В аудиокниге, которую ты держишь в руках, вновь встретились все три мушкетера. Вениамин Смехов,
+        Валентин Смирнитский и Игорь Старыгин, а роль капитана Де Тревиля озвучивает сам Лев Дуров!
+      </p>
+    </annotation>
+    <authors>
+      <author id="e05b7d98-2a80-102a-9ae1-2dfe723fe7c7">
+        <subject_id>44615</subject_id>
+        <url>aleksandr-duma/</url>
+        <first-name>Александр</first-name>
+        <middle-name></middle-name>
+        <last-name>Дюма</last-name>
+        <full-name-rodit>Александра Дюма</full-name-rodit>
+        <lvl>2</lvl>
+        <relation>0</relation>
+      </author>
+      <author id="5ec52acd-2a83-102a-9ae1-2dfe723fe7c7">
+        <subject_id>51982</subject_id>
+        <url>lev-durov/</url>
+        <first-name>Лев</first-name>
+        <middle-name>Константинович</middle-name>
+        <last-name>Дуров</last-name>
+        <full-name-rodit>Льва Дурова</full-name-rodit>
+        <lvl>2</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="cfef03d2-06d4-102c-99a2-0288a49f2f10">
+        <subject_id>62968</subject_id>
+        <url>audioagent-audiokniga-ast/</url>
+        <first-name>Аудиоагент</first-name>
+        <middle-name></middle-name>
+        <last-name>Аудиокнига-АСТ</last-name>
+        <full-name-rodit></full-name-rodit>
+        <lvl>1</lvl>
+        <relation>2</relation>
+        <exid>183896</exid>
+      </author>
+      <author id="ce20074b-1113-102c-96f3-af3a14b75ca4">
+        <subject_id>63228</subject_id>
+        <url>semen-chayka/</url>
+        <first-name>Семен</first-name>
+        <middle-name></middle-name>
+        <last-name>Чайка</last-name>
+        <full-name-rodit>Семена Чайки</full-name-rodit>
+        <lvl>2</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="3b7d382a-2fae-102d-93f9-060d30c95e7d">
+        <subject_id>74262</subject_id>
+        <url>igor-starygin/</url>
+        <first-name>Игорь</first-name>
+        <middle-name></middle-name>
+        <last-name>Старыгин</last-name>
+        <full-name-rodit>Игоря Старыгина</full-name-rodit>
+        <lvl>3</lvl>
+        <relation>6</relation>
+      </author>
+      <author id="3bf72229-2fae-102d-93f9-060d30c95e7d">
+        <subject_id>112692</subject_id>
+        <url>veniamin-smehov/</url>
+        <first-name>Вениамин</first-name>
+        <middle-name>Борисович</middle-name>
+        <last-name>Смехов</last-name>
+        <full-name-rodit>Вениамина Смехова</full-name-rodit>
+        <lvl>3</lvl>
+        <relation>6</relation>
+      </author>
+    </authors>
+    <genres>
+      <genre title="исторические приключения" id="5095" bisac="FIC002000" master="1"/>
+    </genres>
+    <relations>
+      <related uuid="e7f97a0d-5183-4eca-8bc8-909f9a4c8f0d" relation="25" type="0"/>
+      <related uuid="7cee3907-077c-102c-99a2-0288a49f2f10" relation="7" type="1"/>
+      <related uuid="c58ce570-077c-102c-99a2-0288a49f2f10" relation="7" type="1"/>
+      <related uuid="bb88dd4a-639a-102d-9ab1-2309c0a91052" relation="7" type="1"/>
+      <related uuid="91238984-c553-11e2-b841-002590591ed2" relation="7" type="1"/>
+      <related uuid="5b3ecb03-cefd-11e4-8ca3-002590591ed2" relation="25" type="0"/>
+    </relations>
+    <copyrights>
+      <copyright id="119123" title="Аудиокнига (АСТ)" percent="100.00"/>
+    </copyrights>
+  </updated-book>
+  <removed-book id="53980036" uid="2112e569-8973-11ea-9063-0cc47a5f1565" removed="2020-07-01 02:05:08"/>
+  <removed-book id="53980060" uid="2c60ecb1-8973-11ea-9063-0cc47a5f1565" removed="2020-07-01 02:05:16"/>
+</fb-updates>

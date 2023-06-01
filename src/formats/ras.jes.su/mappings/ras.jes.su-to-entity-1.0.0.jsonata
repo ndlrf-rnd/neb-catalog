@@ -1,0 +1,382 @@
+(
+  $makeCitation := function($ctx) {
+    $ctx.list_ref.EN.reference._text.{
+      "name": $join(
+        $split($, '\n').$trim($),
+        ' '
+      )
+      /* "coverage": $.b,
+      "locationWithinSource": ,
+      "uri": ,
+      "issn":
+      */
+    }
+  };
+  $makeSubject := function($ctx) {
+      (
+        $haveEn := $ctx.keywords_list.EN._text or $ctx.rubric_en._text;
+        $haveRu := $ctx.keywords_list.RU._text or $ctx.rubric_ru._text;
+        $haveEn or $haveRu ? {
+        'en': $haveEn
+            ? [$ctx.keywords_list.EN._text, $ctx.rubric_en._text].$split($, / *, */).$trim($)
+            : undefined,
+        'ru': $haveRu
+            ? [$ctx.keywords_list.RU._text, $ctx.rubric_ru._text].$split($, / *, */).$trim($)
+            : undefined
+        } : undefined
+      )
+  };
+
+  $publisher := function($ctx) {
+    $ctx.[
+      {
+        "name": "LLC Integration Education and Science",
+        "@id": "https://ras.jes.su",
+        "identifier": "ras.jes.su"
+      },
+      $.affiliation._text.$ or $.address._text.$ ? {
+        "name": $.affiliation._text.$,
+        "addressLocality": $.address._text.$
+      } : undefined
+    ].$
+  };
+
+  $author := function($ctx) {
+    $ctx.{
+      "name": {
+        "ru": $join([$.name_ru._text.$, $.patronymic._text.$, $.surname_en._text.$], " "),
+        "en": $join([$.name_en._text.$, $.surname_en._text.$], " ")
+      },
+      "email": $.email._text.$,
+      "birthDate": $.birthday._text[$not($ = '0')].$,
+      "deathDate": undefined,
+      "relCode": "aut",
+      "affiliation": {
+        "ru": $.position_place_of_work._text.$,
+        "en": $.position_place_of_work_en._text.$
+      },
+      "relTerm": {
+        "ru": "автор",
+        "en": "author"
+      },
+      "@id": 'https://ras.jes.su/index.php?dispatch=authors.details&author_id=' & $.profile_id._text.$,
+      "identifier": 'urn:ras.jes.su:person:' & $.profile_id._text.$,
+      "address": {
+        "ru": $.address._text.$,
+        "en": $.address_en._text.$
+      },
+      "title": $.internet_profile._text.$
+    }
+  };
+
+  $image := function($ctx, $productId) {
+    {
+      "href": $join([
+        'http://ras.jes.su/images/publication_images',
+        $productId,
+        $ctx.image_path._text.$
+      ], '/'),
+      "@id": $join([
+        'http://ras.jes.su/images/publication_images',
+        $productId,
+        $ctx.image_path._text.$
+      ], '/'),
+      "identifier": $ctx.image_id._text.$,
+      "width": $ctx.image_x._text[$not($='0')].$number($),
+      "height": $ctx.image_y._text[$not($='0')].$number($),
+      "title": $ctx.alt._text.$
+    }
+  };
+
+  $makeResponsibilityNotes := function ($ctx) {
+    $ctx.financing_sources or $ctx.financing_sources_en ? $ctx.{
+     "ru": $join($ctx.financing_sources._text.$split($, '\n').$trim($), ' ').$trim($),
+     "en": $join($ctx.financing_sources_en._text.$split($, '\n').$trim($), ' ').$trim($)
+    } : undefined
+  };
+
+  $makePeriodical := function($journal) {
+    {
+      "metadata": {
+        "@type": "https://schema.org/Periodical",
+        "identifier": 'urn:issn:' & $journal.issn._text.$trim(),
+        "issn": $journal.issn._text.$trim(),
+        "@id": $journal.issn._text.("https://portal.issn.org/resource/ISSN/" & $),
+        "title": "КВАЗИНАЗВАНИЕ",
+        "name": {"en": "MOCK TITLE", "ru": "КВАЗИНАЗВАНИЕ"}
+      }
+    }
+  };
+
+/*
+<journal>
+  <type>D</type>
+  <ltype>A</ltype>
+  <status>P</status>
+  <product_type>C</product_type>
+
+  <list_price>0.0</list_price>
+  <quarter>1</quarter>
+
+  <date_public>1566432000</date_public>
+  <year>2019</year>
+  <product_id>9152</product_id>
+
+  <issue_id>460</issue_id>
+  <month>0</month>
+  <volume>55</volume>
+  <number>3</number>
+
+  <redactor_ids>
+  </redactor_ids>
+  <publication_ids>9912,9652,8471,9635,9646,8513,9644,9650,9634,9651,9637</publication_ids>
+*/
+
+  $makeIssue := function($journal) {
+    $journal.{
+      "metadata": {
+        "@type": "https://schema.org/PublicationIssue",
+        "title": $.name.[$.RU._text.$, $.EN._text.$][0],
+        "name": {
+          "ru": $.name.RU._text.$,
+          "en": $.name.EN._text.$
+        },
+        /*
+        "product_id": $.product_id._text.$,
+        "product_type": $.product_type._text.$,
+        "date_public": $.date_public._text.$,
+        "list_price": $.list_price._text.$,
+
+        "volume": $.volume._text.$,
+        "number": $.number._text.$,
+
+        "status": $.status._text.$
+        "type": $.type._text.$,
+        "ltype": $.ltype._text.$,
+        "year": $.year._text.$,
+        "quarter": $.quarter._text.$,
+        "month": $.month._text.$,
+        "redactor_ids": $.redactor_ids._text.$,
+        "publication_ids": $.publication_ids._text.$split($, ',')
+        */
+
+        /*
+        "subtitle": undefined,
+        "keyTitle": undefined,
+        "sortAs": undefined,
+        */
+         /* FIXME: locate and remove hardcode like below */
+        "issueNumber": $.number._text.$,
+        "@id": "/resources/publication_issue/ras.jes.su/" & $.product_id._text,
+        "identifier": "urn:ras.jes.su:issue:" & $.product_id._text,
+        "modified": $.timestamp._text.$,
+        "language": 'ru-RU',
+        "nameOfWorkPart": $.name._text.$,
+        "numberOfWorkPart": $.issue_id._text.$,
+        "numberOfPages":  $.page_from._text.$ and $.page_to._text.$ ? $number($.page_to._text.$) - $number($.page_from._text.$) : undefined,
+        "author": $.authors.author.$author($),
+
+        "contributor": $.contributor.{
+        },
+        "publisher": $publisher($).$,
+        "dc:issued": $.date_public._text.$fromMillis($number($) * 1000).$,
+        "published": $.date_public._text.$fromMillis($number($) * 1000).$,
+        "subject": $makeSubject($),
+        "description": $.full_description._text.$,
+        "responsibilityNotes": $makeResponsibilityNotes($),
+        "issn": $.issn._text.$trim($),
+        "belongsTo": {
+          "series": [
+            $makePeriodical($)
+          ]
+        },
+        "alternateName": undefined,
+        "materialDescription": undefined,
+        "disambiguatingDescription": undefined,
+        "bf:scale": undefined,
+        "restrictionAndAccessNote": undefined,
+        "toc": $.publications.publication.{
+          "title": $.product.[$.RU._text.$, $.EN._text.$][0],
+          "name": {
+            "ru": $.product.RU._text.$,
+            "en": $.product.EN._text.$
+          },
+          "rel": "item",
+          "href": "/resources/scholarly_article/ras.jes.su/" & $.external_pid._text.$
+        }
+      },
+      "links": $.publications.publication.{
+        "title": $.product.[$.RU._text.$, $.EN._text.$][0],
+        "name": {
+          "ru": $.product.RU._text.$,
+          "en": $.product.EN._text.$
+        },
+        "rel": "item",
+        "href": "/resources/scholarly_article/ras.jes.su/" & $.external_pid._text.$
+      }
+      /* Don't define links here otherwise they will override publication links */
+    }
+  };
+
+  $makePublication := function ($publication, $productId) {
+    $publication.{
+      "metadata": {
+        "@type": "https://schema.org/ScholarlyArticle",
+        "title": $.product.[$.RU._text.$, $.EN._text.$][0],
+        "name": {
+          "ru": $.product.RU._text.$,
+          "en": $.product.EN._text.$
+        },
+        "sortAs": undefined,
+
+         /* FIXME: locate and remove hardcode like below */
+        "identifier": [
+          $.product_id.("/resources/scholarly_article/ras.jes.su/" & $).$,
+          $.show_doi._text.$ and $.doi._text.$ ? "doi:" & $.doi._text.$ : undefined
+        ],
+        "modified": $.timestamp._text.$,
+        "language": 'ru-RU',
+        "nameOfWorkPart": $.name._text.$,
+        "numberOfWorkPart": $.issue_id._text.$,
+        "numberOfPages":  $.page_from._text.$ and $.page_to._text.$ ? $number($.page_to._text.$) - $number($.page_from._text.$) : undefined,
+        "author": $.authors.author.$author($),
+        "contributor": $.contributor.{
+        },
+        "publisher": $publisher($),
+        "dc:issued": $.date_public._text.$fromMillis($number($) * 1000).$,
+        "published": $.date_public._text.$fromMillis($number($) * 1000).$,
+        "subject": $makeSubject($),
+        "citation": $makeCitation($),
+        "description": $.full_description._text.$,
+        "responsibilityNotes": $makeResponsibilityNotes($),
+        "belongsTo": {
+          "series": "/resources/scholarly_article/ras.jes.su/" & $productId
+        },
+        "alternateName": undefined,
+        "materialDescription": undefined,
+        "disambiguatingDescription": undefined,
+        "bf:scale": undefined,
+        "restrictionAndAccessNote": undefined
+      },
+      "images": $.[publication_images.image.$image($, $.product_id._text)].$,
+      "links": [
+        {
+          "title": 'Текст статьи',
+          "href": [$.text._attributes.href, $.text._text][0],
+          "rel": "http://opds-spec.org/acquisition/open-access"
+        },
+        $.doi._text.{
+          "href": 'https://doi.org/' & $,
+          "rel": "alternate",
+          "alt": "DOI"
+        }
+      ]
+    }
+  };
+
+  $record := $.record;
+  [
+    $.journal.[
+      /* Create journal with ISSN as pinpoint */
+      {
+        "kind": "periodical",
+        "source": "ras.jes.su",
+        "key":  $.issn._text.$,
+        "record": $makePeriodical($),
+        "media_type": "application/opds+json",
+        "time_source": $.date_public ? $.$fromMillis($number($join($.date_public._text, '') & "000")) : undefined
+      },
+      /* Create journal issue */
+      {
+        "kind": "publication_issue",
+        "source": "ras.jes.su",
+        "key": $.product_id._text.$string($),
+
+        "record": $makeIssue($),
+        "media_type": "application/opds+json",
+        "time_source": $.date_public ? $.$fromMillis($number($join($.date_public._text, '') & "000")) : undefined
+      },
+
+      /* Link periodical to issue */
+      {
+        "kind_from": "periodical",
+        "source_from": "ras.jes.su",
+        "key_from": $.issn._text,
+
+        "kind_to": "publication_issue",
+        "source_to": "ras.jes.su",
+        "key_to": $.product_id._text.$string($),
+
+        "relation_kind": "hasPart"
+      }
+    ],
+
+    /* Create neb science */
+    {
+      "kind": "collection",
+      "source": "catalog.rusneb.ru",
+      "key":  "science",
+      "time_source": $.date_public ? $.$fromMillis($number($join($.date_public._text, '') & "000")) : undefined,
+      "media_type": "application/opds+json",
+      "record": '{"links":[],"metadata":{"title":"НЭБ: Наука","name":"НЭБ: Наука"]}}'
+    },
+
+    /* Publications */
+    $.journal.(
+      $productId := $.product_id._text.$;
+      publications.publication.{
+        "kind": "scholarly_article",
+        "source": "ras.jes.su",
+        "key": $join($.external_pid._text, ''),
+
+        "time_source": $.date_public ? $.$fromMillis($number($join($.date_public._text, '') & "000")) : undefined,
+        "media_type": "application/opds+json",
+        "record": $makePublication($, $productId)
+      }
+    ),
+
+    /* Attach journal to science collection */
+    $.journal.{
+      "kind_from": "collection",
+      "source_from": "catalog.rusneb.ru",
+      "key_from":  "science",
+
+      "kind_to": "periodical",
+      "source_to": "ras.jes.su",
+      "key_to":  $.issn._text.$,
+
+      "relation_kind": "has_item"
+    },
+
+    /* Attach pub to issue */
+    $.journal.publications.publication.{
+      "kind_from": "publication_issue",
+      "source_from": "ras.jes.su",
+      "key_from": $join(%.%.product_id._text, ''),
+
+      "kind_to": "scholarly_article",
+      "source_to": "ras.jes.su",
+      "key_to": $join($.external_pid._text, ''),
+
+      "relation_kind": "item"
+    },
+
+    /* For example:
+    The article "The semantic web" was published in May 2001, in volume 284, issue 5 of Scientific american on pages 28 through 37.
+    That issue of Scientific American contained 33 other articles listed at http://www.nature.com/scientificamerican/journal/v284/n5/index.html.
+    The editors for that issue included Mark Alpert, Steve Ashley, and Carol Ezzell.
+    */
+    /* Attack doi to publication */
+
+    $.journal.publications.publication.$.doi._text.{
+      "kind_from": "scholarly_article",
+      "source_from": "ras.jes.su",
+      "key_from": $join(%.%.external_pid._text, ''),
+      "kind_to": "identifier",
+      "source_to": "doi",
+      "key_to": $,
+
+      "relation_kind":"identifiedBy"
+    }
+  ].$;
+)

@@ -1,0 +1,98 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01002000000/rsl01002986000/rsl01002986566/rsl01002986566.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "?",
+        "deathDate": "после 1821",
+        "name": "Афанасьев, Пафнутий Алексеевич",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "XXIII-26727",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/MK IV-33851/MK XIX / 8°-А",
+            "name": "MK",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "MK XIX / 8°-А",
+            "stockNumber": "MK IV-33851"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/Ф 810-87 / 375-2",
+            "name": "OMF2",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "Ф 810-87 / 375-2"
+          }
+        ]
+      },
+      "citation": [
+        {
+          "locationWithinSource": "389",
+          "name": "Сводный каталог русской книги 1801-1825 гг."
+        }
+      ],
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1771",
+          "deathDate": "1839",
+          "name": "Двигубский, Иван Алексеевич",
+          "relCode": "cns",
+          "relTerm": "цензор",
+          "role": "cns"
+        }
+      ],
+      "dc:issued": "1818",
+      "description": [
+        "На с. 30 авт.: Пафнутий Афанасьев.",
+        "Ценз.: И.А. Двигубский, 19 янв. 1817 г.",
+        "Имеется электронная копия",
+        "30, [2] с., [102] л. табл.",
+        "8° (20 см)"
+      ],
+      "dimensions": "8° (20 см)",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/002986566",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "30, [2] с., [102] л. табл.",
+      "modified": "2019-09-19T10:46:36.0Z",
+      "numberOfPages": 102,
+      "published": "1818",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Санктпетербург",
+        "name": "В типографии Департамента народнаго просвещения"
+      },
+      "title": "Таблицы логарифмов простых чисел и тригонометрических линей"
+    }
+  }
+]

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service
+    xmlns="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dcx="http://www.digicol.com/xmlns/dcx"
+    xml:lang="ru">
+
+    <dcx:date>2019-11-14T07:14:16+03:00</dcx:date>
+    <dcx:user_dn>uid=robot.neb,ou=people,dc=example,dc=com</dcx:user_dn>
+    <dcx:user_id>#local_openldap#uid#robot.neb</dcx:user_id>
+    <dcx:user_topic_id>tmt77rsw8cpi7peho6xeiq</dcx:user_topic_id>
+    <dcx:version>1.22.0</dcx:version>
+
+    <atom:link rel="self" href="/dcx_mkrf/atom" type="application/atomsvc+xml"/>
+    <atom:link rel="alternate" href="/dcx_mkrf/" type="text/html"/>
+        
+    <workspace>
+    
+        <atom:title>DCX</atom:title>
+            
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/documents?q[channel][]=channel_files_nebbooks">
+            <atom:title>Книги НЭБ: файлы</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>documents_channel</dcx:feed_type>
+            
+        </collection>
+        
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/tagdefs">
+            <atom:title>All tag definitions</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>all_tagdefs</dcx:feed_type>
+        </collection>
+                
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/my/usertags">
+            <atom:title>My tags</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>my_usertags</dcx:feed_type>
+        </collection>
+                
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/my/sharedusertags">
+            <atom:title>My shared user tags</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>my_sharedusertags</dcx:feed_type>
+        </collection>
+                
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/my/groupusertags">
+            <atom:title>My group user tags</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>my_groupusertags</dcx:feed_type>
+        </collection>
+                
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/doctoutags">
+            <atom:title>My document to tag mappings</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>my_doctoutags</dcx:feed_type>
+        </collection>
+                
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/my/jobs">
+            <atom:title>My jobs</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>my_jobs</dcx:feed_type>
+        </collection>
+                
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/files">
+            <atom:title>All files</atom:title>
+            <accept>*/*</accept>
+            <dcx:feed_type>all_files</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/tagdefs?q[text_content]=1">
+            <atom:title>All text content tags</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>text_content_tags</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/documents">
+            <atom:title>Target for new documents</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>create_document</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=docstatus">
+            <atom:title>List of all document status values</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>document_status</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=taskstatus">
+            <atom:title>List of all document task status values</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>document_taskstatus</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=section">
+            <atom:title>List of all publication sections</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>pub_sections</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=publication">
+            <atom:title>List of all publications</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>pub_publications</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/tm_topics?q[tmi_instance_of]=edition">
+            <atom:title>List of all publication editions</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>pub_editions</dcx:feed_type>
+        </collection>
+        <collection href="https://dc.mkrf.ru/dcx_mkrf/atom/my/uploadconfigs">
+            <atom:title>List of all permitted upload targets</atom:title>
+            <accept>application/atom+xml;type=entry</accept>
+            <dcx:feed_type>upload_permitted_configurations</dcx:feed_type>
+        </collection>
+    </workspace>
+
+</service>

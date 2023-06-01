@@ -1,0 +1,48 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/provider-submission.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/",
+  "type": "object",
+  "description": "Create new data provider",
+  "examples": [
+    {
+      "account": "example-archivist@rusneb.ru",
+      "secret": "SECRET_API_TOKEN_FOR_YOUR_ACCOUNT",
+      "code": "new_dp",
+      "email": "asmin@data-povider.ru",
+      "power": false
+    }
+  ],
+  "required": [
+    "account",
+    "secret",
+    "code",
+    "email"
+  ],
+  "properties": {
+    "secret": {
+      "title": "Account secret access token",
+      "description": "Data provider account API key (32/64 long string, case-insensitive)",
+      "$ref": "/schemas/common-parameters.json#/$defs/secret"
+    },
+    "account": {
+      "title": "Data provider account",
+      "$ref": "/schemas/common-parameters.json#/$defs/account"
+    },
+    "code": {
+      "title": "Data provider code",
+      "type": "string",
+      "$ref": "/schemas/common-parameters.json#/$defs/account"
+    },
+    "email": {
+      "title": "Data provider code",
+      "type": "string",
+      "format": "email"
+    },
+    "power": {
+      "title": "Is poer user",
+      "type": "boolean",
+      "format": false
+    }
+  }
+}

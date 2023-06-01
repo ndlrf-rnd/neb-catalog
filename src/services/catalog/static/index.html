@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Russian National electronic library (NEL) - catalog.rusneb.ru</title>
+    <link rel="stylesheet" href="/static/contrib/highlight.js/10.1.1/a11y-dark.min.css">
+    <link rel="stylesheet" href="/static/app/auto-former/auto-former-flex.css">
+    <link rel="stylesheet" href="/static/app/components/operations.css">
+
+    <link rel="stylesheet" href="/static/app/index.css">
+    <link rel="stylesheet" href="/static/app/endpoints.css"/>
+
+    <script src="/static/contrib/@apidevtools/json-schema-ref-parser.js"></script>
+    <script src="/static/contrib/uri-templates/uri-templates.min.js"></script>
+    <script src="/static/contrib/highlight.js/10.1.1/highlight.min.js"></script>
+<!--    <script type="module" src="/static/contrib/vue-highlightjs/index.js"></script>-->
+
+<body>
+<div id="root" class="container container-main root">
+    <endpoints :current-path="currentPath"></endpoints>
+</div>
+<script type="module">
+  import Vue from './static/contrib/vue/vue@2.6.11.esm.browser.js';
+  import './static/app/endpoints.js';
+
+  const vm = new Vue({
+    el: '#root',
+    data: {
+      currentPath: location.hash.split('#').slice(1).join('#') || '/',
+    },
+  });
+  window.onhashchange = () => {
+    console.info(`# URL changed: ${window.location.hash}`)
+    vm.currentPath = location.hash.split('#').slice(1).join('#') || '/';
+  };
+</script>
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+[
+  {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            28
+          ]
+        ],
+        "date-time": "2020-03-28T09:50:45Z",
+        "timestamp": 1585389045632
+      },
+      "reference-count": 0,
+      "publisher": "LLC Integration Education and Science",
+      "issue": "2",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "DOI": "10.18254/s207751800005912-2",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2019-12-02T15:01:20Z",
+        "timestamp": 1575298880000
+      },
+      "page": "0",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Application of Agent-based approach to the Modeling of Processes in the Field of Migration Policy"
+      ],
+      "prefix": "10.18254",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Vladimir",
+          "family": "Abramov",
+          "sequence": "first",
+          "affiliation": []
+        }
+      ],
+      "member": "16973",
+      "container-title": [
+        "Artificial societies"
+      ],
+      "original-title": [],
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2019-12-02T15:01:20Z",
+        "timestamp": 1575298880000
+      },
+      "score": 1,
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "issue": "2"
+      },
+      "alternative-id": [
+        "1"
+      ],
+      "URL": "http://dx.doi.org/10.18254/s207751800005912-2",
+      "relation": {},
+      "ISSN": [
+        "2077-5180"
+      ],
+      "issn-type": [
+        {
+          "value": "2077-5180",
+          "type": "print"
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            28
+          ]
+        ],
+        "date-time": "2020-03-28T09:50:45Z",
+        "timestamp": 1585389045659
+      },
+      "reference-count": 0,
+      "publisher": "LLC Integration Education and Science",
+      "issue": "2",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "DOI": "10.18254/s207751800005393-1",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2019-12-02T15:01:20Z",
+        "timestamp": 1575298880000
+      },
+      "page": "0",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Principles of collaborative development of complex agent-based simulation models"
+      ],
+      "prefix": "10.18254",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Aleksandr",
+          "family": "Belianov",
+          "sequence": "first",
+          "affiliation": []
+        }
+      ],
+      "member": "16973",
+      "container-title": [
+        "Artificial societies"
+      ],
+      "original-title": [],
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2019-12-02T15:01:22Z",
+        "timestamp": 1575298882000
+      },
+      "score": 1,
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "issue": "2"
+      },
+      "alternative-id": [
+        "1"
+      ],
+      "URL": "http://dx.doi.org/10.18254/s207751800005393-1",
+      "relation": {},
+      "ISSN": [
+        "2077-5180"
+      ],
+      "issn-type": [
+        {
+          "value": "2077-5180",
+          "type": "print"
+        }
+      ]
+    }
+  }
+]

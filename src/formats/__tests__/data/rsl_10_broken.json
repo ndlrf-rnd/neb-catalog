@@ -1,0 +1,192 @@
+[
+  {
+    "controlfield": [],
+    "datafield": [
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined000027433\u001eRuMoRGB\u001e20111101131737.0\u001e031225 n aznnnaaba           | ana     d\u001e  "
+          },
+          {
+            "code": "a",
+            "value": "(RuMoRGB)MEKACOL-004"
+          }
+        ],
+        "tag": "010"
+      },
+      {
+        "ind1": "4",
+        "ind2": "3",
+        "subfield": [
+          {
+            "code": "7",
+            "value": "03\u001e  "
+          },
+          {
+            "code": "a",
+            "value": "RuMoRGB"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "e",
+            "value": "rcr\u001e  "
+          },
+          {
+            "code": "2",
+            "value": "rubbk\u001e2 "
+          },
+          {
+            "code": "a",
+            "value": "Ethiopian orthodox mission (Addis Ababa"
+          }
+        ],
+        "tag": "030"
+      },
+      {
+        "ind1": "a",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "1",
+            "value": " "
+          },
+          {
+            "code": "a",
+            "value": "Addis Ababa"
+          },
+          {
+            "code": "b",
+            "value": "Ethiopian orthodox mission\u001e  "
+          },
+          {
+            "code": "a",
+            "value": "ГАК РГБ\u001e  "
+          },
+          {
+            "code": "a",
+            "value": "Americana, Europa\u001e  "
+          },
+          {
+            "code": "a",
+            "value": "63\u001e  "
+          },
+          {
+            "code": "a",
+            "value": "N\u001e\u001d"
+          }
+        ],
+        "tag": "050"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "080"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "350"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "400"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "700"
+      },
+      {
+        "ind1": "u",
+        "ind2": "n",
+        "subfield": [
+          {
+            "code": "d",
+            "value": "efined"
+          }
+        ],
+        "tag": "750"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "63\u001e  "
+          },
+          {
+            "code": "a",
+            "value": "N\u001e\u001d"
+          }
+        ],
+        "tag": "610"
+      }
+    ],
+    "leader": "00461nz  a2200181т  4500"
+  }
+]

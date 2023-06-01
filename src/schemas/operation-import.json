@@ -1,0 +1,30 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/operation-input.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/",
+  "type": "object",
+  "description": "Import operation",
+  "properties": {
+    "type": {
+      "const": "import"
+    },
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "description": "Public URL with dump data provided as is or as gzip archive (NOT TAR!)",
+          "format": "uri",
+          "type": "string"
+        },
+        "mediaType": {
+          "$ref": "/schemas/media-types.json#",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "mediaType"
+      ]
+    }
+  }
+}

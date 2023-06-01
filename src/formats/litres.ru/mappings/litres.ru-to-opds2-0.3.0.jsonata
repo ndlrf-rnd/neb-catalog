@@ -1,0 +1,765 @@
+(
+  $rusLcRelCode := function($str) {
+    [
+      $lookup(
+        {
+          "acp": "Копиист произведения изобразительного искусства",
+          "act": "Актер",
+          "adp": "Автор адаптации",
+          "aft": "Автор послесловия",
+          "anl": "Аналитик",
+          "anm": "Аниматор",
+          "ann": "Автор аннотации",
+          "ant": "Библиографический предшественник",
+          "app": "Проситель",
+          "aqt": "Автор цитат или выдержек из текста",
+          "arc": "Архитектор",
+          "ard": "Художественный руководитель",
+          "arr": "Аранжировщик",
+          "art": "Художник",
+          "asg": "Цессионарий",
+          "asn": "Ассоциированное имя",
+          "att": "Предполагаемый автор",
+          "auc": "Аукционист",
+          "aud": "Автор диалога",
+          "aui": "Автор предисловия и т. п.",
+          "aus": "Автор сценария и т. п.",
+          "aut": "Автор",
+          "bdd": "Оформитель переплета",
+          "bjd": "Оформитель суперобложки",
+          "bkd": "Оформитель книги",
+          "bkp": "Производитель книг",
+          "bnd": "Переплетчик",
+          "bpd": "Оформитель экслибриса",
+          "bsl": "Книготорговец",
+          "ccp": "Автор идеи",
+          "chr": "Хореограф",
+          "clb": "Сотрудник",
+          "cli": "Клиент",
+          "cll": "Каллиграф",
+          "clt": "Фототипист",
+          "cmm": "Комментатор",
+          "cmp": "Композитор",
+          "cmt": "Наборщик",
+          "cng": "Кинематографист",
+          "cnd": "Дирижер",
+          "cns": "Цензор",
+          "coe": "Противная сторона",
+          "col": "Коллекционер",
+          "com": "Составитель",
+          "cos": "Противная сторона",
+          "cot": "Ответчик",
+          "cov": "Оформитель обложки",
+          "cpc": "Претендент на авторское",
+          "cpe": "Истец-ответчик по апелляции в деле",
+          "cph": "Владелец авторского права",
+          "cpl": "Истец возмещения",
+          "cpt": "Истец-апеллянт по делу",
+          "cre": "Создатель",
+          "crp": "Корреспондент",
+          "crr": "Корректор рукописей",
+          "csl": "Консультант",
+          "csp": "Консультант проекта",
+          "cst": "Художник-костюмер",
+          "ctb": "Автор произведения",
+          "cte": "Противная сторона",
+          "ctg": "Картограф",
+          "ctr": "Подрядчик",
+          "cts": "Противная сторона",
+          "ctt": "Противная сторона",
+          "cur": "Куратор выставки",
+          "cwt": "Автор комментариев и примечаний к печатному тексту",
+          "dfd": "Ответчик",
+          "dfe": "Ответчик",
+          "dft": "Ответчик",
+          "dgg": "Организация",
+          "sgd": "Постановщик",
+          "sll": "Продавец/поставщик",
+          "dgs": "Degree supervisor",
+          "dis": "Соискатель",
+          "dln": "Чертёжник",
+          "dnc": "Танцор",
+          "dnr": "Даритель",
+          "dpc": "Предмет изображения",
+          "dpt": "Депозитор",
+          "drm": "Рисовальщик",
+          "drt": "Режиссер",
+          "dsr": "Оформитель",
+          "dst": "Распространитель",
+          "dtc": "Поставщик данных",
+          "dte": "Объект посвящения",
+          "dtm": "Администратор данных",
+          "dto": "Автор посвящения",
+          "dub": "Сомнительный автор",
+          "edt": "Редактор",
+          "egr": "Гравёр",
+          "elg": "Осветитель",
+          "elt": "Изготовитель гальваностереотипов",
+          "eng": "Инженер",
+          "etr": "Офортист",
+          "exp": "Эксперт",
+          "fac": "Факсимилист",
+          "fld": "Руководитель полевых работ",
+          "flm": "Режиссер монтажа",
+          "fmo": "Бывший владелец",
+          "fpy": "Первичный правообладатель",
+          "fnd": "Инвестор",
+          "frg": "Изготовитель подделки",
+          "gis": "Специалист по географической информационной системе",
+          "hnr": "Объект чествования",
+          "hst": "Гость",
+          "ill": "Иллюстратор",
+          "ilu": "Художник-иллюминатор рукописи",
+          "ins": "Автор дарственной надписи",
+          "inv": "Изобретатель",
+          "itr": "Инструменталист",
+          "ive": "Интервьюируемый",
+          "ivr": "Интервьюер",
+          "lbr": "Лаборатория",
+          "lbt": "Либреттист",
+          "ldr": "Руководитель лабораторных занятий",
+          "led": "Руководитель",
+          "lee": "Ответчик в морском и церковном судопроизводстве",
+          "lel": "Ответчик в морском и церковном судопроизводстве",
+          "len": "Дающий книгу в долг",
+          "let": "Ответчик в морском и церковном судопроизводстве",
+          "lgd": "Художник по свету",
+          "lie": "Истец в морском и церковном судопроизводстве",
+          "lil": "Истец в морском и церковном судопроизводстве",
+          "lit": "Истец в морском и церковном судопроизводстве",
+          "lsa": "Ландшафтный архитектор",
+          "lse": "Лицензедержатель",
+          "lso": "Лицензедатель",
+          "ltg": "Литограф",
+          "lyr": "Автор слов песни",
+          "mcp": "Переписчик нот",
+          "mfr": "Изготовитель",
+          "mdc": "Ответственный за метаданные",
+          "mod": "Ведущий",
+          "mon": "Наблюдатель",
+          "mrk": "Редактор файлов гипертекстовой разметки",
+          "msd": "Музыкальный директор",
+          "mte": "Гравёр по металлу",
+          "mus": "Музыкант",
+          "nrt": "Повествователь; актёр",
+          "opn": "Оппонент",
+          "org": "Инициатор",
+          "orm": "Организатор конференции",
+          "oth": "Прочее",
+          "own": "Владелец",
+          "pat": "Покровитель",
+          "pbd": "Ответственный",
+          "pbl": "Издатель",
+          "pdr": "Руководитель проекта",
+          "pfr": "Корректор печатных текстов",
+          "pht": "Фотограф",
+          "plt": "Изготовитель печатных форм",
+          "pma": "Разрешающее ведомство",
+          "pmn": "Руководитель производства",
+          "pop": "Печатник гравюр",
+          "ppm": "Изготовитель бумаги",
+          "ppt": "Кукловод",
+          "prc": "Ответственный за обработку данных",
+          "prd": "Персонал художественно-постановочной части",
+          "prf": "Исполнитель",
+          "prg": "Программист",
+          "prm": "Гравировщик",
+          "pro": "Продюсер",
+          "prt": "Типограф",
+          "pta": "Патентозаявитель",
+          "pte": "Истец",
+          "ptf": "Истец",
+          "pth": "Патентовладелец",
+          "ptt": "Истец",
+          "rbr": "Исполнитель заголовков и красных строк",
+          "rce": "Инженер звукозаписи",
+          "rcp": "Адресат",
+          "red": "Редактор-составитель",
+          "ren": "Создатель эскизов",
+          "res": "Исследователь",
+          "rev": "Рецензен",
+          "rps": "Репозитарий",
+          "rpt": "Репортёр",
+          "rpy": "Юридически ответственная сторона",
+          "rse": "Ответчик по делу",
+          "rsg": "Постановщик",
+          "rsp": "Ответчик по делу",
+          "rst": "Ответчик по делу",
+          "rth": "Руководитель исследовательского коллектива",
+          "rtm": "Участник исследовательского коллектива",
+          "sad": "Научный консультант",
+          "sce": "Сценарист",
+          "scl": "Скульптор",
+          "scr": "Писарь",
+          "sds": "Художник по звуку",
+          "sec": "Секретарь",
+          "sgn": "Автор подписи",
+          "sht": "Принимающая сторона",
+          "sng": "Певец",
+          "spk": "Диктор",
+          "spn": "Спонсор",
+          "spy": "Сторона-правопреемник",
+          "srv": "Землемер",
+          "std": "Художник-декоратор",
+          "stl": "Рассказчик",
+          "stm": "Ассистент режиссёра",
+          "stn": "Орган по стандартизации",
+          "str": "Изготовитель стереотипов",
+          "tcd": "Технический директор",
+          "tch": "Преподаватель",
+          "ths": "Научный руководитель",
+          "osp": "Телевизионный ведущий",
+          "trc": "Переписчик",
+          "trl": "Переводчик",
+          "tyd": "Разработчик шрифта",
+          "tyg": "Шрифтовой оформитель",
+          "vdg": "Оператор-видеопостановщик",
+          "voc": "Вокалист",
+          "wam": "Автор текста сопроводительного материала",
+          "wdc": "Гравёр по дереву в технике обрезной ксилографии",
+          "wde": "Гравёр по дереву в технике торцовой ксилографии",
+          "wit": "Свидетель"
+        },
+        $str ? $str : "aut"
+      ),
+      $str
+    ][0]
+  };
+  $rusRelCode := function($str) {
+      [
+        $lookup(
+          {
+            "0": "автор",
+            "1": "переводчик",
+            "2": "агент",
+            "3": "художник",
+            "4": "составитель",
+            "5": "пересказчик",
+            "6": "чтец",
+            "7": "исполнитель",
+            "8": "производитель",
+            "9": "редактор",
+            "10": "актер",
+            "11": "режиссер",
+            "15": "продюсер",
+            "19": "композитор",
+            "23": "звукорежиссер",
+            "27": "сценарист"
+          },
+        $str ? $str : "aut"
+      ),
+      $str
+    ][0]
+  };
+  $lcRelCode := function($relation) {
+    $lookup(
+      {
+        '0': 'aut',
+        '1': 'trl',
+        '2': 'bsl',
+        '3': 'art',
+        '4': 'red',
+        '5': 'stl',
+        '6': 'nrt',
+        '7': 'prf',
+        '8': 'pro',
+        '9': 'edt',
+        '10': 'act',
+        '11': 'drt',
+        '12': undefined,
+        '13': undefined,
+        '14': undefined,
+        '15': 'bkp',
+        '16': undefined,
+        '17': undefined,
+        '18': undefined,
+        '19': 'cmp',
+        '20': undefined,
+        '21': undefined,
+        '22': undefined,
+        '23': 'rce',
+        '24': undefined,
+        '25': undefined,
+        '26': undefined,
+        '27': 'aus',
+        '28': undefined,
+        '29': undefined,
+        '30': undefined
+      },
+      $relation ? $relation : ''
+    )
+  };
+
+  $formatUuid := function($uuid) {
+    $uuid ? 'urn:litres:' & $uuid : undefined
+  };
+
+  $formatExId := function($exid) {
+    $exid ? 'urn:litres:ex:' & $exid : undefined
+  };
+
+  $formatHubId := function($hubId) {
+    $hubId ? 'urn:litres:hub:' & $hubId : undefined
+  };
+
+  $formatPersonId := function($personId) {
+    $hubId ? 'urn:litres:person:' & $personId : undefined
+  };
+
+  $formatSubjectId := function($subjectId) {
+    $subjectId ? {
+      '@rdf:about': 'https://partnersdnld.litres.ru/genres_list_2/',
+      'bf:code': 'urn:litres:sh:' & $subjectId
+    } : undefined
+  };
+
+  $formatLitresUrl := function($urlPath) {
+    $urlPath
+      ? 'https://litres.ru/' & $urlPath & '?utm_source=catalog.rusneb.ru&utm_medium=referral'
+      : undefined
+  };
+
+  $formatParty := function($party) {
+    $party ? {
+      'name': [
+        ($party.'first-name'._text or $party.'middle-name'._text or $party.'last-name'._text) ? $join(
+          [
+            $party.'first-name'._text,
+            $party.'middle-name'._text,
+            $party.'last-name'._text
+          ],
+          ' '
+        ) : undefined,
+        $party.nickname._text
+      ].$,
+      'alternate': $party.'full-name-rodit'._text[$],
+      'identifier': $distinct([
+        $party._attributes.id.$formatUuid($),
+        $party.id._text.$formatUuid($),
+        $party.exid._text.$formatExId($),
+        $party.'hub-id'._text.$formatHubId($),
+        $party.subject_id._text.$formatPersonId($)
+      ]).$,
+      'links': $party.url ? $party.url.[{'href': _text.$formatLitresUrl($)}] : undefined,
+
+      /*
+        | @relation – параметр, определяющий тип лица, принявшего участие при создании данного произведения. Возможные значения:
+        | 0 – автор;
+        | 1 – переводчик;
+        | 2 – агент;
+        | 3 – художник;
+        | 4 – составитель;
+        | 5 – пересказчик;
+        | 6 – чтец;
+        | 7 – исполнитель;
+        | 8 – производитель;
+        | 9 – редактор;
+        | 10 – актер;
+        | 11 – режиссер;
+        | 15 – продюсер;
+        | 19 – композитор;
+        | 23 – звукорежиссер;
+        | 27 – сценарист.
+      */
+      'relCode': $party.relation._text.$lcRelCode($),
+      'bf:role':  [
+        $party.relation._text.{
+          '@type': 'bf:Role',
+          '@id': 'http://id.loc.gov/vocabulary/relators/' & $lcRelCode($),
+          "rdfs:label": $rusLcRelCode($lcRelCode($))
+        },
+        $party.relation._text.{
+          '@type': 'bf:Role',
+          '@id': 'urn:litres-relation:' & $,
+          "rdfs:label": $rusRelCode($)
+        }
+      ],
+      'rating': $party.lvl._text ? {
+        '@type': 'https://schema.org/AggregateRating',
+        'ratingValue': $party.lvl._text ? $party.lvl._text.$number($),
+        'bestRating': 5,
+        'worstRating': 1,
+        'ratingExplanation': 'уровень автора, субъективно выставляемый редакторами «ЛитРес» и отражающий степень известности/интересности автора.',
+        'author': 'https://litres.ru'
+      } : undefined
+    } : undefined
+  };
+
+  /*
+    @type
+
+    | code | description |
+    | ---- | ----------- |
+    | 0    | текст       |
+    | 1    | аудиокнига  |
+    | 4    | PDF-книга   |
+    | 11   | книга на английском языке (Adobe DRM protected) |
+  */
+  $typeToSchemaOrg := function($type) {
+    $lookup(
+      {
+        '0':  [ 'https://schema.org/CreativeWork', 'https://schema.org/Book' ],
+        '1':  [ 'https://schema.org/CreativeWork', 'https://schema.org/Audiobook'],
+        '4':  [ 'https://schema.org/CreativeWork', 'https://schema.org/Book' ],
+        '11': [ 'https://schema.org/CreativeWork', 'https://schema.org/Book' ]
+      },
+      $type ? $type : undefined
+    )
+  };
+
+  $typeToLabel := function($type) {
+    $lookup(
+      {
+        '0':  'текст',
+        '1':  'аудиокнига',
+        '4':  'PDF-книга',
+        '11': 'книга на английском языке (Adobe DRM protected)'
+      },
+      $type ? $type : undefined
+    )
+  };
+
+  $typeTomediaType := function($type) {
+    $lookup(
+      {
+        '0':  'application/epub+zip',
+        '1':  'audio/mpeg',
+        '4':  'application/pdf',
+        '11': 'application/vnd.adobe.adept+xml'
+      },
+      $type ? $type : undefined
+    )
+  };
+
+  /*
+    | 5 | cборник |
+    | 6 | часть |
+    | 7 | переиздание |
+    | 8 | другой носитель |
+  */
+  $instanceRelationToLabel := function($relation) {
+    (
+      $knownRelation := $lookup(
+        {
+          '5':  'Сборник',
+          '6':  'Часть',
+          '7':  'Переиздание',
+          '8':  'Другой носитель'
+        },
+        $relation ? $relation : undefined
+      );
+      $knownRelation ? $knownRelation : ($relation ? $relation & '-' : '') & 'Unknown';
+    )
+  };
+
+  /*
+    - Для контента с типом 1 (аудиокниги):
+      | Названия групп | group_id |
+      | -------------- | -------- |
+      | Ознакомительный фрагмент. MP3, 128 Kbps. | 1 |
+      | Копия оригинального диска. MP3-файлы в самораспаковывающемся RAR-архиве. | 2 |
+      | Стандартное качество. MP3, 128 Kbps. | 3 |
+      | Мобильная версия. MP4, 16 Kbps. | 4 |
+      | Стандартное качество. MP3, 192 Kbps. | 5 |
+      | Мобильная версия. MP4, 32 Kbps. | 6 |
+      | Стандартное качество. MP3, 64 Kbps. | 7 |
+      | Дополнительные материалы. | 8 |
+      | Мобильная версия. MP4, 64 Kbps. | 19 |
+      | MP3 файлы в zip архиве. | 20 |
+
+    - Для контента с типом 4 (PDF):
+      | Названия групп | group_id |
+      | Ознакомительный фрагмент pdf. | 9 |
+      | PDF-книга. | 10 |
+      | Обложка в PDF (PoD). | 11 |
+      | Дополнительные материалы. | 15 |
+  */
+  $groupIdToMediaProps := function ($filesGroupId) {
+    $lookup(
+      {
+        /* TYPE 1 */
+       '1': {
+          'bitrate': 128,
+          'type': 'audio/mpeg',
+          'extension': 'mp3',
+          'rel': 'http://opds-spec.org/acquisition/sample',
+          'title': 'Ознакомительный фрагмент. MP3, 128 Kbps.'
+        },
+       '2': {
+          'bitrate': 1411, /* 1411 - Standard audio CD bitrate */
+          'type': 'application/x-rar-compressed',
+          'extension': 'rar',
+          'title': 'Копия оригинального диска. MP3-файлы в самораспаковывающемся RAR-архиве.'
+        },
+       '3': {
+          'bitrate': 128,
+          'type': 'audio/mpeg',
+          'extension': 'mp3',
+          'title': 'Стандартное качество. MP3, 128 Kbps.'
+        },
+       '4': {
+          'bitrate': 16,
+          'type': 'audio/m4b',
+          'extension': 'mp4',
+          'title': 'Мобильная версия. MP4, 16 Kbps.'
+        },
+       '5': {
+          'bitrate': 192,
+          'type': 'audio/mpeg',
+          'extension': 'mp3',
+          'title': 'Стандартное качество. MP3, 192 Kbps.'
+        },
+       '6': {
+          'bitrate': 32,
+          'type': 'audio/m4b',
+          'extension': 'mp4',
+          'title': 'Мобильная версия. MP4, 32 Kbps.'
+        },
+       '7': {
+          'bitrate': 64,
+          'type': 'audio/mpeg',
+          'extension': 'mp3',
+          'title': 'Стандартное качество. MP3, 64 Kbps.'
+        },
+
+       '8': {
+          'title': 'Дополнительные материалы.'
+        },
+        /* /TYPE 1 */
+
+
+        /* TYPE 4 */
+       '9': {
+          'title': 'Ознакомительный фрагмент pdf.'
+        },
+       '10': {
+          'title': 'PDF-книга.'
+        },
+       '11': {
+          'title': 'Обложка в PDF (PoD).'
+        },
+       '15': {
+          'title': 'Дополнительные материалы.'
+        },
+        /* /TYPE 4 */
+
+
+        /* TYPE 1 */
+       '19': {
+          'bitrate': 64,
+          'type': 'audio/m4b',
+          'extension': 'mp4',
+          'title': 'Мобильная версия. MP4, 64 Kbps.'
+        },
+       '20': {
+          'type': 'application/zip',
+          'extension': 'zip',
+          'title': 'MP3 файлы в zip архиве.'
+        }
+        /* /TYPE 1 */
+      },
+      $filesGroupId
+    )
+  };
+
+  $formatFilesGroup := function($filesGroup, $bookExternalId) {
+    (
+      $groupId := $filesGroup._attributes.group_id;
+      $groupTitle := $filesGroup._attributes.value;
+
+      /*
+        <group value='Мобильная версия. MP4' group_id='19'>
+          <file id='37754247' size='8470594' filename='06.mp3' seconds='529' mime_type='audio/mpeg' file_description='MP3'/>
+          <file id='37754223' size='31707503' filename='Sovetnik_Po_Kulture.m4b' seconds='4366' mime_type='audio/m4b'
+                file_description='M4B-файл'/>
+          <file id='3965175' size='5777321' filename='Lunnyi_kamen_12.mp3' seconds='362' mime_type='audio/mpeg'
+                file_description='MP3'/>
+        </group>
+      */
+
+      $filesGroup.file.$merge(
+        [
+          $groupIdToMediaProps($groupId),
+          $.{
+            'identifier': 'urn:litres:' & $._attributes.id,
+            'size': $number($._attributes.size),
+            'duration': $number($._attributes.seconds),
+            'type': $._attributes.mime_type,
+            'href': ($groupId = 1)
+              ? 'https://partnersdnld.litres.ru/get_mp3_trial/' & $bookId & '.' & $groupIdToMediaProps($groupId).extension
+              : 'https://partnersdnld.litres.ru/get_the_book/?book=' & $bookExternalId & '&file=' & $._attributes.id & '&sha=',
+            'title': ($._attributes.filename or $._attributes.file_description)
+              ? $join([$._attributes.filename, $._attributes.file_description], ' - ')
+              : undefined
+          }
+        ]
+      )
+    )
+  };
+
+  $formatCopyright := function($copyright) {
+    {
+      'identifier': 'urn:litres:agreement:' & $copyright._attributes.id,
+      'title': $copyright._attributes.title & (
+        $copyright._attributes.percent ? ' (on ' & $copyright._attributes.percent & '%)' : ''
+      )
+    }
+  };
+
+  $.**.'updated-book'.(
+    $bookId := $._attributes.id;
+    $bookExternalId := $._attributes.external_id;
+    {
+      '@context': 'https://readium.org/webpub-manifest/context.jsonld',
+
+      'metadata': {
+        '@type': $typeToSchemaOrg($._attributes.type),
+        'abridged': $.'title-info'.reteller ? true : false,
+        'identifier': $distinct([
+          'urn:litres:' & $._attributes.id,
+          'urn:isbn:' & $._attributes.litres_isbn,
+          $._attributes.external_id,
+          $.'title-info'.id ? 'urn:litres:' & $.'title-info'.id : undefined
+        ]),
+        'contentRating': $._attributes.adult ? {
+          '@type': 'https://schema.org/contentRating',
+          'value': $number($._attributes.adult),
+          'description': 'Restricted for persons younger than given years value'
+        } : undefined,
+        'rating': $._attributes.rating ? {
+          '@type': 'https://schema.org/AggregateRating',
+          'ratingValue': $number($._attributes.rating),
+          'bestRating': 100500132,
+          'worstRating': 0,
+          'ratingExplanation': 'рейтинг книги, выставляемый на основе нескольких показателей, на основе объема продаж книги в течение года, популярности автора книги, оценок пользователей и др. и отражающий реальную популярность книги среди пользователей «ЛитРес». Параметр может принимать целые значение от 0 до ∞'
+        } : undefined,
+        'schema:conditionsOfAccess': ($number($._attributes.allow_sell) > 0) ? 'Available' : 'Unavailable',
+        'published': $.'title-info'.date._attributes.value,
+        'modified': $._attributes.updated,
+        /*
+          | Тип 0 | количество символов в книге (включая пробелы) |
+          | Тип 1 | общая длительность аудиокниги (в секундах) |
+          | Тип 4 | количество страниц в PDF-книге |
+        */
+        'duration': ($._attributes.chars and $._attributes.type = '1') ? $number($._attributes.chars) : undefined,
+        'bf:extent': ($._attributes.chars and ($._attributes.type = '0')) ? $number($._attributes.chars) : undefined,
+        'dcterms:extent': ($._attributes.chars and $._attributes.type = '0') ? $number($._attributes.chars) : undefined,
+        'numberOfPages': ($._attributes.chars and $._attributes.type = '4') ? $number($._attributes.chars) : undefined,
+        'title': ($.'title-info'.'book-title'._text or $.'title-info'.'book-title'._attributes.title._text) ? $join(
+          [
+            $.'title-info'.'book-title'._text,
+            $.'title-info'.'book-title'._attributes.title._text
+          ],
+          ' '
+        ) : undefined,
+        'subtitle': $.'title-info'.'book-title'._attributes.subtitle,
+        'description': $.'title-info'.annotation.p._text ? $join($.'title-info'.annotation.p._text, '\n') : undefined,
+        'language': [ $.'title-info'.lang._text[$] ],
+        'inLanguage': $.'title-info'.lang._text[$],
+        'translationOfWork': {
+          'inLanguage': $.'title-info'.'src-lang'._text[$]
+        },
+        'narrator': $.[
+          $.'title-info'.'reteller',
+          $.'title-info'.'reader'
+        ].$formatParty($),
+        'author': $.authors.author.$formatParty($),
+        'publisher': $.'document-info'.publisher.[{
+          'name': $.nickname._text[$],
+          'identifier': [
+            $.id._text.$formatUuid($),
+            $.'hub-id'._text.$formatHubId($)
+          ].$
+        }],
+        'responsibilityNotes': $append(
+          $.copyrights.$formatCopyright($.copyright),
+          [
+            ($._attributes.public_domain and $not($._attributes.public_domain = '0')) ? 'Licensed to the Public Domain' : undefined
+          ]
+        ),
+        'subject': {
+          'genreForm': $append(
+            $.'title-info'.genre._text,
+            $.genres.genre.{
+            'title': $._attributes.title,
+            'identifier': [
+                $._attributes.bisac ? {
+                '@rdf:about': 'http://id.loc.gov/vocabulary/classSchemes/bisacsh',
+                'bf:code': $._attributes.bisac
+              } : undefined,
+              $formatSubjectId($._attributes.id)
+            ]
+            }
+          )
+        },
+        'relatedTo': $.relations.related.{
+          '@id': 'urn:litres:' & $._attributes.uuid,
+          '@type': 'bf:Publication',
+          'rdfs:label': [
+            $typeToLabel($._attributes.type),
+            $instanceRelationToLabel($._attributes.relation)
+          ]
+        },
+        'belongsTo': $.sequences.sequence ? {
+          'series': $.sequences.sequence.{
+            'identifier': $formatUuid($._attributes.uuid),
+            'name': $._attributes.name,
+            'position': $._attributes.number
+          }
+        } : undefined,
+        'bf:content': $.'title-info'.keywords._text ? {
+          '@type': 'bf:Content',
+          'label': $.{
+            'ru': $sort($.'title-info'.keywords._text.$split($, / *[,\n\r\t]+ */)[$])
+          }
+        } : undefined
+      },
+      'links': [
+        {
+             'rel': 'self',
+             'href': '/resources/instance/litres.ru/' & $._attributes.id,
+             'type': 'application/opds+json'
+        },
+        $not($._attributes.allow_sell = '0') ? {
+          'href': $formatLitresUrl($._attributes.url),
+          'rel': 'http://opds-spec.org/acquisition/buy',
+          'type': 'text/html',
+          'indirectAcquisition': [
+            {
+              'type': $typeTomediaType($._attributes.type)
+            }
+          ]
+        } : undefined,
+        ($._attributes.has_trial != '0')
+          ? $.files.group[$._attributes.group_id = '1'].$formatFilesGroup($, $bookExternalId)
+          : undefined
+      ],
+
+      'readingOrder': ($number($._attributes.allow_sell) > 0)
+        ? $.files.group[$._attributes.group_id = '5'].$formatFilesGroup($, $bookExternalId)
+        : [],
+
+      'resources': [
+        {
+          'rel': 'cover',
+          'href': 'https://partnersdnld.litres.ru/pub/c/cover_' & $._attributes.cover_w & '/' & $._attributes.id & '.' & $._attributes.cover,
+          'type': 'image/jpeg',
+          'width': $._attributes.cover_w,
+          'height': $._attributes.cover_h
+        },
+        /*
+          {
+            'rel': 'cover',
+            'href': 'https://partnersdnld.litres.ru/pub/c/cover_' & $._attributes.art_cover_w & '/' & $._attributes.id & '.' & $._attributes.art_cover,
+            'type': 'image/jpeg',
+            'width': $._attributes.art_cover_w,
+            'height': $._attributes.art_cover_h
+          },
+        */
+        ($._attributes.allow_sell != '0')
+          ? $.files.group[($._attributes.group_id != '1') and ($._attributes.group_id != '5')].$formatFilesGroup($, $bookExternalId)
+          : undefined
+      ]
+    }
+  )
+)

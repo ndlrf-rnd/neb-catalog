@@ -1,0 +1,363 @@
+[
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "003543129"
+      },
+      {
+        "tag": "005",
+        "value": "20190912141556.0"
+      },
+      {
+        "tag": "008",
+        "value": "060512s1848    ru     ||     ||| ||rus d"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "143032-О"
+          }
+        ],
+        "tag": "017"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "(NLR)rc\\1330447"
+          }
+        ],
+        "tag": "035"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "RuMoRGB"
+          },
+          {
+            "code": "b",
+            "value": "rus"
+          },
+          {
+            "code": "e",
+            "value": "rcr"
+          },
+          {
+            "code": "c",
+            "value": "Prosoft-M"
+          },
+          {
+            "code": "d",
+            "value": "RuMoRGB"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "0",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "rus"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Ч. 1"
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "c",
+            "value": "1848"
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "II, 128 с."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Текст (визуальный)"
+          }
+        ],
+        "tag": "336"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "непосредственный"
+          }
+        ],
+        "tag": "337"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Имеется электронная копия"
+          }
+        ],
+        "tag": "533"
+      },
+      {
+        "ind1": "1",
+        "ind2": "8",
+        "subfield": [
+          {
+            "code": "7",
+            "value": "p1am"
+          },
+          {
+            "code": "g",
+            "value": "Ч. 1"
+          },
+          {
+            "code": "a",
+            "value": "Вейдемейер, Александр Иванович (1789-1852)"
+          },
+          {
+            "code": "t",
+            "value": "Обзор главнейших происшествий в России, с кончины Петра Великаго до вступления на престол Елисаветы Петровны / сочинение Александра Вейдемейера"
+          },
+          {
+            "code": "b",
+            "value": "Изд. 4-е, испр. и доп."
+          },
+          {
+            "code": "d",
+            "value": "Санкт-Петербург : в Тип. военно-учебных заведений, 1848"
+          },
+          {
+            "code": "h",
+            "value": "20 см"
+          },
+          {
+            "code": "w",
+            "value": "010086108"
+          }
+        ],
+        "tag": "773"
+      },
+      {
+        "ind1": "1",
+        "ind2": "8",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Конволют"
+          },
+          {
+            "code": "w",
+            "value": "010085686"
+          }
+        ],
+        "tag": "773"
+      },
+      {
+        "ind1": "4",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "РГБ"
+          },
+          {
+            "code": "b",
+            "value": "FB"
+          },
+          {
+            "code": "j",
+            "value": "S 9/149"
+          },
+          {
+            "code": "x",
+            "value": "70"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "4",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "РГБ"
+          },
+          {
+            "code": "b",
+            "value": "FB"
+          },
+          {
+            "code": "j",
+            "value": "S 62/490"
+          },
+          {
+            "code": "x",
+            "value": "70"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "4",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "РГБ"
+          },
+          {
+            "code": "b",
+            "value": "MK"
+          },
+          {
+            "code": "j",
+            "value": "МК"
+          },
+          {
+            "code": "x",
+            "value": "81"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "4",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "РГБ"
+          },
+          {
+            "code": "b",
+            "value": "FB"
+          },
+          {
+            "code": "j",
+            "value": "G 10/240"
+          },
+          {
+            "code": "x",
+            "value": "80"
+          }
+        ],
+        "tag": "852"
+      },
+      {
+        "ind1": "4",
+        "ind2": "1",
+        "subfield": [
+          {
+            "code": "q",
+            "value": "application/pdf"
+          },
+          {
+            "code": "u",
+            "value": "http://dlib.rsl.ru/rsl01003000000/rsl01003543000/rsl01003543129/rsl01003543129.pdf"
+          }
+        ],
+        "tag": "856"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "dlopen"
+          }
+        ],
+        "tag": "979"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "dluniv"
+          }
+        ],
+        "tag": "979"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "fb19vrus"
+          }
+        ],
+        "tag": "979"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "knpam"
+          }
+        ],
+        "tag": "979"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "kproman"
+          }
+        ],
+        "tag": "979"
+      }
+    ],
+    "leader": "01453nam a2200325 ic4500"
+  }
+]

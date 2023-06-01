@@ -1,0 +1,57 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "ок. 342",
+        "deathDate": "420",
+        "name": "Иероним Стридонский",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": []
+      },
+      "citation": [
+        {
+          "locationWithinSource": "# 176",
+          "name": "Украинские книги кирилловской печати XVI - XVIII вв. : каталог изданий, хранящихся в Государственной библиотеке СССР им. В.И. Ленина. Вып. 2. Т. 1: Киевские издания 2-й половины XVII в. М., 1981 / Сост. А.А. Гусева, Т.Н. Каменева, И.М. Полонская"
+        }
+      ],
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "",
+      "description": [
+        "Строк : 37, 44",
+        "Шрифт : 62, 52 мм.",
+        "Страницы в линейных рамках",
+        "Орнамент : инициал, концовка",
+        "[1]-[6] = 6 л.",
+        "4°"
+      ],
+      "dimensions": "4°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/РГБ/RU\\BM\\BIBL\\RuMoRGB-cyr17v\\0004086100",
+      "language": [
+        "rus",
+        "chu"
+      ],
+      "marc:type": "a",
+      "materialExtent": "[1]-[6] = 6 л.",
+      "modified": "2008-09-23T16:52:37.0Z",
+      "numberOfPages": 6,
+      "published": "",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Киев",
+        "name": "[Типография Лавры]"
+      },
+      "title": "Сказание неложное от мужа праведна и свята западния церкве великаго учителя Иеронима о Июде бывшем предатели господа нашего Иисуса Христа описанное"
+    }
+  }
+]

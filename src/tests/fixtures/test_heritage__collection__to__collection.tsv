@@ -1,0 +1,17 @@
+kind_from	source_from	key_from	relation_kind	kind_to	source_to	key_to
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kproman
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kplubok
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpposter
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpmap
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpcivil
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpmanus
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kplen
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpcyr
+collection	dc.mkrf.ru	contracts	hasItem	collection	dc.mkrf.ru	4_14-19
+collection	dc.mkrf.ru	contracts	hasItem	collection	dc.mkrf.ru	7_14-19
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpincunabula
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kppaleotype
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpmusic
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpmasterpiece
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpregional
+collection	knpam.rusneb.ru	knpam	hasItem	collection	knpam.rusneb.ru	kpnatlang

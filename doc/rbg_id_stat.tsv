@@ -1,0 +1,20 @@
+kind	record	key	source	source	record
+BIBLIOGRAPHIC	003	3244421		RuMoRGB	RuMoRGB	Control Number Identifier
+BIBLIOGRAPHIC	017$b	855518		RuMoRGB	RuMoRGB	Copyright or Legal Deposit Number
+BIBLIOGRAPHIC	035$a	1329520		(RuMoRGB)DIS-0000114	(RuMoRGB)KNO-0004795	System control number
+BIBLIOGRAPHIC	040$a	7177259		RuMoRGB	RuMoRGB	Cataloging Source
+BIBLIOGRAPHIC	040$c	2094942		RuMoRGB	RuMoRGB	Cataloging Source
+BIBLIOGRAPHIC	040$d	1186113		RuMoRGB	RuMoRGB	Cataloging Source
+BIBLIOGRAPHIC	500$5	746773		RuMoRGB	RuMoRGB	General Note
+BIBLIOGRAPHIC	501$5	5051		RuMoRGB	RuMoRGB	With Note
+BIBLIOGRAPHIC	506$5	1060		RuMoRGB	RuMoRGB	Restrictions on Access Note
+BIBLIOGRAPHIC	541$5	1903		RuMoRGB	RuMoRGB	Immediate Source of Acquisition Note
+BIBLIOGRAPHIC	561$5	1777		RuMoRGB	RuMoRGB	Ownership and Custodial History
+BIBLIOGRAPHIC	650$2	85582		RuMoRGB	RuMoRGB	Subject Added Entry-Topical Term
+electronic	003$value	8		RuMoRGB	RuMoRGB	Control Number Identifier
+electronic	017$b	306		RuMoRGB	RuMoRGB	Copyright or Legal Deposit Number
+electronic	035$a	6		(RuMoRGB)CURIK-0023156	(RuMoRGB)KNO-0193047	System control number
+electronic	040$a	3768		RuMoRGB	RuMoRGB	Cataloging Source
+electronic	040$c	8		RuMoRGB	RuMoRGB	Cataloging Source
+electronic	040$d	15965		RuMoRGB	RuMoRGB	Cataloging Source
+electronic	541$5	1		RuMoRGB	RuMoRGB	Immediate Source of Acquisition Note

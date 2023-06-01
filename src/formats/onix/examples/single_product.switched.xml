@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE ONIXmessage SYSTEM "{$dtd-url}">
+<ONIXmessage release="2.1">
+  <header>
+    <m174>TitlePage</m174>
+    <m175>TitlePage 02 92819788</m175>
+    <m283>titlepage@publishers.asn.au</m283>
+    <m182>20080519</m182>
+    <m183>This data is copyright to TitlePage. TitlePage makes no guarantee of the accuracy or the timeliness of production. It is supplied for your exclusive use as our customer and is only to be used for advising on the pricing and availability of publications (Authorised Purpose). You must not charge a fee for this service. TitlePage and its content may not be used for any other purpose. While it may be copied once for the authorised purpose, written permission from TitlePage must be obtained for any other use. If you were not an intended recipient, you must notify the sender and delete all copies.</m183>
+  </header>
+  <product>
+    <a001>365-9780194351898</a001>
+    <a002>03</a002>
+    <productidentifier>
+      <b221>02</b221>
+      <b244>0194351890</b244>
+    </productidentifier>
+    <productidentifier>
+      <b221>03</b221>
+      <b244>9780194351898</b244>
+    </productidentifier>
+    <productidentifier>
+      <b221>15</b221>
+      <b244>9780194351898</b244>
+    </productidentifier>
+    <b012>BC</b012>
+    <series>
+      <b018>DICTIONARIES BEGINNER TO PRE-INTERMED</b018>
+    </series>
+    <title>
+      <b202>01</b202>
+      <b203>OXFORD PICTURE DICTIONARY CHINESE</b203>
+    </title>
+    <website>
+      <b295>http://www.oup.com.au/searchbuy/product.asp?ISBN=9780194351898</b295>
+    </website>
+    <contributor>
+      <b035>A01</b035>
+      <b037>SHAPIRO</b037>
+    </contributor>
+    <b065>EB</b065>
+    <subject>
+      <b067>14</b067>
+      <b069>2ABM</b069>
+    </subject>
+    <b073>07</b073>
+    <imprint>
+      <b079>Oxford University Press UK</b079>
+    </imprint>
+    <publisher>
+      <b291>01</b291>
+      <b081>Oxford University Press</b081>
+    </publisher>
+    <b394>04</b394>
+    <b003>19980901</b003>
+    <b088>1998</b088>
+    <measure>
+      <c093>08</c093>
+      <c094>720   </c094>
+      <c095>gr</c095>
+    </measure>
+    <supplydetail>
+      <j137>Oxford University Press Australia and New Zealand</j137>
+      <j396>21</j396>
+      <stock>
+        <j350>70</j350>
+      </stock>
+      <price>
+        <j148>02</j148>
+        <j151>59.95</j151>
+      </price>
+    </supplydetail>
+  </product>
+</ONIXmessage>

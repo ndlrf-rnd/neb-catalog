@@ -1,0 +1,145 @@
+<record>
+  <leader>03501nam h2200517 i 450 </leader>
+  <controlfield tag="001">RU\BM\BIBL\0000000480</controlfield>
+  <controlfield tag="004">RU\BM\BIBL\0000000286</controlfield>
+  <controlfield tag="005">20110614201743.3</controlfield>
+  <datafield ind1=" " ind2=" " tag="100">
+    <subfield code="a">20110412j15370727|||y0rusy50######</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="200">
+    <subfield code="a">Октоих</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="210">
+    <subfield code="a">Венеция</subfield>
+    <subfield code="c">Тип. Божидара Вуковича, печ. Священноиноки Феодосий и Геннадий</subfield>
+    <subfield code="d">27 июля 1537</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="215">
+    <subfield code="a">1(8)-20(8),[*](2).[т.е. 162 л.]</subfield>
+    <subfield code="c">ил.</subfield>
+    <subfield code="d">2°</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Объем экземпляра: 162 л.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Экземпляр полный.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Размер переплета/картонажа: 31,3 х 20,7 х 4,1 см.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Форма книги: кодекс.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Материал листа/книжного блока: бумага.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Экземпляр в переплете/картонаже.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Тип конструкции переплета: составной.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Крышки жесткие.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Крышки с закругленными углами.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Крышки с фасками.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Корешок с бинтами (4).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Покровный материал переплета/картонажа: кожа.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Покровный материал переплета/картонажа (другое): ледерин.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Техника оформления переплета/картонажа: блинтовое тиснение.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Обрез: простой.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Форзац простой.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="316">
+    <subfield code="a">Нахзац простой.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="317">
+    <subfield code="a">Вклейки: 4 листа с рукописными записями (чернила) в конце книги.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="317">
+    <subfield code="a">Записи: на 4 л. вклейки (чернила).</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="317">
+    <subfield code="a">Пометы: на чистом листе в начале книги.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="317">
+    <subfield code="a">Состояние книжного блока/листа: общее загрязнение.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="317">
+    <subfield code="a">Состояние книжного блока/листа: потеки по всему книжному блоку.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="317">
+    <subfield code="a">Состояние книжного блока/листа: пятна по всему книжному блоку.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="317">
+    <subfield code="a">Состояние книжного блока/листа: утраты фрагментов бумаги по краям на л. 1, 53-75, 130-135.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="318">
+    <subfield code="a">Экземпляр реставрирован</subfield>
+    <subfield code="c">1962####</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="1" tag="500">
+    <subfield code="a">Октоих</subfield>
+    <subfield code="k">1537</subfield>
+    <subfield code="n">Венеция</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="686">
+    <subfield code="a">01.02.03.04.02</subfield>
+    <subfield code="h">Общероссийский свод книжных памятников</subfield>
+    <subfield code="h">Единичные книжные памятники</subfield>
+    <subfield code="h">Текстовые издания</subfield>
+    <subfield code="h">издания кирилловского шрифта</subfield>
+    <subfield code="j">1501-1550 гг. (палеотипы)</subfield>
+    <subfield code="2">RUBBM</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="712">
+    <subfield code="a">Типография Божидара Вуковича</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20110412</subfield>
+    <subfield code="g">RCR</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20110412</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="850">
+    <subfield code="a">Российская государственная библиотека</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="852">
+    <subfield code="a">РГБ</subfield>
+    <subfield code="b">НИО редких книг (Музей книги)</subfield>
+    <subfield code="j">МК Кир. 2°</subfield>
+    <subfield code="m">1806.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="909">
+    <subfield code="a">Книжный памятник - Экземпляр</subfield>
+    <subfield code="3">RU.BM.TEMPLATE.RUSMARC.BIBL.ITEM</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="930">
+    <subfield code="a">ЕМЕЛЬЯНОВА ЕЛЕНА АЛЕКСАНДРОВНА</subfield>
+    <subfield code="b">создал(а) запись</subfield>
+    <subfield code="c">20110330</subfield>
+  </datafield>
+</record>

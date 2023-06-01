@@ -1,0 +1,19 @@
+kind	source	key	@type	record.title	record.temporalCoverage.0	record.temporalCoverage.1	time_source	record.holdingArchive.title	record.holdingArchive.identifier	record.govContractNumber
+collection	knpam.rusneb.ru	knpam	http://schema.org/Collection	Книжные памятники	1000-01-01 12:00:00	1999-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kproman	http://schema.org/Collection	Книги императорского дома Романовых	1600-01-01 12:00:00	1917-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kplubok	http://schema.org/Collection	Русский лубок (народная картинка) XVIII – начала XX вв.	1700-00-01 12:00:00	1924-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kpposter	http://schema.org/Collection	Российский плакат конца XIX – начала XX вв.	1875-01-01 12:00:00	1924-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kpmap	http://schema.org/Collection	Географические карты России XVII – первой половины XIX вв.	1600-01-01 12:00:00	1849-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kpcivil	http://schema.org/Collection	Книги гражданского шрифта, изданные в России в XVIII – первой трети XIX вв.	1700-01-01 12:00:00	1833-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kpmanus	http://schema.org/Collection	Славяно-русские рукописные книги	1450-01-01 12:00:00	1899-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kplen	http://schema.org/Collection	Ленинград в Великой Отечественной войне.	1941-01-01 12:00:00	1945-12-31 12:00:00	2019-09-01 12:00:00
+collection	knpam.rusneb.ru	kpcyr	http://schema.org/Collection	Кириллические книги конца XV – первой трети XIX вв.	1475-01-01 12:00:00	1833-12-31 12:00:00	2019-09-01 12:00:00
+collection	dc.mkrf.ru	contracts	http://schema.org/Collection	Контракты Министерства культуры РФ			2019-09-01 12:00:00	Министерство культуры Российской Федерации	https://mkrf.ru
+collection	dc.mkrf.ru	4_14-19	http://schema.org/Collection	Контракт Министерства культуры РФ № 4/14-19 от 2019-07-22 с ФГБУ «Российская государственная библиотека»			2019-09-01 12:00:00	Министерство культуры Российской Федерации	https://mkrf.ru	4/14-19
+collection	dc.mkrf.ru	7_14-19	http://schema.org/Collection	Контракт Министерства культуры РФ № 7/14-19 от 2019-08-05 с ФГБУ «Российская национальная библиотека»			2019-09-01 12:00:00	Министерство культуры Российской Федерации	https://mkrf.ru	7/14-19
+collection	knpam.rusneb.ru	kpincunabula	http://schema.org/Collection	Инкунабулы	1450-01-01 12:00:00	1500-01-01 11:59:59	2020-10-01 12:00:00
+collection	knpam.rusneb.ru	kppaleotype	http://schema.org/Collection	Палеотипы	1500-01-01 12:00:00	1549-12-31 12:00:00	2020-10-01 12:00:00
+collection	knpam.rusneb.ru	kpmusic	http://schema.org/Collection	Музыкальные ноты			2020-10-01 12:00:00
+collection	knpam.rusneb.ru	kpmasterpiece	http://schema.org/Collection	Шедевры			2020-10-01 12:00:00
+collection	knpam.rusneb.ru	kpregional	http://schema.org/Collection	Региональная печать			2020-10-01 12:00:00
+collection	knpam.rusneb.ru	kpnatlang	http://schema.org/Collection	Национальные языки			2020-10-01 12:00:00

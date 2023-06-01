@@ -1,0 +1,291 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema#",
+  "$id": "hyper-schema.json#",
+  "base": "/",
+  "contentEncoding": "utf-8",
+  "links": [
+    {
+      "rel": "self",
+      "method": "GET",
+      "title": "API JSON Hyper-Schema",
+      "contentEncoding": "utf-8",
+      "type": "application/json",
+      "href": "/schemas/hyper-schema.json",
+      "templated": false,
+      "targetHints": {
+        "allow": [
+          "HEAD",
+          "GET"
+        ]
+      }
+    },
+    {
+      "rel": "about",
+      "method": "GET",
+      "title": "Interactive documentation",
+      "contentEncoding": "utf-8",
+      "type": "application/html",
+      "href": "/",
+      "templated": false,
+      "targetHints": {
+        "allow": [
+          "HEAD",
+          "GET"
+        ]
+      }
+    },
+    {
+      "rel": "resource",
+      "title": "Catalog resources",
+      "description": "Complete index and statistics related to all records that data integration system currently hold by resource",
+      "method": "GET",
+      "contentEncoding": "utf-8",
+      "type": "application/json",
+      "templated": true,
+      "templateRequired": [
+      ],
+      "href": "/resources{/kind,source,key}{?limit,until,since,after,extended,export}",
+      "hrefSchema": {
+        "kind": {
+          "$ref": "/schemas/common-parameters.json#/$defs/kind"
+        },
+        "source": {
+          "$ref": "/schemas/common-parameters.json#/$defs/source"
+        },
+        "key": {
+          "$ref": "/schemas/common-parameters.json#/$defs/key"
+        },
+        "extended": {
+          "$ref": "/schemas/common-parameters.json#/$defs/extended"
+        },
+        "after": {
+          "$ref": "/schemas/common-parameters.json#/$defs/after"
+        },
+        "limit": {
+          "$ref": "/schemas/common-parameters.json#/$defs/limit"
+        },
+        "until": {
+          "$ref": "/schemas/common-parameters.json#/$defs/until"
+        },
+        "since": {
+          "$ref": "/schemas/common-parameters.json#/$defs/since"
+        }
+      },
+      "targetSchema": {
+        "$ref": "https://drafts.opds.io/schema/feed.schema.json#"
+      }
+    },
+    {
+      "rel": "index",
+      "method": "GET",
+      "title": "Statistics",
+      "contentEncoding": "utf-8",
+      "type": "application/json",
+      "templated": false,
+      "href": "/stats{.extension}{?until,since,statCountThreshold}",
+      "hrefSchema": {
+        "extension": {
+          "$ref": "/schemas/extensions.json#"
+        },
+        "until": {
+          "$ref": "/schemas/common-parameters.json#/$defs/until"
+        },
+        "since": {
+          "$ref": "/schemas/common-parameters.json#/$defs/since"
+        },
+        "statCountThreshold": {
+          "$ref": "/schemas/common-parameters.json#/$defs/statCountThreshold",
+          "default": 10
+        }
+      },
+      "targetSchema": {
+        "$ref": "/schemas/stats.json#"
+      }
+    },
+    {
+      "rel": "index",
+      "method": "GET",
+      "title": "Get data providers list",
+      "contentEncoding": "utf-8",
+      "type": "application/json",
+      "templated": false,
+      "href": "/providers{.extension}",
+      "hrefSchema": {
+        "extension": {
+          "$ref": "/schemas/extensions.json#"
+        }
+      },
+      "targetSchema": {
+        "$ref": "/schemas/providers.json#"
+      }
+    },
+    {
+      "title": "Create new data provider",
+      "rel": "item",
+      "description": "Create new data provider",
+      "method": "POST",
+      "contentEncoding": "utf-8",
+      "templated": false,
+      "type": "application/json",
+      "href": "/providers.json",
+      "hrefSchema": {
+        "extension": {
+          "$ref": "/schemas/extensions.json#"
+        }
+      },
+      "submissionSchema": {
+        "$ref": "/schemas/provider-submission.json#"
+      },
+      "targetSchema": {
+        "$ref": "/schemas/providers.json#"
+      }
+    },
+    {
+      "rel": "collection",
+      "title": "Long-running operations scheduling and monitoring.",
+      "description": "This is a service endpoint targeted services of NEL data providers",
+      "method": "GET",
+      "contentEncoding": "utf-8",
+      "templated": true,
+      "type": "application/json",
+      "href": "/operations{.extension}{?after,limit,account,secret}",
+      "hrefSchema": {
+        "extension": {
+          "$ref": "/schemas/extensions.json#"
+        },
+        "after": {
+          "$ref": "/schemas/common-parameters.json#/$defs/after"
+        },
+        "limit": {
+          "$ref": "/schemas/common-parameters.json#/$defs/limit"
+        },
+        "secret": {
+          "$ref": "/schemas/common-parameters.json#/$defs/secret"
+        },
+        "account": {
+          "$ref": "/schemas/common-parameters.json#/$defs/account"
+        }
+      },
+      "templateRequired": [
+        "account",
+        "secret"
+      ],
+      "targetSchema": {
+        "$ref": "/schemas/operations.json#"
+      }
+    },
+    {
+      "title": "Schedule long-running operation.",
+      "rel": "create schedule item",
+      "description": "This is a service endpoint targeted services of NEL data providers",
+      "method": "POST",
+      "contentEncoding": "utf-8",
+      "templated": false,
+      "type": "application/json",
+      "href": "/operations{.extension}",
+      "hrefSchema": {
+        "extension": {
+          "$ref": "/schemas/extensions.json#"
+        }
+      },
+      "submissionSchema": {
+        "$ref": "/schemas/operation-submission.json#"
+      },
+      "targetSchema": {
+        "$ref": "/schemas/operation.json#"
+      }
+    },
+    {
+      "title": "Get long-running operation info",
+      "rel": "item",
+      "description": "Get single record of long-running operation record metadata for give LRO identifier",
+      "method": "GET",
+      "contentEncoding": "utf-8",
+      "templated": true,
+      "type": "application/json",
+      "href": "/operations/{/id}{.extension}{?account,secret}",
+      "hrefSchema": {
+        "extension": {
+          "$ref": "/schemas/extensions.json#"
+        },
+        "id": {
+          "$ref": "/schemas/operation.json#/$defs/id"
+        }
+      },
+      "targetSchema": {
+        "$ref": "/schemas/operation.json#"
+      }
+    },
+    {
+      "title": "CANCEL long-running operation",
+      "rel": "cancel item",
+      "description": "CANCEL long-running operation with given ID (via authenticated HTTP DELETE request). Operations queue will be re-activated to pick up possible stale tasks.",
+      "method": "DELETE",
+      "contentEncoding": "utf-8",
+      "templated": true,
+      "type": "application/json",
+      "href": "/operations/{/id}{.extension}{?account,secret}",
+      "hrefSchema": {
+        "extension": {
+          "$ref": "/schemas/extensions.json#"
+        },
+        "id": {
+          "$ref": "/schemas/operation.json#/$defs/id"
+        },
+        "secret": {
+          "$ref": "/schemas/common-parameters.json#/$defs/secret"
+        },
+        "account": {
+          "$ref": "/schemas/common-parameters.json#/$defs/account"
+        }
+      },
+      "targetSchema": {
+        "$ref": "/schemas/operation.json#"
+      }
+    },
+    {
+      "type": "application/opds+json",
+      "rel": "search",
+      "title": "Search",
+      "href": "/search{?q,limit,e,entities}",
+      "hrefSchema": {
+        "q": {
+          "$ref": "/schemas/common-parameters.json#/$defs/query"
+        },
+        "limit": {
+          "$ref": "/schemas/common-parameters.json#/$defs/limit"
+        },
+        "e": {
+          "title": "Graph traverse epsilon",
+          "type": "float",
+          "minimum": 0.001,
+          "default": 0.13,
+          "maximum": 1.0
+        },
+        "entities": {
+          "title": "Kinds of entities",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4095
+          }
+        }
+      },
+      "method": "GET",
+      "templated": true,
+      "templateRequired": [
+        "query"
+      ],
+      "targetSchema": {
+        "$ref": "https://drafts.opds.io/schema/feed.schema.json"
+      },
+      "targetHints": {
+        "allow": [
+          "HEAD",
+          "GET"
+        ]
+      }
+    }
+  ]
+}

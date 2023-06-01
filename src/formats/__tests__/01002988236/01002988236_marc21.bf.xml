@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+  <bf:Work rdf:about="http://example.org/002988236#Work">
+    <bf:adminMetadata>
+      <bf:AdminMetadata>
+        <bf:generationProcess>
+          <bf:GenerationProcess>
+            <rdfs:label>DLC marc2bibframe2 v1.6.0-SNAPSHOT</rdfs:label>
+            <bf:generationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-03T05:49:11+03:00</bf:generationDate>
+          </bf:GenerationProcess>
+        </bf:generationProcess>
+        <bf:status>
+          <bf:Status>
+            <rdfs:label>new</rdfs:label>
+            <bf:code>n</bf:code>
+          </bf:Status>
+        </bf:status>
+        <bflc:encodingLevel>
+          <bflc:EncodingLevel rdf:about="http://id.loc.gov/vocabulary/menclvl/f">
+            <rdfs:label>full</rdfs:label>
+          </bflc:EncodingLevel>
+        </bflc:encodingLevel>
+        <bf:descriptionConventions>
+          <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/isbd">
+            <rdfs:label>isbd</rdfs:label>
+          </bf:DescriptionConventions>
+        </bf:descriptionConventions>
+        <bf:identifiedBy>
+          <bf:Local>
+            <rdf:value>002988236</rdf:value>
+            <bf:assigner>
+              <bf:Agent>
+                <bf:code>RuMoRGB</bf:code>
+              </bf:Agent>
+            </bf:assigner>
+          </bf:Local>
+        </bf:identifiedBy>
+        <bf:changeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-12-16T14:47:24</bf:changeDate>
+        <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-17</bf:creationDate>
+        <bf:source>
+          <bf:Source>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+            <rdfs:label>RuMoRGB</rdfs:label>
+          </bf:Source>
+        </bf:source>
+        <bf:source>
+          <bf:Source>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+            <rdfs:label>RuMoRGB</rdfs:label>
+          </bf:Source>
+        </bf:source>
+        <bf:descriptionLanguage>
+          <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/rus">
+            <bf:code>rus</bf:code>
+          </bf:Language>
+        </bf:descriptionLanguage>
+        <bf:descriptionConventions>
+          <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/rpk">
+            <rdfs:label>rpk</rdfs:label>
+          </bf:DescriptionConventions>
+        </bf:descriptionConventions>
+      </bf:AdminMetadata>
+    </bf:adminMetadata>
+    <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Text"/>
+    <bf:language>
+      <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/rus"/>
+    </bf:language>
+    <bf:intendedAudience>
+      <bf:IntendedAudience rdf:about="http://id.loc.gov/vocabulary/maudience/spe">
+        <rdfs:label>specialized</rdfs:label>
+      </bf:IntendedAudience>
+    </bf:intendedAudience>
+    <bf:language>
+      <bf:Language>
+        <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/rus"/>
+      </bf:Language>
+    </bf:language>
+    <rdfs:label>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</rdfs:label>
+    <bf:title>
+      <bf:Title>
+        <rdfs:label>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</rdfs:label>
+        <bflc:titleSortKey>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</bflc:titleSortKey>
+        <bf:mainTitle>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</bf:mainTitle>
+      </bf:Title>
+    </bf:title>
+    <bf:references>
+      <bf:Work>
+        <bf:title>
+          <bf:Title>
+            <bf:mainTitle>Сводный каталог русской книги 1801-1825 гг.</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+        <bf:note>
+          <bf:Note>
+            <bf:noteType>Location</bf:noteType>
+            <rdfs:label>3216</rdfs:label>
+          </bf:Note>
+        </bf:note>
+      </bf:Work>
+    </bf:references>
+    <bf:subject>
+      <bf:Agent rdf:about="http://example.org/002988236#Agent600-25">
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#PersonalName"/>
+        <madsrdf:authoritativeLabel>Екатерина II имп. 1729-1796</madsrdf:authoritativeLabel>
+        <bflc:name00MatchKey>Екатерина II имп. 1729-1796</bflc:name00MatchKey>
+        <bflc:name00MarcKey>60004$aЕкатерина$bII$cимп.$d1729-1796</bflc:name00MarcKey>
+        <rdfs:label>Екатерина II имп. 1729-1796</rdfs:label>
+      </bf:Agent>
+    </bf:subject>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Agent rdf:about="http://example.org/002988236#Agent700-26">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+            <bflc:name00MatchKey>Озеров, Петр Петрович</bflc:name00MatchKey>
+            <bflc:name00MarcKey>7001 $aОзеров, Петр Петрович$eпер.$4trl</bflc:name00MarcKey>
+            <rdfs:label>Озеров, Петр Петрович</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role>
+            <rdfs:label>пер.</rdfs:label>
+          </bf:Role>
+        </bf:role>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/trl"/>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Agent rdf:about="http://example.org/002988236#Agent700-27">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+            <bflc:name00MatchKey>Паренаго, Михаил Алексеевич 1780-1832</bflc:name00MatchKey>
+            <bflc:name00MarcKey>7001 $aПаренаго, Михаил Алексеевич$d1780-1832$eпер.$4trl</bflc:name00MarcKey>
+            <rdfs:label>Паренаго, Михаил Алексеевич 1780-1832</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role>
+            <rdfs:label>пер.</rdfs:label>
+          </bf:Role>
+        </bf:role>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/trl"/>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Agent rdf:about="http://example.org/002988236#Agent700-28">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+            <bflc:name00MatchKey>Дмитревский, Дмитрий Иванович 1758 или 1763-1848</bflc:name00MatchKey>
+            <bflc:name00MarcKey>7001 $aДмитревский, Дмитрий Иванович$d1758 или 1763-1848$eпер.$4trl</bflc:name00MarcKey>
+            <rdfs:label>Дмитревский, Дмитрий Иванович 1758 или 1763-1848</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role>
+            <rdfs:label>пер.</rdfs:label>
+          </bf:Role>
+        </bf:role>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/trl"/>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-29">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-29">
+            <bf:provisionActivityStatement>1804</bf:provisionActivityStatement>
+            <bf:part>Ч. 1</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[2], X, [2], 289, 300-322, 313-404 с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-29"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-30">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-30">
+            <bf:provisionActivityStatement>1805</bf:provisionActivityStatement>
+            <bf:part>Ч. 2</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>VI, 344 с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-30"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-31">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-31">
+            <bf:provisionActivityStatement>1805</bf:provisionActivityStatement>
+            <bf:part>Ч. 3</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[6], 388 с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-31"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-32">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-32">
+            <bf:provisionActivityStatement>1806</bf:provisionActivityStatement>
+            <bf:part>Ч. 4</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[6], 367, [1] с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-32"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-33">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-33">
+            <bf:provisionActivityStatement>1805</bf:provisionActivityStatement>
+            <bf:part>Ч. 5</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>X, 432 с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-33"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-34">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-34">
+            <bf:provisionActivityStatement>1806</bf:provisionActivityStatement>
+            <bf:part>Ч.6</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>XII, 216, 307-330, 241-408 с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-34"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-35">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-35">
+            <bf:provisionActivityStatement>1806</bf:provisionActivityStatement>
+            <bf:part>Ч.7</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[6], 423, [1] с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-35"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-36">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-36">
+            <bf:provisionActivityStatement>1806</bf:provisionActivityStatement>
+            <bf:part>Ч.8</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[6], 345, [1] с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-36"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-37">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-37">
+            <bf:provisionActivityStatement>1807</bf:provisionActivityStatement>
+            <bf:part>Ч.9</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[4], IV, 364, [2] с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-37"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-38">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-38">
+            <bf:provisionActivityStatement>1807</bf:provisionActivityStatement>
+            <bf:part>Ч.10</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[4], IV, 381, [3] с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-38"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://example.org/002988236#Work774-39">
+        <bf:hasInstance>
+          <bf:Instance rdf:about="http://example.org/002988236#Instance774-39">
+            <bf:provisionActivityStatement>1807</bf:provisionActivityStatement>
+            <bf:part>Ч.11</bf:part>
+            <bf:extent>
+              <bf:Extent>
+                <rdfs:label>[12], 336, [24] с.</rdfs:label>
+              </bf:Extent>
+            </bf:extent>
+            <bf:instanceOf rdf:resource="http://example.org/002988236#Work774-39"/>
+          </bf:Instance>
+        </bf:hasInstance>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasInstance rdf:resource="http://example.org/002988236#Instance"/>
+  </bf:Work>
+  <bf:Instance rdf:about="http://example.org/002988236#Instance">
+    <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Print"/>
+    <bf:issuance>
+      <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+    </bf:issuance>
+    <bf:provisionActivity>
+      <bf:ProvisionActivity>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+        <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">1804/1807</bf:date>
+        <bf:place>
+          <bf:Place rdf:about="http://id.loc.gov/vocabulary/countries/ru"/>
+        </bf:place>
+      </bf:ProvisionActivity>
+    </bf:provisionActivity>
+    <bf:carrier>
+      <bf:Carrier rdf:about="http://id.loc.gov/vocabulary/carriers/nc">
+        <rdfs:label>volume</rdfs:label>
+      </bf:Carrier>
+    </bf:carrier>
+    <bf:identifiedBy>
+      <bf:CopyrightNumber>
+        <rdf:value>5222-10</rdf:value>
+        <bf:source>
+          <bf:Source>
+            <rdfs:label>РГБ</rdfs:label>
+          </bf:Source>
+        </bf:source>
+      </bf:CopyrightNumber>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Local>
+        <rdf:value>SK1825t2-0000277</rdf:value>
+        <bf:source>
+          <bf:Source>
+            <rdfs:label>RuMoRGB</rdfs:label>
+          </bf:Source>
+        </bf:source>
+      </bf:Local>
+    </bf:identifiedBy>
+    <rdfs:label>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</rdfs:label>
+    <bf:title>
+      <bf:Title>
+        <rdfs:label>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</rdfs:label>
+        <bflc:titleSortKey>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</bflc:titleSortKey>
+        <bf:mainTitle>История XVIII столетия, или Обстоятельное описание всех важнейших произшествий и достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания мужей, в течении онаго живших</bf:mainTitle>
+      </bf:Title>
+    </bf:title>
+    <bf:responsibilityStatement>Перевод с немецкаго</bf:responsibilityStatement>
+    <bf:provisionActivity>
+      <bf:ProvisionActivity>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+        <bf:place>
+          <bf:Place>
+            <rdfs:label>Москва</rdfs:label>
+          </bf:Place>
+        </bf:place>
+        <bf:agent>
+          <bf:Agent>
+            <rdfs:label>В типографии С. Селивановскаго</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:date>1804-1807</bf:date>
+      </bf:ProvisionActivity>
+    </bf:provisionActivity>
+    <bf:provisionActivityStatement>Москва; В типографии С. Селивановскаго; 1804-1807</bf:provisionActivityStatement>
+    <bf:dimensions>12° (19 см)</bf:dimensions>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Пер.: М.А. Паренаго, П.П. Озеров, Д.И. Дмитревский.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Объявление издателя на с.[1] (ряд 2-й) ч. 9.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>На с.327-367 ч.4 : "Прибавление к четвертой части Истории XVIII столетия. История о возшествии на престол Екатерины II.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Ценз.: Моск. ун-та ценз. ком.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Предисл. авт. на с.III-X ч.1. Указывается, что книга предназначена для широкого круга читателей.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Имеются подстроч. примеч. Особо отмечены примеч. изд.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Имеются вар. с. 200 - 206 и с. 275 - 276 ч. 3. Вар. 1 : 5-я строка снизу с.200 - "на то повеление", последняя строка с. 200 - "что она", последняя строка с.206 - "сец Юпитеров!", 2-я строка с. 275 - "составить щастие", 6-я строка снизу с. 276 - "1720 года, мог-". Вар. 2 с цензурной правкой : последняя строка с.200 - "на то повеление", последняя строка с. 206 - "Юпитеров!", 2-я строка с. 275 - "составить начало", 6-я строка снизу с.276 - "двадцатаго года, мог-".</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Имеются вар. оглавления на с.[6] ч. 4. Вар. 3 : 4-я строка - "V Убийственное предприятие про-", последняя строка - "1771 года. 312". Вар. 4 дополненный : 4-я строка - "V Убийственное предприятие", последняя строка - "стол Екатерины II. 328".</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Список подписчиков на с.[1 - 24] (ряд 2-й) ч. 11.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Книгопродавческое объявление Московской Сенатской типографии на с.[2 - 3] (ряд 2 -й) ч. 10.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Имеются ошибки в колонцифрах.</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:instanceOf rdf:resource="http://example.org/002988236#Work"/>
+  </bf:Instance>
+</rdf:RDF>

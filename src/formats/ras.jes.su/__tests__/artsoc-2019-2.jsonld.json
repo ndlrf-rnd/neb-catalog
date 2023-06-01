@@ -1,0 +1,712 @@
+[
+  {
+    "@graph": {
+      "@id": "_:issuenode487",
+      "@type": [
+        "https://schema.org/Periodical",
+        "http://id.loc.gov/ontologies/bibframe/Instance"
+      ],
+      "_  ": {
+        "Type": "C",
+        "coverArt": "9582.png",
+        "ltype": "A",
+        "status": "H",
+        "type": "D"
+      },
+      "bf:acquisitionTerms": {
+        "list_price": 0,
+        "price": 0
+      },
+      "bf:adminMetadata": {
+        "bf:identifiedBy": {
+          "@type": "bf:Local",
+          "bf:Source": "jes",
+          "bf:assigner": {
+            "@type": "bf:Agent",
+            "rdfs:label": "https://artsoc.jes.su/"
+          },
+          "rdf:value": "_:issuenode487"
+        }
+      },
+      "bf:classification": {
+        "classificationPortion": {
+          "@type": "bf:Classification",
+          "bf:identifiedBy": {
+            "@type": "bf:Local",
+            "bf:Source": "jes",
+            "rdf:value": "154"
+          }
+        }
+      },
+      "bf:content": {
+        "@type": "bf:Content",
+        "label": {
+          "en": [],
+          "ru": []
+        }
+      },
+      "bf:hasInstance": [
+        {
+          "@id": "_:publicationnode9786",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": {
+            "@id": "_:personnode16085",
+            "@type": "Person"
+          },
+          "bf:extent": "11852",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9786"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005912-2"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "Central Economics and Mathematics Institute",
+                  "ru": "Центральный экономико-математический институт РАН"
+                }
+              }
+            ],
+            "bf:date": "2019-07-07T21:00:00.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {
+                "en": "Russian Federation, Moscow",
+                "ru": "Российская Федерация, Москва"
+              }
+            }
+          },
+          "bf:version": "6444"
+        },
+        {
+          "@id": "_:publicationnode9670",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": [
+            {
+              "@id": "_:personnode9846",
+              "@type": "Person"
+            },
+            {
+              "@id": "_:personnode14622",
+              "@type": "Person"
+            },
+            {
+              "@id": "_:personnode14621",
+              "@type": "Person"
+            },
+            {
+              "@id": "_:personnode8689",
+              "@type": "Person"
+            }
+          ],
+          "bf:extent": "20600",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9670"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005804-3"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "Central Economics and Mathematics Institute Russian Academy of Sciences",
+                  "ru": "Центральный экономико-математический институт Российской академии наук"
+                }
+              }
+            ],
+            "bf:date": "2019-07-07T21:00:00.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {
+                "en": "Russian Federation, Moscow",
+                "ru": "Российская Федерация, Москва"
+              }
+            }
+          },
+          "relatedTo": [
+            {
+              "bf:author": {
+                "@id": "_:personnode9846",
+                "@type": "bf:Person"
+              },
+              "bf:organization": {
+                "@type": "bf:Organization",
+                "location": {
+                  "rdfs:label": {
+                    "en": "Russian Federation, Moscow",
+                    "ru": "Российская Федерация, Москва"
+                  }
+                },
+                "name": {
+                  "rdfs:label": {
+                    "en": "Central Economics and Mathematics Institute Russian Academy of Sciences",
+                    "ru": "Центральный экономико-математический институт Российской академии наук"
+                  }
+                }
+              },
+              "bf:publication": {
+                "@id": "_:publicationnode9670",
+                "@type": "bf:Publication"
+              }
+            },
+            {
+              "bf:author": {
+                "@id": "_:personnode14622",
+                "@type": "bf:Person"
+              },
+              "bf:organization": {
+                "@type": "bf:Organization",
+                "location": {
+                  "rdfs:label": {
+                    "en": "Russian Federation, Moscow",
+                    "ru": "Российская Федерация, Москва"
+                  }
+                },
+                "name": {
+                  "rdfs:label": {
+                    "en": "Central Economics and Mathematics Institute Russian Academy of Sciences",
+                    "ru": "Центральный экономико-математический институт Российской академии наук"
+                  }
+                }
+              },
+              "bf:publication": {
+                "@id": "_:publicationnode9670",
+                "@type": "bf:Publication"
+              }
+            },
+            {
+              "bf:author": {
+                "@id": "_:personnode14621",
+                "@type": "bf:Person"
+              },
+              "bf:organization": {
+                "@type": "bf:Organization",
+                "location": {
+                  "rdfs:label": {
+                    "en": "Russian Federation, Moscow",
+                    "ru": "Российская Федерация, Москва"
+                  }
+                },
+                "name": {
+                  "rdfs:label": {
+                    "en": "Central Economics and Mathematics Institute Russian Academy of Sciences",
+                    "ru": "Центральный экономико-математический институт Российской академии наук"
+                  }
+                }
+              },
+              "bf:publication": {
+                "@id": "_:publicationnode9670",
+                "@type": "bf:Publication"
+              }
+            },
+            {
+              "bf:author": {
+                "@id": "_:personnode8689",
+                "@type": "bf:Person"
+              },
+              "bf:organization": {
+                "@type": "bf:Organization",
+                "location": {
+                  "rdfs:label": {
+                    "en": "Russian Federation, Moscow",
+                    "ru": "Российская Федерация, Москва"
+                  }
+                },
+                "name": {
+                  "rdfs:label": {
+                    "en": "Central Economics and Mathematics Institute Russian Academy of Sciences",
+                    "ru": "Центральный экономико-математический институт Российской академии наук"
+                  }
+                }
+              },
+              "bf:publication": {
+                "@id": "_:publicationnode9670",
+                "@type": "bf:Publication"
+              }
+            }
+          ],
+          "bf:version": "6335"
+        },
+        {
+          "@id": "_:publicationnode9237",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": {
+            "@id": "_:personnode19432",
+            "@type": "Person"
+          },
+          "bf:extent": "6112",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9237"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005393-1"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "CEMI RAS; Moscow State University",
+                  "ru": "Центральный экономико-математический институт РАН; МГУ им. М.В. Ломоносова"
+                }
+              }
+            ],
+            "bf:date": "2019-07-08T14:56:43.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {
+                "en": "Russian Federation, Moscow",
+                "ru": "Российская Федерация, Москва"
+              }
+            }
+          },
+          "bf:version": "5901"
+        },
+        {
+          "@id": "_:publicationnode9364",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": {
+            "@id": "_:personnode19622",
+            "@type": "Person"
+          },
+          "bf:extent": "17120",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9364"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005514-4"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "Cemi RAS",
+                  "ru": "ЦЭМИ РАН"
+                }
+              }
+            ],
+            "bf:date": "2019-07-08T14:56:43.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {
+                "en": "Russian Federation, Moscow",
+                "ru": "Российская Федерация, Москва"
+              }
+            }
+          },
+          "bf:version": "6023"
+        },
+        {
+          "@id": "_:publicationnode9601",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": {
+            "@id": "_:personnode20093",
+            "@type": "Person"
+          },
+          "bf:extent": "13613",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9601"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005736-8"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "IQSystems",
+                  "ru": "IQSystems"
+                }
+              }
+            ],
+            "bf:date": "2019-07-07T21:00:00.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {
+                "en": "Russian Federation, Moscow",
+                "ru": "Российская Федерация, Москва"
+              }
+            }
+          },
+          "bf:version": "6267"
+        },
+        {
+          "@id": "_:publicationnode9702",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": {
+            "@id": "_:personnode19306",
+            "@type": "Person"
+          },
+          "bf:extent": "11622",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9702"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005834-6"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "Central Economics and Mathematics Institute",
+                  "ru": "Центральный экономико-математический институт РАН"
+                }
+              }
+            ],
+            "bf:date": "2019-07-07T21:00:00.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {
+                "en": "Russian Federation, Moscow",
+                "ru": "Российская Федерация, Москва"
+              }
+            }
+          },
+          "bf:version": "6365"
+        },
+        {
+          "@id": "_:publicationnode9520",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": {
+            "@id": "_:personnode19969",
+            "@type": "Person"
+          },
+          "bf:extent": "20621",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9520"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005656-0"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "Lomonosov Moscow State University",
+                  "ru": "МГУ имени М. В. Ломоносова"
+                }
+              }
+            ],
+            "bf:date": "2019-07-08T14:56:43.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {
+                "en": "Russian Federation, Moscow",
+                "ru": "Российская Федерация, Москва"
+              }
+            }
+          },
+          "bf:version": "6187"
+        },
+        {
+          "@id": "_:publicationnode9491",
+          "@type": [
+            "bf:Instance",
+            "bf:Publication"
+          ],
+          "_": {
+            "publication_type": "A",
+            "status": "P"
+          },
+          "bf:authors": [
+            {
+              "@id": "_:personnode19913",
+              "@type": "Person"
+            },
+            {
+              "@id": "_:personnode19927",
+              "@type": "Person"
+            }
+          ],
+          "bf:extent": "23587",
+          "bf:identifiedBy": [
+            {
+              "@type": "bf:Local",
+              "bf:Source": "jes",
+              "bf:assigner": {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              "rdf:value": "_:publicationnode9491"
+            },
+            {
+              "@type": "bf:Doi",
+              "rdf:value": "10.18254/S207751800005630-2"
+            }
+          ],
+          "bf:provisionActivity": {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": [
+              {
+                "@type": "bf:Agent",
+                "rdfs:label": "https://artsoc.jes.su/"
+              },
+              {
+                "@type": "bf:Organization",
+                "rdfs:label": {
+                  "en": "United Aircraft Corporation",
+                  "ru": "Объединенная авиастроительная корпорация"
+                }
+              }
+            ],
+            "bf:date": "2019-07-08T14:56:43.000Z",
+            "bf:place": {
+              "@type": "bf:Place",
+              "rdfs:label": {}
+            }
+          },
+          "relatedTo": {
+            "bf:author": {
+              "@id": "_:personnode19927",
+              "@type": "bf:Person"
+            },
+            "bf:organization": {
+              "@type": "bf:Organization",
+              "location": {
+                "rdfs:label": {
+                  "en": "Russian Federation, Moscow",
+                  "ru": "Российская Федерация, Москва"
+                }
+              },
+              "name": {
+                "rdfs:label": {
+                  "en": "Businessman",
+                  "ru": "Индивидуальный предприниматель"
+                }
+              }
+            },
+            "bf:publication": {
+              "@id": "_:publicationnode9491",
+              "@type": "bf:Publication"
+            }
+          },
+          "bf:version": "6161"
+        }
+      ],
+      "bf:isPartOf": {
+        "@id": "_:productnode9582",
+        "@type": "Periodical",
+        "bf:identifiedBy": [
+          {
+            "@type": "bf:Local",
+            "bf:Source": "jes",
+            "bf:assigner": {
+              "@type": "bf:Agent",
+              "rdfs:label": "https://artsoc.jes.su/"
+            },
+            "rdf:value": "_:issuenode487"
+          },
+          {
+            "@type": "http://id.loc.gov/ontologies/bibframe/Issn",
+            "rdf:value": "2077-5180",
+            "status": "vocabularies/IdentifierStatus#Valid"
+          }
+        ]
+      },
+      "bf:title": {
+        "@type": "bf:Title",
+        "bf:keyTitle": {
+          "@type": [
+            "bf:KeyTitle",
+            "bf:Identifier"
+          ],
+          "label": {
+            "en": "Issue 2",
+            "ru": "Выпуск 2"
+          }
+        },
+        "bf:mainTitle": {
+          "@type": "bf:MainTitle",
+          "label": {
+            "en": "Issue 2",
+            "ru": "Выпуск 2"
+          }
+        },
+        "bf:partNumber": {
+          "label": "2"
+        }
+      },
+      "format": "vocabularies/medium#Online"
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01009000000/rsl01009913000/rsl01009913303/rsl01009913303.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Poster",
+      "author": [],
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "3143-38изо",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/Р0 I №1/3",
+            "name": "IZO",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "Р0 I №1/3"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "хромолитогр.",
+      "content": {
+        "en": "leaflet/placard",
+        "ru": "Афиши и листовки"
+      },
+      "dc:issued": "1914",
+      "description": [
+        "Имеется электронная копия",
+        "1 л.",
+        "хромолитогр.",
+        "69 х 100 см."
+      ],
+      "dimensions": "69 х 100 см.",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/009913303",
+      "language":["rus"],
+      "marc:type": "k",
+      "materialExtent": "1 л.",
+      "modified": "2019-04-30T11:55:40.0Z",
+      "numberOfPages": 1,
+      "published": "1914",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "С.-Петербург",
+        "name": "Т-во Р. Голике и А. Вильборг"
+      },
+      "subject": {
+        "topic": [
+          "Курорты. Курортно-санаторные учреждения",
+          "Сфера досуга",
+          "rubbk: Искусство. Искусствознание -- Графика -- Карикатура. Лубок. Народные картинки. Плакат -- Плакат -- Информационный и рекламный плакат -- Торгово-промышленная реклама -- Россия -- Вторая половина 90-х гг. XIX в. - 1917 г."
+        ]
+      },
+      "subtitle": "Владикавказская Ж.Д.",
+      "title": "Кисловодск. Сезон 1914 г."
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "$id": "https://catalog.rusneb.ru/schemas/sources.json",
+  "base": "https://catalog.ruseb.ru/",
+  "contentEncoding": "utf-8",
+  "contentMediaType": "application/json",
+  "description": "Data sources (Authority who created or corrected content of record)",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "prev": {"type": "object"},
+        "current": {"type": "object"},
+        "next": {"type": "object"}
+      }
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "$ref": "sources.json#"
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "sources.json{?offset,limit}",
+      "templateRequired": [
+        "offset",
+        "limit"
+      ],
+      "templatePointers": {
+        "offset": "/meta/cursors/offset",
+        "limit": "/meta/cursors/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    },
+    {
+      "rel": "prev",
+      "href": "sources.json{?offset,limit}",
+      "templateRequired": [
+        "offset",
+        "limit"
+      ],
+      "templatePointers": {
+        "offset": "/meta/prev/offset",
+        "limit": "/meta/prev/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    },
+    {
+      "rel": "next",
+      "href": "sources.json{?offset,limit}",
+      "templateRequired": [
+        "offset",
+        "limit"
+      ],
+      "templatePointers": {
+        "offset": "/meta/next/offset",
+        "limit": "/meta/next/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    }
+  ]
+}

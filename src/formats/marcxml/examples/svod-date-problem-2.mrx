@@ -1,0 +1,100 @@
+<record>
+  <leader>02007nam0p2200289 i 450 </leader>
+  <controlfield tag="001">RU\NLR\A1\1235</controlfield>
+  <controlfield tag="005">20031117143148.0</controlfield>
+  <datafield ind1=" " ind2=" " tag="100">
+    <subfield code="a">19960826d1779####|||y0rusy50######ca</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="101">
+    <subfield code="a">rus</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="102">
+    <subfield code="a">RU</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="200">
+    <subfield code="a">Слова преосвященным Иеронимом епископом Владимирским и Муромским в городе Муроме говоренныя 1778 года</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="210">
+    <subfield code="a">[М.]</subfield>
+    <subfield code="c">Тип. Имп. Моск. ун-та [У Н.Новикова]</subfield>
+    <subfield code="d">1779</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="215">
+    <subfield code="a">34 с.</subfield>
+    <subfield code="d">4°</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Существует 2 изд., отличающихся только набором. Последовательность изд. не установлена. В настоящем изд. слово "говоренныя" на тит. л. набрано прямым шрифтом</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">На обороте тит. л. тип. марка Н.Новикова</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="321">
+    <subfield code="a">Сводный каталог русской книги гражданской печати XVIII века. 1725-1800. М., 1962-1975.</subfield>
+    <subfield code="c">2416</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="620">
+    <subfield code="d">Москва</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="686">
+    <subfield code="a">01.02.03.05.01</subfield>
+    <subfield code="h">Общероссийский свод книжных памятников</subfield>
+    <subfield code="h">Единичные книжные памятники</subfield>
+    <subfield code="h">Текстовые издания</subfield>
+    <subfield code="h">издания русского гражданского шрифта</subfield>
+    <subfield code="j">XVIII в.</subfield>
+    <subfield code="2">RUBBM</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="700">
+    <subfield code="a">Иероним</subfield>
+    <subfield code="c">Фармаковский</subfield>
+    <subfield code="f">1732-1783</subfield>
+    <subfield code="4">070</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="702">
+    <subfield code="a">Новиков</subfield>
+    <subfield code="b">Н.И.</subfield>
+    <subfield code="f">1744-1818</subfield>
+    <subfield code="g">Николай Иванович</subfield>
+    <subfield code="4">610</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="702">
+    <subfield code="a">Бурылин</subfield>
+    <subfield code="b">Д.Г.</subfield>
+    <subfield code="f">1852-1924</subfield>
+    <subfield code="g">Дмитрий Геннадьевич</subfield>
+    <subfield code="4">070</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="2" tag="712">
+    <subfield code="a">Московский университет</subfield>
+    <subfield code="b">Типография</subfield>
+    <subfield code="4">610</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="2" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20110405</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РНБ</subfield>
+    <subfield code="c">19960826</subfield>
+    <subfield code="g">RCR</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РНБ</subfield>
+    <subfield code="c">20031117</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="909">
+    <subfield code="a">Книжный памятник - Издание</subfield>
+    <subfield code="3">RU.BM.TEMPLATE.RUSMARC.BIBL.PUBLICATION</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="930">
+    <subfield code="a">Эксперт РГБ</subfield>
+    <subfield code="b">выгрузка РГБ</subfield>
+    <subfield code="c">19960826</subfield>
+  </datafield>
+</record>

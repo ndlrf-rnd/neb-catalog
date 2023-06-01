@@ -1,0 +1,195 @@
+{
+  "$id": "publication.schema.json",
+  "properties": {
+    "direction": {
+      "type": "string",
+      "default": "auto"
+    },
+    "type": {
+      "default": [
+        "Book"
+      ],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "3DModel",
+          "ArchiveComponent",
+          "Article",
+          "Atlas",
+          "Blog",
+          "Book",
+          "Chapter",
+          "Claim",
+          "Clip",
+          "Collection",
+          "ComicStory",
+          "Comment",
+          "Conversation",
+          "Course",
+          "CreativeWorkSeason",
+          "CreativeWorkSeries",
+          "DataCatalog",
+          "Dataset",
+          "DefinedTermSet",
+          "Diet",
+          "DigitalDocument",
+          "Drawing",
+          "EducationalOccupationalCredential",
+          "Episode",
+          "ExercisePlan",
+          "Game",
+          "HowTo",
+          "HowToDirection",
+          "HowToSection",
+          "HowToStep",
+          "HowToTip",
+          "Legislation",
+          "Manuscript",
+          "Map",
+          "MediaObject",
+          "Menu",
+          "MenuSection",
+          "Message",
+          "Movie",
+          "MusicComposition",
+          "MusicPlaylist",
+          "MusicRecording",
+          "Painting",
+          "Photograph",
+          "Play",
+          "Poster",
+          "PublicationIssue",
+          "PublicationVolume",
+          "Question",
+          "Quotation",
+          "Review",
+          "Sculpture",
+          "SheetMusic",
+          "ShortStory",
+          "SoftwareApplication",
+          "SoftwareSourceCode",
+          "TVSeason",
+          "TVSeries",
+          "Thesis",
+          "VisualArtwork",
+          "WebContent",
+          "WebPage",
+          "WebPageElement",
+          "WebSite"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "accessMode": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "auditory",
+          "tactile",
+          "textual",
+          "visual",
+          "colorDependent",
+          "chartOnVisual",
+          "chemOnVisual",
+          "diagramOnVisual",
+          "mathOnVisual",
+          "musicOnVisual",
+          "textOnVisual"
+        ],
+        "type": "string"
+      },
+      "default": [
+        "textual",
+        "visual"
+      ],
+      "uniqueItems": true
+    },
+    "accessModeSufficient": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "auditory",
+          "tactile",
+          "textual",
+          "visual"
+        ],
+        "type": "string"
+      },
+      "default": [
+        "textual",
+        "visual"
+      ],
+      "uniqueItems": true
+    },
+    "inDirection": {
+      "type": "string",
+      "default": "auto",
+      "enum": [
+        "rtl",
+        "ltr",
+        "auto"
+      ]
+    },
+
+    "accessibilityHazard": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "flashing",
+          "noFlashingHazard",
+          "motionSimulation",
+          "noMotionSimulationHazard",
+          "sound",
+          "noSoundHazard",
+          "unknown",
+          "none"
+        ]
+      },
+      "default": [],
+      "uniqueItems": true
+    },
+    "accessibilityFeature": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "alternativeText",
+          "annotations",
+          "audioDescription",
+          "bookmarks",
+          "braille",
+          "captions",
+          "ChemML",
+          "describedMath",
+          "displayTransformability",
+          "highContrastAudio",
+          "highContrastDisplay",
+          "index",
+          "largePrint",
+          "latex",
+          "longDescription",
+          "MathML",
+          "none",
+          "printPageNumbers",
+          "readingOrder",
+          "rubyAnnotations",
+          "signLanguage",
+          "structuralNavigation",
+          "synchronizedAudioText",
+          "tableOfContents",
+          "taggedPDF",
+          "tactileGraphic",
+          "tactileObject",
+          "timingControl",
+          "transcript",
+          "ttsMarkup",
+          "unlocked"
+        ],
+        "type": "string"
+      },
+      "default": [],
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,288 @@
+body {
+    line-height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+body,
+body * {
+    box-sizing: border-box;
+}
+
+
+.auto-former {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
+    /*font-size: 0.8em;*/
+}
+
+.auto-former .auto-former-row {
+    border: 1px solid #eeeeee;
+    border-bottom: 1px solid #999999;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.auto-former .auto-former-row:last-child {
+    border-bottom: unset;
+}
+
+
+.sortable-chosen {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25) !important;
+}
+
+.sortable-ghost {
+    background-color: #C8EBFB;
+}
+
+.auto-former-array-row {
+    flex: 100% 1;
+    /*box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25);*/
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: baseline;
+    overflow: hidden;
+}
+
+.auto-former .auto-former-field-row {
+    display: flex;
+    align-items: baseline;
+    margin-top: 2px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.auto-former .auto-former-field-row label.field-title {
+    font-size: 0.8em;
+    text-align: left;
+    color: rgba(30, 144, 255, 1.0);
+    padding: 0.25rem 0.5rem;
+    max-width: 256px;
+    flex: 1 2;
+    min-width: 64px;
+}
+
+.form-value {
+    background: #ffffff;
+    margin-left: 1rem;
+    /*background: lightskyblue;*/
+}
+
+.auto-former .auto-former-field-row .field-description {
+    font-size: 0.65rem;
+    line-height: 0.65rem;
+    margin-left: 0.75rem;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.sortable-handle {
+    display: none;
+}
+
+.fields-array.sortable > .auto-former-row > .sortable-handle {
+    background-color: transparent;
+    width: 1.5em;
+    text-align: center;
+    vertical-align: center;
+    color: #AAAAAA;
+    cursor: grab;
+}
+
+.fields-array.sortable > .auto-former-row > .sortable-handle:after {
+    height: 100%;
+    font-size: 1.25em;
+    content: '≡'
+}
+
+.sortable-chosen .sortable-handle:after {
+    color: #666666;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+/*.input {*/
+/*    width: 100%;*/
+/*}*/
+
+.auto-former .auto-former-field-row-content {
+    display: inline-block;
+    text-align: left;
+    flex: 4 6;
+    align-items: baseline;
+}
+
+.auto-former .auto-former-field-row-content.input .extension {
+    display: block;
+    white-space: nowrap;
+}
+
+.auto-former .select-disabled {
+    display: flex;
+    flex-direction: column;
+}
+
+.shadowed {
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25);
+    border: 1px solid lightgray;
+}
+
+
+.fields-object {
+    max-width: 100%;
+}
+
+
+.auto-former form {
+    margin: 0;
+    padding: 0;
+}
+
+.auto-former input:placeholder-shown,
+.auto-former textarea:placeholder-shown,
+.auto-former select:placeholder-shown {
+    background: #F5F5F5;
+}
+
+.auto-former button,
+.auto-former input,
+.auto-former textarea,
+.auto-former select,
+.auto-former .constant {
+    line-height: 1.3rem;
+    margin: 0;
+    background: unset;
+}
+
+.auto-former input,
+.auto-former textarea,
+.auto-former select {
+    background: rgba(255,255,255,0.35);
+    border: 1px solid rgba(0,0,0,0.1);
+    /*flex: auto;*/
+    /*background: rgba(30, 144, 255, 0.1);*/
+    /*border: none;*/
+    /*padding: 0.0rem 0.25rem;*/
+    /*margin: 0;*/
+    /*display: block;*/
+    /*color: #000000;*/
+    /*vertical-align: center;*/
+}
+
+.auto-former input,
+.auto-former textarea {
+    width: 100%;
+}
+
+
+.auto-former .select-option {
+    border: 1px dashed lightgray;
+}
+
+
+.auto-former input:disabled,
+.auto-former select:disabled,
+.auto-former input:disabled:hover,
+.auto-former select:disabled:hover {
+    cursor: not-allowed;
+    background: rgba(200, 200, 200, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.auto-former input:hover,
+.auto-former select:hover {
+    color: #000000;
+}
+
+
+.auto-former input:focus,
+.auto-former select:focus {
+    color: #000000;
+}
+
+/* Button */
+.auto-former button {
+    cursor: pointer;
+    min-width: 1.5rem;
+    border: 0;
+    margin: -1px;
+    background: transparent;
+    color: rgba(30, 144, 255, 1.0);
+}
+
+.auto-former button:disabled {
+    color: gray !important;
+    background: transparent !important;
+    cursor: unset;
+}
+
+.auto-former button:hover {
+    background: rgba(30, 144, 255, 1.0);
+    color: white;
+}
+
+
+.auto-former button.button-add {
+    color: darkgreen;
+}
+
+.auto-former button.button-add:hover {
+    background: green;
+    color: white;
+}
+
+
+.auto-former .button-remove {
+    color: darkred;
+}
+
+.auto-former .button-remove:hover {
+    background: red;
+    color: white;
+}
+
+/* Checkbox */
+input[type='checkbox'] {
+    cursor: pointer;
+    height: 1.25em;
+    margin: 0;
+    padding: 0;
+    width: 1.25em;
+}
+
+input[type='checkbox']::after {
+    color: darkred;
+    content: '✕';
+    text-align: center;
+    background: #ffffff;
+    width: 1.25em;
+    float: left;
+    height: 1.25em;
+    line-height: 1.25em;
+}
+
+input[type='checkbox']:checked::after {
+    float: left;
+    color: darkgreen;
+    text-align: center;
+    background: #ffffff;
+    content: '✓';
+    width: 1.25em;
+    height: 1.25em;
+    line-height: 1.25em;
+}
+
+/* Boolean */
+.boolean-true {
+    color: darkgreen;
+}
+
+.boolean-false {
+    color: darkred;
+}

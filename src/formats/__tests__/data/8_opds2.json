@@ -1,0 +1,84 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Гордон, Люси",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "99-19180ж",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorkp.html",
+              "name": "ФГБУ \"Российская книжная палата\""
+            },
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/10 92-16/116-5",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "10 92-16/116-5"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/10 92-16/117-3",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "10 92-16/117-3"
+          }
+        ],
+        "series": {
+          "href": "/resources/instance/RuMoRGB/000844273",
+          "title": "Любовный роман [Текст]"
+        }
+      },
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1999",
+      "description": [
+        "Загл. ориг.: Beauty and the boss",
+        "Данные тит. л. частично парал. англ.",
+        "На тит. л. и обл.: Harlequin",
+        "188, [1] с.",
+        "17 см"
+      ],
+      "dimensions": "17 см",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/000623327",
+      "language": [
+        "rus"
+      ],
+      "marc:type": "a",
+      "materialExtent": "188, [1] с.",
+      "modified": "2018-09-14T15:34:23.0Z",
+      "nameOfWorkPart": "308",
+      "numberOfPages": 188,
+      "published": "1999",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Москва",
+        "name": "Радуга-"
+      },
+      "responsibilityNotes": "Люси Гордон",
+      "subject": {
+        "topic": "rubbk: Филологические науки. Художественная литература -- Великобритания -- Английская литература -- с 1991 г. -- Произведения художественной литературы -- Художественная проза -- Романы. Повести. Рассказы"
+      },
+      "subtitle": "роман : перевод с английского",
+      "title": "Когда я тебя увижу"
+    }
+  }
+]

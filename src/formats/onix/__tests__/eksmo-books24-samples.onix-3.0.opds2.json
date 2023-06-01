@@ -1,0 +1,374 @@
+[
+  {
+    "@context": [
+      "https://readium.org/webpub-manifest/context.jsonld",
+      "https://id.loc.gov/ontologies/bibframe.html"
+    ],
+    "links": [
+      {
+        "href": "URN:PROIZ_GUID:01:5782b9bd-20bd-4f0c-ac56-7a77554ad2b2",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:61a40dc2-5f2b-429d-973a-c8a6bf192b44",
+        "rel": "bf:manifestationOf"
+      }
+    ],
+    "metadata": {
+      "@type": "https://schema.org/Book",
+      "author": {
+        "bf:role": "author",
+        "identifier": "URN:AUTHOR_GUID:7e3044af-1d4c-11e2-818f-5ef3fc5021a7",
+        "name": "Шелвис Джилл",
+        "type": "Person"
+      },
+      "contentRating": {
+        "@type": "https://schema.org/contentRating",
+        "description": "Reading age, years"
+      },
+      "description": {
+        "contentAudience": "Unrestricted - Any audience",
+        "title": "Short description/annotation"
+      },
+      "editor": {
+        "bf:role": "editor",
+        "identifier": "URN:EDITOR_GUID:7e90eb27-4a7f-11e2-956a-5ef3fc5021a7",
+        "name": " Еремеева Ольга Анатольевна",
+        "type": "Person"
+      },
+      "identifier": [
+        "URN:NOMCODE:AST000000000145937",
+        "URN:UDK:821.111-31(73)",
+        "URN:BBK:84(7Сое)-44",
+        "URN:ISBN:978-5-17-082584-4",
+        "URN:EAN13:9785170825844",
+        "URN:2c52a181-9d6e-4431-8451-00c6d11da7c7"
+      ],
+      "language": ["rus"],
+      "publisher": {
+        "identifier": "URN:IMPRINT_GUID:aa0df88c-d418-11e3-a44f-5ef3fc5021a7"
+      },
+      "responsibilityNotes": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element\\nIncluded regions: WORLD",
+      "schema:conditionsOfAccess": "Forthcoming - Not yet published in this market, should be accompanied by expected local publication date"
+    },
+    "readingOrder": []
+  },
+  {
+    "@context": [
+      "https://readium.org/webpub-manifest/context.jsonld",
+      "https://id.loc.gov/ontologies/bibframe.html"
+    ],
+    "links": {
+      "href": "URN:PROIZ_GUID:01:a002424f-c626-4427-a9c1-72394b2449a1",
+      "rel": "bf:manifestationOf"
+    },
+    "metadata": {
+      "@type": "https://schema.org/Book",
+      "author": [
+        {
+          "bf:role": "author",
+          "identifier": "URN:AUTHOR_GUID:75321273-1d4b-11e2-818f-5ef3fc5021a7",
+          "name": "Маслова Т. Н.",
+          "type": "Person"
+        },
+        {
+          "bf:role": "author",
+          "identifier": "URN:AUTHOR_GUID:5173ecbd-1d4b-11e2-818f-5ef3fc5021a7",
+          "name": "Суходский А. М.",
+          "type": "Person"
+        }
+      ],
+      "contentRating": {
+        "@type": "https://schema.org/contentRating",
+        "description": "Reading age, years"
+      },
+      "description": {
+        "contentAudience": "Unrestricted - Any audience",
+        "title": "Short description/annotation"
+      },
+      "editor": {
+        "bf:role": "editor",
+        "identifier": "URN:EDITOR_GUID:9bd59215-9c41-11e2-a366-5ef3fc5021fb",
+        "name": "Арутюнян Марина Александровна",
+        "type": "Person"
+      },
+      "identifier": [
+        "URN:NOMCODE:AST000000000173370",
+        "URN:UDK:51(075.3)(035)",
+        "URN:BBK:22.1я72",
+        "URN:ISBN:978-5-17-087305-0",
+        "URN:EAN13:9785170873050",
+        "URN:4f4062b5-703e-4c6e-a9b5-ab4abb867c38"
+      ],
+      "language": ["rus"],
+      "publisher": {
+        "identifier": "URN:IMPRINT_GUID:aa0df88c-d418-11e3-a44f-5ef3fc5021a7"
+      },
+      "responsibilityNotes": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element\\nIncluded regions: WORLD",
+      "schema:conditionsOfAccess": "Forthcoming - Not yet published in this market, should be accompanied by expected local publication date"
+    },
+    "readingOrder": []
+  },
+  {
+    "@context": [
+      "https://readium.org/webpub-manifest/context.jsonld",
+      "https://id.loc.gov/ontologies/bibframe.html"
+    ],
+    "links": [
+      {
+        "href": "URN:PROIZ_GUID:01:fd8208d9-cc13-11ea-80bd-0050569a365d",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:80af9600-cc14-11ea-80bd-0050569a365d",
+        "rel": "bf:manifestationOf"
+      }
+    ],
+    "metadata": {
+      "@type": "https://schema.org/Book",
+      "description": {
+        "contentAudience": "Unrestricted - Any audience",
+        "title": "Short description/annotation"
+      },
+      "identifier": [
+        "URN:NOMCODE:ITD000000001117690",
+        "URN:UDK:343.2/.7",
+        "URN:BBK:67.408",
+        "URN:ISBN:978-5-04-116322-8",
+        "URN:EAN13:9785041163228",
+        "URN:8801b361-aefc-4395-adc5-7c5a6add372d"
+      ],
+      "language": ["rus"],
+      "publisher": {
+        "identifier": "URN:IMPRINT_GUID:d3e1161e-d418-11e3-a44f-5ef3fc5021a7"
+      },
+      "responsibilityNotes": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element\\nIncluded regions: WORLD"
+    },
+    "readingOrder": []
+  },
+  {
+    "@context": [
+      "https://readium.org/webpub-manifest/context.jsonld",
+      "https://id.loc.gov/ontologies/bibframe.html"
+    ],
+    "links": [
+      {
+        "href": "URN:PROIZ_GUID:01:56f49e85-7889-11e8-9ec5-000af77e485f",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:6fec686a-a44f-11e8-9ac3-000af77e485f",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:6011ed6c-aaa6-11e8-9ac3-000af77e485f",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:3e2ce8b4-ad08-11e8-9ac3-000af77e485f",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:6cc1b1f8-25e3-11e8-9921-0050569c29c2",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:df376503-8440-11e8-9ec5-000af77e485f",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:07ab2fa2-25e4-11e8-9921-0050569c29c2",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:cbdc9c21-cb13-11e8-bfc4-000af77e485f",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:c77d4196-f14f-11e8-8679-000af77e485f",
+        "rel": "bf:manifestationOf"
+      }
+    ],
+    "metadata": {
+      "@type": "https://schema.org/Book",
+      "author": {
+        "bf:role": "author",
+        "identifier": "URN:AUTHOR_GUID:d9a9e237-b918-11e5-96e3-000af77e485f",
+        "name": "Мортон Эндрю",
+        "type": "Person"
+      },
+      "contentRating": {
+        "@type": "https://schema.org/contentRating",
+        "description": "Reading age, years"
+      },
+      "description": [
+        {
+          "contentAudience": "Unrestricted - Any audience",
+          "title": "Description"
+        },
+        {
+          "contentAudience": "Unrestricted - Any audience",
+          "title": "Short description/annotation"
+        }
+      ],
+      "editor": {
+        "bf:role": "editor",
+        "identifier": "URN:EDITOR_GUID:1374b853-6234-4d1a-8b3a-77cb0e216b87",
+        "name": " Дмитриева Ксения Юрьевна",
+        "type": "Person"
+      },
+      "identifier": [
+        "URN:NOMCODE:ITD000000000915056",
+        "URN:UDK:323:929(410) Меган",
+        "URN:BBK:66.3(4Вел)8 Меган",
+        "URN:ISBN:978-5-04-096168-9",
+        "URN:EAN13:9785040961689",
+        "URN:438cc90e-1f3c-4665-b4b0-c0d36a2b92b2"
+      ],
+      "language": ["rus"],
+      "publisher": {
+        "identifier": "URN:IMPRINT_GUID:a8856c16-df22-11e3-a44f-5ef3fc5021a7"
+      },
+      "responsibilityNotes": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element\\nIncluded regions: WORLD"
+    },
+    "readingOrder": []
+  },
+  {
+    "@context": [
+      "https://readium.org/webpub-manifest/context.jsonld",
+      "https://id.loc.gov/ontologies/bibframe.html"
+    ],
+    "links": [
+      {
+        "href": "URN:PROIZ_GUID:01:be3f18e8-666e-11e9-a33d-000af77e485f",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:dcf76ec3-ba96-11e9-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:31140d1a-ee7a-11e9-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:645a9a14-bab1-11e9-9699-5cf3fc4a21fa",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:edbc724e-ffaf-11e9-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:951006c7-04a0-11ea-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:ce5f5b75-1812-11ea-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      }
+    ],
+    "metadata": {
+      "@type": "https://schema.org/Book",
+      "author": {
+        "bf:role": "author",
+        "identifier": "URN:AUTHOR_GUID:8925c92b-006d-11ea-a186-000af77e4763",
+        "name": "Аллен-Карон Лорен",
+        "type": "Person"
+      },
+      "contentRating": {
+        "@type": "https://schema.org/contentRating",
+        "description": "Reading age, years"
+      },
+      "description": [
+        {
+          "contentAudience": "Unrestricted - Any audience",
+          "title": "Description"
+        },
+        {
+          "contentAudience": "Unrestricted - Any audience",
+          "title": "Short description/annotation"
+        }
+      ],
+      "editor": {
+        "bf:role": "editor",
+        "identifier": "URN:EDITOR_GUID:58beb308-32ed-4250-b1ed-2ca98ce9ddc5",
+        "name": "Рейхерт Кристина Германовна",
+        "type": "Person"
+      },
+      "identifier": [
+        "URN:NOMCODE:ITD000000000932696",
+        "URN:UDK:687.1(092)",
+        "URN:BBK:85.126(3)-8",
+        "URN:ISBN:978-5-04-098314-8",
+        "URN:EAN13:9785040983148",
+        "URN:074d28d6-4c90-4627-99b4-0779d7353fa9"
+      ],
+      "language": ["rus"],
+      "publisher": {
+        "identifier": "URN:IMPRINT_GUID:a8856c16-df22-11e3-a44f-5ef3fc5021a7"
+      },
+      "responsibilityNotes": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element\\nIncluded regions: WORLD"
+    },
+    "readingOrder": []
+  },
+  {
+    "@context": [
+      "https://readium.org/webpub-manifest/context.jsonld",
+      "https://id.loc.gov/ontologies/bibframe.html"
+    ],
+    "links": [
+      {
+        "href": "URN:PROIZ_GUID:01:658cfbaf-b386-11e9-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:86459dcd-b386-11e9-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:9b0366dd-eb51-11e9-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:1d9c3653-ee96-11e9-a186-000af77e4763",
+        "rel": "bf:manifestationOf"
+      },
+      {
+        "href": "URN:PROIZ_GUID:01:405e2ff9-d189-11ea-80bd-0050569a365d",
+        "rel": "bf:manifestationOf"
+      }
+    ],
+    "metadata": {
+      "@type": "https://schema.org/Book",
+      "author": {
+        "bf:role": "author",
+        "identifier": "URN:AUTHOR_GUID:4cfe49df-b384-11e9-a186-000af77e4763",
+        "name": "Мьедозо Андрес",
+        "type": "Person"
+      },
+      "contentRating": {
+        "@type": "https://schema.org/contentRating",
+        "description": "Reading age, years"
+      },
+      "description": {
+        "contentAudience": "Unrestricted - Any audience",
+        "title": "Short description/annotation"
+      },
+      "identifier": [
+        "URN:NOMCODE:ASE000000000847692",
+        "URN:UDK:821.111",
+        "URN:BBK:84(7Сое)",
+        "URN:ISBN:978-5-17-119312-6",
+        "URN:EAN13:9785171193126",
+        "URN:e505baf7-f5ee-4b61-b5bb-c36db223a528"
+      ],
+      "language": ["rus"],
+      "publisher": {
+        "identifier": "URN:IMPRINT_GUID:aa0df88c-d418-11e3-a44f-5ef3fc5021a7"
+      },
+      "responsibilityNotes": "Sales rights unknown or unstated for any reason - May only be used with the ONIX 3 <ROWSalesRightsType> element\\nIncluded regions: WORLD"
+    },
+    "readingOrder": []
+  }
+]

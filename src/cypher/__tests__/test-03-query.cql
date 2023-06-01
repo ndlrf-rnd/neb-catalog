@@ -1,0 +1,1 @@
+MATCH (:instance {source: 'RuMoRGB', key: '009930133'})-[:related]->(:electronic {source: 'RuMoRGB', key: '009930133'})-[:has]->(:file {source: 'RuMoRGB', key: 'rsl01009930133.pdf'})-[:located_at]->(:uri {source: 'RuMoRGB', key: 'http://dlib.rsl.ru/rsl01009000000/rsl01009930000/rsl01009930133/rsl01009930133.pdf'});

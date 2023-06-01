@@ -1,0 +1,98 @@
+[
+  {
+    "links": [
+      {
+        "href": "http://dlib.rsl.ru/rsl01003000000/rsl01003604000/rsl01003604066/rsl01003604066.pdf",
+        "rel": "http://opds-spec.org/acquisition",
+        "type": "application/pdf"
+      }
+    ],
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "birthDate": "1840",
+        "deathDate": "1895",
+        "name": "Крестовский, Всеволод Владимирович",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "marc:legalDeposit": "25016-45",
+            "title": "Legal Deposit Registry"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/D 19/220",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "D 19/220"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/N 39/472",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "N 39/472"
+          },
+          {
+            "identifier": "/resources/instance/РГБ/U 316/89",
+            "name": "FB",
+            "organization": {
+              "identifier": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+              "name": "ФГБУ \"Российская государственная библиотека\""
+            },
+            "shelfMark": "U 316/89"
+          }
+        ],
+        "series": [
+          {
+            "href": "RuMoRGB/003604066",
+            "title": "Библиотека современных писателей",
+            "type": "application/opds+json"
+          }
+        ]
+      },
+      "content": {
+        "en": "book/rare",
+        "ru": "Книги"
+      },
+      "dc:issued": "1874",
+      "description": [
+        "Имеется электронная копия",
+        "[6], 277 с.",
+        "18"
+      ],
+      "dimensions": "18",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/RuMoRGB/003604066",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "[6], 277 с.",
+      "modified": "2019-08-22T11:38:24.0Z",
+      "numberOfPages": 277,
+      "numberOfWorkPart": "Т. 21",
+      "published": "1874",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Санкт-Петербург",
+        "name": "А.Ф. Базунов"
+      },
+      "responsibilityNotes": "[Соч.] Вс. В. Крестовского",
+      "title": "Из походных очерков",
+      "toc": [
+        {
+          "title": "Содерж.: От Штаба до зимних квартир. Базарный день и Свислочи. Облава на уток. Буянов - мой сосед"
+        }
+      ]
+    }
+  }
+]

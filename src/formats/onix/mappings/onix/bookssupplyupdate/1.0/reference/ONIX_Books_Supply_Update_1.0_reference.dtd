@@ -1,0 +1,244 @@
+<!--
+**************************************************
+*                                                *
+*               ONIX INTERNATIONAL               *
+*                                                *
+*             SUPPLY UPDATES XML DTD             *
+*                  Version 1.0                   *
+*                                                *
+*          Original author: Francis Cave         *
+*                                                *
+*              REFERENCE TAG VERSION             *
+*                                                *
+* For use with the corresponding version of the  *
+*   ONIX Book Product Information Message DTD    *
+*                  Release 2.1                   *
+*                                                *
+*                 Status: DRAFT                  *
+*            Release date: 2006-08-19            *
+*                                                *
+*               (c) 2006 EDItEUR                 *
+*            http://www.editeur.org/             *
+*                                                *
+**************************************************
+
+
+
+TERMS AND CONDITIONS OF USE OF THE ONIX PRODUCT INFORMATION XML DTD
+
+All ONIX standards and documentation are copyright materials, made available 
+free of charge for general use.  If you use the ONIX Product Information 
+Message DTD or the associated Supply Update Message DTD, you will be deemed 
+to have accepted these terms and conditions:
+
+1.  You agree that you will not add to, delete from, amend, or copy for use 
+outside of the ONIX Product Information Message or Supply Update Message DTDs, 
+or any part of the DTDs except for strictly internal use in your own organisation.
+
+2.  You agree that if you wish to add to, amend, or make extracts of the 
+DTDs for any purpose that is not strictly internal to your own organisation, 
+you will in the first instance notify EDItEUR and allow EDItEUR to review 
+and comment on your proposed use, in the interest of securing an orderly 
+development of the DTDs for the benefit of other users.
+
+If you do not accept these terms, you must not use the ONIX Product Information 
+Message or Supply Update Message DTDs.
+
+Full copies of the latest release of this DTD and all associated documentation 
+are available from the EDItEUR web site, where may also be found details of 
+how to contact EDItEUR for advice on the use of this DTD. The URL for the 
+EDItEUR web site is:
+
+http://www.editeur.org/
+
+
+
+MODULE REVISION HISTORY (IN REVERSE CHRONOLOGICAL ORDER)
+
+2006-08-19: Version 1.0 released
+
+-->
+<!-- FOR INFORMATION ON USE OF THE FOLLOWING TWO PARAMETER ENTITIES SEE THE DTD MODULE 'onix-international.dtd'. -->
+<!-- DO NOT DELETE THE FOLLOWING LINE! -->
+<!ENTITY % MainModule SYSTEM "reference.elt">
+<!-- DO NOT DELETE THE FOLLOWING LINE! -->
+<!ENTITY % ExtendedProductModel "IGNORE">
+
+<!-- There is no provision for defining local names in this DTD. The following names are defined here in order that they can be used in content model definitions that are modified versions of those defined in the full Product Information Message DTD. -->
+
+<!ENTITY % ONIXBooksSupplyUpdateMessage     "ONIXBooksSupplyUpdateMessage">
+<!ENTITY % FromCompany                      "FromCompany">
+<!ENTITY % FromPerson                       "FromPerson">
+<!ENTITY % FromEmail                        "FromEmail">
+<!ENTITY % ToCompany                        "ToCompany">
+<!ENTITY % ToPerson                         "ToPerson">
+<!ENTITY % SenderIdentifier                 "SenderIdentifier">
+<!ENTITY % AddresseeIdentifier              "AddresseeIdentifier">
+<!ENTITY % SenderIDType                     "SenderIDType">
+<!ENTITY % AddresseeIDType                  "AddresseeIDType">
+<!ENTITY % MessageNumber                    "MessageNumber">
+<!ENTITY % MessageRepeat                    "MessageRepeat">
+<!ENTITY % SentDate                         "SentDate">
+<!ENTITY % MessageNote                      "MessageNote">
+<!ENTITY % DefaultPriceTypeCode             "DefaultPriceTypeCode">
+<!ENTITY % DefaultCurrencyCode              "DefaultCurrencyCode">
+<!ENTITY % DefaultClassOfTrade              "DefaultClassOfTrade">
+<!ENTITY % Header                           "Header">
+<!ENTITY % RecordReference                  "RecordReference">
+<!ENTITY % NotificationType                 "NotificationType">
+<!ENTITY % ProductIdentifier                "ProductIdentifier">
+<!ENTITY % ProductIDType                    "ProductIDType">
+<!ENTITY % IDTypeName                       "IDTypeName">
+<!ENTITY % IDValue                          "IDValue">
+<!ENTITY % PublishingStatus                 "PublishingStatus">
+<!ENTITY % PublishingStatusNote             "PublishingStatusNote">
+<!ENTITY % AnnouncementDate                 "AnnouncementDate">
+<!ENTITY % TradeAnnouncementDate            "TradeAnnouncementDate">
+<!ENTITY % PublicationDate                  "PublicationDate">
+<!ENTITY % OutOfPrintDate                   "OutOfPrintDate">
+<!ENTITY % SupplyDetail                     "SupplyDetail">
+<!ENTITY % SupplierIdentifier               "SupplierIdentifier">
+<!ENTITY % SupplierIDType                   "SupplierIDType">
+<!ENTITY % SupplierName                     "SupplierName">
+<!ENTITY % TelephoneNumber                  "TelephoneNumber">
+<!ENTITY % FaxNumber                        "FaxNumber">
+<!ENTITY % EmailAddress                     "EmailAddress">
+<!ENTITY % Website                          "Website">
+<!ENTITY % WebsiteRole                      "WebsiteRole">
+<!ENTITY % WebsiteDescription               "WebsiteDescription">
+<!ENTITY % WebsiteLink                      "WebsiteLink">
+<!ENTITY % SupplierRole                     "SupplierRole">
+<!ENTITY % SupplyToCountry                  "SupplyToCountry">
+<!ENTITY % SupplyToTerritory                "SupplyToTerritory">
+<!ENTITY % SupplyToCountryExcluded          "SupplyToCountryExcluded">
+<!ENTITY % SupplyRestrictionDetail          "SupplyRestrictionDetail">
+<!ENTITY % ReturnsCodeType                  "ReturnsCodeType">
+<!ENTITY % ReturnsCode                      "ReturnsCode">
+<!ENTITY % LastDateForReturns               "LastDateForReturns">
+<!ENTITY % ProductAvailability              "ProductAvailability">
+<!ENTITY % NewSupplier                      "NewSupplier">
+<!ENTITY % DateFormat                       "DateFormat">
+<!ENTITY % ExpectedShipDate                 "ExpectedShipDate">
+<!ENTITY % OnSaleDate                       "OnSaleDate">
+<!ENTITY % OrderTime                        "OrderTime">
+<!ENTITY % Stock                            "Stock">
+<!ENTITY % LocationIdentifier               "LocationIdentifier">
+<!ENTITY % LocationIDType                   "LocationIDType">
+<!ENTITY % LocationName                     "LocationName">
+<!ENTITY % StockQuantityCoded               "StockQuantityCoded">
+<!ENTITY % StockQuantityCodeType            "StockQuantityCodeType">
+<!ENTITY % StockQuantityCodeTypeName        "StockQuantityCodeTypeName">
+<!ENTITY % StockQuantityCode                "StockQuantityCode">
+<!ENTITY % OnHand                           "OnHand">
+<!ENTITY % OnOrder                          "OnOrder">
+<!ENTITY % CBO                              "CBO">
+<!ENTITY % OnOrderDetail                    "OnOrderDetail">
+<!ENTITY % ExpectedDate                     "ExpectedDate">
+<!ENTITY % PackQuantity                     "PackQuantity">
+<!ENTITY % AudienceRestrictionFlag          "AudienceRestrictionFlag">
+<!ENTITY % AudienceRestrictionNote          "AudienceRestrictionNote">
+<!ENTITY % UnpricedItemType                 "UnpricedItemType">
+<!ENTITY % Price                            "Price">
+<!ENTITY % PriceTypeCode                    "PriceTypeCode">
+<!ENTITY % PriceQualifier                   "PriceQualifier">
+<!ENTITY % PriceTypeDescription             "PriceTypeDescription">
+<!ENTITY % PricePer                         "PricePer">
+<!ENTITY % MinimumOrderQuantity             "MinimumOrderQuantity">
+<!ENTITY % BatchBonus                       "BatchBonus">
+<!ENTITY % BatchQuantity                    "BatchQuantity">
+<!ENTITY % FreeQuantity                     "FreeQuantity">
+<!ENTITY % ClassOfTrade                     "ClassOfTrade">
+<!ENTITY % DiscountCoded                    "DiscountCoded">
+<!ENTITY % DiscountCodeType                 "DiscountCodeType">
+<!ENTITY % DiscountCodeTypeName             "DiscountCodeTypeName">
+<!ENTITY % DiscountCode                     "DiscountCode">
+<!ENTITY % DiscountPercent                  "DiscountPercent">
+<!ENTITY % PriceStatus                      "PriceStatus">
+<!ENTITY % PriceAmount                      "PriceAmount">
+<!ENTITY % CurrencyCode                     "CurrencyCode">
+<!ENTITY % CountryCode                      "CountryCode">
+<!ENTITY % Territory                        "Territory">
+<!ENTITY % CountryExcluded                  "CountryExcluded">
+<!ENTITY % TerritoryExcluded                "TerritoryExcluded">
+<!ENTITY % TaxRateCode1                     "TaxRateCode1">
+<!ENTITY % TaxRatePercent1                  "TaxRatePercent1">
+<!ENTITY % TaxableAmount1                   "TaxableAmount1">
+<!ENTITY % TaxAmount1                       "TaxAmount1">
+<!ENTITY % TaxRateCode2                     "TaxRateCode2">
+<!ENTITY % TaxRatePercent2                  "TaxRatePercent2">
+<!ENTITY % TaxableAmount2                   "TaxableAmount2">
+<!ENTITY % TaxAmount2                       "TaxAmount2">
+<!ENTITY % PriceEffectiveFrom               "PriceEffectiveFrom">
+<!ENTITY % PriceEffectiveUntil              "PriceEffectiveUntil">
+<!ENTITY % Reissue                          "Reissue">
+<!ENTITY % ReissueDate                      "ReissueDate">
+<!ENTITY % ReissueDescription               "ReissueDescription">
+<!ENTITY % MarketRepresentation             "MarketRepresentation">
+<!ENTITY % AgentIdentifier                  "AgentIdentifier">
+<!ENTITY % AgentIDType                      "AgentIDType">
+<!ENTITY % AgentName                        "AgentName">
+<!ENTITY % AgentRole                        "AgentRole">
+<!ENTITY % MarketCountry                    "MarketCountry">
+<!ENTITY % MarketTerritory                  "MarketTerritory">
+<!ENTITY % MarketCountryExcluded            "MarketCountryExcluded">
+<!ENTITY % MarketRestrictionDetail          "MarketRestrictionDetail">
+<!ENTITY % MarketPublishingStatus           "MarketPublishingStatus">
+<!ENTITY % MarketDate                       "MarketDate">
+<!ENTITY % MarketDateRole                   "MarketDateRole">
+<!ENTITY % SupplyUpdate                     "SupplyUpdate">
+
+<!-- Declarations of ontent models and elements that differ from those defined in the full Product Information Message DTD are included here:-->
+
+<!ENTITY % Header.mod "((((%SenderIdentifier;)+, (%FromCompany;)?) | %FromCompany;), 
+                        (%FromPerson;)?, (%FromEmail;)?, (%AddresseeIdentifier;)*, (%ToCompany;)?, 
+                        (%ToPerson;)?, (%MessageNumber;)?, (%MessageRepeat;)?, %SentDate;, (%MessageNote;)?, 
+                        (%DefaultPriceTypeCode;)?, (%DefaultCurrencyCode;)?, (%DefaultClassOfTrade;)?)">
+
+<!ENTITY % NewSupplier.mod "((((%SupplierIdentifier;)+, 
+                               (%SupplierName;)?) | %SupplierName;), 
+                             (%TelephoneNumber;)*, (%FaxNumber;)*, (%EmailAddress;)*)">
+
+<!ENTITY % SupplyDetail.mod "((((%SupplierIdentifier;)+, (%SupplierName;)?) | %SupplierName;), (%TelephoneNumber;)*, 
+                              (%FaxNumber;)*, (%EmailAddress;)*, (%Website;)*, (%SupplierRole;)?, 
+                              ((((%SupplyToCountry;)+, (%SupplyToTerritory;)?) | %SupplyToTerritory;), 
+                               (%SupplyToCountryExcluded;)*)?, (%SupplyRestrictionDetail;)?,
+                              (%ReturnsCodeType;, %ReturnsCode;)?, (%LastDateForReturns;)?, %ProductAvailability;, 
+                              (%NewSupplier;)?, ((%DateFormat;)?, %ExpectedShipDate;)?, (%OnSaleDate;)?, (%OrderTime;)?, 
+                              (%Stock;)*, (%PackQuantity;)?, (%AudienceRestrictionFlag;, (%AudienceRestrictionNote;)?)?, 
+                              (%UnpricedItemType; | (%Price;)+), (%Reissue;)?)">
+
+<!-- Declarations that can be re-used from the full Product Information Message DTD without modification are included here: -->
+%MainModule;
+
+<!-- Declarations needed for the attributes of elements that don't occur in the full Product Information Message DTD are included here: -->
+
+<!ENTITY % ref.ONIXBooksSupplyUpdateMessage     "ONIXBooksSupplyUpdateMessage">
+<!ENTITY % ref.SupplyUpdate                     "SupplyUpdate">
+
+<!ENTITY % short.ONIXBooksSupplyUpdateMessage   "ONIXbookssupplyupdatemessage">
+<!ENTITY % short.SupplyUpdate                   "supplyupdate">
+
+<!ENTITY % ONIXBooksSupplyUpdateMessage.attspec '%common.atts; "%ref.ONIXBooksSupplyUpdateMessage;" %more.atts; "%short.ONIXBooksSupplyUpdateMessage;" version NMTOKEN #FIXED "1.0"'>
+<!ENTITY % SupplyUpdate.attspec '%common.atts; "%ref.SupplyUpdate;" %more.atts; "%short.SupplyUpdate;"'>
+
+<!ATTLIST %ONIXBooksSupplyUpdateMessage; %ONIXBooksSupplyUpdateMessage.attspec;>
+<!ATTLIST %SupplyUpdate; %SupplyUpdate.attspec;>
+
+<!--
+**************************************************
+*                                                *
+*           TOP-LEVEL MESSAGE STRUCTURE          *
+*                                                *
+**************************************************
+-->
+
+<!ENTITY % ONIXBooksSupplyUpdateMessage.mod "(%Header;, (%SupplyUpdate;)+)">
+
+<!ELEMENT %ONIXBooksSupplyUpdateMessage; %ONIXBooksSupplyUpdateMessage.mod; >
+
+<!ENTITY % SupplyUpdate.mod "(%RecordReference;, %NotificationType;, %ProductIdentifier;, %PublishingStatus;, 
+                              (%PublishingStatusNote;)?, (%AnnouncementDate;)?, (%TradeAnnouncementDate;)?, 
+                              %PublicationDate;, (%OutOfPrintDate;)?, 
+                              (((%SupplyDetail;)+, (%MarketRepresentation;)*) | (%MarketRepresentation;)+))">
+
+<!ELEMENT %SupplyUpdate; %SupplyUpdate.mod; >

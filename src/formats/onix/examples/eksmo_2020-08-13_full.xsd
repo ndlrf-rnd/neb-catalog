@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://ns.editeur.org/onix/3.0/reference" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ONIXMessage" type="ref:ONIXMessageType" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+  <xs:complexType name="SenderIdentifierType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="SenderIDType"/>
+      <xs:element type="xs:string" name="IDTypeName"/>
+      <xs:element type="xs:string" name="IDValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SenderType">
+    <xs:sequence>
+      <xs:element type="ref:SenderIdentifierType" name="SenderIdentifier" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:string" name="SenderName"/>
+      <xs:element type="xs:string" name="ContactName"/>
+      <xs:element type="xs:string" name="EmailAddress"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AddresseeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="AddresseeName"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="HeaderType">
+    <xs:sequence>
+      <xs:element type="ref:SenderType" name="Sender" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:AddresseeType" name="Addressee" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:byte" name="MessageNumber"/>
+      <xs:element type="xs:byte" name="MessageRepeat"/>
+      <xs:element type="xs:int" name="SentDateTime"/>
+      <xs:element type="xs:string" name="MessageNote"/>
+      <xs:element type="xs:string" name="DefaultLanguageOfText"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProductIdentifierType">
+    <xs:sequence>
+      <xs:element name="ProductIDType">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="15"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="IDTypeName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="NOMCODE"/>
+            <xs:enumeration value="UDK"/>
+            <xs:enumeration value="BBK"/>
+            <xs:enumeration value="ISBN"/>
+            <xs:enumeration value="EAN13"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="IDValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MeasureType">
+    <xs:sequence>
+      <xs:element name="MeasureType">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="02"/>
+            <xs:enumeration value="03"/>
+            <xs:enumeration value="08"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:float" name="Measurement"/>
+      <xs:element name="MeasureUnitCode">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="mm"/>
+            <xs:enumeration value="kg"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CollectionIdentifierType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="CollectionIDType"/>
+      <xs:element name="IDTypeName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="SERIE_GUID"/>
+            <xs:enumeration value="THEMATIC_GUID"/>
+            <xs:enumeration value="NICHE_GUID"/>
+            <xs:enumeration value="SEGMENT_GUID"/>
+            <xs:enumeration value="CICLE_GUID"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="IDValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TitleElementType">
+    <xs:sequence>
+      <xs:element name="SequenceNumber" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="4"/>
+            <xs:enumeration value="3"/>
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="TitleElementLevel">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="02"/>
+            <xs:enumeration value="01"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="TitleText" minOccurs="0"/>
+      <xs:element type="xs:short" name="YearOfAnnual" minOccurs="0"/>
+      <xs:element type="xs:string" name="NoPrefix" minOccurs="0"/>
+      <xs:element type="xs:string" name="TitleWithoutPrefix" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TitleDetailType">
+    <xs:sequence>
+      <xs:element name="TitleType">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="03"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="ref:TitleElementType" name="TitleElement" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CollectionType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="CollectionType"/>
+      <xs:element type="ref:CollectionIdentifierType" name="CollectionIdentifier" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:CollectionSequenceType" name="CollectionSequence" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:TitleDetailType" name="TitleDetail" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="NameIdentifierType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="NameIDType"/>
+      <xs:element name="IDTypeName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="AUTHOR_GUID"/>
+            <xs:enumeration value="EDITOR_GUID"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="IDValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ContributorType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="xs:short" name="SequenceNumber"/>
+      <xs:element name="ContributorRole">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="A01"/>
+            <xs:enumeration value="B21"/>
+            <xs:enumeration value="B06"/>
+            <xs:enumeration value="A35"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="ref:NameIdentifierType" name="NameIdentifier" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:string" name="NamesBeforeKey"/>
+      <xs:element type="xs:string" name="KeyNames"/>
+      <xs:element type="xs:string" name="PersonName"/>
+      <xs:element type="xs:string" name="NamesAfterKey"/>
+      <xs:element type="ref:AlternativeNameType" name="AlternativeName" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:WebsiteType" name="Website" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:ContributorDateType" name="ContributorDate" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:string" name="ContributorDescription"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="ExtentType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="ExtentType"/>
+      <xs:element type="xs:short" name="ExtentValue"/>
+      <xs:element type="xs:byte" name="ExtentUnit"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AudienceRangeType">
+    <xs:sequence>
+      <xs:element name="AudienceRangeQualifier">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="18"/>
+            <xs:enumeration value="17"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="AudienceRangePrecision">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="03"/>
+            <xs:enumeration value="04"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:byte" name="AudienceRangeValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DescriptiveDetailType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="ProductComposition"/>
+      <xs:element name="ProductForm">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="BC"/>
+            <xs:enumeration value="BB"/>
+            <xs:enumeration value="BA"/>
+            <xs:enumeration value="CA"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ProductFormDetail" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="P203"/>
+            <xs:enumeration value="B503"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:byte" name="ProductPackaging" minOccurs="0"/>
+      <xs:element type="xs:string" name="ProductFormDescription" minOccurs="0"/>
+      <xs:element type="ref:MeasureType" name="Measure" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:CollectionType" name="Collection" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:TitleDetailType" name="TitleDetail" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:ContributorType" name="Contributor" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:ExtentType" name="Extent" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:AudienceRangeType" name="AudienceRange" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TextContentType">
+    <xs:sequence>
+      <xs:element name="TextType">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="02"/>
+            <xs:enumeration value="03"/>
+            <xs:enumeration value="04"/>
+            <xs:enumeration value="06"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:byte" name="ContentAudience"/>
+      <xs:element type="xs:string" name="Text"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ContentDateType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="ContentDateRole"/>
+      <xs:element type="xs:int" name="Date"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResourceVersionType">
+    <xs:sequence>
+      <xs:element name="ResourceForm">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="02"/>
+            <xs:enumeration value="01"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="ResourceLink"/>
+      <xs:element type="ref:ContentDateType" name="ContentDate" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SupportingResourceType">
+    <xs:sequence>
+      <xs:element name="ResourceContentType">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="02"/>
+            <xs:enumeration value="07"/>
+            <xs:enumeration value="15"/>
+            <xs:enumeration value="06"/>
+            <xs:enumeration value="25"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:byte" name="ContentAudience"/>
+      <xs:element name="ResourceMode">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="03"/>
+            <xs:enumeration value="05"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="ref:ResourceVersionType" name="ResourceVersion" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CollateralDetailType" mixed="true">
+    <xs:sequence>
+      <xs:element type="ref:TextContentType" name="TextContent" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:SupportingResourceType" name="SupportingResource" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ImprintIdentifierType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="ImprintIDType"/>
+      <xs:element type="xs:string" name="IDTypeName"/>
+      <xs:element type="xs:string" name="IDValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ImprintType">
+    <xs:sequence>
+      <xs:element type="ref:ImprintIdentifierType" name="ImprintIdentifier" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:string" name="ImprintName"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PublisherIdentifierType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="PublisherIDType"/>
+      <xs:element type="xs:string" name="IDTypeName"/>
+      <xs:element type="xs:string" name="IDValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PublisherType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="PublishingRole"/>
+      <xs:element type="ref:PublisherIdentifierType" name="PublisherIdentifier" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:string" name="PublisherName" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProductContactIdentifierType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="ProductContactIDType"/>
+      <xs:element type="xs:string" name="IDTypeName"/>
+      <xs:element name="IDValue">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="00000000001"/>
+            <xs:enumeration value="00000000002"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProductContactType">
+    <xs:sequence>
+      <xs:element name="ProductContactRole">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="02"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="ref:ProductContactIdentifierType" name="ProductContactIdentifier" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element name="ContactName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Северюхин Михаил"/>
+            <xs:enumeration value="Федосеев Александр"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="EmailAddress">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="severyuhin.mv@eksmo.ru"/>
+            <xs:enumeration value="fedoseev.ab@eksmo.ru"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DateType">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+        <xs:attribute type="xs:byte" name="dateformat" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="PublishingDateType">
+    <xs:sequence>
+      <xs:element name="PublishingDateRole">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="11"/>
+            <xs:enumeration value="01"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="ref:DateType" name="Date" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerritoryType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="RegionsIncluded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SalesRightsType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="SalesRightsType"/>
+      <xs:element type="ref:TerritoryType" name="Territory" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PublishingDetailType">
+    <xs:sequence>
+      <xs:element type="ref:ImprintType" name="Imprint" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:PublisherType" name="Publisher" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:ProductContactType" name="ProductContact" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:byte" name="PublishingStatus" minOccurs="0"/>
+      <xs:element type="ref:PublishingDateType" name="PublishingDate" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:SalesRightsType" name="SalesRights" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="xs:byte" name="ROWSalesRightsType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WorkIdentifierType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="WorkIDType"/>
+      <xs:element type="xs:string" name="IDTypeName"/>
+      <xs:element type="xs:string" name="IDValue"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RelatedWorkType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="WorkRelationCode"/>
+      <xs:element type="ref:WorkIdentifierType" name="WorkIdentifier" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RelatedMaterialType">
+    <xs:sequence>
+      <xs:element type="ref:RelatedWorkType" name="RelatedWork" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProductType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="RecordReference"/>
+      <xs:element type="xs:byte" name="NotificationType"/>
+      <xs:element type="ref:ProductIdentifierType" name="ProductIdentifier" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:DescriptiveDetailType" name="DescriptiveDetail" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:CollateralDetailType" name="CollateralDetail" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:PublishingDetailType" name="PublishingDetail" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:RelatedMaterialType" name="RelatedMaterial" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AlternativeNameType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="NameType"/>
+      <xs:element type="xs:string" name="NamesBeforeKey" minOccurs="0"/>
+      <xs:element type="xs:string" name="KeyNames"/>
+      <xs:element type="xs:string" name="NamesAfterKey" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebsiteType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="WebsiteRole"/>
+      <xs:element type="xs:anyURI" name="WebsiteLink"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ContributorDateType">
+    <xs:sequence>
+      <xs:element name="ContributorDateRole">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="50"/>
+            <xs:enumeration value="51"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:byte" name="DateFormat"/>
+      <xs:element type="xs:int" name="Date"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CollectionSequenceType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="CollectionSequenceType"/>
+      <xs:element type="xs:byte" name="CollectionSequenceNumber"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ONIXMessageType">
+    <xs:sequence>
+      <xs:element type="ref:HeaderType" name="Header" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+      <xs:element type="ref:ProductType" name="Product" maxOccurs="unbounded" minOccurs="0" xmlns:ref="http://ns.editeur.org/onix/3.0/reference"/>
+    </xs:sequence>
+    <xs:attribute type="xs:float" name="release"/>
+  </xs:complexType>
+</xs:schema>

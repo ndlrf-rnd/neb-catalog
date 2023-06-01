@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FixedPositions>
+	<leader>
+		<position start="05" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="07"/>
+		<position start="08" end="08"/>
+		<position start="09" end="09"/>
+		<position start="17" end="17"/>
+		<position start="18" end="18"/>
+		<position start="19" end="19"/>
+	</leader>
+	<controlField>
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="07"/>
+		<position start="08" end="08"/>
+		<position start="09" end="09"/>
+		<position start="10" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+		<position start="13" end="13"/>
+		<position start="14" end="14"/>
+		<position start="15" end="15"/>
+		<position start="16" end="16"/>
+		<position start="17" end="17"/>
+		<position start="18" end="27"/>
+		<position start="28" end="28"/>
+		<position start="29" end="29"/>
+		<position start="30" end="30"/>
+		<position start="31" end="31"/>
+		<position start="32" end="32"/>
+		<position start="33" end="33"/>
+		<position start="34" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+	
+</FixedPositions>

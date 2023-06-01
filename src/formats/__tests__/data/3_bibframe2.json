@@ -1,0 +1,135 @@
+[
+  {
+    "@graph": {
+      "bf:Work": {
+        "bf:adminMetadata": {
+          "bf:identifiedBy": {
+            "bf:Local": {
+              "bf:assigner": {
+                "bf:Agent": {
+                  "rdf:about": "http://id.loc.gov/vocabulary/organizations/rumorgb.html"
+                }
+              },
+              "rdf:value": "003562717"
+            }
+          }
+        },
+        "bf:contribution": [
+          {
+            "@type": "bf:PrimaryContribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bflc:name": "Добровольский, Семен Михайлович"
+            },
+            "bf:role": {
+              "@id": "http://id.loc.gov/vocabulary/relators/aut",
+              "@type": "bf:Role",
+              "rdfs:label": "Author"
+            }
+          }
+        ],
+        "bf:hasInstance": [
+          {
+            "@type": "bf:instance",
+            "bf:content": {
+              "@id": "http://id.loc.gov/vocabulary/contentTypes/Text",
+              "@type": "bf:Content"
+            },
+            "bf:extent": {
+              "@type": "bf:Note",
+              "rdfs:label": "[2], 426, XXII с."
+            },
+            "item": [
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "U 308/193"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "FB, ALII"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "U 408/317"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "FB"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "W 233/2"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "FB"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "ВО 13/70"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "FB"
+              }
+            ],
+            "bf:hasSeries": [
+              {
+                "@type": "bf:Instance",
+                "bf:title": {
+                  "@type": "bf:Title",
+                  "bf:CollectiveTitle": "Учебные руководства для военно-учебных заведений"
+                }
+              }
+            ],
+            "bf:note": [
+              {
+                "@type": "bf:Note",
+                "bf:noteType": "Reproduction Note",
+                "rdfs:label": "Имеется электронная копия"
+              }
+            ],
+            "bf:provisionActivity": [
+              {
+                "@type": [
+                  "bf:Publication",
+                  "bf:ProvisionActivity"
+                ],
+                "bf:agent": {
+                  "@type": "bf:Agent",
+                  "rdfs:label": [
+                    "тип. Штаба воен.-учеб. заведений",
+                    "Санкт-Петербург"
+                  ]
+                },
+                "bf:date": "1853"
+              }
+            ]
+          }
+        ],
+        "bf:language": {
+          "@id": "http://id.loc.gov/vocabulary/languages/",
+          "@type": "bf:Language",
+          "rdfs:label": "rus"
+        },
+        "bf:title": {
+          "@type": "bf:Title",
+          "bf:MainTitle": "Руководство законоведения",
+          "bf:Subtitle": "Курс 1 спец. кл."
+        }
+      }
+    }
+  }
+]

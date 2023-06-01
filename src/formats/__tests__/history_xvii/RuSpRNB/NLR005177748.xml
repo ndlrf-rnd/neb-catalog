@@ -1,0 +1,97 @@
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+  <record>
+    <leader>02370nam1 22002771i 450 </leader>
+    <controlfield tag="001">v19\rc\2104622</controlfield>
+    <controlfield tag="005">20160606124552.5</controlfield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">20090914g18051807|||y0rusy50      ca</subfield>
+    </datafield>
+    <datafield tag="101" ind1="1" ind2=" ">
+      <subfield code="a">rus</subfield>
+      <subfield code="c">ger</subfield>
+    </datafield>
+    <datafield tag="102" ind1=" " ind2=" ">
+      <subfield code="a">RU</subfield>
+    </datafield>
+    <datafield tag="105" ind1=" " ind2=" ">
+      <subfield code="a">y z |||||</subfield>
+    </datafield>
+    <datafield tag="200" ind1="1" ind2=" ">
+      <subfield code="a">История XVIII столетия или Обстоятельное описание всех важнейших происшествий и достопамятных
+        перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и
+        достойных примечания мужей, в течении оного живших
+      </subfield>
+      <subfield code="e">Пер. с нем. Ч. 1</subfield>
+    </datafield>
+    <datafield tag="210" ind1=" " ind2=" ">
+      <subfield code="a">Москва</subfield>
+      <subfield code="c">тип. Селивановского</subfield>
+      <subfield code="d">1805-1807</subfield>
+    </datafield>
+    <datafield tag="215" ind1=" " ind2=" ">
+      <subfield code="d">19</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">Авт. Д.Г. Штефер, И.Г. Штефер и К.Д. Фосс установлены по изд.: XVIII век. СПБ., 2015. Сь. 28.
+        С. 315
+      </subfield>
+    </datafield>
+    <datafield tag="321" ind1="0" ind2=" ">
+      <subfield code="a">XVIII в. Сб. 28. С. 315</subfield>
+    </datafield>
+    <datafield tag="517" ind1="1" ind2=" ">
+      <subfield code="a">Обстоятельное описание всех важнейших происшествий и достопамятных перемен, случившихся в
+        осьмнадцатом столетии, с приобщением подробных известий о жизни и делах всех славных и достойных примечания
+        мужей, в течении оного живших
+      </subfield>
+    </datafield>
+    <datafield tag="532" ind1="1" ind2="1">
+      <subfield code="a">История восемнадцатого столетия или Обстоятельное описание всех важнейших происшествий и
+        достопамятных перемен, случившихся в осьмнадцатом столетии, с приобщением подробных известий о жизни и делах
+        всех славных и достойных примечания мужей, в течении оного живших
+      </subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2="1">
+      <subfield code="a">Штефер</subfield>
+      <subfield code="b">Д.Г.</subfield>
+      <subfield code="f">1767-1822</subfield>
+      <subfield code="g">Дитрих Генрих</subfield>
+    </datafield>
+    <datafield tag="701" ind1=" " ind2="1">
+      <subfield code="a">Штефер</subfield>
+      <subfield code="b">И.Г.</subfield>
+      <subfield code="f">1764-1796</subfield>
+      <subfield code="g">Иоганн Герман</subfield>
+    </datafield>
+    <datafield tag="701" ind1=" " ind2="1">
+      <subfield code="a">Фосс</subfield>
+      <subfield code="b">К.Д.</subfield>
+      <subfield code="f">1761-1821</subfield>
+      <subfield code="g">Кристиан Даниель</subfield>
+    </datafield>
+    <datafield tag="801" ind1=" " ind2="0">
+      <subfield code="a">RU</subfield>
+      <subfield code="b">NLR</subfield>
+      <subfield code="g">psbo</subfield>
+    </datafield>
+    <datafield tag="801" ind1=" " ind2="1">
+      <subfield code="a">RU</subfield>
+      <subfield code="b">ProSoft-M</subfield>
+      <subfield code="2">rusmarc</subfield>
+    </datafield>
+    <datafield tag="801" ind1=" " ind2="2">
+      <subfield code="a">RU</subfield>
+      <subfield code="b">NLR</subfield>
+      <subfield code="c">20191031</subfield>
+      <subfield code="2">rusmarc</subfield>
+    </datafield>
+    <datafield tag="899" ind1=" " ind2=" ">
+      <subfield code="a">NLR</subfield>
+      <subfield code="j">18.13.7.2</subfield>
+    </datafield>
+    <datafield tag="899" ind1=" " ind2=" ">
+      <subfield code="a">NLR</subfield>
+      <subfield code="j">138/1175</subfield>
+    </datafield>
+  </record>
+</collection>

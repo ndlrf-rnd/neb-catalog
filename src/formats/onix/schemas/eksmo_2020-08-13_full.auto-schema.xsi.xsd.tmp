@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reference="http://ns.editeur.org/onix/3.0/reference">
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsi.xsd"/>
+  <xs:element name="ONIXMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:Header"/>
+        <xs:element maxOccurs="unbounded" ref="reference:Product"/>
+      </xs:sequence>
+      <xs:attribute name="release" use="required" type="xs:decimal"/>
+      <xs:attribute ref="xsi:schemaLocation" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:Sender"/>
+        <xs:element ref="reference:Addressee"/>
+        <xs:element ref="reference:MessageNumber"/>
+        <xs:element ref="reference:MessageRepeat"/>
+        <xs:element ref="reference:SentDateTime"/>
+        <xs:element ref="reference:MessageNote"/>
+        <xs:element ref="reference:DefaultLanguageOfText"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Sender">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:SenderIdentifier"/>
+        <xs:element ref="reference:SenderName"/>
+        <xs:element ref="reference:ContactName"/>
+        <xs:element ref="reference:EmailAddress"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SenderIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:SenderIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SenderIDType" type="xs:integer"/>
+  <xs:element name="SenderName" type="xs:string"/>
+  <xs:element name="Addressee">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:AddresseeName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddresseeName" type="xs:string"/>
+  <xs:element name="MessageNumber" type="xs:integer"/>
+  <xs:element name="MessageRepeat" type="xs:integer"/>
+  <xs:element name="SentDateTime" type="xs:integer"/>
+  <xs:element name="MessageNote" type="xs:string"/>
+  <xs:element name="DefaultLanguageOfText" type="xs:NCName"/>
+  <xs:element name="Product">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:RecordReference"/>
+        <xs:element ref="reference:NotificationType"/>
+        <xs:element maxOccurs="unbounded" ref="reference:ProductIdentifier"/>
+        <xs:element ref="reference:DescriptiveDetail"/>
+        <xs:element ref="reference:CollateralDetail"/>
+        <xs:element ref="reference:PublishingDetail"/>
+        <xs:element minOccurs="0" ref="reference:RelatedMaterial"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RecordReference" type="xs:string"/>
+  <xs:element name="NotificationType" type="xs:integer"/>
+  <xs:element name="ProductIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ProductIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProductIDType" type="xs:integer"/>
+  <xs:element name="DescriptiveDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ProductComposition"/>
+        <xs:element ref="reference:ProductForm"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:ProductFormDetail"/>
+        <xs:element minOccurs="0" ref="reference:ProductPackaging"/>
+        <xs:element minOccurs="0" ref="reference:ProductFormDescription"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:Measure"/>
+        <xs:element maxOccurs="unbounded" ref="reference:Collection"/>
+        <xs:element maxOccurs="unbounded" ref="reference:TitleDetail"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:Contributor"/>
+        <xs:element minOccurs="0" ref="reference:Extent"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:AudienceRange"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProductComposition" type="xs:integer"/>
+  <xs:element name="ProductForm" type="xs:NCName"/>
+  <xs:element name="ProductFormDetail" type="xs:NCName"/>
+  <xs:element name="ProductPackaging" type="xs:integer"/>
+  <xs:element name="ProductFormDescription" type="xs:string"/>
+  <xs:element name="Measure">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:MeasureType"/>
+        <xs:element ref="reference:Measurement"/>
+        <xs:element ref="reference:MeasureUnitCode"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MeasureType" type="xs:integer"/>
+  <xs:element name="Measurement" type="xs:decimal"/>
+  <xs:element name="MeasureUnitCode" type="xs:NCName"/>
+  <xs:element name="Collection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:CollectionType"/>
+        <xs:element ref="reference:CollectionIdentifier"/>
+        <xs:element minOccurs="0" ref="reference:CollectionSequence"/>
+        <xs:element minOccurs="0" ref="reference:TitleDetail"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CollectionType" type="xs:integer"/>
+  <xs:element name="CollectionIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:CollectionIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CollectionIDType" type="xs:integer"/>
+  <xs:element name="CollectionSequence">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:CollectionSequenceType"/>
+        <xs:element ref="reference:CollectionSequenceNumber"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CollectionSequenceType" type="xs:integer"/>
+  <xs:element name="CollectionSequenceNumber" type="xs:integer"/>
+  <xs:element name="Contributor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:SequenceNumber"/>
+        <xs:element ref="reference:ContributorRole"/>
+        <xs:element ref="reference:NameIdentifier"/>
+        <xs:element minOccurs="0" ref="reference:NamesBeforeKey"/>
+        <xs:element minOccurs="0" ref="reference:KeyNames"/>
+        <xs:element minOccurs="0" ref="reference:NamesAfterKey"/>
+        <xs:element minOccurs="0" ref="reference:AlternativeName"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:ContributorDate"/>
+        <xs:element minOccurs="0" ref="reference:Website"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="reference:ContributorDescription"/>
+          <xs:element ref="reference:PersonName"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ContributorRole" type="xs:NCName"/>
+  <xs:element name="NameIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:NameIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NameIDType" type="xs:integer"/>
+  <xs:element name="AlternativeName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:NameType"/>
+        <xs:element minOccurs="0" ref="reference:NamesBeforeKey"/>
+        <xs:element ref="reference:KeyNames"/>
+        <xs:element minOccurs="0" ref="reference:NamesAfterKey"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NameType" type="xs:integer"/>
+  <xs:element name="ContributorDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ContributorDateRole"/>
+        <xs:element ref="reference:DateFormat"/>
+        <xs:element ref="reference:Date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ContributorDateRole" type="xs:integer"/>
+  <xs:element name="DateFormat" type="xs:integer"/>
+  <xs:element name="Website">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:WebsiteRole"/>
+        <xs:element ref="reference:WebsiteLink"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WebsiteRole" type="xs:integer"/>
+  <xs:element name="WebsiteLink" type="xs:anyURI"/>
+  <xs:element name="ContributorDescription" type="xs:string"/>
+  <xs:element name="PersonName" type="xs:string"/>
+  <xs:element name="Extent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ExtentType"/>
+        <xs:element ref="reference:ExtentValue"/>
+        <xs:element ref="reference:ExtentUnit"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExtentType" type="xs:integer"/>
+  <xs:element name="ExtentValue" type="xs:integer"/>
+  <xs:element name="ExtentUnit" type="xs:integer"/>
+  <xs:element name="AudienceRange">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:AudienceRangeQualifier"/>
+        <xs:element ref="reference:AudienceRangePrecision"/>
+        <xs:element ref="reference:AudienceRangeValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AudienceRangeQualifier" type="xs:integer"/>
+  <xs:element name="AudienceRangePrecision" type="xs:integer"/>
+  <xs:element name="AudienceRangeValue" type="xs:integer"/>
+  <xs:element name="CollateralDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:TextContent"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:SupportingResource"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TextContent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:TextType"/>
+        <xs:element ref="reference:ContentAudience"/>
+        <xs:element ref="reference:Text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TextType" type="xs:integer"/>
+  <xs:element name="Text" type="xs:string"/>
+  <xs:element name="SupportingResource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ResourceContentType"/>
+        <xs:element ref="reference:ContentAudience"/>
+        <xs:element ref="reference:ResourceMode"/>
+        <xs:element ref="reference:ResourceVersion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResourceContentType" type="xs:integer"/>
+  <xs:element name="ResourceMode" type="xs:integer"/>
+  <xs:element name="ResourceVersion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ResourceForm"/>
+        <xs:element ref="reference:ResourceLink"/>
+        <xs:element minOccurs="0" ref="reference:ContentDate"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResourceForm" type="xs:integer"/>
+  <xs:element name="ResourceLink" type="xs:anyURI"/>
+  <xs:element name="ContentDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ContentDateRole"/>
+        <xs:element ref="reference:Date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ContentDateRole" type="xs:integer"/>
+  <xs:element name="PublishingDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="reference:Imprint"/>
+        <xs:element ref="reference:Publisher"/>
+        <xs:element maxOccurs="unbounded" ref="reference:ProductContact"/>
+        <xs:element minOccurs="0" ref="reference:PublishingStatus"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="reference:PublishingDate"/>
+        <xs:element ref="reference:SalesRights"/>
+        <xs:element ref="reference:ROWSalesRightsType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Imprint">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ImprintIdentifier"/>
+        <xs:element ref="reference:ImprintName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImprintIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ImprintIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImprintIDType" type="xs:integer"/>
+  <xs:element name="ImprintName" type="xs:string"/>
+  <xs:element name="Publisher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:PublishingRole"/>
+        <xs:element ref="reference:PublisherIdentifier"/>
+        <xs:element minOccurs="0" ref="reference:PublisherName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PublishingRole" type="xs:integer"/>
+  <xs:element name="PublisherIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:PublisherIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PublisherIDType" type="xs:integer"/>
+  <xs:element name="PublisherName" type="xs:string"/>
+  <xs:element name="ProductContact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ProductContactRole"/>
+        <xs:element ref="reference:ProductContactIdentifier"/>
+        <xs:element ref="reference:ContactName"/>
+        <xs:element ref="reference:EmailAddress"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProductContactRole" type="xs:integer"/>
+  <xs:element name="ProductContactIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:ProductContactIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProductContactIDType" type="xs:integer"/>
+  <xs:element name="PublishingStatus" type="xs:integer"/>
+  <xs:element name="PublishingDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:PublishingDateRole"/>
+        <xs:element ref="reference:Date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PublishingDateRole" type="xs:integer"/>
+  <xs:element name="SalesRights">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:SalesRightsType"/>
+        <xs:element ref="reference:Territory"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalesRightsType" type="xs:integer"/>
+  <xs:element name="Territory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:RegionsIncluded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegionsIncluded" type="xs:NCName"/>
+  <xs:element name="ROWSalesRightsType" type="xs:integer"/>
+  <xs:element name="RelatedMaterial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="reference:RelatedWork"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RelatedWork">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:WorkRelationCode"/>
+        <xs:element ref="reference:WorkIdentifier"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WorkRelationCode" type="xs:integer"/>
+  <xs:element name="WorkIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:WorkIDType"/>
+        <xs:element ref="reference:IDTypeName"/>
+        <xs:element ref="reference:IDValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WorkIDType" type="xs:integer"/>
+  <xs:element name="IDTypeName" type="xs:NCName"/>
+  <xs:element name="IDValue" type="xs:string"/>
+  <xs:element name="ContactName" type="xs:string"/>
+  <xs:element name="EmailAddress" type="xs:string"/>
+  <xs:element name="TitleDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="reference:TitleType"/>
+        <xs:element ref="reference:TitleElement"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitleType" type="xs:integer"/>
+  <xs:element name="TitleElement">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="reference:SequenceNumber"/>
+        <xs:element ref="reference:TitleElementLevel"/>
+        <xs:element minOccurs="0" ref="reference:YearOfAnnual"/>
+        <xs:choice>
+          <xs:element ref="reference:TitleText"/>
+          <xs:sequence>
+            <xs:element ref="reference:NoPrefix"/>
+            <xs:element ref="reference:TitleWithoutPrefix"/>
+          </xs:sequence>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TitleElementLevel" type="xs:integer"/>
+  <xs:element name="YearOfAnnual" type="xs:integer"/>
+  <xs:element name="TitleText" type="xs:string"/>
+  <xs:element name="NoPrefix">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="TitleWithoutPrefix" type="xs:string"/>
+  <xs:element name="SequenceNumber" type="xs:integer"/>
+  <xs:element name="NamesBeforeKey" type="xs:string"/>
+  <xs:element name="KeyNames" type="xs:string"/>
+  <xs:element name="NamesAfterKey" type="xs:string"/>
+  <xs:element name="Date">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="dateformat" type="xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ContentAudience" type="xs:integer"/>
+</xs:schema>

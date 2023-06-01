@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**************************************************
+*                                                *
+*               ONIX INTERNATIONAL               *
+*                                                *
+*         ONIX BOOK SUPPLY UPDATE MESSAGE        *
+*                   Version 1.0                  *
+*                                                *
+*                   XML SCHEMA                   *
+*                SHORT TAG VERSION               *
+*                                                *
+*                Status: RELEASED                *
+*            Release date: 2006-08-29            *
+*              Corrected: 2007-06-04             *
+*                                                *
+*          Original author: Francis Cave         *
+*                                                *
+*              (c) 2006-2007 EDItEUR             *
+*             http://www.editeur.org/            *
+*                                                *
+**************************************************
+
+
+
+TERMS AND CONDITIONS OF USE OF THE ONIX BOOK SUPPLY UPDATE MESSAGE XML SCHEMA
+
+All ONIX standards and documentation are copyright materials, made available 
+free of charge for general use.  If you use the ONIX Book Supply Update 
+Message XML Schema, you will be deemed to have accepted these terms and conditions:
+
+1.  You agree that you will not add to, delete from or amend the ONIX Book Supply 
+Update Message Schema, any part of the Schema except for strictly internal 
+use in your own organisation.
+
+2.  You agree that if you wish to add to, amend, or make extracts of the 
+Schema for any purpose that is not strictly internal to your own organisation, 
+you will in the first instance notify EDItEUR and allow EDItEUR to review 
+and comment on your proposed use, in the interest of securing an orderly 
+development of the Schema for the benefit of other users.
+
+If you do not accept these terms, you must not use the ONIX Book Supply Update  
+Message Schema.
+
+Full copies of the latest release of this Schema and all associated documentation 
+are available from the EDItEUR web site, where may also be found details of 
+how to contact EDItEUR for advice on the use of this Schema. The URL for the 
+EDItEUR web site is:
+
+http://www.editeur.org/
+
+
+
+SCHEMA REVISION HISTORY (IN REVERSE CHRONOLOGICAL ORDER)
+
+2007-06-04: Corrected version of schema released. Error in first pattern 
+            of simple type 'DateOrDateTime' (mis-placed open parenthesis) 
+            corrected.
+
+2006-08-29: Release of Schema based upon the ONIX Book Supply Update 
+            Message DTD Release 1.0, in turn based upon the ONIX 
+            Product Information Message DTD Release 2.1 Revision 03.
+
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.editeur.org/onix/bookssupplyupdate/1.0/short" targetNamespace="http://www.editeur.org/onix/bookssupplyupdate/1.0/short" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="ONIX_Books_Supply_Update_CodeLists.xsd"/>
+	<xs:include schemaLocation="ONIX_XHTML_Subset.xsd"/>
+	<xs:element name="ONIXbookssupplyupdatemessage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="header"/>
+				<xs:element ref="supplyupdate" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:string" use="required" fixed="1.0"/>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ONIXBooksSupplyUpdateMessage"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="ONIXbookssupplyupdatemessage"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m174">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="FromCompany"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m174"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m175">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="FromPerson"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m175"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m283">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="FromEmail"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m283"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m178">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ToCompany"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m178"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m179">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ToPerson"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m179"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m180">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MessageNumber"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m180"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m181">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MessageRepeat"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m181"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m182">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SentDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m182"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m183">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MessageNote"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m183"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m185">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List58">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DefaultPriceTypeCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m185"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m186">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List96">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DefaultCurrencyCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m186"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m193">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DefaultClassOfTrade"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m193"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m379">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List44">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SenderIDType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m379"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="m380">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List44">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AddresseeIDType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="m380"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="senderidentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="m379"/>
+				<xs:element ref="b233" minOccurs="0"/>
+				<xs:element ref="b244"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SenderIdentifier"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="senderidentifier"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="addresseeidentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="m380"/>
+				<xs:element ref="b233" minOccurs="0"/>
+				<xs:element ref="b244"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AddresseeIdentifier"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="addresseeidentifier"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="header">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="senderidentifier" maxOccurs="unbounded"/>
+						<xs:element ref="m174" minOccurs="0"/>
+					</xs:sequence>
+					<xs:element ref="m174"/>
+				</xs:choice>
+				<xs:element ref="m175" minOccurs="0"/>
+				<xs:element ref="m283" minOccurs="0"/>
+				<xs:element ref="addresseeidentifier" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="m178" minOccurs="0"/>
+				<xs:element ref="m179" minOccurs="0"/>
+				<xs:element ref="m180" minOccurs="0"/>
+				<xs:element ref="m181" minOccurs="0"/>
+				<xs:element ref="m182"/>
+				<xs:element ref="m183" minOccurs="0"/>
+				<xs:element ref="m185" minOccurs="0"/>
+				<xs:element ref="m186" minOccurs="0"/>
+				<xs:element ref="m193" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="Header"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="header"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="a001">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="RecordReference"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="a001"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="a002">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List1">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="NotificationType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="a002"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b221">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List5">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ProductIDType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b221"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b233">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="IDTypeName"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b233"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b244">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="IDValue"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b244"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="productidentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="b221"/>
+				<xs:element ref="b233" minOccurs="0"/>
+				<xs:element ref="b244"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ProductIdentifier"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="productidentifier"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b367">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List73">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="WebsiteRole"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b367"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b294">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="p"/>
+				<xs:element ref="h1"/>
+				<xs:element ref="h2"/>
+				<xs:element ref="h3"/>
+				<xs:element ref="h4"/>
+				<xs:element ref="h5"/>
+				<xs:element ref="h6"/>
+				<xs:element ref="div"/>
+				<xs:element ref="ul"/>
+				<xs:element ref="ol"/>
+				<xs:element ref="dl"/>
+				<xs:element ref="pre"/>
+				<xs:element ref="hr"/>
+				<xs:element ref="blockquote"/>
+				<xs:element ref="address"/>
+				<xs:element ref="table"/>
+				<xs:element ref="a"/>
+				<xs:element ref="br"/>
+				<xs:element ref="span"/>
+				<xs:element ref="bdo"/>
+				<xs:element ref="object"/>
+				<xs:element ref="img"/>
+				<xs:element ref="map"/>
+				<xs:element ref="tt"/>
+				<xs:element ref="i"/>
+				<xs:element ref="b"/>
+				<xs:element ref="big"/>
+				<xs:element ref="small"/>
+				<xs:element ref="em"/>
+				<xs:element ref="strong"/>
+				<xs:element ref="dfn"/>
+				<xs:element ref="code"/>
+				<xs:element ref="q"/>
+				<xs:element ref="sub"/>
+				<xs:element ref="sup"/>
+				<xs:element ref="samp"/>
+				<xs:element ref="kbd"/>
+				<xs:element ref="var"/>
+				<xs:element ref="cite"/>
+				<xs:element ref="abbr"/>
+				<xs:element ref="acronym"/>
+			</xs:choice>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="WebsiteDescription"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b294"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b295">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="WebsiteLink"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b295"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="website">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="b367" minOccurs="0"/>
+				<xs:element ref="b294" minOccurs="0"/>
+				<xs:element ref="b295"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="Website"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="website"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b306">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="Date"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b306"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b251">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List91">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="CountryCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b251"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f114">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List38">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MediaFileTypeCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f114"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f115">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List39">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MediaFileFormatCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f115"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f259">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ImageResolution"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f259"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f116">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List40">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MediaFileLinkTypeCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f116"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f117">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MediaFileLink"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f117"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f118">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="p"/>
+				<xs:element ref="h1"/>
+				<xs:element ref="h2"/>
+				<xs:element ref="h3"/>
+				<xs:element ref="h4"/>
+				<xs:element ref="h5"/>
+				<xs:element ref="h6"/>
+				<xs:element ref="div"/>
+				<xs:element ref="ul"/>
+				<xs:element ref="ol"/>
+				<xs:element ref="dl"/>
+				<xs:element ref="pre"/>
+				<xs:element ref="hr"/>
+				<xs:element ref="blockquote"/>
+				<xs:element ref="address"/>
+				<xs:element ref="table"/>
+				<xs:element ref="a"/>
+				<xs:element ref="br"/>
+				<xs:element ref="span"/>
+				<xs:element ref="bdo"/>
+				<xs:element ref="object"/>
+				<xs:element ref="img"/>
+				<xs:element ref="map"/>
+				<xs:element ref="tt"/>
+				<xs:element ref="i"/>
+				<xs:element ref="b"/>
+				<xs:element ref="big"/>
+				<xs:element ref="small"/>
+				<xs:element ref="em"/>
+				<xs:element ref="strong"/>
+				<xs:element ref="dfn"/>
+				<xs:element ref="code"/>
+				<xs:element ref="q"/>
+				<xs:element ref="sub"/>
+				<xs:element ref="sup"/>
+				<xs:element ref="samp"/>
+				<xs:element ref="kbd"/>
+				<xs:element ref="var"/>
+				<xs:element ref="cite"/>
+				<xs:element ref="abbr"/>
+				<xs:element ref="acronym"/>
+			</xs:choice>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TextWithDownload"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f118"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f119">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="p"/>
+				<xs:element ref="h1"/>
+				<xs:element ref="h2"/>
+				<xs:element ref="h3"/>
+				<xs:element ref="h4"/>
+				<xs:element ref="h5"/>
+				<xs:element ref="h6"/>
+				<xs:element ref="div"/>
+				<xs:element ref="ul"/>
+				<xs:element ref="ol"/>
+				<xs:element ref="dl"/>
+				<xs:element ref="pre"/>
+				<xs:element ref="hr"/>
+				<xs:element ref="blockquote"/>
+				<xs:element ref="address"/>
+				<xs:element ref="table"/>
+				<xs:element ref="a"/>
+				<xs:element ref="br"/>
+				<xs:element ref="span"/>
+				<xs:element ref="bdo"/>
+				<xs:element ref="object"/>
+				<xs:element ref="img"/>
+				<xs:element ref="map"/>
+				<xs:element ref="tt"/>
+				<xs:element ref="i"/>
+				<xs:element ref="b"/>
+				<xs:element ref="big"/>
+				<xs:element ref="small"/>
+				<xs:element ref="em"/>
+				<xs:element ref="strong"/>
+				<xs:element ref="dfn"/>
+				<xs:element ref="code"/>
+				<xs:element ref="q"/>
+				<xs:element ref="sub"/>
+				<xs:element ref="sup"/>
+				<xs:element ref="samp"/>
+				<xs:element ref="kbd"/>
+				<xs:element ref="var"/>
+				<xs:element ref="cite"/>
+				<xs:element ref="abbr"/>
+				<xs:element ref="acronym"/>
+			</xs:choice>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DownloadCaption"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f119"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f120">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="p"/>
+				<xs:element ref="h1"/>
+				<xs:element ref="h2"/>
+				<xs:element ref="h3"/>
+				<xs:element ref="h4"/>
+				<xs:element ref="h5"/>
+				<xs:element ref="h6"/>
+				<xs:element ref="div"/>
+				<xs:element ref="ul"/>
+				<xs:element ref="ol"/>
+				<xs:element ref="dl"/>
+				<xs:element ref="pre"/>
+				<xs:element ref="hr"/>
+				<xs:element ref="blockquote"/>
+				<xs:element ref="address"/>
+				<xs:element ref="table"/>
+				<xs:element ref="a"/>
+				<xs:element ref="br"/>
+				<xs:element ref="span"/>
+				<xs:element ref="bdo"/>
+				<xs:element ref="object"/>
+				<xs:element ref="img"/>
+				<xs:element ref="map"/>
+				<xs:element ref="tt"/>
+				<xs:element ref="i"/>
+				<xs:element ref="b"/>
+				<xs:element ref="big"/>
+				<xs:element ref="small"/>
+				<xs:element ref="em"/>
+				<xs:element ref="strong"/>
+				<xs:element ref="dfn"/>
+				<xs:element ref="code"/>
+				<xs:element ref="q"/>
+				<xs:element ref="sub"/>
+				<xs:element ref="sup"/>
+				<xs:element ref="samp"/>
+				<xs:element ref="kbd"/>
+				<xs:element ref="var"/>
+				<xs:element ref="cite"/>
+				<xs:element ref="abbr"/>
+				<xs:element ref="acronym"/>
+			</xs:choice>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DownloadCredit"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f120"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f121">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="p"/>
+				<xs:element ref="h1"/>
+				<xs:element ref="h2"/>
+				<xs:element ref="h3"/>
+				<xs:element ref="h4"/>
+				<xs:element ref="h5"/>
+				<xs:element ref="h6"/>
+				<xs:element ref="div"/>
+				<xs:element ref="ul"/>
+				<xs:element ref="ol"/>
+				<xs:element ref="dl"/>
+				<xs:element ref="pre"/>
+				<xs:element ref="hr"/>
+				<xs:element ref="blockquote"/>
+				<xs:element ref="address"/>
+				<xs:element ref="table"/>
+				<xs:element ref="a"/>
+				<xs:element ref="br"/>
+				<xs:element ref="span"/>
+				<xs:element ref="bdo"/>
+				<xs:element ref="object"/>
+				<xs:element ref="img"/>
+				<xs:element ref="map"/>
+				<xs:element ref="tt"/>
+				<xs:element ref="i"/>
+				<xs:element ref="b"/>
+				<xs:element ref="big"/>
+				<xs:element ref="small"/>
+				<xs:element ref="em"/>
+				<xs:element ref="strong"/>
+				<xs:element ref="dfn"/>
+				<xs:element ref="code"/>
+				<xs:element ref="q"/>
+				<xs:element ref="sub"/>
+				<xs:element ref="sup"/>
+				<xs:element ref="samp"/>
+				<xs:element ref="kbd"/>
+				<xs:element ref="var"/>
+				<xs:element ref="cite"/>
+				<xs:element ref="abbr"/>
+				<xs:element ref="acronym"/>
+			</xs:choice>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DownloadCopyrightNotice"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f121"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f122">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="p"/>
+				<xs:element ref="h1"/>
+				<xs:element ref="h2"/>
+				<xs:element ref="h3"/>
+				<xs:element ref="h4"/>
+				<xs:element ref="h5"/>
+				<xs:element ref="h6"/>
+				<xs:element ref="div"/>
+				<xs:element ref="ul"/>
+				<xs:element ref="ol"/>
+				<xs:element ref="dl"/>
+				<xs:element ref="pre"/>
+				<xs:element ref="hr"/>
+				<xs:element ref="blockquote"/>
+				<xs:element ref="address"/>
+				<xs:element ref="table"/>
+				<xs:element ref="a"/>
+				<xs:element ref="br"/>
+				<xs:element ref="span"/>
+				<xs:element ref="bdo"/>
+				<xs:element ref="object"/>
+				<xs:element ref="img"/>
+				<xs:element ref="map"/>
+				<xs:element ref="tt"/>
+				<xs:element ref="i"/>
+				<xs:element ref="b"/>
+				<xs:element ref="big"/>
+				<xs:element ref="small"/>
+				<xs:element ref="em"/>
+				<xs:element ref="strong"/>
+				<xs:element ref="dfn"/>
+				<xs:element ref="code"/>
+				<xs:element ref="q"/>
+				<xs:element ref="sub"/>
+				<xs:element ref="sup"/>
+				<xs:element ref="samp"/>
+				<xs:element ref="kbd"/>
+				<xs:element ref="var"/>
+				<xs:element ref="cite"/>
+				<xs:element ref="abbr"/>
+				<xs:element ref="acronym"/>
+			</xs:choice>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DownloadTerms"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f122"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="f373">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MediaFileDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="f373"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="mediafile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="f114"/>
+				<xs:element ref="f115" minOccurs="0"/>
+				<xs:element ref="f259" minOccurs="0"/>
+				<xs:element ref="f116"/>
+				<xs:element ref="f117"/>
+				<xs:choice minOccurs="0">
+					<xs:element ref="f118"/>
+					<xs:sequence>
+						<xs:element ref="f119"/>
+						<xs:element ref="f120" minOccurs="0"/>
+						<xs:element ref="f121" minOccurs="0"/>
+					</xs:sequence>
+					<xs:sequence>
+						<xs:element ref="f120"/>
+						<xs:element ref="f121" minOccurs="0"/>
+					</xs:sequence>
+					<xs:element ref="f121"/>
+				</xs:choice>
+				<xs:element ref="f122" minOccurs="0"/>
+				<xs:element ref="f373" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MediaFile"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="mediafile"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b394">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List64">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PublishingStatus"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b394"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b395">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PublishingStatusNote"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b395"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b086">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AnnouncementDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b086"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b362">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TradeAnnouncementDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b362"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="b003">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PublicationDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="b003"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="h134">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="OutOfPrintDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="h134"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j345">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List92">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplierIDType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j345"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j137">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplierName"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j137"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j270">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TelephoneNumber"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j270"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j271">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="FaxNumber"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j271"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j272">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="EmailAddress"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j272"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j292">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List93">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplierRole"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j292"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j138">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="CountryCodeList">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplyToCountry"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j138"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j397">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="TerritoryCodeList">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplyToTerritory"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j397"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j140">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="CountryCodeList">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplyToCountryExcluded"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j140"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j399">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplyRestrictionDetail"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j399"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j268">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List53">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ReturnsCodeType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j268"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j269">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ReturnsCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j269"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j387">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="LastDateForReturns"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j387"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j396">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List65">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ProductAvailability"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j396"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j377">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List92">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="LocationIDType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j377"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j349">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="LocationName"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j349"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j293">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List70">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="StockQuantityCodeType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j293"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j296">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="StockQuantityCodeTypeName"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j296"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j297">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="StockQuantityCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j297"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j350">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="OnHand"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j350"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j351">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="OnOrder"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j351"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j375">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="CBO"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j375"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j302">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ExpectedDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j302"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j260">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List55">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DateFormat"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j260"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j142">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ExpectedShipDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j142"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j143">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="OnSaleDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j143"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j144">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="OrderTime"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j144"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j145">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PackQuantity"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j145"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j146">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List56">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AudienceRestrictionFlag"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j146"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j147">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AudienceRestrictionNote"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j147"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j148">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List58">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PriceTypeCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j148"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j261">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List59">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PriceQualifier"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j261"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j262">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PriceTypeDescription"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j262"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j239">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List60">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PricePer"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j239"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j263">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MinimumOrderQuantity"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j263"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j264">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="BatchQuantity"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j264"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j265">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="FreeQuantity"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j265"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j149">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ClassOfTrade"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j149"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j150">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="BICDiscountGroupCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j150"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j363">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List100">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DiscountCodeType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j363"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j378">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DiscountCodeTypeName"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j378"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j364">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DiscountCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j364"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j267">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DiscountPercent"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j267"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j266">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List61">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PriceStatus"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j266"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j151">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PriceAmount"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j151"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j192">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List57">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="UnpricedItemType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j192"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j152">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List96">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="CurrencyCode"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j152"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j303">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="TerritoryCodeList">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="Territory"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j303"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j304">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="CountryCodeList">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="CountryExcluded"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j304"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j308">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="TerritoryCodeList">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TerritoryExcluded"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j308"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j153">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List62">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxRateCode1"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j153"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j154">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxRatePercent1"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j154"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j155">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxableAmount1"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j155"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j156">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxAmount1"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j156"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j157">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="List62">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxRateCode2"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j157"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j158">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxRatePercent2"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j158"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j159">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxableAmount2"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j159"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j160">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="TaxAmount2"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j160"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j365">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ReissueDate"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j365"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j366">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="ReissueDescription"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j366"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j161">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PriceEffectiveFrom"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j161"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j162">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="PriceEffectiveUntil"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j162"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="supplieridentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j345"/>
+				<xs:element ref="b233" minOccurs="0"/>
+				<xs:element ref="b244"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplierIdentifier"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="supplieridentifier"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="newsupplier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="supplieridentifier" maxOccurs="unbounded"/>
+						<xs:element ref="j137" minOccurs="0"/>
+					</xs:sequence>
+					<xs:element ref="j137"/>
+				</xs:choice>
+				<xs:element ref="j270" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j271" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j272" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="NewSupplier"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="newsupplier"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="locationidentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j377"/>
+				<xs:element ref="b233" minOccurs="0"/>
+				<xs:element ref="b244"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="LocationIdentifier"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="locationidentifier"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="stockquantitycoded">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j293"/>
+				<xs:element ref="j296" minOccurs="0"/>
+				<xs:element ref="j297"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="StockQuantityCoded"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="stockquantitycoded"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="onorderdetail">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j351"/>
+				<xs:element ref="j302"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="OnOrderDetail"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="onorderdetail"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="stock">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="locationidentifier" minOccurs="0"/>
+				<xs:element ref="j349" minOccurs="0"/>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="stockquantitycoded"/>
+						<xs:element ref="j350" minOccurs="0"/>
+					</xs:sequence>
+					<xs:element ref="j350"/>
+				</xs:choice>
+				<xs:element ref="j351" minOccurs="0"/>
+				<xs:element ref="j375" minOccurs="0"/>
+				<xs:element ref="onorderdetail" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="Stock"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="stock"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="batchbonus">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j264"/>
+				<xs:element ref="j265"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="BatchBonus"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="batchbonus"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="discountcoded">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j363"/>
+				<xs:element ref="j378" minOccurs="0"/>
+				<xs:element ref="j364"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="DiscountCoded"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="discountcoded"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="price">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j148" minOccurs="0"/>
+				<xs:element ref="j261" minOccurs="0"/>
+				<xs:element ref="j262" minOccurs="0"/>
+				<xs:element ref="j239" minOccurs="0"/>
+				<xs:element ref="j263" minOccurs="0"/>
+				<xs:element ref="batchbonus" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j149" minOccurs="0"/>
+				<xs:element ref="j150" minOccurs="0"/>
+				<xs:element ref="discountcoded" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j267" minOccurs="0"/>
+				<xs:element ref="j266" minOccurs="0"/>
+				<xs:element ref="j151"/>
+				<xs:element ref="j152" minOccurs="0"/>
+				<xs:sequence minOccurs="0">
+					<xs:choice>
+						<xs:sequence>
+							<xs:element ref="b251" maxOccurs="unbounded"/>
+							<xs:element ref="j303" minOccurs="0"/>
+						</xs:sequence>
+						<xs:element ref="j303"/>
+					</xs:choice>
+					<xs:element ref="j304" minOccurs="0"/>
+					<xs:element ref="j308" minOccurs="0"/>
+				</xs:sequence>
+				<xs:sequence minOccurs="0">
+					<xs:element ref="j153"/>
+					<xs:element ref="j154" minOccurs="0"/>
+					<xs:element ref="j155" minOccurs="0"/>
+					<xs:element ref="j156" minOccurs="0"/>
+					<xs:sequence minOccurs="0">
+						<xs:element ref="j157"/>
+						<xs:element ref="j158" minOccurs="0"/>
+						<xs:element ref="j159" minOccurs="0"/>
+						<xs:element ref="j160" minOccurs="0"/>
+					</xs:sequence>
+				</xs:sequence>
+				<xs:element ref="j161" minOccurs="0"/>
+				<xs:element ref="j162" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="Price"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="price"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="reissue">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j365"/>
+				<xs:element ref="j366" minOccurs="0"/>
+				<xs:element ref="price" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="mediafile" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="Reissue"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="reissue"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="supplydetail">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="supplieridentifier" maxOccurs="unbounded"/>
+						<xs:element ref="j137" minOccurs="0"/>
+					</xs:sequence>
+					<xs:element ref="j137"/>
+				</xs:choice>
+				<xs:element ref="j270" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j271" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j272" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="website" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j292" minOccurs="0"/>
+				<xs:sequence minOccurs="0">
+					<xs:choice>
+						<xs:sequence>
+							<xs:element ref="j138" maxOccurs="unbounded"/>
+							<xs:element ref="j397" minOccurs="0"/>
+						</xs:sequence>
+						<xs:element ref="j397"/>
+					</xs:choice>
+					<xs:element ref="j140" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+				<xs:element ref="j399" minOccurs="0"/>
+				<xs:sequence minOccurs="0">
+					<xs:element ref="j268"/>
+					<xs:element ref="j269"/>
+				</xs:sequence>
+				<xs:element ref="j387" minOccurs="0"/>
+				<xs:element ref="j396"/>
+				<xs:element ref="newsupplier" minOccurs="0"/>
+				<xs:sequence minOccurs="0">
+					<xs:element ref="j260" minOccurs="0"/>
+					<xs:element ref="j142"/>
+				</xs:sequence>
+				<xs:element ref="j143" minOccurs="0"/>
+				<xs:element ref="j144" minOccurs="0"/>
+				<xs:element ref="stock" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j145" minOccurs="0"/>
+				<xs:sequence minOccurs="0">
+					<xs:element ref="j146"/>
+					<xs:element ref="j147" minOccurs="0"/>
+				</xs:sequence>
+				<xs:choice>
+					<xs:element ref="j192"/>
+					<xs:element ref="price" maxOccurs="unbounded"/>
+				</xs:choice>
+				<xs:element ref="reissue" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplyDetail"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="supplydetail"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j400">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AgentIDType"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j400"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j401">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AgentName"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j401"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j402">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AgentRole"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j402"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j403">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketCountry"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j403"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j404">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketTerritory"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j404"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j405">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketCountryExcluded"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j405"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j406">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketRestrictionDetail"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j406"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j407">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketPublishingStatus"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j407"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="j408">
+		<xs:complexType mixed="true">
+			<xs:simpleContent>
+				<xs:extension base="NonEmptyString">
+					<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketDateRole"/>
+					<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="j408"/>
+					<xs:attributeGroup ref="generalAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="agentidentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j400"/>
+				<xs:element ref="b233" minOccurs="0"/>
+				<xs:element ref="b244"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="AgentIdentifier"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="agentidentifier"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="marketdate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="j408"/>
+				<xs:element ref="j260" minOccurs="0"/>
+				<xs:element ref="b306"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketDate"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="marketdate"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="marketrepresentation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="agentidentifier" maxOccurs="unbounded"/>
+						<xs:element ref="j401" minOccurs="0"/>
+					</xs:sequence>
+					<xs:element ref="j401"/>
+				</xs:choice>
+				<xs:element ref="j270" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j271" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j272" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="website" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="j402" minOccurs="0"/>
+				<xs:choice>
+					<xs:element ref="j403"/>
+					<xs:sequence>
+						<xs:element ref="j404"/>
+						<xs:element ref="j405" minOccurs="0"/>
+					</xs:sequence>
+				</xs:choice>
+				<xs:element ref="j406" minOccurs="0"/>
+				<xs:element ref="j407" minOccurs="0"/>
+				<xs:element ref="marketdate" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="MarketRepresentation"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="marketrepresentation"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="supplyupdate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="a001"/>
+				<xs:element ref="a002"/>
+				<xs:element ref="productidentifier"/>
+				<xs:element ref="b394"/>
+				<xs:element ref="b395" minOccurs="0"/>
+				<xs:element ref="b086" minOccurs="0"/>
+				<xs:element ref="b362" minOccurs="0"/>
+				<xs:element ref="b003"/>
+				<xs:element ref="h134" minOccurs="0"/>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="supplydetail" maxOccurs="unbounded"/>
+						<xs:element ref="marketrepresentation" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:element ref="marketrepresentation" maxOccurs="unbounded"/>
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute name="refname" type="xs:NMTOKEN" fixed="SupplyUpdate"/>
+			<xs:attribute name="shortname" type="xs:NMTOKEN" fixed="supplyupdate"/>
+			<xs:attributeGroup ref="generalAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="NonEmptyString">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CountryCodeList">
+		<xs:list itemType="List91"/>
+	</xs:simpleType>
+	<xs:simpleType name="TerritoryCodeList">
+		<xs:list itemType="List49"/>
+	</xs:simpleType>
+	<xs:simpleType name="DateOrDateTime">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="2\d\d\d(0[1-9]|1[0-2])(0[1-9]|1[0-9]|2[0-8])(([01][0-9]|2[0-3])[0-5][0-9][0-5][0-9])?"/>
+			<xs:pattern value="2\d\d\d(0[13-9]|1[0-2])(29|30)(([01][0-9]|2[0-3])[0-5][0-9][0-5][0-9])?"/>
+			<xs:pattern value="2\d\d\d(0[13578]|1[02])31(([01][0-9]|2[0-3])[0-5][0-9][0-5][0-9])?"/>
+			<xs:pattern value="2[048](0[048]|[13579][26]|[2468][048])0229(([01][0-9]|2[0-3])[0-5][0-9][0-5][0-9])?"/>
+			<xs:pattern value="2[1235679](0[48]|[13579][26]|[2468][048])0229(([01][0-9]|2[0-3])[0-5][0-9][0-5][0-9])?"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:attributeGroup name="generalAttributes">
+		<xs:attribute name="textformat" type="TextFormatCode" use="optional" default="00"/>
+		<xs:attribute name="textcase" type="TextCaseCode" use="optional" default="00"/>
+		<xs:attribute name="language" type="List74" use="optional"/>
+		<xs:attribute name="transliteration" type="TransliterationCode" use="optional"/>
+		<xs:attribute name="datestamp" type="DateOrDateTime" use="optional"/>
+		<xs:attribute name="sourcetype" type="SourceTypeCode" use="optional" default="00"/>
+		<xs:attribute name="sourcename" type="xs:string" use="optional"/>
+	</xs:attributeGroup>
+</xs:schema>

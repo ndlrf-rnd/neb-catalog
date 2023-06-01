@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "$id": "https://catalog.rusneb.ru/schemas/resources.json",
+  "base": "https://catalog.ruseb.ru/",
+  "contentEncoding": "utf-8",
+  "contentMediaType": "application/json",
+  "$ref": "feed.schema.json",
+  "navigation": [
+    {
+      "rel": "first",
+      "href": "resources.{extension}{?limit,since,until,order}",
+      "templateRequired": [
+      ],
+      "templatePointers": {
+        "since": "/meta/cursors/since",
+        "until": "/meta/cursors/until",
+        "limit": "/meta/cursors/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    },
+    {
+      "rel": "next",
+      "href": "resources.json{?since,until,after,order}",
+      "templateRequired": [
+        "offset",
+        "limit"
+      ],
+      "templatePointers": {
+        "since": "/meta/cursors/since",
+        "until": "/meta/cursors/until",
+        "after": "/meta/cursors/before",
+        "limit": "/meta/cursors/limit"
+      },
+      "targetSchema": {
+        "$ref": "#"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<S__><rdf:Description S_ = "07400068 10" xmlns:dc = "http://purl.org/dc/elements/1.1/" xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <dc:title S_ = "07400068 12"><SPAN S_ = "022DA1B0 20">The Great Ray Charles [sound recording].</SPAN></dc:title>
+  <dc:creator S_ = "07400068 1B"><SPAN S_ = "07400068 1C">
+		Charles, Ray,
+		1930-
+		prf
+	</SPAN>
+  </dc:creator>
+  <dc:type S_ = "07400068 20"><SPAN S_ = "07400068 2D">sound recording</SPAN></dc:type>
+  <dc:publisher S_ = "07400068 3D"><SPAN S_ = "06E13F10 20">New York, N.Y. : Atlantic,</SPAN></dc:publisher>
+  <dc:date S_ = "07400068 45"><SPAN S_ = "07400068 46">[1957?]</SPAN></dc:date>
+  <dc:language S_ = "07400068 4A"><SPAN S_ = "07400068 4B">eng</SPAN></dc:language>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">   91758335 </SPAN></dc:description>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">1259</SPAN></dc:description>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">DLC</SPAN></dc:description>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">Atlantic 1259</SPAN></dc:description>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">The Great Ray Charles</SPAN></dc:description>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">New York, N.Y. :</SPAN></dc:description>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">1 sound disc :</SPAN></dc:description>
+  <dc:description S_ = "07400068 61"><SPAN S_ = "07400068 62">Brief record.</SPAN></dc:description>
+  <dc:subject S_ = "07400068 87"><SPAN S_ = "05998998 20">Jazz</SPAN></dc:subject>
+  <dc:subject S_ = "07400068 87"><SPAN S_ = "05998998 20">Piano with jazz ensemble.</SPAN></dc:subject>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">The Ray</SPAN></dc:relation>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">My melancholy baby</SPAN></dc:relation>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">Black coffee</SPAN></dc:relation>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">There's no you</SPAN></dc:relation>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">Doodlin'</SPAN></dc:relation>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">Sweet sixteen bars</SPAN></dc:relation>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">I surrender dear</SPAN></dc:relation>
+  <dc:relation S_ = "07400068 A7"><SPAN S_ = "07202800 20">Undecided</SPAN></dc:relation>
+</rdf:Description></S__>

@@ -1,0 +1,4208 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "encoding": "UTF-8",
+      "version": "1.0"
+    }
+  },
+  "fb-updates": [
+    {
+      "_attributes": {
+        "timestamp": "2020-07-01 03:50:57",
+        "xmlns:l": "http://www.w3.org/1999/xlink"
+      },
+      "removed-book": [
+        {
+          "_attributes": {
+            "id": "53980036",
+            "removed": "2020-07-01 02:05:08",
+            "uid": "2112e569-8973-11ea-9063-0cc47a5f1565"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "53980060",
+            "removed": "2020-07-01 02:05:16",
+            "uid": "2c60ecb1-8973-11ea-9063-0cc47a5f1565"
+          }
+        }
+      ],
+      "updated-book": [
+        {
+          "_attributes": {
+            "adult": "12",
+            "allow_full_free": "0",
+            "allow_read": "0",
+            "allow_sell": "0",
+            "art_cover": "jpg",
+            "art_cover_h": "199",
+            "art_cover_w": "200",
+            "available": "0",
+            "available_date": "2019-07-24 14:06:34",
+            "can_preorder": "0",
+            "chars": "8663",
+            "contract_author": "119123",
+            "contract_ends": "2020-07-01",
+            "contract_title": "АСТ-Аудиокнига",
+            "copyright_read_online": "0",
+            "cover": "jpg",
+            "cover_h": "199",
+            "cover_w": "200",
+            "created": "2013-06-27 19:34:11",
+            "date_written_d": "1895-01-01",
+            "date_written_s": "1895",
+            "drm": "0",
+            "external_id": "37534078-042e-11e1-8be0-47117d41cf4b",
+            "file_id": "5832395",
+            "file_parts": "0",
+            "first_time_sale": "2011-11-01 05:12:37",
+            "has_trial": "0",
+            "id": "2452775",
+            "inapp_price": "ru.litres.app.refill_199.XXL",
+            "lang": "ru",
+            "lang3": "rus",
+            "litex": "0",
+            "litres_isbn": "978-5-457-15037-9",
+            "lvl": "3",
+            "must_import": "0",
+            "options": "66",
+            "price": "99.00",
+            "public_domain": "0",
+            "publisher": "",
+            "rating": "852",
+            "sell_open": "2",
+            "sent_by_id": "32",
+            "sent_by_name": "palek",
+            "show_card": "64",
+            "size": "9715301",
+            "src_lang": "en",
+            "src_lang3": "eng",
+            "status": "approved",
+            "subject_id": "47318",
+            "type": "1",
+            "updated": "2020-07-01 03:27:06",
+            "url": "brem-stoker/drakula-sokraschennyy-pereskaz-2452775/",
+            "valid_from": "2010-10-01",
+            "valid_till": "2020-10-01",
+            "you_can_sell": "0"
+          },
+          "annotation": [
+            {
+              "p": [
+                {
+                  "_text": [
+                    "Хочешь попасть в неведомый мир, полный опасностей и приключений? Тогда эта аудиокнига для тебя! Голос Дракулы\n        вызовет мурашки, и холодок пробежит по телу… Познакомься с бесстрашным Джонатаном Харкером и его друзьями,\n        узнай, кто такие вампиры и как с ними бороться, а главное – как их победить!\n      "
+                  ]
+                },
+                {
+                  "_text": [
+                    "И помни, что злые силы отступают перед смелыми и находчивыми!"
+                  ]
+                },
+                {
+                  "_text": [
+                    "Пересказ Ростислава Нестерова."
+                  ]
+                }
+              ]
+            }
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "_attributes": {
+                    "id": "ba0bda53-2a81-102a-9ae1-2dfe723fe7c7"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Брэм"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Брэма Стокер"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Стокер"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "3"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "0"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "47318"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "brem-stoker/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                  },
+                  "exid": [
+                    {
+                      "_text": [
+                        "183897"
+                      ]
+                    }
+                  ],
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Аудиоагент"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {}
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Аудиокнига-АСТ"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "audioagent-audiokniga-ast/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "3b868801-2fae-102d-93f9-060d30c95e7d"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Александр"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Александра Филиппенко"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Филиппенко"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "4"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {
+                      "_text": [
+                        "Георгиевич"
+                      ]
+                    }
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "79602"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "aleksandr-filippenko/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "78c34d1a-8965-102d-9ab1-2309c0a91052"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Диомид"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Диомида Виноградова"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Виноградов"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "173012"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "diomid-vinogradov/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "1e867e96-042e-11e1-8be0-47117d41cf4b"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Ростислав"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Ростислава Нестерова"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Нестеров"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "5"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "1795115"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "rostislav-nesterov/"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "book-title": [
+            {
+              "_attributes": {
+                "title": "Дракула (сокращенный пересказ)"
+              }
+            }
+          ],
+          "copyrights": [
+            {
+              "copyright": [
+                {
+                  "_attributes": {
+                    "id": "119123",
+                    "percent": "100.00",
+                    "title": "Аудиокнига (АСТ)"
+                  }
+                }
+              ]
+            }
+          ],
+          "document-info": [
+            {
+              "author": [
+                {
+                  "nickname": [
+                    {
+                      "_text": [
+                        "meshcheryakova@litres.ru"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "2011-11-01"
+                  },
+                  "_text": [
+                    "2011-11-01"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "_text": [
+                    "37534078-042e-11e1-8be0-47117d41cf4b"
+                  ]
+                }
+              ],
+              "publisher": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Аудиоагент «Аудиокнига-АСТ»"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": [
+                {
+                  "_text": [
+                    "1.0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "files": [
+            {
+              "group": [
+                {
+                  "_attributes": {
+                    "group_id": "1",
+                    "value": "Ознакомительный фрагмент. MP3"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "sample.mp3",
+                        "id": "3926875",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "8651",
+                        "size": "498048"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "sampleb.mp3",
+                        "id": "5832395",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "8663",
+                        "size": "9715301"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "3",
+                    "value": "Стандартное качество. MP3, 128 Kbps"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_01.mp3",
+                        "id": "3926885",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "49",
+                        "size": "778085"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_02.mp3",
+                        "id": "3926895",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "158",
+                        "size": "2525172"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_03.mp3",
+                        "id": "3926905",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "159",
+                        "size": "2531018"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_04.mp3",
+                        "id": "3926915",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "243",
+                        "size": "3883110"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_05.mp3",
+                        "id": "3926925",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "256",
+                        "size": "4082483"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_06.mp3",
+                        "id": "3926935",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "209",
+                        "size": "3336002"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_07.mp3",
+                        "id": "3926945",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "316",
+                        "size": "5048381"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_08.mp3",
+                        "id": "3926955",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "266",
+                        "size": "4255515"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_09.mp3",
+                        "id": "3926975",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "301",
+                        "size": "4808476"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_10.mp3",
+                        "id": "3926965",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "274",
+                        "size": "4380069"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_11.mp3",
+                        "id": "3926985",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "263",
+                        "size": "4197421"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_12.mp3",
+                        "id": "3926995",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "269",
+                        "size": "4293553"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_13.mp3",
+                        "id": "3927005",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "287",
+                        "size": "4581933"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_14.mp3",
+                        "id": "3927015",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "273",
+                        "size": "4352900"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_15.mp3",
+                        "id": "3927035",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "248",
+                        "size": "3956258"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_16.mp3",
+                        "id": "3927025",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "323",
+                        "size": "5156632"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_17.mp3",
+                        "id": "3927045",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "264",
+                        "size": "4220403"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_18.mp3",
+                        "id": "3927055",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "293",
+                        "size": "4681423"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_19.mp3",
+                        "id": "3927065",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "294",
+                        "size": "4698129"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_20.mp3",
+                        "id": "3927075",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "325",
+                        "size": "5191335"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_21.mp3",
+                        "id": "3927085",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "254",
+                        "size": "4061991"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_22.mp3",
+                        "id": "3927095",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "246",
+                        "size": "3936194"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_23.mp3",
+                        "id": "3927105",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "287",
+                        "size": "4589467"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_24.mp3",
+                        "id": "3927115",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "323",
+                        "size": "5162490"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_25.mp3",
+                        "id": "3927125",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "257",
+                        "size": "4107971"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_26.mp3",
+                        "id": "3927135",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "210",
+                        "size": "3354398"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_27.mp3",
+                        "id": "3927145",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "382",
+                        "size": "6110414"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_28.mp3",
+                        "id": "3927155",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "288",
+                        "size": "4596142"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_29.mp3",
+                        "id": "3927165",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "305",
+                        "size": "4870759"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_30.mp3",
+                        "id": "3927175",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "345",
+                        "size": "5513576"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_31.mp3",
+                        "id": "3927185",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "349",
+                        "size": "5584206"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "B.Stoker_-_Drakula_32.mp3",
+                        "id": "3927195",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "347",
+                        "size": "5542829"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "19",
+                    "value": "Мобильная версия. MP4"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "M4B-файл",
+                        "filename": "Drakula.m4b",
+                        "id": "3927205",
+                        "mime_type": "audio/m4b",
+                        "seconds": "8651",
+                        "size": "68846170"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "20",
+                    "value": "MP3 файлы в zip архиве"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "ZIP - файл",
+                        "filename": "B.Stoker_-_Drakula.zip",
+                        "id": "3927745",
+                        "mime_type": "application/zip",
+                        "size": "136420777"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "genres": [
+            {
+              "genre": [
+                {
+                  "_attributes": {
+                    "bisac": "JUV028000",
+                    "id": "5109",
+                    "title": "детские детективы"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "id": "56305",
+                    "master": "1",
+                    "title": "классика фантастики"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "bisac": "FIC002000",
+                    "id": "6454",
+                    "title": "книги о приключениях"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "bisac": "FIC022000",
+                    "id": "5223",
+                    "title": "мистика"
+                  }
+                }
+              ]
+            }
+          ],
+          "title-info": [
+            {
+              "annotation": [
+                {
+                  "p": [
+                    {
+                      "_text": [
+                        "Хочешь попасть в неведомый мир, полный опасностей и приключений? Тогда эта аудиокнига для тебя! Голос Дракулы\n          вызовет мурашки, и холодок пробежит по телу… Познакомься с бесстрашным Джонатаном Харкером и его друзьями,\n          узнай, кто такие вампиры и как с ними бороться, а главное – как их победить!\n        "
+                      ]
+                    },
+                    {
+                      "_text": [
+                        "И помни, что злые силы отступают перед смелыми и находчивыми!"
+                      ]
+                    },
+                    {
+                      "_text": [
+                        "Пересказ Ростислава Нестерова."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "author": [
+                {
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Брэм"
+                      ]
+                    }
+                  ],
+                  "full-name": [
+                    {
+                      "_text": [
+                        "Брэм Стокер"
+                      ]
+                    }
+                  ],
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "47318"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "ba0bda53-2a81-102a-9ae1-2dfe723fe7c7"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Стокер"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "book-title": [
+                {
+                  "_text": [
+                    "Дракула (сокращенный пересказ)"
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "1895-01-01"
+                  },
+                  "_text": [
+                    "1895"
+                  ]
+                }
+              ],
+              "genre": [
+                {
+                  "_text": [
+                    "sf_horror"
+                  ]
+                },
+                {
+                  "_text": [
+                    "adventure"
+                  ]
+                },
+                {
+                  "_text": [
+                    "child_det"
+                  ]
+                }
+              ],
+              "keywords": [
+                {
+                  "_text": [
+                    "экранизации,магический реализм,вампиры,некромантия,мистические тайны,бессмертные,мистическая\n        проза,английская классика,захватывающие приключения,иные миры\n      "
+                  ]
+                }
+              ],
+              "lang": [
+                {
+                  "_text": [
+                    "ru"
+                  ]
+                }
+              ],
+              "reader": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "79602"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "3b868801-2fae-102d-93f9-060d30c95e7d"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Александр Филиппенко"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "173012"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "78c34d1a-8965-102d-9ab1-2309c0a91052"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Диомид Виноградов"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "reteller": [
+                {
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Ростислав"
+                      ]
+                    }
+                  ],
+                  "full-name": [
+                    {
+                      "_text": [
+                        "Ростислав Нестеров"
+                      ]
+                    }
+                  ],
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "1795115"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "1e867e96-042e-11e1-8be0-47117d41cf4b"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Нестеров"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "src-lang": [
+                {
+                  "_text": [
+                    "en"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_attributes": {
+            "adult": "6",
+            "allow_full_free": "0",
+            "allow_read": "0",
+            "allow_sell": "0",
+            "art_cover": "jpg",
+            "art_cover_h": "357",
+            "art_cover_w": "331",
+            "available": "0",
+            "available_date": "2019-07-24 14:06:02",
+            "can_preorder": "0",
+            "chars": "8576",
+            "contract_author": "119123",
+            "contract_ends": "2020-07-01",
+            "contract_title": "АСТ-Аудиокнига",
+            "copyright_read_online": "0",
+            "cover": "jpg",
+            "cover_h": "357",
+            "cover_w": "331",
+            "created": "2013-07-04 17:32:13",
+            "date_written_d": "1844-01-01",
+            "date_written_s": "1844",
+            "drm": "0",
+            "external_id": "63fb9466-0733-11e1-aac2-5924aae99221",
+            "file_id": "5832335",
+            "file_parts": "0",
+            "first_time_sale": "2011-11-05 03:56:52",
+            "has_trial": "0",
+            "id": "2455535",
+            "inapp_price": "ru.litres.app.refill_199.XXL",
+            "lang": "ru",
+            "lang3": "rus",
+            "litex": "0",
+            "litres_isbn": "978-5-457-15045-4",
+            "lvl": "2",
+            "must_import": "0",
+            "options": "66",
+            "price": "99.00",
+            "public_domain": "0",
+            "publisher": "",
+            "rating": "9564",
+            "sell_open": "2",
+            "sent_by_id": "32",
+            "sent_by_name": "palek",
+            "show_card": "64",
+            "size": "5666544",
+            "status": "approved",
+            "subject_id": "44615",
+            "type": "1",
+            "updated": "2020-07-01 03:27:18",
+            "url": "aleksandr-duma/tri-mushketera-spektakl-dlya-detey-2455535/",
+            "valid_from": "2010-10-01",
+            "valid_till": "2020-10-01",
+            "you_can_sell": "0"
+          },
+          "annotation": [
+            {
+              "p": [
+                {
+                  "_text": [
+                    "Хочешь окунуться и мир приключений и познакомиться с юным гасконцем д'Артаньяном и отважными мушкетерами\n        Атосом, Портосом и Арамисом? Если ты уже смотрел знаменитый фильм «Три мушкетера», то тебя ждет приятный\n        сюрприз! В аудиокниге, которую ты держишь в руках, вновь встретились все три мушкетера. Вениамин Смехов,\n        Валентин Смирнитский и Игорь Старыгин, а роль капитана Де Тревиля озвучивает сам Лев Дуров!\n      "
+                  ]
+                }
+              ]
+            }
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "_attributes": {
+                    "id": "e05b7d98-2a80-102a-9ae1-2dfe723fe7c7"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Александр"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Александра Дюма"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Дюма"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "0"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "44615"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "aleksandr-duma/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "5ec52acd-2a83-102a-9ae1-2dfe723fe7c7"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Лев"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Льва Дурова"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Дуров"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {
+                      "_text": [
+                        "Константинович"
+                      ]
+                    }
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "51982"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "lev-durov/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                  },
+                  "exid": [
+                    {
+                      "_text": [
+                        "183896"
+                      ]
+                    }
+                  ],
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Аудиоагент"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {}
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Аудиокнига-АСТ"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "audioagent-audiokniga-ast/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "ce20074b-1113-102c-96f3-af3a14b75ca4"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Семен"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Семена Чайки"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Чайка"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "63228"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "semen-chayka/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "3b7d382a-2fae-102d-93f9-060d30c95e7d"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Игорь"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Игоря Старыгина"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Старыгин"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "3"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "74262"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "igor-starygin/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "3bf72229-2fae-102d-93f9-060d30c95e7d"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Вениамин"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Вениамина Смехова"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Смехов"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "3"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {
+                      "_text": [
+                        "Борисович"
+                      ]
+                    }
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "112692"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "veniamin-smehov/"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "book-title": [
+            {
+              "_attributes": {
+                "title": "Три мушкетера (спектакль для детей)"
+              }
+            }
+          ],
+          "copyrights": [
+            {
+              "copyright": [
+                {
+                  "_attributes": {
+                    "id": "119123",
+                    "percent": "100.00",
+                    "title": "Аудиокнига (АСТ)"
+                  }
+                }
+              ]
+            }
+          ],
+          "document-info": [
+            {
+              "author": [
+                {
+                  "nickname": [
+                    {
+                      "_text": [
+                        "meshcheryakova@litres.ru"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "2011-11-05"
+                  },
+                  "_text": [
+                    "2011-11-05"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "_text": [
+                    "63fb9466-0733-11e1-aac2-5924aae99221"
+                  ]
+                }
+              ],
+              "publisher": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Аудиоагент «Аудиокнига-АСТ»"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": [
+                {
+                  "_text": [
+                    "1.0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "files": [
+            {
+              "group": [
+                {
+                  "_attributes": {
+                    "group_id": "1",
+                    "value": "Ознакомительный фрагмент. MP3"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "sample.mp3",
+                        "id": "3937405",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "8566",
+                        "size": "494592"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "sampleb.mp3",
+                        "id": "5832335",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "8576",
+                        "size": "5666544"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "3",
+                    "value": "Стандартное качество. MP3, 128 Kbps"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_00.mp3",
+                        "id": "3937415",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "46",
+                        "size": "727103"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_01.mp3",
+                        "id": "3937455",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "355",
+                        "size": "5666544"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_02.mp3",
+                        "id": "3937425",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "399",
+                        "size": "6374567"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_03.mp3",
+                        "id": "3937445",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "360",
+                        "size": "5759331"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_04.mp3",
+                        "id": "3937475",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "334",
+                        "size": "5328415"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_05.mp3",
+                        "id": "3937435",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "338",
+                        "size": "5397796"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_06.mp3",
+                        "id": "3937465",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "304",
+                        "size": "4849016"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_07.mp3",
+                        "id": "3937485",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "350",
+                        "size": "5598835"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_08.mp3",
+                        "id": "3937495",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "378",
+                        "size": "6036438"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_09.mp3",
+                        "id": "3937505",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "378",
+                        "size": "6046469"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_10.mp3",
+                        "id": "3937515",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "350",
+                        "size": "5585878"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_11.mp3",
+                        "id": "3937525",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "391",
+                        "size": "6251269"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_12.mp3",
+                        "id": "3937535",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "460",
+                        "size": "7355099"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_13.mp3",
+                        "id": "3937545",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "395",
+                        "size": "6309783"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_14.mp3",
+                        "id": "3937555",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "354",
+                        "size": "5658603"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_15.mp3",
+                        "id": "3937565",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "404",
+                        "size": "6453561"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_16.mp3",
+                        "id": "3937575",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "391",
+                        "size": "6253359"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_17.mp3",
+                        "id": "3937585",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "362",
+                        "size": "5778557"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_18.mp3",
+                        "id": "3937595",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "364",
+                        "size": "5813666"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_19.mp3",
+                        "id": "3937605",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "444",
+                        "size": "7103488"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_20.mp3",
+                        "id": "3937615",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "353",
+                        "size": "5646900"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_21.mp3",
+                        "id": "3937625",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "413",
+                        "size": "6599847"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_22.mp3",
+                        "id": "3937635",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "384",
+                        "size": "6135494"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "A.Dyuma_-_Tri_mushketera_23.mp3",
+                        "id": "3937645",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "269",
+                        "size": "4299400"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "19",
+                    "value": "Мобильная версия. MP4"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "M4B-файл",
+                        "filename": "Tri_mushketyora.m4b",
+                        "id": "3937655",
+                        "mime_type": "audio/m4b",
+                        "seconds": "8566",
+                        "size": "68289323"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "20",
+                    "value": "MP3 файлы в zip архиве"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "ZIP - файл",
+                        "filename": "A.Dyuma_-_Tri_mushketera.zip",
+                        "id": "3939165",
+                        "mime_type": "application/zip",
+                        "size": "135716244"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "genres": [
+            {
+              "genre": [
+                {
+                  "_attributes": {
+                    "bisac": "FIC002000",
+                    "id": "5095",
+                    "master": "1",
+                    "title": "исторические приключения"
+                  }
+                }
+              ]
+            }
+          ],
+          "relations": [
+            {
+              "related": [
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "e7f97a0d-5183-4eca-8bc8-909f9a4c8f0d"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "7cee3907-077c-102c-99a2-0288a49f2f10"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "c58ce570-077c-102c-99a2-0288a49f2f10"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "bb88dd4a-639a-102d-9ab1-2309c0a91052"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "91238984-c553-11e2-b841-002590591ed2"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "5b3ecb03-cefd-11e4-8ca3-002590591ed2"
+                  }
+                }
+              ]
+            }
+          ],
+          "title-info": [
+            {
+              "annotation": [
+                {
+                  "p": [
+                    {
+                      "_text": [
+                        "Хочешь окунуться и мир приключений и познакомиться с юным гасконцем д'Артаньяном и отважными мушкетерами\n          Атосом, Портосом и Арамисом? Если ты уже смотрел знаменитый фильм «Три мушкетера», то тебя ждет приятный\n          сюрприз! В аудиокниге, которую ты держишь в руках, вновь встретились все три мушкетера. Вениамин Смехов,\n          Валентин Смирнитский и Игорь Старыгин, а роль капитана Де Тревиля озвучивает сам Лев Дуров!\n        "
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "author": [
+                {
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Александр"
+                      ]
+                    }
+                  ],
+                  "full-name": [
+                    {
+                      "_text": [
+                        "Александр Дюма"
+                      ]
+                    }
+                  ],
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "44615"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "e05b7d98-2a80-102a-9ae1-2dfe723fe7c7"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Дюма"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "book-title": [
+                {
+                  "_text": [
+                    "Три мушкетера (спектакль для детей)"
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "1844-01-01"
+                  },
+                  "_text": [
+                    "1844"
+                  ]
+                }
+              ],
+              "genre": [
+                {
+                  "_text": [
+                    "adv_history"
+                  ]
+                }
+              ],
+              "keywords": [
+                {
+                  "_text": [
+                    "авантюрные приключения,становление героя,придворные интриги,мужская дружба,французская\n        классика,захватывающие приключения,аудиоспектакли,опасные приключения\n      "
+                  ]
+                }
+              ],
+              "lang": [
+                {
+                  "_text": [
+                    "ru"
+                  ]
+                }
+              ],
+              "reader": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "51982"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "5ec52acd-2a83-102a-9ae1-2dfe723fe7c7"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Лев Дуров"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "63228"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "ce20074b-1113-102c-96f3-af3a14b75ca4"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Семен Чайка"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "74262"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "3b7d382a-2fae-102d-93f9-060d30c95e7d"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Игорь Старыгин"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "112692"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "3bf72229-2fae-102d-93f9-060d30c95e7d"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Вениамин Смехов"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_attributes": {
+            "adult": "6",
+            "allow_full_free": "0",
+            "allow_read": "0",
+            "allow_sell": "0",
+            "art_cover": "jpg",
+            "art_cover_h": "714",
+            "art_cover_w": "800",
+            "available": "0",
+            "available_date": "2019-07-24 14:04:55",
+            "can_preorder": "0",
+            "chars": "6700",
+            "contract_author": "119123",
+            "contract_ends": "2020-07-01",
+            "contract_title": "АСТ-Аудиокнига",
+            "copyright_read_online": "0",
+            "cover": "jpg",
+            "cover_h": "714",
+            "cover_w": "800",
+            "created": "2013-07-08 17:31:10",
+            "date_written_d": "1881-01-01",
+            "date_written_s": "1881",
+            "drm": "0",
+            "external_id": "ef1134f8-0a0e-11e1-aac2-5924aae99221",
+            "file_id": "3964205",
+            "file_parts": "0",
+            "first_time_sale": "2011-11-09 00:26:09",
+            "has_trial": "0",
+            "id": "2472385",
+            "inapp_price": "ru.litres.app.refill_199.XXL",
+            "lang": "ru",
+            "lang3": "rus",
+            "litex": "0",
+            "litres_isbn": "978-5-457-15064-5",
+            "lvl": "2",
+            "must_import": "0",
+            "options": "66",
+            "price": "99.00",
+            "public_domain": "0",
+            "publisher": "",
+            "rating": "1614",
+            "sell_open": "2",
+            "sent_by_id": "32",
+            "sent_by_name": "palek",
+            "show_card": "64",
+            "size": "465792",
+            "status": "approved",
+            "subject_id": "46149",
+            "type": "1",
+            "updated": "2020-07-01 03:27:30",
+            "url": "robert-luis-stivenson/ostrov-sokrovisch-pereskaz-dlya-detey-2472385/",
+            "valid_from": "2010-10-01",
+            "valid_till": "2020-10-01",
+            "you_can_sell": "0"
+          },
+          "annotation": [
+            {
+              "p": [
+                {
+                  "_text": [
+                    "В течение двух увлекательнейших часов вы переживете захватывающие и опасные морские приключения: встретитесь с\n        отважным юношей Джимом Хокинсом, штурманом Билли Бонсом, одноногим Джоном Сильвером и его говорящим попутаем.\n      "
+                  ]
+                },
+                {
+                  "_text": [
+                    "Отправьтесь вместе с ними на поиски сокровищ пирата Флинта, спрятанных на необитаемом острове, и научитесь не\n        сдаваться ни при каких обстоятельствах.\n      "
+                  ]
+                },
+                {
+                  "_text": [
+                    "Для детей пересказала Ольга Лазарева."
+                  ]
+                }
+              ]
+            }
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "_attributes": {
+                    "id": "4a07e9c2-2a81-102a-9ae1-2dfe723fe7c7"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Роберт Льюис"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Роберта Льюиса Стивенсона"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Стивенсон"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "0"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "46149"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "robert-luis-stivenson/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "f9d88404-2a81-102a-9ae1-2dfe723fe7c7"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Ольга"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Ольги Лазаревой"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Лазарева"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "5"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "48104"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "olga-lazareva/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                  },
+                  "exid": [
+                    {
+                      "_text": [
+                        "183908"
+                      ]
+                    }
+                  ],
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Аудиоагент"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {}
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Аудиокнига-АСТ"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "audioagent-audiokniga-ast/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "3b72b515-2fae-102d-93f9-060d30c95e7d"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Алексей"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Алексея Булдакова"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Булдаков"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "68472"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "aleksey-buldakov/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "e1e3185a-0a0e-11e1-aac2-5924aae99221"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Сергей"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Сергея Рудзевича"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Рудзевич"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "1805455"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "sergey-rudzevich/"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "book-title": [
+            {
+              "_attributes": {
+                "title": "Остров Сокровищ (пересказ для детей)"
+              }
+            }
+          ],
+          "copyrights": [
+            {
+              "copyright": [
+                {
+                  "_attributes": {
+                    "id": "119123",
+                    "percent": "100.00",
+                    "title": "Аудиокнига (АСТ)"
+                  }
+                }
+              ]
+            }
+          ],
+          "document-info": [
+            {
+              "author": [
+                {
+                  "nickname": [
+                    {
+                      "_text": [
+                        "meshcheryakova@litres.ru"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "2011-11-08"
+                  },
+                  "_text": [
+                    "2011-11-08"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "_text": [
+                    "ef1134f8-0a0e-11e1-aac2-5924aae99221"
+                  ]
+                }
+              ],
+              "publisher": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Аудиоагент «Аудиокнига-АСТ»"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": [
+                {
+                  "_text": [
+                    "1.0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "files": [
+            {
+              "group": [
+                {
+                  "_attributes": {
+                    "group_id": "1",
+                    "value": "Ознакомительный фрагмент. MP3"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "sample.mp3",
+                        "id": "3964205",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "6700",
+                        "size": "465792"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "3",
+                    "value": "Стандартное качество. MP3, 128 Kbps"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_00.mp3",
+                        "id": "3964225",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "81",
+                        "size": "1284236"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_01.mp3",
+                        "id": "3964235",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "343",
+                        "size": "5475966"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_02.mp3",
+                        "id": "3964245",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "321",
+                        "size": "5122778"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_03.mp3",
+                        "id": "3964255",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "231",
+                        "size": "3693360"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_04.mp3",
+                        "id": "3964265",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "449",
+                        "size": "7182906"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_05.mp3",
+                        "id": "3964285",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "297",
+                        "size": "4738677"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_06.mp3",
+                        "id": "3964295",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "383",
+                        "size": "6127552"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_07.mp3",
+                        "id": "3964305",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "52",
+                        "size": "830336"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_08.mp3",
+                        "id": "3964315",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "339",
+                        "size": "5412839"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_09.mp3",
+                        "id": "3964325",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "246",
+                        "size": "3921571"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_10.mp3",
+                        "id": "3964335",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "218",
+                        "size": "3480199"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_11.mp3",
+                        "id": "3964345",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "103",
+                        "size": "1636577"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_12.mp3",
+                        "id": "3964355",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "290",
+                        "size": "4626658"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_13.mp3",
+                        "id": "3964365",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "292",
+                        "size": "4668457"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_14.mp3",
+                        "id": "3964375",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "233",
+                        "size": "3721774"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_15.mp3",
+                        "id": "3964385",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "211",
+                        "size": "3375717"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_16.mp3",
+                        "id": "3964395",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "434",
+                        "size": "6943409"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_17.mp3",
+                        "id": "3964405",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "447",
+                        "size": "7147377"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_18.mp3",
+                        "id": "3964415",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "396",
+                        "size": "6336122"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_19.mp3",
+                        "id": "3964425",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "369",
+                        "size": "5894752"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_20.mp3",
+                        "id": "3964445",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "406",
+                        "size": "6490346"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_21.mp3",
+                        "id": "3964435",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "395",
+                        "size": "6316052"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Ostrov_Sokrovisch_22.mp3",
+                        "id": "3964455",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "164",
+                        "size": "2612103"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "19",
+                    "value": "Мобильная версия. MP4"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "M4B-файл",
+                        "filename": "Ostrov_sokrovishz.m4b",
+                        "id": "3964465",
+                        "mime_type": "audio/m4b",
+                        "seconds": "6691",
+                        "size": "53250000"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "20",
+                    "value": "MP3 файлы в zip архиве"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "ZIP - файл",
+                        "filename": "Ostrov_Sokrovisch.zip",
+                        "id": "3967425",
+                        "mime_type": "application/zip",
+                        "size": "106266409"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "genres": [
+            {
+              "genre": [
+                {
+                  "_attributes": {
+                    "bisac": "FIC002000",
+                    "id": "5095",
+                    "title": "исторические приключения"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "bisac": "FIC022000",
+                    "id": "5223",
+                    "title": "мистика"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "bisac": "FIC047000",
+                    "id": "5092",
+                    "master": "1",
+                    "title": "морские приключения"
+                  }
+                }
+              ]
+            }
+          ],
+          "relations": [
+            {
+              "related": [
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "a24bec2f-7783-4177-a3f5-38769b6dc920"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "e3c3dc32-cee4-4899-a35d-6d39181d40a5"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "ef864071-a54f-102b-b8f2-843476b21e7b"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "eeae12d5-078c-102c-99a2-0288a49f2f10"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "df041486-3446-102c-8542-66c29cc710f8"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "1ebada90-3a8d-102c-b1cf-18f68bd48621"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "0a1348ed-6b89-102d-9ab1-2309c0a91052"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "f88daa51-9908-102d-97f8-f3053e270bc3"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "daf99804-34bb-11de-83c1-00a0d1e80625"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "e3cd02a0-d40b-11e1-bd2c-ec5b03fadd67"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "53ca05ef-582c-11e4-b3dc-0025905a069a"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "bd1668a1-bf7f-11e4-9cc3-002590591ed2"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "d2d90bd3-6c6d-11e5-ae5f-00259059d1c2"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "25",
+                    "type": "0",
+                    "uuid": "0ce0e8eb-4a84-57ba-9320-c6a2f0e130ae"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "bfe091ba-429b-11ea-9aef-0cc47a545a1e"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "f72c3973-b55e-11ea-bb84-0cc47a5f137d"
+                  }
+                }
+              ]
+            }
+          ],
+          "title-info": [
+            {
+              "annotation": [
+                {
+                  "p": [
+                    {
+                      "_text": [
+                        "В течение двух увлекательнейших часов вы переживете захватывающие и опасные морские приключения: встретитесь\n          с отважным юношей Джимом Хокинсом, штурманом Билли Бонсом, одноногим Джоном Сильвером и его говорящим\n          попутаем.\n        "
+                      ]
+                    },
+                    {
+                      "_text": [
+                        "Отправьтесь вместе с ними на поиски сокровищ пирата Флинта, спрятанных на необитаемом острове, и научитесь не\n          сдаваться ни при каких обстоятельствах.\n        "
+                      ]
+                    },
+                    {
+                      "_text": [
+                        "Для детей пересказала Ольга Лазарева."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "author": [
+                {
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Роберт Льюис"
+                      ]
+                    }
+                  ],
+                  "full-name": [
+                    {
+                      "_text": [
+                        "Роберт Льюис Стивенсон"
+                      ]
+                    }
+                  ],
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "46149"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "4a07e9c2-2a81-102a-9ae1-2dfe723fe7c7"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Стивенсон"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "book-title": [
+                {
+                  "_text": [
+                    "Остров Сокровищ (пересказ для детей)"
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "1881-01-01"
+                  },
+                  "_text": [
+                    "1881"
+                  ]
+                }
+              ],
+              "genre": [
+                {
+                  "_text": [
+                    "adv_maritime"
+                  ]
+                },
+                {
+                  "_text": [
+                    "adv_history"
+                  ]
+                }
+              ],
+              "keywords": [
+                {
+                  "_text": [
+                    "литература XIX века,жизнь после смерти,пираты,квест,становление героя,философская проза,английская\n        литература,притчи,английская классика,иллюстрированное издание,10 класс,рассказы,опасные приключения\n      "
+                  ]
+                }
+              ],
+              "lang": [
+                {
+                  "_text": [
+                    "ru"
+                  ]
+                }
+              ],
+              "reader": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "68472"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "3b72b515-2fae-102d-93f9-060d30c95e7d"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Алексей Булдаков"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "1805455"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "e1e3185a-0a0e-11e1-aac2-5924aae99221"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Сергей Рудзевич"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "reteller": [
+                {
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Ольга"
+                      ]
+                    }
+                  ],
+                  "full-name": [
+                    {
+                      "_text": [
+                        "Ольга Лазарева"
+                      ]
+                    }
+                  ],
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "48104"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "f9d88404-2a81-102a-9ae1-2dfe723fe7c7"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Лазарева"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_attributes": {
+            "adult": "6",
+            "allow_full_free": "0",
+            "allow_read": "0",
+            "allow_sell": "0",
+            "art_cover": "jpg",
+            "art_cover_h": "250",
+            "art_cover_w": "249",
+            "available": "0",
+            "available_date": "2019-07-24 14:05:30",
+            "can_preorder": "0",
+            "chars": "10566",
+            "contract_author": "119123",
+            "contract_ends": "2020-07-01",
+            "contract_title": "АСТ-Аудиокнига",
+            "copyright_read_online": "0",
+            "cover": "jpg",
+            "cover_h": "250",
+            "cover_w": "249",
+            "created": "2013-07-08 17:07:06",
+            "date_written_d": "1868-01-01",
+            "date_written_s": "1868",
+            "drm": "0",
+            "external_id": "002d3f97-0a19-11e1-aac2-5924aae99221",
+            "file_id": "3965045",
+            "file_parts": "0",
+            "first_time_sale": "2011-11-09 00:27:26",
+            "has_trial": "0",
+            "id": "2472475",
+            "inapp_price": "ru.litres.app.refill_199.XXL",
+            "lang": "ru",
+            "lang3": "rus",
+            "litex": "0",
+            "litres_isbn": "978-5-457-15068-3",
+            "lvl": "3",
+            "must_import": "0",
+            "options": "2",
+            "price": "90.00",
+            "public_domain": "0",
+            "publisher": "",
+            "rating": "780",
+            "sell_open": "2",
+            "sent_by_id": "32",
+            "sent_by_name": "palek",
+            "show_card": "0",
+            "size": "489216",
+            "status": "approved",
+            "subject_id": "52868",
+            "type": "1",
+            "updated": "2020-07-01 03:27:45",
+            "url": "uilyam-uilki-kollinz/lunnyy-kamen-2472475/",
+            "valid_from": "2010-10-01",
+            "valid_till": "2020-10-01",
+            "you_can_sell": "0"
+          },
+          "annotation": [
+            {
+              "p": [
+                {
+                  "_text": [
+                    "Друзья, хотите от души посмеяться и в то же время стать участником настоящей детективной истории? Тогда\n        попробуйте раскрыть тайну исчезновения Лунного камня вместе с героями это увлекательной аудиокниги!\n      "
+                  ]
+                }
+              ]
+            }
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "_attributes": {
+                    "id": "9dc1b987-2a83-102a-9ae1-2dfe723fe7c7"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Уильям Уилки"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Уильяма Уилки Коллинза"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Коллинз"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "3"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "0"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "52868"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "uilyam-uilki-kollinz/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                  },
+                  "exid": [
+                    {
+                      "_text": [
+                        "183902"
+                      ]
+                    }
+                  ],
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Аудиоагент"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {}
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Аудиокнига-АСТ"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "2"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "audioagent-audiokniga-ast/"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "id": "1e867e96-042e-11e1-8be0-47117d41cf4b"
+                  },
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Ростислав"
+                      ]
+                    }
+                  ],
+                  "full-name-rodit": [
+                    {
+                      "_text": [
+                        "Ростислава Нестерова"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Нестеров"
+                      ]
+                    }
+                  ],
+                  "lvl": [
+                    {
+                      "_text": [
+                        "1"
+                      ]
+                    }
+                  ],
+                  "middle-name": [
+                    {}
+                  ],
+                  "relation": [
+                    {
+                      "_text": [
+                        "6"
+                      ]
+                    }
+                  ],
+                  "subject_id": [
+                    {
+                      "_text": [
+                        "1795115"
+                      ]
+                    }
+                  ],
+                  "url": [
+                    {
+                      "_text": [
+                        "rostislav-nesterov/"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "book-title": [
+            {
+              "_attributes": {
+                "title": "Лунный камень"
+              }
+            }
+          ],
+          "copyrights": [
+            {
+              "copyright": [
+                {
+                  "_attributes": {
+                    "id": "119123",
+                    "percent": "100.00",
+                    "title": "Аудиокнига (АСТ)"
+                  }
+                }
+              ]
+            }
+          ],
+          "document-info": [
+            {
+              "author": [
+                {
+                  "nickname": [
+                    {
+                      "_text": [
+                        "meshcheryakova@litres.ru"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "2011-11-08"
+                  },
+                  "_text": [
+                    "2011-11-08"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "_text": [
+                    "002d3f97-0a19-11e1-aac2-5924aae99221"
+                  ]
+                }
+              ],
+              "publisher": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "62968"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "cfef03d2-06d4-102c-99a2-0288a49f2f10"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Аудиоагент «Аудиокнига-АСТ»"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": [
+                {
+                  "_text": [
+                    "1.0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "files": [
+            {
+              "group": [
+                {
+                  "_attributes": {
+                    "group_id": "1",
+                    "value": "Ознакомительный фрагмент. MP3"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "sample.mp3",
+                        "id": "3965045",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "10566",
+                        "size": "489216"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "3",
+                    "value": "Стандартное качество. MP3, 128 Kbps"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_00.mp3",
+                        "id": "3965055",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "111",
+                        "size": "1766568"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_01.mp3",
+                        "id": "3965065",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "366",
+                        "size": "5846285"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_02.mp3",
+                        "id": "3965075",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "529",
+                        "size": "8458536"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_03.mp3",
+                        "id": "3965085",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "423",
+                        "size": "6754506"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_04.mp3",
+                        "id": "3965095",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "419",
+                        "size": "6690569"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_05.mp3",
+                        "id": "3965105",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "391",
+                        "size": "6250448"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_06.mp3",
+                        "id": "3965115",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "375",
+                        "size": "5994659"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_07.mp3",
+                        "id": "3965125",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "354",
+                        "size": "5650264"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_08.mp3",
+                        "id": "3965135",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "412",
+                        "size": "6586483"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_09.mp3",
+                        "id": "3965145",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "365",
+                        "size": "5828313"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_10.mp3",
+                        "id": "3965155",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "351",
+                        "size": "5610141"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_11.mp3",
+                        "id": "3965165",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "361",
+                        "size": "5763522"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_12.mp3",
+                        "id": "3965175",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "362",
+                        "size": "5777321"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_13.mp3",
+                        "id": "3965185",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "323",
+                        "size": "5162091"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_14.mp3",
+                        "id": "3965195",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "422",
+                        "size": "6736546"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_15.mp3",
+                        "id": "3965205",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "375",
+                        "size": "5987139"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_16.mp3",
+                        "id": "3965215",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "354",
+                        "size": "5650266"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_17.mp3",
+                        "id": "3965225",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "364",
+                        "size": "5811593"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_18.mp3",
+                        "id": "3965235",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "371",
+                        "size": "5929047"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_19.mp3",
+                        "id": "3965245",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "389",
+                        "size": "6213263"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_20.mp3",
+                        "id": "3965255",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "396",
+                        "size": "6333628"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_21.mp3",
+                        "id": "3965265",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "352",
+                        "size": "5617252"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_22.mp3",
+                        "id": "3965275",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "357",
+                        "size": "5697497"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_23.mp3",
+                        "id": "3965285",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "363",
+                        "size": "5807426"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_24.mp3",
+                        "id": "3965295",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "404",
+                        "size": "6449402"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_25.mp3",
+                        "id": "3965305",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "339",
+                        "size": "5418711"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_26.mp3",
+                        "id": "3965315",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "368",
+                        "size": "5882225"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "file_description": "MP3",
+                        "filename": "Lunnyi_kamen_27.mp3",
+                        "id": "3965325",
+                        "mime_type": "audio/mpeg",
+                        "seconds": "570",
+                        "size": "9113059"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "19",
+                    "value": "Мобильная версия. MP4"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "M4B-файл",
+                        "filename": "Lunniy_kamen.m4b",
+                        "id": "3965335",
+                        "mime_type": "audio/m4b",
+                        "seconds": "10551",
+                        "size": "84025665"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "group_id": "20",
+                    "value": "MP3 файлы в zip архиве"
+                  },
+                  "file": [
+                    {
+                      "_attributes": {
+                        "file_description": "ZIP - файл",
+                        "filename": "Lunnyi_kamen.zip",
+                        "id": "3967455",
+                        "mime_type": "application/zip",
+                        "size": "167345667"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "genres": [
+            {
+              "genre": [
+                {
+                  "_attributes": {
+                    "bisac": "FIC022000",
+                    "id": "5261",
+                    "master": "1",
+                    "title": "классические детективы"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "bisac": "FIC000000",
+                    "id": "5305",
+                    "title": "литература 19 века"
+                  }
+                }
+              ]
+            }
+          ],
+          "relations": [
+            {
+              "related": [
+                {
+                  "_attributes": {
+                    "relation": "8",
+                    "type": "0",
+                    "uuid": "7d350eb9-077d-4f4e-85cc-d8b5b00edd8e"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "16",
+                    "type": "0",
+                    "uuid": "7d350eb9-077d-4f4e-85cc-d8b5b00edd8e"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "8",
+                    "type": "0",
+                    "uuid": "8f77afc4-ff06-11e1-9c1b-1030c031b4f5"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "e3a8a7b5-d38d-11e2-9c30-002590591ed2"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "2e2d68c7-e009-11e2-8fb3-002590591ed2"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "7",
+                    "type": "1",
+                    "uuid": "4b19a739-2b90-11e3-bfee-002590591ea6"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "8",
+                    "type": "0",
+                    "uuid": "D84DD708-1DC0-48E3-AB33-3CF5B26070DB"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "16",
+                    "type": "0",
+                    "uuid": "D84DD708-1DC0-48E3-AB33-3CF5B26070DB"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "relation": "8",
+                    "type": "0",
+                    "uuid": "62ea095f-44d4-11e8-a5c8-0cc47a1952f2"
+                  }
+                }
+              ]
+            }
+          ],
+          "title-info": [
+            {
+              "annotation": [
+                {
+                  "p": [
+                    {
+                      "_text": [
+                        "Друзья, хотите от души посмеяться и в то же время стать участником настоящей детективной истории? Тогда\n          попробуйте раскрыть тайну исчезновения Лунного камня вместе с героями это увлекательной аудиокниги!\n        "
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "author": [
+                {
+                  "first-name": [
+                    {
+                      "_text": [
+                        "Уильям Уилки"
+                      ]
+                    }
+                  ],
+                  "full-name": [
+                    {
+                      "_text": [
+                        "Уильям Уилки Коллинз"
+                      ]
+                    }
+                  ],
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "52868"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "9dc1b987-2a83-102a-9ae1-2dfe723fe7c7"
+                      ]
+                    }
+                  ],
+                  "last-name": [
+                    {
+                      "_text": [
+                        "Коллинз"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "book-title": [
+                {
+                  "_text": [
+                    "Лунный камень"
+                  ]
+                }
+              ],
+              "date": [
+                {
+                  "_attributes": {
+                    "value": "1868-01-01"
+                  },
+                  "_text": [
+                    "1868"
+                  ]
+                }
+              ],
+              "genre": [
+                {
+                  "_text": [
+                    "prose_classic"
+                  ]
+                },
+                {
+                  "_text": [
+                    "det_classic"
+                  ]
+                },
+                {
+                  "_text": [
+                    "foreign_prose"
+                  ]
+                },
+                {
+                  "_text": [
+                    "foreign_antique"
+                  ]
+                },
+                {
+                  "_text": [
+                    "literature_19"
+                  ]
+                }
+              ],
+              "keywords": [
+                {
+                  "_text": [
+                    "древние сокровища,загадочные убийства,психологические детективы,английские детективы,английская\n        классика\n      "
+                  ]
+                }
+              ],
+              "lang": [
+                {
+                  "_text": [
+                    "ru"
+                  ]
+                }
+              ],
+              "reader": [
+                {
+                  "hub-id": [
+                    {
+                      "_text": [
+                        "1795115"
+                      ]
+                    }
+                  ],
+                  "id": [
+                    {
+                      "_text": [
+                        "1e867e96-042e-11e1-8be0-47117d41cf4b"
+                      ]
+                    }
+                  ],
+                  "nickname": [
+                    {
+                      "_text": [
+                        "Ростислав Нестеров"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

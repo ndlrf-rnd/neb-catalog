@@ -1,0 +1,871 @@
+[
+  {
+    "controlfield": [
+      {
+        "tag": "001",
+        "value": "005965407"
+      },
+      {
+        "tag": "005",
+        "value": "20150123012845.0"
+      },
+      {
+        "tag": "007",
+        "value": "ta"
+      },
+      {
+        "tag": "008",
+        "value": "111124s2010    gw gh  f      000 0dger c"
+      }
+    ],
+    "datafield": [
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "2011477426"
+          }
+        ],
+        "tag": "010"
+      },
+      {
+        "ind1": "3",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "9790001154451"
+          }
+        ],
+        "tag": "024"
+      },
+      {
+        "ind1": "2",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "979-0-001-15445-1"
+          },
+          {
+            "code": "q",
+            "value": "sid."
+          }
+        ],
+        "tag": "024"
+      },
+      {
+        "ind1": "0",
+        "ind2": "1",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "AS 1009-20"
+          }
+        ],
+        "tag": "028"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "(FI-MELINDA)005965407"
+          }
+        ],
+        "tag": "035"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "FI-Hhmus"
+          },
+          {
+            "code": "b",
+            "value": "fin"
+          }
+        ],
+        "tag": "040"
+      },
+      {
+        "ind1": "0",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "ger"
+          },
+          {
+            "code": "a",
+            "value": "eng"
+          }
+        ],
+        "tag": "041"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "gw"
+          },
+          {
+            "code": "a",
+            "value": "au"
+          },
+          {
+            "code": "c",
+            "value": "de"
+          },
+          {
+            "code": "c",
+            "value": "at"
+          }
+        ],
+        "tag": "044"
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "M3"
+          },
+          {
+            "code": "b",
+            "value": ".S36 Abt. 4, Reihe B Bd. 9"
+          },
+          {
+            "code": "a",
+            "value": "MT145"
+          }
+        ],
+        "tag": "050"
+      },
+      {
+        "ind1": " ",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "89"
+          },
+          {
+            "code": "2",
+            "value": "kkaa"
+          }
+        ],
+        "tag": "072"
+      },
+      {
+        "ind1": " ",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "52"
+          },
+          {
+            "code": "2",
+            "value": "kkaa"
+          }
+        ],
+        "tag": "072"
+      },
+      {
+        "ind1": " ",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "MT"
+          },
+          {
+            "code": "2",
+            "value": "lcco"
+          }
+        ],
+        "tag": "072"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "78.2"
+          },
+          {
+            "code": "2",
+            "value": "ykl"
+          }
+        ],
+        "tag": "084"
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Werke für Streichorchester :"
+          },
+          {
+            "code": "b",
+            "value": "kritischer Bericht zu den Bänden 9,1 und 9,2, Skizzen, Entstehungs- und Werkgeschichte, Dokumente /"
+          },
+          {
+            "code": "c",
+            "value": "Arnold Schönberg ; herausgegeben von Martin Albrecht-Hohmaier and Ullrich Scheideler."
+          }
+        ],
+        "tag": "245"
+      },
+      {
+        "ind1": "3",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Kritischer Bericht zu den Bänden 9,1 und 9,2, Skizzen, Entstehungs- und Werkgeschichte, Dokumente"
+          }
+        ],
+        "tag": "246"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Mainz :"
+          },
+          {
+            "code": "b",
+            "value": "Schott Music ;"
+          },
+          {
+            "code": "a",
+            "value": "Wien :"
+          },
+          {
+            "code": "b",
+            "value": "Universal Edition,"
+          },
+          {
+            "code": "c",
+            "value": "2010"
+          },
+          {
+            "code": "e",
+            "value": "(Mainz :"
+          },
+          {
+            "code": "f",
+            "value": "Schott Music)."
+          }
+        ],
+        "tag": "260"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "XXII, 464 s. :"
+          },
+          {
+            "code": "b",
+            "value": "kuv., nuott. ;"
+          },
+          {
+            "code": "c",
+            "value": "31 cm."
+          }
+        ],
+        "tag": "300"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Teksti"
+          }
+        ],
+        "tag": "336"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "ei välittävää laitetta"
+          }
+        ],
+        "tag": "337"
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Sämtliche Werke. Abteilung 4, Orchesterwerke. Reihe B / Arnold Schönberg ; unter dem Patronat der Akademie der Künste, Berlin, begründet von Josef Rufer, herausgegeben von Rudolf Stephan unter Mitarbeit von Reinhold Brinkmann, Richard Hoffmann, Leonard Stein und Ivan Vojtěch ;"
+          },
+          {
+            "code": "v",
+            "value": "Band 9"
+          }
+        ],
+        "tag": "490"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "S. [V]-[VI]: Inhalt."
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "S. XX: Abkürzungen und verkürzt zitierte Literatur."
+          }
+        ],
+        "tag": "504"
+      },
+      {
+        "ind1": "0",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "t",
+            "value": "Vorwort ;"
+          },
+          {
+            "code": "t",
+            "value": "Preface ;"
+          },
+          {
+            "code": "t",
+            "value": "[Faksmilia] ;"
+          },
+          {
+            "code": "t",
+            "value": "Editionsprinzipien ;"
+          },
+          {
+            "code": "t",
+            "value": "Hinweise zu den Bänden der Reihe B ;"
+          },
+          {
+            "code": "t",
+            "value": "Verzeichnis der Papiersorten ;"
+          },
+          {
+            "code": "t",
+            "value": "Verklärte Nacht Op. 4 : Einrichtungen für Streichorchester (1916/17 und 1943) ;"
+          },
+          {
+            "code": "t",
+            "value": "Streichquartett Op. 10 : Einrichtungen für Streichorchester (1919 und 1929) ;"
+          },
+          {
+            "code": "t",
+            "value": "Suite im alten Stile für Streichorchester ;"
+          },
+          {
+            "code": "t",
+            "value": "Ode to Napoleon Buonaparte (Lord Byron) : für Streichorchester, Klavier und Sprecher Op.41;"
+          },
+          {
+            "code": "t",
+            "value": "Adagio (\"Notturno\") für Solo-Geige, Streichorchester und Harfe ;"
+          },
+          {
+            "code": "t",
+            "value": "Gavotte und Musette (im alten Style) für Streichorchester ;"
+          },
+          {
+            "code": "t",
+            "value": "Walzer für Streichorchester ;"
+          },
+          {
+            "code": "t",
+            "value": "Zum entstehungsgeschichtlichen Kontext ;"
+          },
+          {
+            "code": "t",
+            "value": "Anhang: Ludwig van Beethoven, Serenade für Violine, Viola und Violoncello Op. 8 : Einrichtung für Streichorchester, 1. Satz, Anfagstakte."
+          }
+        ],
+        "tag": "505"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "XLUETTELOITU"
+          },
+          {
+            "code": "b",
+            "value": "helka"
+          }
+        ],
+        "tag": "579"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Verklärte Nacht,"
+          },
+          {
+            "code": "n",
+            "value": "op. 4;"
+          },
+          {
+            "code": "o",
+            "value": "sov., jousiork."
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Kvartetot,"
+          },
+          {
+            "code": "m",
+            "value": "jouset,"
+          },
+          {
+            "code": "n",
+            "value": "nro 2, op. 10,"
+          },
+          {
+            "code": "r",
+            "value": "fis-molli;"
+          },
+          {
+            "code": "o",
+            "value": "sov., jousiork."
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Sarjat,"
+          },
+          {
+            "code": "m",
+            "value": "jousiork.,"
+          },
+          {
+            "code": "r",
+            "value": "G-duuri."
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Ode to Napoleon Buonaparte,"
+          },
+          {
+            "code": "n",
+            "value": "op. 41."
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Adagio,"
+          },
+          {
+            "code": "m",
+            "value": "viulu, harppu, jousiork."
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Gavotte und Musette."
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Valssit, jousiork."
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "1",
+        "ind2": "4",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Beethoven, Ludwig van,"
+          },
+          {
+            "code": "d",
+            "value": "1770-1827."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Serenadit,"
+          },
+          {
+            "code": "m",
+            "value": "jousitrio,"
+          },
+          {
+            "code": "n",
+            "value": "op. 8,"
+          },
+          {
+            "code": "r",
+            "value": "D-duuri."
+          },
+          {
+            "code": "n",
+            "value": "Osa 1."
+          },
+          {
+            "code": "n",
+            "value": "Ote;"
+          },
+          {
+            "code": "o",
+            "value": "sov., jousiork. / Schönberg"
+          }
+        ],
+        "tag": "600"
+      },
+      {
+        "ind1": "0",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "musiikkianalyysi"
+          },
+          {
+            "code": "x",
+            "value": "orkesterimusiikki"
+          },
+          {
+            "code": "x",
+            "value": "jousiorkesterit"
+          },
+          {
+            "code": "2",
+            "value": "ysa"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "0",
+        "ind2": "7",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "musikanalys"
+          },
+          {
+            "code": "x",
+            "value": "orkestermusik"
+          },
+          {
+            "code": "x",
+            "value": "stråkorkestrar"
+          },
+          {
+            "code": "2",
+            "value": "allars"
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Musical sketches."
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "0",
+        "ind2": "0",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "String orchestra music"
+          },
+          {
+            "code": "x",
+            "value": "Analysis, appreciation."
+          }
+        ],
+        "tag": "650"
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Albrecht-Hohmaier, Martin."
+          },
+          {
+            "code": "4",
+            "value": "edt"
+          }
+        ],
+        "tag": "700"
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Scheideler, Ullrich,"
+          },
+          {
+            "code": "d",
+            "value": "1964-"
+          },
+          {
+            "code": "4",
+            "value": "edt"
+          }
+        ],
+        "tag": "700"
+      },
+      {
+        "ind1": "2",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schott Music."
+          },
+          {
+            "code": "4",
+            "value": "pbl"
+          },
+          {
+            "code": "4",
+            "value": "prt"
+          }
+        ],
+        "tag": "710"
+      },
+      {
+        "ind1": "2",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Universal Edition."
+          },
+          {
+            "code": "4",
+            "value": "pbl"
+          }
+        ],
+        "tag": "710"
+      },
+      {
+        "ind1": "1",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "Schönberg, Arnold,"
+          },
+          {
+            "code": "d",
+            "value": "1874-1951."
+          },
+          {
+            "code": "4",
+            "value": "cmp"
+          },
+          {
+            "code": "t",
+            "value": "Teokset,"
+          },
+          {
+            "code": "f",
+            "value": "1966 ;"
+          },
+          {
+            "code": "v",
+            "value": "Reihe B, Band 9."
+          }
+        ],
+        "tag": "800"
+      },
+      {
+        "ind1": " ",
+        "ind2": " ",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "FI-Hhmus"
+          }
+        ],
+        "tag": "850"
+      }
+    ],
+    "leader": "03677cam a22005774i 4500"
+  }
+]

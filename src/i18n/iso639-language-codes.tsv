@@ -1,0 +1,395 @@
+i18n.ru                             	ISO_639-1	ISO_639-2	ISO_639-3  	GOST-7.75–97-lat	GOST-7.75–97-cyr    	code
+Абазинский                          	         	         	abq        	aba             	аба                 	5
+Абхазский                           	ab       	abk      	abk        	abk             	абх                 	10
+Авадхи                              	         	awa      	awa        	awa             	авд                 	12
+Аварский                            	av       	ava      	ava        	ava             	ава                 	14
+Авестийский                         	ae       	ave      	ave        	ave             	аве                 	16
+Адангме                             	         	ada      	ada        	ada             	ада                 	18
+Адыгейский                          	         	ady      	ady        	ady             	ады                 	20
+Азербайджанский                     	az       	aze      	aze        	aze             	азе                 	25
+Аймара                              	ay       	aym      	aym        	aym             	айм                 	26
+Айну                                	         	ain      	ain
+Акан                                	ak       	aka      	aka        	aka             	ака                 	27
+Аккадский                           	         	akk      	akk        	akk             	акк                 	28
+Албанский                           	sq       	alb/sqi  	sqi        	alb/sqi         	алб                 	30
+Алеутский                           	         	ale      	ale        	ale             	але                 	33
+Алтайский                           	         	alt      	alt        	alt             	алт                 	35
+Амхарский                           	am       	amh      	amh        	amh             	амх                 	40
+Английский                          	en       	eng      	eng        	eng             	анг                 	45
+Арабский                            	ar       	ara      	ara        	ara             	ара                 	50
+Аравакский                          	         	arw      	arw        	arw             	арв                 	51
+Арамейский                          	         	arc      	arc        	                	аре                 	52
+Арапахо                             	         	arp      	arp        	arp             	арп                 	53
+Арауканский                         	         	arn      	arn        	arn             	арн                 	54
+Армянский                           	hy       	arm/hye  	hye/axm/xcl	arm/hye         	арм                 	55
+Ассамский                           	as       	asm      	asm        	asm             	аса                 	60
+Ассирийский                         	         	         	aii        	                	асе                 	65
+Атапачские                          	         	         	ath        	ath             	ата                 	67
+Афарский                            	aa       	aar      	aar        	aar             	афа                 	68
+Африкаанс                           	af       	afr      	afr        	afr             	афр                 	70
+Африхили                            	         	afh      	afh        	afh             	афх                 	73
+Ахвахский                           	         	akv      	akv        	akh             	ахв                 	74
+Ацтекский                           	         	         	nah        	                	ацт                 	75
+Ачехский                            	         	ace      	ace        	ace             	аче                 	76
+Ачоли                               	         	ach      	ach        	ach             	ачо                 	77
+Балийский                           	         	ban      	ban        	ban             	бал                 	78
+Бамбара                             	bm       	bam      	bam        	bam             	бам                 	80
+Банда                               	         	bad      	bad        	bad             	бан                 	82
+Баса                                	         	bas      	bas        	bas             	бас                 	84
+Баскский                            	eu       	baq/eus  	eus        	baq/eus         	бак                 	85
+Башкирский                          	ba       	bak      	bak        	bak             	баш                 	86
+Беджа                               	         	bej      	bej        	bej             	бед                 	87
+Белорусский                         	be       	bel      	bel        	bel             	бел                 	90
+Белуджский                          	         	bal      	bal        	bal             	беу                 	95
+Бемба                               	         	bem      	bem        	bem             	бем                 	97
+Бенгальский                         	bn       	ben      	ben        	ben             	бен                 	100
+Бикольский                          	         	bik/ bcl 	bik        	bik             	бик                 	103
+Бини                                	         	bin      	bin        	bin             	бин                 	104
+Бирманский                          	my       	bur/mya  	mya        	bur/mya         	бир                 	105
+Бислама                             	bi       	bis      	bis        	bis             	бис                 	107
+Болгарский                          	bg       	bul      	bul        	bul             	бол                 	115
+Боснийский                          	bs       	bos      	bos        	                	бос
+Брауи                               	         	         	brh        	bra             	бра                 	117
+Бретонский                          	br       	bre      	bre        	bre             	бре                 	120
+Бугийский                           	         	bug      	bug        	bug             	буг                 	123
+Бурятский                           	         	bua      	bua        	bua             	бур                 	125
+Бходжпури                           	         	bho      	bho        	bho             	бхо                 	126
+Ваи                                 	         	vai      	vai        	vai             	ваи                 	127
+Валлийский                          	cy       	cym/wel  	cym        	cym/wel         	вал                 	130
+Варай                               	         	war      	war        	war             	вар                 	131
+Вашо                                	         	was      	was        	was             	ваш                 	132
+Венгерский                          	hu       	hun      	hun        	hun             	вен                 	133
+Венда                               	ve       	ven      	ven        	ven             	вед                 	134
+Вепсский                            	         	         	vep        	vep             	веп                 	135
+Воламо                              	         	wal      	wal        	wal             	воа                 	136
+Волапюк                             	vo       	vol      	vol        	vol             	вол                 	137
+Волоф                               	wo       	wol      	wol        	wol             	воф                 	138
+Вьетнамский                         	vi       	vie      	vie        	vie             	вье                 	140
+Га                                  	         	gaa      	gaa        	gaa             	гаа                 	142
+Гавайский                           	         	haw      	haw        	haw             	гав                 	143
+Гагаузский                          	         	         	gag        	gag             	гаг                 	145
+Гайо                                	         	gay      	gay        	gay             	гай                 	146
+Галисийский                         	gl       	glg      	glg        	glg             	гал                 	147
+Ганда                               	lg       	lug      	lug        	lug             	ган                 	148
+Гереро                              	hz       	her      	her        	her             	гер                 	149
+Геэз                                	         	gez      	gez        	gez             	гез                 	151
+Гилбертский                         	         	gil      	gil        	gil             	гил                 	152
+Гонди                               	         	gon      	gon        	gon             	гон                 	153
+Готский                             	         	got      	got        	got             	гот                 	154
+Гребо                               	         	grb      	grb        	grb             	грб                 	155
+Гренландский                        	kl       	kal      	kal        	kal             	эсм                 	843
+Греческий (новогреческий)           	el       	ell/gre  	ell        	ell/gre         	гре                 	157
+Грузинский                          	ka       	geo/kat  	kat        	geo/kat         	гру                 	158
+Гуарани                             	gn       	grn      	grn        	grn             	гуа                 	160
+Гуджарати                           	gu       	guj      	guj        	guj             	гуд                 	165
+Гэльский                            	gd       	gla      	gla        	gae/gdh         	гэл                 	170
+Дакота                              	         	dak      	dak        	dak             	дак                 	173
+Даргинский                          	         	dar      	dar        	dag             	даг                 	175
+Датский                             	da       	dan      	dan        	dan             	дат                 	178
+Делавэрский                         	         	del      	del        	del             	дел                 	179
+Дзонг-кэ                            	dz       	dzo      	dzo        	dzo             	дзо                 	183
+Дивехи (Мальдивский)                	dv       	div      	div        	div             	див                 	180
+Динка                               	         	din      	din        	din             	дин                 	181
+Диула (Дьюла)                       	         	dyu      	dyu        	dyu             	диу                 	182
+Догри                               	         	doi      	doi        	doi             	дои                 	184
+Древнегреческий                     	         	grc      	grc        	grc             	дрг                 	186
+Древнеегипетский                    	         	egy      	egy        	egy             	дре                 	187
+Древнерусский                       	         	         	orv        	rua             	дрр                 	188
+Древнесаксонский                    	         	         	osx
+Дуала                               	         	dua      	dua        	dua             	дуа                 	190
+Дунганский                          	         	         	dng        	dun             	дун                 	191
+Еврейско-арабский                   	         	jrb      	jrb        	jrb             	еар                 	192
+Еврейско-персидский                 	         	jpr      	jpr        	jpr             	епе                 	193
+Зенагский                           	         	zen      	zen        	zen             	зен                 	194
+Зулу                                	zu       	zul      	zul        	zul             	зул                 	195
+Зуньи                               	         	zun      	zun        	zun             	зун                 	196
+Ибанский                            	         	iba      	iba        	iba             	иба                 	197
+Иврит                               	he       	heb      	heb        	heb             	ивр                 	198
+Игбо                                	ig       	ibo      	ibo        	ibo             	ибо                 	199
+Идиш                                	yi       	yid      	yid        	yid             	иди                 	202
+Илоко                               	         	ilo      	ilo        	ilo             	ило                 	203
+Ингушский                           	         	inh      	inh        	ing             	инг                 	205
+Индонезийский                       	id       	ind      	ind        	ind             	инд                 	210
+Интерлингва                         	ia       	ina      	ina        	ina             	ина                 	215
+Интерлингве                         	ie       	ile      	ile        	ile             	ине                 	216
+Инуктитут                           	iu       	iku      	iku        	iku             	инк                 	217
+Инупиак                             	ik       	ipk      	ipk        	ipk             	инп                 	218
+Ирландский                          	ga       	gle      	gle        	gai/iri         	ирл                 	220
+Исландский                          	is       	ice/isl  	isl        	ice/isl         	исл                 	225
+Испанский                           	es       	esl/spa  	spa        	esl/spa         	исп                 	230
+Итальянский                         	it       	ita      	ita        	ita             	ита                 	235
+Ительменский                        	         	         	itl        	ite             	ите                 	240
+Йоруба                              	yo       	yor      	yor        	yor             	йор                 	245
+Кабардино-черкесский                	         	kbd      	kbd        	kad             	каа                 	250
+Кабильский                          	         	kab      	kab        	kab             	каб                 	251
+Кави                                	         	kaw      	kaw        	kaw             	каг                 	252
+Каддо                               	         	cad      	cad        	cad             	кад                 	254
+Казахский                           	kk       	kaz      	kaz        	kaz             	каз                 	255
+Калмыцкий                           	         	xal      	xal        	kal             	кал                 	260
+Камба                               	         	kam      	kam        	kam             	кам                 	263
+Каннада                             	kn       	kan      	kan        	kan             	кан                 	265
+Канури                              	kr       	kau      	kau        	kau             	кау                 	267
+Караимский                          	         	         	kdr        	kai             	каи                 	270
+Каракалпакский                      	         	kaa      	kaa        	kal             	кал                 	275
+Карачаево-балкарский                	         	krc      	krc        	kah             	као                 	280
+Карельский                          	         	krl      	krl        	kae             	кас                 	285
+Кариб                               	         	car      	car        	car             	кар                 	288
+Каталанский                         	ca       	cat      	cat        	cat             	кат                 	290
+Качинский                           	         	kac      	kac        	kac             	кач                 	293
+Кашмири                             	ks       	kas      	kas        	kas             	каш                 	294
+Кечуа                               	qu       	que      	que        	que             	кеч                 	300
+Кикуйю                              	ki       	kik      	kik        	kik             	кик                 	302
+Киньяма                             	kj       	kua      	kua        	kua             	кия                 	303
+Киргизский                          	ky       	kir      	kir        	kyr             	кир/кыр             	305
+Китайский                           	zh       	chi/zho  	zho        	chi/zho         	кит                 	315
+Коми                                	kv       	kom      	kom        	kom             	кои                 	320
+Коми-пермяцкий                      	         	         	koi        	pem             	ком                 	325
+Конго                               	kg       	kon      	kon        	kon             	кон                 	326
+Конкани                             	         	kok      	kok        	kok             	кок                 	327
+Коптский                            	         	cop      	cop        	cop             	коп                 	328
+Корейский                           	ko       	kor      	kor        	kor             	коо                 	330
+Корнский                            	kw       	cor      	cor        	cor             	кор                 	332
+Корсиканский                        	co       	cos      	cos        	cos             	кос                 	334
+Корякский                           	         	         	kpy        	koy             	коя                 	335
+Коса                                	xh       	xho      	xho        	xho             	коа                 	340
+Кпелле                              	         	kpe      	kpe        	kpe             	кпе                 	341
+Крик                                	         	mus      	mus        	mus             	крк                 	344
+Крымско-татарский                   	         	crh      	crh        	cri             	кры                 	347
+Кумыкский                           	         	kum      	kum        	kum             	кум                 	349
+Курдский                            	ku       	kur      	kur        	kur             	кур                 	350
+Курух                               	         	kru      	kru        	kru             	куу                 	352
+Кусайе                              	         	kos      	kos        	kus             	кус                 	353
+Кутенай                             	         	kut      	kut        	kut             	кут                 	354
+Кхаси                               	         	kha      	kha        	kha             	кха                 	357
+Кхмерский                           	km       	khm      	khm        	khm             	кхм                 	360
+Ладино                              	         	lad      	lad        	lad             	лад                 	363
+Лакский                             	         	         	lbe        	lak             	лак                 	370
+Ламба                               	         	lam      	lam        	lam             	лам                 	373
+Лаосский                            	lo       	lao      	lao        	lao             	лао                 	375
+Латинский                           	la       	lat      	lat        	lat             	лат                 	380
+Латышский                           	lv       	lav      	lav        	lav             	лаш                 	385
+Лахнда                              	         	lah      	lah        	lah             	лах                 	387
+Лезгинский                          	         	lez      	lez        	lez             	лез                 	390
+Лингала                             	ln       	lin      	lin        	lin             	лин                 	395
+Литовский                           	lt       	lit      	lit        	lit             	лит                 	400
+Лози                                	         	loz      	loz        	loz             	лоз                 	402
+Луба-катанга                        	lu       	lub      	lub        	lub             	луб                 	404
+Луисеньо                            	         	lui      	lui        	lui             	луи                 	406
+Лунда                               	         	lun      	lun        	lun             	лун                 	407
+Луо                                 	         	luo      	luo        	luo             	луо                 	408
+Люксембургский                      	lb       	ltz      	ltz        	ltz             	люк                 	409
+Магахи                              	         	mag      	mag        	mag             	маг                 	410
+Мадурский                           	         	mad      	mad        	mad             	мад                 	411
+Майтхили                            	         	mai      	mai        	mai             	май                 	412
+Макассарский                        	         	mak      	mak        	mak             	мак                 	414
+Македонский                         	mk       	mac/mkd  	mkd        	mac/mke         	маа                 	415
+Малагасийский                       	mg       	mlg      	mlg        	mlg             	млг                 	418
+Малайский                           	ms       	may/msa  	msa        	may/msa         	маз                 	420
+Малаялам                            	ml       	mal      	mal        	mal             	мал                 	425
+Мальтийский                         	mt       	mlt      	mlt        	mlt             	млт                 	430
+Мандинго                            	         	man      	man        	mai             	май                 	432
+Манипури                            	         	mni      	mni        	mni             	мни                 	433
+Мансийский (Вогульский)             	         	         	mns        	vog             	ман                 	435
+Маори                               	mi       	mao/mri  	mri        	mao/mri         	мао                 	437
+Маратхи                             	mr       	mar      	mar        	mar             	мар                 	440
+Марвари                             	         	mwr      	mwr        	mwr             	мвр                 	443
+Марийский (черемисский)             	         	chm      	chm        	chm             	мач                 	445
+Маршалльский                        	mh       	mah      	mah        	mah             	маш                 	446
+Масаи                               	         	mas      	mas        	mas             	мас                 	447
+Менде                               	         	men      	men        	men             	мен                 	451
+Мерянский                           	me       	mer      	mer        	                	мер
+Микмак                              	         	mic      	mic        	mic             	мик                 	452
+Минангкабау                         	         	min      	min        	min             	мин                 	453
+Мокшанский                          	         	mdf      	mdf        	mok             	мок                 	455
+Молдавский                          	         	         	           	mol             	мол                 	460
+Монго                               	         	lol      	lol        	lol             	мог                 	462
+Монгольский                         	mn       	mon      	mon        	mon             	мон                 	463
+Мооре                               	         	mos      	mos        	mos             	мос                 	466
+Мохаук                              	         	moh      	moh        	moh             	мох                 	467
+Мэнский (Мэнкский)                  	gv       	glv      	glv        	max             	мэн                 	469
+Навахо                              	nv       	nav      	nav        	nav             	нав                 	470
+Нанайский (гольдский)               	         	         	gld        	                	нан                 	471
+Науру                               	na       	nau      	nau        	nau             	нау                 	472
+Ндебеле северный                    	nd       	nde      	nde        	nde             	нде                 	473
+Ндебеле южный                       	nr       	nbl      	nbl        	nbl             	нбл                 	474
+Ндунга                              	ng       	ndo      	ndo        	ndo             	нду                 	475
+Неварский                           	         	new      	new        	new             	нев                 	478
+Неидентифицированный                	         	und      	und        	und             	унд                 	480
+Немецкий                            	de       	deu/ger  	deu        	deu/ger         	нем                 	481
+Ненецкий (юрако-самоедский)         	         	         	yrk        	yur             	нен                 	482
+Непальский                          	ne       	nep      	nep        	nep             	неп                 	485
+Нзима                               	         	nzi      	nzi        	nzi             	нзи                 	487
+Нивхский (гиляцкий)                 	         	         	niv        	giy             	нив                 	490
+Нидерландский (Голландский)         	nl       	dut/nld  	nld        	dut/ndl         	нид                 	495
+Нидерландский средневековый         	         	dum      	dum        	dum             	нис                 	496
+Ниуэ                                	         	niu      	niu        	niu             	ниу                 	498
+Ногайский                           	         	nog      	nog        	nog             	ног                 	505
+Норвежский                          	no       	nor      	nor        	nor             	нор                 	506
+Ньоро                               	         	nyo      	nyo        	nyo             	ньо                 	508
+Ньямвези                            	         	nym      	nym        	nym             	ням                 	509
+Ньянджа                             	ny       	nya      	nya        	nya             	нян                 	510
+Ньянколе                            	         	nyn      	nyn        	nyn             	нья                 	512
+Нюнорск (новонорвежский)            	nn       	nno      	nno        	nno             	нно                 	513
+Оджибве                             	oj       	oji      	oji        	oji             	одж                 	515
+Окситанский                         	oc       	oci      	oci        	oci             	окс                 	517
+Ория                                	or       	ori      	ori        	ori             	ори                 	520
+Оромо                               	om       	orm      	orm        	orm             	орм                 	522
+Оседжи                              	         	osa      	osa        	osa             	осе                 	523
+Осетинский                          	os       	oss      	oss        	oss             	ост                 	524
+Палау                               	         	pau      	pau        	pau             	пал                 	526
+Пали                                	pi       	pli      	pli        	pli             	пли                 	527
+Пампанга                            	         	pam      	pam        	pam             	пам                 	528
+Пангасинан                          	         	pag      	pag        	pag             	паг                 	529
+Пенджабский                         	pa       	pan      	pan        	pan             	пан                 	530
+Папьяменто                          	         	pap      	pap        	pap             	пап                 	533
+Персидский                          	fa       	fas/per  	fas        	fas/per         	пер                 	535
+Пехлевийский                        	         	pal      	pal        	pal             	пех                 	537
+Польский                            	pl       	pol      	pol        	pol             	пол                 	540
+Понапе                              	         	pon      	pon        	pon             	пон                 	542
+Португальский                       	pt       	por      	por        	роr             	пор                 	545
+Пушту                               	ps       	pus      	pus        	pus             	пуш                 	550
+Раджастхани                         	         	raj      	raj        	raj             	рад                 	555
+Разных семей языки                  	         	mul      	mul        	mul             	мул                 	556
+Раротонга                           	         	rar      	rar        	rar             	рар                 	557
+Ретороманский                       	rm       	roh      	roh        	                	рет                 	560
+Руанда                              	rw       	kin      	kin        	kin             	кин                 	304
+Румынский                           	ro       	ron/rum  	ron        	ron/rum         	рум                 	565
+Рунди                               	rn       	run      	run        	run             	рун                 	567
+Русский                             	ru       	rus      	rus        	rus             	рус                 	570
+Рутульский                          	         	         	rut        	                	рут
+Саамский                            	         	smi      	smi        	smi             	саа                 	575
+Самаритянский арамейский            	         	sam      	sam        	sam             	сам                 	577
+Самоанский                          	sm       	smo      	smo        	smo             	смо                 	578
+Санго                               	sg       	sag      	sag        	sag             	саг                 	579
+Сандаве                             	         	sad      	sad        	sad             	сад                 	580
+Санскрит                            	sa       	san      	san        	san             	сан                 	581
+Сапотекский                         	         	zap      	zap        	zap             	сап                 	582
+Сардинский                          	sc       	srd      	srd        	srd             	срд                 	583
+Свази                               	ss       	ssw      	ssw        	ssw             	сва                 	584
+Себуано                             	         	ceb      	ceb        	ceb             	себ                 	587
+Селькупский                         	         	sel      	sel        	sel             	сел                 	590
+Сербский                            	sr       	scc      	srp
+Сибирско-татарский                  	         	         	sty        	                	сиб[нет в источнике]	594[нет в источнике]
+Серер                               	         	srr      	srr        	srr             	срр                 	596
+Сидама                              	         	sid      	sid        	sid             	сид                 	597
+Сиксика                             	         	bla      	bla        	bla             	сик                 	598
+Сингальский                         	si       	sin      	sin        	sin             	син                 	599
+Синдхи                              	sd       	snd      	snd        	snd             	снд                 	600
+Сирийский                           	         	syr      	syr        	syr             	сир                 	602
+Словацкий                           	sk       	slk/slo  	slk        	slk/slo         	сло                 	605
+Словенский                          	sl       	slv      	slv        	slv             	слв                 	610
+Согдийский                          	         	sog      	sog        	sog             	сог                 	613
+Сомали                              	so       	som      	som        	som             	сом                 	615
+Сото северный                       	         	nso      	nso        	nso             	сос                 	617
+Сото южный                          	st       	sot      	sot        	sot             	сот                 	618
+Среднеанглийский                    	         	enm      	enm        	enm             	сра                 	619
+Средневерхненемецкий                	         	gmh      	gmh        	gmh             	срн                 	620
+Среднеирландский                    	         	mga      	mga        	mga             	сеи                 	621
+Среднефранцузский                   	         	frm      	frm        	frm             	срф                 	622
+Староанглийский                     	         	ang      	ang        	ang             	ста                 	623
+Староверхненемецкий                 	         	goh      	goh        	goh             	свн                 	624
+Староирландский                     	         	sga      	sga        	sga             	сти                 	625
+Старонорвежский                     	         	non      	non        	non             	стн                 	626
+Староперсидский                     	         	peo      	peo        	peo             	стп                 	627
+Старопровансальский                 	         	pro      	pro        	pro             	спр                 	628
+Старотурецкий                       	         	ota      	ota        	ota             	стт                 	629
+Старофранцузский                    	         	fro      	fro        	fro             	стф                 	630
+Суахили                             	sw       	swa      	swa        	swa             	суа                 	631
+Сукума                              	         	suk      	suk        	suk             	сук                 	632
+Сунданский                          	su       	sun      	sun        	sun             	сун                 	633
+Сусу                                	         	sus      	sus        	sus             	сус                 	634
+Табасаранский                       	         	         	tab        	tab             	таб                 	635
+Тагальский                          	tl       	tgl      	tgl        	tgl             	таг                 	636
+Таджикский                          	tg       	tgk      	tgk        	tgk             	тад                 	640
+Тайский                             	th       	tha      	tha        	tha             	таи                 	645
+Таитянский                          	ty       	tah      	tah        	tah             	тая                 	647
+Талышский                           	         	         	tly        	tal             	тал                 	650
+Тамашек                             	         	tmh      	tmh        	tmh             	тмш                 	653
+Тамильский                          	ta       	tam      	tam        	tam             	там                 	655
+Татарский                           	tt       	tat      	tat        	tat             	тар                 	660
+Тви                                 	tw       	twi      	twi        	twi             	тви                 	670
+Телугу                              	te       	tel      	tel        	tel             	тел                 	675
+Темне                               	         	tem      	tem        	tem             	тем                 	677
+Терено                              	         	ter      	ter        	ter             	тер                 	678
+Тибетский                           	bo       	bod/tib  	bod        	bod/tib         	тиб                 	680
+Тиви                                	         	tiw      	tiw        	tiv             	тив                 	681
+Тигре                               	         	tig      	tig        	tig             	тиг                 	682
+Тигринья                            	ti       	tir      	tir        	tir             	тир                 	683
+Тлингит                             	         	tli      	tli        	tli             	тли                 	684
+Тонга (Ньяса)                       	         	tog      	tog        	tog             	тог                 	685
+Тонганский                          	to       	ton      	ton        	ton             	тон                 	686
+Трукский                            	         	         	chk        	tru             	тру                 	687
+Тсвана                              	tn       	tsn      	tsn        	tsn             	тсн                 	688
+Тсонга                              	ts       	tso      	tso        	tso             	тсо                 	689
+Тувинский                           	         	tyv      	tyv        	tyv             	тув                 	690
+Тумбука                             	         	tum      	tum        	tum             	тум                 	692
+Турецкий                            	tr       	tur      	tur        	tur             	тур                 	693
+Туркменский                         	tk       	tuk      	tuk        	tuk             	тук                 	695
+Угаритский                          	         	uga      	uga        	uga             	уга                 	697
+Удмуртский (вотяцкий)               	         	udm      	udm        	vot             	удм                 	700
+Удэгейский                          	         	         	ude        	ude             	удэ                 	705
+Узбекский                           	uz       	uzb      	uzb        	uzb             	узб                 	710
+Уйгурский                           	ug       	uig      	uig        	uig             	уйг                 	715
+Украинский                          	uk       	ukr      	ukr        	ukr             	укр                 	720
+Ульчский                            	         	         	ulc        	ulc             	уль                 	725
+Умбунду                             	         	umb      	umb        	umb             	умб                 	727
+Урду                                	ur       	urd      	urd        	urd             	урд                 	730
+Фанг                                	         	fan      	fan        	fan             	фан                 	732
+Фанти                               	         	fat      	fat        	fat             	фат                 	733
+Фарерский                           	fo       	fao      	fao        	fao             	фар                 	735
+Фиджи                               	fj       	fij      	fij        	fij             	фид                 	737
+Филиппинский                        	fl       	fil      	fil        	tgl             	таг                 	636
+Финикийский                         	         	phn      	phn        	phn             	фик                 	738
+Финский (Suomi)                     	fi       	fin      	fin        	fin             	фин                 	740
+Фон                                 	         	fon      	fon        	fon             	фон                 	743
+Французский                         	fr       	fra/fre  	fra        	fra/fre         	фра                 	745
+Фризский                            	fy       	fry      	fry        	fry             	фри                 	750
+Фулах                               	ff       	ful      	ful        	ful             	фул                 	752
+Хайда                               	         	hai      	hai        	hai             	хай                 	753
+Хакасский                           	         	         	kjh        	khk             	хак                 	755
+Хантыйский (остяцкий)               	         	         	kca        	ost             	хан                 	760
+Хауса                               	ha       	hau      	hau        	hau             	хау                 	761
+Хилигайнон                          	         	hil      	hil        	hil             	хил                 	762
+Хинди                               	hi       	hin      	hin        	hin             	хин                 	770
+Хиримоту                            	ho       	hmo      	hmo        	hmo             	хмо                 	772
+Хорватский                          	hr       	hrv/scr  	hrv
+Хотанский                           	         	kho      	kho        	kho             	хот                 	773
+Хупа                                	         	hup      	hup        	hup             	хуп                 	774
+Цахурский                           	         	         	tkr        	tsa             	цах                 	775
+Церковнославянский (Старославянский)	cu       	chu      	chu        	chu             	цер                 	777
+Цимшиан                             	         	tsi      	tsi        	tsi             	цим                 	778
+Цыганский                           	         	rom      	rom        	rom             	цыг                 	780
+Чагатайский                         	         	chg      	chg        	chg             	чаг                 	781
+Чаморро                             	ch       	cha      	cha        	cha             	чам                 	782
+Шайенн (Чейенн)                     	         	chy      	chy        	chy             	чей                 	783
+Чероки                              	         	chr      	chr        	chr             	чер                 	784
+Чеченский                           	ce       	che      	che        	che             	чеч                 	785
+Чешский                             	cs       	ces/cze  	ces        	ces/cze         	чеш                 	790
+Чжуанский                           	za       	zha      	zha        	zha             	чжу                 	791
+Чибча                               	         	chb      	chb        	chb             	чиб                 	792
+Чинук жаргон                        	         	chn      	chn        	chn             	чин                 	793
+Чоктав                              	         	cho      	cho        	cho             	чок                 	794
+Чувашский                           	cv       	chv      	chv        	chv             	чув                 	795
+Чукотский                           	         	         	ckt        	chk             	чук                 	800
+Шанский                             	         	shn      	shn        	shn             	шан                 	803
+Шведский                            	sv       	sve/swe  	swe        	sve/swe         	шве                 	805
+Шона                                	sn       	sna      	sna        	sna             	шон                 	807
+Шорский                             	         	         	cjs        	sho             	шор                 	810
+Шотландский (англо-шотландский)     	         	sco      	sco
+Шугнанский                          	         	         	sgh        	shu             	шуг                 	815
+Шумерский                           	         	sux      	sux        	sux             	шум                 	817
+Эве                                 	ee       	ewe      	ewe        	ewe             	эве                 	820
+Эвенкийский (тунгусский)            	         	         	evn        	tum             	эвк                 	825
+Эвенский                            	         	         	eve        	lau             	эвн                 	830
+Эвондо                              	         	ewo      	ewo        	ewo             	эво                 	832
+Экаджук                             	         	eka      	eka        	eka             	эка                 	833
+Эламский                            	         	elx      	elx        	elx             	эла                 	834
+Эрзянский                           	         	myv      	myv        	erz             	эрз                 	835
+Эсперанто                           	eo       	epo      	epo        	epo             	эсп                 	845
+Эстонский                           	et       	est      	est        	est             	эст                 	850
+Эфик                                	         	efi      	efi        	efi             	эфи                 	852
+Яванский                            	jv       	jav/jaw  	jav        	jav/jaw         	ява                 	860
+Якутский (Саха)                     	         	sah      	sah        	sah             	яку                 	865
+Яо                                  	         	yao      	yao        	yao             	яоа                 	867
+Яп                                  	         	yap      	yap        	yap             	япа                 	868
+Японский                            	ja       	jpn      	jpn        	jpn             	япо                 	870

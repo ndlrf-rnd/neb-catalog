@@ -1,0 +1,61 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/operation-submission.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/",
+  "type": "object",
+  "description": "Operation schedule submission schemas",
+  "examples": [
+    {
+      "account": "example-archivist@rusneb.ru",
+      "secret": "SECRET_API_TOKEN_FOR_YOUR_ACCOUNT",
+      "type": "import",
+      "parameters": {
+        "url": "https://storage.rusneb.ru/source/knpam.rusneb.ru/heritage__RuMoRGB_2019-12-13_marc21.mrc.gz",
+        "provider": "rusneb.ru",
+        "mediaType": "application/marc"
+      }
+    },
+    {
+      "account": "another.archivist@rusneb.ru",
+      "secret": "OTHER_SECRET_API_TOKEN_FOR_YOUR_ACCOUNT",
+      "type": "import",
+      "parameters": {
+        "url": "https://storage.rusneb.ru/source/bisacsh/bisacsh.tsv.gz",
+        "provider": "rusneb.ru",
+        "mediaType": "text/tab-separated-values"
+      }
+    }
+  ],
+  "required": [
+    "account",
+    "secret",
+    "type"
+  ],
+  "properties": {
+    "secret": {
+      "title": "Account secret access token",
+      "description": "Data provider account API key (32/64 long string, case-insensitive)",
+      "$ref": "/schemas/common-parameters.json#/$defs/secret"
+    },
+    "account": {
+      "title": "Data provider account",
+      "$ref": "/schemas/common-parameters.json#/$defs/account"
+    },
+    "type": {
+      "title": "Operation type",
+      "type": "string",
+      "enum": [
+        "import"
+      ]
+    },
+    "parameters": {
+      "title": "parameters",
+      "description": "Operation-specific parameters",
+      "oneOf": [
+        {
+          "$ref": "/schemas/operation-import.json"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3404 @@
+{
+  "leadera": {
+    "type": "object",
+    "title": "[object Object] (a)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "a"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderc": {
+    "type": "object",
+    "title": "[object Object] (c)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "c"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderd": {
+    "type": "object",
+    "title": "[object Object] (d)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "d"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leadere": {
+    "type": "object",
+    "title": "[object Object] (e)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "e"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderf": {
+    "type": "object",
+    "title": "[object Object] (f)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "f"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderg": {
+    "type": "object",
+    "title": "[object Object] (g)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "g"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderi": {
+    "type": "object",
+    "title": "[object Object] (i)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "i"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderj": {
+    "type": "object",
+    "title": "[object Object] (j)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "j"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderk": {
+    "type": "object",
+    "title": "[object Object] (k)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "k"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderm": {
+    "type": "object",
+    "title": "[object Object] (m)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "m"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leadero": {
+    "type": "object",
+    "title": "[object Object] (o)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "o"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderp": {
+    "type": "object",
+    "title": "[object Object] (p)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "p"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leaderr": {
+    "type": "object",
+    "title": "[object Object] (r)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "r"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  },
+  "leadert": {
+    "type": "object",
+    "title": "[object Object] (t)",
+    "properties": {
+      "10": {
+        "description": "Indicator count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for indicators"
+        ]
+      },
+      "11": {
+        "description": "Subfield code count",
+        "type": "string",
+        "enum": [
+          "2"
+        ],
+        "enumDescription": [
+          "Number of character positions used for a subfield code"
+        ]
+      },
+      "17": {
+        "oneOf": [
+          {
+            "title": "Full level",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Encoding level",
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "8",
+              "u",
+              "z"
+            ],
+            "enumDescription": [
+              "Full level, material not examined",
+              "Less-than-full level, material not examined",
+              "Abbreviated level",
+              "Core level",
+              "Partial (preliminary) level",
+              "Minimal level",
+              "Prepublication level",
+              "Unknown",
+              "Not applicable"
+            ]
+          }
+        ]
+      },
+      "18": {
+        "oneOf": [
+          {
+            "title": "Non-ISBD",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Descriptive cataloging form",
+            "type": "string",
+            "enum": [
+              "a",
+              "c",
+              "i",
+              "u"
+            ],
+            "enumDescription": [
+              "AACR 2",
+              "ISBD punctuation omitted",
+              "ISBD punctuation included",
+              "Unknown"
+            ]
+          }
+        ]
+      },
+      "19": {
+        "oneOf": [
+          {
+            "title": "Not specified or not applicable",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Multipart reSource record level",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumDescription": [
+              "Set",
+              "Part with independent title",
+              "Part with dependent title"
+            ]
+          }
+        ]
+      },
+      "20": {
+        "description": "Length of the length-of-field portion",
+        "type": "string",
+        "enum": [
+          "4"
+        ],
+        "enumDescription": [
+          "Number of characters in the length-of-field portion of a Directory entry"
+        ]
+      },
+      "21": {
+        "description": "Length of the starting-character-position portion",
+        "type": "string",
+        "enum": [
+          "5"
+        ],
+        "enumDescription": [
+          "Number of characters in the starting-character-position portion of a Directory entry "
+        ]
+      },
+      "22": {
+        "description": "Length of the implementation-defined portion",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Number of characters in the implementation-defined portion of a Directory entry"
+        ]
+      },
+      "23": {
+        "description": "Undefined",
+        "type": "string",
+        "enum": [
+          "0"
+        ],
+        "enumDescription": [
+          "Undefined"
+        ]
+      },
+      "00-04": {
+        "type": "string",
+        "description": "Record length"
+      },
+      "05": {
+        "description": "Record status",
+        "type": "string",
+        "enum": [
+          "a",
+          "c",
+          "d",
+          "n",
+          "p"
+        ],
+        "enumDescription": [
+          "Increase in encoding level",
+          "Corrected or revised",
+          "Deleted",
+          "New",
+          "Increase in encoding level from prepublication"
+        ]
+      },
+      "06": {
+        "type": "string",
+        "enum": [
+          "t"
+        ]
+      },
+      "07": {
+        "description": "Bibliographic level",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "m",
+          "s"
+        ],
+        "enumDescription": [
+          "Monographic component part",
+          "Serial component part",
+          "Collection",
+          "Subunit",
+          "Integrating resource",
+          "Monograph/Item",
+          "Serial"
+        ]
+      },
+      "08": {
+        "oneOf": [
+          {
+            "title": "No specified type",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Type of control",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "Archival"
+            ]
+          }
+        ]
+      },
+      "09": {
+        "oneOf": [
+          {
+            "title": "MARC-8",
+            "type": "string",
+            "pattern": "^[# _]+$"
+          },
+          {
+            "description": "Character coding scheme",
+            "type": "string",
+            "enum": [
+              "a"
+            ],
+            "enumDescription": [
+              "UCS/Unicode"
+            ]
+          }
+        ]
+      },
+      "12-16": {
+        "title": "Length of Leader and Directory",
+        "type": "string",
+        "pattern": "[0-9]+"
+      }
+    },
+    "additionalProperties": false
+  }
+}

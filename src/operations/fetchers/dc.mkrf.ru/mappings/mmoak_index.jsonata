@@ -1,0 +1,26 @@
+{
+  "files": feed.entry.$merge(
+    [
+      {
+        "id": id._text[0],
+        "title": $join($.title._text, " "),
+        "updated": $.updated._text[0],
+        "published": $.updated._text[0],
+        "content-type": $.content[0]._attributes.type,
+        "documentId": document[0]._attributes.id
+      },
+      document.files.file.{
+        "displayname": $join(displayname._text, " "),
+        "size": $join(size._text, " "),
+        "subpath": $join(subpath._text, " "),
+        "mimetype": $join(mimetype._text, " "),
+        "doc_id": $join(doc_id._text, " ")
+      }[mimetype = "application/pdf"][0]
+    ]
+  ),
+  "self": feed.link._attributes[$.rel = "self"].href,
+  "next": feed.link._attributes[$.rel = "next"].href,
+  "startIndex": $number(feed."opensearch:startIndex"._text[0]),
+  "itemsPerPage": $number(feed."opensearch:itemsPerPage"._text[0]),
+  "totalResults": $number(feed."opensearch:totalResults"._text[0])
+}

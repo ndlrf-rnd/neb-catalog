@@ -1,0 +1,276 @@
+
+section.endpoints {
+    padding: 0 2.6rem 1.6rem;
+}
+
+section.endpoints.response-output {
+    padding: 0 0 0.8rem;
+}
+
+.fade {
+    opacity: 0.5;
+}
+
+section.endpoints {
+    padding: 0 2.6rem 1.6rem;
+}
+
+
+.endpoint > * {
+    margin-bottom: 0.5rem;
+}
+
+.endpoint textarea {
+    width: 100%;
+    margin: 0;
+}
+
+.endpoint .heading {
+    /*display: flex;*/
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.endpoint * {
+        line-height: 1.25rem;
+}
+.endpoint h2 {
+    line-height: 1.5rem;
+}
+.endpoint h3,
+.endpoint h4 {
+    margin-left: 1rem;
+    color: #5f5f5f;
+    font-weight: 400;
+}
+
+.endpoint h3,
+.endpoint h4 {
+    font-size: 0.75rem;
+    /*line-height: 1.0rem;*/
+    color: #5f5f5f;
+    font-weight: 400;
+}
+
+.endpoint:current h1,
+.endpoint:current h2,
+.endpoint:current h3,
+.endpoint:current h4 {
+    color: #ff1e1e;
+}
+
+.endpoint a {
+    cursor: pointer;
+}
+
+
+.endpoint {
+    padding-left: 1rem;
+    border-left: 1px transparent solid;
+}
+
+.endpoint:hover {
+    border-left: 1px dotted #ff1e1e;
+    background: rgba(30, 144, 255, 0.05);
+}
+
+.endpoint.current > a,
+.endpoint.current > * > a {
+    color: #ff1e1e;
+    cursor: default;
+    border-bottom-color: #ff1e1e;
+}
+
+.endpoint.current {
+    border-left: 1px solid #ff1e1e;
+}
+
+.endpoint.current:hover {
+    background: transparent;
+    border-left: 1px solid #ff1e1e;
+}
+
+.endpoint .form,
+.endpoint pre {
+    display: none;
+}
+
+.endpoint.current .form,
+.endpoint.current pre {
+    display: block;
+}
+
+.endpoint .form {
+    overflow: hidden;
+}
+
+.form .group {
+    display: flex;
+    border: 1px solid lightgrey;
+    padding: 0.5rem;
+}
+
+.form .group {
+    flex: auto;
+    display: flex;
+    overflow: hidden;
+    flex-flow: row;
+    flex-wrap: wrap;
+    grid-auto-flow: dense;
+    grid-gap: 16px;
+    margin: 0.5rem;
+}
+
+
+.endpoint button {
+    margin: 0.5rem 0.5rem 2rem;
+}
+
+.form .group-centered {
+    justify-content: center;
+}
+
+.form .group .variable {
+    margin: 0 8px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    min-width: 64px;
+}
+
+.form > .group > .variable > .operator {
+    font-weight: bold;
+    text-align: right;
+    padding: 3px;
+}
+
+.form > .group > .variable > .input > label {
+    display: block;
+    font-weight: 100;
+}
+
+.form > .group > .variable > .input > input:focus,
+.form > .group > .variable > .input > textarea:focus {
+    outline: 3px solid gold;
+    width: 100%;
+}
+
+.form > .group > button {
+    margin: 0;
+    min-width: 128px;
+    max-width: 256px;
+    padding: 0.5rem;
+}
+
+
+.endpoint .comment,
+.endpoint .description {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.endpoint a {
+    border-bottom: 1px dotted rgba(30, 144, 255, 0.82);
+    color: rgba(30, 144, 255, 1);
+    text-decoration: none;
+    padding: 0;
+}
+
+.endpoint a:hover {
+    color: rgba(30, 144, 255, 1);
+    border-bottom: 1px dotted rgba(30, 144, 255, 1);
+    text-decoration: none;
+    padding: 0;
+}
+
+
+.endpoint textarea {
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    height: 256px;
+    color: #aaaaaa;
+    background-color: #2b2b2b;
+}
+
+.endpoint pre {
+    margin-top: .8rem;
+    margin-bottom: 0;
+    overflow: auto;
+    width: 100%;
+    height: 300px;
+}
+
+.endpoint code {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+    white-space: pre;
+}
+
+
+.code-tabs button {
+    margin: 0;
+    padding: 0
+}
+
+.code-tabs h3 {
+    color: white;
+    margin: 0rem;
+    padding: 0;
+}
+
+.code-tabs .tab {
+    display: inline-block;
+    padding: 0.5rem 1.0rem;
+    cursor: pointer;
+    /*margin: 0 1rem;*/
+}
+
+.code-tabs .tab.tab-active {
+    box-shadow: 0 0 13px rgba(255, 255, 255, 0.5);
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.code-tabs {
+    background-color: rgba(43, 43, 43, 1.0);
+    width: 100%;
+}
+
+.success {
+    color: #4CAF50 !important;
+}
+
+.error {
+    color: #F44336 !important;;
+}
+
+.rotating {
+    font-family: 'Source Sans Pro', Roboto, "San Francisco", "Segoe UI", sans-serif;
+    transform-origin: center center;
+    -webkit-animation: spin 13s linear infinite;
+    -moz-animation: spin 13s linear infinite;
+    animation: spin 13s linear infinite;
+    font-size: 2rem;
+    cursor: default;
+    display: block;
+    float: right;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

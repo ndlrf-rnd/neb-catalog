@@ -1,0 +1,13 @@
+const JSONLD_MEDIA_TYPE = 'application/ld+json';
+const JSONLD_ENCODING = 'utf-8';
+const JSONLD_EXTENSION = 'jsonld';
+const JSONLD_CANONIZATION_ALGORITHM = 'URDNA2015';
+const JSONLD_FORMAT = 'application/n-quads';
+
+module.exports = {
+  JSONLD_MEDIA_TYPE,
+  JSONLD_ENCODING,
+  JSONLD_EXTENSION,
+  JSONLD_CANONIZATION_ALGORITHM,
+  JSONLD_FORMAT
+}

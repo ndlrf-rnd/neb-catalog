@@ -1,0 +1,145 @@
+[
+  {
+    "@graph": {
+      "bf:Work": {
+        "bf:adminMetadata": {
+          "bf:identifiedBy": {
+            "bf:Local": {
+              "bf:assigner": {
+                "bf:Agent": {
+                  "rdf:about": "http://id.loc.gov/vocabulary/organizations/rumorgb.html"
+                }
+              },
+              "rdf:value": "002986566"
+            }
+          }
+        },
+        "bf:citationWithinSource": {
+          "bf:citationCoverage": {
+            "@type": "bf:Temporal"
+          },
+          "bf:citationLocationWithinSource": "389",
+          "bf:citationSource": {
+            "@type": "bf:Title",
+            "bf:KeyTitle": "Сводный каталог русской книги 1801-1825 гг."
+          }
+        },
+        "bf:contribution": [
+          {
+            "@type": "bf:PrimaryContribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bf:date": [
+                "?",
+                "после 1821"
+              ],
+              "bflc:name": "Афанасьев, Пафнутий Алексеевич"
+            },
+            "bf:role": {
+              "@id": "http://id.loc.gov/vocabulary/relators/aut",
+              "@type": "bf:Role",
+              "rdfs:label": "Author"
+            }
+          },
+          {
+            "@type": "bf:Contribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bf:date": [
+                "1771",
+                "1839"
+              ],
+              "bflc:name": "Двигубский, Иван Алексеевич"
+            },
+            "bf:role": {
+              "@id": "http://id.loc.gov/vocabulary/relators/cns",
+              "@type": "bf:Role",
+              "rdfs:label": "цензор"
+            }
+          }
+        ],
+        "bf:hasInstance": [
+          {
+            "@type": "bf:instance",
+            "bf:content": {
+              "@id": "http://id.loc.gov/vocabulary/contentTypes/Text",
+              "@type": "bf:Content"
+            },
+            "bf:extent": {
+              "@type": "bf:Note",
+              "rdfs:label": "30, [2] с., [102] л. табл."
+            },
+            "item": [
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:Barcode",
+                    "rdfs:label": "MK IV-33851"
+                  },
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "MK XIX / 8°-А"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "MK"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "Ф 810-87 / 375-2"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "OMF2"
+              }
+            ],
+            "bf:note": [
+              {
+                "@type": "bf:Note",
+                "bf:noteType": "description",
+                "rdfs:label": [
+                  "На с. 30 авт.: Пафнутий Афанасьев.",
+                  "Ценз.: И.А. Двигубский, 19 янв. 1817 г."
+                ]
+              },
+              {
+                "@type": "bf:Note",
+                "bf:noteType": "Reproduction Note",
+                "rdfs:label": "Имеется электронная копия"
+              }
+            ],
+            "bf:provisionActivity": [
+              {
+                "@type": [
+                  "bf:Publication",
+                  "bf:ProvisionActivity"
+                ],
+                "bf:agent": {
+                  "@type": "bf:Agent",
+                  "rdfs:label": [
+                    "В типографии Департамента народнаго просвещения",
+                    "Санктпетербург"
+                  ]
+                },
+                "bf:date": "1818"
+              }
+            ]
+          }
+        ],
+        "bf:language": {
+          "@id": "http://id.loc.gov/vocabulary/languages/",
+          "@type": "bf:Language",
+          "rdfs:label": "rus"
+        },
+        "bf:title": {
+          "@type": "bf:Title",
+          "bf:MainTitle": "Таблицы логарифмов простых чисел и тригонометрических линей"
+        }
+      }
+    }
+  }
+]

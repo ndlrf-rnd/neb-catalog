@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!DOCTYPE ONIXMessage SYSTEM "/mnt/d/neb-catalog/src/formats/onix/mappings/onix/2.1/reference/onix-international.dtd">
+        <ONIXMessage>
+		      <Product>
+			              <RecordReference>799</RecordReference>
+				              <ProductIdentifier>
+						                <ProductIDType>02</ProductIDType>
+								          <IDValue>5-4241-0501-7</IDValue>
+									          </ProductIdentifier>
+										          <ProductIdentifier>
+												            <ProductIDType>15</ProductIDType>
+													              <IDValue>978-5-4241-0501-2</IDValue>
+														              </ProductIdentifier>
+															              <Language>
+																	                <LanguageRole>01</LanguageRole>
+																			          <LanguageCode>rus</LanguageCode>
+																				          </Language>
+																					          <Title>
+																							            <TitleType>01</TitleType>
+																								              <TitleText>МОЛОДОЕ ПОКОЛЕНИЕ ХХI ВЕКА: АКТУАЛЬНЫЕ ПРОБЛЕМЫ СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКОГО ЗДОРОВЬЯ</TitleText>
+																									                <Subtitle></Subtitle>
+																											        </Title>
+																												        <Contributor>
+																														          <SequenceNumber>1</SequenceNumber>
+																															            <ContributorRole>A01</ContributorRole>
+																																              <PersonName>А.А. Северный</PersonName>
+																																	                <NamesBeforeKey>Александр</NamesBeforeKey>
+																																			          <PrefixToKey>Александрович</PrefixToKey>
+																																				            <KeyNames>Северный</KeyNames>
+																																					              <CountryCode>RU</CountryCode>
+																																						              </Contributor>
+																																							              <Publisher>
+																																									                <PublishingRole>01</PublishingRole>
+																																											          <PublisherName>АДПП</PublisherName>
+																																												          </Publisher>
+																																													          <CityOfPublication>Минск</CityOfPublication>
+																																														          <PublicationDate>2003</PublicationDate>
+																																															          <YearFirstPublished/>
+																																																          <NumberOfPages>400</NumberOfPages>
+																																																	          <ProductForm>BC</ProductForm>
+																																																		          <ProductFormDescription>мягкая обложка</ProductFormDescription>
+																																																			          <Subject>
+																																																					            <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+																																																						              <SubjectSchemeName>UDC</SubjectSchemeName>
+																																																							                <SubjectCode></SubjectCode>
+																																																									        </Subject>
+																																																										        <Subject>
+																																																												          <SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+																																																													            <SubjectSchemeName>BBK</SubjectSchemeName>
+																																																														              <SubjectCode>88.5</SubjectCode>
+																																																															              </Subject>
+																																																																              <OtherText>
+																																																																		                <TextTypeCode>01</TextTypeCode>
+																																																																				          <Text>Материалы II Международного Конгресса «Молодое поколение ХХI века: актуальные проблемы социально-психологического здоровья». Под редакцией А.А. Северного, Ю. С. Шевченко. Минск, 3-6 ноября 2003 г. - 277 с. Спонсоры: Международный центр «Счастливые семьи» АО. «Гедеон Рихтер» в РБ</Text>
+																																																																					          </OtherText>
+																																																																						          <OtherText>
+																																																																								            <TextTypeCode>19</TextTypeCode>
+																																																																									              <Text>Эта книга будет изготовлена в соответствии с Вашим заказом по технологии Print-on-Demand компанией ООО ""Книга по Требованию"".
+																																																																											          
+																																																																											                  Print-on-Demand - это технология печати книг по Вашему заказу на цифровом типографском оборудовании. Книга, напечатанная по технологии Print-on-Demand, представляет собой классический ""евро-покет"" с соблюдением всех стандартов качества, от офсетной бумаги и плотного картона до качественного клея, используемого при изготовлении.
+																																																																													      
+																																																																													              Информация о материалах, используемых при печати:
+																																																																														          
+																																																																														                  - бумага - офсетная (белая), 80 г/м
+																																																																																      
+																																																																																              - обложка - цветная мягкая (картон 250-300 г/м)
+																																																																																	          
+																																																																																	                  - текстовый блок (включая иллюстрации) - черно-белый
+																																																																																			      
+																																																																																			              - скрепление блока - КБС (по стандарту современных ""pocket-books"")
+																																																																																				          
+																																																																																				                  Заказ обрабатывается в индивидуальном порядке: каждой книге, напечатанной по технологии Print-on-Demand, присваивается уникальный номер.</Text>
+																																																																																					          </OtherText>
+																																																																																						          <Measure>
+																																																																																								            <MeasureTypeCode>01</MeasureTypeCode>
+																																																																																									              <Measurement>28</Measurement>
+																																																																																										                <MeasureUnitCode>cm</MeasureUnitCode>
+																																																																																												        </Measure>
+																																																																																													        <Measure>
+																																																																																															          <MeasureTypeCode>02</MeasureTypeCode>
+																																																																																																            <Measurement>21</Measurement>
+																																																																																																	              <MeasureUnitCode>cm</MeasureUnitCode>
+																																																																																																		              </Measure>
+																																																																																																			              <Measure>
+																																																																																																					                <MeasureTypeCode>03</MeasureTypeCode>
+																																																																																																							          <Measurement>2.1</Measurement>
+																																																																																																								            <MeasureUnitCode>cm</MeasureUnitCode>
+																																																																																																									            </Measure>
+																																																																																																										            <Measure>
+																																																																																																												              <MeasureTypeCode>08</MeasureTypeCode>
+																																																																																																													                <Measurement>1067</Measurement>
+																																																																																																															          <MeasureUnitCode>gr</MeasureUnitCode>
+																																																																																																																          </Measure>
+																																																																																																																	          <MediaFile>
+																																																																																																																			            <MediaFileTypeCode>07</MediaFileTypeCode>
+																																																																																																																				              <ImageWidth>200</ImageWidth>
+																																																																																																																					                <MediaFileFormatCode>03</MediaFileFormatCode>
+																																																																																																																							          <MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+																																																																																																																								            <MediaFileLink>http://f.letmeprint.ru/6-e84a6efa/preview_799_200x0.jpg</MediaFileLink>
+																																																																																																																									              <MediaFileDate>20100101</MediaFileDate>
+																																																																																																																										              </MediaFile>
+																																																																																																																											              <MediaFile>
+																																																																																																																													                <MediaFileTypeCode>07</MediaFileTypeCode>
+																																																																																																																															          <ImageWidth>150</ImageWidth>
+																																																																																																																																            <MediaFileFormatCode>03</MediaFileFormatCode>
+																																																																																																																																	              <MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+																																																																																																																																		                <MediaFileLink>http://f.letmeprint.ru/5-53bca468/preview_799_150x0.jpg</MediaFileLink>
+																																																																																																																																				          <MediaFileDate>20100101</MediaFileDate>
+																																																																																																																																					          </MediaFile>
+																																																																																																																																						          <MediaFile>
+																																																																																																																																								            <MediaFileTypeCode>07</MediaFileTypeCode>
+																																																																																																																																									              <ImageWidth>75</ImageWidth>
+																																																																																																																																										                <MediaFileFormatCode>03</MediaFileFormatCode>
+																																																																																																																																												          <MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+																																																																																																																																													            <MediaFileLink>http://f.letmeprint.ru/4-c3036e6b/pview_799_75x0.jpg</MediaFileLink>
+																																																																																																																																														              <MediaFileDate>20100101</MediaFileDate>
+																																																																																																																																															              </MediaFile>
+																																																																																																																																																              <MediaFile>
+																																																																																																																																																		                <MediaFileTypeCode>07</MediaFileTypeCode>
+																																																																																																																																																				          <ImageWidth>60</ImageWidth>
+																																																																																																																																																					            <MediaFileFormatCode>03</MediaFileFormatCode>
+																																																																																																																																																						              <MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+																																																																																																																																																							                <MediaFileLink>http://f.letmeprint.ru/3-9a75921d/preview_799_60x0.jpg</MediaFileLink>
+																																																																																																																																																									          <MediaFileDate>20100101</MediaFileDate>
+																																																																																																																																																										          </MediaFile>
+																																																																																																																																																											          <MediaFile>
+																																																																																																																																																													            <MediaFileTypeCode>07</MediaFileTypeCode>
+																																																																																																																																																														              <ImageWidth>40</ImageWidth>
+																																																																																																																																																															                <MediaFileFormatCode>03</MediaFileFormatCode>
+																																																																																																																																																																	          <MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+																																																																																																																																																																		            <MediaFileLink>http://f.letmeprint.ru/2-7d72d546/preview_799_40x0.jpg</MediaFileLink>
+																																																																																																																																																																			              <MediaFileDate>20100101</MediaFileDate>
+																																																																																																																																																																				              </MediaFile>
+																																																																																																																																																																					              <MediaFile>
+																																																																																																																																																																							                <MediaFileTypeCode>51</MediaFileTypeCode>
+																																																																																																																																																																									          <MediaFileFormatCode>04</MediaFileFormatCode>
+																																																																																																																																																																										            <MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+																																																																																																																																																																											              <MediaFileLink>http://f.letmeprint.ru/8-e59a5d23/fragment_799.pdf</MediaFileLink>
+																																																																																																																																																																												                <MediaFileDate>20100101</MediaFileDate>
+																																																																																																																																																																														        </MediaFile>
+																																																																																																																																																																															        <SupplyDetail>
+																																																																																																																																																																																	          <Price>
+																																																																																																																																																																																			              <TaxRatePercent1>18.00</TaxRatePercent1>
+																																																																																																																																																																																				                </Price>
+																																																																																																																																																																																						        </SupplyDetail>
+																																																																																																																																																																																							        <Subject>
+																																																																																																																																																																																									          <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+																																																																																																																																																																																										            <SubjectSchemeName>BIC</SubjectSchemeName>
+																																																																																																																																																																																											              <SubjectCode>JM</SubjectCode>
+																																																																																																																																																																																												              </Subject>
+																																																																																																																																																																																													              <Subject>
+																																																																																																																																																																																															                <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+																																																																																																																																																																																																	          <SubjectSchemeName>BIC</SubjectSchemeName>
+																																																																																																																																																																																																		            <SubjectCode>YXZ</SubjectCode>
+																																																																																																																																																																																																			            </Subject>
+																																																																																																																																																																																																				            <Subject>
+																																																																																																																																																																																																						              <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+																																																																																																																																																																																																							                <SubjectSchemeName>BIC</SubjectSchemeName>
+																																																																																																																																																																																																									          <SubjectCode>JMC</SubjectCode>
+																																																																																																																																																																																																										          </Subject>
+																																																																																																																																																																																																											          <Subject>
+																																																																																																																																																																																																													            <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+																																																																																																																																																																																																														              <SubjectSchemeName>BIC</SubjectSchemeName>
+																																																																																																																																																																																																															                <SubjectCode>JNS</SubjectCode>
+																																																																																																																																																																																																																	        </Subject>
+																																																																																																																																																																																																																		      </Product>
+																																																																																																																																																																																																																		          </ONIXMessage>

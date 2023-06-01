@@ -1,0 +1,15 @@
+const ENCODING_LEVEL_INCREASE = 'a';
+const CORRECTED = 'c';
+const DELETED = 'd';
+const UNKNOWN = 'u';
+const NEW = 'n';
+const ENCODING_LEVEL_INCREASE_FROM_PREPUBLISH = 'p';
+
+module.exports = {
+  ENCODING_LEVEL_INCREASE,
+  CORRECTED,
+  DELETED,
+  UNKNOWN,
+  NEW,
+  ENCODING_LEVEL_INCREASE_FROM_PREPUBLISH,
+};

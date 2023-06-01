@@ -1,0 +1,91 @@
+<record>
+  <leader>02004nam0p2200301 i 450 </leader>
+  <controlfield tag="001">RU\BM\BIBL\RuMoRGB-cyr17v\0004086100</controlfield>
+  <controlfield tag="005">20080923165237.0</controlfield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(RuMoRGB)004086100</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="100">
+    <subfield code="a">20030603d0000    |||y0rusy50######ca</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="101">
+    <subfield code="a">chu</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="102">
+    <subfield code="a">RU</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="105">
+    <subfield code="a">y   |zzz00|||</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="200">
+    <subfield code="a">Сказание неложное от мужа праведна и свята западния церкве великаго учителя Иеронима о Июде бывшем предатели господа нашего Иисуса Христа описанное</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="210">
+    <subfield code="a">[Киев]</subfield>
+    <subfield code="c">[Типография Лавры]</subfield>
+    <subfield code="d">Б.г., [конец XVII в.]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="215">
+    <subfield code="a">[1]-[6] = 6 л.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="215">
+    <subfield code="d">4°</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Строк : 37, 44</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Шрифт : 62, 52 мм.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Страницы в линейных рамках</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">Орнамент : инициал, концовка</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="321">
+    <subfield code="a">Украинские книги кирилловской печати XVI - XVIII вв. : каталог изданий, хранящихся в Государственной библиотеке СССР им. В.И. Ленина. Вып. 2. Т. 1: Киевские издания 2-й половины XVII в. М., 1981 / Сост. А.А. Гусева, Т.Н. Каменева, И.М. Полонская</subfield>
+    <subfield code="c"># 176</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="686">
+    <subfield code="a">01.02.03.04.04</subfield>
+    <subfield code="h">Общероссийский свод книжных памятников</subfield>
+    <subfield code="h">Единичные книжные памятники</subfield>
+    <subfield code="h">Текстовые издания</subfield>
+    <subfield code="h">издания кирилловского шрифта</subfield>
+    <subfield code="j">XVII в.</subfield>
+    <subfield code="2">RUBBM</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="700">
+    <subfield code="a">Иероним Стридонский</subfield>
+    <subfield code="c">пресвитер</subfield>
+    <subfield code="f">ок. 342-420</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">20030603</subfield>
+    <subfield code="g">RCR</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="801">
+    <subfield code="a">RU</subfield>
+    <subfield code="b">РГБ</subfield>
+    <subfield code="c">&lt;DATE&gt;</subfield>
+    <subfield code="2">rusmarc</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="886">
+    <subfield code="2">marc21</subfield>
+    <subfield code="a">979</subfield>
+    <subfield code="b">##</subfield>
+    <subfield code="a">kpcyr17v</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="909">
+    <subfield code="a">Книжный памятник - Издание</subfield>
+    <subfield code="3">RU.BM.TEMPLATE.RUSMARC.BIBL.PUBLICATION</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="930">
+    <subfield code="a">Эксперт РГБ</subfield>
+    <subfield code="b">выгрузка РГБ</subfield>
+    <subfield code="c">20030603</subfield>
+  </datafield>
+</record>

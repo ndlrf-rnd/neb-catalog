@@ -1,0 +1,150 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/operation.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/",
+  "type": "object",
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "account": {
+      "$ref": "#/$defs/id"
+    },
+    "parameters": {
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "/schemas/operation-import.json#"
+        },
+        {
+          "$ref": "/schemas/operation-service.json#"
+        },
+        {
+          "$ref": "/schemas/operation-reset-storage.json#"
+        }
+      ]
+    },
+    "output": {
+      "type": "object"
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "PROCESSING",
+        "CANCELLING",
+        "CANCELLED",
+        "FINALIZING",
+        "SUCCESSFUL",
+        "FAILED",
+        "UNSPECIFIED"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "documents_estimated": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "documents_completed": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    },
+    "bytes_estimated": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "bytes_completed": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    },
+    "worker_pid": {
+      "description": "Use: $ cat /proc/sys/kernel/pid_max"
+    },
+    "retries": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "running_time": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "account",
+    "retries",
+    "parameters",
+    "state",
+    "created_at",
+     "running_time",
+    "documents_completed",
+    "bytes_completed"
+  ],
+  "$defs": {
+    "id": {
+      "type": "integer",
+      "minimum": 1,
+      "readOnly": true
+    },
+    "account": {
+      "format": "email",
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 1024
+    },
+    "provider": {
+      "oneOf": [
+        {
+          "format": "uri",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255
+        },
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "operations/{id}.json",
+      "method": "GET",
+      "targetSchema": {
+        "$ref": "#"
+      },
+      "templateRequired": [
+        "id"
+      ]
+    },
+    {
+      "method": "GET",
+      "href": "operations/",
+      "rel": "collection",
+      "targetSchema": {
+        "$ref": "operations.json#"
+      }
+    }
+  ]
+}

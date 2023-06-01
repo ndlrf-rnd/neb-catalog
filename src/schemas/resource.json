@@ -1,0 +1,54 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/resource.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/resources/",
+  "type": "object",
+  "description": "Resource - basic entity kind",
+  "properties": {
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "kind": {
+      "$ref": "#/$defs/kind"
+    },
+    "key": {
+      "$ref": "#/$defs/key"
+    },
+    "time_sys": {
+      "$ref": "time-range.json"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "code",
+    "time_sys"
+  ],
+
+  "links": [
+    {
+      "rel": "self",
+      "href": "resources/{kind}/{source}/{key}.{extension}{?since,until,limit}",
+      "method": "GET",
+      "targetSchema": {
+        "$ref": "#"
+      },
+      "templatePointers": {
+        "kind": "/kind",
+        "source": "/source",
+        "key": "/key",
+
+        "extension": "#/$refs/extension",
+        "since": "#/$refs/since",
+        "until": "#/$refs/until",
+        "limit": "#/$refs/limit"
+      },
+      "templateRequired": [
+        "kind",
+        "source",
+        "key"
+      ]
+    }
+  ]
+}

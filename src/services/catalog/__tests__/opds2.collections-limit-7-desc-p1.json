@@ -1,0 +1,137 @@
+{
+  "links": [
+    {
+      "href": "http://localhost:18080/resources/collection",
+      "rel": "self",
+      "title": "Все записи типа Collection",
+      "type": "application/opds+json"
+    }
+  ],
+  "metadata": {
+    "@id": "http://localhost:18080/resources/collection",
+    "@type": "https://schema.org/Collection",
+    "cursors": {
+      "after": "collection-18",
+      "before": "collection-12"
+    },
+    "identifier": "http://localhost:18080/resources/collection",
+    "name": {
+      "en": "All Collection records",
+      "ru": "Все записи типа Collection"
+    },
+    "numberOfItems": 18,
+    "numberOfPageItems": 7,
+    "order": "desc",
+    "processingTimeSec": 0.01,
+    "title": "Все записи типа Collection",
+    "type": "application/opds+json"
+  },
+  "navigation": [
+    {
+      "href": "http://localhost:18080/resources/collection?extended=1&limit=7&after=collection-12",
+      "rel": "next",
+      "title": "Следующая страница",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kproman",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kproman",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Книги императорского дома Романовых",
+      "numberOfItems": 10,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-18",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1600-01-01 12:00:00",
+        "1917-12-31 12:00:00"
+      ],
+      "title": "Книги императорского дома Романовых",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpregional",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Региональная печать",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-17",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "title": "Региональная печать",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpposter",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpposter",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Российский плакат конца XIX – начала XX вв.",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-16",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1875-01-01 12:00:00",
+        "1924-12-31 12:00:00"
+      ],
+      "title": "Российский плакат конца XIX – начала XX вв.",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kppaleotype",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Палеотипы",
+      "numberOfItems": 10,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-15",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "temporalCoverage": [
+        "1500-01-01 12:00:00",
+        "1549-12-31 12:00:00"
+      ],
+      "title": "Палеотипы",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpnatlang",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Национальные языки",
+      "numberOfItems": 28,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-14",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "title": "Национальные языки",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmusic",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmusic",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Музыкальные ноты",
+      "numberOfItems": 10,
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-13",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "title": "Музыкальные ноты",
+      "type": "application/opds+json"
+    },
+    {
+      "@id": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+      "href": "http://localhost:18080/resources/collection/knpam.rusneb.ru/kpmasterpiece",
+      "modified": "2020-02-02T02:02:02.200Z",
+      "name": "Шедевры",
+      "provider": "rusneb.ru",
+      "rel": "collection item",
+      "serial": "collection-12",
+      "sourceModified": "2020-02-02T02:02:02.200Z",
+      "title": "Шедевры",
+      "type": "application/opds+json"
+    }
+  ]
+}

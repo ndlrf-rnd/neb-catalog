@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: rsl
+      POSTGRES_USER: rsl
+      POSTGRES_DB: rsl
+      PGDATA: /var/lib/postgresql/data
+
+  catalog-service:
+#    restart: always
+    build:
+      context: '.'
+      dockerfile: './Dockerfile'
+      args:
+        BASE_CONTAINER: 'centos:7.6.1810'
+    environment:
+      POSTGRES_HOST: 'localhost'
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: rsl
+      POSTGRES_PASSWORD: rsl
+      POSTGRES_DB: rsl
+      PGDATA: /var/lib/postgresql/data
+    ports:
+      - 8080

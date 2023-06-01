@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  app:
+    image: $CI_REGISTRY_IMAGE/app:$TAG
+    build: .
+    logging: &logging
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "1"

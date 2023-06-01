@@ -1,0 +1,437 @@
+[
+  {
+    "key": "doc781f6lr728p1dgejeyn",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "media_type": "application/atom+xml",
+    "time_source": 1574137786000
+  },
+  {
+    "key": "doc781f6lr728p1dgejeyn",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "time_source": 1574137785000
+  },
+  {
+    "key": "doc781f6l8exdi14t1iweyb",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "media_type": "application/atom+xml",
+    "time_source": 1574137786000
+  },
+  {
+    "key": "doc781f6l8exdi14t1iweyb",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "time_source": 1574137785000
+  },
+  {
+    "key": "doc781ezf7pnc9ymquveyb",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "media_type": "application/atom+xml",
+    "time_source": 1574138238000
+  },
+  {
+    "key": "doc781ezf7pnc9ymquveyb",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "time_source": 1574138237000
+  },
+  {
+    "key": "doc781ezapnonqw9gqneye",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "media_type": "application/atom+xml",
+    "time_source": 1574138238000
+  },
+  {
+    "key": "doc781ezapnonqw9gqneye",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "time_source": 1574138237000
+  },
+  {
+    "key": "doc781ezaree52p2il2eyh",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "media_type": "application/atom+xml",
+    "time_source": 1574138238000
+  },
+  {
+    "key": "doc781ezaree52p2il2eyh",
+    "kind": "instance",
+    "mediaType": "application/atom+xml",
+    "time_source": 1574138237000
+  },
+  [
+    {
+      "key_from": "/dcx_mkrf/documents?doc_ids[]=doc781f6lr728p1dgejeyn&selected_doc_ids[]=doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/document/doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/69/69/file781f6lxp7au6a9t2eyn.pdf",
+      "key_to": "bx700000255.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/files?q[doc_id]=doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_files"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/pubinfos?q[doc_id]=doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_pubinfos"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/doctoutags?q[doc_id]=doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_doctoutags"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/documents?q[related]=1&q[doc_id]=doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_related"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/locks?q[doc_id]=doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_locks"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/comments?q[doc_id]=doc781f6lr728p1dgejeyn",
+      "key_to": "doc781f6lr728p1dgejeyn",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_comments"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/69/69/file781f6lxp7au6a9t2eyn.pdf",
+      "key_to": "bx700000255.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    }
+  ],
+  [
+    {
+      "key_from": "/dcx_mkrf/documents?doc_ids[]=doc781f6l8exdi14t1iweyb&selected_doc_ids[]=doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/document/doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/31/38/file781f6l8kw2hnwgkceyb.pdf",
+      "key_to": "bx000075342.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/files?q[doc_id]=doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_files"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/pubinfos?q[doc_id]=doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_pubinfos"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/doctoutags?q[doc_id]=doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_doctoutags"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/documents?q[related]=1&q[doc_id]=doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_related"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/locks?q[doc_id]=doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_locks"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/comments?q[doc_id]=doc781f6l8exdi14t1iweyb",
+      "key_to": "doc781f6l8exdi14t1iweyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_comments"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/31/38/file781f6l8kw2hnwgkceyb.pdf",
+      "key_to": "bx000075342.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    }
+  ],
+  [
+    {
+      "key_from": "/dcx_mkrf/documents?doc_ids[]=doc781ezf7pnc9ymquveyb&selected_doc_ids[]=doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/document/doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/f8/f9/file781ezf7v4nqjphg5eyb.pdf",
+      "key_to": "rsl01009993952.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/files?q[doc_id]=doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_files"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/pubinfos?q[doc_id]=doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_pubinfos"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/doctoutags?q[doc_id]=doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_doctoutags"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/documents?q[related]=1&q[doc_id]=doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_related"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/locks?q[doc_id]=doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_locks"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/comments?q[doc_id]=doc781ezf7pnc9ymquveyb",
+      "key_to": "doc781ezf7pnc9ymquveyb",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_comments"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/f8/f9/file781ezf7v4nqjphg5eyb.pdf",
+      "key_to": "rsl01009993952.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    }
+  ],
+  [
+    {
+      "key_from": "/dcx_mkrf/documents?doc_ids[]=doc781ezapnonqw9gqneye&selected_doc_ids[]=doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/document/doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/86/0b/file781ezbh5fbptuppeeye.pdf",
+      "key_to": "rsl01009992815.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/files?q[doc_id]=doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_files"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/pubinfos?q[doc_id]=doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_pubinfos"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/doctoutags?q[doc_id]=doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_doctoutags"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/documents?q[related]=1&q[doc_id]=doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_related"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/locks?q[doc_id]=doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_locks"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/comments?q[doc_id]=doc781ezapnonqw9gqneye",
+      "key_to": "doc781ezapnonqw9gqneye",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_comments"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/86/0b/file781ezbh5fbptuppeeye.pdf",
+      "key_to": "rsl01009992815.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    }
+  ],
+  [
+    {
+      "key_from": "/dcx_mkrf/documents?doc_ids[]=doc781ezaree52p2il2eyh&selected_doc_ids[]=doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/document/doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/4b/88/file781ezbss7rm1cc6u5eyh.pdf",
+      "key_to": "rsl01007884776.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/files?q[doc_id]=doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_files"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/pubinfos?q[doc_id]=doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_pubinfos"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/doctoutags?q[doc_id]=doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_doctoutags"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/documents?q[related]=1&q[doc_id]=doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_related"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/locks?q[doc_id]=doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_locks"
+    },
+    {
+      "key_from": "/dcx_mkrf/atom/comments?q[doc_id]=doc781ezaree52p2il2eyh",
+      "key_to": "doc781ezaree52p2il2eyh",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "dcx:document_comments"
+    },
+    {
+      "key_from": "/device_mkrf/dev2/2019/11-19/4b/88/file781ezbss7rm1cc6u5eyh.pdf",
+      "key_to": "rsl01007884776.pdf",
+      "kind_from": "instance",
+      "kind_to": "instance",
+      "relation_kind": "identifies",
+      "source_from": "dc.mkrf.ru"
+    }
+  ]
+]

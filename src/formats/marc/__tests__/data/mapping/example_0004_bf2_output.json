@@ -1,0 +1,134 @@
+{
+  "bf:Work": {
+    "bf:adminMetadata": {
+      "bf:identifiedBy": {
+        "bf:Local": {
+          "bf:assigner": {
+            "bf:Agent": {
+              "rdf:about": "http://id.loc.gov/vocabulary/organizations/RuMoRGB"
+            }
+          },
+          "rdf:value": "003604066"
+        }
+      }
+    },
+    "bf:contribution": [
+      {
+        "@type": "bf:PrimaryContribution",
+        "bf:agent": {
+          "@type": "bf:Person",
+          "bf:date": [
+            "1840",
+            "1895"
+          ],
+          "bflc:name": "Крестовский, Всеволод Владимирович"
+        },
+        "bf:role": {
+          "@id": "http://id.loc.gov/vocabulary/relators/aut",
+          "@type": "bf:Role",
+          "rdfs:label": "Author"
+        }
+      }
+    ],
+    "bf:hasInstance": [
+      {
+        "@type": "bf:instance",
+        "bf:content": {
+          "@id": "http://id.loc.gov/vocabulary/contentTypes/Text",
+          "@type": "bf:Content"
+        },
+        "bf:extent": {
+          "@type": "bf:Note",
+          "rdfs:label": "[6], 277 с."
+        },
+        "item": [
+          {
+            "@type": "bf:Item",
+            "bf:acquisitionSource": [
+              "РГБ",
+              "FB"
+            ],
+            "bf:identifiedBy": [
+              {
+                "@type": "bf:ShelfMark",
+                "rdfs:label": "D 19/220"
+              }
+            ]
+          },
+          {
+            "@type": "bf:Item",
+            "bf:acquisitionSource": [
+              "РГБ",
+              "FB"
+            ],
+            "bf:identifiedBy": [
+              {
+                "@type": "bf:ShelfMark",
+                "rdfs:label": "N 39/472"
+              }
+            ]
+          },
+          {
+            "@type": "bf:Item",
+            "bf:acquisitionSource": [
+              "РГБ",
+              "FB"
+            ],
+            "bf:identifiedBy": [
+              {
+                "@type": "bf:ShelfMark",
+                "rdfs:label": "U 316/89"
+              }
+            ]
+          }
+        ],
+        "bf:hasSeries": [
+          {
+            "@type": "bf:Instance",
+            "bf:title": {
+              "@type": "bf:Title",
+              "bf:CollectiveTitle": "Библиотека современных писателей"
+            }
+          }
+        ],
+        "bf:note": [
+          {
+            "@type": "bf:Note",
+            "bf:noteType": "Reproduction Note",
+            "rdfs:label": "Имеется электронная копия"
+          }
+        ],
+        "bf:provisionActivity": [
+          {
+            "@type": [
+              "bf:Publication",
+              "bf:ProvisionActivity"
+            ],
+            "bf:agent": {
+              "@type": "bf:Agent",
+              "rdfs:label": [
+                "А.Ф. Базунов",
+                "Санкт-Петербург"
+              ]
+            },
+            "bf:date": "1874"
+          }
+        ],
+        "bf:tableOfContents": {
+          "@type": "bf:TableOfContents",
+          "rdfs:label": "Содерж.: От Штаба до зимних квартир. Базарный день и Свислочи. Облава на уток. Буянов - мой сосед"
+        }
+      }
+    ],
+    "bf:language": {
+      "@id": "http://id.loc.gov/vocabulary/languages/",
+      "@type": "bf:Language",
+      "rdfs:label": "rus"
+    },
+    "bf:title": {
+      "@type": "bf:Title",
+      "bf:MainTitle": "Из походных очерков /",
+      "bf:partNumber": "Т. 21"
+    }
+  }
+}

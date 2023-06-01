@@ -1,0 +1,212 @@
+[
+  {
+    "key": "4",
+    "kind": "item",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"item\":{\"conclusion\":\"152.pdf\",\"copy_eid\":\"009987459\",\"created_at\":\"2019-12-25T12:36:12.000Z\",\"criteria_type\":2,\"deleted\":0,\"division_id\":9,\"ec_comment\":\"http://dlib.rsl.ru/rsl01009000000/rsl01009987000/rsl01009987459/rsl01009987459.pdf\",\"has_ec\":1,\"id\":4,\"images\":\"009987459_00.jpg\\t009987459_01.jpg\\t009987459_03.jpg\",\"neb_url\":\"https://kp.rusneb.ru/item/material/5dd3ea4074d5af0dd4567be5\",\"num\":4,\"part_id\":4,\"storage_cypher\":\"G 2/26\",\"system_number\":\"17522-И\",\"updated_at\":\"2019-12-25T08:53:12.000Z\",\"user_id\":26,\"volume\":\"XX, 492 с.\"},\"part\":{\"date_notsure\":0,\"id\":4,\"illustrations\":\"ил., табл.\",\"item_id\":2,\"place_notsure\":0,\"title\":\"Th. 1\",\"volume\":\"XX, 492 с.\"},\"instance\":{\"author_other\":\"von August Freiherrn von Haxthausen\",\"author_search\":\"Haxthausen, August von , \",\"author_yearsoflife\":\"1792-1866\",\"author_yearsoflife_notsure\":0,\"author_yearsoflife_params\":{\"radio\":1,\"year1\":\"1792\",\"year2\":\"1866\"},\"created_at\":\"2019-12-25T12:36:12.000Z\",\"date\":\"1847-1852\",\"date_notsure\":0,\"date_params\":{\"radio\":3,\"descr\":\"1847-1852\"},\"deleted\":0,\"doc_type\":28,\"id\":2,\"language\":\"ger\",\"part_type\":1,\"place\":\"Hannover\",\"place_notsure\":0,\"publisher\":\"in der Hahn'schen Volksbuchh.\",\"size\":\"21 см\",\"title_full\":\"Studien über die innern Zustände, das Volksleben und insbesondere die ländlichen Einrichtungen Russlands\",\"title_full_notsure\":0,\"type\":2,\"updated_at\":\"2019-12-25T12:36:12.000Z\",\"user_id\":26},\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"division\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"group\":{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2019-12-25T08:53:12.000Z"
+  },
+  {
+    "key_from": "26",
+    "key_to": "4",
+    "kind_from": "organization",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key": "26",
+    "kind": "organization",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key_from": "28",
+    "key_to": "4",
+    "kind_from": "group",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru"
+  },
+  {
+    "key": "28",
+    "kind": "group",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}",
+    "source": "knpam.rusneb.ru"
+  },
+  {
+    "key": "5",
+    "kind": "item",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"item\":{\"conclusion\":\"152.pdf\",\"copy_eid\":\"009987466\",\"created_at\":\"2019-12-25T12:36:12.000Z\",\"criteria_type\":2,\"deleted\":0,\"division_id\":9,\"ec_comment\":\"http://dlib.rsl.ru/rsl01009000000/rsl01009987000/rsl01009987466/rsl01009987466.pdf\",\"has_ec\":1,\"id\":5,\"images\":\"009987466_01.jpg\\t009987466_02.jpg\",\"neb_url\":\"https://kp.rusneb.ru/item/material/5dd3ea4074d5af0dd4567be2\",\"num\":5,\"part_id\":5,\"storage_cypher\":\"G 2/26\",\"system_number\":\"17523-И\",\"updated_at\":\"2019-12-25T08:53:12.000Z\",\"user_id\":26,\"volume\":\"VIII, 640 с.\"},\"part\":{\"date_notsure\":0,\"id\":5,\"illustrations\":\"табл.\",\"item_id\":2,\"place_notsure\":0,\"title\":\"Th. 3\",\"volume\":\"VIII, 640 с.\"},\"instance\":{\"author_other\":\"von August Freiherrn von Haxthausen\",\"author_search\":\"Haxthausen, August von , \",\"author_yearsoflife\":\"1792-1866\",\"author_yearsoflife_notsure\":0,\"author_yearsoflife_params\":{\"radio\":1,\"year1\":\"1792\",\"year2\":\"1866\"},\"created_at\":\"2019-12-25T12:36:12.000Z\",\"date\":\"1847-1852\",\"date_notsure\":0,\"date_params\":{\"radio\":3,\"descr\":\"1847-1852\"},\"deleted\":0,\"doc_type\":28,\"id\":2,\"language\":\"ger\",\"part_type\":1,\"place\":\"Hannover\",\"place_notsure\":0,\"publisher\":\"in der Hahn'schen Volksbuchh.\",\"size\":\"21 см\",\"title_full\":\"Studien über die innern Zustände, das Volksleben und insbesondere die ländlichen Einrichtungen Russlands\",\"title_full_notsure\":0,\"type\":2,\"updated_at\":\"2019-12-25T12:36:12.000Z\",\"user_id\":26},\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"division\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"group\":{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2019-12-25T08:53:12.000Z"
+  },
+  {
+    "key_from": "26",
+    "key_to": "5",
+    "kind_from": "organization",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key": "26",
+    "kind": "organization",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key_from": "28",
+    "key_to": "5",
+    "kind_from": "group",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru"
+  },
+  {
+    "key": "28",
+    "kind": "group",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}",
+    "source": "knpam.rusneb.ru"
+  },
+  {
+    "key": "6",
+    "kind": "item",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"item\":{\"conclusion\":\"152.pdf\",\"copy_eid\":\"003389562\",\"created_at\":\"2019-12-25T12:36:12.000Z\",\"criteria_type\":2,\"deleted\":0,\"ec_comment\":\"http://dlib.rsl.ru/rsl01003000000/rsl01003389000/rsl01003389562/rsl01003389562.pdf\",\"has_ec\":1,\"id\":6,\"images\":\"003389562_00.jpg\\t003389562_01.jpg\\t003389562_03.jpg\",\"neb_url\":\"https://kp.rusneb.ru/item/material/5dd3ea5274d5af0dd4568668\",\"num\":6,\"part_id\":6,\"storage_cypher\":\"G 2/26\",\"system_number\":\"17521-И\",\"updated_at\":\"2019-12-25T08:53:12.000Z\",\"user_id\":26,\"volume\":\"584 с.\"},\"part\":{\"date_notsure\":0,\"id\":6,\"illustrations\":\"ил., нот. ил.\",\"item_id\":2,\"place_notsure\":0,\"title\":\"Th. 2\",\"volume\":\"584 с.\"},\"instance\":{\"author_other\":\"von August Freiherrn von Haxthausen\",\"author_search\":\"Haxthausen, August von , \",\"author_yearsoflife\":\"1792-1866\",\"author_yearsoflife_notsure\":0,\"author_yearsoflife_params\":{\"radio\":1,\"year1\":\"1792\",\"year2\":\"1866\"},\"created_at\":\"2019-12-25T12:36:12.000Z\",\"date\":\"1847-1852\",\"date_notsure\":0,\"date_params\":{\"radio\":3,\"descr\":\"1847-1852\"},\"deleted\":0,\"doc_type\":28,\"id\":2,\"language\":\"ger\",\"part_type\":1,\"place\":\"Hannover\",\"place_notsure\":0,\"publisher\":\"in der Hahn'schen Volksbuchh.\",\"size\":\"21 см\",\"title_full\":\"Studien über die innern Zustände, das Volksleben und insbesondere die ländlichen Einrichtungen Russlands\",\"title_full_notsure\":0,\"type\":2,\"updated_at\":\"2019-12-25T12:36:12.000Z\",\"user_id\":26},\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"division\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"group\":{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2019-12-25T08:53:12.000Z"
+  },
+  {
+    "key_from": "26",
+    "key_to": "6",
+    "kind_from": "organization",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key": "26",
+    "kind": "organization",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key_from": "28",
+    "key_to": "6",
+    "kind_from": "group",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru"
+  },
+  {
+    "key": "28",
+    "kind": "group",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}",
+    "source": "knpam.rusneb.ru"
+  },
+  {
+    "key": "10662",
+    "kind": "item",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"item\":{\"conclusion\":\"Призыв-10.pdf\",\"copy_eid\":\"012128053\",\"created_at\":\"2020-08-21T12:28:33.000Z\",\"criteria_type\":2,\"deleted\":0,\"division_id\":8,\"ec_type\":4,\"fullness\":\"47\",\"has_ec\":0,\"id\":10666,\"images\":\"lk000010519_0001.jpg\",\"num\":10662,\"part_id\":10595,\"size\":\"30х45 см\",\"storage_cypher\":\"II Л3-330пр./14/3-9\",\"system_number\":\"Лл 1799\",\"updated_at\":\"2020-08-21T12:28:33.000Z\",\"user_id\":26,\"volume\":\"1 л.\"},\"part\":{\"date_notsure\":0,\"id\":10595,\"item_id\":10014,\"place_notsure\":0},\"instance\":{\"author_yearsoflife_notsure\":0,\"created_at\":\"2020-08-21T12:28:33.000Z\",\"date\":\"1945\",\"date_from\":1945,\"date_notsure\":1,\"date_params\":{\"radio\":\"1\",\"year1\":\"1945\"},\"date_till\":1945,\"deleted\":0,\"doc_type\":28,\"id\":10014,\"info\":\"Заказ 2899\",\"language\":\"русский\",\"part_type\":0,\"place\":\"Ленинград\",\"place_notsure\":1,\"publisher\":\"Лениздат : ТЛ-1\",\"size\":\"30х45 см\",\"state\":0,\"title_comment\":\"[призыв]\",\"title_full\":\"Рабочие и работницы, инженеры и техники предприятий, изготовляющих вооружение и боеприпасы! Своевременно обеспечивайте Красную Армию орудиями, минометами, пулеметами, автоматами, снарядами, боеприпасами! Улучшайте качество вооружения!\",\"title_full_notsure\":0,\"type\":2,\"updated_at\":\"2020-08-21T12:28:33.000Z\",\"user_id\":26,\"volume\":\"1 л.\"},\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"division\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"group\":{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2020-08-21T12:28:33.000Z"
+  },
+  {
+    "key_from": "26",
+    "key_to": "10662",
+    "kind_from": "organization",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key": "26",
+    "kind": "organization",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key_from": "28",
+    "key_to": "10662",
+    "kind_from": "group",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru"
+  },
+  {
+    "key": "28",
+    "kind": "group",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"id\":28,\"type\":4,\"value\":\"Текст\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":28}",
+    "source": "knpam.rusneb.ru"
+  },
+  {
+    "key": "11767",
+    "kind": "item",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"item\":{\"attrs\":[{\"location\":\"На обороте в правом нижнем углу имеются служебные пометы \"},{\"location\":\"На обороте в левом верхнем углу имеются служебные пометы \"}],\"conclusion\":\"28-ИЗО.pdf\",\"copy_eid\":\"010114734\",\"created_at\":\"2020-09-01T12:19:29.000Z\",\"criteria_type\":2,\"deleted\":0,\"division_id\":7,\"fullness\":\"47\",\"has_ec\":0,\"id\":11771,\"images\":\"010114734.jpg\",\"num\":11767,\"part_id\":11687,\"safety\":\"Лист реставрирован\",\"signs\":[{\"type\":\"50\",\"location\":\"На обороте в правом нижнем углу\",\"owner\":\"Российская государственная библиотека (\\\"P0\\\", \\\"Инв. МК\\\")\"},{\"type\":\"50\",\"location\":\"На обороте в левой части листа\",\"owner\":\"Российская государственная библиотека (\\\"Листовые материалы\\\")\"}],\"size\":\"72 х 105 см. \",\"storage_cypher\":\"P0 I №14/4\",\"system_number\":\"258-38изо\",\"updated_at\":\"2020-09-01T12:19:29.000Z\",\"user_id\":26,\"volume\":\"1 л.\"},\"part\":{\"date_notsure\":0,\"id\":11687,\"item_id\":11106,\"place_notsure\":0},\"instance\":{\"author_yearsoflife_notsure\":0,\"created_at\":\"2020-09-01T12:19:29.000Z\",\"date\":\"1904\",\"date_from\":1904,\"date_notsure\":0,\"date_params\":{\"radio\":\"1\",\"year1\":\"1904\"},\"date_till\":1904,\"deleted\":0,\"doc_type\":29,\"id\":11106,\"illustrations\":\"цинкогр.\",\"language\":\"Русский\",\"part_type\":0,\"place\":\"С.-Петербург\",\"place_notsure\":0,\"publisher\":\"Художественная Типо-Литография А. К. Вейерман, иждивением Е.[мельяна] В.[ильковского]\",\"size\":\"72 х 105 см. \",\"state\":0,\"title_comment\":\"[плакат]\",\"title_full\":\"Открыта подписка на 1905 год на ежедневную политическую и литературную газету \\\"Сын Отечества\\\". Открыта подписка на ежедневную безцензурную газету \\\"Наши дни\\\"...\",\"title_full_notsure\":0,\"type\":2,\"updated_at\":\"2020-09-01T12:19:29.000Z\",\"user_id\":26,\"volume\":\"1 л.\"},\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"division\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"},\"group\":{\"id\":29,\"type\":4,\"value\":\"Изоматериал\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":29}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2020-09-01T12:19:29.000Z"
+  },
+  {
+    "key_from": "26",
+    "key_to": "11767",
+    "kind_from": "organization",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key": "26",
+    "kind": "organization",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"organization\":{\"created_at\":\"2019-10-02T04:48:23.000Z\",\"email\":\"khorobrykhsi@rsl.ru\",\"email_official\":\"nbros@rsl.ru\",\"fact_city\":\"Москва\",\"fact_house\":\"3/5\",\"fact_index\":\"119019\",\"fact_region\":133,\"fact_street\":\"Воздвиженка, ул.\",\"group_id\":26,\"id\":26,\"inn\":\"7704097560\",\"last_entry\":\"2019-10-02T04:50:47.000Z\",\"legal_city\":\"Москва, г.\",\"legal_house\":\"3/5\",\"legal_index\":\"119019\",\"legal_region\":133,\"legal_street\":\"Воздвиженка, ул.\",\"opf\":\"Федеральное государственное бюджетное учреждение\",\"org_fio\":\"Дуда Вадим Валерьевич\",\"org_name\":\"Федеральное государственное бюджетное учреждение «Российская государственная библиотека»\",\"org_position\":\"Генеральный директор\",\"phones\":\"+7 (499) 557-04-70\",\"role\":3,\"status\":1,\"type\":1,\"updated_at\":\"2020-08-31T07:39:17.000Z\"}}",
+    "source": "knpam.rusneb.ru",
+    "time_source": "2020-08-31T07:39:17.000Z"
+  },
+  {
+    "key_from": "29",
+    "key_to": "11767",
+    "kind_from": "group",
+    "kind_to": "item",
+    "relation_kind": "hasItem",
+    "source_from": "knpam.rusneb.ru",
+    "source_to": "knpam.rusneb.ru"
+  },
+  {
+    "key": "29",
+    "kind": "group",
+    "media_type": "application/vnd.rusneb.knpam+json",
+    "record": "{\"id\":29,\"type\":4,\"value\":\"Изоматериал\",\"from\":\"\",\"till\":\"\",\"new\":0,\"pos\":29}",
+    "source": "knpam.rusneb.ru"
+  }
+]

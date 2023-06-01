@@ -1,0 +1,41 @@
+body {
+    line-height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+body,
+body * {
+    box-sizing: border-box;
+}
+
+
+/*.auto-former {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 1fr);*/
+/*    grid-gap: 10px;*/
+/*    grid-auto-rows: 100px;*/
+/*}*/
+
+.auto-former.block,
+.auto-former .block {
+    display: block;
+    margin: 0;
+    margin-left: 1rem;
+    border: 1px solid red;
+}
+
+.auto-former .expand {
+    cursor: pointer;
+}
+
+.auto-former .title {
+    border: 1px solid blue;
+    white-space: nowrap;
+}
+
+.auto-former .children {
+    border: 1px solid gray;
+    /*margin-left: 1rem;*/
+    white-space: nowrap;
+}

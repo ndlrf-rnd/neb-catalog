@@ -1,0 +1,232 @@
+[
+  {
+    "@graph": {
+      "bf:Work": {
+        "bf:adminMetadata": {
+          "bf:identifiedBy": {
+            "bf:Local": {
+              "bf:assigner": {
+                "bf:Agent": {
+                  "rdf:about": "http://id.loc.gov/vocabulary/organizations/rumorgb.html"
+                }
+              },
+              "rdf:value": "002986648"
+            }
+          }
+        },
+        "bf:citationWithinSource": {
+          "bf:citationCoverage": {
+            "@type": "bf:Temporal"
+          },
+          "bf:citationLocationWithinSource": "615",
+          "bf:citationSource": {
+            "@type": "bf:Title",
+            "bf:KeyTitle": "Сводный каталог русской книги 1801-1825 гг."
+          }
+        },
+        "bf:contribution": [
+          {
+            "@type": "bf:Contribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bf:date": [
+                "1782",
+                "1867"
+              ],
+              "bflc:name": "Филарет митрополит Московский и Коломенский"
+            },
+            "bf:role": {
+              "@id": "http://id.loc.gov/vocabulary/relators/com",
+              "@type": "bf:Role",
+              "rdfs:label": "сост."
+            }
+          },
+          {
+            "@type": "bf:Contribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bf:date": [
+                "1757",
+                "1843"
+              ],
+              "bflc:name": "Серафим митр. Новгородский, Санкт-Петербургский, Эстляндский и Финляндский"
+            },
+            "bf:role": {
+              "@id": "http://id.loc.gov/vocabulary/relators/",
+              "@type": "bf:Role",
+              "rdfs:label": "сост."
+            }
+          },
+          {
+            "@type": "bf:Contribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bf:date": [
+                "1761",
+                "1821"
+              ],
+              "bflc:name": "Михаил митр. Санкт-Петербургский, Эстляндский, Финляндский и Новгородский"
+            },
+            "bf:role": {
+              "@id": "http://id.loc.gov/vocabulary/relators/",
+              "@type": "bf:Role",
+              "rdfs:label": "сост."
+            }
+          },
+          {
+            "@type": "bf:Contribution",
+            "bf:agent": {
+              "@type": "bf:Person",
+              "bflc:name": "Ренни, Э."
+            },
+            "bf:role": {
+              "@id": "http://id.loc.gov/vocabulary/relators/cns",
+              "@type": "bf:Role",
+              "rdfs:label": "цензор"
+            }
+          }
+        ],
+        "bf:hasInstance": [
+          {
+            "@type": "bf:instance",
+            "bf:content": {
+              "@id": "http://id.loc.gov/vocabulary/contentTypes/Text",
+              "@type": "bf:Content"
+            },
+            "bf:editionStatement": "Третием тиснением",
+            "bf:extent": {
+              "@type": "bf:Note",
+              "rdfs:label": "VI, [2], 818 с."
+            },
+            "item": [
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:Barcode",
+                    "rdfs:label": "XIX-1800"
+                  },
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "MK XIX/8°Б-"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "MK"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:Barcode",
+                    "rdfs:label": "XIX-4471"
+                  },
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "MK XIX/8°-Б"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "MK"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:Barcode",
+                    "rdfs:label": "XIX-2817"
+                  },
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "MK XIX/8°-Б"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "MK"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "F 71/757"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "FB"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "20 48/33"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "FB"
+              },
+              {
+                "@type": "bf:Item",
+                "bf:identifiedBy": [
+                  {
+                    "@type": "bf:ShelfMark",
+                    "rdfs:label": "20 48/190"
+                  }
+                ],
+                "bf:location": "http://id.loc.gov/vocabulary/organizations/rumorgb.html",
+                "bf:subLocation": "FB"
+              }
+            ],
+            "bf:note": [
+              {
+                "@type": "bf:Note",
+                "bf:noteType": "description",
+                "rdfs:label": [
+                  "На с. III - VI предисл.: Возглашение к христолюбивым читателям, напечатанное при первом издании Евангелия на руском наречии. В конце предисл. подписи митр. Михаила, Серафима и архиеп. Филарета.",
+                  "На об. тит. л. изд. марка Рос. библ. о-ва.",
+                  "Экз. РГБ в изд. кож. подпис. пер. с суперэкслибрисом Рос. библ. о-ва работы Э. Ренни.",
+                  "Цена: в пер. 4 р.",
+                  "Тираж 10 тыс. экз.",
+                  "Напеч. со стереотипов."
+                ]
+              },
+              {
+                "@type": "bf:Note",
+                "bf:noteType": "Reproduction Note",
+                "rdfs:label": "Имеется электронная копия"
+              }
+            ],
+            "bf:provisionActivity": [
+              {
+                "@type": [
+                  "bf:Publication",
+                  "bf:ProvisionActivity"
+                ],
+                "bf:agent": {
+                  "@type": "bf:Agent",
+                  "rdfs:label": [
+                    "В типографии Российскаго библейскаго общества",
+                    "Санктпетербург"
+                  ]
+                },
+                "bf:date": "1822"
+              }
+            ]
+          }
+        ],
+        "bf:language": {
+          "@id": "http://id.loc.gov/vocabulary/languages/",
+          "@type": "bf:Language",
+          "rdfs:label": "rus"
+        },
+        "bf:title": {
+          "@type": "bf:Title",
+          "bf:KeyTitle": "Библия",
+          "bf:MainTitle": "Господа нашего Иисуса Христа Новый Завет, На славянском и руском языке.",
+          "bf:partName": "Н. З."
+        }
+      }
+    }
+  }
+]

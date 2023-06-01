@@ -1,0 +1,133 @@
+(
+  $mmoakPublicationTypeMap := function($contentLabel) {
+    [
+      $lookup(
+        {
+          "book/album": "Книга",
+          "book/dissert": "Диссертация/Авторефетрат",
+          "book/graphic":  "Изображение",
+          "book/manuscript": "Рукопись",
+          "book/multivol": "Книга",
+          "book/music": "Книга",
+          "book/outline": "Книга",
+          "book/rare": "Книга",
+          "book/science": "Диссертация/Автореферат",
+          "book/symposium": "Книга",
+          "book/tech": "Диссертация/Автореферат",
+          "book/text": "Книга",
+          "other/book": "Книга",
+          "other/exhibitions": "Иллюстрированный каталог",
+          "other/images": "Изображение",
+          "other/text": "Книга",
+          "cartographic/atlas": "Изображение",
+          "cartographic/map": "Изображение",
+          "cartographic/plan": "Изображение",
+          "cartographic/text": "Изображение",
+          "leaflet/collection": "Изображение",
+          "leaflet/engrave": "Изображение",
+          "leaflet/leaflet": "Изображение",
+          "leaflet/manuscript": "Рукопись",
+          "leaflet/music": "Другое",
+          "leaflet/photo": "Изображение",
+          "leaflet/picture": "Изображение",
+          "leaflet/placard": "Изображение",
+          "leaflet/plate": "Изображение",
+          "leaflet/postcard": "Изображение",
+          "periodic/article": "Периодика",
+          "periodic/magazine": "Периодика",
+          "periodic/newspaper": "Периодика"
+        },
+        $lowercase($contentLabel)
+      ),
+      $lowercase($contentLabel)
+    ][0]
+  };
+  $mapOrganization := function($str) {
+    [
+      $lookup(
+        {
+          "RGB": "ФГБУ \"Российская государственная библиотека\"",
+          "RUMORGB": "ФГБУ \"Российская государственная библиотека\"",
+          "РГБ": "ФГБУ \"Российская государственная библиотека\"",
+
+          "NLR": "ФГБУ \"Российская национальная библиотека\"",
+          "RUSPNLR": "ФГБУ \"Российская национальная библиотека\"",
+          "РНБ": "ФГБУ \"Российская национальная библиотека\""
+        },
+        $uppercase($str)
+      ),
+      $str
+    ][0]
+  };
+  {
+    "head": $merge(
+      [
+        {
+          "Type": xml.entry.document.head.Type[0],
+          "Owner": xml.entry.document.head.Owner[0],
+          "Hotfolder": xml.entry.document.head.Hotfolder[0],
+          "DateImported": xml.entry.document.head.DateImported[0],
+          "Filename": xml.entry.document.head.Filename[0],
+          "CharCount": xml.entry.document.head.CharCount[0],
+          "WordCount": xml.entry.document.head.WordCount[0]
+        },
+        {
+          "Title": metadata.title.{"_text": $},
+          "TitleNote": metadata.subtitle.{
+            "_text": $replace($, /[\[\]]+/, '')
+          },
+          "Updated": metadata.updated.{"_text": $},
+          "Creator": metadata.author.{
+             "_text": ($.birthDate or $.deathDate)
+                ? $join([
+                    $.relTerm.ru ? $.relTerm.ru : $.relTerm,
+                    $.name, "(" & $.birthDate & "-" & $.deathDate & ")"
+                  ], " ")
+                : $.name,
+             "_attributes": {"rel": $.relCode ? $.relCode : "aut"}
+          },
+          "PublishingHouse": metadata.publisher.name.{"_text": $replace($, /[\[\]]+/, "")},
+          "City": metadata.publisher.addressLocality.{"_text": $},
+          "CopyrightNotice": metadata.[
+            $.responsibilityNotes.{"_text": $replace($, /[\[\]]+/, "")},
+            $.contributor.{
+              "_text": $.birthDate or $.deathDate
+                ? $join([$.relCode, $.name, "(" & $.birthDate & "-" & $.deathDate & ")"], " ")
+                : $.name,
+              "_attributes": {"rel": $.relCode ? $.relCode : "aut"}
+            }
+          ],
+          "CreatedDate": metadata.published ? { "_text": metadata.published } : undefined,
+          "VolumeEdition": [
+            metadata.belongsTo.series ? $join(metadata.belongsTo.series, ", ") : undefined,
+            metadata.nameOfWorkPart,
+            metadata.numberOfWorkPart,
+            metadata.numberOfPages ? metadata.numberOfPages & " стр." : ''
+          ],
+          "StorageCode": $.metadata.collection.$join([
+                organization.en ? organization.en : organization,
+                $trim($.shelfMark)
+              ], ": ")[$]. {"_text": $},
+          "ArchiveLocation": metadata.collection.organization.[$.ru ? $.ru : $.en]{"_text": $mapOrganization($[0])},
+          "Description": metadata.description.{ "_text": $ },
+          "CategoryInformation": {
+            "_attributes": {
+              "topic": "ci_electronicimage"
+            },
+            "_text": "Цифровой образ"
+          },
+          "ObjectType": {
+            "_attributes": {"topic": "objecttype_bookmonuments"},
+            "_text": "Книжные памятники"
+          },
+          "PublicationType": $mmoakPublicationTypeMap(metadata.content.en ? metadata.content.en : metadata.content),
+          "StateContractNo": contract.no.{"_text": $},
+          "StateContractDate": contract.date.{"_text": $},
+          "StateContractContractor": contract.contractor.{"_text": $},
+          "Rights_Owns": rights.owns.{"_attributes": {"topic": "rights_owns-2-3"}, "_text": $},
+          "Rights_Uses": rights.uses.{"_attributes": {"topic": "rights_uses-freeforweb"}, "_text": $}
+        }
+      ]
+    )
+  }
+)

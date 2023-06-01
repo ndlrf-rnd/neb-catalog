@@ -1,0 +1,259 @@
+{
+  "leader": "00822nas1 22002411i 450 ",
+  "controlfield": [
+    {
+      "tag": "001",
+      "value": "RU\\NLR\\INFOCOMM_41\\5000065581"
+    },
+    {
+      "tag": "005",
+      "value": "20060203122838.2"
+    }
+  ],
+  "datafield": [
+    {
+      "tag": "100",
+      "ind1": "#",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "20060203b17901727|||y0rusy50      ba"
+        }
+      ]
+    },
+    {
+      "tag": "101",
+      "ind1": "0",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "ger"
+        }
+      ]
+    },
+    {
+      "tag": "102",
+      "ind1": "#",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "DE"
+        }
+      ]
+    },
+    {
+      "tag": "110",
+      "ind1": "#",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "zyuz|||0|y|"
+        }
+      ]
+    },
+    {
+      "tag": "200",
+      "ind1": "1",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "Neues Journal der Physik"
+        },
+        {
+          "code": "f",
+          "value": "Hrsg. von C. Gren, D.F. Albrecht"
+        }
+      ]
+    },
+    {
+      "tag": "207",
+      "ind1": "#",
+      "ind2": "0",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "Bd. 1-"
+        }
+      ]
+    },
+    {
+      "tag": "210",
+      "ind1": "#",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "Leipzig"
+        },
+        {
+          "code": "c",
+          "value": "J.A. Barth"
+        },
+        {
+          "code": "d",
+          "value": "1790-1727"
+        }
+      ]
+    },
+    {
+      "tag": "311",
+      "ind1": "#",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "Изд. прекращено в 1798 г., взамен него выходит Annalen der Physik"
+        }
+      ]
+    },
+    {
+      "tag": "430",
+      "ind1": "#",
+      "ind2": "0",
+      "subfield": [
+        {
+          "code": "1",
+          "value": "2001"
+        },
+        {
+          "code": "a",
+          "value": "Journal der Physik"
+        }
+      ]
+    },
+    {
+      "tag": "442",
+      "ind1": "#",
+      "ind2": "0",
+      "subfield": [
+        {
+          "code": "1",
+          "value": "2001"
+        },
+        {
+          "code": "a",
+          "value": "Annalen der Physik"
+        }
+      ]
+    },
+    {
+      "tag": "702",
+      "ind1": "#",
+      "ind2": "1",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "Gren"
+        },
+        {
+          "code": "b",
+          "value": "C."
+        },
+        {
+          "code": "g",
+          "value": "Carl"
+        },
+        {
+          "code": "4",
+          "value": "340"
+        }
+      ]
+    },
+    {
+      "tag": "702",
+      "ind1": "#",
+      "ind2": "1",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "Albrecht"
+        },
+        {
+          "code": "b",
+          "value": "D.F."
+        },
+        {
+          "code": "g",
+          "value": "D. Freidrich"
+        },
+        {
+          "code": "4",
+          "value": "340"
+        }
+      ]
+    },
+    {
+      "tag": "801",
+      "ind1": "#",
+      "ind2": "1",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "RU"
+        },
+        {
+          "code": "b",
+          "value": "InfoComm"
+        },
+        {
+          "code": "c",
+          "value": "20060203"
+        }
+      ]
+    },
+    {
+      "tag": "801",
+      "ind1": "#",
+      "ind2": "0",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "RU"
+        },
+        {
+          "code": "b",
+          "value": "NLR"
+        },
+        {
+          "code": "g",
+          "value": "PSBO"
+        }
+      ]
+    },
+    {
+      "tag": "852",
+      "ind1": "#",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "NLR"
+        },
+        {
+          "code": "j",
+          "value": "P7/741"
+        }
+      ]
+    },
+    {
+      "tag": "931",
+      "ind1": "#",
+      "ind2": "#",
+      "subfield": [
+        {
+          "code": "a",
+          "value": "1790-1794 Journal der Physik"
+        },
+        {
+          "code": "a",
+          "value": "1795-1797 Neues Journal der Physik"
+        }
+      ]
+    }
+  ]
+}

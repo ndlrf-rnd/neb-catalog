@@ -1,0 +1,2874 @@
+{
+  "oneOf": [
+    {
+      "title": "Map",
+      "type": "object",
+      "properties": {
+        "04": {
+          "description": "Physical medium",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "i",
+            "j",
+            "l",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "y",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Paper",
+            "Wood",
+            "Stone",
+            "Metal",
+            "Synthetic",
+            "Skin",
+            "Textiles",
+            "Plastic",
+            "Glass",
+            "Vinyl",
+            "Vellum",
+            "Plaster",
+            "Flexible base photographic, positive",
+            "Flexible base photographic, negative",
+            "Non-flexible base photographic, positive",
+            "Non-flexible base photographic, negative",
+            "Unknown",
+            "Leather",
+            "Parchment",
+            "Other photographic medium",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "a",
+            "c",
+            "|"
+          ],
+          "enumDescription": [
+            "One color",
+            "Multicolored",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "a"
+          ],
+          "enumDescription": [
+            "Map"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "d",
+            "g",
+            "j",
+            "k",
+            "q",
+            "r",
+            "s",
+            "u",
+            "y",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Atlas",
+            "Diagram",
+            "Map",
+            "Profile",
+            "Model",
+            "Remote-sensing image",
+            "Section",
+            "Unspecified",
+            "View",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "description": "Type of reproduction",
+          "type": "string",
+          "enum": [
+            "f",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Facsimile",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "07": {
+          "description": "Positive/negative aspect",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "m",
+            "n",
+            "|"
+          ],
+          "enumDescription": [
+            "Positive",
+            "Negative",
+            "Mixed polarity",
+            "Not applicable",
+            "No attempt to code"
+          ]
+        },
+        "06": {
+          "description": "Production/reproduction details",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Photocopy, blueline print",
+            "Photocopy",
+            "Pre-production",
+            "Film",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "electronic Resource",
+      "type": "object",
+      "properties": {
+        "10": {
+          "description": "Quality assurance target(s)",
+          "type": "string",
+          "enum": [
+            "a",
+            "n",
+            "p",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Absent",
+            "Not applicable",
+            "Present",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "11": {
+          "description": "Antecedent/Source",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "m",
+            "n",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "File reproduced from original",
+            "File reproduced from microform",
+            "File reproduced from an electronic resource",
+            "File reproduced from an intermediate (not microform)",
+            "Mixed",
+            "Not applicable",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "12": {
+          "description": "Level of compression",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "d",
+            "m",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Uncompressed",
+            "Lossless",
+            "Lossy",
+            "Mixed",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "13": {
+          "description": "Reformatting Quality",
+          "type": "string",
+          "enum": [
+            "a",
+            "n",
+            "p",
+            "r",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Access",
+            "Not applicable",
+            "Preservation",
+            "Replacement",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "c"
+          ],
+          "enumDescription": [
+            "electronic resource"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "h",
+            "j",
+            "k",
+            "m",
+            "o",
+            "r",
+            "s",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Tape cartridge",
+            "Chip cartridge",
+            "Computer optical disc cartridge",
+            "Computer disc, type unspecified",
+            "Computer disc cartridge, type unspecified",
+            "Tape cassette",
+            "Tape reel",
+            "Magnetic disk",
+            "Computer card",
+            "Magneto-optical disc",
+            "Optical disc",
+            "Remote",
+            "Standalone device",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "g",
+            "m",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "One color",
+            "Black-and-white",
+            "Multicolored",
+            "Gray scale",
+            "Mixed",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "04": {
+          "description": "Dimensions",
+          "type": "string",
+          "enum": [
+            "a",
+            "e",
+            "g",
+            "i",
+            "j",
+            "n",
+            "o",
+            "u",
+            "v",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "3 1/2 in.",
+            "12 in.",
+            "4 3/4 in. or 12 cm.",
+            "1 1/8 x 2 3/8 in.",
+            "3 7/8 x 2 1/2 in.",
+            "Not applicable",
+            "5 1/4 in.",
+            "Unknown",
+            "8 in.",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "oneOf": [
+            {
+              "title": "No sound (silent)",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Sound",
+              "type": "string",
+              "enum": [
+                "a",
+                "u",
+                "|"
+              ],
+              "enumDescription": [
+                "Sound",
+                "Unknown",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "06-08": {
+          "oneOf": [
+            {
+              "title": "Exact bit depth",
+              "type": "string",
+              "pattern": "^[0-9]{3}$"
+            },
+            {
+              "description": "Image bit depth",
+              "type": "string",
+              "enum": [
+                "---",
+                "mmm",
+                "nnn",
+                "|||"
+              ],
+              "enumDescription": [
+                "Unknown",
+                "Multiple",
+                "Not applicable",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "09": {
+          "description": "File formats",
+          "type": "string",
+          "enum": [
+            "a",
+            "m",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "One file format",
+            "Multiple file formats",
+            "Unknown",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Globe",
+      "type": "object",
+      "properties": {
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "a",
+            "c",
+            "|"
+          ],
+          "enumDescription": [
+            "One color",
+            "Multicolored",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "d"
+          ],
+          "enumDescription": [
+            "Globe"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "e",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Celestial globe",
+            "Planetary or lunar globe",
+            "Terrestrial globe",
+            "Earth moon globe",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "04": {
+          "description": "Physical medium",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "i",
+            "l",
+            "n",
+            "p",
+            "u",
+            "v",
+            "w",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Paper",
+            "Wood",
+            "Stone",
+            "Metal",
+            "Synthetic",
+            "Skin",
+            "Textile",
+            "Plastic",
+            "Vinyl",
+            "Vellum",
+            "Plaster",
+            "Unknown",
+            "Leather",
+            "Parchment",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "description": "Type of reproduction",
+          "type": "string",
+          "enum": [
+            "f",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Facsimile",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Tactile Material",
+      "type": "object",
+      "properties": {
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03-04": {
+          "oneOf": [
+            {
+              "title": "No specified class of braille writing",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Class of braille writing",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "m",
+                "n",
+                "u",
+                "z",
+                "||"
+              ],
+              "enumDescription": [
+                "Literary braille",
+                "Format code braille",
+                "Mathematics and scientific braille",
+                "Computer braille",
+                "Music braille",
+                "Multiple braille types",
+                "Not applicable",
+                "Unknown",
+                "Other",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "f"
+          ],
+          "enumDescription": [
+            "Tactile material"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Moon",
+            "Braille",
+            "Combination",
+            "Tactile, with no writing system",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "description": "Level of contraction",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "m",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Uncontracted",
+            "Contracted",
+            "Combination",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "09": {
+          "description": "Special physical characteristics",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Print/braille",
+            "Jumbo or enlarged braille",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "06-08": {
+          "oneOf": [
+            {
+              "title": "No specified braille music format",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Braille music format",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "j",
+                "k",
+                "l",
+                "n",
+                "u",
+                "z",
+                "|||"
+              ],
+              "enumDescription": [
+                "Bar over bar",
+                "Bar by bar",
+                "Line over line",
+                "Paragraph",
+                "Single line",
+                "Section by section",
+                "Line by line",
+                "Open score",
+                "Spanner short form scoring",
+                "Short form scoring",
+                "Outline",
+                "Vertical score",
+                "Not applicable",
+                "Unknown",
+                "Other",
+                "No attempt to code"
+              ]
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Projected Graphic",
+      "type": "object",
+      "properties": {
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "c",
+            "d",
+            "f",
+            "o",
+            "s",
+            "t",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Filmstrip cartridge",
+            "Filmslip",
+            "Filmstrip, type unspecified",
+            "Filmstrip roll",
+            "Slide",
+            "Transparency",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "04": {
+          "description": "Base of emulsion",
+          "type": "string",
+          "enum": [
+            "d",
+            "e",
+            "j",
+            "k",
+            "m",
+            "o",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Glass",
+            "Synthetic",
+            "Safety film",
+            "Film base, other than safety film",
+            "Mixed collection",
+            "Paper",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "03": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "h",
+            "m",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "One color",
+            "Black-and-white",
+            "Multicolored",
+            "Hand colored",
+            "Mixed",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "g"
+          ],
+          "enumDescription": [
+            "Projected graphic"
+          ]
+        },
+        "05": {
+          "oneOf": [
+            {
+              "title": "No sound (silent)",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Sound on medium or separate",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "u",
+                "|"
+              ],
+              "enumDescription": [
+                "Sound on medium",
+                "Sound separate from medium",
+                "Unknown",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "06": {
+          "oneOf": [
+            {
+              "title": "No sound (silent)",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Medium for sound",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "u",
+                "z",
+                "|"
+              ],
+              "enumDescription": [
+                "Optical sound track on motion picture film",
+                "Magnetic sound track on motion picture film",
+                "Magnetic audio tape in cartridge",
+                "Sound disc",
+                "Magnetic audio tape on reel",
+                "Magnetic audio tape in cassette",
+                "Optical and magnetic sound track on motion picture film",
+                "Videotape",
+                "Videodisc",
+                "Unknown",
+                "Other",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "08": {
+          "oneOf": [
+            {
+              "title": "No secondary support",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Secondary support material",
+              "type": "string",
+              "enum": [
+                "c",
+                "d",
+                "e",
+                "h",
+                "j",
+                "k",
+                "m",
+                "u",
+                "z",
+                "|"
+              ],
+              "enumDescription": [
+                "Cardboard",
+                "Glass",
+                "Synthetic",
+                "Metal",
+                "Metal and glass",
+                "Synthetic and glass",
+                "Mixed collection",
+                "Unknown",
+                "Other",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "07": {
+          "description": "Dimensions",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "j",
+            "k",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "x",
+            "y",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Standard 8 mm. film width",
+            "Super 8 mm./single 8 mm. film width",
+            "9.5 mm. film width",
+            "16 mm. film width",
+            "28 mm. film width",
+            "35 mm. film width",
+            "70 mm. film width",
+            "2x2 in. or 5x5 cm. slide",
+            "2 1/4 x 2 1/4 in. or 6x6 cm. slide",
+            "4x5 in. or 10x13 cm. transparency",
+            "5x7 in. or 13x18 cm. transparency",
+            "Unknown",
+            "8x10 in. or 21x26 cm. transparency",
+            "9x9 in. or 23x23 cm. transparency",
+            "10x10 in. or 26x26 cm. transparency",
+            "7x7 in. or 18x18 cm. transparency",
+            "Other",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Microform",
+      "type": "object",
+      "properties": {
+        "10": {
+          "description": "Emulsion on film",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "m",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Silver halide",
+            "Diazo",
+            "Vesicular",
+            "Mixed emulsion",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "11": {
+          "description": "Generation",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "m",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "First generation (master)",
+            "Printing master",
+            "Service copy",
+            "Mixed generation",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "12": {
+          "description": "Base of film",
+          "type": "string",
+          "enum": [
+            "a",
+            "c",
+            "d",
+            "i",
+            "m",
+            "n",
+            "p",
+            "r",
+            "t",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Safety base, undetermined",
+            "Safety base, acetate undetermined",
+            "Safety base, diacetate",
+            "Nitrate base",
+            "Mixed base (nitrate and safety)",
+            "Not applicable",
+            "Safety base, polyester",
+            "Safety base, mixed",
+            "Safety base, triacetate",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "04": {
+          "description": "Dimensions",
+          "type": "string",
+          "enum": [
+            "a",
+            "d",
+            "f",
+            "g",
+            "h",
+            "l",
+            "m",
+            "o",
+            "p",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "8 mm.",
+            "16 mm.",
+            "35 mm.",
+            "70 mm.",
+            "105 mm.",
+            "3x5 in. or 8x13 cm.",
+            "4x6 in. or 11x15 cm.",
+            "6x9 in. or 16x23 cm.",
+            "3 1/4 x 7 3/8 in. or 9x19 cm.",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "h"
+          ],
+          "enumDescription": [
+            "Microform"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "j",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Aperture card",
+            "Microfilm cartridge",
+            "Microfilm cassette",
+            "Microfilm reel",
+            "Microfiche",
+            "Microfiche cassette",
+            "Microopaque",
+            "Microfilm slip",
+            "Microfilm roll",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "03": {
+          "description": "Positive/negative aspect",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "m",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Positive",
+            "Negative",
+            "Mixed polarity",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "06-08": {
+          "type": "string",
+          "description": "Reduction ratio"
+        },
+        "09": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "b",
+            "c",
+            "m",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Black-and-white",
+            "Multicolored",
+            "Mixed",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "description": "Reduction ratio range",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "u",
+            "v",
+            "|"
+          ],
+          "enumDescription": [
+            "Low reduction ratio",
+            "Normal reduction",
+            "High reduction",
+            "Very high reduction",
+            "Ultra high reduction",
+            "Unknown",
+            "Reduction rate varies",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Nonprojected Graphic",
+      "type": "object",
+      "properties": {
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "h",
+            "m",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "One color",
+            "Black-and-white",
+            "Multicolored",
+            "Hand colored",
+            "Mixed",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "k"
+          ],
+          "enumDescription": [
+            "Nonprojected graphic"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "a",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "u",
+            "v",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Activity card",
+            "Collage",
+            "Drawing",
+            "Painting",
+            "Photomechanical print",
+            "Photonegative",
+            "Photoprint",
+            "Picture",
+            "Print",
+            "Poster",
+            "Technical drawing",
+            "Chart",
+            "Flash card",
+            "Postcard",
+            "Icon",
+            "Radiograph",
+            "Study print",
+            "Unspecified",
+            "Photograph, type unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "04": {
+          "description": "Primary support material",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Canvas",
+            "Bristol board",
+            "Cardboard/illustration board",
+            "Glass",
+            "Synthetic",
+            "Skin",
+            "Textile",
+            "Metal",
+            "Plastic",
+            "Vinyl",
+            "Mixed collection",
+            "Vellum",
+            "Paper",
+            "Plaster",
+            "Hardboard",
+            "Porcelain",
+            "Stone",
+            "Wood",
+            "Unknown",
+            "Leather",
+            "Parchment",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "oneOf": [
+            {
+              "title": "No secondary support",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Secondary support material",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "l",
+                "m",
+                "n",
+                "o",
+                "p",
+                "q",
+                "r",
+                "s",
+                "t",
+                "u",
+                "v",
+                "w",
+                "z",
+                "|"
+              ],
+              "enumDescription": [
+                "Canvas",
+                "Bristol board",
+                "Cardboard/illustration board",
+                "Glass",
+                "Synthetic",
+                "Skin",
+                "Textile",
+                "Metal",
+                "Plastic",
+                "Vinyl",
+                "Mixed collection",
+                "Vellum",
+                "Paper",
+                "Plaster",
+                "Hardboard",
+                "Porcelain",
+                "Stone",
+                "Wood",
+                "Unknown",
+                "Leather",
+                "Parchment",
+                "Other",
+                "No attempt to code"
+              ]
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Motion Picture",
+      "type": "object",
+      "properties": {
+        "10": {
+          "description": "Positive/negative aspect",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Positive",
+            "Negative",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "11": {
+          "description": "Generation",
+          "type": "string",
+          "enum": [
+            "d",
+            "e",
+            "o",
+            "r",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Duplicate",
+            "Master",
+            "Original",
+            "Reference print/viewing copy",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "12": {
+          "description": "Base of film",
+          "type": "string",
+          "enum": [
+            "a",
+            "c",
+            "d",
+            "i",
+            "m",
+            "n",
+            "p",
+            "r",
+            "t",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Safety base, undetermined",
+            "Safety base, acetate undetermined",
+            "Safety base, diacetate",
+            "Nitrate base",
+            "Mixed base (nitrate and safety)",
+            "Not applicable",
+            "Safety base, polyester",
+            "Safety base, mixed",
+            "Safety base, triacetate",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "13": {
+          "description": "Refined categories of color",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "3 layer color",
+            "2 color, single strip",
+            "Undetermined 2 color",
+            "Undetermined 3 color",
+            "3 strip color",
+            "2 strip color",
+            "Red strip",
+            "Blue or green strip",
+            "Cyan strip",
+            "Magenta strip",
+            "Yellow strip",
+            "S E N 2",
+            "S E N 3",
+            "Not applicable",
+            "Sepia tone",
+            "Other tone",
+            "Tint",
+            "Tinted and toned",
+            "Stencil color",
+            "Unknown",
+            "Hand colored",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "14": {
+          "description": "Kind of color stock or print",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Imbibition dye transfer prints",
+            "Three-layer stock",
+            "Three layer stock, low fade",
+            "Duplitized stock",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "15": {
+          "description": "Deterioration stage",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "k",
+            "l",
+            "m",
+            "|"
+          ],
+          "enumDescription": [
+            "None apparent",
+            "Nitrate: suspicious odor",
+            "Nitrate: pungent odor",
+            "Nitrate: brownish, discoloration, fading, dusty",
+            "Nitrate: sticky",
+            "Nitrate: frothy, bubbles, blisters",
+            "Nitrate: congealed",
+            "Nitrate: powder",
+            "Non-nitrate: detectable deterioration",
+            "Non-nitrate: advanced deterioration",
+            "Non-nitrate: disaster",
+            "No attempt to code"
+          ]
+        },
+        "16": {
+          "description": "Completeness",
+          "type": "string",
+          "enum": [
+            "c",
+            "i",
+            "n",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Complete",
+            "Incomplete",
+            "Not applicable",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "08": {
+          "description": "Configuration of playback channels",
+          "type": "string",
+          "enum": [
+            "k",
+            "m",
+            "n",
+            "q",
+            "s",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Mixed",
+            "Monaural",
+            "Not applicable",
+            "Quadraphonic, multichannel, or surround",
+            "Stereophonic",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "c",
+            "f",
+            "o",
+            "r",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Film cartridge",
+            "Film cassette",
+            "Film roll",
+            "Film reel",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "06": {
+          "oneOf": [
+            {
+              "title": "No sound (silent)",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Medium for sound",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "u",
+                "z",
+                "|"
+              ],
+              "enumDescription": [
+                "Optical sound track on motion picture film",
+                "Magnetic sound track on motion picture film",
+                "Magnetic audio tape in cartridge",
+                "Sound disc",
+                "Magnetic audio tape on reel",
+                "Magnetic audio tape in cassette",
+                "Optical and magnetic sound track on motion picture film",
+                "Videotape",
+                "Videodisc",
+                "Unknown",
+                "Other",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "09": {
+          "description": "Production elements",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "n",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Workprint",
+            "Trims",
+            "Outtakes",
+            "Rushes",
+            "Mixing tracks",
+            "Title bands/inter-title rolls",
+            "Production rolls",
+            "Not applicable",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "03": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "b",
+            "c",
+            "h",
+            "m",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Black-and-white",
+            "Multicolored",
+            "Hand colored",
+            "Mixed",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "07": {
+          "description": "Dimensions",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Standard 8 mm.",
+            "Super 8 mm./single 8 mm.",
+            "9.5 mm.",
+            "16 mm.",
+            "28 mm.",
+            "35 mm.",
+            "70 mm.",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "m"
+          ],
+          "enumDescription": [
+            "Motion picture"
+          ]
+        },
+        "04": {
+          "description": "Motion picture presentation format",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Standard sound aperture (reduced frame)",
+            "Nonanamorphic (wide-screen)",
+            "3D",
+            "Anamorphic (wide-screen)",
+            "Other wide-screen format",
+            "Standard silent aperture (full frame)",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "oneOf": [
+            {
+              "title": "No sound (silent)",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Sound on medium or separate",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "u",
+                "|"
+              ],
+              "enumDescription": [
+                "Sound on medium",
+                "Sound separate from medium",
+                "Unknown",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "17-22": {
+          "type": "string",
+          "description": "Film inspection date"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Kit",
+      "type": "object",
+      "properties": {
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "o"
+          ],
+          "enumDescription": [
+            "Kit"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Unspecified",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Notated Music",
+      "type": "object",
+      "properties": {
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "q"
+          ],
+          "enumDescription": [
+            "Notated music"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Unspecified",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Remote-Sensing Image",
+      "type": "object",
+      "properties": {
+        "04": {
+          "description": "Attitude of sensor",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "n",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Low oblique",
+            "High oblique",
+            "Vertical",
+            "Not applicable",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Unspecified",
+            "No attempt to code"
+          ]
+        },
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03": {
+          "description": "Altitude of sensor",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Surface",
+            "Airborne",
+            "Spaceborne",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "description": "Cloud cover",
+          "type": "string",
+          "enum": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "n",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "0-9%",
+            "10-19%",
+            "20-29%",
+            "30-39%",
+            "40-49%",
+            "50-59%",
+            "60-69%",
+            "70-79%",
+            "80-89%",
+            "90-100%",
+            "Not applicable",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "r"
+          ],
+          "enumDescription": [
+            "Remote-sensing image"
+          ]
+        },
+        "06": {
+          "description": "Platform construction type",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Balloon",
+            "Aircraft--low altitude",
+            "Aircraft--medium altitude",
+            "Aircraft--high altitude",
+            "Manned spacecraft",
+            "Unmanned spacecraft",
+            "Land-based remote-sensing device",
+            "Water surface-based remote-sensing device",
+            "Submersible remote-sensing device",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "09-10": {
+          "description": "Data type",
+          "type": "string",
+          "enum": [
+            "aa",
+            "da",
+            "db",
+            "dc",
+            "dd",
+            "de",
+            "df",
+            "dv",
+            "dz",
+            "ga",
+            "gb",
+            "gc",
+            "gd",
+            "ge",
+            "gf",
+            "gg",
+            "gu",
+            "gz",
+            "ja",
+            "jb",
+            "jc",
+            "jv",
+            "jz",
+            "ma",
+            "mb",
+            "mm",
+            "nn",
+            "pa",
+            "pb",
+            "pc",
+            "pd",
+            "pe",
+            "pz",
+            "ra",
+            "rb",
+            "rc",
+            "rd",
+            "sa",
+            "ta",
+            "uu",
+            "zz",
+            "||"
+          ],
+          "enumDescription": [
+            "Visible light",
+            "Near infrared",
+            "Middle infrared",
+            "Far infrared",
+            "Thermal infrared",
+            "Shortwave infrared (SWIR)",
+            "Reflective infrared",
+            "Combinations",
+            "Other infrared data",
+            "Sidelooking airborne radar (SLAR)",
+            "Synthetic aperture radar (SAR)-Single frequency",
+            "SAR-multi-frequency (multichannel)",
+            "SAR-like polarization",
+            "SAR-cross polarization",
+            "Infometric SAR",
+            "polarmetric SAR",
+            "Passive microwave mapping",
+            "Other microwave data",
+            "Far ultraviolet",
+            "Middle ultraviolet",
+            "Near ultraviolet",
+            "Ultraviolet combinations",
+            "Other ultraviolet data",
+            "Multi-spectral, multidata",
+            "Multi-temporal",
+            "Combination of various data types",
+            "Not applicable",
+            "Sonar--water depth",
+            "Sonar--bottom topography images, sidescan",
+            "Sonar--bottom topography, near-surface",
+            "Sonar--bottom topography, near-bottom",
+            "Seismic surveys",
+            "Other acoustical data",
+            "Gravity anomalies (general)",
+            "Free-air",
+            "Bouger",
+            "Isostatic",
+            "Magnetic field",
+            "radiometric surveys",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "08": {
+          "description": "Sensor type",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Active",
+            "Passive",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "07": {
+          "description": "Platform use category",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "m",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Meteorological",
+            "Surface observing",
+            "Space observing",
+            "Mixed uses",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Sound Recording",
+      "type": "object",
+      "properties": {
+        "10": {
+          "description": "Kind of material",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "g",
+            "i",
+            "l",
+            "m",
+            "n",
+            "p",
+            "r",
+            "s",
+            "u",
+            "w",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Lacquer coating",
+            "Cellulose nitrate",
+            "Acetate tape with ferrous oxide",
+            "Glass with lacquer",
+            "Aluminum with lacquer",
+            "Metal",
+            "Plastic with metal",
+            "Not applicable",
+            "Plastic",
+            "Paper with lacquer or ferrous oxide",
+            "Shellac",
+            "Unknown",
+            "Wax",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "11": {
+          "description": "Kind of cutting",
+          "type": "string",
+          "enum": [
+            "h",
+            "l",
+            "n",
+            "u",
+            "|"
+          ],
+          "enumDescription": [
+            "Hill-and-dale cutting",
+            "Lateral or combined cutting",
+            "Not applicable",
+            "Unknown",
+            "No attempt to code"
+          ]
+        },
+        "12": {
+          "description": "Special playback characteristics",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "NAB standard",
+            "CCIR standard",
+            "Dolby-B encoded",
+            "dbx encoded",
+            "electronic recording",
+            "Dolby-A encoded",
+            "Dolby-C encoded",
+            "CX encoded",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "13": {
+          "description": "Capture and storage technique",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "d",
+            "e",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Acoustical capture, direct storage",
+            "Direct storage, not acoustical",
+            "electronic storage",
+            "Analog electrical storage",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "s"
+          ],
+          "enumDescription": [
+            "Sound recording"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "d",
+            "e",
+            "g",
+            "i",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "w",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Sound disc",
+            "Cylinder",
+            "Sound cartridge",
+            "Sound-track film",
+            "Roll",
+            "Remote",
+            "Sound cassette",
+            "Sound-tape reel",
+            "Unspecified",
+            "Wire recording",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03": {
+          "description": "Speed",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "h",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "16 rpm (discs)",
+            "33 1/3 rpm (discs)",
+            "45 rpm (discs)",
+            "78 rpm (discs)",
+            "8 rpm (discs)",
+            "1.4 m. per second (discs)",
+            "120 rpm (cylinders)",
+            "160 rpm (cylinders)",
+            "15/16 ips (tapes)",
+            "1 7/8 ips (tapes)",
+            "3 3/4 ips (tapes)",
+            "Not applicable",
+            "7 1/2 ips (tapes)",
+            "15 ips (tapes)",
+            "30 ips (tape)",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "04": {
+          "description": "Configuration of playback channels",
+          "type": "string",
+          "enum": [
+            "m",
+            "q",
+            "s",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Monaural",
+            "Quadraphonic, multichannel, or surround",
+            "Stereophonic",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "description": "Groove width/groove pitch",
+          "type": "string",
+          "enum": [
+            "m",
+            "n",
+            "s",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Microgroove/fine",
+            "Not applicable",
+            "Coarse/standard",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "06": {
+          "description": "Dimensions",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "j",
+            "n",
+            "o",
+            "s",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "3 in. diameter",
+            "5 in. diameter",
+            "7 in. diameter",
+            "10 in. diameter",
+            "12 in. diameter",
+            "16 in. diameter",
+            "4 3/4 in. or 12 cm. diameter",
+            "3 7/8 x 2 1/2 in.",
+            "Not applicable",
+            "5 1/4 x 3 7/8 in.",
+            "2 3/4 x 4 in.",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "07": {
+          "description": "Tape width",
+          "type": "string",
+          "enum": [
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "1/8 in.",
+            "1/4 in.",
+            "Not applicable",
+            "1/2 in.",
+            "1 in.",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "08": {
+          "description": "Tape Configuration",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Full (1) track",
+            "Half (2) track",
+            "Quarter (4) track",
+            "Eight track",
+            "Twelve track",
+            "Sixteen track",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "09": {
+          "description": "Kind of disc, cylinder or tape",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "d",
+            "i",
+            "m",
+            "n",
+            "r",
+            "s",
+            "t",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Master tape",
+            "Tape duplication master",
+            "Disc master (negative)",
+            "Instantaneous (recorded on the spot)",
+            "Mass-produced",
+            "Not applicable",
+            "Mother (positive)",
+            "Stamper (negative)",
+            "Test pressing",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Text",
+      "type": "object",
+      "properties": {
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "t"
+          ],
+          "enumDescription": [
+            "Text"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Regular print",
+            "Large print",
+            "Braille",
+            "Loose-leaf",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Videorecording",
+      "type": "object",
+      "properties": {
+        "02": {
+          "title": "Undefined",
+          "type": "string",
+          "pattern": "^[# _]+$"
+        },
+        "03": {
+          "description": "Color",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "m",
+            "n",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "One color",
+            "Black-and-white",
+            "Multicolored",
+            "Mixed",
+            "Not applicable",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "v"
+          ],
+          "enumDescription": [
+            "Videorecording"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "c",
+            "d",
+            "f",
+            "r",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Videocartridge",
+            "Videodisc",
+            "Videocassette",
+            "Videoreel",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "04": {
+          "description": "Videorecording format",
+          "type": "string",
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "m",
+            "o",
+            "p",
+            "q",
+            "s",
+            "u",
+            "v",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Beta (1/2 in., videocassette)",
+            "VHS (1/2 in., videocassette)",
+            "U-matic (3/4 in., videocasstte)",
+            "EIAJ (1/2 in., reel)",
+            "Type C (1 in., reel)",
+            "Quadruplex (1 in. or 2 in., reel)",
+            "Laserdisc",
+            "CED (Capacitance electronic Disc) videodisc",
+            "Betacam (1/2 in., videocassette)",
+            "Betacam SP (1/2 in., videocassette)",
+            "Super-VHS (1/2 in., videocassette)",
+            "M-II (1/2 in., videocassette)",
+            "D-2 (3/4 in., videocassette)",
+            "8 mm.",
+            "Hi-8 mm.",
+            "Blu-ray disc",
+            "Unknown",
+            "DVD",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "08": {
+          "description": "Configuration of playback channels",
+          "type": "string",
+          "enum": [
+            "k",
+            "m",
+            "n",
+            "q",
+            "s",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Mixed",
+            "Monaural",
+            "Not applicable",
+            "Quadraphonic, multichannel, or surround",
+            "Stereophonic",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "06": {
+          "oneOf": [
+            {
+              "title": "No sound (silent)",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Medium for sound",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "u",
+                "z",
+                "|"
+              ],
+              "enumDescription": [
+                "Optical sound track on motion picture film",
+                "Magnetic sound track on motion picture film",
+                "Magnetic audio tape in cartridge",
+                "Sound disc",
+                "Magnetic audio tape on reel",
+                "Magnetic audio tape in cassette",
+                "Optical and magnetic sound track on motion picture film",
+                "Videotape",
+                "Videodisc",
+                "Unknown",
+                "Other",
+                "No attempt to code"
+              ]
+            }
+          ]
+        },
+        "07": {
+          "description": "Dimensions",
+          "type": "string",
+          "enum": [
+            "a",
+            "m",
+            "o",
+            "p",
+            "q",
+            "r",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "8 mm.",
+            "1/4 in.",
+            "1/2 in.",
+            "1 in.",
+            "2 in.",
+            "3/4 in.",
+            "Unknown",
+            "Other",
+            "No attempt to code"
+          ]
+        },
+        "05": {
+          "oneOf": [
+            {
+              "title": "No sound (silent)",
+              "type": "string",
+              "pattern": "^[# _]+$"
+            },
+            {
+              "description": "Sound on medium or separate",
+              "type": "string",
+              "enum": [
+                "a",
+                "b",
+                "u",
+                "|"
+              ],
+              "enumDescription": [
+                "Sound on medium",
+                "Sound separate from medium",
+                "Unknown",
+                "No attempt to code"
+              ]
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Unspecified",
+      "type": "object",
+      "properties": {
+        "00": {
+          "description": "Category of material",
+          "type": "string",
+          "enum": [
+            "z"
+          ],
+          "enumDescription": [
+            "Unspecified"
+          ]
+        },
+        "01": {
+          "description": "Specific material designation",
+          "type": "string",
+          "enum": [
+            "m",
+            "u",
+            "z",
+            "|"
+          ],
+          "enumDescription": [
+            "Multiple physical forms",
+            "Unspecified",
+            "Other",
+            "No attempt to code"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

@@ -1,0 +1,3654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+            xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+            xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            mc:Ignorable="w14 w15 w16se w16cid wp14">
+  <w:body>
+    <w:p w:rsidR="00AF69E8" w:rsidRDefault="00AF69E8" w:rsidP="005474D6">
+      <w:r>
+        <w:t>П</w:t>
+      </w:r>
+      <w:r w:rsidR="001E1E03">
+        <w:t>олную версию правил</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> подготовки статей </w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E">
+        <w:t xml:space="preserve">для журналов на платформе </w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>JES</w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E" w:rsidRPr="004F495E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">можно прочитать </w:t>
+      </w:r>
+      <w:hyperlink r:id="rId8" w:history="1">
+        <w:r w:rsidRPr="00AF69E8">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>тут</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00AF69E8" w:rsidRDefault="00AF69E8" w:rsidP="005474D6"/>
+    <w:p w:rsidR="005474D6" w:rsidRPr="004F495E" w:rsidRDefault="005474D6" w:rsidP="005474D6">
+      <w:r>
+        <w:t xml:space="preserve">При подготовке текста статьи в статье не должно быть заголовка статьи,  аннотации, ключевых слов на русском и английском языке, а также информации об авторах.  Эта информация заполняется отдельно при создании статьи.  В файле </w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA">
+        <w:t xml:space="preserve">должны </w:t>
+      </w:r>
+      <w:r>
+        <w:t>содерж</w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA">
+        <w:t>а</w:t>
+      </w:r>
+      <w:r>
+        <w:t>т</w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA">
+        <w:t>ь</w:t>
+      </w:r>
+      <w:r>
+        <w:t>ся только текст статьи, картинки к статье, таблицы, списки</w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA" w:rsidRPr="00350CAA">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">заголовки </w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA">
+        <w:t xml:space="preserve">и формулы в формате </w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA" w:rsidRPr="00350CAA">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00350CAA">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Equation</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:t xml:space="preserve"> Поддерживается ввод файлов формата </w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>DOCX</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E" w:rsidRPr="00B12F6E">
+        <w:t xml:space="preserve"> (</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E" w:rsidRPr="00B12F6E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E">
+        <w:t xml:space="preserve"> 2007-2010)</w:t>
+      </w:r>
+      <w:r w:rsidR="00AB3837" w:rsidRPr="00AB3837">
+        <w:t>.</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E" w:rsidRPr="00B12F6E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:t xml:space="preserve"> Ввод файлов формата </w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>DOC</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:t xml:space="preserve"> не поддерживается. Файлы этого формата легко можно сохранить в формат </w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>DOCX</w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E">
+        <w:t xml:space="preserve">, используя </w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E" w:rsidRPr="004F495E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E" w:rsidRPr="004F495E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="004F495E">
+        <w:t xml:space="preserve">2007 и выше и любой совместимый редактор. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="005474D6" w:rsidRDefault="005474D6" w:rsidP="005474D6"/>
+    <w:p w:rsidR="004F495E" w:rsidRDefault="004F495E" w:rsidP="004F495E">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Абзацы</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="005474D6" w:rsidRPr="00B12F6E" w:rsidRDefault="005474D6" w:rsidP="005474D6">
+      <w:r>
+        <w:t>Новый абзац отделяется пустой строкой. Если следующий абзац отделяется только п</w:t>
+      </w:r>
+      <w:r w:rsidR="0073672E">
+        <w:t>ереносом строки, то новый абзац</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> при вводе не образуется.</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:t xml:space="preserve"> Размер абзаца не должен превышать 5000 символов.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00BC1156" w:rsidRDefault="005474D6" w:rsidP="00BC1156">
+      <w:r>
+        <w:t>Эта строка, пример неправильного переноса.</w:t>
+      </w:r>
+      <w:r w:rsidR="001141EB">
+        <w:t xml:space="preserve"> А следующая отделена правильно.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00BC1156" w:rsidRDefault="00BC1156" w:rsidP="00BC1156"/>
+    <w:p w:rsidR="00830764" w:rsidRDefault="00830764" w:rsidP="00BC1156">
+      <w:r>
+        <w:tab/>
+        <w:t xml:space="preserve">Отступы от левого края не сохраняются. Каждый абзац начинается с одного и того же места. </w:t>
+      </w:r>
+      <w:r w:rsidR="00250495">
+        <w:t>Также не сохраняется межстрочный интервал.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="003C1C8A" w:rsidRDefault="003C1C8A" w:rsidP="00BC1156"/>
+    <w:p w:rsidR="00BC1156" w:rsidRDefault="00BC1156" w:rsidP="00BC1156">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Форматирование текста</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00423A31" w:rsidRDefault="009C083F" w:rsidP="005474D6">
+      <w:r>
+        <w:t xml:space="preserve">Заголовки в тексте так же переносятся при загрузке файла. По ним строиться содержание публикации. </w:t>
+      </w:r>
+      <w:r w:rsidR="0003692F">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00BC1156">
+        <w:t xml:space="preserve">Поддерживается три уровня заголовков. </w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31">
+        <w:t xml:space="preserve">При загрузке из </w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31" w:rsidRPr="00423A31">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>word</w:t>
+      </w:r>
+      <w:r w:rsidR="00AF69E8">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:t>учитываются</w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31">
+        <w:t xml:space="preserve"> свойства шрифтов:    </w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31" w:rsidRPr="00B12F6E">
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>жирность</w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31" w:rsidRPr="00B12F6E">
+        <w:rPr>
+          <w:u w:val="single"/>
+        </w:rPr>
+        <w:t>подчёркивание</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E" w:rsidRPr="00B12F6E">
+        <w:rPr>
+          <w:i/>
+        </w:rPr>
+        <w:t>курсив</w:t>
+      </w:r>
+      <w:r w:rsidR="00B12F6E">
+        <w:t>.</w:t>
+      </w:r>
+      <w:r w:rsidR="006810DA" w:rsidRPr="006810DA">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="006810DA">
+        <w:t xml:space="preserve"> Свойства шрифта «размер» не поддерживаются. </w:t>
+      </w:r>
+      <w:r w:rsidR="00423A31">
+        <w:t xml:space="preserve"> Поддерживаются  различные кодировки и алфавиты. Примеры:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00423A31" w:rsidRDefault="00423A31" w:rsidP="00423A31">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="4"/>
+        </w:numPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>Slovn</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00553006">
+        <w:t>í</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>ku</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00553006">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>jazyka</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00553006">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>staroslov</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00553006">
+        <w:t>ě</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>nsk</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00553006">
+        <w:t>é</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>ho</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00423A31" w:rsidRDefault="00B12F6E" w:rsidP="00423A31">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="4"/>
+        </w:numPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:rFonts w:ascii="Greek" w:hAnsi="Greek"/>
+        </w:rPr>
+        <w:t>ka</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:rFonts w:ascii="Greek" w:hAnsi="Greek"/>
+        </w:rPr>
+        <w:t>ˆ</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00553006">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:rFonts w:ascii="Greek" w:hAnsi="Greek"/>
+        </w:rPr>
+        <w:t>tîn</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00553006">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00553006">
+        <w:rPr>
+          <w:rFonts w:ascii="Greek" w:hAnsi="Greek"/>
+        </w:rPr>
+        <w:t>qerapÒntwn</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+    </w:p>
+    <w:p w:rsidR="006A2846" w:rsidRDefault="006A2846" w:rsidP="006A2846"/>
+    <w:p w:rsidR="006A2846" w:rsidRDefault="006A2846" w:rsidP="006A2846">
+      <w:r>
+        <w:t>Если заголовок или список не отделены от текста до или после строкой, то они соединяются с текстом в один
+          абзац.
+        </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006A2846"/>
+    <w:p w:rsidR="005474D6" w:rsidRPr="005474D6" w:rsidRDefault="005474D6" w:rsidP="00875416">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Примечания</w:t>
+      </w:r>
+      <w:r w:rsidR="00B67EB3">
+        <w:t xml:space="preserve"> и ссылки</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B67EB3" w:rsidRDefault="00B67EB3" w:rsidP="00B67EB3">
+      <w:r>
+        <w:t xml:space="preserve">В программной платформе </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>JES</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00B67EB3">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:t>поддерживается три вида ссылок:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B67EB3" w:rsidRDefault="00B67EB3" w:rsidP="00B67EB3">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="15"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Примечания или сноски. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B67EB3" w:rsidRDefault="00B67EB3" w:rsidP="00B67EB3">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="15"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Ссылка на библиографию или список литературы.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B67EB3" w:rsidRDefault="00B67EB3" w:rsidP="00B67EB3">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="15"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:t xml:space="preserve">Внешние ссылки – </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>URL.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00E26E4D" w:rsidRDefault="00E26E4D" w:rsidP="00E26E4D">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00E26E4D" w:rsidRDefault="00E26E4D" w:rsidP="00E26E4D">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00E26E4D" w:rsidRDefault="009C083F" w:rsidP="00E26E4D">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Примечания должны быть оформлены как сноски в </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009C083F">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidRPr="005474D6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> для файлов </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>DOCX</w:t>
+      </w:r>
+      <w:r w:rsidR="00B67EB3">
+        <w:t>.</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t xml:space="preserve"> Пример сноски в </w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D" w:rsidRPr="006A2846">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:rPr>
+          <w:rStyle w:val="a6"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:footnoteReference w:id="1"/>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t xml:space="preserve"> или пример</w:t>
+      </w:r>
+      <w:r w:rsidR="00250495">
+        <w:t xml:space="preserve"> со ссылкой в примечании</w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:rPr>
+          <w:rStyle w:val="a6"/>
+        </w:rPr>
+        <w:footnoteReference w:id="2"/>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t xml:space="preserve">.  </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B67EB3" w:rsidRDefault="00B67EB3" w:rsidP="00B67EB3"/>
+    <w:p w:rsidR="009C083F" w:rsidRPr="00E26E4D" w:rsidRDefault="00B67EB3" w:rsidP="00B67EB3">
+      <w:r>
+        <w:t xml:space="preserve">Также поддерживаются внешние гиперссылки.  </w:t>
+      </w:r>
+      <w:r w:rsidR="00250495">
+        <w:t>С</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">ама ссылка </w:t>
+      </w:r>
+      <w:hyperlink r:id="rId9" w:history="1">
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+            <w:lang w:val="en-US"/>
+          </w:rPr>
+          <w:t>http</w:t>
+        </w:r>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>://</w:t>
+        </w:r>
+        <w:proofErr w:type="spellStart"/>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+            <w:lang w:val="en-US"/>
+          </w:rPr>
+          <w:t>elibrary</w:t>
+        </w:r>
+        <w:proofErr w:type="spellEnd"/>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>.</w:t>
+        </w:r>
+        <w:proofErr w:type="spellStart"/>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+            <w:lang w:val="en-US"/>
+          </w:rPr>
+          <w:t>ru</w:t>
+        </w:r>
+        <w:proofErr w:type="spellEnd"/>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>/</w:t>
+        </w:r>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+            <w:lang w:val="en-US"/>
+          </w:rPr>
+          <w:t>item</w:t>
+        </w:r>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>.</w:t>
+        </w:r>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+            <w:lang w:val="en-US"/>
+          </w:rPr>
+          <w:t>asp</w:t>
+        </w:r>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>?</w:t>
+        </w:r>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+            <w:lang w:val="en-US"/>
+          </w:rPr>
+          <w:t>id</w:t>
+        </w:r>
+        <w:r w:rsidR="00AB3837" w:rsidRPr="005B1657">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>=9945826</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r w:rsidR="00250495">
+        <w:rPr>
+          <w:rStyle w:val="a9"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="005474D6" w:rsidRDefault="00250495" w:rsidP="009C083F">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">или </w:t>
+      </w:r>
+      <w:hyperlink r:id="rId10" w:history="1">
+        <w:r w:rsidRPr="00250495">
+          <w:rPr>
+            <w:rStyle w:val="a9"/>
+          </w:rPr>
+          <w:t>такая ссылка</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t>После загрузки статьи в</w:t>
+      </w:r>
+      <w:r w:rsidR="005474D6">
+        <w:t>ручную можно изменить тип примечания уже на сайте с помощью кнопок</w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t xml:space="preserve"> в онлайн редакторе.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00E26E4D" w:rsidRDefault="00E26E4D" w:rsidP="009C083F">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="0"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="005474D6" w:rsidRPr="006A2846" w:rsidRDefault="006B0FD6" w:rsidP="00875416">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Изображения</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="0003692F" w:rsidRDefault="00F36E30" w:rsidP="00F36E30">
+      <w:r>
+        <w:t xml:space="preserve">Изображения могут быть загружены прямо из текста </w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F36E30">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidRPr="005474D6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">, либо  после загрузки текста статьи на сайте. Если загрузка изображения делается из </w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F36E30">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidRPr="005474D6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>, то следующая строчка текста после картинки автоматически становится подписью к ней.</w:t>
+      </w:r>
+      <w:r w:rsidR="0003692F">
+        <w:t xml:space="preserve"> Чтобы картинка из файла </w:t>
+      </w:r>
+      <w:r w:rsidR="0003692F">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>DOCX</w:t>
+      </w:r>
+      <w:r w:rsidR="0003692F">
+        <w:t xml:space="preserve"> загрузилась без проблем, она должна отделятся пустой строкой от предыдущего абзаца.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00A71228" w:rsidRDefault="00A71228" w:rsidP="00F36E30"/>
+    <w:p w:rsidR="00F36E30" w:rsidRDefault="00A71228" w:rsidP="00F36E30">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+          <w:lang w:eastAsia="ru-RU"/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0">
+            <wp:extent cx="2829320" cy="3248478"/>
+            <wp:effectExtent l="0" t="0" r="9525" b="0"/>
+            <wp:docPr id="4" name="Рисунок 4"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="4" name="screen.png"/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId11">
+                      <a:extLst>
+                        <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                          <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                        </a:ext>
+                      </a:extLst>
+                    </a:blip>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="2829320" cy="3248478"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00F36E30" w:rsidRDefault="00F36E30" w:rsidP="00F36E30">
+      <w:r>
+        <w:t>Рис. 1. Пример изображения.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="0003692F" w:rsidRDefault="0003692F" w:rsidP="00F36E30"/>
+    <w:p w:rsidR="00A71228" w:rsidRDefault="00A71228" w:rsidP="00F36E30"/>
+    <w:p w:rsidR="00F36E30" w:rsidRDefault="00A8143C" w:rsidP="00F36E30">
+      <w:r>
+        <w:t>Изображение на сайте автоматически уменьшается. Полное изображение можно просмотреть, нажав на него.</w:t>
+      </w:r>
+      <w:r w:rsidR="0003692F">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t>П</w:t>
+      </w:r>
+      <w:r w:rsidR="00F36E30">
+        <w:t xml:space="preserve">оддерживаются изображения </w:t>
+      </w:r>
+      <w:r w:rsidR="000448F4">
+        <w:t xml:space="preserve">следующего </w:t>
+      </w:r>
+      <w:r w:rsidR="00F36E30">
+        <w:t>формата</w:t>
+      </w:r>
+      <w:r w:rsidR="000448F4">
+        <w:t>:</w:t>
+      </w:r>
+      <w:r w:rsidR="00F36E30">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00F36E30" w:rsidRPr="00F36E30">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>jpeg</w:t>
+      </w:r>
+      <w:r w:rsidR="00F36E30" w:rsidRPr="00F36E30">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="00F36E30" w:rsidRPr="00F36E30">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>png</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="00F36E30" w:rsidRPr="00F36E30">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidR="00F36E30" w:rsidRPr="00F36E30">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>gif</w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t xml:space="preserve"> и любые разрешения и цвет. Главное, чтобы размер файла был не больше 1 Мб. </w:t>
+      </w:r>
+      <w:r w:rsidR="00F36E30">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="0003692F" w:rsidRDefault="0003692F" w:rsidP="00A8143C"/>
+    <w:p w:rsidR="006B0FD6" w:rsidRPr="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006B0FD6">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Формулы</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRDefault="000C5812" w:rsidP="00A8143C">
+      <w:r>
+        <w:t>Поддерживается только з</w:t>
+      </w:r>
+      <w:r w:rsidR="00A8143C">
+        <w:t xml:space="preserve">агрузка формул из файлов </w:t>
+      </w:r>
+      <w:r w:rsidR="00A8143C">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>WORD</w:t>
+      </w:r>
+      <w:r w:rsidR="00A8143C" w:rsidRPr="00A8143C">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="006B0FD6">
+        <w:t xml:space="preserve">в формате </w:t>
+      </w:r>
+      <w:r w:rsidR="006B0FD6">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="006B0FD6" w:rsidRPr="006B0FD6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="006B0FD6">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>Equ</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="003C1C8A">
+        <w:t>a</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="006B0FD6">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>tion</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="00A8143C">
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r w:rsidR="006B0FD6" w:rsidRPr="006B0FD6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="006B0FD6">
+        <w:t xml:space="preserve">Все формулы должны быть представлены в виде текста, либо в </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Equation</w:t>
+      </w:r>
+      <w:r w:rsidR="006B0FD6">
+        <w:t>.</w:t>
+      </w:r>
+      <w:r w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="006B0FD6">
+        <w:t xml:space="preserve">Если формулы содержат только стандартные символы и верхние и нижние индексы, то рекомендуется их представлять в виде текста. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="000C5812" w:rsidRDefault="000C5812" w:rsidP="00A8143C"/>
+    <w:p w:rsidR="006B0FD6" w:rsidRDefault="000C5812" w:rsidP="00A8143C">
+      <w:r>
+        <w:t>Формула в виде текста:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRPr="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006B0FD6">
+      <w:pPr>
+        <w:pStyle w:val="ad"/>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>N</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+        </w:rPr>
+        <w:t>ij</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> (</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>S</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+        </w:rPr>
+        <w:t>ij</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="ru-RU"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>K</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="ru-RU"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>t</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="003C1C8A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> )=</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="ru-RU"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>S</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+        </w:rPr>
+        <w:t>ij</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>+K</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>t</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="003C1C8A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="superscript"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:tab/>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:tab/>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:tab/>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="minorHAnsi"
+                    w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:tab/>
+        <w:t xml:space="preserve"> (4)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRPr="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006B0FD6">
+      <w:pPr>
+        <w:pStyle w:val="ad"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="14"/>
+        </w:numPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve">где </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>A</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> — номер действия, выбранного агентом </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRPr="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006B0FD6">
+      <w:pPr>
+        <w:pStyle w:val="ad"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="14"/>
+        </w:numPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>N</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>ij</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> — потребность нужды </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve">-го агента в </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>-ом благе,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRPr="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006B0FD6">
+      <w:pPr>
+        <w:pStyle w:val="ad"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="14"/>
+        </w:numPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>S</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>ij</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> — значимость, степень необходимости </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve">-го блага (абсолютная) для </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>-го агента,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRPr="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006B0FD6">
+      <w:pPr>
+        <w:pStyle w:val="ad"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="14"/>
+        </w:numPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>K</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> — коэффициент суточного цикла,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRPr="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="006B0FD6">
+      <w:pPr>
+        <w:pStyle w:val="ad"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="14"/>
+        </w:numPr>
+        <w:spacing w:line="480" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>t</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="subscript"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="003C1C8A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:vertAlign w:val="superscript"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> — время, прошедшее с момента последнего удовлетворения потребности </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve">-го агента в </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:i/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>j</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006B0FD6">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>-ом благе.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="006B0FD6" w:rsidRDefault="006B0FD6" w:rsidP="00A8143C">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="x-none"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00830764" w:rsidRPr="00830764" w:rsidRDefault="006B0FD6" w:rsidP="00A8143C">
+      <w:r>
+        <w:t>Сложные формулы и математические выражения</w:t>
+      </w:r>
+      <w:r w:rsidR="00046639">
+        <w:t xml:space="preserve">, которые не могут быть </w:t>
+      </w:r>
+      <w:r w:rsidR="00EE4982">
+        <w:t xml:space="preserve">представлены </w:t>
+      </w:r>
+      <w:r w:rsidR="00046639">
+        <w:t xml:space="preserve">стандартными символами должны быть </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t xml:space="preserve">преобразованы в изображения или </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Equation</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> (</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Office</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Math</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t>)</w:t>
+      </w:r>
+      <w:r w:rsidR="00EE4982">
+        <w:t>.</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t xml:space="preserve">Для перевода формул </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Latex</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t xml:space="preserve">или </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>MathType</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t xml:space="preserve">нужно выделить в </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t xml:space="preserve"> формулу, нажать правую кнопку мыши и выбрать «Преобразовать в </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Office</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Math</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t>»</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t>.</w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812" w:rsidRPr="000C5812">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="000C5812">
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r w:rsidR="00E26E4D">
+        <w:t>Пример формулы</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00830764">
+        <w:t xml:space="preserve">в тексте - </w:t>
+      </w:r>
+      <m:oMath>
+        <m:nary>
+          <m:naryPr>
+            <m:chr m:val="∑"/>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:naryPr>
+          <m:sub>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>i=1</m:t>
+            </m:r>
+          </m:sub>
+          <m:sup>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>I</m:t>
+            </m:r>
+          </m:sup>
+          <m:e/>
+        </m:nary>
+        <m:sSub>
+          <m:sSubPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:sSubPr>
+          <m:e>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>p</m:t>
+            </m:r>
+          </m:e>
+          <m:sub>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>i</m:t>
+            </m:r>
+          </m:sub>
+        </m:sSub>
+        <m:sSub>
+          <m:sSubPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:sSubPr>
+          <m:e>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>y</m:t>
+            </m:r>
+          </m:e>
+          <m:sub>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>i</m:t>
+            </m:r>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t> </m:t>
+            </m:r>
+          </m:sub>
+        </m:sSub>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+          </w:rPr>
+          <m:t>≤</m:t>
+        </m:r>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+          </w:rPr>
+          <m:t>Δ</m:t>
+        </m:r>
+        <m:sSub>
+          <m:sSubPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:sSubPr>
+          <m:e>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>D</m:t>
+            </m:r>
+          </m:e>
+          <m:sub>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>1</m:t>
+            </m:r>
+          </m:sub>
+        </m:sSub>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+          </w:rPr>
+          <m:t>+R</m:t>
+        </m:r>
+        <m:sSub>
+          <m:sSubPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:sSubPr>
+          <m:e>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>E</m:t>
+            </m:r>
+          </m:e>
+          <m:sub>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>1</m:t>
+            </m:r>
+          </m:sub>
+        </m:sSub>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+          </w:rPr>
+          <m:t>+CI</m:t>
+        </m:r>
+        <m:sSub>
+          <m:sSubPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:sSubPr>
+          <m:e>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>S</m:t>
+            </m:r>
+          </m:e>
+          <m:sub>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>1</m:t>
+            </m:r>
+          </m:sub>
+        </m:sSub>
+      </m:oMath>
+      <w:r>
+        <w:t xml:space="preserve">.  </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00830764" w:rsidRDefault="006B0FD6" w:rsidP="00A8143C">
+      <w:r>
+        <w:t xml:space="preserve">Большие формулы (сложные дроби, интегралы, </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>триганометрические</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> уравнения  т.д.) рекомендуется отделять пустой строкой как </w:t>
+      </w:r>
+      <w:r w:rsidR="00EE4982">
+        <w:t>рисунки</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="007A7BAD" w:rsidRDefault="007A7BAD" w:rsidP="00EE4982">
+      <w:pPr>
+        <w:pStyle w:val="MTDisplayEquation"/>
+        <w:rPr>
+          <w:rFonts w:eastAsiaTheme="minorEastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+      <w:bookmarkEnd w:id="0"/>
+    </w:p>
+    <w:p w:rsidR="00C07F12" w:rsidRDefault="00C07F12" w:rsidP="00C07F12">
+      <w:pPr>
+        <w:ind w:left="708" w:firstLine="708"/>
+      </w:pPr>
+      <m:oMath>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+            <w:noProof/>
+          </w:rPr>
+          <m:t>B</m:t>
+        </m:r>
+        <m:d>
+          <m:dPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+                <w:i/>
+                <w:noProof/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:dPr>
+          <m:e>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+                <w:noProof/>
+              </w:rPr>
+              <m:t>x</m:t>
+            </m:r>
+          </m:e>
+        </m:d>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+            <w:noProof/>
+          </w:rPr>
+          <m:t>=</m:t>
+        </m:r>
+        <m:f>
+          <m:fPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:fPr>
+          <m:num>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>RO</m:t>
+            </m:r>
+            <m:sSub>
+              <m:sSubPr>
+                <m:ctrlPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                    <w:i/>
+                  </w:rPr>
+                </m:ctrlPr>
+              </m:sSubPr>
+              <m:e>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>E</m:t>
+                </m:r>
+              </m:e>
+              <m:sub>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>0</m:t>
+                </m:r>
+              </m:sub>
+            </m:sSub>
+            <m:d>
+              <m:dPr>
+                <m:ctrlPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                    <w:i/>
+                  </w:rPr>
+                </m:ctrlPr>
+              </m:dPr>
+              <m:e>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>1</m:t>
+                </m:r>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>-</m:t>
+                </m:r>
+                <m:sSub>
+                  <m:sSubPr>
+                    <m:ctrlPr>
+                      <w:rPr>
+                        <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                        <w:i/>
+                      </w:rPr>
+                    </m:ctrlPr>
+                  </m:sSubPr>
+                  <m:e>
+                    <m:r>
+                      <w:rPr>
+                        <w:rFonts w:ascii="Cambria Math"/>
+                      </w:rPr>
+                      <m:t>b</m:t>
+                    </m:r>
+                  </m:e>
+                  <m:sub>
+                    <m:r>
+                      <w:rPr>
+                        <w:rFonts w:ascii="Cambria Math"/>
+                      </w:rPr>
+                      <m:t>0</m:t>
+                    </m:r>
+                  </m:sub>
+                </m:sSub>
+              </m:e>
+            </m:d>
+          </m:num>
+          <m:den>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>1</m:t>
+            </m:r>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>-</m:t>
+            </m:r>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+              </w:rPr>
+              <m:t>RO</m:t>
+            </m:r>
+            <m:sSub>
+              <m:sSubPr>
+                <m:ctrlPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                    <w:i/>
+                  </w:rPr>
+                </m:ctrlPr>
+              </m:sSubPr>
+              <m:e>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>E</m:t>
+                </m:r>
+              </m:e>
+              <m:sub>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>0</m:t>
+                </m:r>
+              </m:sub>
+            </m:sSub>
+            <m:d>
+              <m:dPr>
+                <m:ctrlPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                    <w:i/>
+                  </w:rPr>
+                </m:ctrlPr>
+              </m:dPr>
+              <m:e>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>1</m:t>
+                </m:r>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                  </w:rPr>
+                  <m:t>-</m:t>
+                </m:r>
+                <m:sSub>
+                  <m:sSubPr>
+                    <m:ctrlPr>
+                      <w:rPr>
+                        <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                        <w:i/>
+                      </w:rPr>
+                    </m:ctrlPr>
+                  </m:sSubPr>
+                  <m:e>
+                    <m:r>
+                      <w:rPr>
+                        <w:rFonts w:ascii="Cambria Math"/>
+                      </w:rPr>
+                      <m:t>b</m:t>
+                    </m:r>
+                  </m:e>
+                  <m:sub>
+                    <m:r>
+                      <w:rPr>
+                        <w:rFonts w:ascii="Cambria Math"/>
+                      </w:rPr>
+                      <m:t>0</m:t>
+                    </m:r>
+                  </m:sub>
+                </m:sSub>
+              </m:e>
+            </m:d>
+          </m:den>
+        </m:f>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+          </w:rPr>
+          <m:t xml:space="preserve">= </m:t>
+        </m:r>
+        <m:nary>
+          <m:naryPr>
+            <m:subHide m:val="1"/>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+                <w:noProof/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:naryPr>
+          <m:sub/>
+          <m:sup>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+                <w:noProof/>
+              </w:rPr>
+              <m:t>x</m:t>
+            </m:r>
+          </m:sup>
+          <m:e/>
+        </m:nary>
+        <m:f>
+          <m:fPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+                <w:noProof/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:fPr>
+          <m:num>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+                <w:noProof/>
+              </w:rPr>
+              <m:t>2μ(z)</m:t>
+            </m:r>
+          </m:num>
+          <m:den>
+            <m:sSup>
+              <m:sSupPr>
+                <m:ctrlPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                    <w:i/>
+                    <w:noProof/>
+                  </w:rPr>
+                </m:ctrlPr>
+              </m:sSupPr>
+              <m:e>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                    <w:noProof/>
+                  </w:rPr>
+                  <m:t>σ</m:t>
+                </m:r>
+              </m:e>
+              <m:sup>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                    <w:noProof/>
+                  </w:rPr>
+                  <m:t>2</m:t>
+                </m:r>
+              </m:sup>
+            </m:sSup>
+            <m:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math"/>
+                <w:noProof/>
+              </w:rPr>
+              <m:t>(x)</m:t>
+            </m:r>
+          </m:den>
+        </m:f>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+            <w:noProof/>
+          </w:rPr>
+          <m:t>dz</m:t>
+        </m:r>
+      </m:oMath>
+      <w:r w:rsidRPr="0057755C">
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <m:oMath>
+        <m:r>
+          <w:rPr>
+            <w:rFonts w:ascii="Cambria Math"/>
+            <w:noProof/>
+          </w:rPr>
+          <m:t>s(x)=</m:t>
+        </m:r>
+        <m:func>
+          <m:funcPr>
+            <m:ctrlPr>
+              <w:rPr>
+                <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                <w:i/>
+                <w:noProof/>
+              </w:rPr>
+            </m:ctrlPr>
+          </m:funcPr>
+          <m:fName>
+            <m:sSup>
+              <m:sSupPr>
+                <m:ctrlPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math" w:hAnsi="Cambria Math"/>
+                    <w:i/>
+                    <w:noProof/>
+                  </w:rPr>
+                </m:ctrlPr>
+              </m:sSupPr>
+              <m:e>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                    <w:noProof/>
+                  </w:rPr>
+                  <m:t>e</m:t>
+                </m:r>
+              </m:e>
+              <m:sup>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                    <w:noProof/>
+                  </w:rPr>
+                  <m:t>-</m:t>
+                </m:r>
+                <m:r>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Cambria Math"/>
+                    <w:noProof/>
+                  </w:rPr>
+                  <m:t>B(x)</m:t>
+                </m:r>
+              </m:sup>
+            </m:sSup>
+          </m:fName>
+          <m:e/>
+        </m:func>
+      </m:oMath>
+      <w:r w:rsidRPr="0057755C">
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00C07F12" w:rsidRDefault="00C07F12" w:rsidP="00C07F12">
+      <w:pPr>
+        <w:pStyle w:val="MTDisplayEquation"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00FD38C9" w:rsidRPr="006B0FD6" w:rsidRDefault="00FD38C9" w:rsidP="00185666">
+      <w:pPr>
+        <w:jc w:val="center"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="005474D6" w:rsidRDefault="006B0FD6" w:rsidP="005474D6">
+      <w:pPr>
+        <w:pStyle w:val="1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Таблицы</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="005474D6" w:rsidRDefault="00A8143C" w:rsidP="005474D6">
+      <w:r>
+        <w:t xml:space="preserve">Поддерживается загрузка таблиц из файлов </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>word</w:t>
+      </w:r>
+      <w:r w:rsidR="00AF3815">
+        <w:t>. Пример такой таблицы (так же как с картинками необходимо пустая строка, чтобы таблица начиналась с нового
+          абзаца):
+        </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00AF3815" w:rsidRPr="005474D6" w:rsidRDefault="00AF3815" w:rsidP="005474D6"/>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblInd w:w="-1168" w:type="dxa"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0"
+                   w:noVBand="0"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2269"/>
+        <w:gridCol w:w="8363"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00382A97" w:rsidTr="00830764">
+        <w:trPr>
+          <w:trHeight w:val="109"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2269" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00382A97" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:pStyle w:val="Default"/>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t xml:space="preserve">XVIII </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+              <w:t>век</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="8363" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00917224" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:spacing w:after="0"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00917224">
+              <w:t>Королевство Великобритания образовано объединением Англии и Шотландии (1707).</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00917224" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:spacing w:after="0"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00917224">
+              <w:t>Русско-турецкие войны .</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00917224" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:spacing w:after="0"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00917224">
+              <w:t>Война за польское наследство (1733—1735).</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00917224" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:spacing w:after="0"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00917224">
+              <w:t>Великая Северная экспедиция (1733—1743).</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00917224" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:spacing w:after="0"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00917224">
+              <w:t>Война за австрийское наследство (1740—1748).</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00917224" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:spacing w:after="0"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00917224">
+              <w:t>Русско-шведские войны (1741—1743; 1788—1790).</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00382A97" w:rsidRDefault="00382A97" w:rsidP="00FC1034">
+            <w:pPr>
+              <w:pStyle w:val="Default"/>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00382A97" w:rsidTr="00830764">
+        <w:trPr>
+          <w:trHeight w:val="660"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2269" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00382A97" w:rsidRDefault="00917224" w:rsidP="00FC1034">
+            <w:pPr>
+              <w:pStyle w:val="Default"/>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t xml:space="preserve">XIX </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+              <w:t>век</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="8363" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00382A97" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:r w:rsidRPr="00917224">
+              <w:t>Девятнадцатый (XIX) век длился с 1801 по 1900 годы по григорианскому календарю.</w:t>
+            </w:r>
+            <w:r>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:t>Охарактеризовался такими явлениями, как протекционизм, индустриализация, урбанизация,
+                расцвет колониализма, с другой стороны — небывалыми достижениями культуры и искусства, а также техники и
+                науки. XIX век дал огромное количество выдающихся музыкантов, художников, писателей и поэтов,
+                архитекторов, а также учёных, изобретателей, авантюристов и великих политиков.
+              </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00382A97" w:rsidTr="00830764">
+        <w:trPr>
+          <w:trHeight w:val="109"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2269" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00382A97" w:rsidRDefault="00917224" w:rsidP="00FC1034">
+            <w:pPr>
+              <w:pStyle w:val="Default"/>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t xml:space="preserve">XX </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+              <w:t>век</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="8363" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00917224" w:rsidRDefault="00917224" w:rsidP="00917224">
+            <w:pPr>
+              <w:pStyle w:val="aa"/>
+              <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              <w:spacing w:before="96" w:beforeAutospacing="0" w:after="120" w:afterAutospacing="0" w:line="288"
+                         w:lineRule="atLeast"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>XX</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>век</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> (двадцатый век, 20 век, двадцатое</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>столетие</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>) — отрезок времени, продолжительностью 100 лет, с</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>1 января</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>1901 года</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>по</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>31 декабря</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>2000 года</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>. Последний век</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>второго тысячелетия</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>. Распространено ошибочное заблуждение, будто XX век начался 1 января</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:i/>
+                <w:iCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:u w:val="single"/>
+              </w:rPr>
+              <w:t>1900</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>-го года, а закончился 31 декабря</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:eastAsiaTheme="majorEastAsia" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:i/>
+                <w:iCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:u w:val="single"/>
+              </w:rPr>
+              <w:t>1999</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>-го года .</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidR="00382A97" w:rsidRDefault="00382A97" w:rsidP="00FC1034">
+            <w:pPr>
+              <w:pStyle w:val="Default"/>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00382A97" w:rsidTr="00830764">
+        <w:trPr>
+          <w:trHeight w:val="247"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2269" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00382A97" w:rsidRPr="00917224" w:rsidRDefault="00917224" w:rsidP="00FC1034">
+            <w:pPr>
+              <w:pStyle w:val="Default"/>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+                <w:lang w:val="en-US"/>
+              </w:rPr>
+              <w:t xml:space="preserve">XXI </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+              <w:t>век</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="8363" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w:rsidR="00382A97" w:rsidRDefault="00917224" w:rsidP="00FC1034">
+            <w:pPr>
+              <w:pStyle w:val="Default"/>
+              <w:rPr>
+                <w:sz w:val="23"/>
+                <w:szCs w:val="23"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>Промежуток времени с</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>1 января</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>2001 года</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>по</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>31 декабря</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>2100 года</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>по</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rStyle w:val="apple-converted-space"/>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00917224">
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+              </w:rPr>
+              <w:t>григорианскому календарю</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w:rsidR="005474D6" w:rsidRDefault="005474D6" w:rsidP="005474D6">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="1065"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00830764" w:rsidRDefault="00830764" w:rsidP="005474D6">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="1065"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00830764" w:rsidRDefault="00830764" w:rsidP="005474D6">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="1065"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Форматирование текста внутри таблицы происходит по тем же правилам, что и в самих абзацах.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="005474D6">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="1065"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="005474D6">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="1065"/>
+      </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00D95792" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="2"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Списки</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="3"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Ненумерованный список</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00270AA7" w:rsidP="00B900A1">
+      <w:r>
+        <w:t>Поддерживаются списки 3-х уровней. Стиль «Заголовок» не поддерживается, т.к. его не должно быть в тексте
+          публикации.
+        </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00764072" w:rsidRPr="00270AA7" w:rsidRDefault="00764072" w:rsidP="00B900A1"/>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="0"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Ещё раз правила коротко:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>При загрузке прило</w:t>
+      </w:r>
+      <w:r w:rsidR="00667647">
+        <w:t>женных файлов принимаются только файлы расширения DOCX</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. Формат DOC не поддерживается. Файл DOC можно легко сохранить в формат DOCX любой версией MS </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>Office</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> версии выше 2007.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00667647" w:rsidRDefault="00667647" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Поле аффилиация и адрес заполняется для каждого соавтора статьи в формате: аффилиация – должность,
+          подразделение, наименование организации
+        </w:t>
+      </w:r>
+      <w:r w:rsidRPr="00667647">
+        <w:t xml:space="preserve">; </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">адрес – страна, город.  </w:t>
+      </w:r>
+      <w:r w:rsidR="006175DF">
+        <w:t xml:space="preserve">По умолчанию значения берутся из профиля автора. </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">Пример,    </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>с.н.с</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>., Исторический факультет Государственного Академического университета гуманитарных наук</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00667647">
+        <w:t xml:space="preserve">;  </w:t>
+      </w:r>
+      <w:r>
+        <w:t>Российская Федерация, Москва.</w:t>
+      </w:r>
+      <w:r w:rsidR="000A02A3">
+        <w:t xml:space="preserve"> Несколько </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="000A02A3">
+        <w:t>аффилиаций</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="000A02A3">
+        <w:t xml:space="preserve"> для одного автора не </w:t>
+      </w:r>
+      <w:r w:rsidR="00764072">
+        <w:t>поддерживается</w:t>
+      </w:r>
+      <w:r w:rsidR="000A02A3">
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>В файле с текстом статьи не должно быть заголовка статьи на русском и английском, аннотации на русском и
+          английском, информации об авторах и ключевых словах, списка литературы. В файле должен быть только текст
+          статьи, примечания к тексту, иллюстрации и таблицы. Заголовки, аннотации, ключевые слова, авторы
+        </w:t>
+      </w:r>
+      <w:r w:rsidR="00667647">
+        <w:t xml:space="preserve">, их аффилиация, адрес </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> и список литературы </w:t>
+      </w:r>
+      <w:r w:rsidR="00667647">
+        <w:t>заполняются</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00667647">
+        <w:t>через отдельные поля</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Абзацы друг от друга отделяются пустой строкой. Количество символов в абзаце не может быть больше 5000
+          символов. Если заголовок или список не отделены от текста до или после строкой, то они соединяются с текстом в
+          один абзац.
+        </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Примечания должны быть оформлены как сноски в </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidRPr="005474D6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="00667647">
+        <w:t>Word</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Изображения могут быть загружены прямо из текста </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidRPr="005474D6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">, либо  после загрузки текста статьи на сайте. Если загрузка изображения делается из </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidRPr="005474D6">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>Word</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">, то следующая строчка текста после картинки автоматически становится подписью к ней. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Заголовки извлекаются из текста файлов DOCX, либо из можно задавать в тексте уже на сайте так же как в
+          текстовых редакторах. Заголовок может быть отдельным абзацем, может примыкать к тексту за ним (на усмотрение
+          пользователя или редактора).
+        </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Списки извлекаются из текста файлов DOCX, либо из можно задавать в тексте уже на сайте так же как в текстовых редакторах.  Список может быть отдельным абзацем, может примыкать к тексту за ним или до него (на усмотрение пользователя или редактора). Поддерживаются, как нумерованные, так  и не нумерованные списки. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Формулы в тексте публикаций с</w:t>
+      </w:r>
+      <w:r w:rsidR="00645588">
+        <w:t>ледует размещать в виде текста</w:t>
+      </w:r>
+      <w:r w:rsidR="00EE4982">
+        <w:t xml:space="preserve"> или преобразовывать в формат</w:t>
+      </w:r>
+      <w:r w:rsidR="00645588">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00645588">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>MS</w:t>
+      </w:r>
+      <w:r w:rsidR="00645588" w:rsidRPr="00EE4982">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00645588">
+        <w:rPr>
+          <w:lang w:val="en-US"/>
+        </w:rPr>
+        <w:t>Equation</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Поддерживается три вида примечаний как в основном тексте, так и сносках: примечание редактора, ссылка на
+          список литературы, URL. Вручную можно изменить тип примечания уже на сайте с помощью кнопок
+        </w:t>
+      </w:r>
+      <w:r w:rsidR="00531F28">
+        <w:t xml:space="preserve"> в онлайн редакторе</w:t>
+      </w:r>
+      <w:r w:rsidRPr="004837CA">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00875416" w:rsidRDefault="00875416" w:rsidP="00875416"/>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="3"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Нумерованный список</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="000A02A3" w:rsidRPr="000A02A3" w:rsidRDefault="000A02A3" w:rsidP="000A02A3">
+      <w:r>
+        <w:t>Внимание!!! Поддерживаются только списки одного уровня, вложенные не поддерживаются.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="13"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Раздел 1</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="13"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Раздел 2</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="1"/>
+          <w:numId w:val="13"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Подраздел 2.1</w:t>
+      </w:r>
+      <w:r w:rsidR="000A02A3">
+        <w:t>. (Этот по</w:t>
+      </w:r>
+      <w:r w:rsidR="00240BC8">
+        <w:t>драздел превратиться в раздел 3</w:t>
+      </w:r>
+      <w:r w:rsidR="000A02A3">
+        <w:t>)</w:t>
+      </w:r>
+      <w:r w:rsidR="00240BC8">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="1"/>
+          <w:numId w:val="13"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Подраздел 2.2</w:t>
+      </w:r>
+      <w:r w:rsidR="000A02A3">
+        <w:t xml:space="preserve">  (Этот подраздел превратиться в раздел 4)</w:t>
+      </w:r>
+      <w:r w:rsidR="00240BC8">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="00B900A1">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="13"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Раздел 3</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00B900A1" w:rsidRDefault="00B900A1" w:rsidP="005474D6">
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:ind w:left="1065"/>
+      </w:pPr>
+    </w:p>
+    <w:sectPr w:rsidR="00B900A1">
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1134" w:right="850" w:bottom="1134" w:left="1701" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:cols w:space="708"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

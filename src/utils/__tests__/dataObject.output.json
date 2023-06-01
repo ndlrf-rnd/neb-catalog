@@ -1,0 +1,90 @@
+{
+  "instance": {
+    "author_org": "Россия",
+    "author_yearsoflife_notsure": 0,
+    "author_yearsoflife_params": {},
+    "created_at": "2019-12-25 15:36:12",
+    "date": "1818-",
+    "date_notsure": 0,
+    "date_params": {
+      "descr": "1818-",
+      "radio": 3
+    },
+    "deleted": 0,
+    "doc_type": 28,
+    "id": 1,
+    "language": "rus",
+    "part_type": 1,
+    "place": "Санкт-Петербург",
+    "place_notsure": 0,
+    "publisher": "б. и.",
+    "size": "26-28 см",
+    "title_full": "Отчет государственных кредитных установлений за …",
+    "title_full_notsure": 0,
+    "type": 2,
+    "updated_at": "2019-12-25 15:36:12",
+    "user_id": 26
+  },
+  "item": {
+    "conclusion": [
+      "73.pdf"
+    ],
+    "copy_eid": "009932356",
+    "created_at": "2019-12-25 15:36:12",
+    "criteria_type": 2,
+    "deleted": 0,
+    "division_id": 9,
+    "ec_comment": "http://dlib.rsl.ru/rsl01009000000/rsl01009932000/rsl01009932356/rsl01009932356.pdf",
+    "has_ec": 1,
+    "id": 2,
+    "images": [
+      "009932356_00.jpg",
+      "009932356_01.jpg"
+    ],
+    "neb_url": "https://kp.rusneb.ru/item/material/5dd3ea4774d5af0dd4567f09",
+    "num": 2,
+    "part_id": 2,
+    "storage_cypher": "G 7/11a",
+    "system_number": "143086-О",
+    "updated_at": "2019-12-25 11:53:12",
+    "user_id": 26,
+    "volume": "66 с., [29] л. табл."
+  },
+  "organization": {
+    "created_at": "2019-10-02 07:48:23",
+    "email": "khorobrykhsi@rsl.ru",
+    "email_official": "nbros@rsl.ru",
+    "fact_city": "Москва",
+    "fact_house": "3/5",
+    "fact_index": "119019",
+    "fact_region": 133,
+    "fact_street": "Воздвиженка, ул.",
+    "group_id": 26,
+    "id": 26,
+    "inn": "7704097560",
+    "last_entry": "2019-10-02 07:50:47",
+    "legal_city": "Москва, г.",
+    "legal_house": "3/5",
+    "legal_index": "119019",
+    "legal_region": 133,
+    "legal_street": "Воздвиженка, ул.",
+    "opf": "Федеральное государственное бюджетное учреждение",
+    "org_fio": "Дуда Вадим Валерьевич",
+    "org_name": "Федеральное государственное бюджетное учреждение «Российская государственная библиотека»",
+    "org_position": "Генеральный директор",
+    "phones": "+7 (499) 557-04-70",
+    "role": 3,
+    "status": 1,
+    "type": 1,
+    "updated_at": "2020-08-31 10:39:17"
+  },
+  "part": {
+    "date_notsure": 0,
+    "date_params": {},
+    "id": 2,
+    "item_id": 1,
+    "place_notsure": 0,
+    "title": "1855 год",
+    "volume": "66 с., [29] л. табл."
+  }
+}

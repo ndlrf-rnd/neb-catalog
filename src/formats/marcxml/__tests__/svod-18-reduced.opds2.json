@@ -1,0 +1,150 @@
+[
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Horapollo",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "identifier": "/resources/instance/ВГБИЛ/H 811",
+            "name": "Фонд редких книг",
+            "organization": "ВГБИЛ",
+            "shelfMark": "H 811"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "Объем экземпляра: 270 с.; Экземпляр неполный: нет с. 191-192.; Размер переплета/картонажа: 11,0 х 7,9 х 2,2 см.; Форма книги: кодекс.; Материал листа/книжного блока: бумага.; Экземпляр в переплете/картонаже.; Тип конструкции переплета: цельный.; Крышки гибкие.; Корешок: гладкий.; Нахзац простой.; Покровный материал переплета/картонажа: пергамен.; Обрез: простой.; Другие элементы внешнего покрытия: завязки (2, утрачены).; Техника оформления переплета/картонажа (другое): надпись чернилами на корешке.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "dc:issued": "1599",
+      "description": [
+        "272 с.",
+        "16°",
+        "Объем экземпляра: 270 с.",
+        "Экземпляр неполный: нет с. 191-192.",
+        "Размер переплета/картонажа: 11,0 х 7,9 х 2,2 см.",
+        "Форма книги: кодекс.",
+        "Материал листа/книжного блока: бумага.",
+        "Экземпляр в переплете/картонаже.",
+        "Тип конструкции переплета: цельный.",
+        "Крышки гибкие.",
+        "Корешок: гладкий.",
+        "Нахзац простой.",
+        "Покровный материал переплета/картонажа: пергамен.",
+        "Обрез: простой.",
+        "Другие элементы внешнего покрытия: завязки (2, утрачены).",
+        "Техника оформления переплета/картонажа (другое): надпись чернилами на корешке."
+      ],
+      "dimensions": "16°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/ВГБИЛ/RU\\BM\\BIBL\\0000000428",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "272 с.",
+      "modified": "2011-05-11T12:26:29.5Z",
+      "numberOfPages": 272,
+      "published": "1599",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Romae",
+        "name": "Ex typographia Aloysij Zannetti"
+      },
+      "subtitle": "Imagines vero cum privilegio.",
+      "title": "Ωρου !!!Απολλωνος !!!Νειλωου !!!ιεροg!!!λιπχικα !!!εκλεκτα = Hori Apollinis Selecta Hieroglyphica."
+    }
+  },
+  {
+    "metadata": {
+      "@context": [
+        "https://readium.org/webpub-manifest/context.jsonld",
+        "https://id.loc.gov/ontologies/bibframe.html"
+      ],
+      "@type": "https://schema.org/Book",
+      "author": {
+        "name": "Bebel, Heinrich 1472-1518",
+        "relCode": "aut",
+        "relTerm": "Автор"
+      },
+      "belongsTo": {
+        "collection": [
+          {
+            "identifier": "/resources/instance/ВГБИЛ/B 387",
+            "name": "Фонд редких книг",
+            "organization": "ВГБИЛ",
+            "shelfMark": "B 387"
+          }
+        ]
+      },
+      "bf:illustrativeContent": "Объем экземпляра:128, [8] л.; Экземпляр полный.; Размер книжного блока: 15,0 х 10,5  х 2,0 см.; Размер крышек переплета: 14,6 х 9,8 см.; Форма книги: кодекс.; Материал листа/книжного блока: бумага.; Экземпляр в переплете/картонаже.; Тип конструкции переплета: цельный.; Крышки гибкие.; Корешок: гладкий.; Покровный материал переплета/картонажа: пергамен.; Техника оформления переплета/картонажа: раскраска.; Обрез: простой.; Форзац простой.; Нахзац простой.",
+      "content": {
+        "en": "book/text",
+        "ru": "Книги"
+      },
+      "contributor": [
+        {
+          "birthDate": "1380",
+          "deathDate": "1459",
+          "name": "Bracciolini, Poggio"
+        },
+        {
+          "birthDate": "1396?",
+          "deathDate": "1458",
+          "name": "Alfonso V"
+        },
+        {
+          "name": "Mülich, Johann Adolph"
+        },
+        {
+          "birthDate": "ок. 1482",
+          "deathDate": "1561",
+          "name": "Henrichmann, J."
+        }
+      ],
+      "dc:issued": "1550",
+      "description": [
+        "128, [8] л.",
+        "8°",
+        "Объем экземпляра:128, [8] л.",
+        "Экземпляр полный.",
+        "Размер книжного блока: 15,0 х 10,5  х 2,0 см.",
+        "Размер крышек переплета: 14,6 х 9,8 см.",
+        "Форма книги: кодекс.",
+        "Материал листа/книжного блока: бумага.",
+        "Экземпляр в переплете/картонаже.",
+        "Тип конструкции переплета: цельный.",
+        "Крышки гибкие.",
+        "Корешок: гладкий.",
+        "Покровный материал переплета/картонажа: пергамен.",
+        "Техника оформления переплета/картонажа: раскраска.",
+        "Обрез: простой.",
+        "Форзац простой.",
+        "Нахзац простой."
+      ],
+      "dimensions": "8°",
+      "identifier": "https://catalog.rusneb.ru/resources/instance/ВГБИЛ/RU\\BM\\BIBL\\0000000250",
+      "language": ["rus"],
+      "marc:type": "a",
+      "materialExtent": "128, [8] л.",
+      "modified": "2011-05-11T12:52:45.1Z",
+      "nameOfWorkPart": "tem Progosticon in omnem aevum durans, Iacobi Henrichmanni, facetijs Bebelianis nonillepedè additum",
+      "numberOfPages": 128,
+      "published": "1550",
+      "publisher": {
+        "addressCountry": "ru",
+        "addressLocality": "Tubingae",
+        "name": "ex officina Ulrici Morhardi"
+      },
+      "subtitle": "à mendis repurgati, & in lucem rursus redditi",
+      "title": "Facetiarum, Heinrici Bebelii poetae a d. Maximiliano laureati, libri tres,"
+    }
+  }
+]

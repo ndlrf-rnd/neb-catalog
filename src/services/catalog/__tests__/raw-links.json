@@ -1,0 +1,32 @@
+[
+  {
+    "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/8369",
+    "properties": {
+      "modified": "2020-02-02T02:02:02.200Z"
+    },
+    "rel": "self",
+    "type": "application/opds+json"
+  },
+  {
+    "alternate": [
+      {
+        "href": "http://localhost:18080/cdn/s3.ceph.neb.rsl/rkp/2020/8369.pdf",
+        "rel": "alternate",
+        "title": "Retrieve using SEED remote S3 resolver"
+      }
+    ],
+    "href": "https://s3.ceph.neb.rsl/rkp/2020/8369.pdf",
+    "rel": "item",
+    "type": "application/pdf"
+  },
+  {
+    "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/8369?export=raw",
+    "name": {
+      "en": "Download source record",
+      "ru": "Скачать оригинальную запись"
+    },
+    "rel": "convertedFrom",
+    "title": "Скачать оригинальную запись",
+    "type": "application/vnd.rusneb.knpam+json"
+  }
+]

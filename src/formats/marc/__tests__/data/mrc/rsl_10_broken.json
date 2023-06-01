@@ -1,0 +1,40 @@
+[
+  {
+    "controlfield": [],
+    "datafield": [
+      {
+        "ind1": "n",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": ""
+          },
+          {
+            "code": "b",
+            "value": "efined"
+          }
+        ],
+        "tag": "100"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [],
+        "tag": "500"
+      },
+      {
+        "ind1": "#",
+        "ind2": "#",
+        "subfield": [
+          {
+            "code": "a",
+            "value": "N\u001e\u001d"
+          }
+        ],
+        "tag": "653"
+      }
+    ],
+    "leader": "00000nam a2200493 ia4500"
+  }
+]

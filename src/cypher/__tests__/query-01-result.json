@@ -1,0 +1,62 @@
+[
+  {
+    "key": "c",
+    "kind": "collection",
+    "record": "Coll",
+    "source": "test.rusneb.ru"
+  },
+  {
+    "key_from": "w",
+    "key_to": "c",
+    "kind_from": "work",
+    "kind_to": "collection",
+    "relation_kind": "part_of",
+    "source_from": "RuSpRNB",
+    "source_to": "test.rusneb.ru"
+  },
+  {
+    "key": "w",
+    "kind": "work",
+    "record": "test Work",
+    "source": "RuSpRNB"
+  },
+  {
+    "key_from": "w",
+    "key_to": "inst",
+    "kind_from": "work",
+    "kind_to": "instance",
+    "relation_kind": "instance_of",
+    "source_from": "RuSpRNB",
+    "source_to": "RuSpRNB"
+  },
+  {
+    "key": "inst",
+    "kind": "instance",
+    "record": "test Instance",
+    "source": "RuSpRNB"
+  },
+  {
+    "key_from": "itm",
+    "key_to": "inst",
+    "kind_from": "item",
+    "kind_to": "instance",
+    "relation_kind": "item_of",
+    "source_from": "RuSpRNB",
+    "source_to": "RuSpRNB"
+  },
+  {
+    "key_from": "inst",
+    "key_to": "itm",
+    "kind_from": "instance",
+    "kind_to": "item",
+    "relation_kind": "item_of",
+    "source_from": "RuSpRNB",
+    "source_to": "RuSpRNB"
+  },
+  {
+    "key": "itm",
+    "kind": "item",
+    "record": "test Item",
+    "source": "RuSpRNB"
+  }
+]

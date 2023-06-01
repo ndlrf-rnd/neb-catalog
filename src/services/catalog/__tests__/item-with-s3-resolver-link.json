@@ -1,0 +1,170 @@
+{
+  "images": [
+    {
+      "href": "https://knpam.rusneb.ru/uploads/copies/8369/images/8730_01.jpg",
+      "name": {
+        "en": "Image of item 8730_01.jpg",
+        "ru": "Изображение экземпляра 8730_01.jpg"
+      },
+      "rel": "cover",
+      "title": "Изображение экземпляра 8730_01.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "href": "https://knpam.rusneb.ru/uploads/copies/8369/images/8730_02.jpg",
+      "name": {
+        "en": "Image of item 8730_02.jpg",
+        "ru": "Изображение экземпляра 8730_02.jpg"
+      },
+      "rel": "image",
+      "title": "Изображение экземпляра 8730_02.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "href": "https://knpam.rusneb.ru/uploads/copies/8369/images/8730_03.jpg",
+      "name": {
+        "en": "Image of item 8730_03.jpg",
+        "ru": "Изображение экземпляра 8730_03.jpg"
+      },
+      "rel": "image",
+      "title": "Изображение экземпляра 8730_03.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "links": [
+    {
+      "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/8369",
+      "properties": {
+        "modified": "2020-02-02T02:02:02.200Z"
+      },
+      "rel": "self",
+      "type": "application/opds+json"
+    },
+    {
+      "alternate": [
+        {
+          "href": "http://localhost:18080/cdn/s3.ceph.neb.rsl/rkp/2020/8369.pdf",
+          "rel": "alternate",
+          "title": "Retrieve using SEED remote S3 resolver"
+        }
+      ],
+      "href": "https://s3.ceph.neb.rsl/rkp/2020/8369.pdf",
+      "properties": {
+        "serial": "url-undefined"
+      },
+      "rel": "item",
+      "type": "application/pdf"
+    },
+    {
+      "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/8369?export=raw",
+      "name": {
+        "en": "Download source record",
+        "ru": "Скачать оригинальную запись"
+      },
+      "rel": "convertedFrom",
+      "title": "Скачать оригинальную запись",
+      "type": "application/vnd.rusneb.knpam+json"
+    }
+  ],
+  "metadata": {
+    "@id": "http://localhost:18080/resources/item/knpam.rusneb.ru/8369",
+    "@type": "https://schema.org/CreativeWork",
+    "alternateTitle": "Козетта; Отверженные",
+    "author": {
+      "birthDate": "1802",
+      "deathDate": "1885",
+      "name": "Гюго, Виктор Мари",
+      "relCode": "aut",
+      "relTerm": "Автор",
+      "sortAs": "Гюго, Виктор Мари"
+    },
+    "belongsTo": {
+      "collection": [
+        {
+          "@id": "http://localhost:18080/resources/groups/knpam.rusneb.ru",
+          "href": "http://localhost:18080/resources/groups/knpam.rusneb.ru",
+          "identifier": "urn:nbn:ru:kp:group:",
+          "name": " resources groups knpam.rusneb.ru "
+        },
+        {
+          "@id": "http://localhost:18080/resources/organization/knpam.rusneb.ru/80",
+          "@type": "https://schema.org/ArchiveOrganization",
+          "address": {
+            "@type": "https://schema.org/PostalAddress",
+            "addressLocality": "Петрозаводск",
+            "addressRegion": 66,
+            "postalCode": "185035",
+            "streetAddress": "ул. Пушкинская , д. 5"
+          },
+          "bf:shelfMark": "И Г 99",
+          "bf:stockNumber": "1183638",
+          "email": "head@library.karelia.ru",
+          "href": "http://localhost:18080/resources/organization/knpam.rusneb.ru/80",
+          "identifier": "urn:nbn:ru:kp:org:80",
+          "knpam:copy_eid": "F.НБР Карелия.0001F5.00BD7A",
+          "knpam:inn": "1001040135",
+          "knpam:opf": "Бюджетное учреждение",
+          "knpam:storage_cypher": "И Г 99",
+          "knpam:system_number": "1183638",
+          "location": {
+            "@type": "https://schema.org/PostalAddress",
+            "addressLocality": "Петрозаводск",
+            "addressRegion": 66,
+            "postalCode": "185035",
+            "streetAddress": "ул. Пушкинская, д. 5"
+          },
+          "name": "Бюджетное учреждение «Национальная библиотека Республики Карелия»",
+          "properties": {
+            "modified": "2020-02-02T02:02:02.200Z",
+            "provider": "rusneb.ru",
+            "serial": "organization-109",
+            "sourceModified": "2020-02-02T02:02:02.200Z"
+          },
+          "rel": "hasitem",
+          "telephone": "+7 (814) 278-28-76"
+        }
+      ]
+    },
+    "bf:illustrativeContent": "ил.",
+    "comment": "нуореммилла лапсилла : [для младшего и дошкольного возраста]",
+    "content": {},
+    "cursors": {
+      "after": "item-url-109",
+      "before": "item-url-109"
+    },
+    "datePublished": "1938",
+    "dc:format": "20,4 х 14,1 х 0,1 см ",
+    "dc:issued": "1938",
+    "dcterms:extent": "32 с.",
+    "description": "Отечественное издание",
+    "identifier": "http://localhost:18080/resources/item/knpam.rusneb.ru/8369",
+    "knpam:criteria_type": "Социально-значимый",
+    "kp:doc_type": 28,
+    "language": "krl",
+    "materialDescription": "Целостность: полный. Общее загрязнение на с. [1] обложки. Обложка у корешка подклеена полосками кальки\nТехническая наклейка на с. [1] обложки. Технические штемпели (в т. ч. прежние шифры) на наклейке на с. [1], [4] обложки, с. 2. Библиотечный кармашек на с. [2] обложки. Штрихкод на с. [2] обложки\nна с. 2, 17, 32: Горьковская областная библиотека имени Ленина, г. Горький\nна титульном листе, с. 17: Национальная библиотека Республики Карелия\nПометы (в т. ч. прежние шифры): на с. [1], [4] обложки (шариковая ручка), титульном листе (чернила, карандаш, шариковая ручка), с. 17 (чернила, шариковая ручка)",
+    "materialExtent": "32 с.",
+    "modified": "2020-02-02T02:02:02.200Z",
+    "numberOfPageItems": 1,
+    "order": "desc",
+    "processingTimeSec": 0.01,
+    "provider": "rusneb.ru",
+    "publisher": {
+      "addressLocality": "Петрозаводска",
+      "description": "Отечественное издание",
+      "name": "Карельской государственной издательства"
+    },
+    "responsibilityNotes": "Гюго, Виктор Мари\nВ. Гюго",
+    "serial": "item-136",
+    "sourceModified": "2020-02-02T02:02:02.200Z",
+    "title": "Козета",
+    "type": "application/opds+json"
+  },
+  "navigation": [
+    {
+      "href": "http://localhost:18080/resources/item/knpam.rusneb.ru/8369?extended=1&after=item-url-109",
+      "rel": "next",
+      "title": "Следующая страница",
+      "type": "application/opds+json"
+    }
+  ]
+}

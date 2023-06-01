@@ -1,0 +1,266 @@
+[
+  {
+    "key": "10023-4559/4756",
+    "kind": "publication_issue",
+    "mediaType": "application/opds+json",
+    "record": {
+      "@context": "https://readium.org/webpub-manifest/context.jsonld",
+      "images": [
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0001.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 1",
+          "type": "image/jpeg",
+          "width": 320
+        },
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0002.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 2",
+          "type": "image/jpeg",
+          "width": 320
+        },
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0003.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 3",
+          "type": "image/jpeg",
+          "width": 320
+        },
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0004.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 4",
+          "type": "image/jpeg",
+          "width": 320
+        }
+      ],
+      "links": [
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756",
+          "rel": "http://opds-spec.org/acquisition",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/index.html",
+          "rel": "alternate",
+          "title": "Содержание выпуска",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/issue.html",
+          "rel": "toc",
+          "title": "Оглавление",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0001.html",
+          "rel": "part",
+          "title": "Page 1",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0002.html",
+          "rel": "part",
+          "title": "Page 2",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0003.html",
+          "rel": "part",
+          "title": "Page 3",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4756/thumbnails/0004.html",
+          "rel": "part",
+          "title": "Page 4",
+          "type": "application/html"
+        }
+      ],
+      "metadata": {
+        "@id": "/resources/publication_issue/10023-4559/4756",
+        "@type": "https://schema.org/PublicationIssue",
+        "accessMode": [
+          "textual",
+          "visual"
+        ],
+        "accessModeSufficient": [
+          "textual",
+          "visual"
+        ],
+        "accessibilityFeature": [
+          "structuralNavigation"
+        ],
+        "accessibilityHazard": null,
+        "accessibilitySummary": "This publication conforms to the EPUB Accessibility specification at WCAG Level AA.",
+        "copyrightYear": "1941",
+        "identifier": "/resources/publication_issue/10023-4559/4756",
+        "inDirection": "auto",
+        "inLanguage": [
+          "ru-RU"
+        ],
+        "issn": "10023-4559",
+        "issueNumber": "1",
+        "language": "ru",
+        "modified": "2020-10-26T13:55:58.733358",
+        "name": "Красная Звезда (4756) 1941 №1",
+        "numberOfPages": 4,
+        "published": "1941-01-01",
+        "publisher": "Российская государственная библиотека (ФГБУ РГБ)",
+        "readingProgression": "ltr",
+        "rights": "\"Красная Звезда\" - content rights",
+        "title": "Красная Звезда (4756) 1941 №1",
+        "volumeNumber": "4756"
+      }
+    },
+    "source": "catalog.rusneb.ru",
+    "time_source": "2020-10-26T13:55:58.733358"
+  },
+  {
+    "key_from": "10023-4559",
+    "key_to": "10023-4559/4756",
+    "kind_from": "periodical",
+    "kind_to": "publication_issue",
+    "relation_kind": "hasPart",
+    "source_from": "catalog.rusneb.ru",
+    "source_to": "catalog.rusneb.ru",
+    "time_source": "2020-10-26T13:55:58.733358"
+  },
+  {
+    "key": "10023-4559/4757",
+    "kind": "publication_issue",
+    "mediaType": "application/opds+json",
+    "record": {
+      "@context": "https://readium.org/webpub-manifest/context.jsonld",
+      "images": [
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0001.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 1",
+          "type": "image/jpeg",
+          "width": 320
+        },
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0002.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 2",
+          "type": "image/jpeg",
+          "width": 320
+        },
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0003.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 3",
+          "type": "image/jpeg",
+          "width": 320
+        },
+        {
+          "height": 440,
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0004.jpg",
+          "rel": "http://opds-spec.org/image/thumbnail",
+          "title": "Page 4",
+          "type": "image/jpeg",
+          "width": 320
+        }
+      ],
+      "links": [
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757",
+          "rel": "http://opds-spec.org/acquisition",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/index.html",
+          "rel": "alternate",
+          "title": "Содержание выпуска",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/issue.html",
+          "rel": "toc",
+          "title": "Оглавление",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0001.html",
+          "rel": "part",
+          "title": "Page 1",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0002.html",
+          "rel": "part",
+          "title": "Page 2",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0003.html",
+          "rel": "part",
+          "title": "Page 3",
+          "type": "application/html"
+        },
+        {
+          "href": "https://storage.rusneb.ru/newspapers/10023-4559/4757/thumbnails/0004.html",
+          "rel": "part",
+          "title": "Page 4",
+          "type": "application/html"
+        }
+      ],
+      "metadata": {
+        "@id": "/resources/publication_issue/10023-4559/4757",
+        "@type": "https://schema.org/PublicationIssue",
+        "accessMode": [
+          "textual",
+          "visual"
+        ],
+        "accessModeSufficient": [
+          "textual",
+          "visual"
+        ],
+        "accessibilityFeature": [
+          "structuralNavigation"
+        ],
+        "accessibilityHazard": null,
+        "accessibilitySummary": "This publication conforms to the EPUB Accessibility specification at WCAG Level AA.",
+        "copyrightYear": "1941",
+        "identifier": "/resources/publication_issue/10023-4559/4757",
+        "inDirection": "auto",
+        "inLanguage": [
+          "ru-RU"
+        ],
+        "issn": "10023-4559",
+        "issueNumber": "2",
+        "language": "ru",
+        "modified": "2020-10-26T13:55:58.733387",
+        "name": "Красная Звезда (4757) 1941 №2",
+        "numberOfPages": 4,
+        "published": "1941-01-03",
+        "publisher": "Российская государственная библиотека (ФГБУ РГБ)",
+        "readingProgression": "ltr",
+        "rights": "\"Красная Звезда\" - content rights",
+        "title": "Красная Звезда (4757) 1941 №2",
+        "volumeNumber": "4757"
+      }
+    },
+    "source": "catalog.rusneb.ru",
+    "time_source": "2020-10-26T13:55:58.733387"
+  },
+  {
+    "key_from": "10023-4559",
+    "key_to": "10023-4559/4757",
+    "kind_from": "periodical",
+    "kind_to": "publication_issue",
+    "relation_kind": "hasPart",
+    "source_from": "catalog.rusneb.ru",
+    "source_to": "catalog.rusneb.ru",
+    "time_source": "2020-10-26T13:55:58.733387"
+  }
+]

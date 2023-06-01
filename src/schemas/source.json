@@ -1,0 +1,50 @@
+{
+  "$id": "https://catalog.rusneb.ru/schemas/source.json",
+  "$schema": "https://json-schema.org/draft/2019-09/hyper-schema",
+  "base": "https://catalog.rusneb.ru/sources/",
+  "type": "object",
+  "description": "Data source (Authority who created or corrected content of record)",
+  "properties": {
+    "code": {
+      "$ref": "#/$defs/code"
+    },
+    "time_sys": {
+      "$ref": "time-range.json"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "code",
+    "time_sys"
+  ],
+  "$defs": {
+    "code": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1023
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "sources/{code}.json",
+      "method": "GET",
+      "targetSchema": {
+        "$ref": "#"
+      },
+      "templateRequired": [
+        "code"
+      ]
+    },
+    {
+      "method": "GET",
+      "href": "sources/",
+      "rel": "instances",
+      "targetSchema": {
+        "$ref": "sources.json#"
+      }
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FixedPositions>
+	<leader>
+		<position start="05" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="07"/>
+		<position start="08" end="08"/>
+		<position start="09" end="09"/>
+		<position start="17" end="17"/>
+		<position start="18" end="18"/>
+		<position start="19" end="19"/>
+	</leader>
+
+	<controlField tag="008" typeOfRecord="bk">
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="14"/>
+		<position start="15" end="17"/>
+		<position start="18" end="21"/>
+		<position start="22" end="22"/>
+		<position start="23" end="23"/>
+		<position start="24" end="27"/>
+		<position start="28" end="28"/>
+		<position start="29" end="29"/>
+		<position start="30" end="30"/>
+		<position start="31" end="31"/>
+		<position start="32" end="32"/>
+		<position start="33" end="33"/>
+		<position start="34" end="34"/>
+		<position start="35" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+
+	<controlField tag="008" typeOfRecord="cf">
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="14"/>
+		<position start="15" end="17"/>
+		<position start="18" end="21"/>
+		<position start="22" end="22"/>
+		<position start="23" end="25"/>
+		<position start="26" end="26"/>
+		<position start="27" end="27"/>
+		<position start="28" end="28"/>
+		<position start="29" end="34"/>
+		<position start="35" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+
+	<controlField tag="008" typeOfRecord="mu">
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="14"/>
+		<position start="15" end="17"/>
+		<position start="18" end="19"/>
+		<position start="20" end="20"/>
+		<position start="21" end="21"/>
+		<position start="22" end="22"/>
+		<position start="23" end="23"/>
+		<position start="24" end="29"/>
+		<position start="30" end="31"/>
+		<position start="32" end="32"/>
+		<position start="33" end="33"/>
+		<position start="34" end="34"/>
+		<position start="35" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+
+	<controlField tag="008" typeOfRecord="mp">
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="14"/>
+		<position start="15" end="17"/>
+		<position start="18" end="21"/>
+		<position start="22" end="23"/>
+		<position start="24" end="24"/>
+		<position start="25" end="25"/>
+		<position start="26" end="27"/>
+		<position start="28" end="28"/>
+		<position start="29" end="29"/>
+		<position start="30" end="30"/>
+		<position start="31" end="31"/>
+		<position start="32" end="32"/>
+		<position start="33" end="34"/>
+		<position start="35" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+
+	<controlField tag="008" typeOfRecord="se">
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="14"/>
+		<position start="15" end="17"/>
+		<position start="18" end="18"/>
+		<position start="19" end="19"/>
+		<position start="20" end="20"/>
+		<position start="21" end="21"/>
+		<position start="22" end="22"/>
+		<position start="23" end="23"/>
+		<position start="24" end="24"/>
+		<position start="25" end="27"/>
+		<position start="28" end="28"/>
+		<position start="29" end="29"/>
+		<position start="30" end="32"/>
+		<position start="33" end="33"/>
+		<position start="34" end="34"/>
+		<position start="35" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+
+	<controlField tag="008" typeOfRecord="vm">
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="14"/>
+		<position start="15" end="17"/>
+		<position start="18" end="20"/>
+		<position start="21" end="21"/>
+		<position start="22" end="22"/>
+		<position start="23" end="27"/>
+		<position start="28" end="28"/>
+		<position start="29" end="29"/>
+		<position start="30" end="30"/>
+		<position start="31" end="31"/>
+		<position start="32" end="32"/>
+		<position start="33" end="33"/>
+		<position start="34" end="34"/>
+		<position start="35" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+
+	<controlField tag="008" typeOfRecord="mx">
+		<position start="00" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="14"/>
+		<position start="15" end="17"/>
+		<position start="18" end="22"/>
+		<position start="23" end="23"/>
+		<position start="24" end="34"/>
+		<position start="35" end="37"/>
+		<position start="38" end="38"/>
+		<position start="39" end="39"/>
+	</controlField>
+
+	<controlField tag="006" typeOfRecord="ef">
+		<position start="00" end="00"/>
+		<position start="01" end="04"/>
+		<position start="05" end="06"/>
+		<position start="07" end="07"/>
+		<position start="08" end="08"/>
+		<position start="09" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+		<position start="13" end="13"/>
+		<position start="14" end="14"/>
+		<position start="15" end="15"/>
+		<position start="16" end="17"/>
+	</controlField>
+
+	<controlField tag="006" typeOfRecord="at">
+		<position start="00" end="00"/>
+		<position start="01" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+		<position start="13" end="13"/>
+		<position start="14" end="14"/>
+		<position start="15" end="15"/>
+		<position start="16" end="16"/>
+		<position start="17" end="17"/>
+	</controlField>
+
+	<controlField tag="006" typeOfRecord="cdij">
+		<position start="00" end="00"/>
+		<position start="01" end="02"/>
+		<position start="03" end="03"/>
+		<position start="04" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="12"/>
+		<position start="13" end="14"/>
+		<position start="15" end="15"/>
+		<position start="16" end="16"/>
+		<position start="17" end="17"/>
+	</controlField>
+
+	<controlField tag="006" typeOfRecord="m">
+		<position start="00" end="00"/>
+		<position start="01" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="08"/>
+		<position start="09" end="09"/>
+		<position start="10" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="17"/>
+	</controlField>
+
+	<controlField tag="006" typeOfRecord="p">
+		<position start="00" end="00"/>
+		<position start="01" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="17"/>
+	</controlField>
+
+	<controlField tag="006" typeOfRecord="s">
+		<position start="00" end="00"/>
+		<position start="01" end="01"/>
+		<position start="02" end="02"/>
+		<position start="03" end="03"/>
+		<position start="04" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="07"/>
+		<position start="08" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+		<position start="13" end="15"/>
+		<position start="16" end="16"/>
+		<position start="17" end="17"/>
+	</controlField>
+
+	<controlField tag="006" typeOfRecord="gkor">
+
+		<position start="00" end="00"/>
+		<position start="01" end="03"/>
+		<position start="04" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+		<position start="13" end="15"/>
+		<position start="16" end="16"/>
+		<position start="17" end="17"/>
+	</controlField>
+
+	<controlField tag="007" typeOfRecord="h">
+		<position start="00" end="00"/>
+		<position start="01" end="01"/>
+		<position start="02" end="02"/>
+		<position start="03" end="03"/>
+		<position start="04" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="08"/>
+		<position start="09" end="09"/>
+		<position start="10" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+	</controlField>
+
+	<controlField tag="007" typeOfRecord="c">
+		<position start="00" end="00"/>
+		<position start="01" end="01"/>
+		<position start="02" end="02"/>
+		<position start="03" end="03"/>
+		<position start="04" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="08"/>
+		<position start="09" end="09"/>
+		<position start="10" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+		<position start="13" end="13"/>
+	</controlField>
+
+	<controlField tag="007" typeOfRecord="m">
+		<position start="00" end="00"/>
+		<position start="01" end="01"/>
+		<position start="02" end="02"/>
+		<position start="03" end="03"/>
+		<position start="04" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="07"/>
+		<position start="08" end="08"/>
+		<position start="09" end="09"/>
+		<position start="10" end="10"/>
+		<position start="11" end="11"/>
+		<position start="12" end="12"/>
+		<position start="13" end="13"/>
+		<position start="14" end="14"/>
+		<position start="15" end="15"/>
+		<position start="16" end="16"/>
+		<position start="17" end="22"/>
+	</controlField>
+
+	<controlField tag="007" typeOfRecord="r">
+		<position start="00" end="00"/>
+		<position start="01" end="01"/>
+		<position start="02" end="02"/>
+		<position start="03" end="03"/>
+		<position start="04" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="06"/>
+		<position start="07" end="07"/>
+		<position start="08" end="08"/>
+		<position start="09" end="10"/>
+	</controlField>
+
+	<controlField tag="007" typeOfRecord="f">
+		<position start="00" end="00"/>
+		<position start="01" end="01"/>
+		<position start="02" end="02"/>
+		<position start="03" end="04"/>
+		<position start="05" end="05"/>
+		<position start="06" end="08"/>
+		<position start="09" end="09"/>
+	</controlField>
+</FixedPositions>
+<!-- Stylus Studio meta-information - (c)1998-2003 eXcelon Corp.
+<metaInformation>
+<scenarios ><scenario default="yes" name="Scenario2" userelativepaths="yes" externalpreview="no" url="..\xml\MARC21slim\modsrecs.xml" htmlbaseurl="" outputurl="" processortype="xalan" commandline="" additionalpath="" additionalclasspath="" postprocessortype="none" postprocesscommandline="" postprocessadditionalpath="" postprocessgeneratedext=""/></scenarios><MapperInfo srcSchemaPath="" srcSchemaRoot="" srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no"/>
+</metaInformation>
+-->

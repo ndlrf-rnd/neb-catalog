@@ -1,0 +1,45 @@
+(
+  $typeToMediaType := function($type) {
+    $lookup(
+      {
+        '0':  'application/epub+zip',
+        '1':  'audio/mpeg',
+        '4':  'application/pdf',
+        '11': 'application/vnd.adobe.adept+xml'
+      },
+      $type ? $type : undefined
+    )
+  };
+
+  $typeToKind := function($type) {
+    $lookup(
+      {
+        '0':  'instance',
+        '1':  'audio',
+        '4':  'instance',
+        '11': 'instance'
+      },
+      $type ? $type : undefined
+    )
+  };
+  $record := $.record;
+  $.$append(
+    $.**."updated-book".{
+        "kind": $typeToKind($._attributes.type),
+        "source": "litres.ru",
+        "key": $._attributes.id,
+        /*
+          $fromMillis($toMillis($replace($._attributes.valid_from, ' ', 'T')))
+          $fromMillis($toMillis($replace($._attributes.valid_till, ' ', 'T')))
+        */
+        "time_source": $fromMillis($toMillis($replace($._attributes.updated, ' ', 'T'))),
+        "record": $record
+    },
+    $.**."removed-book".{
+      "kind": "instance",
+      "source": "litres.ru",
+      "key": $._attributes.id,
+      "time_source": $fromMillis($toMillis($replace($._attributes.removed, ' ', 'T')))
+    }
+  )
+)
